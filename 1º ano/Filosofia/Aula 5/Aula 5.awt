@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>2593</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="166" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="167" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="450" resourcetype="image">
+<name>Imagem 3.bmp</name>
+<relativelink>images\Imagem 3.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="953" resourcetype="image">
+<name>PNG.105.png</name>
+<relativelink>images\PNG.105.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1308" resourcetype="image">
+<name>PNG.106.png</name>
+<relativelink>images\PNG.106.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1396" resourcetype="image">
+<name>image0071.emf</name>
+<relativelink>images\image0071.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1397" resourcetype="image">
+<name>image0061.png</name>
+<relativelink>images\image0061.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="2585" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="2586" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="76">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 3</name>
+<lastupdated>1687283789</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="75" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="76" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="70" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="68" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="69" parent="68" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="62" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="63" parent="62" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="54" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="55" parent="54" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="56" parent="54" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="54" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="54">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1687283789</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="2570" parent="40">
+<name>Página 1</name>
+<lastupdated>1689692102</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="2571" parent="2570">
+<name>Grupo_1</name>
+<lastupdated>1689692098</lastupdated>
+<image id="2573" parent="2571" resource="2585" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689692098</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2575" parent="2571" resource="2586" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689692098</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="2576" parent="2571" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689692107</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2576Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text2576Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2576Font1&quot;  &gt;Aula 5&lt;/span &gt;&lt;span class=&quot;text2576Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 5\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 5</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="2578" parent="2571" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689692098</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2580" parent="2571" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689692098</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2582" parent="2571" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689692098</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="2584" parent="2571" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689692098</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="152" parent="40">
+<name>Página 2</name>
+<lastupdated>1687283152</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="221" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687283152</lastupdated>
+<possize>
+<point>
+<x>514</x>
+<y>101</y>
+</point>
+<size>
+<cx>472</cx>
+<cy>541</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text221Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text221Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#000000;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot;  &gt;Para SÃ³crates a essÃªncia do homem Ã© a sua psychÃ©, isto significa, sua alma. Vale destacar, que o filÃ³sofo compreendia por alma a personalidade intelectual e moral de um indivÃ­duo. Por essa razÃ£o, SÃ³crates expÃµe a seguinte mÃ¡xima: &quot;Conhece-te a ti mesmo&quot;. Mergulhe para dentro de sua alma, conheÃ§a seus anseios, desejos, limitaÃ§Ãµes, sua ignorÃ¢ncia sobre muitos assuntos. ApÃ³s conhecer a si mesmo, Ã© preciso, segundo o filÃ³sofo, se aprimorar intelectual e moralmente por meio da prÃ¡tica da virtude. NÃ£o basta conhecer a justiÃ§a, temos que praticar a justiÃ§a. Sendo assim, a filosofia socrÃ¡tica vincula a necessidade da coerÃªncia entre o pensamento e a aÃ§Ã£o.A maneira como SÃ³crates ensinava as pessoas era pelo mÃ©todo do diÃ¡logo. O diÃ¡logo socrÃ¡tico tinha dois momentos, primeiro, atravÃ©s de perguntas irÃ´nicas SÃ³crates levava seu interlocutor a se questionar se de fato ele tinha conhecimento profundo daquilo que estava falando. Constrangido por nÃ£o conseguir responder as perguntas irÃ´nicas de SÃ³crates, seu interlocutor reconhecia sua ignorÃ¢ncia sobre o assunto, por mais que fosse considerado uma autoridade naquela Ã¡rea. Depois desse momento inicial do diÃ¡logo,&lt;/span &gt;&lt;span class=&quot;text221Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Para S\u243 \&apos;f3crates a ess\u234 \&apos;eancia do homem \u233 \&apos;e9 a sua psych\u233 \&apos;e9, isto significa, sua alma. Vale destacar, que o fil\u243 \&apos;f3sofo compreendia por alma a personalidade intelectual &#x0A;e moral de um indiv\u237 \&apos;edduo. Por essa raz\u227 \&apos;e3o, S\u243 \&apos;f3crates exp\u245 \&apos;f5e a seguinte m\u225 \&apos;e1xima: &quot;Conhece-te a ti mesmo&quot;. Mergulhe para dentro de sua alma, conhe\u231 \&apos;e7a seus anseios, desejos, limita\u231 \&apos;e7\u245 \&apos;f5es, sua &#x0A;ignor\u226 \&apos;e2ncia sobre muitos assuntos. Ap\u243 \&apos;f3s conhecer a si mesmo, \u233 \&apos;e9 preciso, segundo o fil\u243 \&apos;f3sofo, se aprimorar intelectual e moralmente por meio da pr\u225 \&apos;e1tica da virtude. N\u227 \&apos;e3o basta conhecer a justi\u231 \&apos;e7a, &#x0A;temos que praticar a justi\u231 \&apos;e7a. Sendo assim, a filosofia socr\u225 \&apos;e1tica vincula a necessidade da coer\u234 \&apos;eancia entre o pensamento e a a\u231 \&apos;e7\u227 \&apos;e3o.A maneira como S\&apos;f3crates ensinava as pessoas era pelo m\&apos;e9todo do di\&apos;e1logo. &#x0A;O di\&apos;e1logo socr\&apos;e1tico tinha dois momentos, primeiro, atrav\&apos;e9s de perguntas ir\&apos;f4nicas S\&apos;f3crates levava seu interlocutor a se questionar se de fato ele tinha conhecimento profundo daquilo que estava falando. Constrangido por n\&apos;e3o conseguir responder &#x0A;as perguntas ir\&apos;f4nicas de S\&apos;f3crates, seu interlocutor reconhecia sua ignor\&apos;e2ncia sobre o assunto, por mais que fosse considerado uma autoridade naquela \&apos;e1rea. Depois desse momento inicial do di\&apos;e1logo,\hich\f1\loch\f1\cf3\par\pard\s0\qj\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Para S�crates a ess�ncia do homem � a sua psych�, isto significa, sua alma. Vale destacar, que o fil�sofo compreendia por alma a personalidade intelectual e moral de um indiv�duo. Por essa raz�o, S�crates exp�e a seguinte m�xima: &quot;Conhece-te a ti mesmo&quot;. Mergulhe para dentro de sua alma, conhe�a seus anseios, desejos, limita��es, sua ignor�ncia sobre muitos assuntos. Ap�s conhecer a si mesmo, � preciso, segundo o fil�sofo, se aprimorar intelectual e moralmente por meio da pr�tica da virtude. N�o basta conhecer a justi�a, temos que praticar a justi�a. Sendo assim, a filosofia socr�tica vincula a necessidade da coer�ncia entre o pensamento e a a��o.A maneira como S�crates ensinava as pessoas era pelo m�todo do di�logo. O di�logo socr�tico tinha dois momentos, primeiro, atrav�s de perguntas ir�nicas S�crates levava seu interlocutor a se questionar se de fato ele tinha conhecimento profundo daquilo que estava falando. Constrangido por n�o conseguir responder as perguntas ir�nicas de S�crates, seu interlocutor reconhecia sua ignor�ncia sobre o assunto, por mais que fosse considerado uma autoridade naquela �rea. Depois desse momento inicial do di�logo,&#x0A;</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="191" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687283087</lastupdated>
+<possize>
+<point>
+<x>18</x>
+<y>149</y>
+</point>
+<size>
+<cx>474</cx>
+<cy>472</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text191Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text191Font2 { font-size:13px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text191Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text191Font4 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text191Font5 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text191Font6 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot;  &gt;IntroduÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text191Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font3&quot;  &gt;O perÃ­odo SocrÃ¡tico se estende do sÃ©culo V a.C. ao sÃ©culo IV a. C. e tem como seus representantes os principais filÃ³sofos da antiguidade: SÃ³crates, PlatÃ£o e AristÃ³teles. Nesse perÃ­odo haverÃ¡ uma importante mudanÃ§a no foco das investigaÃ§Ãµes filosÃ³ficas. Se os prÃ©-socrÃ¡ticos focaram no estudo da cosmologia, isto Ã©, da explicaÃ§Ã£o da origem e funcionamento do universo, os socrÃ¡ticos focaram suas reflexÃµes na compreensÃ£o da natureza humana, ou seja, no estudo da antropologia. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot;  &gt;SÃ³crates&lt;/span &gt;&lt;span class=&quot;text191Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.164&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:0.850;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font6&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font3&quot;  &gt;SÃ³crates (470 a.C. â€“ 399 a.C.) foi o grande filÃ³sofo da antiguidade e seus ensinamentos serviram de inspiraÃ§Ã£o para outros filÃ³sofos na histÃ³ria da filosofia. NÃ£o deixou obras escritas. Tudo o que sabemos sobre ele advÃ©m dos relatos de seu principal discÃ­pulo, PlatÃ£o. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\b Introdu\&apos;e7\&apos;e3o\fs20\par\fs28\b0\par O per\&apos;edodo Socr\&apos;e1tico se estende do s\&apos;e9culo V a.C. ao s\&apos;e9culo IV a. C. e tem como seus representantes os principais fil\&apos;f3sofos da antiguidade: S\&apos;f3crates, &#x0A;Plat\&apos;e3o e Arist\&apos;f3teles. Nesse per\&apos;edodo haver\&apos;e1 uma importante mudan\&apos;e7a no foco das investiga\&apos;e7\&apos;f5es filos\&apos;f3ficas. Se os pr\&apos;e9-socr\&apos;e1ticos focaram no estudo da cosmologia, isto \&apos;e9, da explica\&apos;e7\&apos;e3o da origem e funcionamento do universo, &#x0A;os socr\&apos;e1ticos focaram suas reflex\&apos;f5es na compreens\&apos;e3o da natureza humana, ou seja, no estudo da antropologia. \lang1046\hich\f2\loch\f2\par\fs36\par\lang1046\hich\f2\loch\f2\b S\&apos;f3crates\fs24\par\fs18\b0\par\fs28 S\u243 \&apos;f3crates (470 a.C. \u8211 &#x0A;\&apos;96 399 a.C.) foi o grande fil\u243 \&apos;f3sofo da antiguidade e seus ensinamentos serviram de inspira\u231 \&apos;e7\u227 \&apos;e3o para outros fil\u243 \&apos;f3sofos na hist\u243 \&apos;f3ria da filosofia. N\u227 \&apos;e3o deixou obras escritas. Tudo o que sabemos sobre ele &#x0A;adv\u233 \&apos;e9m dos relatos de seu principal disc\u237 \&apos;edpulo, Plat\u227 \&apos;e3o. \par}&#x0A;</rtf>
+<raw>?Introdu��o&#x0A;&#x0A;O per�odo Socr�tico se estende do s�culo V a.C. ao s�culo IV a. C. e tem como seus representantes os principais fil�sofos da antiguidade: S�crates, Plat�o e Arist�teles. Nesse per�odo haver� uma importante mudan�a no foco das investiga��es filos�ficas. Se os pr�-socr�ticos focaram no estudo da cosmologia, isto �, da explica��o da origem e funcionamento do universo, os socr�ticos focaram suas reflex�es na compreens�o da natureza humana, ou seja, no estudo da antropologia. &#x0A;&#x0A;S�crates&#x0A;&#x0A;S�crates (470 a.C. � 399 a.C.) foi o grande fil�sofo da antiguidade e seus ensinamentos serviram de inspira��o para outros fil�sofos na hist�ria da filosofia. N�o deixou obras escritas. Tudo o que sabemos sobre ele adv�m dos relatos de seu principal disc�pulo, Plat�o. </raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="165" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="163" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="161" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="159" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687282842</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text159Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text159Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#29b9a2; font-weight:bold;}&#x0A;span.text159Font3 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text159Font1&quot;  &gt;PrÃ©-&lt;/span &gt;&lt;span class=&quot;text159Font2&quot;  &gt;SocrÃ¡ticos&lt;/span &gt;&lt;span class=&quot;text159Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Pr\&apos;e9-\cf3 Socr\&apos;e1ticos\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Pr�-Socr�ticos</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="158" parent="152" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="156" parent="152" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="333" parent="40">
+<name>Página 3</name>
+<lastupdated>1687283247</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="2189" parent="333" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687283247</lastupdated>
+<possize>
+<point>
+<x>510</x>
+<y>96</y>
+</point>
+<size>
+<cx>483</cx>
+<cy>505</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2189Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text2189Font3 { font-size:13px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text2189Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text2189Font7 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2189Font2&quot;  &gt;PlatÃ£o&lt;/span &gt;&lt;span class=&quot;text2189Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.156&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2189Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2189Font4&quot;  &gt;PlatÃ£o (348 a.C. â€“ 347 a.C.) foi o principal discÃ­pulo de SÃ³crates e apreciava muito os ensinamentos de seu mestre. PlatÃ£o acreditava que de fato o que o homem era e fazia estava vinculado Ã  sua alma. Pensando na vida polÃ­tica da pÃ³lis, a cidade grega, PlatÃ£o quer propor a cidade perfeita, denominada como Kallipolis (cidade bela), onde todos vivem de modo harmÃ´nico e virtuoso. Para se alcanÃ§ar tal feito, Ã© necessÃ¡rio educar os cidadÃ£os para a prÃ¡tica da virtude e para que cada um faÃ§a aquilo que nasceu para fazer, aquilo que estÃ¡ em sua essÃªncia. Sendo assim, cada pessoa deve ser educada conforme a qualidade de sua alma. Para PlatÃ£o existe a alma de ouro, denominada como intelectÃ­vel, pertencente aos governantes e filÃ³sofos porque ela viabilizava a reflexÃ£o; alma de prata, denominada como irascÃ­vel, pertencente aos soldados porque fornecia a eles coragem; e a alma de bronze, denominada como apetitiva, pertencente aos artesÃ£os porque viabilizada temperanÃ§a e equilÃ­brio para eles realizarem seus trabalhos.&lt;/span &gt;&lt;span class=&quot;text2189Font7&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\b Plat\&apos;e3o\fs20\b0\par\par\fs28 Plat\u227 \&apos;e3o (348 a.C. \u8211 \&apos;96 347 a.C.) foi o principal disc\u237 \&apos;edpulo de S\u243 \&apos;f3crates e apreciava muito os ensinamentos de seu mestre. Plat\u227 &#x0A;\&apos;e3o acreditava que de fato o que o homem era e fazia estava vinculado \u224 \&apos;e0 sua alma. Pensando na vida pol\u237 \&apos;edtica da p\u243 \&apos;f3lis, a cidade grega, Plat\u227 \&apos;e3o quer propor a cidade perfeita, denominada como Kallipolis (cidade bela), &#x0A;onde todos vivem de modo harm\u244 \&apos;f4nico e virtuoso. Para se alcan\u231 \&apos;e7ar tal feito, \u233 \&apos;e9 necess\u225 \&apos;e1rio educar os cidad\u227 \&apos;e3os para a pr\u225 \&apos;e1tica da virtude e para que cada um fa\u231 \&apos;e7a aquilo que nasceu para fazer, aquilo &#x0A;que est\u225 \&apos;e1 em sua ess\u234 \&apos;eancia. Sendo assim, cada pessoa deve ser educada conforme a qualidade de sua alma. Para Plat\u227 \&apos;e3o existe a alma de ouro, denominada como intelect\u237 \&apos;edvel, pertencente aos governantes e fil\u243 \&apos;f3sofos &#x0A;porque ela viabilizava a reflex\u227 \&apos;e3o; alma de prata, denominada como irasc\u237 \&apos;edvel, pertencente aos soldados porque fornecia a eles coragem; e a alma de bronze, denominada como apetitiva, pertencente aos artes\u227 \&apos;e3os porque viabilizada &#x0A;temperan\u231 \&apos;e7a e equil\&apos;edbrio para eles realizarem seus trabalhos.\fs18\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs18\par}&#x0A;</rtf>
+<raw>?Plat?o&#x0A;Plat?o (348 a.C. ? 347 a.C.) foi o principal disc?pulo de S?crates e apreciava muito os ensinamentos de seu mestre. Plat?o acreditava que de fato o que o homem era e fazia estava vinculado ? sua alma. Pensando na vida pol?tica da p?lis, a cidade grega, Plat?o quer propor a cidade perfeita, denominada como Kallipolis (cidade bela), onde todos vivem de modo harm?nico e virtuoso. Para se alcan?ar tal feito, ? necess?rio educar os cidad?os para a pr?tica da virtude e para que cada um fa?a aquilo que nasceu para fazer, aquilo que est? em sua ess?ncia. Sendo assim, cada pessoa deve ser educada conforme a qualidade de sua alma. Para Plat?o existe a alma de ouro, denominada como intelect?vel, pertencente aos governantes e fil?sofos porque ela viabilizava a reflex?o; alma de prata, denominada como irasc?vel, pertencente aos soldados porque fornecia a eles coragem; e a alma de bronze, denominada como apetitiva, pertencente aos artes?os porque viabilizada temperan?a e equil?brio para eles realizarem seus trabalhos.&#x0A;</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="352" parent="333" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687283195</lastupdated>
+<possize>
+<point>
+<x>21</x>
+<y>119</y>
+</point>
+<size>
+<cx>467</cx>
+<cy>487</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text352Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text352Font4 { font-size:13px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text352Font2&quot;  &gt;SÃ³crates propÃµe a maiÃªutica, isto Ã©, o &quot;parto de ideias&quot;. ApÃ³s uma extensa reflexÃ£o sobre os assuntos, refutaÃ§Ã£o dos erros e constataÃ§Ã£o das verdades, segundo o filÃ³sofo, poderÃ­amos &quot;fazer nascer&quot; ideias e pensamentos verdadeiros, fortemente embasados na razÃ£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text352Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text352Font2&quot;  &gt;Devido aos seus ensinamentos, por questionar tudo e todos, SÃ³crates atraiu para si o odeio de alguns polÃ­ticos e de sofistas, filÃ³sofos cujos trabalhos consistiam em ensinar, sobretudo polÃ­ticos, a vencerem debates pÃºblicos e a conquistarem poder por meio do discurso. Em troca, esses sofistas ganhavam dinheiro pelos seus serviÃ§os prestados. SÃ³crates reprovava tal conduta. Enfim, devido a esse conflito, forjaram uma condenaÃ§Ã£o para SÃ³crates, alegando que ele era impiedoso, isto significa, nÃ£o respeitava os deuses, e tambÃ©m era imoral, corrompia a juventude. Em razÃ£o da injustiÃ§a de seus opositores, SÃ³crates, foi obrigado a tomar cicuta, um veneno poderoso, e morreu como homem, mas seus ensinamentos permaneceram vivos e ressoam pelos tempos.&lt;/span &gt;&lt;span class=&quot;text352Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 S\u243 \&apos;f3crates prop\u245 \&apos;f5e a mai\u234 \&apos;eautica, isto \u233 \&apos;e9, o &quot;parto de ideias&quot;. Ap\u243 \&apos;f3s uma extensa reflex\u227 \&apos;e3o sobre os assuntos, refuta\u231 \&apos;e7\u227 \&apos;e3o dos erros &#x0A;e constata\u231 \&apos;e7\u227 \&apos;e3o das verdades, segundo o fil\u243 \&apos;f3sofo, poder\u237 \&apos;edamos &quot;fazer nascer&quot; ideias e pensamentos verdadeiros, fortemente embasados na raz\u227 \&apos;e3o.\par\par Devido aos seus ensinamentos, por questionar tudo e todos, &#x0A;S\&apos;f3crates atraiu para si o odeio de alguns pol\&apos;edticos e de sofistas, fil\&apos;f3sofos cujos trabalhos consistiam em ensinar, sobretudo pol\&apos;edticos, a vencerem debates p\&apos;fablicos e a conquistarem poder por meio do discurso. Em troca, esses sofistas ganhavam &#x0A;dinheiro pelos seus servi\&apos;e7os prestados. S\&apos;f3crates reprovava tal conduta. Enfim, devido a esse conflito, forjaram uma condena\&apos;e7\&apos;e3o para S\&apos;f3crates, alegando que ele era impiedoso, isto significa, n\&apos;e3o respeitava os deuses, e tamb\&apos;e9m era imoral, &#x0A;corrompia a juventude. Em raz\&apos;e3o da injusti\&apos;e7a de seus opositores, S\&apos;f3crates, foi obrigado a tomar cicuta, um veneno poderoso, e morreu como homem, mas seus ensinamentos permaneceram vivos e ressoam pelos tempos.\fs20\par}&#x0A;</rtf>
+<raw>?S?crates prop?e a mai?utica, isto ?, o &quot;parto de ideias&quot;. Ap?s uma extensa reflex?o sobre os assuntos, refuta??o dos erros e constata??o das verdades, segundo o fil?sofo, poder?amos &quot;fazer nascer&quot; ideias e pensamentos verdadeiros, fortemente embasados na raz?o.&#x0A;Devido aos seus ensinamentos, por questionar tudo e todos, S?crates atraiu para si o odeio de alguns pol?ticos e de sofistas, fil?sofos cujos trabalhos consistiam em ensinar, sobretudo pol?ticos, a vencerem debates p?blicos e a conquistarem poder por meio do discurso. Em troca, esses sofistas ganhavam dinheiro pelos seus servi?os prestados. S?crates reprovava tal conduta. Enfim, devido a esse conflito, forjaram uma condena??o para S?crates, alegando que ele era impiedoso, isto significa, n?o respeitava os deuses, e tamb?m era imoral, corrompia a juventude. Em raz?o da injusti?a de seus opositores, S?crates, foi obrigado a tomar cicuta, um veneno poderoso, e morreu como homem, mas seus ensinamentos permaneceram vivos e ressoam pelos tempos.</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="611" parent="333">
+<name>Grupo_1</name>
+<lastupdated>1687282846</lastupdated>
+<shape id="349" parent="611" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="347" parent="611" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="345" parent="611" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="343" parent="611" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687282846</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text343Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text343Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#29b9a2; font-weight:bold;}&#x0A;span.text343Font3 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text343Font1&quot;  &gt;PrÃ©-&lt;/span &gt;&lt;span class=&quot;text343Font2&quot;  &gt;SocrÃ¡ticos&lt;/span &gt;&lt;span class=&quot;text343Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Pr\&apos;e9-\cf3 Socr\&apos;e1ticos\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Pr?-Socr?ticos</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="342" parent="611" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="340" parent="611" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="2228" parent="40">
+<name>Página 4</name>
+<lastupdated>1687283589</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="2229" parent="2228" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687283571</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>106</y>
+</point>
+<size>
+<cx>483</cx>
+<cy>439</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2229Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text2229Font3 { font-size:13px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text2229Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2229Font2&quot;  &gt;AristÃ³teles&lt;/span &gt;&lt;span class=&quot;text2229Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2229Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2229Font4&quot;  &gt;AristÃ³teles (384 a.C. â€“ 322 a.C.) foi discÃ­pulo de PlatÃ£o e discordava de muitas ideias de seu mestre. Para o filÃ³sofo, tudo quanto existe possui substÃ¢ncia, ou seja, Ã© formado pela junÃ§Ã£o de forma e matÃ©ria. Por exemplo, uma escultura (substÃ¢ncia) Ã© feita de mÃ¡rmore (matÃ©ria) e esculpida por um escultor, ou seja, ganhou uma (forma). Essa teoria de AristÃ³teles de que tudo Ã© composto por forma e matÃ©ria Ã© conhecida como hilemorfismo. Importante ressaltar que enquanto PlatÃ£o concebia a realidade dividida entre o mundo da matÃ©ria e o mundo das ideias (onde estÃ£o as formas), para AristÃ³teles tudo o que estÃ¡ no mundo se explica pelo prÃ³prio mundo. Dessa maneira, a forma e a matÃ©ria estÃ£o no mundo material. Devido a essa diferenÃ§a entre PlatÃ£o e AristÃ³teles, PlatÃ£o Ã© considerado um pensador dualista e AristÃ³teles um pensador materialis.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\b Arist\&apos;f3teles\fs20\b0\par\fs28\par Arist\u243 \&apos;f3teles (384 a.C. \u8211 \&apos;96 322 a.C.) foi disc\u237 \&apos;edpulo de Plat\u227 \&apos;e3o e discordava de muitas ideias de seu mestre. Para o fil\u243 \&apos;f3sofo, &#x0A;tudo quanto existe possui subst\u226 \&apos;e2ncia, ou seja, \u233 \&apos;e9 formado pela jun\u231 \&apos;e7\u227 \&apos;e3o de forma e mat\u233 \&apos;e9ria. Por exemplo, uma escultura (subst\u226 \&apos;e2ncia) \u233 \&apos;e9 feita de m\u225 \&apos;e1rmore (mat\u233 \&apos;e9ria) e esculpida &#x0A;por um escultor, ou seja, ganhou uma (forma). Essa teoria de Arist\u243 \&apos;f3teles de que tudo \u233 \&apos;e9 composto por forma e mat\u233 \&apos;e9ria \u233 \&apos;e9 conhecida como hilemorfismo. Importante ressaltar que enquanto Plat\u227 \&apos;e3o concebia a realidade &#x0A;dividida entre o mundo da mat\u233 \&apos;e9ria e o mundo das ideias (onde est\u227 \&apos;e3o as formas), para Arist\u243 \&apos;f3teles tudo o que est\&apos;e1 no mundo se explica pelo pr\&apos;f3prio mundo. Dessa maneira, a forma e a mat\&apos;e9ria est\&apos;e3o no mundo material. &#x0A;Devido a essa diferen\&apos;e7a entre Plat\&apos;e3o e Arist\&apos;f3teles, Plat\&apos;e3o \&apos;e9 considerado um pensador dualista e Arist\&apos;f3teles um pensador materialis\lang1046\hich\f2\loch\f2 .\lang1046\hich\f2\loch\f2\par\par\fs18\par\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Arist?teles&#x0A;Arist?teles (384 a.C. ? 322 a.C.) foi disc?pulo de Plat?o e discordava de muitas ideias de seu mestre. Para o fil?sofo, tudo quanto existe possui subst?ncia, ou seja, ? formado pela jun??o de forma e mat?ria. Por exemplo, uma escultura (subst?ncia) ? feita de m?rmore (mat?ria) e esculpida por um escultor, ou seja, ganhou uma (forma). Essa teoria de Arist?teles de que tudo ? composto por forma e mat?ria ? conhecida como hilemorfismo. Importante ressaltar que enquanto Plat?o concebia a realidade dividida entre o mundo da mat?ria e o mundo das ideias (onde est?o as formas), para Arist?teles tudo o que est? no mundo se explica pelo pr?prio mundo. Dessa maneira, a forma e a mat?ria est?o no mundo material. Devido a essa diferen?a entre Plat?o e Arist?teles, Plat?o ? considerado um pensador dualista e Arist?teles um pensador materialis.&#x0D;&#x0A;</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="2230" parent="2228" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687283359</lastupdated>
+<possize>
+<point>
+<x>22</x>
+<y>129</y>
+</point>
+<size>
+<cx>473</cx>
+<cy>494</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2230Font1 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;span.text2230Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2230Font2&quot;  &gt;Apesar de o foco da filosofia socrÃ¡tica se concentrar no ser humano, PlatÃ£o dedicou boa parte de sua obra para compreender a realidade. Para o filÃ³sofo, a realidade Ã© formada por dois mundos. O mundo sensÃ­vel, que nos acessamos com os nossos sentidos. Ã‰ o mundo material onde habitamos com nossos corpos. HÃ¡ tambÃ©m o mundo inteligÃ­vel, onde estÃ£o as ideias, os conceitos. SÃ³ podemos acessar esse mundo por meio da razÃ£o. Segundo PlatÃ£o, precisamos nos esforÃ§ar para Ã£o ficarmos apenas presos ao mundo da matÃ©ria (sensÃ­vel), satisfazendo nossos prazeres e apetites. Nesse mundo tudo Ã© passageiro, ilusÃ³rio e perecÃ­vel. Temos que acessar o mundo das ideias, para conhecer a virtude, a beleza, a justiÃ§a e a verdade, pois essas sÃ£o eternas, fixas e imutÃ¡veis. Surge entÃ£o um questionamento de como a razÃ£o consegue chegar ao mundo das ideias. Como ela consegue assimilar, aprender essas ideias e conceitos. Para PlatÃ£o esse processo se dÃ¡ por reminiscÃªncia, isto Ã©, recordaÃ§Ã£o. Segundo o filÃ³sofo, a nossa razÃ£o jÃ¡ conhece tudo, porÃ©m ela sofreu uma amnÃ©sia (esquecimento), por isso, precisa relembrar aquilo que ela jÃ¡ sabe por meio da reflexÃ£o.&lt;/span &gt;&lt;span class=&quot;text2230Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Apesar de o foco da filosofia socr\&apos;e1tica se concentrar no ser humano, Plat\&apos;e3o dedicou boa parte de sua obra para compreender a realidade. Para o fil\&apos;f3sofo, a realidade \&apos;e9 formada por dois &#x0A;mundos. O mundo sens\&apos;edvel, que nos acessamos com os nossos sentidos. \&apos;c9 o mundo material onde habitamos com nossos corpos. H\&apos;e1 tamb\&apos;e9m o mundo intelig\&apos;edvel, onde est\&apos;e3o as ideias, os conceitos. S\&apos;f3 podemos acessar esse mundo por meio da &#x0A;raz\&apos;e3o. Segundo Plat\&apos;e3o, precisamos nos esfor\&apos;e7ar para \&apos;e3o ficarmos apenas presos ao mundo da mat\&apos;e9ria (sens\&apos;edvel), satisfazendo nossos prazeres e apetites. Nesse mundo tudo \&apos;e9 passageiro, ilus\&apos;f3rio e perec\&apos;edvel. Temos que acessar o &#x0A;mundo das ideias, para conhecer a virtude, a beleza, a justi\&apos;e7a e a verdade, pois essas s\&apos;e3o eternas, fixas e imut\&apos;e1veis. Surge ent\&apos;e3o um questionamento de como a raz\&apos;e3o consegue chegar ao mundo das ideias. Como ela consegue assimilar, aprender &#x0A;essas ideias e conceitos. Para Plat\&apos;e3o esse processo se d\&apos;e1 por reminisc\&apos;eancia, isto \&apos;e9, recorda\&apos;e7\&apos;e3o. Segundo o fil\&apos;f3sofo, a nossa raz\&apos;e3o j\&apos;e1 conhece tudo, por\&apos;e9m ela sofreu uma amn\&apos;e9sia (esquecimento), por isso, precisa relembrar &#x0A;aquilo que ela j\&apos;e1 sabe por meio da reflex\&apos;e3o.\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Apesar de o foco da filosofia socr?tica se concentrar no ser humano, Plat?o dedicou boa parte de sua obra para compreender a realidade. Para o fil?sofo, a realidade ? formada por dois mundos. O mundo sens?vel, que nos acessamos com os nossos sentidos. ? o mundo material onde habitamos com nossos corpos. H? tamb?m o mundo intelig?vel, onde est?o as ideias, os conceitos. S? podemos acessar esse mundo por meio da raz?o. Segundo Plat?o, precisamos nos esfor?ar para ?o ficarmos apenas presos ao mundo da mat?ria (sens?vel), satisfazendo nossos prazeres e apetites. Nesse mundo tudo ? passageiro, ilus?rio e perec?vel. Temos que acessar o mundo das ideias, para conhecer a virtude, a beleza, a justi?a e a verdade, pois essas s?o eternas, fixas e imut?veis. Surge ent?o um questionamento de como a raz?o consegue chegar ao mundo das ideias. Como ela consegue assimilar, aprender essas ideias e conceitos. Para Plat?o esse processo se d? por reminisc?ncia, isto ?, recorda??o. Segundo o fil?sofo, a nossa raz?o j? conhece tudo, por?m ela sofreu uma amn?sia (esquecimento), por isso, precisa relembrar aquilo que ela j? sabe por meio da reflex?o.</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="2231" parent="2228">
+<name>Grupo_1</name>
+<lastupdated>1687282850</lastupdated>
+<shape id="2233" parent="2231" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2235" parent="2231" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="2237" parent="2231" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="2238" parent="2231" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687282850</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2238Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text2238Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#29b9a2; font-weight:bold;}&#x0A;span.text2238Font3 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2238Font1&quot;  &gt;PrÃ©-&lt;/span &gt;&lt;span class=&quot;text2238Font2&quot;  &gt;SocrÃ¡ticos&lt;/span &gt;&lt;span class=&quot;text2238Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Pr\&apos;e9-\cf3 Socr\&apos;e1ticos\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Pr?-Socr?ticos</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="2240" parent="2231" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2242" parent="2231" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="2507" parent="40">
+<name>Página 5</name>
+<lastupdated>1687283789</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="2508" parent="2507" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687283789</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>106</y>
+</point>
+<size>
+<cx>483</cx>
+<cy>530</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2508Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text2508Font3 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text2508Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2508Font2&quot;  &gt;Podemos entÃ£o nos perguntar: o que seria a virtude? Como viver de forma virtuosa? AristÃ³teles explica que a virtude se encontra na mediania, isto Ã©, na justa medida (mediania) de uma aÃ§Ã£o. Ã‰ ficar entre uma falta e um excesso. Por exemplo, a dose de um remÃ©dio se for pouca (falta) nÃ£o farÃ¡ efeito para o paciente. Se ela for dada em excesso pode intoxicÃ¡-lo. Sendo assim, a medicaÃ§Ã£o deve ser aplicada na medida exata. Mas a medicaÃ§Ã£o exata nÃ£o varia conforme o paciente? Sim, e assim Ã© a justa medida (mediania) de AristÃ³teles: depende de cada situaÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.164&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:0.850;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2508Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2508Font2&quot;  &gt;Por fim, para concluir uma introduÃ§Ã£o ao pensamento de AristÃ³teles, vale destacar sua contribuiÃ§Ã£o para o campo da lÃ³gica, a qual estuda a coerÃªncia e a estrutura de um discurso. AristÃ³teles Ã© considerado um filÃ³sofo que organizava muito bem seu pensamento. Ele se preocupava,ao expressar uma ideia, que ela possuÃ­sse nexo, ou seja, um comeÃ§o, meio e fim. Vejamos a seguir uma estrutura argumentativa desenvolvida por AristÃ³teles, denominada como silogismo. &lt;/span &gt;&lt;span class=&quot;text2508Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.164&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:0.850;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2508Font3&quot;  &gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span &gt;&lt;span class=&quot;text2508Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2508Font4&quot;  &gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Todos os homens sÃ£o mortais. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2508Font4&quot;  &gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SÃ³crates Ã© homem. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2508Font4&quot;  &gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Logo, SÃ³crates Ã© mortal&lt;/span &gt;&lt;span class=&quot;text2508Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Podemos ent\&apos;e3o nos perguntar: o que seria a virtude? Como viver de forma virtuosa? Arist\&apos;f3teles explica que a virtude se encontra na mediania, isto \&apos;e9, na justa medida (mediania) de uma a\&apos;e7\&apos;e3o. &#x0A;\&apos;c9 ficar entre uma falta e um excesso. Por exemplo, a dose de um rem\&apos;e9dio se for pouca (falta) n\&apos;e3o far\&apos;e1 efeito para o paciente. Se ela for dada em excesso pode intoxic\&apos;e1-lo. Sendo assim, a medica\&apos;e7\&apos;e3o deve ser aplicada na medida exata. &#x0A;Mas a medica\&apos;e7\&apos;e3o exata n\&apos;e3o varia conforme o paciente? Sim, e assim \&apos;e9 a justa medida (mediania) de Arist\&apos;f3teles: depende de cada situa\&apos;e7\&apos;e3o.\par\lang1046\hich\f2\loch\f2\fs18\par\lang1046\hich\f2\loch\f2\fs28 Por fim, para concluir uma &#x0A;introdu\&apos;e7\&apos;e3o ao pensamento de Arist\&apos;f3teles, vale destacar sua contribui\&apos;e7\&apos;e3o para o campo da l\&apos;f3gica, a qual estuda a coer\&apos;eancia e a estrutura de um discurso. Arist\&apos;f3teles \&apos;e9 considerado um fil\&apos;f3sofo que organizava muito bem seu pensamento. &#x0A;Ele se preocupava,ao expressar uma ideia, que ela possu\&apos;edsse nexo, ou seja, um come\&apos;e7o, meio e fim. Vejamos a seguir uma estrutura argumentativa desenvolvida\lang1046\hich\f2\loch\f2  \lang1046\hich\f2\loch\f2 por Arist\&apos;f3teles, denominada como silogismo. \fs18\par &#x0A;                     \fs28\b\par                    Todos os homens s\&apos;e3o mortais. \par                                S\&apos;f3crates \&apos;e9 homem. \par                            Logo, S\&apos;f3crates \&apos;e9 mortal\fs18\b0\par\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Podemos ent?o nos perguntar: o que seria a virtude? Como viver de forma virtuosa? Arist?teles explica que a virtude se encontra na mediania, isto ?, na justa medida (mediania) de uma a??o. ? ficar entre uma falta e um excesso. Por exemplo, a dose de um rem?dio se for pouca (falta) n?o far? efeito para o paciente. Se ela for dada em excesso pode intoxic?-lo. Sendo assim, a medica??o deve ser aplicada na medida exata. Mas a medica??o exata n?o varia conforme o paciente? Sim, e assim ? a justa medida (mediania) de Arist?teles: depende de cada situa??o.&#x0A;Por fim, para concluir uma introdu??o ao pensamento de Arist?teles, vale destacar sua contribui??o para o campo da l?gica, a qual estuda a coer?ncia e a estrutura de um discurso. Arist?teles ? considerado um fil?sofo que organizava muito bem seu pensamento. Ele se preocupava,ao expressar uma ideia, que ela possu?sse nexo, ou seja, um come?o, meio e fim. Vejamos a seguir uma estrutura argumentativa desenvolvida por Arist?teles, denominada como silogismo. &#x0A;                     &#x0A;                   Todos os homens s?o mortais. &#x0A;                               S?crates ? homem. &#x0A;                           Logo, S?crates ? mortal&#x0A;</raw>
+<numoflines>26</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="2509" parent="2507" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687283714</lastupdated>
+<possize>
+<point>
+<x>20</x>
+<y>119</y>
+</point>
+<size>
+<cx>473</cx>
+<cy>493</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2509Font1 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;span.text2509Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2509Font2&quot;  &gt;Aprofundando sua anÃ¡lise acerca da realidade e dos seres, AristÃ³teles desenvolve sua teoria de ato e potÃªncia. Se tudo estÃ¡ em constante movimento, entÃ£o a forma e a matÃ©ria das substÃ¢ncias sofrem alteraÃ§Ãµes. Os prÃ³prios seres humanos estÃ£o alterando suas condiÃ§Ãµes no mundo. AristÃ³teles utiliza a teoria de Ato e PotÃªncia para explicar essas alteraÃ§Ãµes. Por exemplo, um aluno hoje carrega a potÃªncia (capacidade) de ser um professor no futuro. Com o passar do tempo ele concluirÃ¡ seus estudos e se tornarÃ¡ um professor em ato, isto Ã©, um professor de fato, estarÃ¡ exercendo a profissÃ£o &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2509Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2509Font2&quot;  &gt;Agora tratando do ser humano, AristÃ³teles o define como um animal polÃ­tico (zoon politikon), sendo assim ele Ã© um ser de vida social, produtor de conhecimento e cultura. Se perguntando acerca da aÃ§Ã£o humana, o filÃ³sofo afirma que ela tem por finalidade a busca da felicidade. Contudo, para AristÃ³teles, a verdadeira felicidade Ã© a eudaimonia, que significa bom conselho. Se um indivÃ­duo orientar sua vida por bons conselhos ele irÃ¡ pensar, agir e viver de forma virtuosa e, consequentemente, alcanÃ§arÃ¡ felicidade.&lt;/span &gt;&lt;span class=&quot;text2509Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Aprofundando sua an\&apos;e1lise acerca da realidade e dos seres, Arist\&apos;f3teles desenvolve sua teoria de ato e pot\&apos;eancia. Se tudo est\&apos;e1 em constante movimento, ent\&apos;e3o a forma e a mat\&apos;e9ria das &#x0A;subst\&apos;e2ncias sofrem altera\&apos;e7\&apos;f5es. Os pr\&apos;f3prios seres humanos est\&apos;e3o alterando suas condi\&apos;e7\&apos;f5es no mundo. Arist\&apos;f3teles utiliza a teoria de Ato e Pot\&apos;eancia para explicar essas altera\&apos;e7\&apos;f5es. Por exemplo, um aluno hoje carrega a pot\&apos;eancia &#x0A;(capacidade) de ser um professor no futuro. Com o passar do tempo ele concluir\&apos;e1 seus estudos e se tornar\&apos;e1 um professor em ato, isto \&apos;e9, um professor de fato, estar\&apos;e1 exercendo a profiss\&apos;e3o\lang1046\hich\f2\loch\f2  \par\par\lang1046\hich\f2\loch\f2 &#x0A;Agora tratando do ser humano, Arist\&apos;f3teles o define como um animal pol\&apos;edtico (zoon politikon), sendo assim ele \&apos;e9 um ser de vida social, produtor de conhecimento e cultura. Se perguntando acerca da a\&apos;e7\&apos;e3o humana, o fil\&apos;f3sofo afirma que ela &#x0A;tem por finalidade a busca da felicidade. Contudo, para Arist\&apos;f3teles, a verdadeira felicidade \&apos;e9 a eudaimonia, que significa bom conselho. Se um indiv\&apos;edduo orientar sua vida por bons conselhos ele ir\&apos;e1 pensar, agir e viver de forma virtuosa e, &#x0A;consequentemente, alcan\&apos;e7ar\&apos;e1 felicidade.\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aprofundando sua an?lise acerca da realidade e dos seres, Arist?teles desenvolve sua teoria de ato e pot?ncia. Se tudo est? em constante movimento, ent?o a forma e a mat?ria das subst?ncias sofrem altera??es. Os pr?prios seres humanos est?o alterando suas condi??es no mundo. Arist?teles utiliza a teoria de Ato e Pot?ncia para explicar essas altera??es. Por exemplo, um aluno hoje carrega a pot?ncia (capacidade) de ser um professor no futuro. Com o passar do tempo ele concluir? seus estudos e se tornar? um professor em ato, isto ?, um professor de fato, estar? exercendo a profiss?o &#x0A;Agora tratando do ser humano, Arist?teles o define como um animal pol?tico (zoon politikon), sendo assim ele ? um ser de vida social, produtor de conhecimento e cultura. Se perguntando acerca da a??o humana, o fil?sofo afirma que ela tem por finalidade a busca da felicidade. Contudo, para Arist?teles, a verdadeira felicidade ? a eudaimonia, que significa bom conselho. Se um indiv?duo orientar sua vida por bons conselhos ele ir? pensar, agir e viver de forma virtuosa e, consequentemente, alcan?ar? felicidade.</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="2510" parent="2507">
+<name>Grupo_1</name>
+<lastupdated>1687283590</lastupdated>
+<shape id="2512" parent="2510" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687283590</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2514" parent="2510" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687283590</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="2516" parent="2510" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687283590</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="2517" parent="2510" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687283590</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2517Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text2517Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#29b9a2; font-weight:bold;}&#x0A;span.text2517Font3 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2517Font1&quot;  &gt;PrÃ©-&lt;/span &gt;&lt;span class=&quot;text2517Font2&quot;  &gt;SocrÃ¡ticos&lt;/span &gt;&lt;span class=&quot;text2517Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Pr\&apos;e9-\cf3 Socr\&apos;e1ticos\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Pr?-Socr?ticos</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="2519" parent="2510" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687283590</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2521" parent="2510" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687283590</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

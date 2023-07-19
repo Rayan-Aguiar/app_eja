@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>376</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="170" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="171" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="366" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="367" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="79">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 6</name>
+<lastupdated>1687460959</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="78" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687460966</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687460966</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687460966</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="79" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687460966</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687460966</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687460966</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="70" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687460966</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="71" parent="70" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687460966</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="70" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687460966</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="63" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687460966</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="64" parent="63" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687460966</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="65" parent="63" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687460966</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="55" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687460966</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="56" parent="55" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687460966</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="55" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687460966</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="58" parent="55" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687460966</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="55">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689694663</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="351" parent="40">
+<name>Página 1</name>
+<lastupdated>1689694666</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="352" parent="351">
+<name>Grupo_1</name>
+<lastupdated>1689694661</lastupdated>
+<image id="354" parent="352" resource="366" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689694661</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="356" parent="352" resource="367" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689694661</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="357" parent="352" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689694669</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text357Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text357Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text357Font1&quot;  &gt;Aula 6&lt;/span &gt;&lt;span class=&quot;text357Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 6\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 6</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="359" parent="352" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689694661</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="361" parent="352" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689694661</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="363" parent="352" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689694661</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="365" parent="352" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689694661</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="155" parent="40">
+<name>Página 2</name>
+<lastupdated>1689694663</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="222" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687461064</lastupdated>
+<possize>
+<point>
+<x>525</x>
+<y>161</y>
+</point>
+<size>
+<cx>455</cx>
+<cy>459</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text222Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text222Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text222Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text222Font1&quot;  &gt;ConclusÃ£o&lt;/span &gt;&lt;span class=&quot;text222Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text222Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text222Font2&quot;  &gt;Na conclusÃ£o Ã© apresentado o desfecho da ideia geral que foi desenvolvida e apresentada desde o primeiro parÃ¡grafo e, principalmente, uma soluÃ§Ã£o se houver uma problemÃ¡tica ao longo do texto.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text222Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text222Font3&quot;  &gt;Tipos de ParÃ¡grafos&lt;/span &gt;&lt;span class=&quot;text222Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text222Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text222Font1&quot;  &gt;ParÃ¡grafo Curto&lt;/span &gt;&lt;span class=&quot;text222Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text222Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text222Font2&quot;  &gt;Os parÃ¡grafos curtos apresentam uma estrutura bem clara e de fÃ¡cil compreensÃ£o, geralmente aparecem em texto de comerciais e aÃ§Ãµes de publicidade, tambÃ©m podem aparecer em conteÃºdos que sÃ£o produzidos para o pÃºblico infantil, como comerciais e livros. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28\b Conclus\&apos;e3o\b0\par\par Na conclus\&apos;e3o \&apos;e9 apresentado o desfecho da ideia geral que foi desenvolvida e apresentada desde o primeiro par\&apos;e1grafo e, principalmente, uma solu\&apos;e7\&apos;e3o se houver &#x0A;uma problem\&apos;e1tica ao longo do texto.\par\par\fs36\b Tipos de Par\&apos;e1grafos\fs28\b0\par\par\b Par\&apos;e1grafo Curto\b0\par\par Os par\&apos;e1grafos curtos apresentam uma estrutura bem clara e de f\&apos;e1cil compreens\&apos;e3o, geralmente aparecem em texto de comerciais &#x0A;e a\&apos;e7\&apos;f5es de publicidade, tamb\&apos;e9m podem aparecer em conte\&apos;fados que s\&apos;e3o produzidos para o p\&apos;fablico infantil, como comerciais e livros. \par\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Conclus�o&#x0A;&#x0A;Na conclus�o � apresentado o desfecho da ideia geral que foi desenvolvida e apresentada desde o primeiro par�grafo e, principalmente, uma solu��o se houver uma problem�tica ao longo do texto.&#x0A;&#x0A;Tipos de Par�grafos&#x0A;&#x0A;Par�grafo Curto&#x0A;&#x0A;Os par�grafos curtos apresentam uma estrutura bem clara e de f�cil compreens�o, geralmente aparecem em texto de comerciais e a��es de publicidade, tamb�m podem aparecer em conte�dos que s�o produzidos para o p�blico infantil, como comerciais e livros. &#x0A;&#x0A;</raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="206" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687461019</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>113</y>
+</point>
+<size>
+<cx>446</cx>
+<cy>80</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text206Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text206Font1&quot;  &gt;&amp;nbsp;O desenvolvimento pode ocorrer em mais de um parÃ¡grafo. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2  O desenvolvimento pode ocorrer em mais de um par\&apos;e1grafo. \par}&#x0A;</rtf>
+<raw>? O desenvolvimento pode ocorrer em mais de um par�grafo. </raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="180" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687461009</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>111</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>546</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text180Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text180Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot;  &gt;O parÃ¡grafo Ã© a uniÃ£o de um grupo de frases existentes em um texto. O uso correto dos parÃ¡grafos Ã© importante para a compreensÃ£o do texto. Os parÃ¡grafos dividem-se em: curtos, mÃ©dios, longos, dissertativos, narrativos ou descritivos. Geralmente em uma construÃ§Ã£o textual os parÃ¡grafos aparecem com trÃªs estruturas: introduÃ§Ã£o, desenvolvimento e conclusÃ£o. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font2&quot;  &gt;IntroduÃ§Ã£o &lt;/span &gt;&lt;span class=&quot;text180Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot;  &gt;Na introduÃ§Ã£o Ã© apresentada a ideia principal do texto. Ã‰ atravÃ©s da introduÃ§Ã£o que o leitor se sentirÃ¡ estimulado para continuar a leitura do texto, portanto a sua escrita deve estar de acordo com a norma- padrÃ£o da lÃ­ngua.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font2&quot;  &gt;Desenvolvimento&lt;/span &gt;&lt;span class=&quot;text180Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot;  &gt;No desenvolvimento deve constar definiÃ§Ãµes, explicaÃ§Ãµes, comparaÃ§Ãµes, exemplos, conceitos, dados estatÃ­sticos e/ou citaÃ§Ãµes alÃ©m da ideia principal do texto jÃ¡ apresentada no parÃ¡grafo de introduÃ§Ã£o do texto.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2 O par\&apos;e1grafo \&apos;e9 a uni\&apos;e3o de um grupo de frases existentes em um texto. O uso correto dos par\&apos;e1grafos \&apos;e9 importante para a compreens\&apos;e3o do texto. Os par\&apos;e1grafos dividem-se em: curtos, &#x0A;m\&apos;e9dios, longos, dissertativos, narrativos ou descritivos. Geralmente em uma constru\&apos;e7\&apos;e3o textual os par\&apos;e1grafos aparecem com tr\&apos;eas estruturas: introdu\&apos;e7\&apos;e3o, desenvolvimento e conclus\&apos;e3o. \par\par\b Introdu\&apos;e7\&apos;e3o \b0\par\par Na introdu\&apos;e7\&apos;e3o &#x0A;\&apos;e9 apresentada a ideia principal do texto. \&apos;c9 atrav\&apos;e9s da introdu\&apos;e7\&apos;e3o que o leitor se sentir\&apos;e1 estimulado para continuar a leitura do texto, portanto a sua escrita deve estar de acordo com a norma- padr\&apos;e3o da l\&apos;edngua.\par\par\b Desenvolvimento\b0\par\par &#x0A;No desenvolvimento deve constar defini\&apos;e7\&apos;f5es, explica\&apos;e7\&apos;f5es, compara\&apos;e7\&apos;f5es, exemplos, conceitos, dados estat\&apos;edsticos e/ou cita\&apos;e7\&apos;f5es al\&apos;e9m da ideia principal do texto j\&apos;e1 apresentada no par\&apos;e1grafo de introdu\&apos;e7\&apos;e3o do texto.\par}&#x0A;</rtf>
+<raw>?O par�grafo � a uni�o de um grupo de frases existentes em um texto. O uso correto dos par�grafos � importante para a compreens�o do texto. Os par�grafos dividem-se em: curtos, m�dios, longos, dissertativos, narrativos ou descritivos. Geralmente em uma constru��o textual os par�grafos aparecem com tr�s estruturas: introdu��o, desenvolvimento e conclus�o. &#x0A;&#x0A;Introdu��o &#x0A;&#x0A;Na introdu��o � apresentada a ideia principal do texto. � atrav�s da introdu��o que o leitor se sentir� estimulado para continuar a leitura do texto, portanto a sua escrita deve estar de acordo com a norma- padr�o da l�ngua.&#x0A;&#x0A;Desenvolvimento&#x0A;&#x0A;No desenvolvimento deve constar defini��es, explica��es, compara��es, exemplos, conceitos, dados estat�sticos e/ou cita��es al�m da ideia principal do texto j� apresentada no par�grafo de introdu��o do texto.</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="158" parent="155">
+<name>Grupo_1</name>
+<lastupdated>1687460977</lastupdated>
+<shape id="160" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687460977</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="162" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687460977</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="164" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687460977</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="165" parent="158" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687460989</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>584</cx>
+<cy>55</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text165Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text165Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text165Font1&quot;  &gt;ParÃ¡grafo&lt;/span &gt;&lt;span class=&quot;text165Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Par\&apos;e1grafo\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Par�grafo</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="167" parent="158" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687460977</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="169" parent="158" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687460977</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="256" parent="40">
+<name>Página 3</name>
+<lastupdated>1687461057</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="328" parent="256" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687461112</lastupdated>
+<possize>
+<point>
+<x>529</x>
+<y>121</y>
+</point>
+<size>
+<cx>447</cx>
+<cy>286</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text328Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text328Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font1&quot;  &gt;ParÃ¡grafo Narrativo&lt;/span &gt;&lt;span class=&quot;text328Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font2&quot;  &gt;Os parÃ¡grafos narrativos apresentam um diÃ¡logo ou a descriÃ§Ã£o de uma histÃ³ria, nele hÃ¡ diÃ¡logos com verbos de aÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font1&quot;  &gt;ParÃ¡grafo Descritivo &lt;/span &gt;&lt;span class=&quot;text328Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font2&quot;  &gt;O parÃ¡grafo descritivo tem a finalidade de descrever alguma coisa, algum fato, algum acontecimento ou caracterÃ­sticas de alguÃ©m, nele hÃ¡ a presenÃ§a de bastante adjetivos e verbos de ligaÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2\b Par\&apos;e1grafo Narrativo\b0\par\par Os par\&apos;e1grafos narrativos apresentam um di\&apos;e1logo ou a descri\&apos;e7\&apos;e3o de uma hist\&apos;f3ria, nele h\&apos;e1 di\&apos;e1logos com verbos de a\&apos;e7\&apos;e3o.\par\par\b Par\&apos;e1grafo &#x0A;Descritivo \b0\par\par O par\&apos;e1grafo descritivo tem a finalidade de descrever alguma coisa, algum fato, algum acontecimento ou caracter\&apos;edsticas de algu\&apos;e9m, nele h\&apos;e1 a presen\&apos;e7a de bastante adjetivos e verbos de liga\&apos;e7\&apos;e3o.\par}&#x0A;</rtf>
+<raw>?Par�grafo Narrativo&#x0A;&#x0A;Os par�grafos narrativos apresentam um di�logo ou a descri��o de uma hist�ria, nele h� di�logos com verbos de a��o.&#x0A;&#x0A;Par�grafo Descritivo &#x0A;&#x0A;O par�grafo descritivo tem a finalidade de descrever alguma coisa, algum fato, algum acontecimento ou caracter�sticas de algu�m, nele h� a presen�a de bastante adjetivos e verbos de liga��o.</raw>
+<numoflines>13</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="300" parent="256" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687461098</lastupdated>
+<possize>
+<point>
+<x>40</x>
+<y>305</y>
+</point>
+<size>
+<cx>447</cx>
+<cy>307</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text300Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text300Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text300Font1&quot;  &gt;ParÃ¡grafo Longo&lt;/span &gt;&lt;span class=&quot;text300Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text300Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text300Font2&quot;  &gt;Os parÃ¡grafos longos sÃ£o comuns em artigos, trabalhos acadÃªmicos e publicaÃ§Ãµes cientÃ­ficas, seu objetivo Ã© apresentar uma informaÃ§Ã£o muito longa ao leitor.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text300Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text300Font1&quot;  &gt;ParÃ¡grafo Dissertativo &lt;/span &gt;&lt;span class=&quot;text300Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text300Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text300Font2&quot;  &gt;Os parÃ¡grafos dissertativos apresentam e concluem um determinado assunto, geralmente, Ã© dissertado entre a introduÃ§Ã£o, o desenvolvimento e a conclusÃ£o. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28\b Par\&apos;e1grafo Longo\b0\par\par Os par\&apos;e1grafos longos s\&apos;e3o comuns em artigos, trabalhos acad\&apos;eamicos e publica\&apos;e7\&apos;f5es cient\&apos;edficas, seu objetivo \&apos;e9 apresentar uma informa\&apos;e7\&apos;e3o muito &#x0A;longa ao leitor.\par\par\b Par\&apos;e1grafo Dissertativo \b0\par\par Os par\&apos;e1grafos dissertativos apresentam e concluem um determinado assunto, geralmente, \&apos;e9 dissertado entre a introdu\&apos;e7\&apos;e3o, o desenvolvimento e a conclus\&apos;e3o. \par\par}&#x0A;</rtf>
+<raw>?Par�grafo Longo&#x0A;&#x0A;Os par�grafos longos s�o comuns em artigos, trabalhos acad�micos e publica��es cient�ficas, seu objetivo � apresentar uma informa��o muito longa ao leitor.&#x0A;&#x0A;Par�grafo Dissertativo &#x0A;&#x0A;Os par�grafos dissertativos apresentam e concluem um determinado assunto, geralmente, � dissertado entre a introdu��o, o desenvolvimento e a conclus�o. &#x0A;</raw>
+<numoflines>14</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="275" parent="256">
+<name>Grupo_1</name>
+<lastupdated>1687461071</lastupdated>
+<shape id="277" parent="275" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687461071</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="279" parent="275" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687461071</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="281" parent="275" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687461071</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="282" parent="275" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687461071</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>584</cx>
+<cy>55</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text282Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text282Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text282Font1&quot;  &gt;ParÃ¡grafo&lt;/span &gt;&lt;span class=&quot;text282Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Par\&apos;e1grafo\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Par�grafo</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="284" parent="275" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687461071</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="286" parent="275" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687461071</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+<text id="267" parent="256" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687461079</lastupdated>
+<possize>
+<point>
+<x>45</x>
+<y>139</y>
+</point>
+<size>
+<cx>444</cx>
+<cy>148</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text267Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text267Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text267Font1&quot;  &gt;ParÃ¡grafo MÃ©dio&lt;/span &gt;&lt;span class=&quot;text267Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text267Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text267Font2&quot;  &gt;Os parÃ¡grafos mÃ©dios podem ser vistos com frequÃªncia em texto de jornais, notÃ­cias, matÃ©rias, textos publicados em revistas, entre outros. Esse modelo de parÃ¡grafo traz em sua estrutura informaÃ§Ãµes mais bem definidas. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28\b Par\&apos;e1grafo M\&apos;e9dio\b0\par\par Os par\&apos;e1grafos m\&apos;e9dios podem ser vistos com frequ\&apos;eancia em texto de jornais, not\&apos;edcias, mat\&apos;e9rias, textos publicados em revistas, entre outros. Esse modelo &#x0A;de par\&apos;e1grafo traz em sua estrutura informa\&apos;e7\&apos;f5es mais bem definidas. \par}&#x0A;</rtf>
+<raw>?Par�grafo M�dio&#x0A;&#x0A;Os par�grafos m�dios podem ser vistos com frequ�ncia em texto de jornais, not�cias, mat�rias, textos publicados em revistas, entre outros. Esse modelo de par�grafo traz em sua estrutura informa��es mais bem definidas. </raw>
+<numoflines>7</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

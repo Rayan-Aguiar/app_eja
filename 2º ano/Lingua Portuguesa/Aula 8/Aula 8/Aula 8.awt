@@ -1,0 +1,1762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>1188</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="170" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="171" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="537" resourcetype="image">
+<name>Imagem1.png</name>
+<relativelink>images\Imagem1.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1180" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1181" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="79">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>6357063</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 8</name>
+<lastupdated>1687804578</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="78" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687462032</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687462032</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687462032</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="79" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687462032</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687462032</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687462032</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="70" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687462032</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="71" parent="70" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687462032</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="70" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687462032</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="63" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687462032</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="64" parent="63" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687462032</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="65" parent="63" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687462032</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="55" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687462032</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="56" parent="55" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687462032</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="55" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687462032</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="58" parent="55" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687462032</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="55">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689702633</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="1165" parent="40">
+<name>Página 1</name>
+<lastupdated>1689702637</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="1166" parent="1165">
+<name>Grupo_1</name>
+<lastupdated>1689702637</lastupdated>
+<image id="1168" parent="1166" resource="1180" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689702637</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1170" parent="1166" resource="1181" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689702637</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1171" parent="1166" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689702643</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1171Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1171Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1171Font1&quot;  &gt;Aula 8&lt;/span &gt;&lt;span class=&quot;text1171Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 8\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 8</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="1173" parent="1166" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689702637</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1175" parent="1166" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689702637</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1177" parent="1166" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689702637</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1179" parent="1166" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689702637</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="155" parent="40">
+<name>Página 2</name>
+<lastupdated>1689702633</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="388" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687802036</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>68</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>580</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text388Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text388Font1&quot;  &gt;Na Inglaterra, no inÃ­cio do sÃ©culo XIX, houve uma atitude semelhante de rejeiÃ§Ã£o aos modelos clÃ¡ssicos. O ossianismo disseminava uma literatura de linguagem simples, melodiosa, que valorizava as referÃªncias do passado nacional. Tal movimento comeÃ§ou com o escocÃªs James Macpherson, ao publicar, em prosa, a traduÃ§Ã£o dos poemas de Ossian, poeta escocÃªs do sÃ©culo II. Para o crÃ­tico Massaud MoisÃ©s, o autor dos poemas traduzidos era o prÃ³prio Macpherson. AlÃ©m dele, Lord Byron, com sua poesia ultrarromÃ¢ntica, e Walter Scott, com os romances histÃ³ricos, sÃ£o primeiras referÃªncias romÃ¢nticas inglesas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text388Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text388Font1&quot;  &gt;Apesar de o movimento ter surgido na Alemanha e Inglaterra, costuma-se afirmar que coube Ã  FranÃ§a a divulgaÃ§Ã£o do Romantismo.No Brasil, a escola romÃ¢ntica coincide com o processo de independÃªncia. Naquele momento, era fundamental estabelecer uma identidade cultural para o paÃ­s. Nossos artistas e intelectuais foram buscar referÃªncias entre os franceses.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text388Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text388Font1&quot;  &gt;A publicaÃ§Ã£o, em 1836, de &quot;Suspiros poÃ©ticos e saudades&quot;, de GonÃ§alves de MagalhÃ£es, e de &quot;Nitheroy&quot;, revista brasiliense, marca o inÃ­cio do movimento no Brasil&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Na Inglaterra, no in\&apos;edcio do s\&apos;e9culo XIX, houve uma atitude semelhante de rejei\&apos;e7\&apos;e3o aos modelos cl\&apos;e1ssicos. O ossianismo disseminava uma literatura de linguagem simples, melodiosa, que &#x0A;valorizava as refer\&apos;eancias do passado nacional. Tal movimento come\&apos;e7ou com o escoc\&apos;eas James Macpherson, ao publicar, em prosa, a tradu\&apos;e7\&apos;e3o dos poemas de Ossian, poeta escoc\&apos;eas do s\&apos;e9culo II. Para o cr\&apos;edtico Massaud Mois\&apos;e9s, o autor &#x0A;dos poemas traduzidos era o pr\&apos;f3prio Macpherson. Al\&apos;e9m dele, Lord Byron, com sua poesia ultrarrom\&apos;e2ntica, e Walter Scott, com os romances hist\&apos;f3ricos, s\&apos;e3o primeiras refer\&apos;eancias rom\&apos;e2nticas inglesas.\par\par Apesar de o movimento ter surgido &#x0A;na Alemanha e Inglaterra, costuma-se afirmar que coube \u224 \&apos;e0 Fran\u231 \&apos;e7a a divulga\u231 \&apos;e7\u227 \&apos;e3o do Romantismo.No Brasil, a escola rom\u226 \&apos;e2ntica coincide com o processo de independ\u234 \&apos;eancia. Naquele momento, era fundamental estabelecer &#x0A;uma identidade cultural para o pa\u237 \&apos;eds. Nossos artistas e intelectuais foram buscar refer\u234 \&apos;eancias entre os franceses.\par\par A publica\u231 \&apos;e7\u227 \&apos;e3o, em 1836, de &quot;Suspiros po\u233 \&apos;e9ticos e saudades&quot;, de Gon\u231 \&apos;e7alves de Magalh\u227 &#x0A;\&apos;e3es, e de &quot;Nitheroy&quot;, revista brasiliense, marca o in\u237 \&apos;edcio do movimento no Brasil\par}&#x0A;</rtf>
+<raw>?Na Inglaterra, no in�cio do s�culo XIX, houve uma atitude semelhante de rejei��o aos modelos cl�ssicos. O ossianismo disseminava uma literatura de linguagem simples, melodiosa, que valorizava as refer�ncias do passado nacional. Tal movimento come�ou com o escoc�s James Macpherson, ao publicar, em prosa, a tradu��o dos poemas de Ossian, poeta escoc�s do s�culo II. Para o cr�tico Massaud Mois�s, o autor dos poemas traduzidos era o pr�prio Macpherson. Al�m dele, Lord Byron, com sua poesia ultrarrom�ntica, e Walter Scott, com os romances hist�ricos, s�o primeiras refer�ncias rom�nticas inglesas.&#x0A;&#x0A;Apesar de o movimento ter surgido na Alemanha e Inglaterra, costuma-se afirmar que coube � Fran�a a divulga��o do Romantismo.No Brasil, a escola rom�ntica coincide com o processo de independ�ncia. Naquele momento, era fundamental estabelecer uma identidade cultural para o pa�s. Nossos artistas e intelectuais foram buscar refer�ncias entre os franceses.&#x0A;&#x0A;A publica��o, em 1836, de &quot;Suspiros po�ticos e saudades&quot;, de Gon�alves de Magalh�es, e de &quot;Nitheroy&quot;, revista brasiliense, marca o in�cio do movimento no Brasil</raw>
+<numoflines>27</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="362" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687802415</lastupdated>
+<possize>
+<point>
+<x>23</x>
+<y>123</y>
+</point>
+<size>
+<cx>468</cx>
+<cy>523</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text362Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text362Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text362Font1&quot;  &gt;GeraÃ§Ãµes romÃ¢nticas&lt;/span &gt;&lt;span class=&quot;text362Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text362Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text362Font2&quot;  &gt;No final do sÃ©culo XVIII, na Europa, havia um cenÃ¡rio de revoluÃ§Ã£o de ideias na polÃ­tica e tambÃ©m na arte. A arte esteve, durante trÃªs sÃ©culos, vinculada aos ideais da Antiguidade clÃ¡ssica e, nesse momento, havia uma atitude de rebeldia, de repÃºdio aos modelos e um desejo de liberdade criativa.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text362Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text362Font2&quot;  &gt;Para alguns estudiosos, sempre houve um espÃ­rito romÃ¢ntico, como Ã© possÃ­vel perceber na forma como as mulheres foram tratadas em diferentes momentos artÃ­sticos. Entretanto, Ã quela Ã©poca, esse espÃ­rito romÃ¢ntico configurou-se numa escola literÃ¡ria.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text362Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text362Font2&quot;  &gt;O Romantismo teve suas origens na Alemanha com um movimento contra o racionalismo e os rigores clÃ¡ssicos, denominado Sturm und Drang(&quot;Tempestade e Ã­mpeto&quot;). Um marco importante Ã© a publicaÃ§Ã£o de &quot;Os sofrimentos do jovem Werther&quot;, do alemÃ£o Johan Wolfgang von Goethe, em 1774, que exalta os sentimentos como motivaÃ§Ã£o para a vida, pois sem o amor a existÃªncia nÃ£o faria sentido.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs32\b Gera\&apos;e7\&apos;f5es rom\&apos;e2nticas\fs28\b0\par\par No final do s\&apos;e9culo XVIII, na Europa, havia um cen\&apos;e1rio de revolu\&apos;e7\&apos;e3o de ideias na pol\&apos;edtica e tamb\&apos;e9m na arte. A arte esteve, durante &#x0A;tr\&apos;eas s\&apos;e9culos, vinculada aos ideais da Antiguidade cl\&apos;e1ssica e, nesse momento, havia uma atitude de rebeldia, de rep\&apos;fadio aos modelos e um desejo de liberdade criativa.\par\par Para alguns estudiosos, sempre houve um esp\&apos;edrito rom\&apos;e2ntico, &#x0A;como \&apos;e9 poss\&apos;edvel perceber na forma como as mulheres foram tratadas em diferentes momentos art\&apos;edsticos. Entretanto, \&apos;e0quela \&apos;e9poca, esse esp\&apos;edrito rom\&apos;e2ntico configurou-se numa escola liter\&apos;e1ria.\par\par O Romantismo teve suas origens &#x0A;na Alemanha com um movimento contra o racionalismo e os rigores cl\u225 \&apos;e1ssicos, denominado Sturm und Drang(&quot;Tempestade e \u237 \&apos;edmpeto&quot;). Um marco importante \u233 \&apos;e9 a publica\u231 \&apos;e7\u227 \&apos;e3o de &quot;Os sofrimentos do jovem Werther&quot;, do alem\u227 &#x0A;\&apos;e3o Johan Wolfgang von Goethe, em 1774, que exalta os sentimentos como motiva\u231 \&apos;e7\u227 \&apos;e3o para a vida, pois sem o amor a exist\u234 \&apos;eancia n\u227 \&apos;e3o faria sentido.\par}&#x0A;</rtf>
+<raw>?Gera��es rom�nticas&#x0A;&#x0A;No final do s�culo XVIII, na Europa, havia um cen�rio de revolu��o de ideias na pol�tica e tamb�m na arte. A arte esteve, durante tr�s s�culos, vinculada aos ideais da Antiguidade cl�ssica e, nesse momento, havia uma atitude de rebeldia, de rep�dio aos modelos e um desejo de liberdade criativa.&#x0A;&#x0A;Para alguns estudiosos, sempre houve um esp�rito rom�ntico, como � poss�vel perceber na forma como as mulheres foram tratadas em diferentes momentos art�sticos. Entretanto, �quela �poca, esse esp�rito rom�ntico configurou-se numa escola liter�ria.&#x0A;&#x0A;O Romantismo teve suas origens na Alemanha com um movimento contra o racionalismo e os rigores cl�ssicos, denominado Sturm und Drang(&quot;Tempestade e �mpeto&quot;). Um marco importante � a publica��o de &quot;Os sofrimentos do jovem Werther&quot;, do alem�o Johan Wolfgang von Goethe, em 1774, que exalta os sentimentos como motiva��o para a vida, pois sem o amor a exist�ncia n�o faria sentido.</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="358" parent="155">
+<name>Grupo_1</name>
+<lastupdated>1687801853</lastupdated>
+<shape id="160" parent="358" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687462121</lastupdated>
+<possize>
+<point>
+<x>31</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="162" parent="358" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687462121</lastupdated>
+<possize>
+<point>
+<x>50</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="164" parent="358" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687462121</lastupdated>
+<possize>
+<point>
+<x>70</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="165" parent="358" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687801853</lastupdated>
+<possize>
+<point>
+<x>23</x>
+<y>52</y>
+</point>
+<size>
+<cx>856</cx>
+<cy>47</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text165Font1 { font-size:27px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text165Font2 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#000000;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text165Font1&quot;  &gt;&amp;nbsp;Romantismo &lt;/span &gt;&lt;span class=&quot;text165Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs40\b  Romantismo \lang1046\hich\f1\loch\f1\cf3\fs18\b0\par}&#x0A;</rtf>
+<raw>? Romantismo </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="167" parent="358" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687462121</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="169" parent="358" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687462121</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="742" parent="40">
+<name>Página 3</name>
+<lastupdated>1689702645</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="743" parent="742" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687802572</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>68</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>580</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text743Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text743Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text743Font1&quot;  &gt;Romantismo em Portugal&lt;/span &gt;&lt;span class=&quot;text743Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text743Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text743Font2&quot;  &gt;Em Portugal, o movimento romÃ¢ntico comeÃ§ou em 1825, com a publicaÃ§Ã£o do poema &quot;CamÃµes&quot;, de Almeida Garrett. Nessa Ã©poca, a burguesia estava em ascensÃ£o e havia uma forte influÃªncia inglesa no paÃ­s. Os valores burgueses aparecem na valorizaÃ§Ã£o de um estilo de vida, representado nas narrativas da Ã©poca. AlÃ©m disso, autores como Byron foram inspiraÃ§Ã£o para obras ultrarromÃ¢nticas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text743Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text743Font2&quot;  &gt;O Romantismo portuguÃªs pode ser dividido em trÃªs momentos distintos. Vamos ver esses momentos nos tÃ³picos a seguir.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text743Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text743Font1&quot;  &gt;Primeira geraÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text743Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text743Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text743Font2&quot;  &gt;Manteve fortes referÃªncias clÃ¡ssicas quanto Ã  linguagem e Ã  contenÃ§Ã£o emocional. O nacionalismo Ã© marcante nessa fase. Para valorizar o passado da pÃ¡tria, os autores resgataram a Idade MÃ©dia e apresentaram o cavaleiro medieval como herÃ³i nacional. Muitas obras importantes retomam fatos histÃ³ricos que revelam a trajetÃ³ria do povo portuguÃªs.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\lang1046\hich\f2\loch\f2\cf2\fs32\b Romantismo em Portugal\fs28\b0\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Em Portugal, o movimento rom\u226 \&apos;e2ntico come\u231 \&apos;e7ou em 1825, com a publica\u231 \&apos;e7\u227 &#x0A;\&apos;e3o do poema &quot;Cam\u245 \&apos;f5es&quot;, de Almeida Garrett. Nessa \u233 \&apos;e9poca, a burguesia estava em ascens\u227 \&apos;e3o e havia uma forte influ\u234 \&apos;eancia inglesa no pa\u237 \&apos;eds. Os valores burgueses aparecem na valoriza\u231 \&apos;e7\u227 \&apos;e3o de um estilo &#x0A;de vida, representado nas narrativas da \u233 \&apos;e9poca. Al\u233 \&apos;e9m disso, autores como Byron foram inspira\u231 \&apos;e7\u227 \&apos;e3o para obras ultrarrom\u226 \&apos;e2nticas.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 O Romantismo portugu\u234 &#x0A;\&apos;eas pode ser dividido em tr\u234 \&apos;eas momentos distintos. Vamos ver esses momentos nos t\u243 \&apos;f3picos a seguir.\par\par\fs32\b Primeira gera\&apos;e7\&apos;e3o\fs28\b0\par\par Manteve fortes refer\&apos;eancias cl\&apos;e1ssicas quanto \&apos;e0 linguagem e \&apos;e0 conten\&apos;e7\&apos;e3o &#x0A;emocional. O nacionalismo \&apos;e9 marcante nessa fase. Para valorizar o passado da p\&apos;e1tria, os autores resgataram a Idade M\&apos;e9dia e apresentaram o cavaleiro medieval como her\&apos;f3i nacional. Muitas obras importantes retomam fatos hist\&apos;f3ricos que revelam &#x0A;a trajet\&apos;f3ria do povo portugu\&apos;eas.\lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?Romantismo em Portugal&#x0A;&#x0A;Em Portugal, o movimento rom�ntico come�ou em 1825, com a publica��o do poema &quot;Cam�es&quot;, de Almeida Garrett. Nessa �poca, a burguesia estava em ascens�o e havia uma forte influ�ncia inglesa no pa�s. Os valores burgueses aparecem na valoriza��o de um estilo de vida, representado nas narrativas da �poca. Al�m disso, autores como Byron foram inspira��o para obras ultrarrom�nticas.&#x0A;&#x0A;O Romantismo portugu�s pode ser dividido em tr�s momentos distintos. Vamos ver esses momentos nos t�picos a seguir.&#x0A;&#x0A;Primeira gera��o&#x0A;&#x0A;Manteve fortes refer�ncias cl�ssicas quanto � linguagem e � conten��o emocional. O nacionalismo � marcante nessa fase. Para valorizar o passado da p�tria, os autores resgataram a Idade M�dia e apresentaram o cavaleiro medieval como her�i nacional. Muitas obras importantes retomam fatos hist�ricos que revelam a trajet�ria do povo portugu�s.</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="744" parent="742" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687802455</lastupdated>
+<possize>
+<point>
+<x>23</x>
+<y>123</y>
+</point>
+<size>
+<cx>463</cx>
+<cy>538</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text744Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text744Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text744Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text744Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text744Font1&quot;  &gt;Principais caracterÃ­sticas&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text744Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text744Font2&quot;  &gt;O Romantismo, em cada paÃ­s, tem suasparticularidades. Todavia, alguns valores sÃ£o mais comuns em vÃ¡rias naÃ§Ãµes que desenvolveram essa estÃ©tica:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text744Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text744Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text744ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text744Font2&quot;  &gt;egocentrismo (o indivÃ­duo Ã© encarado como o centro do mundo);&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text744Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text744Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text744ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text744Font2&quot;  &gt;sentimentalismo exacerbado;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text744Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text744Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text744ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text744Font2&quot;  &gt;&amp;nbsp;nacionalismo;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text744Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text744Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text744ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text744Font2&quot;  &gt;&amp;nbsp;idealizaÃ§Ã£o do amor e da mulher;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text744Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text744Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text744ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text744Font2&quot;  &gt;&amp;nbsp;tom depressivo (tÃ­pico de diversos autores romÃ¢nticos, sendo facilmente encontrado, entre eles um discurso que exalta a fuga da realidade, seja pela morte, seja pelo sonho ou ainda pela prÃ³pria arte&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs32\b Principais caracter\&apos;edsticas\par\par\fs28\b0 O Romantismo, em cada pa\&apos;eds, tem suasparticularidades. Todavia, alguns valores s\&apos;e3o mais comuns em v\&apos;e1rias na\&apos;e7\&apos;f5es que desenvolveram essa &#x0A;est\&apos;e9tica:\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 egocentrismo (o indiv\&apos;edduo \&apos;e9 encarado como o centro do mundo);\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 sentimentalismo exacerbado;\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 &#x0A; nacionalismo;\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28  idealiza\&apos;e7\&apos;e3o do amor e da mulher;\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28  tom depressivo (t\&apos;edpico de diversos autores rom\&apos;e2nticos, sendo facilmente encontrado, entre eles um discurso que exalta a fuga da realidade, seja pela morte, seja pelo sonho ou &#x0A;ainda pela pr\&apos;f3pria arte\par}&#x0A;</rtf>
+<raw>?Principais caracter�sticas&#x0A;&#x0A;O Romantismo, em cada pa�s, tem suasparticularidades. Todavia, alguns valores s�o mais comuns em v�rias na��es que desenvolveram essa est�tica:&#x0A;&#x0A;egocentrismo (o indiv�duo � encarado como o centro do mundo);&#x0A;&#x0A;sentimentalismo exacerbado;&#x0A;&#x0A; nacionalismo;&#x0A;&#x0A; idealiza��o do amor e da mulher;&#x0A;&#x0A; tom depressivo (t�pico de diversos autores rom�nticos, sendo facilmente encontrado, entre eles um discurso que exalta a fuga da realidade, seja pela morte, seja pelo sonho ou ainda pela pr�pria arte</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text744ArrowBulletFont10.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>21</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="745" parent="742">
+<name>Grupo_1</name>
+<lastupdated>1687802073</lastupdated>
+<shape id="747" parent="745" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687802073</lastupdated>
+<possize>
+<point>
+<x>31</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="749" parent="745" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687802073</lastupdated>
+<possize>
+<point>
+<x>50</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="751" parent="745" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687802073</lastupdated>
+<possize>
+<point>
+<x>70</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="752" parent="745" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687802073</lastupdated>
+<possize>
+<point>
+<x>23</x>
+<y>52</y>
+</point>
+<size>
+<cx>856</cx>
+<cy>47</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text752Font1 { font-size:27px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text752Font2 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#000000;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text752Font1&quot;  &gt;&amp;nbsp;Romantismo &lt;/span &gt;&lt;span class=&quot;text752Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs40\b  Romantismo \lang1046\hich\f1\loch\f1\cf3\fs18\b0\par}&#x0A;</rtf>
+<raw>? Romantismo </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="754" parent="745" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687802073</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="756" parent="745" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687802073</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="792" parent="40">
+<name>Página 4</name>
+<lastupdated>1689702647</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="793" parent="792" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687803484</lastupdated>
+<possize>
+<point>
+<x>506</x>
+<y>57</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>634</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text793Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text793Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text793Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text793Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text793Font1&quot;  &gt;Segunda geraÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text793Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text793Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text793Font2&quot;  &gt;Nesta fase, valorizavam-se os excessos romÃ¢nticos: subjetivismo, emocionalismo, irracionalismo, escapismo e fantasia. Predomina uma perspectiva &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text793Font2&quot;  &gt;pessimista da vida.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text793Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text793Font2&quot;  &gt;Dentre os autores, destacam-se:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text793Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text793Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text793ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text793Font2&quot;  &gt;Camilo Castelo Branco: principais obras Carlota Ã‚ngela; Amor de perdiÃ§Ã£o; CoraÃ§Ã£o, cabeÃ§a e estÃ´mago; Amor de salvaÃ§Ã£o; A queda dum anjo; A doida do Candal; Novelas do Minho; EusÃ©bio MacÃ¡rio; A corja; A brasileira de Prazins.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text793Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text793Font1&quot;  &gt;Terceira geraÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text793Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text793Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text793Font2&quot;  &gt;Esta fase sinaliza uma transiÃ§Ã£o para o Realismo, com as caracterÃ­sticas romÃ¢nticas comeÃ§ando a se diluir.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text793Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text793Font2&quot;  &gt;Dentre os autores, destaca-se:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text793Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text793Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text793ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text793Font2&quot;  &gt;JÃºlio Diniz: principais obras As pupilas do senhor reitor; Uma famÃ­lia inglesa; A morgadinha dos canaviais; Os fidalgos da casa mourisca; SerÃµes da provÃ­ncia.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs32\b Segunda gera\&apos;e7\&apos;e3o\fs28\b0\par\par Nesta fase, valorizavam-se os excessos rom\&apos;e2nticos: subjetivismo, emocionalismo, irracionalismo, escapismo e fantasia. Predomina uma perspectiva \par pessimista &#x0A;da vida.\par\par Dentre os autores, destacam-se:\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 Camilo Castelo Branco: principais obras Carlota \&apos;c2ngela; Amor de perdi\&apos;e7\&apos;e3o; &#x0A;Cora\&apos;e7\&apos;e3o, cabe\&apos;e7a e est\&apos;f4mago; Amor de salva\&apos;e7\&apos;e3o; A queda dum anjo; A doida do Candal; Novelas do Minho; Eus\&apos;e9bio Mac\&apos;e1rio; A corja; A brasileira de Prazins.\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs32\b\par Terceira &#x0A;gera\&apos;e7\&apos;e3o\fs28\b0\par\par Esta fase sinaliza uma transi\&apos;e7\&apos;e3o para o Realismo, com as caracter\&apos;edsticas rom\&apos;e2nticas come\&apos;e7ando a se diluir.\par\par Dentre os autores, destaca-se:\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 &#x0A;J\&apos;falio Diniz: principais obras As pupilas do senhor reitor; Uma fam\&apos;edlia inglesa; A morgadinha dos canaviais; Os fidalgos da casa mourisca; Ser\&apos;f5es da prov\&apos;edncia.\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\par}&#x0A;</rtf>
+<raw>?Segunda gera��o&#x0A;&#x0A;Nesta fase, valorizavam-se os excessos rom�nticos: subjetivismo, emocionalismo, irracionalismo, escapismo e fantasia. Predomina uma perspectiva &#x0A;pessimista da vida.&#x0A;&#x0A;Dentre os autores, destacam-se:&#x0A;&#x0A;Camilo Castelo Branco: principais obras Carlota �ngela; Amor de perdi��o; Cora��o, cabe�a e est�mago; Amor de salva��o; A queda dum anjo; A doida do Candal; Novelas do Minho; Eus�bio Mac�rio; A corja; A brasileira de Prazins.&#x0A;&#x0A;Terceira gera��o&#x0A;&#x0A;Esta fase sinaliza uma transi��o para o Realismo, com as caracter�sticas rom�nticas come�ando a se diluir.&#x0A;&#x0A;Dentre os autores, destaca-se:&#x0A;&#x0A;J�lio Diniz: principais obras As pupilas do senhor reitor; Uma fam�lia inglesa; A morgadinha dos canaviais; Os fidalgos da casa mourisca; Ser�es da prov�ncia.&#x0A;&#x0A;</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text793ArrowBulletFont10.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>29</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="794" parent="792" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687802817</lastupdated>
+<possize>
+<point>
+<x>23</x>
+<y>123</y>
+</point>
+<size>
+<cx>463</cx>
+<cy>479</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text794Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text794Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text794Font1&quot;  &gt;Dentre seus autores, destacam-se:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text794Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text794Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text794ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text794Font1&quot;  &gt;Almeida Garrett: principais obras: CamÃµes; Dona Branca; LÃ­rica de JoÃ£o MÃ­nimo; Flores sem fruto; Folhas caÃ­das (poesias); Viagens na minha terra; O Arco de Santana (prosa); CatÃ£o; MÃ©rope; Um auto de Gil Vicente; O alfageme de SantarÃ©m; Frei LuÃ­s de Sousa; D. Filipa de Vilhena (teatro).&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text794Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text794Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text794ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text794Font1&quot;  &gt;Alexandre Herculano Eurico, o presbÃ­tero; O monge de Cister; Lendas e narrativas; O bobo (publicaÃ§Ã£o pÃ³stuma).&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text794Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text794Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text794ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text794Font1&quot;  &gt;AntÃ´nio Feliciano de Castilho: principais obras: A chave do enigma; Eco a Narciso; A primavera; Amor e melancolia; Outono.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Dentre seus autores, destacam-se:\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 Almeida Garrett: principais obras: Cam\&apos;f5es; &#x0A;Dona Branca; L\&apos;edrica de Jo\&apos;e3o M\&apos;ednimo; Flores sem fruto; Folhas ca\&apos;eddas (poesias); Viagens na minha terra; O Arco de Santana (prosa); Cat\&apos;e3o; M\&apos;e9rope; Um auto de Gil Vicente; O alfageme de Santar\&apos;e9m; Frei Lu\&apos;eds de Sousa; D. Filipa de Vilhena &#x0A;(teatro).\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 Alexandre Herculano Eurico, o presb\&apos;edtero; O monge de Cister; &#x0A;Lendas e narrativas; O bobo (publica\&apos;e7\&apos;e3o p\&apos;f3stuma).\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 Ant\&apos;f4nio Feliciano &#x0A;de Castilho: principais obras: A chave do enigma; Eco a Narciso; A primavera; Amor e melancolia; Outono.\par}&#x0A;</rtf>
+<raw>?Dentre seus autores, destacam-se:&#x0A;&#x0A;Almeida Garrett: principais obras: Cam�es; Dona Branca; L�rica de Jo�o M�nimo; Flores sem fruto; Folhas ca�das (poesias); Viagens na minha terra; O Arco de Santana (prosa); Cat�o; M�rope; Um auto de Gil Vicente; O alfageme de Santar�m; Frei Lu�s de Sousa; D. Filipa de Vilhena (teatro).&#x0A;&#x0A;Alexandre Herculano Eurico, o presb�tero; O monge de Cister; Lendas e narrativas; O bobo (publica��o p�stuma).&#x0A;&#x0A;Ant�nio Feliciano de Castilho: principais obras: A chave do enigma; Eco a Narciso; A primavera; Amor e melancolia; Outono.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text794ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>16</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="795" parent="792">
+<name>Grupo_1</name>
+<lastupdated>1687802574</lastupdated>
+<shape id="797" parent="795" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687802574</lastupdated>
+<possize>
+<point>
+<x>31</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="799" parent="795" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687802574</lastupdated>
+<possize>
+<point>
+<x>50</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="801" parent="795" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687802574</lastupdated>
+<possize>
+<point>
+<x>70</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="802" parent="795" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687802574</lastupdated>
+<possize>
+<point>
+<x>23</x>
+<y>52</y>
+</point>
+<size>
+<cx>856</cx>
+<cy>47</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text802Font1 { font-size:27px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text802Font2 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#000000;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text802Font1&quot;  &gt;&amp;nbsp;Romantismo &lt;/span &gt;&lt;span class=&quot;text802Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs40\b  Romantismo \lang1046\hich\f1\loch\f1\cf3\fs18\b0\par}&#x0A;</rtf>
+<raw>? Romantismo </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="804" parent="795" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687802574</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="806" parent="795" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687802574</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="887" parent="40">
+<name>Página 5</name>
+<lastupdated>1689702648</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="888" parent="887" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687803952</lastupdated>
+<possize>
+<point>
+<x>506</x>
+<y>11</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>705</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text888Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text888Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text888Font2 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text888Font2 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text888Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text888Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text888Font1&quot;  &gt;O romance urbano&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text888Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text888Font2&quot;  &gt;Esse retrata, muitas vezes de forma crÃ­tica, a vida e os costumes da sociedade no Rio de Janeiro. Os enredos, na maioria das vezes, sÃ£o recheados de amores platÃ´nicos e puros, frutos de uma classe social sem problemas financeiros e, na maioria dos casos, estereotipada.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text888Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text888Font2&quot;  &gt;Dentre os autores, destacam-se: &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text888Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text888Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.192;position:relative;margin-left:22px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text888ArrowBulletFont10.png&apos;); padding-left:1px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text888Font2&quot;  &gt;Joaquim Manuel de Macedo: suas principais obras sÃ£o: A Moreninha; O Forasteiro; A Luneta MÃ¡gica; O MoÃ§o Loiro; As VÃ­timas-Algozes.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text888Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text888Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.192;position:relative;margin-left:22px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text888ArrowBulletFont10.png&apos;); padding-left:1px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text888Font2&quot;  &gt;Manuel AntÃ´nio de Almeida: sua principal obra Ã©: MemÃ³rias de um Sargento de MilÃ­cias.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text888Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text888Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.192;position:relative;margin-left:22px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text888ArrowBulletFont10.png&apos;); padding-left:1px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text888Font2&quot;  &gt;JosÃ© de Alencar, principal nome desse momento, suas principais obras sÃ£o: Senhora;EncarnaÃ§Ã£o; Diva; LucÃ­ola; A Viuvinha; A Pata da Gazela; Cinco Minutos.&lt;/span &gt;&lt;span class=&quot;text888Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs32\b O romance urbano\par\b0\par Esse retrata, muitas vezes de forma cr\&apos;edtica, a vida e os costumes da sociedade no Rio de Janeiro. Os enredos, na maioria das vezes, s\&apos;e3o recheados de amores plat\&apos;f4nicos &#x0A;e puros, frutos de uma classe social sem problemas financeiros e, na maioria dos casos, estereotipada.\par\par Dentre os autores, destacam-se: \par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs32 &#x0A;Joaquim Manuel de Macedo: suas principais obras s\&apos;e3o: A Moreninha; O Forasteiro; A Luneta M\&apos;e1gica; O Mo\&apos;e7o Loiro; As V\&apos;edtimas-Algozes.\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs32\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs32 Manuel Ant\&apos;f4nio de Almeida: sua principal obra \&apos;e9: Mem\&apos;f3rias de um Sargento de Mil\&apos;edcias.\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs32\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs32 Jos\&apos;e9 de Alencar, principal nome desse momento, suas principais obras s\&apos;e3o: Senhora;Encarna\&apos;e7\&apos;e3o; Diva; Luc\&apos;edola; A Viuvinha; A Pata da Gazela; Cinco Minutos\lang1046\hich\f2\loch\f2 &#x0A;.\lang1046\hich\f2\loch\f2\fs28\par}&#x0A;</rtf>
+<raw>?O romance urbano&#x0A;&#x0A;Esse retrata, muitas vezes de forma cr�tica, a vida e os costumes da sociedade no Rio de Janeiro. Os enredos, na maioria das vezes, s�o recheados de amores plat�nicos e puros, frutos de uma classe social sem problemas financeiros e, na maioria dos casos, estereotipada.&#x0A;&#x0A;Dentre os autores, destacam-se: &#x0A;&#x0A;Joaquim Manuel de Macedo: suas principais obras s�o: A Moreninha; O Forasteiro; A Luneta M�gica; O Mo�o Loiro; As V�timas-Algozes.&#x0A;&#x0A;Manuel Ant�nio de Almeida: sua principal obra �: Mem�rias de um Sargento de Mil�cias.&#x0A;&#x0A;Jos� de Alencar, principal nome desse momento, suas principais obras s�o: Senhora;Encarna��o; Diva; Luc�ola; A Viuvinha; A Pata da Gazela; Cinco Minutos.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>16</size>
+<color>8421504</color>
+<name>text888ArrowBulletFont10.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>25</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="889" parent="887" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687804020</lastupdated>
+<possize>
+<point>
+<x>23</x>
+<y>123</y>
+</point>
+<size>
+<cx>463</cx>
+<cy>479</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text889Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text889Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text889Font1&quot;  &gt;Romantismo no Brasil&lt;/span &gt;&lt;span class=&quot;text889Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text889Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text889Font2&quot;  &gt;O movimento romÃ¢ntico brasileiro teve como marco inicial a publicaÃ§Ã£o do livro &quot;Suspiros PoÃ©ticos e Saudades&quot;, de GonÃ§alves de MagalhÃ£es, em 1836.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text889Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text889Font2&quot;  &gt;Na poesia, Ã© possÃ­vel identificar ao menos trÃªs geraÃ§Ãµes do Romantismo brasileiro: os indianistas, os ultrarromÃ¢nticos e os condoreiros.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text889Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text889Font2&quot;  &gt;Na prosa, JosÃ© de Alencar foi o principal escritor, e suas obras retratam a sociedade brasileira em seus ambientes urbanos, rurais ou ainda mitolÃ³gicos como no caso dos romances &quot;Iracema&quot; e &quot;O Guarani&quot;, que buscam descrever o mito da criaÃ§Ã£o do povo brasileiro enquanto mistura entre Ã­ndios e europeus.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text889Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text889Font2&quot;  &gt;O romance brasileiro pode ser dividido em quatro tendÃªncias distintas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs32\b Romantismo no Brasil\fs28\b0\par\par O movimento rom\u226 \&apos;e2ntico brasileiro teve como marco inicial a publica\u231 \&apos;e7\u227 \&apos;e3o do livro &quot;Suspiros Po\u233 \&apos;e9ticos e Saudades&quot;, de Gon\u231 &#x0A;\&apos;e7alves de Magalh\u227 \&apos;e3es, em 1836.\par\par Na poesia, \u233 \&apos;e9 poss\u237 \&apos;edvel identificar ao menos tr\u234 \&apos;eas gera\u231 \&apos;e7\u245 \&apos;f5es do Romantismo brasileiro: os indianistas, os ultrarrom\u226 \&apos;e2nticos e os condoreiros.\par\par Na &#x0A;prosa, Jos\u233 \&apos;e9 de Alencar foi o principal escritor, e suas obras retratam a sociedade brasileira em seus ambientes urbanos, rurais ou ainda mitol\u243 \&apos;f3gicos como no caso dos romances &quot;Iracema&quot; e &quot;O Guarani&quot;, que buscam descrever o mito da cria\u231 &#x0A;\&apos;e7\u227 \&apos;e3o do povo brasileiro enquanto mistura entre \u237 \&apos;edndios e europeus.\par\par O romance brasileiro pode ser dividido em quatro tend\u234 \&apos;eancias distintas.\par}&#x0A;</rtf>
+<raw>?Romantismo no Brasil&#x0A;&#x0A;O movimento rom�ntico brasileiro teve como marco inicial a publica��o do livro &quot;Suspiros Po�ticos e Saudades&quot;, de Gon�alves de Magalh�es, em 1836.&#x0A;&#x0A;Na poesia, � poss�vel identificar ao menos tr�s gera��es do Romantismo brasileiro: os indianistas, os ultrarrom�nticos e os condoreiros.&#x0A;&#x0A;Na prosa, Jos� de Alencar foi o principal escritor, e suas obras retratam a sociedade brasileira em seus ambientes urbanos, rurais ou ainda mitol�gicos como no caso dos romances &quot;Iracema&quot; e &quot;O Guarani&quot;, que buscam descrever o mito da cria��o do povo brasileiro enquanto mistura entre �ndios e europeus.&#x0A;&#x0A;O romance brasileiro pode ser dividido em quatro tend�ncias distintas.</raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="890" parent="887">
+<name>Grupo_1</name>
+<lastupdated>1687803630</lastupdated>
+<shape id="892" parent="890" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687803630</lastupdated>
+<possize>
+<point>
+<x>31</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="894" parent="890" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687803630</lastupdated>
+<possize>
+<point>
+<x>50</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="896" parent="890" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687803630</lastupdated>
+<possize>
+<point>
+<x>70</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="897" parent="890" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687803630</lastupdated>
+<possize>
+<point>
+<x>23</x>
+<y>52</y>
+</point>
+<size>
+<cx>856</cx>
+<cy>47</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text897Font1 { font-size:27px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text897Font2 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#000000;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text897Font1&quot;  &gt;&amp;nbsp;Romantismo &lt;/span &gt;&lt;span class=&quot;text897Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs40\b  Romantismo \lang1046\hich\f1\loch\f1\cf3\fs18\b0\par}&#x0A;</rtf>
+<raw>? Romantismo </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="899" parent="890" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687803630</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="901" parent="890" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687803630</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="974" parent="40">
+<name>Página 6</name>
+<lastupdated>1689702650</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="975" parent="974" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687804296</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>78</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>571</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text975Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text975Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text975Font3 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text975Font1&quot;  &gt;O romance regionalista&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text975Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text975Font2&quot;  &gt;Nessa fase, o romance concentra-se em outra figura brasileira: o sertanejo. Na insistÃªncia nacionalista de buscar as raÃ­zes de nossa cultura, a figura do sertanejo, com suas crenÃ§as e tradiÃ§Ãµes, fez-se tÃ£o exÃ³tica quanto a do Ã­ndio.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text975Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text975Font2&quot;  &gt;Dentre os regionalistas, destacam-se, alÃ©m de JosÃ© de Alencar, Bernardo GuimarÃ£es, Visconde de Taunay e Franklin TÃ¡vora.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text975Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text975Font2&quot;  &gt;As principais obras que representam esse momento sÃ£o: O ErmitÃ£o de MuquÃ©m (1864) e O Garimpeiro (1872), de Bernardo GuimarÃ£es; InocÃªncia (1872), de Visconde de Taunay; O GaÃºcho (1870) e O Sertanejo (1875), de JosÃ© de Alencar; O Cabeleira (1876), Franklin TÃ¡vora.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text975Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text975Font1&quot;  &gt;O romance histÃ³rico&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text975Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text975Font2&quot;  &gt;Os romancistas brasileiros buscaram, em nossa histÃ³ria, temas que alimentassem os anseios romÃ¢nticos, de modo a acentuar ainda mais o nacionalismo exaltado que respirava a pÃ¡tria desde a independÃªncia.&lt;/span &gt;&lt;span class=&quot;text975Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs32\b O romance regionalista\par\par\fs28\b0 Nessa fase, o romance concentra-se em outra figura brasileira: o sertanejo. Na insist\&apos;eancia nacionalista de buscar as ra\&apos;edzes de nossa cultura, a figura &#x0A;do sertanejo, com suas cren\&apos;e7as e tradi\&apos;e7\&apos;f5es, fez-se t\&apos;e3o ex\&apos;f3tica quanto a do \&apos;edndio.\par\par Dentre os regionalistas, destacam-se, al\&apos;e9m de Jos\&apos;e9 de Alencar, Bernardo Guimar\&apos;e3es, Visconde de Taunay e Franklin T\&apos;e1vora.\par\par As &#x0A;principais obras que representam esse momento s\&apos;e3o: O Ermit\&apos;e3o de Muqu\&apos;e9m (1864) e O Garimpeiro (1872), de Bernardo Guimar\&apos;e3es; Inoc\&apos;eancia (1872), de Visconde de Taunay; O Ga\&apos;facho (1870) e O Sertanejo (1875), de Jos\&apos;e9 de Alencar; O Cabeleira &#x0A;(1876), Franklin T\&apos;e1vora.\par\par\fs32\b O romance hist\&apos;f3rico\par\fs28\b0\par Os romancistas brasileiros buscaram, em nossa hist\&apos;f3ria, temas que alimentassem os anseios rom\&apos;e2nticos, de modo a acentuar ainda mais o nacionalismo exaltado que respirava &#x0A;a p\&apos;e1tria desde a independ\&apos;eancia.\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?O romance regionalista&#x0A;&#x0A;Nessa fase, o romance concentra-se em outra figura brasileira: o sertanejo. Na insist�ncia nacionalista de buscar as ra�zes de nossa cultura, a figura do sertanejo, com suas cren�as e tradi��es, fez-se t�o ex�tica quanto a do �ndio.&#x0A;&#x0A;Dentre os regionalistas, destacam-se, al�m de Jos� de Alencar, Bernardo Guimar�es, Visconde de Taunay e Franklin T�vora.&#x0A;&#x0A;As principais obras que representam esse momento s�o: O Ermit�o de Muqu�m (1864) e O Garimpeiro (1872), de Bernardo Guimar�es; Inoc�ncia (1872), de Visconde de Taunay; O Ga�cho (1870) e O Sertanejo (1875), de Jos� de Alencar; O Cabeleira (1876), Franklin T�vora.&#x0A;&#x0A;O romance hist�rico&#x0A;&#x0A;Os romancistas brasileiros buscaram, em nossa hist�ria, temas que alimentassem os anseios rom�nticos, de modo a acentuar ainda mais o nacionalismo exaltado que respirava a p�tria desde a independ�ncia.</raw>
+<numoflines>26</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="976" parent="974" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687804136</lastupdated>
+<possize>
+<point>
+<x>17</x>
+<y>104</y>
+</point>
+<size>
+<cx>463</cx>
+<cy>563</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text976Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text976Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font1&quot;  &gt;O romance indianista&lt;/span &gt;&lt;span class=&quot;text976Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font2&quot;  &gt;Focaliza-se a figura do Ã­ndio. Enquanto o escritor europeu tinha seus cavaleiros medievais, o brasileiro sentiu a necessidade de resgatar, em nosso passado, um herÃ³i que melhor nos retratasse.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font2&quot;  &gt;Mesmo sendo algumas vezes retratado como se fosse um cavaleiro europeu da Idade MÃ©dia, a figura do Ã­ndio surge de forma imponente, com seus costumes e sua vida selvagem, mas cheia de virtudes.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font2&quot;  &gt;Nessa fase, tem destaque:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font2&quot;  &gt;Ã„ GonÃ§alves de MagalhÃ£es (1811-1882): suas principais obras sÃ£o: A ConfederaÃ§Ã£o de Tamoios (1857) e Os IndÃ­genas do Brasil perante a HistÃ³ria (1860).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font2&quot;  &gt;Ã„ GonÃ§alves Dias (1823-1864): suas principais obras sÃ£o: I-Juca-Pirama (1851), Os Timbiras (1857), CanÃ§Ã£o do Tamoio. Ã„ Jose de Alencar (1829-1877): principais obras desse perÃ­odo sÃ£o: O Guarani (1857), Iracema (1865) e Ubirajara (1874).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs32\b O romance indianista\fs28\b0\par\par Focaliza-se a figura do \&apos;edndio. Enquanto o escritor europeu tinha seus cavaleiros medievais, o brasileiro sentiu a necessidade de resgatar, em nosso passado, &#x0A;um her\&apos;f3i que melhor nos retratasse.\par\par Mesmo sendo algumas vezes retratado como se fosse um cavaleiro europeu da Idade M\&apos;e9dia, a figura do \&apos;edndio surge de forma imponente, com seus costumes e sua vida selvagem, mas cheia de virtudes.\par\par &#x0A;Nessa fase, tem destaque:\par\par \&apos;c4 Gon\&apos;e7alves de Magalh\&apos;e3es (1811-1882): suas principais obras s\&apos;e3o: A Confedera\&apos;e7\&apos;e3o de Tamoios (1857) e Os Ind\&apos;edgenas do Brasil perante a Hist\&apos;f3ria (1860).\par\par \&apos;c4 Gon\&apos;e7alves Dias (1823-1864): &#x0A;suas principais obras s\&apos;e3o: I-Juca-Pirama (1851), Os Timbiras (1857), Can\&apos;e7\&apos;e3o do Tamoio. \&apos;c4 Jose de Alencar (1829-1877): principais obras desse per\&apos;edodo s\&apos;e3o: O Guarani (1857), Iracema (1865) e Ubirajara (1874)\lang1046\hich\f2\loch\f2 .\lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?O romance indianista&#x0A;&#x0A;Focaliza-se a figura do �ndio. Enquanto o escritor europeu tinha seus cavaleiros medievais, o brasileiro sentiu a necessidade de resgatar, em nosso passado, um her�i que melhor nos retratasse.&#x0A;&#x0A;Mesmo sendo algumas vezes retratado como se fosse um cavaleiro europeu da Idade M�dia, a figura do �ndio surge de forma imponente, com seus costumes e sua vida selvagem, mas cheia de virtudes.&#x0A;&#x0A;Nessa fase, tem destaque:&#x0A;&#x0A;� Gon�alves de Magalh�es (1811-1882): suas principais obras s�o: A Confedera��o de Tamoios (1857) e Os Ind�genas do Brasil perante a Hist�ria (1860).&#x0A;&#x0A;� Gon�alves Dias (1823-1864): suas principais obras s�o: I-Juca-Pirama (1851), Os Timbiras (1857), Can��o do Tamoio. � Jose de Alencar (1829-1877): principais obras desse per�odo s�o: O Guarani (1857), Iracema (1865) e Ubirajara (1874).</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="977" parent="974">
+<name>Grupo_1</name>
+<lastupdated>1687803961</lastupdated>
+<shape id="979" parent="977" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687803961</lastupdated>
+<possize>
+<point>
+<x>31</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="981" parent="977" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687803961</lastupdated>
+<possize>
+<point>
+<x>50</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="983" parent="977" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687803961</lastupdated>
+<possize>
+<point>
+<x>70</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="984" parent="977" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687803961</lastupdated>
+<possize>
+<point>
+<x>23</x>
+<y>52</y>
+</point>
+<size>
+<cx>856</cx>
+<cy>47</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text984Font1 { font-size:27px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text984Font2 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#000000;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text984Font1&quot;  &gt;&amp;nbsp;Romantismo &lt;/span &gt;&lt;span class=&quot;text984Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs40\b  Romantismo \lang1046\hich\f1\loch\f1\cf3\fs18\b0\par}&#x0A;</rtf>
+<raw>? Romantismo </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="986" parent="977" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687803961</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="988" parent="977" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687803961</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1103" parent="40">
+<name>Página 7</name>
+<lastupdated>1689702653</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1104" parent="1103" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687804578</lastupdated>
+<possize>
+<point>
+<x>16</x>
+<y>479</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>84</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1104Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1104Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1104Font1&quot;  &gt;Nos prÃ³ximos tÃ³picos, veremos as trÃªs importantes fases em que essa gama de temas foi dividido.&lt;/span &gt;&lt;span class=&quot;text1104Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Nos pr\&apos;f3ximos t\&apos;f3picos, veremos as tr\&apos;eas importantes fases em que essa gama de temas foi dividido.\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Nos pr�ximos t�picos, veremos as tr�s importantes fases em que essa gama de temas foi dividido.</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="1105" parent="1103" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687804405</lastupdated>
+<possize>
+<point>
+<x>17</x>
+<y>104</y>
+</point>
+<size>
+<cx>463</cx>
+<cy>424</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1105Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1105Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1105Font1&quot;  &gt;O romance indianista&lt;/span &gt;&lt;span class=&quot;text1105Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1105Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1105Font2&quot;  &gt;Evidenciam-se nessa etapa, Bernardo GuimarÃ£es e, mais uma vez, JosÃ© de Alencar.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1105Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1105Font2&quot;  &gt;As obras que se destacaram, nesse perÃ­odo, foram: As Minas de Prata (1865), de JosÃ© de Alencar; O Tempo e o Vento (Trilogia: O Continente (1949), O Retrato (1951) e O ArquipÃ©lago (1961-62), de Ã‰rico VerÃ­ssimo; Mad Maria (1980), de MÃ¡rcio Souza; Viva o Povo Brasileiro (1984) de JoÃ£o Ubaldo Ribeiro, Boca do Inferno (1989), de Ana Miranda.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1105Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1105Font2&quot;  &gt;A poesia brasileira se desenvolveu no Brasil de uma forma muito criativa e rica em temas e imagens, apesar de muitas vezes nÃ£o passar de mera influÃªncia ou cÃ³pia de poetas europeus.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs32\b O romance indianista\fs28\b0\par\par\lang1046\hich\f2\loch\f2 Evidenciam-se nessa etapa, Bernardo Guimar\&apos;e3es e, mais uma vez, Jos\&apos;e9 de Alencar.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 &#x0A;As obras que se destacaram, nesse per\&apos;edodo, foram: As Minas de Prata (1865), de Jos\&apos;e9 de Alencar; O Tempo e o Vento (Trilogia: O Continente (1949), O Retrato (1951) e O Arquip\&apos;e9lago (1961-62), de \&apos;c9rico Ver\&apos;edssimo; Mad Maria (1980), de M\&apos;e1rcio &#x0A;Souza; Viva o Povo Brasileiro (1984) de Jo\&apos;e3o Ubaldo Ribeiro, Boca do Inferno (1989), de Ana Miranda.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 A poesia brasileira se desenvolveu no Brasil de uma forma muito criativa e rica em temas &#x0A;e imagens, apesar de muitas vezes n\&apos;e3o passar de mera influ\&apos;eancia ou c\&apos;f3pia de poetas europeus.\lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?O romance indianista&#x0A;&#x0A;Evidenciam-se nessa etapa, Bernardo Guimar�es e, mais uma vez, Jos� de Alencar.&#x0A;&#x0A;As obras que se destacaram, nesse per�odo, foram: As Minas de Prata (1865), de Jos� de Alencar; O Tempo e o Vento (Trilogia: O Continente (1949), O Retrato (1951) e O Arquip�lago (1961-62), de �rico Ver�ssimo; Mad Maria (1980), de M�rcio Souza; Viva o Povo Brasileiro (1984) de Jo�o Ubaldo Ribeiro, Boca do Inferno (1989), de Ana Miranda.&#x0A;&#x0A;A poesia brasileira se desenvolveu no Brasil de uma forma muito criativa e rica em temas e imagens, apesar de muitas vezes n�o passar de mera influ�ncia ou c�pia de poetas europeus.</raw>
+<numoflines>17</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="1106" parent="1103">
+<name>Grupo_1</name>
+<lastupdated>1687804563</lastupdated>
+<shape id="1108" parent="1106" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687804563</lastupdated>
+<possize>
+<point>
+<x>31</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1110" parent="1106" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687804563</lastupdated>
+<possize>
+<point>
+<x>50</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1112" parent="1106" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687804563</lastupdated>
+<possize>
+<point>
+<x>70</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1113" parent="1106" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687804563</lastupdated>
+<possize>
+<point>
+<x>23</x>
+<y>52</y>
+</point>
+<size>
+<cx>856</cx>
+<cy>47</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1113Font1 { font-size:27px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text1113Font2 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#000000;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1113Font1&quot;  &gt;&amp;nbsp;Romantismo &lt;/span &gt;&lt;span class=&quot;text1113Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs40\b  Romantismo \lang1046\hich\f1\loch\f1\cf3\fs18\b0\par}&#x0A;</rtf>
+<raw>? Romantismo </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1115" parent="1106" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687804563</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1117" parent="1106" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687804563</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

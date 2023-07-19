@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>3182</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="157" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="180" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="3178" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="3179" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="75">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 1 - Artes</name>
+<lastupdated>1687271508</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="74" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1686160034</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1686160034</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1686160034</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="75" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1686160034</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="70" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1686160034</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="69" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1686160034</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="67" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1686160034</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="68" parent="67" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686160024</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="61" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1686160034</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="62" parent="61" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686160024</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="53" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1686160034</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="54" parent="53" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1686160024</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="55" parent="53" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1686160024</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="56" parent="53" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1686160024</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="53">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="153" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1687271508</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="3163" parent="153">
+<name>Página 0</name>
+<lastupdated>1689691963</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="3164" parent="3163">
+<name>Grupo_1</name>
+<lastupdated>1689691963</lastupdated>
+<image id="3166" parent="3164" resource="3178" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689691963</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="3168" parent="3164" resource="3179" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689691963</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="3169" parent="3164" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689691963</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text3169Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text3169Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text3169Font1&quot;  &gt;Aula 1&lt;/span &gt;&lt;span class=&quot;text3169Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 1\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 1</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="3171" parent="3164" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689691963</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="3173" parent="3164" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689691963</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="3175" parent="3164" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689691963</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="3177" parent="3164" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689691963</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="2" parent="153">
+<name>Página 1</name>
+<lastupdated>1687270386</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="349" parent="2" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687270385</lastupdated>
+<possize>
+<point>
+<x>525</x>
+<y>84</y>
+</point>
+<size>
+<cx>437</cx>
+<cy>625</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text349Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text349Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#000000; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text349Font1&quot;  &gt;Desde o princÃ­pio da filosofia, as perguntas sobre o funcionamento do universo, seus fundamentos e as relaÃ§Ãµes entre os diversos seres que o povoam impulsionaram Ã  filosofia a teorizar, ou seja, tentar explicar algo de maneira coerente e coesa por meio de teoria. Essas perguntas que impulsionaram a filosofia tambÃ©m impulsionam a ciÃªncia em suas investigaÃ§Ãµes.Contudo hÃ¡ uma diferenÃ§a. A teoria filosÃ³fica Ã© feita apenas com uma estrutura de ideias que nÃ£o precisa necessariamente de dados empÃ­ricos, como requer a teoria cientÃ­fica. FaÃ§amos uma comparaÃ§Ã£o. Um filÃ³sofo pode teorizar sobre Ã s implicaÃ§Ãµes Ã©ticas da poluiÃ§Ã£o do nosso planeta,como tal fato agride Ã  dignidade da vida humana e das demais formas de vida. JÃ¡ o cientista ao teorizar sobre a poluiÃ§Ã£o do nosso planeta, necessita de dados empÃ­ricos (ex. medir a quantidade de concentraÃ§Ã£o de C02 na atmosfera, detectar quais sÃ£o os resÃ­duos quÃ­micos poluentes mais detectados nas Ã¡guas dos oceanos etc.). Dessa maneira, podemos compreender a teoria filosÃ³fica como uma busca pelo &quot;porque&quot; nÃ£o devemos poluir o planeta. JÃ¡ a teoria cientÃ­fica pela busca do &quot;como&quot; podemos criar meios para combater a poluiÃ§Ã£o do planeta. Por isso, a filosofia Ã© considerada, em&lt;/span &gt;&lt;span class=&quot;text349Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;\red128\green128\blue128 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Desde o princ\u237 \&apos;edpio da filosofia, as perguntas sobre o funcionamento do universo, seus fundamentos e as rela\u231 \&apos;e7\u245 \&apos;f5es entre os diversos seres que o povoam impulsionaram \u224 \&apos;e0 filosofia &#x0A;a teorizar, ou seja, tentar explicar algo de maneira coerente e coesa por meio de teoria. Essas perguntas que impulsionaram a filosofia tamb\u233 \&apos;e9m impulsionam a ci\u234 \&apos;eancia em suas investiga\u231 \&apos;e7\u245 \&apos;f5es.Contudo h\u225 \&apos;e1 uma diferen\u231 &#x0A;\&apos;e7a. A teoria filos\u243 \&apos;f3fica \u233 \&apos;e9 feita apenas com uma estrutura de ideias que n\u227 \&apos;e3o precisa necessariamente de dados emp\u237 \&apos;edricos, como requer a teoria cient\u237 \&apos;edfica. Fa\u231 \&apos;e7amos uma compara\u231 \&apos;e7\u227 \&apos;e3o. &#x0A;Um fil\u243 \&apos;f3sofo pode teorizar sobre \u224 \&apos;e0s implica\u231 \&apos;e7\u245 \&apos;f5es \u233 \&apos;e9ticas da polui\u231 \&apos;e7\u227 \&apos;e3o do nosso planeta,como tal fato agride \u224 \&apos;e0 dignidade da vida humana e das demais formas de vida. J\u225 \&apos;e1 o cientista &#x0A;ao teorizar sobre a polui\u231 \&apos;e7\u227 \&apos;e3o do nosso planeta, necessita de dados emp\u237 \&apos;edricos (ex. medir a quantidade de concentra\u231 \&apos;e7\u227 \&apos;e3o de C02 na atmosfera, detectar quais s\u227 \&apos;e3o os res\u237 \&apos;edduos qu\u237 \&apos;edmicos poluentes &#x0A;mais detectados nas \u225 \&apos;e1guas dos oceanos etc.). Dessa maneira, podemos compreender a teoria filos\u243 \&apos;f3fica como uma busca pelo &quot;porque&quot; n\u227 \&apos;e3o devemos poluir o planeta. J\u225 \&apos;e1 a teoria cient\u237 \&apos;edfica pela busca do &quot;como&quot; podemos &#x0A;criar meios para combater a polui\u231 \&apos;e7\u227 \&apos;e3o do planeta. Por isso, a filosofia \u233 \&apos;e9 considerada, em\cf3\fs36\b\par\ltrpar\qj\plain\f1\fs24\cf4\fs44\par}&#x0A;</rtf>
+<raw>?Desde o princ�pio da filosofia, as perguntas sobre o funcionamento do universo, seus fundamentos e as rela��es entre os diversos seres que o povoam impulsionaram � filosofia a teorizar, ou seja, tentar explicar algo de maneira coerente e coesa por meio de teoria. Essas perguntas que impulsionaram a filosofia tamb�m impulsionam a ci�ncia em suas investiga��es.Contudo h� uma diferen�a. A teoria filos�fica � feita apenas com uma estrutura de ideias que n�o precisa necessariamente de dados emp�ricos, como requer a teoria cient�fica. Fa�amos uma compara��o. Um fil�sofo pode teorizar sobre �s implica��es �ticas da polui��o do nosso planeta,como tal fato agride � dignidade da vida humana e das demais formas de vida. J� o cientista ao teorizar sobre a polui��o do nosso planeta, necessita de dados emp�ricos (ex. medir a quantidade de concentra��o de C02 na atmosfera, detectar quais s�o os res�duos qu�micos poluentes mais detectados nas �guas dos oceanos etc.). Dessa maneira, podemos compreender a teoria filos�fica como uma busca pelo &quot;porque&quot; n�o devemos poluir o planeta. J� a teoria cient�fica pela busca do &quot;como&quot; podemos criar meios para combater a polui��o do planeta. Por isso, a filosofia � considerada, em&#x0A;</raw>
+<numoflines>27</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="302" parent="2" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687270385</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>123</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>510</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text302Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text302Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#000000;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text302Font1&quot;  &gt;O significado da palavra filosofia deriva da junÃ§Ã£o de duas palavras gregas, philos (amizade) e sophia (sabedoria), por isso, filosofia Ã© o amor Ã  sabedoria e o filÃ³sofo, consequentemente, seria um amigo do saber. Para alÃ©m do significado da palavra, quando se pretende aprofundar no entendimento das qualidades e atribuiÃ§Ãµes da filosofia, surgem diversas definiÃ§Ãµes, havendo uma grande diversidade de concepÃ§Ãµes, que foram historicamente construÃ­das a partir da reflexÃ£o de muitos filÃ³sofos e filÃ³sofas. Vejamos a seguir algumas definiÃ§Ãµes:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text302Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text302Font1&quot;  &gt;&quot;A filosofia nÃ£o Ã© (...) senÃ£o uma atividade de conhecimento teorÃ©tico, uma teoria do Universo&quot;. (Ortega e Gasset)&lt;/span &gt;&lt;span class=&quot;text302Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 O significado da palavra filosofia deriva da jun\&apos;e7\&apos;e3o de duas palavras gregas, philos (amizade) e sophia (sabedoria), por isso, filosofia \&apos;e9 o amor \&apos;e0 sabedoria e o fil\&apos;f3sofo, consequentemente, &#x0A;seria um amigo do saber. Para al\&apos;e9m do significado da palavra, quando se pretende aprofundar no entendimento das qualidades e atribui\&apos;e7\&apos;f5es da filosofia, surgem diversas defini\&apos;e7\&apos;f5es, havendo uma grande diversidade de concep\&apos;e7\&apos;f5es, que foram &#x0A;historicamente constru\&apos;eddas a partir da reflex\&apos;e3o de muitos fil\&apos;f3sofos e fil\&apos;f3sofas. Vejamos a seguir algumas defini\&apos;e7\&apos;f5es:\par\par &quot;A filosofia n\u227 \&apos;e3o \u233 \&apos;e9 (...) sen\u227 \&apos;e3o uma atividade de conhecimento teor\u233 \&apos;e9tico, &#x0A;uma teoria do Universo&quot;. (Ortega e Gasset)\cf3\par}&#x0A;</rtf>
+<raw>?O significado da palavra filosofia deriva da jun��o de duas palavras gregas, philos (amizade) e sophia (sabedoria), por isso, filosofia � o amor � sabedoria e o fil�sofo, consequentemente, seria um amigo do saber. Para al�m do significado da palavra, quando se pretende aprofundar no entendimento das qualidades e atribui��es da filosofia, surgem diversas defini��es, havendo uma grande diversidade de concep��es, que foram historicamente constru�das a partir da reflex�o de muitos fil�sofos e fil�sofas. Vejamos a seguir algumas defini��es:&#x0A;&#x0A;&quot;A filosofia n�o � (...) sen�o uma atividade de conhecimento teor�tico, uma teoria do Universo&quot;. (Ortega e Gasset)</raw>
+<numoflines>16</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="263" parent="2" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686160400</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="261" parent="2" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686160400</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="259" parent="2" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686160400</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="242" parent="2" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687270386</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text242Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text242Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#29b9a2; font-weight:bold;}&#x0A;span.text242Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#000000;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text242Font1&quot;  &gt;O que &lt;/span &gt;&lt;span class=&quot;text242Font2&quot;  &gt;Ã© Filosofia &lt;/span &gt;&lt;span class=&quot;text242Font1&quot;  &gt;?&lt;/span &gt;&lt;span class=&quot;text242Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b O que \cf3 \&apos;e9 Filosofia \cf2 ?\cf4\fs28\b0\par}&#x0A;</rtf>
+<raw>?O que � Filosofia ?</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="181" parent="2" resource="180" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686160115</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="158" parent="2" resource="157" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686160095</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="435" parent="153">
+<name>Página 2</name>
+<lastupdated>1687270697</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="2488" parent="435" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687270697</lastupdated>
+<possize>
+<point>
+<x>520</x>
+<y>111</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>391</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2488Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text2488Font2 { font-size:11px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2488Font1&quot;  &gt;Conceitos sÃ£o ideias e o ato de conceituar se caracteriza como um esforÃ§o de organizar ideias sobre um determinado objeto. Para efeito de elucidaÃ§Ã£o, tomamos o ser humano como, exemplo. Para conceituarmos o que Ã© o ser humano temos que traÃ§ar as caracterÃ­sticas fundamentais (ideias) que o identifica e o distingui dos demais seres: ele Ã© animal, mamÃ­fero, bÃ­pede e racional, ou seja, nÃ£o tem suas aÃ§Ãµes determinadas pelos instintos, como Ã© o caso dos outros animais. AlÃ©m de conceituar coisas (seres) tambÃ©m Ã© possÃ­vel conceituar sentimentos e valores. Amor, justiÃ§a, beleza e verdade sÃ£o exemplos de conceitos que a reflexÃ£o filosÃ³fica investiga e remodela constantemente. Sendo assim, a filosofia cria e utiliza os conceitos como ferramentas para fazer seu trabalho de refletir, criticar e analisar.&#x0D;&lt;/span &gt;&lt;span class=&quot;text2488Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Conceitos s\&apos;e3o ideias e o ato de conceituar se caracteriza como um esfor\&apos;e7o de organizar ideias sobre um determinado objeto. Para efeito de elucida\&apos;e7\&apos;e3o, tomamos o ser humano como, exemplo. &#x0A;Para conceituarmos o que \&apos;e9 o ser humano temos que tra\&apos;e7ar as caracter\&apos;edsticas fundamentais (ideias) que o identifica e o distingui dos demais seres: ele \&apos;e9 animal, mam\&apos;edfero, b\&apos;edpede e racional, ou seja, n\&apos;e3o tem suas a\&apos;e7\&apos;f5es determinadas &#x0A;pelos instintos, como \&apos;e9 o caso dos outros animais. Al\&apos;e9m de conceituar coisas (seres) tamb\&apos;e9m \&apos;e9 poss\&apos;edvel conceituar sentimentos e valores. Amor, justi\&apos;e7a, beleza e verdade s\&apos;e3o exemplos de conceitos que a reflex\&apos;e3o filos\&apos;f3fica investiga &#x0A;e remodela constantemente. Sendo assim, a filosofia cria e utiliza os conceitos como ferramentas para fazer seu trabalho de refletir, criticar e analisar.\&apos;0d\fs16\par\fs20\par}&#x0A;</rtf>
+<raw>?Conceitos s?o ideias e o ato de conceituar se caracteriza como um esfor?o de organizar ideias sobre um determinado objeto. Para efeito de elucida??o, tomamos o ser humano como, exemplo. Para conceituarmos o que ? o ser humano temos que tra?ar as caracter?sticas fundamentais (ideias) que o identifica e o distingui dos demais seres: ele ? animal, mam?fero, b?pede e racional, ou seja, n?o tem suas a??es determinadas pelos instintos, como ? o caso dos outros animais. Al?m de conceituar coisas (seres) tamb?m ? poss?vel conceituar sentimentos e valores. Amor, justi?a, beleza e verdade s?o exemplos de conceitos que a reflex?o filos?fica investiga e remodela constantemente. Sendo assim, a filosofia cria e utiliza os conceitos como ferramentas para fazer seu trabalho de refletir, criticar e analisar.&#x0A;</raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="453" parent="435" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687270613</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>112</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>565</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text453Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text453Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text453Font4 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text453Font5 { font-size:48px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text453Font1&quot;  &gt;uma de suas definiÃ§Ãµes, como um conhecimento teorÃ©tico enquanto Ã  ciÃªncia um conhecimento tÃ©cnico/empÃ­rico. NÃ£o hÃ¡ superioridade da filosofia em relaÃ§Ã£o Ã  ciÃªncia e vice e versa. Apenas sÃ£o campos de saberes distintos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text453Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text453Font1&quot;  &gt;&quot;Filosofar Ã© aprender a morrer&quot; (Michel de Montaigne)&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text453Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text453Font1&quot;  &gt;HÃ¡ vÃ¡rias caracterÃ­sticas do ser humanos e o distingue dos demais. Uma dessas caracterÃ­sticas Ã© saber que vai morrer, que sua vida Ã© finita. O animal, guiado apenas por seus instintos, apenas vive sem muita preocupaÃ§Ã£o com o fim de seu ciclo biolÃ³gico. As mÃ¡quinas produzem, nÃ£o questionam o porquÃª fazem tais atividades e nÃ£o sabem quando se tornaram obsoletas. O ser humano Ã© diferente. Por saber que sua vida terÃ¡ um fim, busca dar um sentido para ela. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.164&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:0.850;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text453Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text453Font1&quot;  &gt;&quot;A filosofia, mais rigorosamente, Ã© a disciplina que consiste em criar conceitos&quot; (Gilles Deleuze e FÃ©lix Guattari).&lt;/span &gt;&lt;span class=&quot;text453Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 uma de suas defini\u231 \&apos;e7\u245 \&apos;f5es, como um conhecimento teor\u233 \&apos;e9tico enquanto \u224 \&apos;e0 ci\u234 \&apos;eancia um conhecimento t\u233 \&apos;e9cnico/emp\u237 \&apos;edrico. N\u227 \&apos;e3o h\u225 \&apos;e1 &#x0A;superioridade da filosofia em rela\u231 \&apos;e7\u227 \&apos;e3o \u224 \&apos;e0 ci\u234 \&apos;eancia e vice e versa. Apenas s\u227 \&apos;e3o campos de saberes distintos.\par\par &quot;Filosofar \u233 \&apos;e9 aprender a morrer&quot; (Michel de Montaigne)\par\cf3\par\cf2 H\u225 \&apos;e1 v\u225 &#x0A;\&apos;e1rias caracter\u237 \&apos;edsticas do ser humanos e o distingue dos demais. Uma dessas caracter\u237 \&apos;edsticas \u233 \&apos;e9 saber que vai morrer, que sua vida \u233 \&apos;e9 finita. O animal, guiado apenas por seus instintos, apenas vive sem muita preocupa\u231 &#x0A;\&apos;e7\u227 \&apos;e3o com o fim de seu ciclo biol\u243 \&apos;f3gico. As m\u225 \&apos;e1quinas produzem, n\u227 \&apos;e3o questionam o porqu\u234 \&apos;ea fazem tais atividades e n\u227 \&apos;e3o sabem quando se tornaram obsoletas. O ser humano \u233 \&apos;e9 diferente. Por saber que &#x0A;sua vida ter\u225 \&apos;e1 um fim, busca dar um sentido para ela. \lang1046\hich\f2\loch\f2\par\fs18\par\lang1046\hich\f2\loch\f2\fs28 &quot;A filosofia, mais rigorosamente, \u233 \&apos;e9 a disciplina que consiste em criar conceitos&quot; (Gilles Deleuze e F\u233 \&apos;e9lix &#x0A;Guattari).\cf3\fs72\par\fs44\par\pard\s0\ql\plain\f1\fs24\hich\f2\loch\f2\cf3\fs28\par}&#x0A;</rtf>
+<raw>?uma de suas defini??es, como um conhecimento teor?tico enquanto ? ci?ncia um conhecimento t?cnico/emp?rico. N?o h? superioridade da filosofia em rela??o ? ci?ncia e vice e versa. Apenas s?o campos de saberes distintos.&#x0A;&quot;Filosofar ? aprender a morrer&quot; (Michel de Montaigne)&#x0A;H? v?rias caracter?sticas do ser humanos e o distingue dos demais. Uma dessas caracter?sticas ? saber que vai morrer, que sua vida ? finita. O animal, guiado apenas por seus instintos, apenas vive sem muita preocupa??o com o fim de seu ciclo biol?gico. As m?quinas produzem, n?o questionam o porqu? fazem tais atividades e n?o sabem quando se tornaram obsoletas. O ser humano ? diferente. Por saber que sua vida ter? um fim, busca dar um sentido para ela. &#x0A;&quot;A filosofia, mais rigorosamente, ? a disciplina que consiste em criar conceitos&quot; (Gilles Deleuze e F?lix Guattari).&#x0A;</raw>
+<numoflines>26</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="452" parent="435" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686160539</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="450" parent="435" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686160539</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="448" parent="435" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686160539</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="446" parent="435" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687270386</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>584</cx>
+<cy>50</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text446Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text446Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#29b9a2; font-weight:bold;}&#x0A;span.text446Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#000000;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text446Font1&quot;  &gt;O que Ã© &lt;/span &gt;&lt;span class=&quot;text446Font2&quot;  &gt;Filosofia &lt;/span &gt;&lt;span class=&quot;text446Font1&quot;  &gt;?&lt;/span &gt;&lt;span class=&quot;text446Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b O que \&apos;e9 \cf3 Filosofia \cf2 ?\cf4\fs28\b0\par}&#x0A;</rtf>
+<raw>?O que ? Filosofia ?</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="445" parent="435" resource="180" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686160513</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="443" parent="435" resource="157" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686160513</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="906" parent="153">
+<name>Página 3</name>
+<lastupdated>1687271212</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="2595" parent="906" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687271186</lastupdated>
+<possize>
+<point>
+<x>39</x>
+<y>124</y>
+</point>
+<size>
+<cx>405</cx>
+<cy>175</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2595Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text2595Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2595Font1&quot;  &gt;Ser filÃ³sofo nÃ£o Ã© uma profissÃ£o e tambÃ©m nÃ£o requer tÃ­tulo acadÃªmico. A atividade de filosofar pertence a todos os seres humanos. Portanto, somos todos, em maior ou menor grau, filÃ³sofos e filÃ³sofas. Contudo, para se tornar, especificamente, um professor de filosofia ou um pesquisadorem filosofia, ou seja, profissionais do campo da educaÃ§Ã£o, Ã© necessÃ¡ria formaÃ§Ã£o acadÃªmica que confira titulaÃ§Ã£o para o exercÃ­cio da profissÃ£o&lt;/span &gt;&lt;span class=&quot;text2595Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ql\hich\f2\loch\f2\cf2\fs22\b Ser fil\&apos;f3sofo n\&apos;e3o \&apos;e9 uma profiss\&apos;e3o e tamb\&apos;e9m n\&apos;e3o requer t\&apos;edtulo acad\&apos;eamico. A atividade de filosofar pertence a todos os seres humanos. Portanto, somos todos, em maior ou menor grau, &#x0A;fil\&apos;f3sofos e fil\&apos;f3sofas. Contudo, para se tornar, especificamente, um professor de filosofia ou um pesquisadorem filosofia, ou seja, profissionais do campo da educa\&apos;e7\&apos;e3o, \&apos;e9 necess\&apos;e1ria forma\&apos;e7\&apos;e3o acad\&apos;eamica que confira titula\&apos;e7\&apos;e3o &#x0A;para o exerc\&apos;edcio da profiss\&apos;e3o\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Ser fil?sofo n?o ? uma profiss?o e tamb?m n?o requer t?tulo acad?mico. A atividade de filosofar pertence a todos os seres humanos. Portanto, somos todos, em maior ou menor grau, fil?sofos e fil?sofas. Contudo, para se tornar, especificamente, um professor de filosofia ou um pesquisadorem filosofia, ou seja, profissionais do campo da educa??o, ? necess?ria forma??o acad?mica que confira titula??o para o exerc?cio da profiss?o</raw>
+<numoflines>9</numoflines>
+<numpubbullets>0</numpubbullets>
+<bgcolor>F9CB9C</bgcolor>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="2594" parent="906" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Rectangle 15</name>
+<lastupdated>1687270823</lastupdated>
+<possize>
+<point>
+<x>31</x>
+<y>156</y>
+</point>
+<size>
+<cx>6</cx>
+<cy>63</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Calibri;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf2\cb1\ulc2 Normal;}{\cs1\cf2\cb1\ulc2 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qc\hich\f2\loch\f2\cf1\fs28  \par}&#x0A;</rtf>
+<raw>? </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<bgcolor>085394</bgcolor>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="1193" parent="906" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686162917</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1191" parent="906" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686162917</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1189" parent="906" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686162917</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1187" parent="906" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687270729</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>584</cx>
+<cy>50</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1187Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text1187Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#29b9a2; font-weight:bold;}&#x0A;span.text1187Font3 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1187Font1&quot;  &gt;O que Ã© &lt;/span &gt;&lt;span class=&quot;text1187Font2&quot;  &gt;Filosofia &lt;/span &gt;&lt;span class=&quot;text1187Font1&quot;  &gt;?&lt;/span &gt;&lt;span class=&quot;text1187Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf3\fs56\b O que \&apos;e9 \cf4 Filosofia \cf3 ?\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?O que ? Filosofia ?</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="957" parent="906" resource="180" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686162590</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="2630" parent="906" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687270994</lastupdated>
+<possize>
+<point>
+<x>525</x>
+<y>106</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>507</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2630Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text2630Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text2630Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text2630Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text2630Font7 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text2630Font7 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text2630Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text2630ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text2630Font2&quot;  &gt;Gnosiologia&lt;/span &gt;&lt;span class=&quot;text2630Font3&quot;  &gt; â€“ Estudo de como podemos conhecer, de outro modo, quais as condiÃ§Ãµes, mÃ©todos e processos para se conhecer. A pergunta que orienta as problemÃ¡ticas gnosiolÃ³gicas Ã©: &lt;/span &gt;&lt;span class=&quot;text2630Font2&quot;  &gt;Quais as condiÃ§Ãµes de possibilidade para conhecermos?&lt;/span &gt;&lt;span class=&quot;text2630Font3&quot;  &gt;Quando se indaga, por exemplo, acerca de um mÃ©todo de ensino que o professor estÃ¡ utilizando em suas aulas, surge uma pergunta gnosiolÃ³gica. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2630Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text2630Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text2630ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text2630Font2&quot;  &gt;Ã‰tica&lt;/span &gt;&lt;span class=&quot;text2630Font3&quot;  &gt; â€“ Estudo do agir humano, portanto, investiga as condutas e relaÃ§Ãµes humanas. A pergunta que direciona as problemÃ¡ticas Ã©ticas Ã©: &lt;/span &gt;&lt;span class=&quot;text2630Font2&quot;  &gt;Como Ã© o agir do ser humano?&lt;/span &gt;&lt;span class=&quot;text2630Font3&quot;  &gt; Por exemplo, quando se analisa a conduta de um mÃ©dico para com os pacientes temos um questionamento Ã©tico.&lt;/span &gt;&lt;span class=&quot;text2630Font7&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1687187935&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\hich\f2\loch\f2\cf2\fs28\b Gnosiologia\b0  \u8211 \&apos;96 Estudo de como podemos conhecer, de outro modo, quais as condi\u231 \&apos;e7\u245 \&apos;f5es, m\u233 \&apos;e9todos &#x0A;e processos para se conhecer. A pergunta que orienta as problem\u225 \&apos;e1ticas gnosiol\u243 \&apos;f3gicas \u233 \&apos;e9: \b Quais as condi\u231 \&apos;e7\u245 \&apos;f5es de possibilidade para conhecermos?\b0 Quando se indaga, por exemplo, acerca de um m\u233 \&apos;e9todo &#x0A;de ensino que o professor est\u225 \&apos;e1 utilizando em suas aulas, surge uma pergunta gnosiol\u243 \&apos;f3gica. \par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\b\u201 &#x0A;\&apos;c9tica\b0  \u8211 \&apos;96 Estudo do agir humano, portanto, investiga as condutas e rela\u231 \&apos;e7\u245 \&apos;f5es humanas. A pergunta que direciona as problem\u225 \&apos;e1ticas \u233 \&apos;e9ticas \u233 \&apos;e9: \b Como \u233 \&apos;e9 o agir do ser humano?\b0  Por exemplo, &#x0A;quando se analisa a conduta de um m\u233 \&apos;e9dico para com os pacientes temos um questionamento \u233 \&apos;e9tico.\fs18\par\pard\s0\ql\plain\f1\fs24\cf3\fs18\par}&#x0A;</rtf>
+<raw>?Gnosiologia ? Estudo de como podemos conhecer, de outro modo, quais as condi??es, m?todos e processos para se conhecer. A pergunta que orienta as problem?ticas gnosiol?gicas ?: Quais as condi??es de possibilidade para conhecermos?Quando se indaga, por exemplo, acerca de um m?todo de ensino que o professor est? utilizando em suas aulas, surge uma pergunta gnosiol?gica. &#x0A;?tica ? Estudo do agir humano, portanto, investiga as condutas e rela??es humanas. A pergunta que direciona as problem?ticas ?ticas ?: Como ? o agir do ser humano? Por exemplo, quando se analisa a conduta de um m?dico para com os pacientes temos um questionamento ?tico.&#x0A;</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8355711</color>
+<name>text2630ArrowBulletFont11.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8355711</color>
+<name>text2630ArrowBulletFont11.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8355711</color>
+<name>text2630ArrowBulletFont11.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>19</numoflines>
+<numpubbullets>3</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="2655" parent="906" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 16</name>
+<lastupdated>1687270880</lastupdated>
+<possize>
+<point>
+<x>23</x>
+<y>309</y>
+</point>
+<size>
+<cx>446</cx>
+<cy>319</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2655Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text2655Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text2655Font2 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text2655Font2 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text2655Font3 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text2655Font3 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text2655Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text2655Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text2655Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text2655Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text2655Font9 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text2655Font9 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2655Font1&quot;  &gt;Ãreas da filosofia &lt;/span &gt;&lt;span class=&quot;text2655Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2655Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2655Font4&quot;  &gt;A filosofia se inclina ao estudo de muitas temÃ¡ticas e problemas. Em geral, se divide a filosofia em cinco grandes Ã¡reas, sendo que dentro dessas hÃ¡ tambÃ©m subÃ¡reas. As cinco Ã¡reas sÃ£o:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2655Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:left;&quot; &gt;&#x0A;&lt;li  class=&quot;text2655Font4&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text2655ArrowBulletFont12.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text2655Font5&quot;  &gt;Ontologia&lt;/span &gt;&lt;span class=&quot;text2655Font4&quot;  &gt; â€“ Estudo da identidade do ser, ou seja, da essÃªncia (fundamento) de algo. A pergunta que guia as problemÃ¡ticas ontolÃ³gicas Ã©: &lt;/span &gt;&lt;span class=&quot;text2655Font5&quot;  &gt;o que Ã© o ser?&lt;/span &gt;&lt;span class=&quot;text2655Font4&quot;  &gt; Temos um exemplo de pergunta ontolÃ³gica quando nos perguntamos sobre a essÃªncia do ser humano, ou seja, estamos nos questionando sobre a essÃªncia de algo.&lt;/span &gt;&lt;span class=&quot;text2655Font9&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\b \&apos;c1reas da filosofia \fs22\par\b0\par\pard\s0\ql\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 A filosofia se inclina ao estudo de muitas tem\&apos;e1ticas e problemas. Em geral, se divide a filosofia em &#x0A;cinco grandes \&apos;e1reas, sendo que dentro dessas h\&apos;e1 tamb\&apos;e9m sub\&apos;e1reas. As cinco \&apos;e1reas s\&apos;e3o:\lang1046\hich\f2\loch\f2\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ql\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\b Ontologia\b0 &#x0A; \u8211 \&apos;96 Estudo da identidade do ser, ou seja, da ess\u234 \&apos;eancia (fundamento) de algo. A pergunta que guia as problem\u225 \&apos;e1ticas ontol\u243 \&apos;f3gicas \u233 \&apos;e9: \b o que \u233 \&apos;e9 o ser?\b0  Temos um exemplo de pergunta ontol\u243 \&apos;f3gica &#x0A;quando nos perguntamos sobre a ess\u234 \&apos;eancia do ser humano, ou seja, estamos nos questionando sobre a ess\u234 \&apos;eancia de algo.\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>??reas da filosofia &#x0A;A filosofia se inclina ao estudo de muitas tem?ticas e problemas. Em geral, se divide a filosofia em cinco grandes ?reas, sendo que dentro dessas h? tamb?m sub?reas. As cinco ?reas s?o:&#x0A;Ontologia ? Estudo da identidade do ser, ou seja, da ess?ncia (fundamento) de algo. A pergunta que guia as problem?ticas ontol?gicas ?: o que ? o ser? Temos um exemplo de pergunta ontol?gica quando nos perguntamos sobre a ess?ncia do ser humano, ou seja, estamos nos questionando sobre a ess?ncia de algo.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8355711</color>
+<name>text2655ArrowBulletFont12.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8355711</color>
+<name>text2655ArrowBulletFont12.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8355711</color>
+<name>text2655ArrowBulletFont12.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>15</numoflines>
+<numpubbullets>3</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="912" parent="906" resource="157" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686162541</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2599" parent="906" ontop="false" fixed="false" proportional="false">
+<name>object 28</name>
+<lastupdated>1687271212</lastupdated>
+<possize>
+<point>
+<x>416</x>
+<y>277</y>
+</point>
+<size>
+<cx>7</cx>
+<cy>15</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2597" parent="906" ontop="false" fixed="false" proportional="false">
+<name>object 27</name>
+<lastupdated>1687271212</lastupdated>
+<possize>
+<point>
+<x>399</x>
+<y>264</y>
+</point>
+<size>
+<cx>40</cx>
+<cy>35</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="1247" parent="153">
+<name>Página 4</name>
+<lastupdated>1687271332</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1331" parent="1247" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687271308</lastupdated>
+<possize>
+<point>
+<x>515</x>
+<y>100</y>
+</point>
+<size>
+<cx>462</cx>
+<cy>539</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1331Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text1331Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text1331Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text1331Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text1331Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text1331Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text1331Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text1331Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text1331Font6 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#000000; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text1331Font6 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#000000; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1331Font2&quot;  &gt;PerÃ­odos histÃ³ricos da filosofia&lt;/span &gt;&lt;span class=&quot;text1331Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1331Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1331Font4&quot;  &gt;A filosofia Ã© habitualmente dividida em quatro perÃ­odos histÃ³ricos, a saber, Filosofia Antiga, Filosofia Medieval, Filosofia Moderna e Filoso -&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1331Font4&quot;  &gt;fia ContemporÃ¢nea. Vale ressaltar a importÃ¢ncia de se estudar a filosofia de modo interdisciplinar, isto Ã©, estudÃ¡-la junto a histÃ³ria, a sociologia e a literatura, pois do mesmo que a filosofia auxilia no estudo destas disciplinas, elas tambÃ©m ajudam no estudo da filosofia. Conhecimentos de histÃ³_ria, por exemplo, sÃ£o muito importantes para o entendimento dos perÃ­odos filosÃ³ficos. Vejamos abaixo as caracterÃ­sticas fundamentais de cada perÃ­odo filosÃ³fico.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1331Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1331Font4&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1331ArrowBulletFont12.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1331Font5&quot;  &gt;Filosofia Antiga&lt;/span &gt;&lt;span class=&quot;text1331Font4&quot;  &gt; (sÃ©culo VII a.C. ao sÃ©culo V d.C.): Perdurou do florescimento das cidades gregas antigas atÃ© a queda do ImpÃ©rio Romano. Nesse perÃ­odo os esforÃ§os das reflexÃµes filosÃ³ficas se concentraram na investigaÃ§Ã£o acerca do princÃ­pio ou fundamento do universo e das condiÃ§Ãµes para o alcance da virtude no agir humano.&lt;/span &gt;&lt;span class=&quot;text1331Font6&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1687187935&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ql\hich\f2\loch\f2\cf2\fs36\b Per\&apos;edodos hist\&apos;f3ricos da filosofia\cf3\b0\par\par\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 A filosofia \&apos;e9 habitualmente dividida em quatro per\&apos;edodos hist\&apos;f3ricos, a saber, Filosofia Antiga, &#x0A;Filosofia Medieval, Filosofia Moderna e Filoso -\par fia Contempor\&apos;e2nea. Vale ressaltar a import\&apos;e2ncia de se estudar a filosofia de modo interdisciplinar, isto \&apos;e9, estud\&apos;e1-la junto a hist\&apos;f3ria, a sociologia e a literatura, pois do mesmo que &#x0A;a filosofia auxilia no estudo destas disciplinas, elas tamb\&apos;e9m ajudam no estudo da filosofia. Conhecimentos de hist\&apos;f3_ria, por exemplo, s\&apos;e3o muito importantes para o entendimento dos per\&apos;edodos filos\&apos;f3ficos. Vejamos abaixo as caracter\&apos;edsticas &#x0A;fundamentais de cada per\&apos;edodo filos\&apos;f3fico.\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\b Filosofia Antiga\b0  (s\&apos;e9culo VII a.C. ao s\&apos;e9culo V d.C.): Perdurou do florescimento &#x0A;das cidades gregas antigas at\&apos;e9 a queda do Imp\&apos;e9rio Romano. Nesse per\&apos;edodo os esfor\&apos;e7os das reflex\&apos;f5es filos\&apos;f3ficas se concentraram na investiga\&apos;e7\&apos;e3o acerca do princ\&apos;edpio ou fundamento do universo e das condi\&apos;e7\&apos;f5es para o alcance &#x0A;da virtude no agir humano.\cf4\fs36\par}&#x0A;</rtf>
+<raw>?Per?odos hist?ricos da filosofia&#x0A;A filosofia ? habitualmente dividida em quatro per?odos hist?ricos, a saber, Filosofia Antiga, Filosofia Medieval, Filosofia Moderna e Filoso -&#x0A;fia Contempor?nea. Vale ressaltar a import?ncia de se estudar a filosofia de modo interdisciplinar, isto ?, estud?-la junto a hist?ria, a sociologia e a literatura, pois do mesmo que a filosofia auxilia no estudo destas disciplinas, elas tamb?m ajudam no estudo da filosofia. Conhecimentos de hist?_ria, por exemplo, s?o muito importantes para o entendimento dos per?odos filos?ficos. Vejamos abaixo as caracter?sticas fundamentais de cada per?odo filos?fico.&#x0A;Filosofia Antiga (s?culo VII a.C. ao s?culo V d.C.): Perdurou do florescimento das cidades gregas antigas at? a queda do Imp?rio Romano. Nesse per?odo os esfor?os das reflex?es filos?ficas se concentraram na investiga??o acerca do princ?pio ou fundamento do universo e das condi??es para o alcance da virtude no agir humano.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8355711</color>
+<name>text1331ArrowBulletFont12.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>23</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1293" parent="1247" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687271261</lastupdated>
+<possize>
+<point>
+<x>26</x>
+<y>140</y>
+</point>
+<size>
+<cx>441</cx>
+<cy>498</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1293Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text1293Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text1293Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text1293Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text1293Font7 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text1293Font7 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1293Font4&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1293ArrowBulletFont12.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1293Font2&quot;  &gt;EstÃ©tica&lt;/span &gt;&lt;span class=&quot;text1293Font4&quot;  &gt; â€“ Estudo da manifestaÃ§Ã£o dos seres e de como eles impactam a percepÃ§Ã£o de outros seres que interagem com eles. A pergunta que guia as problemÃ¡ticas estÃ©ticas Ã©: Como Ã© a manifestaÃ§Ã£o do ser? Quando vÃ¡rias pessoas se reÃºnem em torno de uma obra de arte para apreciÃ¡-la pode surgir uma pergunta estÃ©tica: &lt;/span &gt;&lt;span class=&quot;text1293Font2&quot;  &gt;essa obra Ã© bela?&lt;/span &gt;&lt;span class=&quot;text1293Font4&quot;  &gt;Para alguns pode ser que sim, para outros nÃ£o. Depende de como cada pessoa teve sua percepÃ§Ã£o impactada.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1293Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1293Font4&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1293ArrowBulletFont12.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1293Font2&quot;  &gt;LÃ³gica&lt;/span &gt;&lt;span class=&quot;text1293Font4&quot;  &gt; â€“ Estudo da coerÃªncia do discurso, de outra maneira, de como determinado pensamento se estrutura. A pergunta que orienta as problemÃ¡ticas lÃ³gicas Ã©: &lt;/span &gt;&lt;span class=&quot;text1293Font2&quot;  &gt;Quais sÃ£o as condiÃ§Ãµes de possibilidade de um pensamento ser executado?&lt;/span &gt;&lt;span class=&quot;text1293Font4&quot;  &gt;Quando uma pessoa ao conversar com outra se expressa de maneira confusa ela pode ouvir o seguinte questionamento: &quot;O que vocÃª estÃ¡ me dizendo nÃ£o tem lÃ³gica&quot;. Essa Ã© uma pergunta lÃ³gica, pois tem como objetivo investigar a coerÃªncia de um discurso.&lt;/span &gt;&lt;span class=&quot;text1293Font7&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1687187935&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\hich\f2\loch\f2\cf2\fs28\b Est\u233 \&apos;e9tica\b0  \u8211 \&apos;96 Estudo da manifesta\u231 \&apos;e7\u227 \&apos;e3o dos seres e de como eles impactam a percep\u231 \&apos;e7\u227 \&apos;e3o &#x0A;de outros seres que interagem com eles. A pergunta que guia as problem\u225 \&apos;e1ticas est\u233 \&apos;e9ticas \u233 \&apos;e9: Como \u233 \&apos;e9 a manifesta\u231 \&apos;e7\u227 \&apos;e3o do ser? Quando v\u225 \&apos;e1rias pessoas se re\u250 \&apos;fanem em torno de uma obra de arte &#x0A;para apreci\u225 \&apos;e1-la pode surgir uma pergunta est\u233 \&apos;e9tica: \b essa obra \u233 \&apos;e9 bela?\b0 Para alguns pode ser que sim, para outros n\u227 \&apos;e3o. Depende de como cada pessoa teve sua percep\u231 \&apos;e7\u227 \&apos;e3o impactada.\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\b L\u243 \&apos;f3gica\b0  \u8211 \&apos;96 Estudo da coer\u234 \&apos;eancia do discurso, de outra maneira, de como determinado pensamento se estrutura. A pergunta que orienta as problem\u225 \&apos;e1ticas l\u243 &#x0A;\&apos;f3gicas \u233 \&apos;e9: \b Quais s\u227 \&apos;e3o as condi\u231 \&apos;e7\u245 \&apos;f5es de possibilidade de um pensamento ser executado?\b0 Quando uma pessoa ao conversar com outra se expressa de maneira confusa ela pode ouvir o seguinte questionamento: &quot;O que voc\u234 &#x0A;\&apos;ea est\u225 \&apos;e1 me dizendo n\u227 \&apos;e3o tem l\u243 \&apos;f3gica&quot;. Essa \u233 \&apos;e9 uma pergunta l\u243 \&apos;f3gica, pois tem como objetivo investigar a coer\u234 \&apos;eancia de um discurs\lang1046\hich\f2\loch\f2 o\lang1046\hich\f2\loch\f2 .\hich\f1\loch\f1\cf3\par}&#x0A;</rtf>
+<raw>?Est?tica ? Estudo da manifesta??o dos seres e de como eles impactam a percep??o de outros seres que interagem com eles. A pergunta que guia as problem?ticas est?ticas ?: Como ? a manifesta??o do ser? Quando v?rias pessoas se re?nem em torno de uma obra de arte para apreci?-la pode surgir uma pergunta est?tica: essa obra ? bela?Para alguns pode ser que sim, para outros n?o. Depende de como cada pessoa teve sua percep??o impactada.&#x0A;L?gica ? Estudo da coer?ncia do discurso, de outra maneira, de como determinado pensamento se estrutura. A pergunta que orienta as problem?ticas l?gicas ?: Quais s?o as condi??es de possibilidade de um pensamento ser executado?Quando uma pessoa ao conversar com outra se expressa de maneira confusa ela pode ouvir o seguinte questionamento: &quot;O que voc? est? me dizendo n?o tem l?gica&quot;. Essa ? uma pergunta l?gica, pois tem como objetivo investigar a coer?ncia de um discurso.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8355711</color>
+<name>text1293ArrowBulletFont12.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8355711</color>
+<name>text1293ArrowBulletFont12.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8355711</color>
+<name>text1293ArrowBulletFont12.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>23</numoflines>
+<numpubbullets>3</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1290" parent="1247" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686163083</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1288" parent="1247" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686163083</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1286" parent="1247" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686163083</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1284" parent="1247" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687271332</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>584</cx>
+<cy>50</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1284Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text1284Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#29b9a2; font-weight:bold;}&#x0A;span.text1284Font3 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1284Font1&quot;  &gt;O que Ã© &lt;/span &gt;&lt;span class=&quot;text1284Font2&quot;  &gt;Filosofia &lt;/span &gt;&lt;span class=&quot;text1284Font1&quot;  &gt;?&lt;/span &gt;&lt;span class=&quot;text1284Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf3\fs56\b O que \&apos;e9 \cf4 Filosofia \cf3 ?\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?O que ? Filosofia ?</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1271" parent="1247" resource="180" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686163076</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1253" parent="1247" resource="157" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686163063</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="1748" parent="153">
+<name>Página 5</name>
+<lastupdated>1687271508</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1948" parent="1748" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687270387</lastupdated>
+<possize>
+<point>
+<x>530</x>
+<y>137</y>
+</point>
+<size>
+<cx>433</cx>
+<cy>231</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1948Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1948Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1948Font1&quot;  &gt;As propostas de Duchamp abriram espaÃ§o para&lt;/span &gt;&lt;span class=&quot;text1948Font2&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text1948Font1&quot;  &gt;tudo que temos na arte contemporÃ¢nea, principalmente no que abraÃ§a as instalaÃ§Ãµes, intervenÃ§Ãµes e multimeios. Como nÃ£o poderia deixar de ser, as discussÃµes sobre o que Ã© ou nÃ£o arte continuaram ao longo dos anos e se acirraram na atualidade com as repercussÃµes alcanÃ§adas por &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1948Font1&quot;  &gt;alguns artistas, suas obras e, principalmente, pelo valor pago por essas obras. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 As propostas de Duchamp abriram espa\&apos;e7o para\hich\f2\loch\f2  \hich\f1\loch\f1 tudo que temos na arte contempor\&apos;e2nea, principalmente no que abra\&apos;e7a as instala\&apos;e7\&apos;f5es, interven\&apos;e7\&apos;f5es e multimeios. Como n\&apos;e3o &#x0A;poderia deixar de ser, as discuss\&apos;f5es sobre o que \&apos;e9 ou n\&apos;e3o arte continuaram ao longo dos anos e se acirraram na atualidade com as repercuss\&apos;f5es alcan\&apos;e7adas por \par alguns artistas, suas obras e, principalmente, pelo valor pago por essas obras. \par}&#x0A;</rtf>
+<raw>?As propostas de Duchamp abriram espa?o para tudo que temos na arte contempor?nea, principalmente no que abra?a as instala??es, interven??es e multimeios. Como n?o poderia deixar de ser, as discuss?es sobre o que ? ou n?o arte continuaram ao longo dos anos e se acirraram na atualidade com as repercuss?es alcan?adas por &#x0A;alguns artistas, suas obras e, principalmente, pelo valor pago por essas obras. </raw>
+<numoflines>9</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1916" parent="1748" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687271508</lastupdated>
+<possize>
+<point>
+<x>30</x>
+<y>115</y>
+</point>
+<size>
+<cx>453</cx>
+<cy>519</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1916Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text1916Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text1916Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text1916Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text1916Font4 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text1916Font4 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1916Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1916ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1916Font2&quot;  &gt;Filosofia Medieval&lt;/span &gt;&lt;span class=&quot;text1916Font3&quot;  &gt; (sÃ©culo I ao sÃ©culo XV): Iniciou com as obras dos primeiros intelectuais da Igreja CatÃ³lica e subsistiu atÃ© a queda de Constantinopla. Nesse perÃ­odo as investigaÃ§Ãµes filosÃ³ficas se caracterizaram pela busca da compreensÃ£o das caracterÃ­sticas do Deus cristÃ£o e sua relaÃ§Ã£o com a humanidade.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1916Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.164&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:0.850;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1916Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1916Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1916ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1916Font2&quot;  &gt;Filosofia Moderna&lt;/span &gt;&lt;span class=&quot;text1916Font3&quot;  &gt; (sÃ©culo XVI ao sÃ©culo XVIII): Teve como marco histÃ³rico inicial a queda de Constantinopla e se estendeu atÃ© a RevoluÃ§Ã£o Francesa. Os esforÃ§os filosÃ³ficos desse perÃ­odo se concentraram na defesa da dignidade do indivÃ­duo e na busca pela valorizaÃ§Ã£o do progresso e da ciÃªncia&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1916Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1916Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1916ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1916Font2&quot;  &gt;Filosofia ContemporÃ¢nea&lt;/span &gt;&lt;span class=&quot;text1916Font3&quot;  &gt; (sÃ©culo XIX aos tempos atuais): ComeÃ§ou, aproximadamente, na RevoluÃ§Ã£o Francesa e se estende atÃ© os dias atuais. Nesse perÃ­odo hÃ¡ vÃ¡rios focos nas investigaÃ§Ãµes.filosÃ³ficas. Cabe destacar a investigaÃ§Ã£o acerca dos limites da linguagem e dos efeitos da tecnologia no mundo e na vida humana&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1687187935&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\hich\f2\loch\f2\cf2\fs28\b Filosofia Medieval\b0  (s\&apos;e9culo I ao s\&apos;e9culo XV): Iniciou com as obras dos primeiros intelectuais da Igreja Cat\&apos;f3lica e subsistiu at\&apos;e9 &#x0A;a queda de Constantinopla. Nesse per\&apos;edodo as investiga\&apos;e7\&apos;f5es filos\&apos;f3ficas se caracterizaram pela busca da compreens\&apos;e3o das caracter\&apos;edsticas do Deus crist\&apos;e3o e sua rela\&apos;e7\&apos;e3o com a humanidade.\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\fs18\b\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\b Filosofia Moderna\b0  (s\&apos;e9culo XVI ao s\&apos;e9culo XVIII): Teve como marco hist\&apos;f3rico inicial a queda de Constantinopla e se estendeu at\&apos;e9 a Revolu\&apos;e7\&apos;e3o Francesa. Os esfor\&apos;e7os filos\&apos;f3ficos &#x0A;desse per\&apos;edodo se concentraram na defesa da dignidade do indiv\&apos;edduo e na busca pela valoriza\&apos;e7\&apos;e3o do progresso e da ci\&apos;eancia\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\b &#x0A;Filosofia Contempor\&apos;e2nea\b0  (s\&apos;e9culo XIX aos tempos atuais): Come\&apos;e7ou, aproximadamente, na Revolu\&apos;e7\&apos;e3o Francesa e se estende at\&apos;e9 os dias atuais. Nesse per\&apos;edodo h\&apos;e1 v\&apos;e1rios focos nas investiga\&apos;e7\&apos;f5es.filos\&apos;f3ficas. Cabe destacar &#x0A;a investiga\&apos;e7\&apos;e3o acerca dos limites da linguagem e dos efeitos da tecnologia no mundo e na vida humana\par}&#x0A;</rtf>
+<raw>?Filosofia Medieval (s?culo I ao s?culo XV): Iniciou com as obras dos primeiros intelectuais da Igreja Cat?lica e subsistiu at? a queda de Constantinopla. Nesse per?odo as investiga??es filos?ficas se caracterizaram pela busca da compreens?o das caracter?sticas do Deus crist?o e sua rela??o com a humanidade.&#x0D;&#x0A;Filosofia Moderna (s?culo XVI ao s?culo XVIII): Teve como marco hist?rico inicial a queda de Constantinopla e se estendeu at? a Revolu??o Francesa. Os esfor?os filos?ficos desse per?odo se concentraram na defesa da dignidade do indiv?duo e na busca pela valoriza??o do progresso e da ci?ncia&#x0A;Filosofia Contempor?nea (s?culo XIX aos tempos atuais): Come?ou, aproximadamente, na Revolu??o Francesa e se estende at? os dias atuais. Nesse per?odo h? v?rios focos nas investiga??es.filos?ficas. Cabe destacar a investiga??o acerca dos limites da linguagem e dos efeitos da tecnologia no mundo e na vida humana</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8355711</color>
+<name>text1916ArrowBulletFont11.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>25</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1838" parent="1748" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686164383</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1836" parent="1748" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686164383</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1834" parent="1748" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686164383</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1832" parent="1748" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687271383</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>584</cx>
+<cy>50</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1832Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text1832Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#29b9a2; font-weight:bold;}&#x0A;span.text1832Font3 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1832Font1&quot;  &gt;O que Ã© &lt;/span &gt;&lt;span class=&quot;text1832Font2&quot;  &gt;Filosofia &lt;/span &gt;&lt;span class=&quot;text1832Font1&quot;  &gt;?&lt;/span &gt;&lt;span class=&quot;text1832Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf3\fs56\b O que \&apos;e9 \cf4 Filosofia \cf3 ?\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?O que ? Filosofia ?</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1831" parent="1748" resource="180" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686164383</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1789" parent="1748" resource="157" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686164370</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

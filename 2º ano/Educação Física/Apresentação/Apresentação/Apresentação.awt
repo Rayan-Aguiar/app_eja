@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc">
+<currentid>582</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="57" resourcetype="image">
+<name>Imagem 3.bmp</name>
+<relativelink>images\Imagem 3.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="58" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="59" resourcetype="image">
+<name>Imagem2.png</name>
+<relativelink>images\Imagem2.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="226" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="102">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Apresentação</name>
+<lastupdated>1687961831</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="101" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1686597957</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="100" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1686597957</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="99" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1686597957</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="102" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="98" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1686597957</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="97" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1686597957</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="96" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1686597957</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="94" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1686597958</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="95" parent="94" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686597953</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="88" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1686597957</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="89" parent="88" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686597953</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="80" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1686597957</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="81" parent="80" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1686597953</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="82" parent="80" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1686597953</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="83" parent="80" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1686597953</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="80">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1687961831</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="42" parent="40">
+<name>Página 1</name>
+<lastupdated>1687961706</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="43" parent="42" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687961706</lastupdated>
+<possize>
+<point>
+<x>84</x>
+<y>249</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>76</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text43Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text43Font1&quot;  &gt;Ensino MÃ©dio â€“ 2Âº SÃ©rie&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text43Font1&quot;  &gt;Leonardo Peixoto ArÃªas da Silva&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1033\hich\f2\loch\f2\cf2\fs28 Ensino M\&apos;e9dio \u8211 \&apos;96 \lang1046\hich\f2\loch\f2 2\lang1033\hich\f2\loch\f2 \&apos;ba S\&apos;e9rie\par Leonardo Peixoto Ar\&apos;eaas da Silva\par\qj\plain\f1\fs24\lang1033\hich\f2\loch\f2\cf2\fs28\par}&#x0A;</rtf>
+<raw>?Ensino M�dio � 2� S�rie&#x0A;Leonardo Peixoto Ar�as da Silva&#x0A;</raw>
+<numoflines>3</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="45" parent="42" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686597691</lastupdated>
+<possize>
+<point>
+<x>88</x>
+<y>205</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="47" parent="42" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686597691</lastupdated>
+<possize>
+<point>
+<x>108</x>
+<y>205</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="49" parent="42" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686597691</lastupdated>
+<possize>
+<point>
+<x>127</x>
+<y>205</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="50" parent="42" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686597986</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>159</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>52</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text50Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text50Font1&quot;  &gt;EDUCAÃ‡ÃƒO FÃSICA&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b EDUCA\&apos;c7\&apos;c3O\lang1046\hich\f2\loch\f2  \lang1046\hich\f2\loch\f2 F\&apos;cdSICA\par\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?EDUCA��O F�SICA&#x0A;</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="52" parent="42" resource="57" ontop="false" fixed="false" proportional="true">
+<name>Imagem 3</name>
+<lastupdated>1686597691</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>523</y>
+</point>
+<size>
+<cx>216</cx>
+<cy>139</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="54" parent="42" resource="58" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686597691</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>0</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>331</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="56" parent="42" resource="59" ontop="false" fixed="false" proportional="true">
+<name>Imagem2</name>
+<lastupdated>1686597691</lastupdated>
+<possize>
+<point>
+<x>571</x>
+<y>113</y>
+</point>
+<size>
+<cx>341</cx>
+<cy>462</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="2" parent="40">
+<name>Página 2</name>
+<lastupdated>1687961717</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="225" parent="2" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686598044</lastupdated>
+<possize>
+<point>
+<x>32</x>
+<y>55</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text225Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text225Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text225Font1&quot;  &gt;ApresentaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text225Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Apresenta\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Apresenta��o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="224" parent="2" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687961717</lastupdated>
+<possize>
+<point>
+<x>29</x>
+<y>138</y>
+</point>
+<size>
+<cx>606</cx>
+<cy>476</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text224Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text224Font1&quot;  &gt;A EducaÃ§Ã£o brasileira Ã© regulada pela ConstituiÃ§Ã£o Federal de 1988 que estabelece no artigo 214 que o Plano Nacional de EducaÃ§Ã£o deverÃ¡ definir diretrizes, objetivos, metas e estratÃ©gias de implementaÃ§Ã£o para assegurar a manutenÃ§Ã£o e o desenvolvimento do &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text224Font1&quot;  &gt;ensino em seus diversos nÃ­veis, etapas e modalidade conduzindo, dentre outras coisas, Ã  melhoria da qualidade do ensino, formaÃ§Ã£o para o trabalho e promoÃ§Ã£o humanÃ­stica, cientÃ­fica e tecnolÃ³gica do paÃ­s.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text224Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text224Font1&quot;  &gt;A EducaÃ§Ã£o de Jovens e Adultos â€“ EJA Ã© a modalidade da EducaÃ§Ã£o brasileira que se constitui como a Ãºltima fronteira do sistema de educaÃ§Ã£o formal que pode contribuir com a formaÃ§Ã£o bÃ¡sica do cidadÃ£o brasileiro. Ela estÃ¡ estruturada com base nos princÃ­pios da &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text224Font1&quot;  &gt;diversidade e da inclusÃ£o, uma vez que Ã© sabido que o pÃºblico da EJA Ã© composto por pessoas que tÃªm caracterÃ­sticas, interesses e estruturas diversificadas e que, portanto, o planejamento e as estratÃ©gias pedagÃ³gicas precisam ter como objetivo oferecer o maior nÃºmero de possibilidade de inserÃ§Ã£o dessa diversidade na estrutura do ensino formal.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 A Educa\u231 \&apos;e7\u227 \&apos;e3o brasileira \u233 \&apos;e9 regulada pela Constitui\u231 \&apos;e7\u227 \&apos;e3o Federal de 1988 que estabelece no artigo 214 que o Plano Nacional de Educa\u231 \&apos;e7\u227 \&apos;e3o dever\u225 &#x0A;\&apos;e1 definir diretrizes, objetivos, metas e estrat\u233 \&apos;e9gias de implementa\u231 \&apos;e7\u227 \&apos;e3o para assegurar a manuten\u231 \&apos;e7\u227 \&apos;e3o e o desenvolvimento do \par ensino em seus diversos n\u237 \&apos;edveis, etapas e modalidade conduzindo, dentre &#x0A;outras coisas, \u224 \&apos;e0 melhoria da qualidade do ensino, forma\u231 \&apos;e7\u227 \&apos;e3o para o trabalho e promo\u231 \&apos;e7\u227 \&apos;e3o human\u237 \&apos;edstica, cient\u237 \&apos;edfica e tecnol\u243 \&apos;f3gica do pa\u237 \&apos;eds.\par\par A Educa\u231 \&apos;e7\u227 \&apos;e3o &#x0A;de Jovens e Adultos \u8211 \&apos;96 EJA \u233 \&apos;e9 a modalidade da Educa\u231 \&apos;e7\u227 \&apos;e3o brasileira que se constitui como a \u250 \&apos;faltima fronteira do sistema de educa\u231 \&apos;e7\u227 \&apos;e3o formal que pode contribuir com a forma\u231 \&apos;e7\u227 \&apos;e3o &#x0A;b\u225 \&apos;e1sica do cidad\u227 \&apos;e3o brasileiro. Ela est\u225 \&apos;e1 estruturada com base nos princ\u237 \&apos;edpios da \par diversidade e da inclus\u227 \&apos;e3o, uma vez que \u233 \&apos;e9 sabido que o p\u250 \&apos;fablico da EJA \u233 \&apos;e9 composto por pessoas que &#x0A;t\u234 \&apos;eam caracter\u237 \&apos;edsticas, interesses e estruturas diversificadas e que, portanto, o planejamento e as estrat\u233 \&apos;e9gias pedag\u243 \&apos;f3gicas precisam ter como objetivo oferecer o maior n\u250 \&apos;famero de possibilidade de inser\u231 \&apos;e7\u227 &#x0A;\&apos;e3o dessa diversidade na estrutura do ensino formal.\par}&#x0A;</rtf>
+<raw>?A Educa��o brasileira � regulada pela Constitui��o Federal de 1988 que estabelece no artigo 214 que o Plano Nacional de Educa��o dever� definir diretrizes, objetivos, metas e estrat�gias de implementa��o para assegurar a manuten��o e o desenvolvimento do &#x0A;ensino em seus diversos n�veis, etapas e modalidade conduzindo, dentre outras coisas, � melhoria da qualidade do ensino, forma��o para o trabalho e promo��o human�stica, cient�fica e tecnol�gica do pa�s.&#x0A;&#x0A;A Educa��o de Jovens e Adultos � EJA � a modalidade da Educa��o brasileira que se constitui como a �ltima fronteira do sistema de educa��o formal que pode contribuir com a forma��o b�sica do cidad�o brasileiro. Ela est� estruturada com base nos princ�pios da &#x0A;diversidade e da inclus�o, uma vez que � sabido que o p�blico da EJA � composto por pessoas que t�m caracter�sticas, interesses e estruturas diversificadas e que, portanto, o planejamento e as estrat�gias pedag�gicas precisam ter como objetivo oferecer o maior n�mero de possibilidade de inser��o dessa diversidade na estrutura do ensino formal.</raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="223" parent="2" resource="226" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686598035</lastupdated>
+<possize>
+<point>
+<x>640</x>
+<y>0</y>
+</point>
+<size>
+<cx>387</cx>
+<cy>661</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="274" parent="40">
+<name>Página 3</name>
+<lastupdated>1687961756</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="306" parent="274" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686598176</lastupdated>
+<possize>
+<point>
+<x>32</x>
+<y>55</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text306Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text306Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text306Font1&quot;  &gt;ApresentaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text306Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Apresenta\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Apresenta��o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="305" parent="274" resource="226" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686598176</lastupdated>
+<possize>
+<point>
+<x>640</x>
+<y>0</y>
+</point>
+<size>
+<cx>387</cx>
+<cy>661</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="275" parent="274" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687961756</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>138</y>
+</point>
+<size>
+<cx>585</cx>
+<cy>524</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text275Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text275Font1&quot;  &gt;Para tanto, esta apostila foi elaborada com base nesses princÃ­pios e dentro dos limites e possibilidades disponÃ­veis nas legislaÃ§Ã£o e nos documentos de organizaÃ§Ã£o, que, alÃ©m da ConstituiÃ§Ã£o Federal e do Plano Nacional de EducaÃ§Ã£o, Ã© composto pela Lei de Diretri_zes e Bases da EducaÃ§Ã£o (1996 com alteraÃ§Ãµes da Lei Âº 13.632 de 2018, a Base Curricular Comum (2017) e o CurrÃ­culo em Movimento da Secretaria de Estado de EducaÃ§Ã£o do Distrito Federal (2014). &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text275Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text275Font1&quot;  &gt;Com base nesses documentos, esta apostila foi criada para contribuir no direito de todos os seres humanos Ã  educaÃ§Ã£o &quot;visando ao pleno desenvolvimento da pessoa, seu preparo para o exercÃ­cio da cidadania e sua qualificaÃ§Ã£o para o trabalho&quot; (CF, 1988, art. 205). Assim, a EducaÃ§Ã£o de Jovens e Adultos Ã© uma modalidade de educaÃ§Ã£o &quot;destinada Ã queles que nÃ£o tiveram acesso ou continuidade de estudos no Ensino Fundamental e MÃ©dio na idade prÃ³pria e constituirÃ¡ instrumento para a educaÃ§Ã£o e a aprendizagem ao longo da vida&quot; (LDB, 1996/2018). Desta forma, oferece de oportunidades educacionais apropriadas, em que leva em conta as caracterÃ­sticas, os interesses e as condiÃ§Ãµes de vida e trabalho desses estudantes. Ao final do terceiro segmento, espera-se que tenha &quot;adquirido formaÃ§Ã£o adequada para o exercÃ­cio pleno da cidadania, alÃ©m da formaÃ§Ã£o para o mundo do trabalho e para a continuidade dos estudos, se assim preferir (SEEDF, 2014).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Para tanto, esta apostila foi elaborada com base nesses princ\u237 \&apos;edpios e dentro dos limites e possibilidades dispon\u237 \&apos;edveis nas legisla\u231 \&apos;e7\u227 \&apos;e3o e nos documentos de organiza\u231 &#x0A;\&apos;e7\u227 \&apos;e3o, que, al\u233 \&apos;e9m da Constitui\u231 \&apos;e7\u227 \&apos;e3o Federal e do Plano Nacional de Educa\u231 \&apos;e7\u227 \&apos;e3o, \u233 \&apos;e9 composto pela Lei de Diretri_zes e Bases da Educa\u231 \&apos;e7\u227 \&apos;e3o (1996 com altera\u231 \&apos;e7\u245 \&apos;f5es da &#x0A;Lei \u186 \&apos;ba 13.632 de 2018, a Base Curricular Comum (2017) e o Curr\u237 \&apos;edculo em Movimento da Secretaria de Estado de Educa\u231 \&apos;e7\u227 \&apos;e3o do Distrito Federal (2014). \par\par Com base nesses documentos, esta apostila foi criada para contribuir &#x0A;no direito de todos os seres humanos \u224 \&apos;e0 educa\u231 \&apos;e7\u227 \&apos;e3o &quot;visando ao pleno desenvolvimento da pessoa, seu preparo para o exerc\u237 \&apos;edcio da cidadania e sua qualifica\u231 \&apos;e7\u227 \&apos;e3o para o trabalho&quot; (CF, 1988, art. 205). Assim, &#x0A;a Educa\u231 \&apos;e7\u227 \&apos;e3o de Jovens e Adultos \u233 \&apos;e9 uma modalidade de educa\u231 \&apos;e7\u227 \&apos;e3o &quot;destinada \u224 \&apos;e0queles que n\u227 \&apos;e3o tiveram acesso ou continuidade de estudos no Ensino Fundamental e M\u233 \&apos;e9dio na idade pr\u243 \&apos;f3pria &#x0A;e constituir\u225 \&apos;e1 instrumento para a educa\u231 \&apos;e7\u227 \&apos;e3o e a aprendizagem ao longo da vida&quot; (LDB, 1996/2018). Desta forma, oferece de oportunidades educacionais apropriadas, em que leva em conta as caracter\u237 \&apos;edsticas, os interesses e &#x0A;as condi\u231 \&apos;e7\u245 \&apos;f5es de vida e trabalho desses estudantes. Ao final do terceiro segmento, espera-se que tenha &quot;adquirido forma\u231 \&apos;e7\u227 \&apos;e3o adequada para o exerc\u237 \&apos;edcio pleno da cidadania, al\u233 \&apos;e9m da forma\u231 \&apos;e7\u227 &#x0A;\&apos;e3o para o mundo do trabalho e para a continuidade dos estudos, se assim preferir (SEEDF, 2014).\par}&#x0A;</rtf>
+<raw>?Para tanto, esta apostila foi elaborada com base nesses princ�pios e dentro dos limites e possibilidades dispon�veis nas legisla��o e nos documentos de organiza��o, que, al�m da Constitui��o Federal e do Plano Nacional de Educa��o, � composto pela Lei de Diretri_zes e Bases da Educa��o (1996 com altera��es da Lei � 13.632 de 2018, a Base Curricular Comum (2017) e o Curr�culo em Movimento da Secretaria de Estado de Educa��o do Distrito Federal (2014). &#x0A;&#x0A;Com base nesses documentos, esta apostila foi criada para contribuir no direito de todos os seres humanos � educa��o &quot;visando ao pleno desenvolvimento da pessoa, seu preparo para o exerc�cio da cidadania e sua qualifica��o para o trabalho&quot; (CF, 1988, art. 205). Assim, a Educa��o de Jovens e Adultos � uma modalidade de educa��o &quot;destinada �queles que n�o tiveram acesso ou continuidade de estudos no Ensino Fundamental e M�dio na idade pr�pria e constituir� instrumento para a educa��o e a aprendizagem ao longo da vida&quot; (LDB, 1996/2018). Desta forma, oferece de oportunidades educacionais apropriadas, em que leva em conta as caracter�sticas, os interesses e as condi��es de vida e trabalho desses estudantes. Ao final do terceiro segmento, espera-se que tenha &quot;adquirido forma��o adequada para o exerc�cio pleno da cidadania, al�m da forma��o para o mundo do trabalho e para a continuidade dos estudos, se assim preferir (SEEDF, 2014).</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+</page>
+<page id="417" parent="40">
+<name>Página 4</name>
+<lastupdated>1687961794</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="431" parent="417" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686598275</lastupdated>
+<possize>
+<point>
+<x>32</x>
+<y>55</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text431Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text431Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text431Font1&quot;  &gt;ApresentaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text431Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Apresenta\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Apresenta��o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="430" parent="417" resource="226" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686598275</lastupdated>
+<possize>
+<point>
+<x>640</x>
+<y>0</y>
+</point>
+<size>
+<cx>387</cx>
+<cy>661</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="418" parent="417" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687961794</lastupdated>
+<possize>
+<point>
+<x>34</x>
+<y>175</y>
+</point>
+<size>
+<cx>599</cx>
+<cy>463</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text418Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text418Font1&quot;  &gt;Associada a esta base legal, foram incorporados nesta apostila os conhecimentos mais atualizados sobre a EducaÃ§Ã£o FÃ­sica, em geral, e da EducaÃ§Ã£o FÃ­sica escolar, em particular. AlÃ©m das referÃªncias cientÃ­ficas e pedagÃ³gicas, a elaboraÃ§Ã£o deste material levou em conta as experiÃªncias acadÃªmicas e profissionais do autor nas Ã¡reas da EducaÃ§Ã£o, EducaÃ§Ã£o FÃ­sica e do Lazer, em geral, e na EducaÃ§Ã£o de Jovens e Adultos, em particular.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text418Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text418Font1&quot;  &gt;A EducaÃ§Ã£o FÃ­sica, assim como a EducaÃ§Ã£o, tambÃ©m, Ã© um direito de todos os cidadÃ£os do mundo. O Brasil Ã© signatÃ¡rio, ou seja, Ã© um dos paÃ­ses que assinou, da Carta Internacional da EducaÃ§Ã£o FÃ­sica e do Desporto da UNESCO, de 1978 e ratificou a assinatura na atualizaÃ§Ã£o realizada em 2015 no documento conhecido como: Carta Internacional da EducaÃ§Ã£o FÃ­sica, da Atividade FÃ­sica e do Esporte. O artigo 1 deste documento, anuncia que &quot;A prÃ¡tica da educaÃ§Ã£o fÃ­sica, da atividade fÃ­sica e do esporte Ã© um direito fundamental de todos.&quot;. E no artigo 4 ressalta que &quot;Os programas de educaÃ§Ã£o fÃ­sica, atividade fÃ­sica e esporte devem estimular a participaÃ§Ã£o ao longo da vida&quot;.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\lang1046\hich\f2\loch\f2\cf2\fs28 Associada a esta base legal, foram incorporados nesta apostila os conhecimentos mais atualizados sobre a Educa\&apos;e7\&apos;e3o F\&apos;edsica, em geral, e da Educa\&apos;e7\&apos;e3o F\&apos;edsica escolar, em particular. &#x0A;Al\&apos;e9m das refer\&apos;eancias cient\&apos;edficas e pedag\&apos;f3gicas, a elabora\&apos;e7\&apos;e3o deste material levou em conta as experi\&apos;eancias acad\&apos;eamicas e profissionais do autor nas \&apos;e1reas da Educa\&apos;e7\&apos;e3o, Educa\&apos;e7\&apos;e3o F\&apos;edsica e do Lazer, em geral, e na &#x0A;Educa\&apos;e7\&apos;e3o de Jovens e Adultos, em particular.\par\par A Educa\u231 \&apos;e7\u227 \&apos;e3o F\u237 \&apos;edsica, assim como a Educa\u231 \&apos;e7\u227 \&apos;e3o, tamb\u233 \&apos;e9m, \u233 \&apos;e9 um direito de todos os cidad\u227 \&apos;e3os do mundo. O Brasil \u233 \&apos;e9 signat\u225 &#x0A;\&apos;e1rio, ou seja, \u233 \&apos;e9 um dos pa\u237 \&apos;edses que assinou, da Carta Internacional da Educa\u231 \&apos;e7\u227 \&apos;e3o F\u237 \&apos;edsica e do Desporto da UNESCO, de 1978 e ratificou a assinatura na atualiza\u231 \&apos;e7\u227 \&apos;e3o realizada em 2015 no documento &#x0A;conhecido como: Carta Internacional da Educa\u231 \&apos;e7\u227 \&apos;e3o F\u237 \&apos;edsica, da Atividade F\u237 \&apos;edsica e do Esporte. O artigo 1 deste documento, anuncia que &quot;A pr\u225 \&apos;e1tica da educa\u231 \&apos;e7\u227 \&apos;e3o f\u237 \&apos;edsica, da atividade f\u237 &#x0A;\&apos;edsica e do esporte \u233 \&apos;e9 um direito fundamental de todos.&quot;. E no artigo 4 ressalta que &quot;Os programas de educa\u231 \&apos;e7\u227 \&apos;e3o f\u237 \&apos;edsica, atividade f\u237 \&apos;edsica e esporte devem estimular a participa\u231 \&apos;e7\u227 \&apos;e3o ao longo da &#x0A;vida&quot;.\lang1046\hich\f2\loch\f2\par\par}&#x0A;</rtf>
+<raw>?Associada a esta base legal, foram incorporados nesta apostila os conhecimentos mais atualizados sobre a Educa��o F�sica, em geral, e da Educa��o F�sica escolar, em particular. Al�m das refer�ncias cient�ficas e pedag�gicas, a elabora��o deste material levou em conta as experi�ncias acad�micas e profissionais do autor nas �reas da Educa��o, Educa��o F�sica e do Lazer, em geral, e na Educa��o de Jovens e Adultos, em particular.&#x0A;&#x0A;A Educa��o F�sica, assim como a Educa��o, tamb�m, � um direito de todos os cidad�os do mundo. O Brasil � signat�rio, ou seja, � um dos pa�ses que assinou, da Carta Internacional da Educa��o F�sica e do Desporto da UNESCO, de 1978 e ratificou a assinatura na atualiza��o realizada em 2015 no documento conhecido como: Carta Internacional da Educa��o F�sica, da Atividade F�sica e do Esporte. O artigo 1 deste documento, anuncia que &quot;A pr�tica da educa��o f�sica, da atividade f�sica e do esporte � um direito fundamental de todos.&quot;. E no artigo 4 ressalta que &quot;Os programas de educa��o f�sica, atividade f�sica e esporte devem estimular a participa��o ao longo da vida&quot;.&#x0A;</raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+</page>
+<page id="464" parent="40">
+<name>Página 5</name>
+<lastupdated>1687961831</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="470" parent="464" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686598344</lastupdated>
+<possize>
+<point>
+<x>32</x>
+<y>55</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text470Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text470Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text470Font1&quot;  &gt;ApresentaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text470Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Apresenta\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Apresenta��o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="469" parent="464" resource="226" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686598344</lastupdated>
+<possize>
+<point>
+<x>640</x>
+<y>0</y>
+</point>
+<size>
+<cx>387</cx>
+<cy>661</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="467" parent="464" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687961831</lastupdated>
+<possize>
+<point>
+<x>11</x>
+<y>126</y>
+</point>
+<size>
+<cx>589</cx>
+<cy>505</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text467Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text467Font1&quot;  &gt;No Brasil, este direito foi expresso na ConstituiÃ§Ã£o Federal de 1988 no artigo 217 que afirma que &quot;Ã‰ dever do Estado fomentar prÃ¡ticas desportivas formais e nÃ£o-formais, como direito de cada um&quot;. E se consolidou na Lei de Diretrizes e Bases da EducaÃ§Ã£o que estabelece no artigo 26 que a EducaÃ§Ã£o FÃ­sica serÃ¡ &quot;integrada Ã  proposta pedagÃ³gica da escola, Ã© componente curricular obrigatÃ³rio da educaÃ§Ã£o bÃ¡sica&quot;. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text467Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text467Font1&quot;  &gt;Portanto, esta Ã© a fundamentaÃ§Ã£o legal que justifica a disciplina no currÃ­culo da EducaÃ§Ã£o BÃ¡sica. efetivo para a conquista de um estilo de vida ativo dos seres humanos mediante um processo de EducaÃ§Ã£o, por vias formais ou nÃ£o-formais, que interagem com as influÃªncias culturais e naturais de cada regiÃ£o e instalaÃ§Ãµes e equipamentos artificiais adequados. Utiliza as atividades fÃ­sicas sistematizadas, ou seja, exercÃ­cios fÃ­sicos inclusos na Cultura Corporal de Movimento, tais como os jogos, as lutas, as danÃ§as, os esportes, as ginÃ¡sticas e dentre outros, objetivando a aprendizagem e desenvolvimento de habilidades motoras de crianÃ§as, jovens, adultos e idosos, desenvolvendo competÃªncias para a consolidaÃ§Ã£o de hÃ¡bitos saudÃ¡veis e um comportamento crÃ­tico e autÃ´nomo sobre &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text467Font1&quot;  &gt;as questÃµes da motricidade humana (TUBINO, 2000; BETTI, 1992; 2001; LOVISOLO, 1995)&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 No Brasil, este direito foi expresso na Constitui\u231 \&apos;e7\u227 \&apos;e3o Federal de 1988 no artigo 217 que afirma que &quot;\u201 \&apos;c9 dever do Estado fomentar pr\u225 \&apos;e1ticas desportivas formais e n\u227 &#x0A;\&apos;e3o-formais, como direito de cada um&quot;. E se consolidou na Lei de Diretrizes e Bases da Educa\u231 \&apos;e7\u227 \&apos;e3o que estabelece no artigo 26 que a Educa\u231 \&apos;e7\u227 \&apos;e3o F\u237 \&apos;edsica ser\u225 \&apos;e1 &quot;integrada \u224 \&apos;e0 proposta pedag\u243 \&apos;f3gica &#x0A;da escola, \u233 \&apos;e9 componente curricular obrigat\u243 \&apos;f3rio da educa\u231 \&apos;e7\u227 \&apos;e3o b\u225 \&apos;e1sica&quot;. \par\par Portanto, esta \u233 \&apos;e9 a fundamenta\u231 \&apos;e7\u227 \&apos;e3o legal que justifica a disciplina no curr\u237 \&apos;edculo da Educa\u231 &#x0A;\&apos;e7\u227 \&apos;e3o B\u225 \&apos;e1sica. efetivo para a conquista de um estilo de vida ativo dos seres humanos mediante um processo de Educa\u231 \&apos;e7\u227 \&apos;e3o, por vias formais ou n\u227 \&apos;e3o-formais, que interagem com as influ\u234 \&apos;eancias culturais e &#x0A;naturais de cada regi\u227 \&apos;e3o e instala\u231 \&apos;e7\u245 \&apos;f5es e equipamentos artificiais adequados. Utiliza as atividades f\u237 \&apos;edsicas sistematizadas, ou seja, exerc\u237 \&apos;edcios f\u237 \&apos;edsicos inclusos na Cultura Corporal de Movimento, tais &#x0A;como os jogos, as lutas, as dan\u231 \&apos;e7as, os esportes, as gin\u225 \&apos;e1sticas e dentre outros, objetivando a aprendizagem e desenvolvimento de habilidades motoras de crian\u231 \&apos;e7as, jovens, adultos e idosos, desenvolvendo compet\u234 \&apos;eancias para &#x0A;a consolida\u231 \&apos;e7\u227 \&apos;e3o de h\u225 \&apos;e1bitos saud\u225 \&apos;e1veis e um comportamento cr\u237 \&apos;edtico e aut\u244 \&apos;f4nomo sobre \par as quest\u245 \&apos;f5es da motricidade humana (TUBINO, 2000; BETTI, 1992; 2001; LOVISOLO, 1995)\par\par}&#x0A;</rtf>
+<raw>?No Brasil, este direito foi expresso na Constitui��o Federal de 1988 no artigo 217 que afirma que &quot;� dever do Estado fomentar pr�ticas desportivas formais e n�o-formais, como direito de cada um&quot;. E se consolidou na Lei de Diretrizes e Bases da Educa��o que estabelece no artigo 26 que a Educa��o F�sica ser� &quot;integrada � proposta pedag�gica da escola, � componente curricular obrigat�rio da educa��o b�sica&quot;. &#x0A;&#x0A;Portanto, esta � a fundamenta��o legal que justifica a disciplina no curr�culo da Educa��o B�sica. efetivo para a conquista de um estilo de vida ativo dos seres humanos mediante um processo de Educa��o, por vias formais ou n�o-formais, que interagem com as influ�ncias culturais e naturais de cada regi�o e instala��es e equipamentos artificiais adequados. Utiliza as atividades f�sicas sistematizadas, ou seja, exerc�cios f�sicos inclusos na Cultura Corporal de Movimento, tais como os jogos, as lutas, as dan�as, os esportes, as gin�sticas e dentre outros, objetivando a aprendizagem e desenvolvimento de habilidades motoras de crian�as, jovens, adultos e idosos, desenvolvendo compet�ncias para a consolida��o de h�bitos saud�veis e um comportamento cr�tico e aut�nomo sobre &#x0A;as quest�es da motricidade humana (TUBINO, 2000; BETTI, 1992; 2001; LOVISOLO, 1995)&#x0A;</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

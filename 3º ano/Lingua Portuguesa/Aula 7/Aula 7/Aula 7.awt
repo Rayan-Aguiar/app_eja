@@ -1,0 +1,2421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>1481</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="57" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="58" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="354" resourcetype="image">
+<name>Imagem1.png</name>
+<relativelink>images\Imagem1.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="635" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1022" resourcetype="image">
+<name>Imagem002.bmp</name>
+<relativelink>images\Imagem002.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1475" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1476" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="96">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 7</name>
+<lastupdated>1687461310</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="95" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687461414</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="94" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687461414</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="93" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687461414</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="96" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="92" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687461414</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="91" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687461414</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="90" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687461414</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="87" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687461414</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="88" parent="87" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687461414</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="89" parent="87" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687461414</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="80" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687461414</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="81" parent="80" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687461414</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="82" parent="80" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687461414</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="72" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687461414</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="73" parent="72" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687461414</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="72" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687461414</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="72" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687461414</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="72">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689269085</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="2" parent="40">
+<name>Página 1</name>
+<lastupdated>1687461322</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="1461" parent="2">
+<name>Grupo_1</name>
+<lastupdated>1689706505</lastupdated>
+<image id="1463" parent="1461" resource="1475" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689706505</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1465" parent="1461" resource="1476" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689706505</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1466" parent="1461" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689706507</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1466Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1466Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1466Font1&quot;  &gt;Aula 7&lt;/span &gt;&lt;span class=&quot;text1466Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 7\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 7</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="1468" parent="1461" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689706505</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1470" parent="1461" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689706505</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1472" parent="1461" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689706505</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1474" parent="1461" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689706505</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="44" parent="40">
+<name>Página 2</name>
+<lastupdated>1689269085</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="636" parent="44" resource="635" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689268904</lastupdated>
+<possize>
+<point>
+<x>124</x>
+<y>475</y>
+</point>
+<size>
+<cx>217</cx>
+<cy>166</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="226" parent="44" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689269060</lastupdated>
+<possize>
+<point>
+<x>507</x>
+<y>94</y>
+</point>
+<size>
+<cx>469</cx>
+<cy>517</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text226Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text226Font1&quot;  &gt;A revista Orpheu teve apenas dois nÃºmeros lanÃ§ados e um terceiro organizado, sem que tenha sido publicado.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text226Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text226Font1&quot;  &gt;O primeiro nÃºmero saiu em marÃ§o de 1915, quando foram publicados os poemas simbolistas de Ronald de Carvalho (1893-1935), escritor brasileiro que viria a participar da Semana de Arte Moderna, e poemas futuristas de Almada-Negreiros (1893-1970), bem como &quot;Ode Triunfal&quot;, de Ãlvaro de Campos, heterÃ´nimo de Fernando Pessoa (1888-1935).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text226Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text226Font1&quot;  &gt;JÃ¡ no segundo nÃºmero, de junho de 1915, foram publicados o famoso poema futurista de MÃ¡rio de SÃ¡-Carneiro (1890-1916), &quot;Manucure&quot;, outros poemas de Ãlvaro de Campos, bem como alguns poemas simbolistas, de autoria do escritor brasileiro Eduardo GuimarÃ£es (1892-1928). E foi sob a influÃªncia dessa revista e, principalmente, da figura de Fernando Pessoa, que o Modernismo se foi tornando uma realidade em Portugal.Vamos abordar aqui a obra dos dois principais escritores desse movimento: MÃ¡rio de SÃ¡-Carneiro e Fernando Pessoa.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 A revista Orpheu teve apenas dois n\u250 \&apos;fameros lan\u231 \&apos;e7ados e um terceiro organizado, sem que tenha sido publicado.\par\par O primeiro n\u250 \&apos;famero saiu em mar\u231 \&apos;e7o de 1915, quando &#x0A;foram publicados os poemas simbolistas de Ronald de Carvalho (1893-1935), escritor brasileiro que viria a participar da Semana de Arte Moderna, e poemas futuristas de Almada-Negreiros (1893-1970), bem como &quot;Ode Triunfal&quot;, de \u193 \&apos;c1lvaro de Campos, &#x0A;heter\u244 \&apos;f4nimo de Fernando Pessoa (1888-1935).\par\par J\u225 \&apos;e1 no segundo n\u250 \&apos;famero, de junho de 1915, foram publicados o famoso poema futurista de M\u225 \&apos;e1rio de S\u225 \&apos;e1-Carneiro (1890-1916), &quot;Manucure&quot;, outros poemas de \u193 \&apos;c1lvaro &#x0A;de Campos, bem como alguns poemas simbolistas, de autoria do escritor brasileiro Eduardo Guimar\u227 \&apos;e3es (1892-1928). E foi sob a influ\u234 \&apos;eancia dessa revista e, principalmente, da figura de Fernando Pessoa, que o Modernismo se foi tornando uma &#x0A;realidade em Portugal.Vamos abordar aqui a obra dos dois principais escritores desse movimento: M\u225 \&apos;e1rio de S\u225 \&apos;e1-Carneiro e Fernando Pessoa.\par}&#x0A;</rtf>
+<raw>?A revista Orpheu teve apenas dois n�meros lan�ados e um terceiro organizado, sem que tenha sido publicado.&#x0A;&#x0A;O primeiro n�mero saiu em mar�o de 1915, quando foram publicados os poemas simbolistas de Ronald de Carvalho (1893-1935), escritor brasileiro que viria a participar da Semana de Arte Moderna, e poemas futuristas de Almada-Negreiros (1893-1970), bem como &quot;Ode Triunfal&quot;, de �lvaro de Campos, heter�nimo de Fernando Pessoa (1888-1935).&#x0A;&#x0A;J� no segundo n�mero, de junho de 1915, foram publicados o famoso poema futurista de M�rio de S�-Carneiro (1890-1916), &quot;Manucure&quot;, outros poemas de �lvaro de Campos, bem como alguns poemas simbolistas, de autoria do escritor brasileiro Eduardo Guimar�es (1892-1928). E foi sob a influ�ncia dessa revista e, principalmente, da figura de Fernando Pessoa, que o Modernismo se foi tornando uma realidade em Portugal.Vamos abordar aqui a obra dos dois principais escritores desse movimento: M�rio de S�-Carneiro e Fernando Pessoa.</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="181" parent="44" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689268893</lastupdated>
+<possize>
+<point>
+<x>12</x>
+<y>104</y>
+</point>
+<size>
+<cx>479</cx>
+<cy>380</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text181Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text181Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text181Font1&quot;  &gt;Orfismo &lt;/span &gt;&lt;span class=&quot;text181Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text181Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text181Font2&quot;  &gt;O Orfismo, tambÃ©m conhecido como a primeira fase do modernismo portuguÃªs Ã© uma das principais vertentes no inÃ­cio do sÃ©culo XX, pois contou com diversos representantes, nomes que deixaram uma contribuiÃ§Ã£o indelÃ©vel para a literatura em lÃ­ngua portuguesa. O Modernismo em Portugal estÃ¡ inserido no contexto de renovaÃ§Ã£o proposto pelos movimentos de espalhados pela Europa como um todo. Apesar disso, nÃ£o se criou no paÃ­s um grupo efetivo com nome especÃ­fico, a nÃ£o ser pelo fato de, em 1915, ter sido lanÃ§ada a revista Orpheu, Ã³rgÃ£o primeiro e oficial da modernidade artÃ­stica em Portugal. NÃ£o se pode falar, contudo, em orfismo no sentido estrito, uma vez que os artistas tinham concepÃ§Ãµes diversas sobre a arte moderna e, em geral, seguiam o modelo futurista.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs32\b Orfismo \fs28\b0\par\par O Orfismo, tamb\&apos;e9m conhecido como a primeira fase do modernismo portugu\&apos;eas \&apos;e9 uma das principais vertentes no in\&apos;edcio do s\&apos;e9culo XX, pois contou com diversos &#x0A;representantes, nomes que deixaram uma contribui\&apos;e7\&apos;e3o indel\&apos;e9vel para a literatura em l\&apos;edngua portuguesa. O Modernismo em Portugal est\&apos;e1 inserido no contexto de renova\&apos;e7\&apos;e3o proposto pelos movimentos de espalhados pela Europa como um todo. &#x0A;Apesar disso, n\&apos;e3o se criou no pa\&apos;eds um grupo efetivo com nome espec\&apos;edfico, a n\&apos;e3o ser pelo fato de, em 1915, ter sido lan\&apos;e7ada a revista Orpheu, \&apos;f3rg\&apos;e3o primeiro e oficial da modernidade art\&apos;edstica em Portugal. N\&apos;e3o se pode falar, contudo, &#x0A;em orfismo no sentido estrito, uma vez que os artistas tinham concep\&apos;e7\&apos;f5es diversas sobre a arte moderna e, em geral, seguiam o modelo futurista.\par}&#x0A;</rtf>
+<raw>?Orfismo &#x0A;&#x0A;O Orfismo, tamb�m conhecido como a primeira fase do modernismo portugu�s � uma das principais vertentes no in�cio do s�culo XX, pois contou com diversos representantes, nomes que deixaram uma contribui��o indel�vel para a literatura em l�ngua portuguesa. O Modernismo em Portugal est� inserido no contexto de renova��o proposto pelos movimentos de espalhados pela Europa como um todo. Apesar disso, n�o se criou no pa�s um grupo efetivo com nome espec�fico, a n�o ser pelo fato de, em 1915, ter sido lan�ada a revista Orpheu, �rg�o primeiro e oficial da modernidade art�stica em Portugal. N�o se pode falar, contudo, em orfismo no sentido estrito, uma vez que os artistas tinham concep��es diversas sobre a arte moderna e, em geral, seguiam o modelo futurista.</raw>
+<numoflines>17</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="45" parent="44">
+<name>Grupo_1</name>
+<lastupdated>1687461325</lastupdated>
+<shape id="47" parent="45" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687461325</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="49" parent="45" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687461325</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="51" parent="45" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687461325</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="52" parent="45" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689268847</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>99</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text52Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text52Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text52Font1&quot;  &gt;Modernismo em Portugal&lt;/span &gt;&lt;span class=&quot;text52Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Modernismo em Portugal\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Modernismo em Portugal</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="54" parent="45" resource="57" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687461325</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="56" parent="45" resource="58" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687461325</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="712" parent="40">
+<name>Página 3</name>
+<lastupdated>1689706489</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="715" parent="712" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689269323</lastupdated>
+<possize>
+<point>
+<x>502</x>
+<y>101</y>
+</point>
+<size>
+<cx>507</cx>
+<cy>456</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text715Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text715Font2 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text715Font1&quot;  &gt;Principais obras: PrincÃ­pio (novela, 1912); CÃ©u em fogo (contos, 1915); IndÃ­cios de oiro (poemas, 1937, pÃ³stumo); Poesias (1946, pÃ³stumo) e Cartas a Fernando Pessoa (tambÃ©m pÃ³stumo).&#x0D;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text715Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text715Font2&quot;  &gt;Fernando Pessoa (1888-1935)&lt;/span &gt;&lt;span class=&quot;text715Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text715Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text715Font1&quot;  &gt;Fernando Pessoa ainda crianÃ§a, morou um tempo na Ãfrica do Sul, entre 1895 e 1905, pois sua mÃ£e, jÃ¡ viÃºva, casara -se com um cÃ´nsul portuguÃªs. Com isso, Pessoa tornou-se fluente em inglÃªs e bom conhecedor da cultura anglosaxÃ´nica, o que o ajudou na criaÃ§Ã£o de diversos livros de poesias, como Antinous (1918), 35 Sonnets (1918) e English poems (1921). AlÃ©m de sua participaÃ§Ã£o na revista Orpheu, colaborou tambÃ©m nas revistas ExÃ­lio (1916), Portugal futurista (1917) e ContemporÃ¢nea (1922-1926).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text715Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text715Font1&quot;  &gt;Em lÃ­ngua portuguesa, Pessoa publicou apenas um livro em vida, Mensagem.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Principais obras: Princ\&apos;edpio (novela, 1912); C\&apos;e9u em fogo (contos, 1915); Ind\&apos;edcios de oiro (poemas, 1937, p\&apos;f3stumo); Poesias (1946, p\&apos;f3stumo) e Cartas a Fernando Pessoa (tamb\&apos;e9m p\&apos;f3stumo).\&apos;0d\par\par\fs32\b &#x0A;Fernando Pessoa (1888-1935)\fs28\b0\par\par Fernando Pessoa ainda crian\u231 \&apos;e7a, morou um tempo na \u193 \&apos;c1frica do Sul, entre 1895 e 1905, pois sua m\u227 \&apos;e3e, j\u225 \&apos;e1 vi\u250 \&apos;fava, casara -se com um c\u244 \&apos;f4nsul portugu\u234 \&apos;eas. Com &#x0A;isso, Pessoa tornou-se fluente em ingl\u234 \&apos;eas e bom conhecedor da cultura anglosax\u244 \&apos;f4nica, o que o ajudou na cria\u231 \&apos;e7\u227 \&apos;e3o de diversos livros de poesias, como Antinous (1918), 35 Sonnets (1918) e English poems (1921). Al\u233 \&apos;e9m &#x0A;de sua participa\u231 \&apos;e7\u227 \&apos;e3o na revista Orpheu, colaborou tamb\u233 \&apos;e9m nas revistas Ex\u237 \&apos;edlio (1916), Portugal futurista (1917) e Contempor\u226 \&apos;e2nea (1922-1926).\par\par Em l\u237 \&apos;edngua portuguesa, Pessoa publicou apenas um livro &#x0A;em vida, Mensagem.\par\par}&#x0A;</rtf>
+<raw>?Principais obras: Princ�pio (novela, 1912); C�u em fogo (contos, 1915); Ind�cios de oiro (poemas, 1937, p�stumo); Poesias (1946, p�stumo) e Cartas a Fernando Pessoa (tamb�m p�stumo).&#x0D;&#x0A;&#x0A;Fernando Pessoa (1888-1935)&#x0A;&#x0A;Fernando Pessoa ainda crian�a, morou um tempo na �frica do Sul, entre 1895 e 1905, pois sua m�e, j� vi�va, casara -se com um c�nsul portugu�s. Com isso, Pessoa tornou-se fluente em ingl�s e bom conhecedor da cultura anglosax�nica, o que o ajudou na cria��o de diversos livros de poesias, como Antinous (1918), 35 Sonnets (1918) e English poems (1921). Al�m de sua participa��o na revista Orpheu, colaborou tamb�m nas revistas Ex�lio (1916), Portugal futurista (1917) e Contempor�nea (1922-1926).&#x0A;&#x0A;Em l�ngua portuguesa, Pessoa publicou apenas um livro em vida, Mensagem.&#x0A;</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="716" parent="712" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689269166</lastupdated>
+<possize>
+<point>
+<x>12</x>
+<y>104</y>
+</point>
+<size>
+<cx>479</cx>
+<cy>512</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text716Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text716Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text716Font1&quot;  &gt;MÃ¡rio de SÃ¡-Carneiro (1890-1916)&lt;/span &gt;&lt;span class=&quot;text716Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text716Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text716Font2&quot;  &gt;MÃ¡rio de SÃ¡-Carneiro iniciou sua obra publicando DispersÃ£o e A confissÃ£o de LÃºcio, ambos de 1914. Depois participou da direÃ§Ã£o e organizaÃ§Ã£o da revista Orpheu. PorÃ©m, ao que parece, era depressivo e sempre dizia que iria se matar. Isso de fato aconteceu em 1916, apÃ³s ter enviado carta ao amigo Fernando Pessoa, avisando-o sobre o que faria e por quÃª. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text716Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text716Font2&quot;  &gt;A literatura, embora seja um produto da imaginaÃ§Ã£o do autor, pode revelar pontos sobre a vida pessoal do artista. Na maior parte das vezes, porÃ©m, o escritor tende a se distanciar daquilo sobre o que escreve.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text716Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text716Font2&quot;  &gt;No caso, isso se aplica de modo bem especÃ­fico Ã  vida e Ã  obra de SÃ¡-Carneiro. Em A confissÃ£o de LÃºcio, jÃ¡ no inÃ­cio do romance, o protagonista estÃ¡ preso, condenado como assassino de Ricardo. A histÃ³ria se passa em Paris e Lisboa, no ambiente da Belle Ã‰poque, em meio a artistas e festas. A princÃ­pio, o leitor imagina que LÃºcio era amante de Marta, esposa de Ricardo. &amp;nbsp;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs32\b M\&apos;e1rio de S\&apos;e1-Carneiro (1890-1916)\fs28\b0\par\par M\&apos;e1rio de S\&apos;e1-Carneiro iniciou sua obra publicando Dispers\&apos;e3o e A confiss\&apos;e3o de L\&apos;facio, ambos de 1914. Depois participou da dire\&apos;e7\&apos;e3o &#x0A;e organiza\&apos;e7\&apos;e3o da revista Orpheu. Por\&apos;e9m, ao que parece, era depressivo e sempre dizia que iria se matar. Isso de fato aconteceu em 1916, ap\&apos;f3s ter enviado carta ao amigo Fernando Pessoa, avisando-o sobre o que faria e por qu\&apos;ea. \par\par A &#x0A;literatura, embora seja um produto da imagina\&apos;e7\&apos;e3o do autor, pode revelar pontos sobre a vida pessoal do artista. Na maior parte das vezes, por\&apos;e9m, o escritor tende a se distanciar daquilo sobre o que escreve.\par\par No caso, isso se aplica de &#x0A;modo bem espec\&apos;edfico \&apos;e0 vida e \&apos;e0 obra de S\&apos;e1-Carneiro. Em A confiss\&apos;e3o de L\&apos;facio, j\&apos;e1 no in\&apos;edcio do romance, o protagonista est\&apos;e1 preso, condenado como assassino de Ricardo. A hist\&apos;f3ria se passa em Paris e Lisboa, no ambiente da Belle &#x0A;\&apos;c9poque, em meio a artistas e festas. A princ\&apos;edpio, o leitor imagina que L\&apos;facio era amante de Marta, esposa de Ricardo.  \par}&#x0A;</rtf>
+<raw>?M�rio de S�-Carneiro (1890-1916)&#x0A;&#x0A;M�rio de S�-Carneiro iniciou sua obra publicando Dispers�o e A confiss�o de L�cio, ambos de 1914. Depois participou da dire��o e organiza��o da revista Orpheu. Por�m, ao que parece, era depressivo e sempre dizia que iria se matar. Isso de fato aconteceu em 1916, ap�s ter enviado carta ao amigo Fernando Pessoa, avisando-o sobre o que faria e por qu�. &#x0A;&#x0A;A literatura, embora seja um produto da imagina��o do autor, pode revelar pontos sobre a vida pessoal do artista. Na maior parte das vezes, por�m, o escritor tende a se distanciar daquilo sobre o que escreve.&#x0A;&#x0A;No caso, isso se aplica de modo bem espec�fico � vida e � obra de S�-Carneiro. Em A confiss�o de L�cio, j� no in�cio do romance, o protagonista est� preso, condenado como assassino de Ricardo. A hist�ria se passa em Paris e Lisboa, no ambiente da Belle �poque, em meio a artistas e festas. A princ�pio, o leitor imagina que L�cio era amante de Marta, esposa de Ricardo.  </raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="717" parent="712">
+<name>Grupo_1</name>
+<lastupdated>1689269087</lastupdated>
+<shape id="719" parent="717" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689269087</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="721" parent="717" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689269087</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="723" parent="717" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689269087</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="724" parent="717" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689269087</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>99</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text724Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text724Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text724Font1&quot;  &gt;Modernismo em Portugal&lt;/span &gt;&lt;span class=&quot;text724Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Modernismo em Portugal\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Modernismo em Portugal</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="726" parent="717" resource="57" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689269087</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="728" parent="717" resource="58" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689269087</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="831" parent="40">
+<name>Página 4</name>
+<lastupdated>1689706497</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="832" parent="831" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689269559</lastupdated>
+<possize>
+<point>
+<x>502</x>
+<y>101</y>
+</point>
+<size>
+<cx>507</cx>
+<cy>505</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text832Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text832Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text832Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text832Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text832Font1&quot;  &gt;3Âª â€“ O encoberto: Os sÃ­mbolos; Os avisos; Os tempos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text832Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text832Font1&quot;  &gt;Fernando Pessoa Ã© conhecido por ter criado heterÃ´nimos, isto Ã©, outras personalidades literÃ¡rias. Mais do que um simples pseudÃ´nimo, um heterÃ´nimo tem caracterÃ­sticas prÃ³prias e acaba sendo um meio de se expressar uma variedade maior de estÃ©ticas. Traduz tambÃ©m a fragmentaÃ§Ã£o da individualidade, bem como o fim do idealismo romÃ¢ntico, de crenÃ§a na unidade do eu, da subjetividade.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text832Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text832Font1&quot;  &gt;TrÃªs sÃ£o os heterÃ´nimos que se destacam: Alberto Caeiro, Ricardo Reis e Ãlvaro de Campos. Cada qual tem um estilo literÃ¡rio e uma perspectiva de vida. Os poemas desses autores, por assim dizer, foram publicados postumamente.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text832Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text832Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text832ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text832Font4&quot;  &gt;Alberto Caeiro (1885-1915)&lt;/span &gt;&lt;span class=&quot;text832Font1&quot;  &gt; Ã© o poeta que procura explorar a natureza e, especialmente, as sensaÃ§Ãµes fÃ­sicas. Para Caeiro, pouco importa a metafÃ­sica, o nÃ£o visÃ­vel. Ele se volta para o sensorial. Ou seja, sÃ³ Ã© importante o que consegue ver, sentir efetivamente.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 3\u170 \&apos;aa \u8211 \&apos;96 O encoberto: Os s\u237 \&apos;edmbolos; Os avisos; Os tempos.\par\par Fernando Pessoa \u233 \&apos;e9 conhecido por ter criado heter\u244 \&apos;f4nimos, isto \u233 \&apos;e9, outras personalidades &#x0A;liter\u225 \&apos;e1rias. Mais do que um simples pseud\u244 \&apos;f4nimo, um heter\u244 \&apos;f4nimo tem caracter\u237 \&apos;edsticas pr\u243 \&apos;f3prias e acaba sendo um meio de se expressar uma variedade maior de est\u233 \&apos;e9ticas. Traduz tamb\u233 \&apos;e9m a fragmenta\u231 &#x0A;\&apos;e7\u227 \&apos;e3o da individualidade, bem como o fim do idealismo rom\u226 \&apos;e2ntico, de cren\u231 \&apos;e7a na unidade do eu, da subjetividade.\par\par Tr\u234 \&apos;eas s\u227 \&apos;e3o os heter\u244 \&apos;f4nimos que se destacam: Alberto Caeiro, Ricardo Reis e \u193 &#x0A;\&apos;c1lvaro de Campos. Cada qual tem um estilo liter\u225 \&apos;e1rio e uma perspectiva de vida. Os poemas desses autores, por assim dizer, foram publicados postumamente.\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\b &#x0A;Alberto Caeiro (1885-1915)\b0  \&apos;e9 o poeta que procura explorar a natureza e, especialmente, as sensa\&apos;e7\&apos;f5es f\&apos;edsicas. Para Caeiro, pouco importa a metaf\&apos;edsica, o n\&apos;e3o vis\&apos;edvel. Ele se volta para o sensorial. Ou seja, s\&apos;f3 \&apos;e9 importante &#x0A;o que consegue ver, sentir efetivamente\lang1046\hich\f2\loch\f2 .\lang1046\hich\f2\loch\f2\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par}&#x0A;</rtf>
+<raw>?3� � O encoberto: Os s�mbolos; Os avisos; Os tempos.&#x0A;&#x0A;Fernando Pessoa � conhecido por ter criado heter�nimos, isto �, outras personalidades liter�rias. Mais do que um simples pseud�nimo, um heter�nimo tem caracter�sticas pr�prias e acaba sendo um meio de se expressar uma variedade maior de est�ticas. Traduz tamb�m a fragmenta��o da individualidade, bem como o fim do idealismo rom�ntico, de cren�a na unidade do eu, da subjetividade.&#x0A;&#x0A;Tr�s s�o os heter�nimos que se destacam: Alberto Caeiro, Ricardo Reis e �lvaro de Campos. Cada qual tem um estilo liter�rio e uma perspectiva de vida. Os poemas desses autores, por assim dizer, foram publicados postumamente.&#x0A;&#x0A;Alberto Caeiro (1885-1915) � o poeta que procura explorar a natureza e, especialmente, as sensa��es f�sicas. Para Caeiro, pouco importa a metaf�sica, o n�o vis�vel. Ele se volta para o sensorial. Ou seja, s� � importante o que consegue ver, sentir efetivamente.&#x0A;</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text832ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text832ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text832ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>23</numoflines>
+<numpubbullets>3</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="833" parent="831" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689269451</lastupdated>
+<possize>
+<point>
+<x>12</x>
+<y>104</y>
+</point>
+<size>
+<cx>479</cx>
+<cy>559</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text833Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text833Font1&quot;  &gt;Depois, a partir de 1943, LuÃ­s de Montalvor (1891-1947), poeta e editor portuguÃªs, organizou os textos remanescentes e fez publicar os seguintes livros: Poemas dramÃ¡ticos (de Fernando Pessoa); Poemas (de Alberto Caeiro); Poesias (de Ãlvaro de Campos); Odes (de Ricardo Reis); Poesias inÃ©ditas (de Fernando Pessoa, dois volumes); PÃ¡ginas de EstÃ©tica e de Teoria e CrÃ­tica LiterÃ¡rias (de Fernando Pessoa), Textos FilosÃ³ficos (de Fernando Pessoa, dois volumes), Sobre Portugal â€“ IntroduÃ§Ã£o ao Problema Nacional e Da RepÃºblica (1910-1935).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text833Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text833Font1&quot;  &gt;Em Mensagem, Fernando Pessoa poetiza toda a histÃ³ria de Portugal, desde sua formaÃ§Ã£o mÃ­tica atÃ© o sÃ©culo XX. O livro Ã© dividido em trÃªs partes: &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text833Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text833Font1&quot;  &gt;1Âª â€“ BrasÃ£o: Os campos; Os castelos; As quinas; A Coroa; O timbre;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text833Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text833Font1&quot;  &gt;2Âª â€“ Mar portuguÃªs: O infante; Horizonte; PadrÃ£o; O mostrengo; EpitÃ¡fio de Bartolomeu Dias; Os Colombos; Ocidente; FernÃ£o de MagalhÃ£es; AscensÃ£o de Vasco da Gama; Mar portuguÃªs; A Ãºltima nau; Prece; &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Depois, a partir de 1943, Lu\u237 \&apos;eds de Montalvor (1891-1947), poeta e editor portugu\u234 \&apos;eas, organizou os textos remanescentes e fez publicar os seguintes livros: Poemas dram\u225 \&apos;e1ticos &#x0A;(de Fernando Pessoa); Poemas (de Alberto Caeiro); Poesias (de \u193 \&apos;c1lvaro de Campos); Odes (de Ricardo Reis); Poesias in\u233 \&apos;e9ditas (de Fernando Pessoa, dois volumes); P\u225 \&apos;e1ginas de Est\u233 \&apos;e9tica e de Teoria e Cr\u237 \&apos;edtica Liter\u225 &#x0A;\&apos;e1rias (de Fernando Pessoa), Textos Filos\u243 \&apos;f3ficos (de Fernando Pessoa, dois volumes), Sobre Portugal \u8211 \&apos;96 Introdu\u231 \&apos;e7\u227 \&apos;e3o ao Problema Nacional e Da Rep\u250 \&apos;fablica (1910-1935).\par\par Em Mensagem, Fernando Pessoa poetiza &#x0A;toda a hist\u243 \&apos;f3ria de Portugal, desde sua forma\u231 \&apos;e7\u227 \&apos;e3o m\u237 \&apos;edtica at\u233 \&apos;e9 o s\u233 \&apos;e9culo XX. O livro \u233 \&apos;e9 dividido em tr\u234 \&apos;eas partes: \par\par 1\u170 \&apos;aa \u8211 \&apos;96 Bras\u227 \&apos;e3o: Os campos; Os castelos; &#x0A;As quinas; A Coroa; O timbre;\par\par 2\u170 \&apos;aa \u8211 \&apos;96 Mar portugu\u234 \&apos;eas: O infante; Horizonte; Padr\u227 \&apos;e3o; O mostrengo; Epit\u225 \&apos;e1fio de Bartolomeu Dias; Os Colombos; Ocidente; Fern\u227 \&apos;e3o de Magalh\u227 \&apos;e3es; Ascens\u227 \&apos;e3o &#x0A;de Vasco da Gama; Mar portugu\u234 \&apos;eas; A \u250 \&apos;faltima nau; Prece; \par\par\par}&#x0A;</rtf>
+<raw>?Depois, a partir de 1943, Lu�s de Montalvor (1891-1947), poeta e editor portugu�s, organizou os textos remanescentes e fez publicar os seguintes livros: Poemas dram�ticos (de Fernando Pessoa); Poemas (de Alberto Caeiro); Poesias (de �lvaro de Campos); Odes (de Ricardo Reis); Poesias in�ditas (de Fernando Pessoa, dois volumes); P�ginas de Est�tica e de Teoria e Cr�tica Liter�rias (de Fernando Pessoa), Textos Filos�ficos (de Fernando Pessoa, dois volumes), Sobre Portugal � Introdu��o ao Problema Nacional e Da Rep�blica (1910-1935).&#x0A;&#x0A;Em Mensagem, Fernando Pessoa poetiza toda a hist�ria de Portugal, desde sua forma��o m�tica at� o s�culo XX. O livro � dividido em tr�s partes: &#x0A;&#x0A;1� � Bras�o: Os campos; Os castelos; As quinas; A Coroa; O timbre;&#x0A;&#x0A;2� � Mar portugu�s: O infante; Horizonte; Padr�o; O mostrengo; Epit�fio de Bartolomeu Dias; Os Colombos; Ocidente; Fern�o de Magalh�es; Ascens�o de Vasco da Gama; Mar portugu�s; A �ltima nau; Prece; &#x0A;&#x0A;</raw>
+<numoflines>26</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="834" parent="831">
+<name>Grupo_1</name>
+<lastupdated>1689269341</lastupdated>
+<shape id="836" parent="834" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689269341</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="838" parent="834" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689269341</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="840" parent="834" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689269341</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="841" parent="834" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689269341</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>99</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text841Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text841Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text841Font1&quot;  &gt;Modernismo em Portugal&lt;/span &gt;&lt;span class=&quot;text841Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Modernismo em Portugal\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Modernismo em Portugal</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="843" parent="834" resource="57" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689269341</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="845" parent="834" resource="58" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689269341</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="931" parent="40">
+<name>Página 5</name>
+<lastupdated>1689706498</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="932" parent="931" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689269849</lastupdated>
+<possize>
+<point>
+<x>502</x>
+<y>101</y>
+</point>
+<size>
+<cx>507</cx>
+<cy>538</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text932Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text932Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text932Font4 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text932Font1&quot;  &gt;Seus textos sÃ£o divididos em trÃªs possÃ­veis fases: decadentista, quando referÃªncia o Simbolismo; futurista, quando exalta o mundo moderno e do progresso, Ã  maneira do poeta italiano Marinetti; pessimista, quando revela desilusÃ£o, revolta, angÃºstia, frustraÃ§Ã£o. Cento e quatro poemas ficaram agrupados sob o tÃ­tulo de Poesias de Ãlvaro de Campos, com destaque para &quot;Ode triunfal&quot; e &quot;Tabacaria&quot;, na linha futurista.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text932Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text932Font3&quot;  &gt;Modernismo no Brasil&lt;/span &gt;&lt;span class=&quot;text932Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text932Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text932Font4&quot;  &gt;Semana de Arte Moderna&lt;/span &gt;&lt;span class=&quot;text932Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text932Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text932Font1&quot;  &gt;Pode-se entender o Modernismo como um movimento literÃ¡rio e artÃ­stico que teve inÃ­cio no sÃ©culo XX com o objetivo de romper com o tradicionalismo. Buscavam a libertaÃ§Ã£o estÃ©tica, a experimentaÃ§Ã£o constante e, acima de tudo, a independÃªncia cultural do paÃ­s. No Brasil, o Modernismo deu seus primeiros passos com a Semana de Arte Moderna em 1922 na cidade de SÃ£o Paulo. Entre 1910 e 1920, jovens artistas junto dos autores&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Seus textos s\u227 \&apos;e3o divididos em tr\u234 \&apos;eas poss\u237 \&apos;edveis fases: decadentista, quando refer\u234 \&apos;eancia o Simbolismo; futurista, quando exalta o mundo moderno e do progresso, \u224 &#x0A;\&apos;e0 maneira do poeta italiano Marinetti; pessimista, quando revela desilus\u227 \&apos;e3o, revolta, ang\u250 \&apos;fastia, frustra\u231 \&apos;e7\u227 \&apos;e3o. Cento e quatro poemas ficaram agrupados sob o t\u237 \&apos;edtulo de Poesias de \u193 \&apos;c1lvaro de Campos, com &#x0A;destaque para &quot;Ode triunfal&quot; e &quot;Tabacaria&quot;, na linha futurista.\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\fs36\b\par Modernismo no Brasil\lang1046\hich\f2\loch\f2\fs28\b0\par\lang1046\hich\f2\loch\f2\fs32\b\par Semana de Arte Moderna\lang1046\hich\f2\loch\f2\fs28\b0\par\lang1046\hich\f2\loch\f2\par &#x0A;Pode-se entender o Modernismo como um movimento liter\u225 \&apos;e1rio e art\u237 \&apos;edstico que teve in\u237 \&apos;edcio no s\u233 \&apos;e9culo XX com o objetivo de romper com o tradicionalismo. Buscavam a liberta\u231 \&apos;e7\u227 \&apos;e3o est\u233 \&apos;e9tica, a experimenta\u231 &#x0A;\&apos;e7\u227 \&apos;e3o constante e, acima de tudo, a independ\u234 \&apos;eancia cultural do pa\u237 \&apos;eds. No Brasil, o Modernismo deu seus primeiros passos com a Semana de Arte Moderna em 1922 na cidade de S\u227 \&apos;e3o Paulo. Entre 1910 e 1920, jovens artistas &#x0A;junto dos autores\par\par}&#x0A;</rtf>
+<raw>?Seus textos s�o divididos em tr�s poss�veis fases: decadentista, quando refer�ncia o Simbolismo; futurista, quando exalta o mundo moderno e do progresso, � maneira do poeta italiano Marinetti; pessimista, quando revela desilus�o, revolta, ang�stia, frustra��o. Cento e quatro poemas ficaram agrupados sob o t�tulo de Poesias de �lvaro de Campos, com destaque para &quot;Ode triunfal&quot; e &quot;Tabacaria&quot;, na linha futurista.&#x0A;&#x0A;Modernismo no Brasil&#x0A;&#x0A;Semana de Arte Moderna&#x0A;&#x0A;Pode-se entender o Modernismo como um movimento liter�rio e art�stico que teve in�cio no s�culo XX com o objetivo de romper com o tradicionalismo. Buscavam a liberta��o est�tica, a experimenta��o constante e, acima de tudo, a independ�ncia cultural do pa�s. No Brasil, o Modernismo deu seus primeiros passos com a Semana de Arte Moderna em 1922 na cidade de S�o Paulo. Entre 1910 e 1920, jovens artistas junto dos autores&#x0A;</raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="933" parent="931" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689269681</lastupdated>
+<possize>
+<point>
+<x>12</x>
+<y>104</y>
+</point>
+<size>
+<cx>479</cx>
+<cy>538</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text933Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text933Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text933Font1&quot;  &gt;Os textos desse heterÃ´nimo foram reunidos sob o tÃ­tulo de Poemas completos de Alberto Caeiro. Destacamos O guardador de rebanhos, que reÃºne 49 poemas diferentes, mas que se completam. HÃ¡ ainda O pastor amoroso, Poemas inconjuntos e um posfÃ¡cio escrito por outro heterÃ´nimo, Ãlvaro de Campos, para sugerir que ambos teriam existido de fato.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text933Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text933Font2&quot;  &gt;Ricardo Reis (1887-?)&lt;/span &gt;&lt;span class=&quot;text933Font1&quot;  &gt; Ã© o poeta que, formado segundo uma educaÃ§Ã£o clÃ¡ssica, adotou o helenismo como preceito cultural. Reis seria monarquista e, proclamada a RepÃºblica em Portugal, teria se mudado para o Brasil. Escreveu 126 odes, que Ã© uma composiÃ§Ã£o clÃ¡ssica de feiÃ§Ã£o lÃ­rica, de origem grega. Fernando Pessoa nÃ£o especificou quando Reis teria morrido.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text933Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text933Font2&quot;  &gt;Ãlvaro de Campos (1890-?)&lt;/span &gt;&lt;span class=&quot;text933Font1&quot;  &gt; Ã© o poeta do futuro, contrapondo-se a Ricardo Reis, o poeta da tradiÃ§Ã£o clÃ¡ssica, e a Alberto Caeiro, o poeta da vida presente. Por expressar o imediatismo, Ãlvaro de Campos segue os preceitos do Futurismo de Marinetti. Sua poÃ©tica pauta-se no mundo urbano, na agitaÃ§Ã£o da vida moderna. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Os textos desse heter\&apos;f4nimo foram reunidos sob o t\&apos;edtulo de Poemas completos de Alberto Caeiro. Destacamos O guardador de rebanhos, que re\&apos;fane 49 poemas diferentes, mas que se completam. H\&apos;e1 &#x0A;ainda O pastor amoroso, Poemas inconjuntos e um posf\&apos;e1cio escrito por outro heter\&apos;f4nimo, \&apos;c1lvaro de Campos, para sugerir que ambos teriam existido de fato.\par\b\par Ricardo Reis (1887-?)\b0  \&apos;e9 o poeta que, formado segundo uma educa\&apos;e7\&apos;e3o &#x0A;cl\&apos;e1ssica, adotou o helenismo como preceito cultural. Reis seria monarquista e, proclamada a Rep\&apos;fablica em Portugal, teria se mudado para o Brasil. Escreveu 126 odes, que \&apos;e9 uma composi\&apos;e7\&apos;e3o cl\&apos;e1ssica de fei\&apos;e7\&apos;e3o l\&apos;edrica, de origem grega. &#x0A;Fernando Pessoa n\&apos;e3o especificou quando Reis teria morrido.\par\par\b \&apos;c1lvaro de Campos (1890-?)\b0  \&apos;e9 o poeta do futuro, contrapondo-se a Ricardo Reis, o poeta da tradi\&apos;e7\&apos;e3o cl\&apos;e1ssica, e a Alberto Caeiro, o poeta da vida presente. Por expressar &#x0A;o imediatismo, \&apos;c1lvaro de Campos segue os preceitos do Futurismo de Marinetti. Sua po\&apos;e9tica pauta-se no mundo urbano, na agita\&apos;e7\&apos;e3o da vida moderna. \par\par}&#x0A;</rtf>
+<raw>?Os textos desse heter�nimo foram reunidos sob o t�tulo de Poemas completos de Alberto Caeiro. Destacamos O guardador de rebanhos, que re�ne 49 poemas diferentes, mas que se completam. H� ainda O pastor amoroso, Poemas inconjuntos e um posf�cio escrito por outro heter�nimo, �lvaro de Campos, para sugerir que ambos teriam existido de fato.&#x0A;&#x0A;Ricardo Reis (1887-?) � o poeta que, formado segundo uma educa��o cl�ssica, adotou o helenismo como preceito cultural. Reis seria monarquista e, proclamada a Rep�blica em Portugal, teria se mudado para o Brasil. Escreveu 126 odes, que � uma composi��o cl�ssica de fei��o l�rica, de origem grega. Fernando Pessoa n�o especificou quando Reis teria morrido.&#x0A;&#x0A;�lvaro de Campos (1890-?) � o poeta do futuro, contrapondo-se a Ricardo Reis, o poeta da tradi��o cl�ssica, e a Alberto Caeiro, o poeta da vida presente. Por expressar o imediatismo, �lvaro de Campos segue os preceitos do Futurismo de Marinetti. Sua po�tica pauta-se no mundo urbano, na agita��o da vida moderna. &#x0A;</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="934" parent="931">
+<name>Grupo_1</name>
+<lastupdated>1689269542</lastupdated>
+<shape id="936" parent="934" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689269542</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="938" parent="934" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689269542</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="940" parent="934" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689269542</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="941" parent="934" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689269542</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>99</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text941Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text941Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text941Font1&quot;  &gt;Modernismo em Portugal&lt;/span &gt;&lt;span class=&quot;text941Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Modernismo em Portugal\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Modernismo em Portugal</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="943" parent="934" resource="57" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689269542</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="945" parent="934" resource="58" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689269542</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="989" parent="40">
+<name>Página 6</name>
+<lastupdated>1689706499</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="1023" parent="989" resource="1022" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689269995</lastupdated>
+<possize>
+<point>
+<x>623</x>
+<y>53</y>
+</point>
+<size>
+<cx>285</cx>
+<cy>189</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="991" parent="989" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689269894</lastupdated>
+<possize>
+<point>
+<x>11</x>
+<y>117</y>
+</point>
+<size>
+<cx>479</cx>
+<cy>494</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text991Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text991Font1&quot;  &gt;prÃ©-modernos, comeÃ§avam a articular a formaÃ§Ã£o de uma arte de fato moderna, alinhada aos movimentos de vanguarda. Entre eles, figurava o nome de Oswald de Andrade, que conheceu em suas viagens Ã  Europa o Futurismo de Marinetti, a arte cubista de Picasso e de Georges Braque.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text991Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text991Font1&quot;  &gt;O hoje esquecido Ronald de Carvalho colaborou com a fundaÃ§Ã£o da revista Orfeu, Ã³rgÃ£o de divulgaÃ§Ã£o do Modernismo portuguÃªs. Em 1917, houve a exposiÃ§Ã£o de Anita Malfatti e a polÃªmica envolvendo Monteiro Lobato e jovens autores, como Oswald e MÃ¡rio de Andrade.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text991Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text991Font1&quot;  &gt;Em 1920, Menotti del Picchia publicou um artigo, &quot;MarÃ© das reformas&quot;, em que defendia uma poesia mais livre, com a utilizaÃ§Ã£o de uma linguagem do cotidiano. Propunha tambÃ©m plena liberdade de criaÃ§Ã£o, sem apego a regras acadÃªmicas, bem como reivindicava o direito a uma expressÃ£o mais brasileira. com abandono das sugestÃµes europeias. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\lang1046\hich\f2\loch\f2\cf2\fs28 pr\u233 \&apos;e9-modernos, come\u231 \&apos;e7avam a articular a forma\u231 \&apos;e7\u227 \&apos;e3o de uma arte de fato moderna, alinhada aos movimentos de vanguarda. Entre eles, figurava o nome de Oswald &#x0A;de Andrade, que conheceu em suas viagens \u224 \&apos;e0 Europa o Futurismo de Marinetti, a arte cubista de Picasso e de Georges Braque.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 O hoje esquecido Ronald de Carvalho colaborou com a funda\u231 &#x0A;\&apos;e7\u227 \&apos;e3o da revista Orfeu, \u243 \&apos;f3rg\u227 \&apos;e3o de divulga\u231 \&apos;e7\u227 \&apos;e3o do Modernismo portugu\u234 \&apos;eas. Em 1917, houve a exposi\u231 \&apos;e7\u227 \&apos;e3o de Anita Malfatti e a pol\u234 \&apos;eamica envolvendo Monteiro Lobato e jovens autores, &#x0A;como Oswald e M\u225 \&apos;e1rio de Andrade.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Em 1920, Menotti del Picchia publicou um artigo, &quot;Mar\u233 \&apos;e9 das reformas&quot;, em que defendia uma poesia mais livre, com a utiliza\u231 \&apos;e7\u227 \&apos;e3o &#x0A;de uma linguagem do cotidiano. Propunha tamb\u233 \&apos;e9m plena liberdade de cria\u231 \&apos;e7\u227 \&apos;e3o, sem apego a regras acad\u234 \&apos;eamicas, bem como reivindicava o direito a uma express\u227 \&apos;e3o mais brasileira. com abandono das sugest\u245 \&apos;f5es &#x0A;europeias.\lang1046\hich\f2\loch\f2  \par\par}&#x0A;</rtf>
+<raw>?pr�-modernos, come�avam a articular a forma��o de uma arte de fato moderna, alinhada aos movimentos de vanguarda. Entre eles, figurava o nome de Oswald de Andrade, que conheceu em suas viagens � Europa o Futurismo de Marinetti, a arte cubista de Picasso e de Georges Braque.&#x0A;&#x0A;O hoje esquecido Ronald de Carvalho colaborou com a funda��o da revista Orfeu, �rg�o de divulga��o do Modernismo portugu�s. Em 1917, houve a exposi��o de Anita Malfatti e a pol�mica envolvendo Monteiro Lobato e jovens autores, como Oswald e M�rio de Andrade.&#x0A;&#x0A;Em 1920, Menotti del Picchia publicou um artigo, &quot;Mar� das reformas&quot;, em que defendia uma poesia mais livre, com a utiliza��o de uma linguagem do cotidiano. Propunha tamb�m plena liberdade de cria��o, sem apego a regras acad�micas, bem como reivindicava o direito a uma express�o mais brasileira. com abandono das sugest�es europeias. &#x0A;</raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="1045" parent="989" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689270003</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>240</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>487</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1045Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1045Font1&quot;  &gt;Toda essa movimentaÃ§Ã£o culminou com a realizaÃ§Ã£o da Semana de Arte Moderna, em SÃ£o Paulo, em fevereiro de 1922. Tratou-se de uma primeira mostra da nova arte, ainda pouco aceita e pouco compreendida pelos brasileiros de entÃ£o, mais afeitos Ã  estÃ©tica acadÃªmica. Surgida de uma ideia em reuniÃ£o da famÃ­lia Paulo Prado, o objetivo era seguir o que se fazia em Deauville, na FranÃ§a, onde se celebram ainda hoje festivais diversos para valorizar e atualizar as expressÃµes artÃ­sticas em geral.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1045Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1045Font1&quot;  &gt;Para a realizaÃ§Ã£o de algo tÃ£o grandioso, os artistas receberam apoio financeiro de uma burguesia mais progressista, alÃ©m do apoio de artistas jÃ¡ consagrados, como o mÃºsico Villa-Lobos e o poeta Manuel Bandeira, que publicara alguns livros parnasiano-simbolistas. TambÃ©m aderiu ao movimento o acadÃªmico GraÃ§a Aranha, que chegou mesmo a propor um apoio oficial da Aca_demia aos jovens escritores, mas foi voto vencido.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Toda essa movimenta\&apos;e7\&apos;e3o culminou com a realiza\&apos;e7\&apos;e3o da Semana de Arte Moderna, em S\&apos;e3o Paulo, em fevereiro de 1922. Tratou-se de uma primeira mostra da nova arte, ainda pouco aceita e &#x0A;pouco compreendida pelos brasileiros de ent\&apos;e3o, mais afeitos \&apos;e0 est\&apos;e9tica acad\&apos;eamica. Surgida de uma ideia em reuni\&apos;e3o da fam\&apos;edlia Paulo Prado, o objetivo era seguir o que se fazia em Deauville, na Fran\&apos;e7a, onde se celebram ainda hoje festivais &#x0A;diversos para valorizar e atualizar as express\&apos;f5es art\&apos;edsticas em geral.\par\par Para a realiza\&apos;e7\&apos;e3o de algo t\&apos;e3o grandioso, os artistas receberam apoio financeiro de uma burguesia mais progressista, al\&apos;e9m do apoio de artistas j\&apos;e1 consagrados, &#x0A;como o m\&apos;fasico Villa-Lobos e o poeta Manuel Bandeira, que publicara alguns livros parnasiano-simbolistas. Tamb\&apos;e9m aderiu ao movimento o acad\&apos;eamico Gra\&apos;e7a Aranha, que chegou mesmo a propor um apoio oficial da Aca_demia aos jovens escritores, mas &#x0A;foi voto vencido\lang1046\hich\f2\loch\f2 .\lang1046\hich\f2\loch\f2\par\par}&#x0A;</rtf>
+<raw>?Toda essa movimenta��o culminou com a realiza��o da Semana de Arte Moderna, em S�o Paulo, em fevereiro de 1922. Tratou-se de uma primeira mostra da nova arte, ainda pouco aceita e pouco compreendida pelos brasileiros de ent�o, mais afeitos � est�tica acad�mica. Surgida de uma ideia em reuni�o da fam�lia Paulo Prado, o objetivo era seguir o que se fazia em Deauville, na Fran�a, onde se celebram ainda hoje festivais diversos para valorizar e atualizar as express�es art�sticas em geral.&#x0A;&#x0A;Para a realiza��o de algo t�o grandioso, os artistas receberam apoio financeiro de uma burguesia mais progressista, al�m do apoio de artistas j� consagrados, como o m�sico Villa-Lobos e o poeta Manuel Bandeira, que publicara alguns livros parnasiano-simbolistas. Tamb�m aderiu ao movimento o acad�mico Gra�a Aranha, que chegou mesmo a propor um apoio oficial da Aca_demia aos jovens escritores, mas foi voto vencido.&#x0A;</raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="992" parent="989">
+<name>Grupo_1</name>
+<lastupdated>1689269850</lastupdated>
+<shape id="994" parent="992" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689269850</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="996" parent="992" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689269850</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="998" parent="992" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689269850</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="999" parent="992" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689269850</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>99</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text999Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text999Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text999Font1&quot;  &gt;Modernismo em Portugal&lt;/span &gt;&lt;span class=&quot;text999Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Modernismo em Portugal\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Modernismo em Portugal</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1001" parent="992" resource="57" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689269850</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1003" parent="992" resource="58" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689269850</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1157" parent="40">
+<name>Página 7</name>
+<lastupdated>1689706500</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1160" parent="1157" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689270088</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>104</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>523</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1160Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text1160Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1160Font1&quot;  &gt;O epicentro do movimento modernista brasileiro foi SÃ£o Paulo, que serviu de parÃ¢metro para outras regiÃµes do paÃ­s.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1160Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1160Font1&quot;  &gt;Como ideÃ¡rio, o Modernismo representou uma continuidade do projeto romÃ¢ntico de pensar e construir o sentimento de nacionalidade, com a diferenÃ§a de que o projeto modernista era menos idealizado, estabelecendo uma proximidade maior com as diversas classes sociais. AlÃ©m disso, em geral, os modernistas brasileiros, inspirados nosmovimentos vanguardistas, buscavam:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1160Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1160Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1160ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1160Font1&quot;  &gt;versos livres, de modo a terem a livre expressÃ£o do pensamento;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text1160Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1160ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1160Font1&quot;  &gt;Ãªnfase na ordem do subconsciente, a livre associaÃ§Ã£o de ideias;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text1160Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1160ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1160Font1&quot;  &gt;a literatura como a expressÃ£o da agitaÃ§Ã£o mundana; &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text1160Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1160ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1160Font1&quot;  &gt;olhar crÃ­tico sobre a formaÃ§Ã£o do Brasil e do brasileiro, de modo a repensar o presente e construir o futuro;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text1160Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1160ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1160Font1&quot;  &gt;compreensÃ£o de que o brasileiro Ã© um povo miscigenado, daÃ­ seu valor;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text1160Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1160ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1160Font1&quot;  &gt;simultaneidade poÃ©tica;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text1160Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1160ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1160Font1&quot;  &gt;mistura de prosa e poesia.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 O epicentro do movimento modernista brasileiro foi S\&apos;e3o Paulo, que serviu de par\&apos;e2metro para outras regi\&apos;f5es do pa\&apos;eds.\par\par Como ide\&apos;e1rio, o Modernismo representou uma continuidade do &#x0A;projeto rom\&apos;e2ntico de pensar e construir o sentimento de nacionalidade, com a diferen\&apos;e7a de que o projeto modernista era menos idealizado, estabelecendo uma proximidade maior com as diversas classes sociais. Al\&apos;e9m disso, em geral, os modernistas &#x0A;brasileiros, inspirados nosmovimentos vanguardistas, buscavam:\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 versos livres, de modo a terem a livre express\&apos;e3o do pensamento;\par &#x0A;\&apos;eanfase na ordem do subconsciente, a livre associa\&apos;e7\&apos;e3o de ideias;\par a literatura como a express\&apos;e3o da agita\&apos;e7\&apos;e3o mundana; \par olhar cr\&apos;edtico sobre a forma\&apos;e7\&apos;e3o do Brasil e do brasileiro, de modo a repensar o presente e construir &#x0A;o futuro;\par compreens\&apos;e3o de que o brasileiro \&apos;e9 um povo miscigenado, da\&apos;ed seu valor;\par simultaneidade po\&apos;e9tica;\par mistura de prosa e poesia.\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par}&#x0A;</rtf>
+<raw>?O epicentro do movimento modernista brasileiro foi S�o Paulo, que serviu de par�metro para outras regi�es do pa�s.&#x0A;&#x0A;Como ide�rio, o Modernismo representou uma continuidade do projeto rom�ntico de pensar e construir o sentimento de nacionalidade, com a diferen�a de que o projeto modernista era menos idealizado, estabelecendo uma proximidade maior com as diversas classes sociais. Al�m disso, em geral, os modernistas brasileiros, inspirados nosmovimentos vanguardistas, buscavam:&#x0A;&#x0A;versos livres, de modo a terem a livre express�o do pensamento;&#x0A;�nfase na ordem do subconsciente, a livre associa��o de ideias;&#x0A;a literatura como a express�o da agita��o mundana; &#x0A;olhar cr�tico sobre a forma��o do Brasil e do brasileiro, de modo a repensar o presente e construir o futuro;&#x0A;compreens�o de que o brasileiro � um povo miscigenado, da� seu valor;&#x0A;simultaneidade po�tica;&#x0A;mistura de prosa e poesia.&#x0A;</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text1160ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>24</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="1161" parent="1157" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689270192</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>116</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>518</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1161Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1161Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1161Font1&quot;  &gt;Primeira Fase (1922-1930)&lt;/span &gt;&lt;span class=&quot;text1161Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1161Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1161Font2&quot;  &gt;Com a Semana de Arte Moderna em 1922 tem inÃ­cio a Primeira Fase do Modernismo, que tambÃ©m Ã© chamada de Fase HerÃ³ica. Pode-se caracterizar tal fase por um maior compromisso dos artistas com a renovaÃ§Ã£o estÃ©tica inspiradas nas vanguardas europeias como o cubismo, o futurismo, o surrealismo e outros. A linguagem literÃ¡ria tenta romper com o tradicional, sendo algumas dessas mudanÃ§as: a liberdade formal, a valorizaÃ§Ã£o do cotidiano, reescritura de textos do passado, etc. Ã‰ tambÃ©m importante ressaltar que foi durante este perÃ­odo que surgiram os grupos de movimento modernista, entre eles o Pau-Brasil, AntropÃ³fago e Verde-Amarelismo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1161Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1161Font2&quot;  &gt;CaracterÃ­sticas da 1Âª fase do Modernismo&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1161Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1161Font2&quot;  &gt;Linguagem informal prÃ³xima da oral, uso de gÃ­rias;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1161Font2&quot;  &gt;Humor, sÃ¡tira;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1161Font2&quot;  &gt;Ironias, sarcasmo;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1161Font2&quot;  &gt;Versos livres, sem rima;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs32\b Primeira Fase (1922-1930)\fs28\b0\par\par Com a Semana de Arte Moderna em 1922 tem in\&apos;edcio a Primeira Fase do Modernismo, que tamb\&apos;e9m \&apos;e9 chamada de Fase Her\&apos;f3ica. Pode-se caracterizar tal &#x0A;fase por um maior compromisso dos artistas com a renova\&apos;e7\&apos;e3o est\&apos;e9tica inspiradas nas vanguardas europeias como o cubismo, o futurismo, o surrealismo e outros. A linguagem liter\&apos;e1ria tenta romper com o tradicional, sendo algumas dessas mudan\&apos;e7as: &#x0A;a liberdade formal, a valoriza\&apos;e7\&apos;e3o do cotidiano, reescritura de textos do passado, etc. \&apos;c9 tamb\&apos;e9m importante ressaltar que foi durante este per\&apos;edodo que surgiram os grupos de movimento modernista, entre eles o Pau-Brasil, Antrop\&apos;f3fago e &#x0A;Verde-Amarelismo.\par\lang1046\hich\f2\loch\f2\par Caracter\&apos;edsticas da 1\&apos;aa fase do Modernismo\par\par Linguagem informal pr\&apos;f3xima da oral, uso de g\&apos;edrias;\par Humor, s\&apos;e1tira;\par Ironias, sarcasmo;\par Versos livres, sem rima;\lang1046\hich\f2\loch\f2\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Primeira Fase (1922-1930)&#x0A;&#x0A;Com a Semana de Arte Moderna em 1922 tem in�cio a Primeira Fase do Modernismo, que tamb�m � chamada de Fase Her�ica. Pode-se caracterizar tal fase por um maior compromisso dos artistas com a renova��o est�tica inspiradas nas vanguardas europeias como o cubismo, o futurismo, o surrealismo e outros. A linguagem liter�ria tenta romper com o tradicional, sendo algumas dessas mudan�as: a liberdade formal, a valoriza��o do cotidiano, reescritura de textos do passado, etc. � tamb�m importante ressaltar que foi durante este per�odo que surgiram os grupos de movimento modernista, entre eles o Pau-Brasil, Antrop�fago e Verde-Amarelismo.&#x0A;&#x0A;Caracter�sticas da 1� fase do Modernismo&#x0A;&#x0A;Linguagem informal pr�xima da oral, uso de g�rias;&#x0A;Humor, s�tira;&#x0A;Ironias, sarcasmo;&#x0A;Versos livres, sem rima;&#x0A;</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="1162" parent="1157">
+<name>Grupo_1</name>
+<lastupdated>1689270006</lastupdated>
+<shape id="1164" parent="1162" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689270006</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1166" parent="1162" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689270006</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1168" parent="1162" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689270006</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1169" parent="1162" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689270006</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>99</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1169Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1169Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1169Font1&quot;  &gt;Modernismo em Portugal&lt;/span &gt;&lt;span class=&quot;text1169Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Modernismo em Portugal\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Modernismo em Portugal</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1171" parent="1162" resource="57" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689270006</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1173" parent="1162" resource="58" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689270006</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1261" parent="40">
+<name>Página 8</name>
+<lastupdated>1689706500</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1262" parent="1261" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689270269</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>104</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>539</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1262Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1262Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font1&quot;  &gt;CrÃ­ticas Ã  sociedade brasileira;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font1&quot;  &gt;Textos mais prÃ³ximos do cotidiano;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font1&quot;  &gt;CarÃ¡ter anÃ¡rquico e destruidor.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font1&quot;  &gt;O modernismo no Brasil foi liderado pelo trio MÃ¡rio de Andrade, Oswald de Andrade e Manuel Bandeira, autores que deixaram suas identidades em obras importantes, como veremos a seguir.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font1&quot;  &gt;Principais autores e suas obras:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font3&quot;  &gt;MÃ¡rio de Andrade&lt;/span &gt;&lt;span class=&quot;text1262Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font1&quot;  &gt;Foi um dos autores precursores da 1Âª fase do modernismo. MÃ¡rio de Andrade ajudou na organizaÃ§Ã£o da Semana de 22, e o seu livro de poemas &quot;Pauliceia Desvairada&quot;, tornou-se um marco da primeira geraÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font1&quot;  &gt;Algumas das principais obras de MÃ¡rio de Andrade sÃ£o:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1262Font1&quot;  &gt;Amar, Verbo Intransitivo (1927); Pauliceia Desvairada (1922); MacunaÃ­ma (1928); A Escrava que nÃ£o era Isaura (1925).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Cr\u237 \&apos;edticas \u224 \&apos;e0 sociedade brasileira;\par Textos mais pr\u243 \&apos;f3ximos do cotidiano;\par Car\u225 \&apos;e1ter an\u225 \&apos;e1rquico e destruidor.\par\par O modernismo no Brasil foi liderado &#x0A;pelo trio M\u225 \&apos;e1rio de Andrade, Oswald de Andrade e Manuel Bandeira, autores que deixaram suas identidades em obras importantes, como veremos a seguir.\par\par Principais autores e suas obras:\par\par\fs32\b M\u225 \&apos;e1rio de Andrade\fs28\b0\par\par &#x0A;Foi um dos autores precursores da 1\u170 \&apos;aa fase do modernismo. M\u225 \&apos;e1rio de Andrade ajudou na organiza\u231 \&apos;e7\u227 \&apos;e3o da Semana de 22, e o seu livro de poemas &quot;Pauliceia Desvairada&quot;, tornou-se um marco da primeira gera\u231 \&apos;e7\u227 \&apos;e3o.\par\par &#x0A;Algumas das principais obras de M\u225 \&apos;e1rio de Andrade s\u227 \&apos;e3o:\par\par Amar, Verbo Intransitivo (1927); Pauliceia Desvairada (1922); Macuna\u237 \&apos;edma (1928); A Escrava que n\u227 \&apos;e3o era Isaura (1925).\par\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Cr�ticas � sociedade brasileira;&#x0A;Textos mais pr�ximos do cotidiano;&#x0A;Car�ter an�rquico e destruidor.&#x0A;&#x0A;O modernismo no Brasil foi liderado pelo trio M�rio de Andrade, Oswald de Andrade e Manuel Bandeira, autores que deixaram suas identidades em obras importantes, como veremos a seguir.&#x0A;&#x0A;Principais autores e suas obras:&#x0A;&#x0A;M�rio de Andrade&#x0A;&#x0A;Foi um dos autores precursores da 1� fase do modernismo. M�rio de Andrade ajudou na organiza��o da Semana de 22, e o seu livro de poemas &quot;Pauliceia Desvairada&quot;, tornou-se um marco da primeira gera��o.&#x0A;&#x0A;Algumas das principais obras de M�rio de Andrade s�o:&#x0A;&#x0A;Amar, Verbo Intransitivo (1927); Pauliceia Desvairada (1922); Macuna�ma (1928); A Escrava que n�o era Isaura (1925).&#x0A;&#x0A;</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="1263" parent="1261" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689270343</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>116</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>522</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1263Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1263Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1263Font1&quot;  &gt;Oswald de Andrade&lt;/span &gt;&lt;span class=&quot;text1263Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1263Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1263Font2&quot;  &gt;Escritor e dramaturgo, Oswald de Andrade tambÃ©m foi fundador do movimento antropÃ³fago junto a Tarsila do Amaral, que visava uma cultura revolucionÃ¡ria brasileira. Militante, foi um dos autores mais polÃªmicos e irÃ´nicos de sua geraÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1263Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1263Font2&quot;  &gt;Principais obras: Os Condenados (1922); MemÃ³rias Sentimentais de JoÃ£o Miramar (1924); Manifesto Pau-Brasil (1925); Pau-Brasil (1925); Manifesto AntropÃ³fago (1925).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1263Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1263Font1&quot;  &gt;Manuel Bandeira&lt;/span &gt;&lt;span class=&quot;text1263Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1263Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1263Font2&quot;  &gt;Autor de alguns poemas autobiogrÃ¡ficos, com teor melancÃ³lico e triste, Manuel Bandeira imprimia em suas obras a sua rebeldia, desejo de liberdade, saudades da infÃ¢ncia, permeado por temas profundos sobre doenÃ§as (tuberculose).Principais obras: Os Sapos (recitado durante a Semana de 22); A Cinza das Horas (1917); Ritmo Dissoluto (1924); Libertinagem (1930).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\lang1046\hich\f2\loch\f2\cf2\fs32\b Oswald de Andrade\fs28\b0\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Escritor e dramaturgo, Oswald de Andrade tamb\&apos;e9m foi fundador do movimento antrop\&apos;f3fago junto a &#x0A;Tarsila do Amaral, que visava uma cultura revolucion\&apos;e1ria brasileira. Militante, foi um dos autores mais pol\&apos;eamicos e ir\&apos;f4nicos de sua gera\&apos;e7\&apos;e3o.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Principais obras: Os Condenados (1922); &#x0A;Mem\&apos;f3rias Sentimentais de Jo\&apos;e3o Miramar (1924); Manifesto Pau-Brasil (1925); Pau-Brasil (1925); Manifesto Antrop\&apos;f3fago (1925).\par\par\fs32\b Manuel Bandeira\fs28\b0\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Autor de alguns poemas &#x0A;autobiogr\&apos;e1ficos, com teor melanc\&apos;f3lico e triste, Manuel Bandeira imprimia em suas obras a sua rebeldia, desejo de liberdade, saudades da inf\&apos;e2ncia, permeado por temas profundos sobre doen\&apos;e7as (tuberculose).Principais obras: Os Sapos (recitado &#x0A;durante a Semana de 22); A Cinza das Horas (1917); Ritmo Dissoluto (1924); Libertinagem (1930).\lang1046\hich\f2\loch\f2\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Oswald de Andrade&#x0A;&#x0A;Escritor e dramaturgo, Oswald de Andrade tamb�m foi fundador do movimento antrop�fago junto a Tarsila do Amaral, que visava uma cultura revolucion�ria brasileira. Militante, foi um dos autores mais pol�micos e ir�nicos de sua gera��o.&#x0A;&#x0A;Principais obras: Os Condenados (1922); Mem�rias Sentimentais de Jo�o Miramar (1924); Manifesto Pau-Brasil (1925); Pau-Brasil (1925); Manifesto Antrop�fago (1925).&#x0A;&#x0A;Manuel Bandeira&#x0A;&#x0A;Autor de alguns poemas autobiogr�ficos, com teor melanc�lico e triste, Manuel Bandeira imprimia em suas obras a sua rebeldia, desejo de liberdade, saudades da inf�ncia, permeado por temas profundos sobre doen�as (tuberculose).Principais obras: Os Sapos (recitado durante a Semana de 22); A Cinza das Horas (1917); Ritmo Dissoluto (1924); Libertinagem (1930).&#x0A;</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="1264" parent="1261">
+<name>Grupo_1</name>
+<lastupdated>1689270196</lastupdated>
+<shape id="1266" parent="1264" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689270196</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1268" parent="1264" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689270196</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1270" parent="1264" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689270196</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1271" parent="1264" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689270196</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>99</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1271Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1271Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1271Font1&quot;  &gt;Modernismo em Portugal&lt;/span &gt;&lt;span class=&quot;text1271Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Modernismo em Portugal\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Modernismo em Portugal</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1273" parent="1264" resource="57" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689270196</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1275" parent="1264" resource="58" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689270196</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1318" parent="40">
+<name>Página 9</name>
+<lastupdated>1689706502</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1319" parent="1318" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689270423</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>104</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>539</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1319Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1319Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1319Font4 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1319Font1&quot;  &gt;Segunda Fase (1930-1945)&lt;/span &gt;&lt;span class=&quot;text1319Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1319Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1319Font2&quot;  &gt;TambÃ©m chamada de Fase de ConsolidaÃ§Ã£o, a Segunda Fase do Modernismo Ã© caracterizada pelo predomÃ­nio da prosa de ficÃ§Ã£o. Ã‰ nesse perÃ­odo que os ideais difundidos na fase anterior se espalham e normalizam os esforÃ§os de antes para redefinir a linguagem artÃ­stica, que acaba por se unir a um grande interesse pelas temÃ¡ti_cas nacionalistas. As novas obras dos autores da Primeira Fase acabam amadurecendo e surgem novos grandes poetas, como Carlos Drummond de Andrade.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1319Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1319Font4&quot;  &gt;Rachel de Queiroz (1910-2003) &lt;/span &gt;&lt;span class=&quot;text1319Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1319Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1319Font2&quot;  &gt;Foi outra representante do movimento e primeira mulher a entrar para a Academia Brasileira de Letras, merecendo destaque pela sua obra &quot;O Quinze&quot;, na qual a seca do nordeste do paÃ­s e as dificuldades que a acompanham sÃ£o descritas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1319Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1319Font2&quot;  &gt;Principais obras: O Quinze (1930); JoÃ£o Miguel (1932); Caminho de Pedras (1937); As TrÃªs Marias (1939).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\lang1046\hich\f2\loch\f2\cf2\fs36\b Segunda Fase (1930-1945)\fs28\b0\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Tamb\u233 \&apos;e9m chamada de Fase de Consolida\u231 \&apos;e7\u227 \&apos;e3o, a Segunda Fase do Modernismo \u233 &#x0A;\&apos;e9 caracterizada pelo predom\u237 \&apos;ednio da prosa de fic\u231 \&apos;e7\u227 \&apos;e3o. \u201 \&apos;c9 nesse per\u237 \&apos;edodo que os ideais difundidos na fase anterior se espalham e normalizam os esfor\u231 \&apos;e7os de antes para redefinir a linguagem art\u237 \&apos;edstica, &#x0A;que acaba por se unir a um grande interesse pelas tem\u225 \&apos;e1ti&#x02;cas nacionalistas. As novas obras dos autores da Primeira Fase acabam amadurecendo e surgem novos grandes poetas, como Carlos Drummond de Andrade.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\fs32\b &#x0A;Rachel de Queiroz (1910-2003) \fs28\b0\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Foi outra representante do movimento e primeira mulher a entrar para a Academia Brasileira de Letras, merecendo destaque pela sua obra &quot;O Quinze&quot;, na qual &#x0A;a seca do nordeste do pa\u237 \&apos;eds e as dificuldades que a acompanham s\u227 \&apos;e3o descritas.\par\par Principais obras: O Quinze (1930); Jo\u227 \&apos;e3o Miguel (1932); Caminho de Pedras (1937); As Tr\u234 \&apos;eas Marias (1939).\lang1046\hich\f2\loch\f2\par\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Segunda Fase (1930-1945)&#x0A;&#x0A;Tamb�m chamada de Fase de Consolida��o, a Segunda Fase do Modernismo � caracterizada pelo predom�nio da prosa de fic��o. � nesse per�odo que os ideais difundidos na fase anterior se espalham e normalizam os esfor�os de antes para redefinir a linguagem art�stica, que acaba por se unir a um grande interesse pelas tem�ti_cas nacionalistas. As novas obras dos autores da Primeira Fase acabam amadurecendo e surgem novos grandes poetas, como Carlos Drummond de Andrade.&#x0A;&#x0A;Rachel de Queiroz (1910-2003) &#x0A;&#x0A;Foi outra representante do movimento e primeira mulher a entrar para a Academia Brasileira de Letras, merecendo destaque pela sua obra &quot;O Quinze&quot;, na qual a seca do nordeste do pa�s e as dificuldades que a acompanham s�o descritas.&#x0A;&#x0A;Principais obras: O Quinze (1930); Jo�o Miguel (1932); Caminho de Pedras (1937); As Tr�s Marias (1939).&#x0A;&#x0A;</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="1320" parent="1318" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689270495</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>116</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>522</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1320Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1320Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1320Font1&quot;  &gt;JosÃ© Lins do Rego (1901-1957)&lt;/span &gt;&lt;span class=&quot;text1320Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1320Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1320Font3&quot;  &gt;Fez parte da Academia Brasileira de Letras, ganha destaque por seus romances regionalistas &quot;Menino de Engenho&quot;, &quot;Fogo Morto&quot; e &quot;Usina&quot;. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1320Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1320Font1&quot;  &gt;Jorge Amado (1912-2001)&lt;/span &gt;&lt;span class=&quot;text1320Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1320Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1320Font3&quot;  &gt;Um dos nomes mais conhecidos do Modernismo brasileiro, escritor baiano da prosa regionalista e urbana, que sempre abordava os problemas sociais na Bahia em uma linguagem simples e acessÃ­vel. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1320Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1320Font3&quot;  &gt;Principais obras: PaÃ­s do Carnaval (1931); Cacau (1931); CapitÃ£es de Areia (1937); Bahia de Todos-os-Santos (1945).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1320Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1320Font1&quot;  &gt;Ã‰rico VerÃ­ssimo (1905-1975) &lt;/span &gt;&lt;span class=&quot;text1320Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1320Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1320Font3&quot;  &gt;Representante da cultura gaÃºcha, ganhando reconhecimento pela trilogia &quot;O Tempo e o Vento&quot;, alÃ©m de livros como &quot;Fantoches&quot; e &quot;Clarissa&quot;.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\lang1046\hich\f2\loch\f2\cf2\fs32\b Jos\u233 \&apos;e9 Lins do Rego (1901-1957)\fs28\b0\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Fez parte da Academia Brasileira de Letras, ganha destaque por seus romances regionalistas &#x0A;&quot;Menino de Engenho&quot;, &quot;Fogo Morto&quot; e &quot;Usina&quot;. \par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\fs32\b Jorge Amado (1912-2001)\fs28\b0\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Um dos nomes mais conhecidos do Modernismo brasileiro, &#x0A;escritor baiano da prosa regionalista e urbana, que sempre abordava os problemas sociais na Bahia em uma linguagem simples e acess\u237 \&apos;edvel. \par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Principais obras: Pa\u237 \&apos;eds do Carnaval (1931); &#x0A;Cacau (1931); Capit\u227 \&apos;e3es de Areia (1937); Bahia de Todos-os-Santos (1945).\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\fs32\b\u201 \&apos;c9rico Ver\u237 \&apos;edssimo (1905-1975) \fs28\b0\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 &#x0A;Representante da cultura ga\u250 \&apos;facha, ganhando reconhecimento pela trilogia &quot;O Tempo e o Vento&quot;, al\u233 \&apos;e9m de livros como &quot;Fantoches&quot; e &quot;Clarissa&quot;.\lang1046\hich\f2\loch\f2\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Jos� Lins do Rego (1901-1957)&#x0A;&#x0A;Fez parte da Academia Brasileira de Letras, ganha destaque por seus romances regionalistas &quot;Menino de Engenho&quot;, &quot;Fogo Morto&quot; e &quot;Usina&quot;. &#x0A;&#x0A;Jorge Amado (1912-2001)&#x0A;&#x0A;Um dos nomes mais conhecidos do Modernismo brasileiro, escritor baiano da prosa regionalista e urbana, que sempre abordava os problemas sociais na Bahia em uma linguagem simples e acess�vel. &#x0A;&#x0A;Principais obras: Pa�s do Carnaval (1931); Cacau (1931); Capit�es de Areia (1937); Bahia de Todos-os-Santos (1945).&#x0A;&#x0A;�rico Ver�ssimo (1905-1975) &#x0A;&#x0A;Representante da cultura ga�cha, ganhando reconhecimento pela trilogia &quot;O Tempo e o Vento&quot;, al�m de livros como &quot;Fantoches&quot; e &quot;Clarissa&quot;.&#x0A;</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="1321" parent="1318">
+<name>Grupo_1</name>
+<lastupdated>1689270349</lastupdated>
+<shape id="1323" parent="1321" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689270349</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1325" parent="1321" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689270349</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1327" parent="1321" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689270349</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1328" parent="1321" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689270349</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>99</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1328Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1328Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1328Font1&quot;  &gt;Modernismo em Portugal&lt;/span &gt;&lt;span class=&quot;text1328Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Modernismo em Portugal\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Modernismo em Portugal</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1330" parent="1321" resource="57" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689270349</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1332" parent="1321" resource="58" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689270349</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1349" parent="40">
+<name>Página 10</name>
+<lastupdated>1689706504</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1351" parent="1349" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689270906</lastupdated>
+<possize>
+<point>
+<x>507</x>
+<y>34</y>
+</point>
+<size>
+<cx>502</cx>
+<cy>635</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1351Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1351Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font1&quot;  &gt;Lygia Fagundes Telles&lt;/span &gt;&lt;span class=&quot;text1351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font2&quot;  &gt;Considerada a grande dama da literatura brasileira.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font2&quot;  &gt;Principais obras: Ciranda de Pedra (1954); VerÃ£o no AquÃ¡rio (1964); Antes do Baile Verde (1970); As Meninas (1973).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font1&quot;  &gt;JoÃ£o GuimarÃ£es Rosa (1908 â€“ 1967)&lt;/span &gt;&lt;span class=&quot;text1351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font2&quot;  &gt;Um dos maiores poetas de sua geraÃ§Ã£o, GuimarÃ£es Rosa imprimia na maioria de suas obras a vida no sertÃ£o. Com isso, tornou-se famoso o romance Grande SertÃ£o: Veredas, publicado em 1956.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font2&quot;  &gt;Principais obras: Sagarana (1946); Corpo de Baile (1956); Grande SertÃ£o: Veredas (1956); Primeiras EstÃ³rias (1962).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font1&quot;  &gt;Ariano Suassuna (1927 â€“ 2014)&lt;/span &gt;&lt;span class=&quot;text1351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1351Font2&quot;  &gt;Poeta, professor, dramaturgo, Ariano Suassuna defendia a cultura popular e a linguagem regional, principalmente do nordeste. Seu romance mais cÃ©lebre, o Auto da Compadecida, ganhou as telas da TV e do cinema.Principais obras: Os Homens de Barro (1949); Auto de JoÃ£o da Cruz (1950); O Rico Avarento (1954); Auto da Compadecida (1955).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs32\b Lygia Fagundes Telles\fs28\b0\par\par Considerada a grande dama da literatura brasileira.\par\par Principais obras: Ciranda de Pedra (1954); Ver\u227 \&apos;e3o no Aqu\u225 \&apos;e1rio (1964); Antes do &#x0A;Baile Verde (1970); As Meninas (1973).\par\fs32\b\par Jo\u227 \&apos;e3o Guimar\u227 \&apos;e3es Rosa (1908 \u8211 \&apos;96 1967)\fs28\b0\par\par Um dos maiores poetas de sua gera\u231 \&apos;e7\u227 \&apos;e3o, Guimar\u227 \&apos;e3es Rosa imprimia na maioria de suas obras a vida &#x0A;no sert\u227 \&apos;e3o. Com isso, tornou-se famoso o romance Grande Sert\u227 \&apos;e3o: Veredas, publicado em 1956.\par\par Principais obras: Sagarana (1946); Corpo de Baile (1956); Grande Sert\u227 \&apos;e3o: Veredas (1956); Primeiras Est\u243 \&apos;f3rias (1962).\par\par\fs32\b &#x0A;Ariano Suassuna (1927 \u8211 \&apos;96 2014)\fs28\b0\par\par Poeta, professor, dramaturgo, Ariano Suassuna defendia a cultura popular e a linguagem regional, principalmente do nordeste. Seu romance mais c\u233 \&apos;e9lebre, o Auto da Compadecida, ganhou as telas &#x0A;da TV e do cinema.\lang1046\hich\f2\loch\f2 Principais obras: Os Homens de Barro (1949); Auto de Jo\&apos;e3o da Cruz (1950); O Rico Avarento (1954); Auto da Compadecida (1955).\lang1046\hich\f2\loch\f2\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Lygia Fagundes Telles&#x0A;&#x0A;Considerada a grande dama da literatura brasileira.&#x0A;&#x0A;Principais obras: Ciranda de Pedra (1954); Ver�o no Aqu�rio (1964); Antes do Baile Verde (1970); As Meninas (1973).&#x0A;&#x0A;Jo�o Guimar�es Rosa (1908 � 1967)&#x0A;&#x0A;Um dos maiores poetas de sua gera��o, Guimar�es Rosa imprimia na maioria de suas obras a vida no sert�o. Com isso, tornou-se famoso o romance Grande Sert�o: Veredas, publicado em 1956.&#x0A;&#x0A;Principais obras: Sagarana (1946); Corpo de Baile (1956); Grande Sert�o: Veredas (1956); Primeiras Est�rias (1962).&#x0A;&#x0A;Ariano Suassuna (1927 � 2014)&#x0A;&#x0A;Poeta, professor, dramaturgo, Ariano Suassuna defendia a cultura popular e a linguagem regional, principalmente do nordeste. Seu romance mais c�lebre, o Auto da Compadecida, ganhou as telas da TV e do cinema.Principais obras: Os Homens de Barro (1949); Auto de Jo�o da Cruz (1950); O Rico Avarento (1954); Auto da Compadecida (1955).&#x0A;</raw>
+<numoflines>29</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="1350" parent="1349" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689270951</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>104</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>556</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1350Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1350Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1350Font4 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1350Font1&quot;  &gt;Terceira Fase (1945-1960)&lt;/span &gt;&lt;span class=&quot;text1350Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1350Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1350Font2&quot;  &gt;Nesta fase a prosa dÃ¡ sequÃªncia Ã s trÃªs tendÃªncias observadas na Segunda Fase, que sÃ£o: a prosa urbana, intimista e regionalista, com certa renovaÃ§Ã£o formal. A poesia desse perÃ­odo conta com os poetas que apareceram na fase anterior, afinal eles continuam em constante renovaÃ§Ã£o. Foi criado um grupo de escritores que se autodenominaram de &quot;geraÃ§Ã£o 45&quot;, seus membros procuravam por uma poesia equilibrada e sÃ©ria, &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1350Font2&quot;  &gt;sendo atÃ© chamados pelas outras pessoas de neoparnasianos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1350Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1350Font4&quot;  &gt;Clarice Lispector (1920 â€“ 1977)&lt;/span &gt;&lt;span class=&quot;text1350Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1350Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1350Font2&quot;  &gt;Autora conhecida pelo seu lirismo e forma intimista que empregava em suas obras. Nascida na UcrÃ¢nia e naturalizada brasileira, Clarice Lispector tambÃ©m era jornalista.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1350Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1350Font2&quot;  &gt;Principais obras: Perto do CoraÃ§Ã£o Selvagem (1943); A PaixÃ£o Segundo G.H (1964); Ãgua Viva (1973); A Hora da Estrela (1977). Lygia Fagundes Telles (1923)&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\b Terceira Fase (1945-1960)\fs28\b0\par\par Nesta fase a prosa d\u225 \&apos;e1 sequ\u234 \&apos;eancia \u224 \&apos;e0s tr\u234 \&apos;eas tend\u234 \&apos;eancias observadas na Segunda Fase, que s\u227 \&apos;e3o: a prosa urbana, &#x0A;intimista e regionalista, com certa renova\u231 \&apos;e7\u227 \&apos;e3o formal. A poesia desse per\u237 \&apos;edodo conta com os poetas que apareceram na fase anterior, afinal eles continuam em constante renova\u231 \&apos;e7\u227 \&apos;e3o. Foi criado um grupo de escritores &#x0A;que se autodenominaram de &quot;gera\u231 \&apos;e7\u227 \&apos;e3o 45&quot;, seus membros procuravam por uma poesia equilibrada e s\u233 \&apos;e9ria, \par sendo at\u233 \&apos;e9 chamados pelas outras pessoas de neoparnasianos.\par\fs32\b\par Clarice Lispector (1920 \u8211 \&apos;96 &#x0A;1977)\fs28\b0\par\par Autora conhecida pelo seu lirismo e forma intimista que empregava em suas obras. Nascida na Ucr\u226 \&apos;e2nia e naturalizada brasileira, Clarice Lispector tamb\u233 \&apos;e9m era jornalista.\par\par Principais obras: Perto do Cora\u231 &#x0A;\&apos;e7\u227 \&apos;e3o Selvagem (1943); A Paix\u227 \&apos;e3o Segundo G.H (1964); \u193 \&apos;c1gua Viva (1973); A Hora da Estrela (1977). Lygia Fagundes Telles (1923)\par\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Terceira Fase (1945-1960)&#x0A;&#x0A;Nesta fase a prosa d� sequ�ncia �s tr�s tend�ncias observadas na Segunda Fase, que s�o: a prosa urbana, intimista e regionalista, com certa renova��o formal. A poesia desse per�odo conta com os poetas que apareceram na fase anterior, afinal eles continuam em constante renova��o. Foi criado um grupo de escritores que se autodenominaram de &quot;gera��o 45&quot;, seus membros procuravam por uma poesia equilibrada e s�ria, &#x0A;sendo at� chamados pelas outras pessoas de neoparnasianos.&#x0A;&#x0A;Clarice Lispector (1920 � 1977)&#x0A;&#x0A;Autora conhecida pelo seu lirismo e forma intimista que empregava em suas obras. Nascida na Ucr�nia e naturalizada brasileira, Clarice Lispector tamb�m era jornalista.&#x0A;&#x0A;Principais obras: Perto do Cora��o Selvagem (1943); A Paix�o Segundo G.H (1964); �gua Viva (1973); A Hora da Estrela (1977). Lygia Fagundes Telles (1923)&#x0A;&#x0A;</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="1352" parent="1349">
+<name>Grupo_1</name>
+<lastupdated>1689270502</lastupdated>
+<shape id="1354" parent="1352" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689270502</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1356" parent="1352" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689270502</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1358" parent="1352" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689270502</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1359" parent="1352" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689270502</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>99</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1359Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1359Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1359Font1&quot;  &gt;Modernismo em Portugal&lt;/span &gt;&lt;span class=&quot;text1359Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Modernismo em Portugal\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Modernismo em Portugal</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1361" parent="1352" resource="57" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689270502</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1363" parent="1352" resource="58" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689270502</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

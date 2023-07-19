@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>851</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="171" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="172" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="668" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="843" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="844" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="80">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 13</name>
+<lastupdated>1687367257</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="79" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687367269</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="78" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687367269</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687367269</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="80" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687367269</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687367269</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687367269</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="71" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687367269</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="72" parent="71" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687367269</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="71" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687367269</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="64" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687367269</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="65" parent="64" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687367269</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="66" parent="64" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687367269</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="56" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687367269</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="57" parent="56" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687367269</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="58" parent="56" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687367269</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="59" parent="56" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687367269</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="56">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689696032</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="828" parent="40">
+<name>Página 1</name>
+<lastupdated>1689696034</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="829" parent="828">
+<name>Grupo_1</name>
+<lastupdated>1689696034</lastupdated>
+<image id="831" parent="829" resource="843" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689696034</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="833" parent="829" resource="844" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689696034</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="834" parent="829" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689696036</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text834Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text834Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text834Font1&quot;  &gt;Aula 13&lt;/span &gt;&lt;span class=&quot;text834Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula 1\lang1046\hich\f2\loch\f2 3\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 13</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="836" parent="829" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689696034</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="838" parent="829" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689696034</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="840" parent="829" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689696034</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="842" parent="829" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689696034</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="156" parent="40">
+<name>Página 2</name>
+<lastupdated>1689696032</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="300" parent="156" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687367490</lastupdated>
+<possize>
+<point>
+<x>532</x>
+<y>129</y>
+</point>
+<size>
+<cx>444</cx>
+<cy>505</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text300Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text300Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text300Font4 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text300Font4 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text300Font1&quot;  &gt;no aumento desses gases nos ambientes baseando-se nas fontes naturais (em menor proporÃ§Ã£o) e principalmente nas fontes antropogÃªnicas, caracterizadas por serem causadas pela aÃ§Ã£o do homem.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text300Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text300Font1&quot;  &gt;Entre os motivos mais comuns do aumento da emissÃ£o de gases poluentes pode-se citar:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text300Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text300Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text300ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text300Font1&quot;  &gt;Aumento da comercializaÃ§Ã£o de gado para corte â€“ O gÃ¡s metano Ã© emitido pelos animais durante o processo de digestÃ£o.;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text300Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text300ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text300Font1&quot;  &gt;LiberaÃ§Ã£o de fumaÃ§a e monÃ³xido de carbono emitido nas queimadas naturais e controladas na agricultura;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text300Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text300ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text300Font1&quot;  &gt;DecomposiÃ§Ã£o de matÃ©ria orgÃ¢nica que emite gÃ¡s metano diretamente para a atmosfera;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text300Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text300ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text300Font1&quot;  &gt;FÃ¡bricas, usinas de energia, incineradores, fornalhas e outras fontes estacionÃ¡rias, que geram como resÃ­duo os gases poluentes;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text300Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text300ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text300Font1&quot;  &gt;VeÃ­culos automotores movidos Ã  combustÃ£o. O transporte contribui com cerca de metade das emissÃµes de monÃ³xido de carbono (CO) e Ã³xido de nitrogÃªnio (NO);&#x0D;&lt;/span &gt;&lt;span class=&quot;text300Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 no aumento desses gases nos ambientes baseando-se nas fontes naturais (em menor propor\&apos;e7\&apos;e3o) e principalmente nas fontes antropog\&apos;eanicas, caracterizadas por serem causadas pela a\&apos;e7\&apos;e3o do homem.\par\par &#x0A;Entre os motivos mais comuns do aumento da emiss\u227 \&apos;e3o de gases poluentes pode-se citar:\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 &#x0A;Aumento da comercializa\u231 \&apos;e7\u227 \&apos;e3o de gado para corte \u8211 \&apos;96 O g\u225 \&apos;e1s metano \u233 \&apos;e9 emitido pelos animais durante o processo de digest\u227 \&apos;e3o.;\par Libera\u231 \&apos;e7\u227 \&apos;e3o de fuma\u231 \&apos;e7a e mon\u243 \&apos;f3xido de carbono &#x0A;emitido nas queimadas naturais e controladas na agricultura;\par Decomposi\u231 \&apos;e7\u227 \&apos;e3o de mat\u233 \&apos;e9ria org\u226 \&apos;e2nica que emite g\u225 \&apos;e1s metano diretamente para a atmosfera;\lang1046\hich\f2\loch\f2\par F\&apos;e1bricas, usinas de energia, &#x0A;incineradores, fornalhas e outras fontes estacion\&apos;e1rias, que geram como res\&apos;edduo os gases poluentes;\par Ve\&apos;edculos automotores movidos \&apos;e0 combust\&apos;e3o. O transporte contribui com cerca de metade das emiss\&apos;f5es de mon\&apos;f3xido de carbono (CO) e &#x0A;\&apos;f3xido de nitrog\&apos;eanio (NO);\&apos;0d\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?no aumento desses gases nos ambientes baseando-se nas fontes naturais (em menor propor��o) e principalmente nas fontes antropog�nicas, caracterizadas por serem causadas pela a��o do homem.&#x0A;&#x0A;Entre os motivos mais comuns do aumento da emiss�o de gases poluentes pode-se citar:&#x0A;&#x0A;Aumento da comercializa��o de gado para corte � O g�s metano � emitido pelos animais durante o processo de digest�o.;&#x0A;Libera��o de fuma�a e mon�xido de carbono emitido nas queimadas naturais e controladas na agricultura;&#x0A;Decomposi��o de mat�ria org�nica que emite g�s metano diretamente para a atmosfera;&#x0A;F�bricas, usinas de energia, incineradores, fornalhas e outras fontes estacion�rias, que geram como res�duo os gases poluentes;&#x0A;Ve�culos automotores movidos � combust�o. O transporte contribui com cerca de metade das emiss�es de mon�xido de carbono (CO) e �xido de nitrog�nio (NO);&#x0D;</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text300ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text300ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text300ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>24</numoflines>
+<numpubbullets>3</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="242" parent="156" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687367422</lastupdated>
+<possize>
+<point>
+<x>46</x>
+<y>125</y>
+</point>
+<size>
+<cx>433</cx>
+<cy>513</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text242Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text242Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text242Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text242Font6 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text242Font1&quot;  &gt;PoluiÃ§Ã£o gasosa&lt;/span &gt;&lt;span class=&quot;text242Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text242Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text242Font3&quot;  &gt;Atualmente, a produÃ§Ã£o e liberaÃ§Ã£o de grande volume de gases poluentes para a atmosfera sinaliza o desenvolvimento da sociedade. A questÃ£o Ã© que ao produzir esse alto volume de gases poluentes ocorre a contaminaÃ§Ã£o da atmosfera de forma a prejudicar o meio ambiente ocasionando o efeito estufa, chuva Ã¡cida, &quot;buraco&quot; na camada de ozÃ´nio alÃ©m de serem nocivos Ã  saÃºde trazendo problemas respiratÃ³rios. Portanto, se faz necessÃ¡rio conhecermos quais sÃ£o esses gases poluentes de forma a evitarmos o consumo, produÃ§Ã£o e comercializaÃ§Ã£o pensando em um ambiente mais agradÃ¡vel para todos.&lt;/span &gt;&lt;span class=&quot;text242Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text242Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text242Font6&quot;  &gt;Causas da poluiÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text242Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text242Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text242Font5&quot;  &gt;No sÃ©culo XX, com o aprofundamento dos estudos sobre aquecimento global e da degradaÃ§Ã£o ambiental, os especialistas comeÃ§aram a estudar mais afundo a influÃªncia dos gases de forma individual para se entender as principais influÃªncias &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Polui\u231 \&apos;e7\u227 \&apos;e3o gasosa\fs28\b0\par\par Atualmente, a produ\u231 \&apos;e7\u227 \&apos;e3o e libera\u231 \&apos;e7\u227 \&apos;e3o de grande volume de gases poluentes para a atmosfera sinaliza o desenvolvimento da sociedade. A &#x0A;quest\u227 \&apos;e3o \u233 \&apos;e9 que ao produzir esse alto volume de gases poluentes ocorre a contamina\u231 \&apos;e7\u227 \&apos;e3o da atmosfera de forma a prejudicar o meio ambiente ocasionando o efeito estufa, chuva \u225 \&apos;e1cida, &quot;buraco&quot; na camada de oz\u244 &#x0A;\&apos;f4nio al\u233 \&apos;e9m de serem nocivos \u224 \&apos;e0 sa\u250 \&apos;fade trazendo problemas respirat\u243 \&apos;f3rios. Portanto, se faz necess\u225 \&apos;e1rio conhecermos quais s\u227 \&apos;e3o esses gases poluentes de forma a evitarmos o consumo, produ\u231 \&apos;e7\u227 &#x0A;\&apos;e3o e comercializa\u231 \&apos;e7\u227 \&apos;e3o pensando em um ambiente mais agrad\u225 \&apos;e1vel para todos.\hich\f2\loch\f2\par\par\fs36\b Causas da polui\&apos;e7\&apos;e3o\fs28\b0\par\par No s\&apos;e9culo XX, com o aprofundamento dos estudos sobre aquecimento global e &#x0A;da degrada\&apos;e7\&apos;e3o ambiental, os especialistas come\&apos;e7aram a estudar mais afundo a influ\&apos;eancia dos gases de forma individual para se entender as principais influ\&apos;eancias \par}&#x0A;</rtf>
+<raw>?Polui��o gasosa&#x0A;&#x0A;Atualmente, a produ��o e libera��o de grande volume de gases poluentes para a atmosfera sinaliza o desenvolvimento da sociedade. A quest�o � que ao produzir esse alto volume de gases poluentes ocorre a contamina��o da atmosfera de forma a prejudicar o meio ambiente ocasionando o efeito estufa, chuva �cida, &quot;buraco&quot; na camada de oz�nio al�m de serem nocivos � sa�de trazendo problemas respirat�rios. Portanto, se faz necess�rio conhecermos quais s�o esses gases poluentes de forma a evitarmos o consumo, produ��o e comercializa��o pensando em um ambiente mais agrad�vel para todos.&#x0A;&#x0A;Causas da polui��o&#x0A;&#x0A;No s�culo XX, com o aprofundamento dos estudos sobre aquecimento global e da degrada��o ambiental, os especialistas come�aram a estudar mais afundo a influ�ncia dos gases de forma individual para se entender as principais influ�ncias </raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="159" parent="156">
+<name>Grupo_1</name>
+<lastupdated>1687367287</lastupdated>
+<shape id="161" parent="159" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687367323</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="163" parent="159" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687367323</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="165" parent="159" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687367323</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="166" parent="159" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687367323</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>805</cx>
+<cy>58</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text166Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text166Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold; font-style:italic;}&#x0A;span.text166Font3 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text166Font1&quot;  &gt;PoluiÃ§Ãµes gasosas &lt;/span &gt;&lt;span class=&quot;text166Font2&quot;  &gt;versus&lt;/span &gt;&lt;span class=&quot;text166Font1&quot;  &gt; sustentabilidade&lt;/span &gt;&lt;span class=&quot;text166Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Polui\&apos;e7\&apos;f5es gasosas \i versus\i0  sustentabilidade\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Polui��es gasosas versus sustentabilidade</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="168" parent="159" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687367323</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="170" parent="159" resource="172" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687367323</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="359" parent="40">
+<name>Página 3</name>
+<lastupdated>1687367515</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="423" parent="359" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687367700</lastupdated>
+<possize>
+<point>
+<x>535</x>
+<y>105</y>
+</point>
+<size>
+<cx>426</cx>
+<cy>539</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text423Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text423Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text423Font6 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text423Font1&quot;  &gt;Com a emissÃ£o de um grande volume desse gÃ¡s na atmosfera resulta na formaÃ§Ã£o da chuva Ã¡cida, pois o diÃ³xido de enxofre reage com o oxigÃªnio da atmosfera formando o triÃ³xido de enxofre que por consequÃªncia interage com as molÃ©culas de Ã¡gua suspensas na atmosfera resultando na formaÃ§Ã£o do Ã¡cido sulfÃºrico (chuva Ã¡cida). &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text423Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text423Font3&quot;  &gt;MonÃ³xido de carbono â€“ CO&lt;/span &gt;&lt;span class=&quot;text423Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text423Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text423Font1&quot;  &gt;Entre os gases poluentes , o monÃ³xido de carbono Ã© o mais abundante e de maior distribuiÃ§Ã£o na camada inferior da atmosfera que se dÃ¡ pelas atividades humanas, sendo resultado da combustÃ£o incompleta dos combustÃ­veis, ou seja, se a quantidade de oxigÃªnio no ambiente for insuficiente, a combustÃ£o serÃ¡ deficiente e incompleta, dando lugar Ã  formaÃ§Ã£o de monÃ³xido de carbono.&lt;/span &gt;&lt;span class=&quot;text423Font6&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text423Font6&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text423Font6&quot;  &gt;Um dos principais problemas ambientais relacionados por esse gÃ¡s, Ã© o efeito estufa, um processo no qual gases contidos na atmosfera retÃ©m parte da radiaÃ§Ã£o infravermelha refletida pela superfÃ­cie do nosso planeta, evitando que ela &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Com a emiss\u227 \&apos;e3o de um grande volume desse g\u225 \&apos;e1s na atmosfera resulta na forma\u231 \&apos;e7\u227 \&apos;e3o da chuva \u225 \&apos;e1cida, pois o di\u243 \&apos;f3xido de enxofre reage com o oxig\u234 \&apos;eanio da atmosfera formando &#x0A;o tri\u243 \&apos;f3xido de enxofre que por consequ\u234 \&apos;eancia interage com as mol\u233 \&apos;e9culas de \u225 \&apos;e1gua suspensas na atmosfera resultando na forma\u231 \&apos;e7\u227 \&apos;e3o do \u225 \&apos;e1cido sulf\u250 \&apos;farico (chuva \u225 \&apos;e1cida). \par\par\b Mon\u243 &#x0A;\&apos;f3xido de carbono \u8211 \&apos;96 CO\b0\par\par Entre os gases poluentes , o mon\u243 \&apos;f3xido de carbono \u233 \&apos;e9 o mais abundante e de maior distribui\u231 \&apos;e7\u227 \&apos;e3o na camada inferior da atmosfera que se d\u225 \&apos;e1 pelas atividades humanas, &#x0A;sendo resultado da combust\u227 \&apos;e3o incompleta dos combust\u237 \&apos;edveis, ou seja, se a quantidade de oxig\u234 \&apos;eanio no ambiente for insuficiente, a combust\u227 \&apos;e3o ser\u225 \&apos;e1 deficiente e incompleta, dando lugar \u224 \&apos;e0 forma\u231 \&apos;e7\u227 &#x0A;\&apos;e3o de mon\u243 \&apos;f3xido de carbono.\hich\f2\loch\f2\par\par Um dos principais problemas ambientais relacionados por esse g\&apos;e1s, \&apos;e9 o efeito estufa, um processo no qual gases contidos na atmosfera ret\&apos;e9m parte da radia\&apos;e7\&apos;e3o infravermelha refletida &#x0A;pela superf\&apos;edcie do nosso planeta, evitando que ela \par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Com a emiss?o de um grande volume desse g?s na atmosfera resulta na forma??o da chuva ?cida, pois o di?xido de enxofre reage com o oxig?nio da atmosfera formando o tri?xido de enxofre que por consequ?ncia interage com as mol?culas de ?gua suspensas na atmosfera resultando na forma??o do ?cido sulf?rico (chuva ?cida). &#x0A;Mon?xido de carbono ? CO&#x0A;Entre os gases poluentes , o mon?xido de carbono ? o mais abundante e de maior distribui??o na camada inferior da atmosfera que se d? pelas atividades humanas, sendo resultado da combust?o incompleta dos combust?veis, ou seja, se a quantidade de oxig?nio no ambiente for insuficiente, a combust?o ser? deficiente e incompleta, dando lugar ? forma??o de mon?xido de carbono.&#x0A;Um dos principais problemas ambientais relacionados por esse g?s, ? o efeito estufa, um processo no qual gases contidos na atmosfera ret?m parte da radia??o infravermelha refletida pela superf?cie do nosso planeta, evitando que ela &#x0A;</raw>
+<numoflines>26</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="375" parent="359" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687367600</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>120</y>
+</point>
+<size>
+<cx>426</cx>
+<cy>484</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text375Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text375Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text375Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text375Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text375Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text375Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text375Font7 { font-size:14px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text375Font7 { font-size:14px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text375Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text375ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text375Font1&quot;  &gt;Uso de aerossÃ³is, tintas, sprays de cabelo e outros solventes;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text375Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text375ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text375Font1&quot;  &gt;EmissÃ£o de amÃ´nia pelo uso de fertilizantes;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text375Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text375ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text375Font1&quot;  &gt;Atividade mineradora.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text375Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text375Font3&quot;  &gt;Tipos de gases poluentes&lt;/span &gt;&lt;span class=&quot;text375Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text375Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text375Font1&quot;  &gt;Boa parte das pessoas pensam que o vilÃ£o da atmosfera Ã© somente o gÃ¡s carbÃ´nico, mas agora vocÃªs conhecerÃ£o outros gases que estÃ£o em nosso dia a dia que contribuem para os problemas ambientais.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text375Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text375Font4&quot;  &gt;DiÃ³xido de enxofre â€“ SO&lt;/span &gt;&lt;span class=&quot;text375Font7&quot;  &gt;&lt;sub &gt;2&lt;/sub &gt;&lt;/span &gt;&lt;span class=&quot;text375Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text375Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text375Font1&quot;  &gt;Esse gÃ¡s Ã© decorrente da produÃ§Ã£o energÃ©tica e tÃ©rmica que deriva do consumo de combustÃ­veis fÃ³sseis que contÃªm enxofre. A maior parte do enxofre nocivo costuma se formar durante o processamento do gÃ¡s natural e do refinamento do petrÃ³leo. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fnil \fcharset2 Wingdings;}{\f3 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf2{\pntxtb \&apos;d8}}\fi-360\li360\qj\cf2\fs28 Uso de aeross\&apos;f3is, tintas, sprays de cabelo e outros solventes;\par Emiss\u227 \&apos;e3o de am\u244 \&apos;f4nia pelo uso de fertilizantes;\par Atividade mineradora.\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par\fs36\b &#x0A;Tipos de gases poluentes\fs28\b0\par\par Boa parte das pessoas pensam que o vil\u227 \&apos;e3o da atmosfera \u233 \&apos;e9 somente o g\u225 \&apos;e1s carb\u244 \&apos;f4nico, mas agora voc\u234 \&apos;eas conhecer\u227 \&apos;e3o outros gases que est\u227 \&apos;e3o em nosso dia a dia &#x0A;que contribuem para os problemas ambientais.\par\par\b Di\u243 \&apos;f3xido de enxofre \u8211 \&apos;96 SO{\sub 2}\b0\par\par Esse g\u225 \&apos;e1s \u233 \&apos;e9 decorrente da produ\u231 \&apos;e7\u227 \&apos;e3o energ\u233 \&apos;e9tica e t\u233 \&apos;e9rmica que deriva do consumo de &#x0A;combust\u237 \&apos;edveis f\u243 \&apos;f3sseis que cont\u234 \&apos;eam enxofre. A maior parte do enxofre nocivo costuma se formar durante o processamento do g\u225 \&apos;e1s natural e do refinamento do petr\u243 \&apos;f3leo. \par}&#x0A;</rtf>
+<raw>?Uso de aeross?is, tintas, sprays de cabelo e outros solventes;&#x0A;Emiss?o de am?nia pelo uso de fertilizantes;&#x0A;Atividade mineradora.&#x0A;Tipos de gases poluentes&#x0A;Boa parte das pessoas pensam que o vil?o da atmosfera ? somente o g?s carb?nico, mas agora voc?s conhecer?o outros gases que est?o em nosso dia a dia que contribuem para os problemas ambientais.&#x0A;Di?xido de enxofre ? SO2&#x0A;Esse g?s ? decorrente da produ??o energ?tica e t?rmica que deriva do consumo de combust?veis f?sseis que cont?m enxofre. A maior parte do enxofre nocivo costuma se formar durante o processamento do g?s natural e do refinamento do petr?leo. </raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text375ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text375ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>21</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="361" parent="359">
+<name>Grupo_1</name>
+<lastupdated>1687367505</lastupdated>
+<shape id="363" parent="361" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687367505</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="365" parent="361" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687367505</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="367" parent="361" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687367505</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="368" parent="361" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687367505</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>805</cx>
+<cy>58</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text368Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text368Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold; font-style:italic;}&#x0A;span.text368Font3 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text368Font1&quot;  &gt;PoluiÃ§Ãµes gasosas &lt;/span &gt;&lt;span class=&quot;text368Font2&quot;  &gt;versus&lt;/span &gt;&lt;span class=&quot;text368Font1&quot;  &gt; sustentabilidade&lt;/span &gt;&lt;span class=&quot;text368Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Polui\&apos;e7\&apos;f5es gasosas \i versus\i0  sustentabilidade\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Polui??es gasosas versus sustentabilidade</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="370" parent="361" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687367505</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="372" parent="361" resource="172" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687367505</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="374" parent="40">
+<name>Página 4</name>
+<lastupdated>1687367837</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="539" parent="374" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687367835</lastupdated>
+<possize>
+<point>
+<x>526</x>
+<y>124</y>
+</point>
+<size>
+<cx>439</cx>
+<cy>505</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text539Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text539Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text539Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text539Font1&quot;  &gt;responsÃ¡vel pela destruiÃ§Ã£o da camada de ozÃ´nio aumentando a irradiaÃ§Ã£o Ultravioleta na atmosfera trazendo doenÃ§as vinculadas a essa radiaÃ§Ã£o como cÃ¢ncer de pele.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text539Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text539Font3&quot;  &gt;DiÃ³xido de nitrogÃªnio &lt;/span &gt;&lt;span class=&quot;text539Font5&quot;  &gt;â€“&lt;/span &gt;&lt;span class=&quot;text539Font3&quot;  &gt; NO2&lt;/span &gt;&lt;span class=&quot;text539Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text539Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text539Font1&quot;  &gt;Ã‰ proveniente da reaÃ§Ã£o de oxidaÃ§Ã£o do oxigÃªnio da atmosfera com o Ã³xido de nitrogÃªnio da queima de combustÃ­veis sendo bastante poluente e nocivo Ã  saÃºde dos seres humanos, podendo prejudicar o sistema respiratÃ³rio&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text539Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text539Font3&quot;  &gt;Material Particulado&lt;/span &gt;&lt;span class=&quot;text539Font1&quot;  &gt; &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text539Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text539Font1&quot;  &gt;Os materiais particulados geralmente se apresentam na forma de cinzas formadas pela presenÃ§a de elementos incombustÃ­veis durante a queima de combustÃ­veis de automÃ³veis movidos Ã  diesel, do desgaste de pneus e freios dos veÃ­culos em geral, mas tÃªm na indÃºstria na utilizaÃ§Ã£o de caldeiras um de seus principais lanÃ§adores ao meio ambiente.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 respons\u225 \&apos;e1vel pela destrui\u231 \&apos;e7\u227 \&apos;e3o da camada de oz\u244 \&apos;f4nio aumentando a irradia\u231 \&apos;e7\u227 \&apos;e3o Ultravioleta na atmosfera trazendo doen\u231 \&apos;e7as vinculadas a essa radia\u231 &#x0A;\&apos;e7\u227 \&apos;e3o como c\u226 \&apos;e2ncer de pele.\par\par\b Di\u243 \&apos;f3xido de nitrog\u234 \&apos;eanio \hich\f1\loch\f1\u8211 \&apos;96\hich\f2\loch\f2  NO2\b0\par\par\u201 \&apos;c9 proveniente da rea\u231 \&apos;e7\u227 \&apos;e3o de oxida\u231 \&apos;e7\u227 \&apos;e3o do oxig\u234 \&apos;eanio &#x0A;da atmosfera com o \u243 \&apos;f3xido de nitrog\u234 \&apos;eanio da queima de combust\u237 \&apos;edveis sendo bastante poluente e nocivo \u224 \&apos;e0 sa\u250 \&apos;fade dos seres humanos, podendo prejudicar o sistema respirat\u243 \&apos;f3rio\par\par\b Material Particulado\b0 &#x0A; \par\par Os materiais particulados geralmente se apresentam na forma de cinzas formadas pela presen\u231 \&apos;e7a de elementos incombust\u237 \&apos;edveis durante a queima de combust\u237 \&apos;edveis de autom\u243 \&apos;f3veis movidos \u224 \&apos;e0 diesel, do\lang1046\hich\f2\loch\f2 &#x0A; desgaste de pneus e freios dos ve\&apos;edculos em geral, mas t\&apos;eam na ind\&apos;fastria na utiliza\&apos;e7\&apos;e3o de caldeiras um de seus principais lan\&apos;e7adores ao meio ambiente.\lang1046\hich\f2\loch\f2\par\ql\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par}&#x0A;</rtf>
+<raw>?respons?vel pela destrui??o da camada de oz?nio aumentando a irradia??o Ultravioleta na atmosfera trazendo doen?as vinculadas a essa radia??o como c?ncer de pele.&#x0A;Di?xido de nitrog?nio ? NO2&#x0A;? proveniente da rea??o de oxida??o do oxig?nio da atmosfera com o ?xido de nitrog?nio da queima de combust?veis sendo bastante poluente e nocivo ? sa?de dos seres humanos, podendo prejudicar o sistema respirat?rio&#x0A;Material Particulado &#x0A;Os materiais particulados geralmente se apresentam na forma de cinzas formadas pela presen?a de elementos incombust?veis durante a queima de combust?veis de autom?veis movidos ? diesel, do desgaste de pneus e freios dos ve?culos em geral, mas t?m na ind?stria na utiliza??o de caldeiras um de seus principais lan?adores ao meio ambiente.&#x0A;</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="493" parent="374" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687367771</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>126</y>
+</point>
+<size>
+<cx>434</cx>
+<cy>522</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text493Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text493Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text493Font1&quot;  &gt;se perca no espaÃ§o. Assim, aumentando a temperatura do nosso planeta.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text493Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text493Font2&quot;  &gt;GÃ¡s carbÃ´nico â€“ CO2&lt;/span &gt;&lt;span class=&quot;text493Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text493Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text493Font1&quot;  &gt;Ã‰ o gÃ¡s danoso mais conhecido, gerado nos processos de produÃ§Ã£o de energia, principalmente para a geraÃ§Ã£o de vapor em caldeiras industriais e energia elÃ©trica atravÃ©s de termoelÃ©tricas. Esse gÃ¡s tambÃ©m faz parte da composiÃ§Ã£o da chuva Ã¡cida em que ao reagir com as gotÃ­culas da Ã¡gua suspensas na atmosfera formam a substÃ¢ncia Ã¡cido carbÃ´nico. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text493Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text493Font1&quot;  &gt;GÃ¡s Clorofluorcarbonos â€“ CFC&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text493Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text493Font1&quot;  &gt;Por muito tempo, considerado um grande vilÃ£o do meio ambiente e exatamente por isso estÃ¡ tendo seu uso bastante reduzido nas Ãºltimas dÃ©cadas. Esse gÃ¡s, baseado nos elementos carbono, flÃºor e cloro, Ã© bastante leve sendo capaz de subir atÃ© a atmosfera e atingir a camada de ozÃ´nio (O3), reagindo com o ozÃ´nio e transformando-o em oxigÃªnio (O2). Com isso pode ser um importante &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 se perca no espa\&apos;e7o. Assim, aumentando a temperatura do nosso planeta.\par\b\par G\u225 \&apos;e1s carb\u244 \&apos;f4nico \u8211 \&apos;96 CO2\b0\par\par\u201 \&apos;c9 o g\u225 \&apos;e1s danoso mais conhecido, gerado nos processos &#x0A;de produ\u231 \&apos;e7\u227 \&apos;e3o de energia, principalmente para a gera\u231 \&apos;e7\u227 \&apos;e3o de vapor em caldeiras industriais e energia el\u233 \&apos;e9trica atrav\u233 \&apos;e9s de termoel\u233 \&apos;e9tricas. Esse g\u225 \&apos;e1s tamb\u233 \&apos;e9m faz parte da composi\u231 &#x0A;\&apos;e7\u227 \&apos;e3o da chuva \u225 \&apos;e1cida em que ao reagir com as got\u237 \&apos;edculas da \u225 \&apos;e1gua suspensas na atmosfera formam a subst\u226 \&apos;e2ncia \u225 \&apos;e1cido carb\u244 \&apos;f4nico. \par\par G\u225 \&apos;e1s Clorofluorcarbonos \u8211 \&apos;96 CFC\par\par &#x0A;Por muito tempo, considerado um grande vil\u227 \&apos;e3o do meio ambiente e exatamente por isso est\u225 \&apos;e1 tendo seu uso bastante reduzido nas \u250 \&apos;faltimas d\u233 \&apos;e9cadas. Esse g\u225 \&apos;e1s, baseado nos elementos carbono, fl\u250 \&apos;faor e cloro, \u233 &#x0A;\&apos;e9 bastante leve sendo capaz de subir at\u233 \&apos;e9 a atmosfera e atingir a camada de oz\u244 \&apos;f4nio (O3), reagindo com o oz\u244 \&apos;f4nio e transformando-o em oxig\u234 \&apos;eanio (O2). Com isso pode ser um importante \par}&#x0A;</rtf>
+<raw>?se perca no espa?o. Assim, aumentando a temperatura do nosso planeta.&#x0A;G?s carb?nico ? CO2&#x0A;? o g?s danoso mais conhecido, gerado nos processos de produ??o de energia, principalmente para a gera??o de vapor em caldeiras industriais e energia el?trica atrav?s de termoel?tricas. Esse g?s tamb?m faz parte da composi??o da chuva ?cida em que ao reagir com as got?culas da ?gua suspensas na atmosfera formam a subst?ncia ?cido carb?nico. &#x0A;G?s Clorofluorcarbonos ? CFC&#x0A;Por muito tempo, considerado um grande vil?o do meio ambiente e exatamente por isso est? tendo seu uso bastante reduzido nas ?ltimas d?cadas. Esse g?s, baseado nos elementos carbono, fl?or e cloro, ? bastante leve sendo capaz de subir at? a atmosfera e atingir a camada de oz?nio (O3), reagindo com o oz?nio e transformando-o em oxig?nio (O2). Com isso pode ser um importante </raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="458" parent="374">
+<name>Grupo_1</name>
+<lastupdated>1687367677</lastupdated>
+<shape id="460" parent="458" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687367677</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="462" parent="458" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687367677</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="464" parent="458" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687367677</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="465" parent="458" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687367677</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>805</cx>
+<cy>58</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text465Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text465Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold; font-style:italic;}&#x0A;span.text465Font3 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text465Font1&quot;  &gt;PoluiÃ§Ãµes gasosas &lt;/span &gt;&lt;span class=&quot;text465Font2&quot;  &gt;versus&lt;/span &gt;&lt;span class=&quot;text465Font1&quot;  &gt; sustentabilidade&lt;/span &gt;&lt;span class=&quot;text465Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Polui\&apos;e7\&apos;f5es gasosas \i versus\i0  sustentabilidade\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Polui??es gasosas versus sustentabilidade</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="467" parent="458" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687367677</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="469" parent="458" resource="172" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687367677</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="613" parent="40">
+<name>Página 5</name>
+<lastupdated>1687367994</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="746" parent="613" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687367980</lastupdated>
+<possize>
+<point>
+<x>539</x>
+<y>553</y>
+</point>
+<size>
+<cx>440</cx>
+<cy>52</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text746Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text746Font2 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text746Font1&quot;  &gt;Fonte internet: &amp;lt;https://superbanco.files.wordpress.com/2012/03/biogas.jpg &amp;gt; &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text746Font1&quot;  &gt;Acessado em 05 abril de 2021&lt;/span &gt;&lt;span class=&quot;text746Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs22\ql\hich\f2\loch\f2\b Fonte internet: &lt;https://superbanco.files.wordpress.com/2012/03/biogas.jpg &gt; \par Acessado em 05 abril de 2021\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Fonte internet: &lt;https://superbanco.files.wordpress.com/2012/03/biogas.jpg &gt; &#x0A;Acessado em 05 abril de 2021</raw>
+<numoflines>3</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="725" parent="613" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687367949</lastupdated>
+<possize>
+<point>
+<x>620</x>
+<y>122</y>
+</point>
+<size>
+<cx>280</cx>
+<cy>25</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text725Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text725Font2 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text725Font1&quot;  &gt;Esquema do processo do biodigestor&lt;/span &gt;&lt;span class=&quot;text725Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qc\hich\f2\loch\f2\cf2\fs22\b Esquema do processo do biodigestor\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Esquema do processo do biodigestor</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="669" parent="613" resource="668" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687367927</lastupdated>
+<possize>
+<point>
+<x>546</x>
+<y>156</y>
+</point>
+<size>
+<cx>428</cx>
+<cy>384</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="627" parent="613" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687367908</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>127</y>
+</point>
+<size>
+<cx>430</cx>
+<cy>505</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text627Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text627Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text627Font1&quot;  &gt;Esse material Ã© um importante responsÃ¡vel por agravar doenÃ§as respiratÃ³rias como asma e bronquite. Isso porque as partÃ­culas mais grossas ficam concentradas nas regiÃµes do nariz e da garganta, causando irritaÃ§Ã£o e infecÃ§Ãµes gripais.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text627Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text627Font3&quot;  &gt;BiogÃ¡s â€“ Desenvolvimento sustentÃ¡vel &lt;/span &gt;&lt;span class=&quot;text627Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text627Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text627Font1&quot;  &gt;BiogÃ¡s Ã© um gÃ¡s composto por 60% de gÃ¡s metano (CH4), bastante utilizado para combustÃ£o, produzido a partir da decomposiÃ§Ã£o da matÃ©ria orgÃ¢nica como resÃ­duos agroindustriais, esterco de animais e restos de alimentos por bactÃ©rias entre outros. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text627Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text627Font1&quot;  &gt;Na geraÃ§Ã£o de energia por esse gÃ¡s, ocorre a conversÃ£o da energia quÃ­mica do gÃ¡s em energia mecÃ¢nica por um processo controlado de combustÃ£o. Essa energia mecÃ¢nica ativa um gerador que produz energia elÃ©trica que pode ser utilizada para autoconsumo como tambÃ©m ser vendida para outras empresas ou abater em crÃ©ditos de carbono de forma a reduzir gastos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Esse material \u233 \&apos;e9 um importante respons\u225 \&apos;e1vel por agravar doen\u231 \&apos;e7as respirat\u243 \&apos;f3rias como asma e bronquite. Isso porque as part\u237 \&apos;edculas mais grossas ficam concentradas nas regi\u245 \&apos;f5es &#x0A;do nariz e da garganta, causando irrita\u231 \&apos;e7\u227 \&apos;e3o e infec\u231 \&apos;e7\u245 \&apos;f5es gripais.\par\par\b Biog\u225 \&apos;e1s \u8211 \&apos;96 Desenvolvimento sustent\u225 \&apos;e1vel \b0\par\par Biog\u225 \&apos;e1s \u233 \&apos;e9 um g\u225 \&apos;e1s composto por 60% de g\u225 &#x0A;\&apos;e1s metano (CH4), bastante utilizado para combust\u227 \&apos;e3o, produzido a partir da decomposi\u231 \&apos;e7\u227 \&apos;e3o da mat\u233 \&apos;e9ria org\u226 \&apos;e2nica como res\u237 \&apos;edduos agroindustriais, esterco de animais e restos de alimentos por bact\u233 \&apos;e9rias &#x0A;entre outros. \par\par Na gera\u231 \&apos;e7\u227 \&apos;e3o de energia por esse g\u225 \&apos;e1s, ocorre a convers\u227 \&apos;e3o da energia qu\u237 \&apos;edmica do g\u225 \&apos;e1s em energia mec\u226 \&apos;e2nica por um processo controlado de combust\u227 \&apos;e3o. Essa energia mec\u226 &#x0A;\&apos;e2nica ativa um gerador que produz energia el\u233 \&apos;e9trica que pode ser utilizada para autoconsumo como tamb\u233 \&apos;e9m ser vendida para outras empresas ou abater em cr\u233 \&apos;e9ditos de carbono de forma a reduzir gastos.\par}&#x0A;</rtf>
+<raw>?Esse material ? um importante respons?vel por agravar doen?as respirat?rias como asma e bronquite. Isso porque as part?culas mais grossas ficam concentradas nas regi?es do nariz e da garganta, causando irrita??o e infec??es gripais.&#x0A;Biog?s ? Desenvolvimento sustent?vel &#x0A;Biog?s ? um g?s composto por 60% de g?s metano (CH4), bastante utilizado para combust?o, produzido a partir da decomposi??o da mat?ria org?nica como res?duos agroindustriais, esterco de animais e restos de alimentos por bact?rias entre outros. &#x0A;Na gera??o de energia por esse g?s, ocorre a convers?o da energia qu?mica do g?s em energia mec?nica por um processo controlado de combust?o. Essa energia mec?nica ativa um gerador que produz energia el?trica que pode ser utilizada para autoconsumo como tamb?m ser vendida para outras empresas ou abater em cr?ditos de carbono de forma a reduzir gastos.</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="615" parent="613">
+<name>Grupo_1</name>
+<lastupdated>1687367841</lastupdated>
+<shape id="617" parent="615" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687367841</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="619" parent="615" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687367841</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="621" parent="615" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687367841</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="622" parent="615" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687367841</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>805</cx>
+<cy>58</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text622Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text622Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold; font-style:italic;}&#x0A;span.text622Font3 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text622Font1&quot;  &gt;PoluiÃ§Ãµes gasosas &lt;/span &gt;&lt;span class=&quot;text622Font2&quot;  &gt;versus&lt;/span &gt;&lt;span class=&quot;text622Font1&quot;  &gt; sustentabilidade&lt;/span &gt;&lt;span class=&quot;text622Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Polui\&apos;e7\&apos;f5es gasosas \i versus\i0  sustentabilidade\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Polui??es gasosas versus sustentabilidade</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="624" parent="615" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687367841</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="626" parent="615" resource="172" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687367841</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="783" parent="40">
+<name>Página 6</name>
+<lastupdated>1687368012</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="797" parent="783" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687368029</lastupdated>
+<possize>
+<point>
+<x>46</x>
+<y>129</y>
+</point>
+<size>
+<cx>439</cx>
+<cy>231</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text797Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text797Font1&quot;  &gt;No Brasil, a grande participaÃ§Ã£o da agroindÃºstria na economia nacional, faz com que a produÃ§Ã£o de biogÃ¡s tenha um grande campo de atuaÃ§Ã£o. O nÃºmero de fazendas de gado leiteiro, de corte, granja de suÃ­nos, aves, fecularias, entre outros, que utilizam biogÃ¡s para geraÃ§Ã£o de energia vem crescendo ano a ano. Outro grande potencial reside no setor de saneamento, principalmente nos grandes centros urbanos, bem como nas indÃºstrias alimentÃ­cias e bebidas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 No Brasil, a grande participa\&apos;e7\&apos;e3o da agroind\&apos;fastria na economia nacional, faz com que a produ\&apos;e7\&apos;e3o de biog\&apos;e1s tenha um grande campo de atua\&apos;e7\&apos;e3o. O n\&apos;famero de fazendas de gado leiteiro, de corte, granja &#x0A;de su\&apos;ednos, aves, fecularias, entre outros, que utilizam biog\&apos;e1s para gera\&apos;e7\&apos;e3o de energia vem crescendo ano a ano. Outro grande potencial reside no setor de saneamento, principalmente nos grandes centros urbanos, bem como nas ind\&apos;fastrias aliment\&apos;edcias &#x0A;e bebidas.\par}&#x0A;</rtf>
+<raw>?No Brasil, a grande participa??o da agroind?stria na economia nacional, faz com que a produ??o de biog?s tenha um grande campo de atua??o. O n?mero de fazendas de gado leiteiro, de corte, granja de su?nos, aves, fecularias, entre outros, que utilizam biog?s para gera??o de energia vem crescendo ano a ano. Outro grande potencial reside no setor de saneamento, principalmente nos grandes centros urbanos, bem como nas ind?strias aliment?cias e bebidas.</raw>
+<numoflines>10</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="785" parent="783">
+<name>Grupo_1</name>
+<lastupdated>1687367999</lastupdated>
+<shape id="787" parent="785" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687367999</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="789" parent="785" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687367999</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="791" parent="785" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687367999</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="792" parent="785" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687367999</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>805</cx>
+<cy>58</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text792Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text792Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold; font-style:italic;}&#x0A;span.text792Font3 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text792Font1&quot;  &gt;PoluiÃ§Ãµes gasosas &lt;/span &gt;&lt;span class=&quot;text792Font2&quot;  &gt;versus&lt;/span &gt;&lt;span class=&quot;text792Font1&quot;  &gt; sustentabilidade&lt;/span &gt;&lt;span class=&quot;text792Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Polui\&apos;e7\&apos;f5es gasosas \i versus\i0  sustentabilidade\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Polui??es gasosas versus sustentabilidade</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="794" parent="785" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687367999</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="796" parent="785" resource="172" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687367999</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

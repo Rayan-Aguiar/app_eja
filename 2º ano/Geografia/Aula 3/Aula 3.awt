@@ -1,0 +1,2331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>1789</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="166" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="167" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="450" resourcetype="image">
+<name>Imagem 3.bmp</name>
+<relativelink>images\Imagem 3.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1058" resourcetype="image">
+<name>Imagem 3001.bmp</name>
+<relativelink>images\Imagem 3001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1218" resourcetype="image">
+<name>Imagem 3002.bmp</name>
+<relativelink>images\Imagem 3002.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1434" resourcetype="image">
+<name>Imagem 3003.bmp</name>
+<relativelink>images\Imagem 3003.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1611" resourcetype="image">
+<name>Imagem 3004.bmp</name>
+<relativelink>images\Imagem 3004.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1781" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1782" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="76">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 3</name>
+<lastupdated>1688144815</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="75" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="76" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="70" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="68" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="69" parent="68" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="62" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="63" parent="62" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="54" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="55" parent="54" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="56" parent="54" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="54" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="54">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689700602</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="1766" parent="40">
+<name>Página 1</name>
+<lastupdated>1689700604</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="1767" parent="1766">
+<name>Grupo_1</name>
+<lastupdated>1689700604</lastupdated>
+<image id="1769" parent="1767" resource="1781" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689700604</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1771" parent="1767" resource="1782" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689700604</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1772" parent="1767" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689700608</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1772Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1772Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1772Font1&quot;  &gt;Aula 3&lt;/span &gt;&lt;span class=&quot;text1772Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 3\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 3</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="1774" parent="1767" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689700604</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1776" parent="1767" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689700604</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1778" parent="1767" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689700604</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1780" parent="1767" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689700604</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="152" parent="40">
+<name>Página 2</name>
+<lastupdated>1689700602</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="221" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1688143695</lastupdated>
+<possize>
+<point>
+<x>507</x>
+<y>100</y>
+</point>
+<size>
+<cx>485</cx>
+<cy>528</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text221Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text221Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot;  &gt;No entanto, ainda Ã© a regionalizaÃ§Ã£o oficial do Brasil e por isso a utilizaremos como nossa base de estudos e buscaremos abranger as principais informaÃ§Ãµes de cada uma das regiÃµes brasileiras.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font3&quot;  &gt;Nordeste&lt;/span &gt;&lt;span class=&quot;text221Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot;  &gt;O processo de ocupaÃ§Ã£o do territÃ³rio brasileiro teve origem a partir da regiÃ£o nordeste e por isso inicialmente foi a regiÃ£o que abrigou maior quantidade de pessoas juntamente com o expansionismo urbano. Para exemplificar podemos citar a cidade de Salvador â€“ BA, que atÃ© 1973 era a capital do Brasil e possuÃ­a um elevado nÃ­vel de importÃ¢ncia. Desde a sua formaÃ§Ã£o, a regiÃ£o passou a ter uma grande concentraÃ§Ã£o populacional nas capitais, onde teoricamente ofereciam melhores condiÃ§Ãµes de vida do que no interior dos estados.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot;  &gt;A regiÃ£o Nordeste Ã© composta por nove estados que possuem semelhanÃ§as e diferenÃ§as no seu processo de formaÃ§Ã£o. Culturas, economias e indicadores sociais que muitas vezes se misturam e Ã© intitulado como um sÃ³.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 No entanto, ainda \u233 \&apos;e9 a regionaliza\u231 \&apos;e7\u227 \&apos;e3o oficial do Brasil e por isso a utilizaremos como nossa base de estudos e buscaremos abranger as principais informa\u231 \&apos;e7\u245 \&apos;f5es de &#x0A;cada uma das regi\u245 \&apos;f5es brasileiras.\par\par\fs36\b Nordeste\fs28\b0\par\par O processo de ocupa\u231 \&apos;e7\u227 \&apos;e3o do territ\u243 \&apos;f3rio brasileiro teve origem a partir da regi\u227 \&apos;e3o nordeste e por isso inicialmente foi a regi\u227 \&apos;e3o &#x0A;que abrigou maior quantidade de pessoas juntamente com o expansionismo urbano. Para exemplificar podemos citar a cidade de Salvador \u8211 \&apos;96 BA, que at\u233 \&apos;e9 1973 era a capital do Brasil e possu\u237 \&apos;eda um elevado n\u237 \&apos;edvel de import\u226 &#x0A;\&apos;e2ncia. Desde a sua forma\u231 \&apos;e7\u227 \&apos;e3o, a regi\u227 \&apos;e3o passou a ter uma grande concentra\u231 \&apos;e7\u227 \&apos;e3o populacional nas capitais, onde teoricamente ofereciam melhores condi\u231 \&apos;e7\u245 \&apos;f5es de vida do que no interior dos estados.\par\par &#x0A;A regi\&apos;e3o Nordeste \&apos;e9 composta por nove estados que possuem semelhan\&apos;e7as e diferen\&apos;e7as no seu processo de forma\&apos;e7\&apos;e3o. Culturas, economias e indicadores sociais que muitas vezes se misturam e \&apos;e9 intitulado como um s\&apos;f3.\par}&#x0A;</rtf>
+<raw>?No entanto, ainda � a regionaliza��o oficial do Brasil e por isso a utilizaremos como nossa base de estudos e buscaremos abranger as principais informa��es de cada uma das regi�es brasileiras.&#x0A;&#x0A;Nordeste&#x0A;&#x0A;O processo de ocupa��o do territ�rio brasileiro teve origem a partir da regi�o nordeste e por isso inicialmente foi a regi�o que abrigou maior quantidade de pessoas juntamente com o expansionismo urbano. Para exemplificar podemos citar a cidade de Salvador � BA, que at� 1973 era a capital do Brasil e possu�a um elevado n�vel de import�ncia. Desde a sua forma��o, a regi�o passou a ter uma grande concentra��o populacional nas capitais, onde teoricamente ofereciam melhores condi��es de vida do que no interior dos estados.&#x0A;&#x0A;A regi�o Nordeste � composta por nove estados que possuem semelhan�as e diferen�as no seu processo de forma��o. Culturas, economias e indicadores sociais que muitas vezes se misturam e � intitulado como um s�.</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="191" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688143586</lastupdated>
+<possize>
+<point>
+<x>28</x>
+<y>140</y>
+</point>
+<size>
+<cx>456</cx>
+<cy>454</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text191Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot;  &gt;Como vimos anteriormente, as regiÃµes brasileiras foram produzidas e levaram em consideraÃ§Ã£o alguns critÃ©rios para e obtermos melhor compreensÃ£o sobre o territÃ³rio nacional e, por isso, existem vantagens e desvantagens sobre cada uma das regionalizaÃ§Ãµes.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot;  &gt;TambÃ©m foi possÃ­vel identificarmos que a regionalizaÃ§Ã£o proposta pelo IBGE Ã© considera a oficial do Brasil. Essa organizaÃ§Ã£o macrorregional buscou abrigar vÃ¡rias informaÃ§Ãµes relacionadas as questÃµes culturais, fÃ­sicas e geogrÃ¡ficas, alÃ©m das questÃµes econÃ´micas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot;  &gt;A regionalizaÃ§Ã£o do IBGE foi definida em 1969 e dividiu o territÃ³rio em cinco grandes regiÃµes: Norte, Nordeste, Centro-Oeste, Sul e Sudeste. PorÃ©m, podemos dizer que do final da dÃ©cada de 1960 atÃ© os dias atuais vÃ¡rios critÃ©rios anteriormente adotados jÃ¡ passaram por mudanÃ§as.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Como vimos anteriormente, as regi\&apos;f5es brasileiras foram produzidas e levaram em considera\&apos;e7\&apos;e3o alguns crit\&apos;e9rios para e obtermos melhor compreens\&apos;e3o sobre o territ\&apos;f3rio nacional e, por isso, &#x0A;existem vantagens e desvantagens sobre cada uma das regionaliza\&apos;e7\&apos;f5es.\par\par Tamb\&apos;e9m foi poss\&apos;edvel identificarmos que a regionaliza\&apos;e7\&apos;e3o proposta pelo IBGE \&apos;e9 considera a oficial do Brasil. Essa organiza\&apos;e7\&apos;e3o macrorregional buscou &#x0A;abrigar v\&apos;e1rias informa\&apos;e7\&apos;f5es relacionadas as quest\&apos;f5es culturais, f\&apos;edsicas e geogr\&apos;e1ficas, al\&apos;e9m das quest\&apos;f5es econ\&apos;f4micas.\par\par A regionaliza\&apos;e7\&apos;e3o do IBGE foi definida em 1969 e dividiu o territ\&apos;f3rio em cinco grandes regi\&apos;f5es: &#x0A;Norte, Nordeste, Centro-Oeste, Sul e Sudeste. Por\&apos;e9m, podemos dizer que do final da d\&apos;e9cada de 1960 at\&apos;e9 os dias atuais v\&apos;e1rios crit\&apos;e9rios anteriormente adotados j\&apos;e1 passaram por mudan\&apos;e7as.\par}&#x0A;</rtf>
+<raw>?Como vimos anteriormente, as regi�es brasileiras foram produzidas e levaram em considera��o alguns crit�rios para e obtermos melhor compreens�o sobre o territ�rio nacional e, por isso, existem vantagens e desvantagens sobre cada uma das regionaliza��es.&#x0A;&#x0A;Tamb�m foi poss�vel identificarmos que a regionaliza��o proposta pelo IBGE � considera a oficial do Brasil. Essa organiza��o macrorregional buscou abrigar v�rias informa��es relacionadas as quest�es culturais, f�sicas e geogr�ficas, al�m das quest�es econ�micas.&#x0A;&#x0A;A regionaliza��o do IBGE foi definida em 1969 e dividiu o territ�rio em cinco grandes regi�es: Norte, Nordeste, Centro-Oeste, Sul e Sudeste. Por�m, podemos dizer que do final da d�cada de 1960 at� os dias atuais v�rios crit�rios anteriormente adotados j� passaram por mudan�as.</raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="165" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="163" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="161" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="159" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688143522</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>49</y>
+</point>
+<size>
+<cx>779</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text159Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text159Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text159Font1&quot;  &gt;RegiÃµes brasileiras&lt;/span &gt;&lt;span class=&quot;text159Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Regi\&apos;f5es brasileiras\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Regi�es brasileiras</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="158" parent="152" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="156" parent="152" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="951" parent="40">
+<name>Página 3</name>
+<lastupdated>1689700609</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="952" parent="951" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1688143949</lastupdated>
+<possize>
+<point>
+<x>507</x>
+<y>130</y>
+</point>
+<size>
+<cx>485</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text952Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text952Font1&quot;  &gt;Base econÃ´mica da regiÃ£o Ã© bem diversificada e varia desde a produÃ§Ã£o tÃªxtil e de calÃ§ados atÃ© produÃ§Ã£o de automÃ³veis. Nos Ãºltimos anos, alguns estados da regiÃ£o nordeste conseguiram atrair algumas empresas de diversas Ã¡reas por meio da doaÃ§Ã£o de terrenos e a reduÃ§Ã£o de impostos, alÃ©m disso o custo da mÃ£o de obra local tende a ser mais barata do que de locais onde a mÃ£o de obra Ã© mais qualificada e o custo de vida Ã© maior.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text952Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text952Font1&quot;  &gt;Em relaÃ§Ã£o aos aspectos culturais, Ã© inegÃ¡vel que essa regiÃ£o consegue ser bem chamativa pelo sotaque ou pela culinÃ¡ria, pelos festejos ou pela exuberÃ¢ncia do seu litoral. Ã‰ importante relembrarmos que a formaÃ§Ã£o sociocultural dessa regiÃ£o estar relacionada a diversidade Ã©tnico-racial existente nela. Cultura essa que sofreu influÃªncia dos europeus, dos escravos africanos e dos indÃ­genas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Base econ\&apos;f4mica da regi\&apos;e3o \&apos;e9 bem diversificada e varia desde a produ\&apos;e7\&apos;e3o t\&apos;eaxtil e de cal\&apos;e7ados at\&apos;e9 produ\&apos;e7\&apos;e3o de autom\&apos;f3veis. Nos \&apos;faltimos anos, alguns estados da regi\&apos;e3o nordeste &#x0A;conseguiram atrair algumas empresas de diversas \&apos;e1reas por meio da doa\&apos;e7\&apos;e3o de terrenos e a redu\&apos;e7\&apos;e3o de impostos, al\&apos;e9m disso o custo da m\&apos;e3o de obra local tende a ser mais barata do que de locais onde a m\&apos;e3o de obra \&apos;e9 mais qualificada &#x0A;e o custo de vida \&apos;e9 maior.\par\par Em rela\&apos;e7\&apos;e3o aos aspectos culturais, \&apos;e9 ineg\&apos;e1vel que essa regi\&apos;e3o consegue ser bem chamativa pelo sotaque ou pela culin\&apos;e1ria, pelos festejos ou pela exuber\&apos;e2ncia do seu litoral. \&apos;c9 importante relembrarmos &#x0A;que a forma\&apos;e7\&apos;e3o sociocultural dessa regi\&apos;e3o estar relacionada a diversidade \&apos;e9tnico-racial existente nela. Cultura essa que sofreu influ\&apos;eancia dos europeus, dos escravos africanos e dos ind\&apos;edgenas.\par}&#x0A;</rtf>
+<raw>?Base econ�mica da regi�o � bem diversificada e varia desde a produ��o t�xtil e de cal�ados at� produ��o de autom�veis. Nos �ltimos anos, alguns estados da regi�o nordeste conseguiram atrair algumas empresas de diversas �reas por meio da doa��o de terrenos e a redu��o de impostos, al�m disso o custo da m�o de obra local tende a ser mais barata do que de locais onde a m�o de obra � mais qualificada e o custo de vida � maior.&#x0A;&#x0A;Em rela��o aos aspectos culturais, � ineg�vel que essa regi�o consegue ser bem chamativa pelo sotaque ou pela culin�ria, pelos festejos ou pela exuber�ncia do seu litoral. � importante relembrarmos que a forma��o sociocultural dessa regi�o estar relacionada a diversidade �tnico-racial existente nela. Cultura essa que sofreu influ�ncia dos europeus, dos escravos africanos e dos ind�genas.</raw>
+<numoflines>18</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="953" parent="951" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688143759</lastupdated>
+<possize>
+<point>
+<x>23</x>
+<y>119</y>
+</point>
+<size>
+<cx>474</cx>
+<cy>522</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text953Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text953Font1&quot;  &gt;Claro que esse crescimento da regiÃ£o nordeste nÃ£o foi acompanhado ao longo da histÃ³ria por polÃ­ticas pÃºblicas que fossem benÃ©ficas para a populaÃ§Ã£o mais carente. Apesar dos investimentos governamentais na Ãºltima dÃ©cada voltados para a transferÃªncia de renda, que resultaram na reduÃ§Ã£o da desnutriÃ§Ã£o infantil, os estados da regiÃ£o ainda possuem os piores indicadores sociais do paÃ­s e podemos definir que os problemas sociais desta regiÃ£o estÃ£o atrelados a fatores histÃ³ricos que serÃ£o difÃ­ceis de serem superados.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text953Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text953Font1&quot;  &gt;As marcas deixadas pela desassistÃªncia governamental possuem reflexos nos dias de hoje. Atualmente, a regiÃ£o nordeste possui a segunda maior taxa de fecundidade do paÃ­s, tal situaÃ§Ã£o exemplifica que o crescimento populacional continua &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text953Font1&quot;  &gt;constante devido, muitas vezes, Ã  falta de acesso ao serviÃ§o pÃºblico de saÃºde. Muitas meninas se tornam mÃ£es antes dos 18 anos de idade, situaÃ§Ã£o essa que dificulta o desenvolvimento social, como, por exemplo, a qualificaÃ§Ã£o profissional.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\lang1046\hich\f2\loch\f2\cf2\fs28 Claro que esse crescimento da regi\&apos;e3o nordeste n\&apos;e3o foi acompanhado ao longo da hist\&apos;f3ria por pol\&apos;edticas p\&apos;fablicas que fossem ben\&apos;e9ficas para a popula\&apos;e7\&apos;e3o mais carente. Apesar &#x0A;dos investimentos governamentais na \&apos;faltima d\&apos;e9cada voltados para a transfer\&apos;eancia de renda, que resultaram na redu\&apos;e7\&apos;e3o da desnutri\&apos;e7\&apos;e3o infantil, os estados da regi\&apos;e3o ainda possuem os piores indicadores sociais do pa\&apos;eds e podemos &#x0A;definir que os problemas sociais desta regi\&apos;e3o est\&apos;e3o atrelados a fatores hist\&apos;f3ricos que ser\&apos;e3o dif\&apos;edceis de serem superados.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 As marcas deixadas pela desassist\&apos;eancia governamental &#x0A;possuem reflexos nos dias de hoje. Atualmente, a regi\&apos;e3o nordeste possui a segunda maior taxa de fecundidade do pa\&apos;eds, tal situa\&apos;e7\&apos;e3o exemplifica que o crescimento populacional continua \lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 constante &#x0A;devido, muitas vezes, \&apos;e0 falta de acesso ao servi\&apos;e7o p\&apos;fablico de sa\&apos;fade. Muitas meninas se tornam m\&apos;e3es antes dos 18 anos de idade, situa\&apos;e7\&apos;e3o essa que dificulta o desenvolvimento social, como, por exemplo, a qualifica\&apos;e7\&apos;e3o profissional.\lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?Claro que esse crescimento da regi�o nordeste n�o foi acompanhado ao longo da hist�ria por pol�ticas p�blicas que fossem ben�ficas para a popula��o mais carente. Apesar dos investimentos governamentais na �ltima d�cada voltados para a transfer�ncia de renda, que resultaram na redu��o da desnutri��o infantil, os estados da regi�o ainda possuem os piores indicadores sociais do pa�s e podemos definir que os problemas sociais desta regi�o est�o atrelados a fatores hist�ricos que ser�o dif�ceis de serem superados.&#x0A;&#x0A;As marcas deixadas pela desassist�ncia governamental possuem reflexos nos dias de hoje. Atualmente, a regi�o nordeste possui a segunda maior taxa de fecundidade do pa�s, tal situa��o exemplifica que o crescimento populacional continua &#x0A;constante devido, muitas vezes, � falta de acesso ao servi�o p�blico de sa�de. Muitas meninas se tornam m�es antes dos 18 anos de idade, situa��o essa que dificulta o desenvolvimento social, como, por exemplo, a qualifica��o profissional.</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="955" parent="951" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1688143702</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="957" parent="951" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1688143702</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="959" parent="951" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1688143702</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="960" parent="951" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688143702</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>49</y>
+</point>
+<size>
+<cx>779</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text960Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text960Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text960Font1&quot;  &gt;RegiÃµes brasileiras&lt;/span &gt;&lt;span class=&quot;text960Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Regi\&apos;f5es brasileiras\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Regi�es brasileiras</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="962" parent="951" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688143702</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="964" parent="951" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688143702</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="1032" parent="40">
+<name>Página 4</name>
+<lastupdated>1689700610</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="1059" parent="1032" resource="1058" ontop="false" fixed="false" proportional="true">
+<name>Imagem 3</name>
+<lastupdated>1688143968</lastupdated>
+<possize>
+<point>
+<x>65</x>
+<y>142</y>
+</point>
+<size>
+<cx>347</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1033" parent="1032" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1688144024</lastupdated>
+<possize>
+<point>
+<x>507</x>
+<y>90</y>
+</point>
+<size>
+<cx>485</cx>
+<cy>596</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1033Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1033Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1033Font1&quot;  &gt;Norte&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1033Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1033Font2&quot;  &gt;Devido a grande riqueza natural por meio da Floresta AmazÃ´nica e formaÃ§Ã£o de rios extensos, Ã© compreensivo que a regiÃ£o norte tenha permanecido com a segunda menor densidade demogrÃ¡fica do Brasil. Podemos dizer que, apesar das tentativas de ocupaÃ§Ã£o territorial, a regiÃ£o Ã© muito grande e por isso os a concentraÃ§Ã£o urbana estar restrita Ã s capitais e aos munÃ­cipios que possuem alguma atividade econÃ´mica de forma mais expressiva.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1033Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1033Font2&quot;  &gt;Essa regiÃ£o possui o segundo IDH mais baixo do Brasil e isso Ã© explicado pelas caracterÃ­sticas fÃ­sicas e geogrÃ¡ficas, a distÃ¢ncia de alguns municÃ­pios em relaÃ§Ã£o as capitais e a ausÃªncia de investimentos governamentais.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1033Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1033Font2&quot;  &gt;As pessoas desta regiÃ£o muitas vezes precisam viajar horas ou dias para conseguir atendimento em determinados serviÃ§os de saÃºde, para ter acesso Ã  educaÃ§Ã£o, tirar documentos ou trabalhar. Vale destacar que os meios de transporte dessa regiÃ£o ficam limitados as hidrovias e muitas vezes as embarcaÃ§Ãµes sÃ£o precÃ¡rias e sem condiÃ§Ãµes de transporte.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs36\b Norte\par\fs28\b0\par Devido a grande riqueza natural por meio da Floresta Amaz\&apos;f4nica e forma\&apos;e7\&apos;e3o de rios extensos, \&apos;e9 compreensivo que a regi\&apos;e3o norte tenha permanecido com a segunda menor &#x0A;densidade demogr\&apos;e1fica do Brasil. Podemos dizer que, apesar das tentativas de ocupa\&apos;e7\&apos;e3o territorial, a regi\&apos;e3o \&apos;e9 muito grande e por isso os a concentra\&apos;e7\&apos;e3o urbana estar restrita \&apos;e0s capitais e aos mun\&apos;edcipios que possuem alguma atividade &#x0A;econ\&apos;f4mica de forma mais expressiva.\lang1046\hich\f2\loch\f2\par\par Essa regi\&apos;e3o possui o segundo IDH mais baixo do Brasil e isso \&apos;e9 explicado pelas caracter\&apos;edsticas f\&apos;edsicas e geogr\&apos;e1ficas, a dist\&apos;e2ncia de alguns munic\&apos;edpios em rela\&apos;e7\&apos;e3o &#x0A;as capitais e a aus\&apos;eancia de investimentos governamentais.\par\par As pessoas desta regi\&apos;e3o muitas vezes precisam viajar horas ou dias para conseguir atendimento em determinados servi\&apos;e7os de sa\&apos;fade, para ter acesso \&apos;e0 educa\&apos;e7\&apos;e3o, tirar documentos &#x0A;ou trabalhar. Vale destacar que os meios de transporte dessa regi\&apos;e3o ficam limitados as hidrovias e muitas vezes as embarca\&apos;e7\&apos;f5es s\&apos;e3o prec\&apos;e1rias e sem condi\&apos;e7\&apos;f5es de transporte.\lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?Norte&#x0A;&#x0A;Devido a grande riqueza natural por meio da Floresta Amaz�nica e forma��o de rios extensos, � compreensivo que a regi�o norte tenha permanecido com a segunda menor densidade demogr�fica do Brasil. Podemos dizer que, apesar das tentativas de ocupa��o territorial, a regi�o � muito grande e por isso os a concentra��o urbana estar restrita �s capitais e aos mun�cipios que possuem alguma atividade econ�mica de forma mais expressiva.&#x0A;&#x0A;Essa regi�o possui o segundo IDH mais baixo do Brasil e isso � explicado pelas caracter�sticas f�sicas e geogr�ficas, a dist�ncia de alguns munic�pios em rela��o as capitais e a aus�ncia de investimentos governamentais.&#x0A;&#x0A;As pessoas desta regi�o muitas vezes precisam viajar horas ou dias para conseguir atendimento em determinados servi�os de sa�de, para ter acesso � educa��o, tirar documentos ou trabalhar. Vale destacar que os meios de transporte dessa regi�o ficam limitados as hidrovias e muitas vezes as embarca��es s�o prec�rias e sem condi��es de transporte.</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1036" parent="1032" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1688143956</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1038" parent="1032" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1688143956</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1040" parent="1032" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1688143956</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1041" parent="1032" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688143956</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>49</y>
+</point>
+<size>
+<cx>779</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1041Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1041Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1041Font1&quot;  &gt;RegiÃµes brasileiras&lt;/span &gt;&lt;span class=&quot;text1041Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Regi\&apos;f5es brasileiras\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Regi�es brasileiras</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1043" parent="1032" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688143956</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1045" parent="1032" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688143956</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="1133" parent="40">
+<name>Página 5</name>
+<lastupdated>1689700612</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="1219" parent="1133" resource="1218" ontop="false" fixed="false" proportional="true">
+<name>Imagem 3</name>
+<lastupdated>1688144140</lastupdated>
+<possize>
+<point>
+<x>571</x>
+<y>269</y>
+</point>
+<size>
+<cx>381</cx>
+<cy>282</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1134" parent="1133" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1688144135</lastupdated>
+<possize>
+<point>
+<x>507</x>
+<y>86</y>
+</point>
+<size>
+<cx>485</cx>
+<cy>174</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1134Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1134Font1&quot;  &gt;Por fim, os aspectos culturais possuem suas particularidades prÃ³prias, mas que tambÃ©m sofreram influÃªncia de outras culturas e povos ao longo do tempo. Podemos destacar a cultura indÃ­gena, tendo em vista que Ã© a regiÃ£o que abriga maior parcela de Ã­ndios no territÃ³rio nacional, alÃ©m da introduÃ§Ã£o de pessoas de outras regiÃµes promovendo uma interessante mistura cultural.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Por fim, os aspectos culturais possuem suas particularidades pr\&apos;f3prias, mas que tamb\&apos;e9m sofreram influ\&apos;eancia de outras culturas e povos ao longo do tempo. Podemos destacar a cultura ind\&apos;edgena, tendo &#x0A;em vista que \&apos;e9 a regi\&apos;e3o que abriga maior parcela de \&apos;edndios no territ\&apos;f3rio nacional, al\&apos;e9m da introdu\&apos;e7\&apos;e3o de pessoas de outras regi\&apos;f5es promovendo uma interessante mistura cultural.\par}&#x0A;</rtf>
+<raw>?Por fim, os aspectos culturais possuem suas particularidades pr�prias, mas que tamb�m sofreram influ�ncia de outras culturas e povos ao longo do tempo. Podemos destacar a cultura ind�gena, tendo em vista que � a regi�o que abriga maior parcela de �ndios no territ�rio nacional, al�m da introdu��o de pessoas de outras regi�es promovendo uma interessante mistura cultural.</raw>
+<numoflines>7</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1135" parent="1133" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688144088</lastupdated>
+<possize>
+<point>
+<x>10</x>
+<y>109</y>
+</point>
+<size>
+<cx>473</cx>
+<cy>568</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1135Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1135Font1&quot;  &gt;A base econÃ´mica estÃ¡ relacionada ao extrativismo vegetal, mineral ou animal, alÃ©m do crescimento da agropecuÃ¡ria. Ã‰ por meio desses setores que os estados da regiÃ£o norte conseguem alavancar boa parte da sua economia e de onde boa parte da populaÃ§Ã£o mantÃ©m o sustento de suas famÃ­lias. Se destacam a extraÃ§Ã£o de minÃ©rios de ferro no estado do ParÃ¡ e de calcÃ¡rio no Tocantins. AlÃ©m disso, a extraÃ§Ã£o da madeira Ã© uma das formas econÃ´micas mais antigas da regiÃ£o juntamente com a extraÃ§Ã£o do lÃ¡tex e, de forma mais recente, o expansionismo do agronegÃ³cio.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1135Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1135Font1&quot;  &gt;Vale ressaltar que devido Ã s suas caracterÃ­sticas fÃ­sicas e naturais, existem vÃ¡rios movimentos por parte da sociedade que questionam a evoluÃ§Ã£o econÃ´mica da regiÃ£o, pois associam que a expansÃ£o econÃ´mica estar provocando sÃ©rios danos ambientais e sociais.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1135Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1135Font1&quot;  &gt;Outro ponto de destaque, que tambÃ©m estar relacionado as questÃµes fÃ­sicas e naturais, Ã© a geraÃ§Ã£o de energia elÃ©trica. Hoje, grande parte da energia produzida no Brasil Ã© por meio das hidroelÃ©tricas da regiÃ£o norte, tendo em vista que a maior bacia hidrogrÃ¡fica do mundo, a Bacia AmazÃ´nica, estÃ¡ localizada nessa regiÃ£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 A base econ\&apos;f4mica est\&apos;e1 relacionada ao extrativismo vegetal, mineral ou animal, al\&apos;e9m do crescimento da agropecu\&apos;e1ria. \&apos;c9 por meio desses setores que os estados da regi\&apos;e3o norte conseguem alavancar &#x0A;boa parte da sua economia e de onde boa parte da popula\&apos;e7\&apos;e3o mant\&apos;e9m o sustento de suas fam\&apos;edlias. Se destacam a extra\&apos;e7\&apos;e3o de min\&apos;e9rios de ferro no estado do Par\&apos;e1 e de calc\&apos;e1rio no Tocantins. Al\&apos;e9m disso, a extra\&apos;e7\&apos;e3o da madeira &#x0A;\&apos;e9 uma das formas econ\&apos;f4micas mais antigas da regi\&apos;e3o juntamente com a extra\&apos;e7\&apos;e3o do l\&apos;e1tex e, de forma mais recente, o expansionismo do agroneg\&apos;f3cio.\par\par Vale ressaltar que devido \&apos;e0s suas caracter\&apos;edsticas f\&apos;edsicas e naturais, &#x0A;existem v\&apos;e1rios movimentos por parte da sociedade que questionam a evolu\&apos;e7\&apos;e3o econ\&apos;f4mica da regi\&apos;e3o, pois associam que a expans\&apos;e3o econ\&apos;f4mica estar provocando s\&apos;e9rios danos ambientais e sociais.\par\par Outro ponto de destaque, que tamb\&apos;e9m &#x0A;estar relacionado as quest\&apos;f5es f\&apos;edsicas e naturais, \&apos;e9 a gera\&apos;e7\&apos;e3o de energia el\&apos;e9trica. Hoje, grande parte da energia produzida no Brasil \&apos;e9 por meio das hidroel\&apos;e9tricas da regi\&apos;e3o norte, tendo em vista que a maior bacia hidrogr\&apos;e1fica &#x0A;do mundo, a Bacia Amaz\&apos;f4nica, est\&apos;e1 localizada nessa regi\&apos;e3o.\par}&#x0A;</rtf>
+<raw>?A base econ�mica est� relacionada ao extrativismo vegetal, mineral ou animal, al�m do crescimento da agropecu�ria. � por meio desses setores que os estados da regi�o norte conseguem alavancar boa parte da sua economia e de onde boa parte da popula��o mant�m o sustento de suas fam�lias. Se destacam a extra��o de min�rios de ferro no estado do Par� e de calc�rio no Tocantins. Al�m disso, a extra��o da madeira � uma das formas econ�micas mais antigas da regi�o juntamente com a extra��o do l�tex e, de forma mais recente, o expansionismo do agroneg�cio.&#x0A;&#x0A;Vale ressaltar que devido �s suas caracter�sticas f�sicas e naturais, existem v�rios movimentos por parte da sociedade que questionam a evolu��o econ�mica da regi�o, pois associam que a expans�o econ�mica estar provocando s�rios danos ambientais e sociais.&#x0A;&#x0A;Outro ponto de destaque, que tamb�m estar relacionado as quest�es f�sicas e naturais, � a gera��o de energia el�trica. Hoje, grande parte da energia produzida no Brasil � por meio das hidroel�tricas da regi�o norte, tendo em vista que a maior bacia hidrogr�fica do mundo, a Bacia Amaz�nica, est� localizada nessa regi�o.</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1137" parent="1133" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1688144041</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1139" parent="1133" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1688144041</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1141" parent="1133" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1688144041</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1142" parent="1133" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688144041</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>49</y>
+</point>
+<size>
+<cx>779</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1142Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1142Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1142Font1&quot;  &gt;RegiÃµes brasileiras&lt;/span &gt;&lt;span class=&quot;text1142Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Regi\&apos;f5es brasileiras\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Regi�es brasileiras</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1144" parent="1133" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688144041</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1146" parent="1133" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688144041</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="1257" parent="40">
+<name>Página 6</name>
+<lastupdated>1689700613</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1258" parent="1257" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1688144246</lastupdated>
+<possize>
+<point>
+<x>513</x>
+<y>96</y>
+</point>
+<size>
+<cx>485</cx>
+<cy>493</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1258Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1258Font1&quot;  &gt;Essa regiÃ£o passou por vÃ¡rias transformaÃ§Ãµes a partir da segunda metade do sÃ©culo XX, com a construÃ§Ã£o de BrasÃ­lia na dÃ©cada de 1960, tornando-se a capital federal, algum tempo depois a separaÃ§Ã£o do Mato Grosso em dois estados, Mato Grosso e Mato Grosso do Sul, alÃ©m da separaÃ§Ã£o do estado de GoiÃ¡s, em 1988, dando origem ao Tocantins que passou a fazer parte da regiÃ£o norte.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1258Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1258Font1&quot;  &gt;Uma vantagem para regiÃ£o centro-oeste Ã© que a distribuiÃ§Ã£o da produÃ§Ã£o Ã© facilitada por exercer fronteiras com todas as outras, fator esse que contribui para o escoamento da produÃ§Ã£o. Por outro lado, tal caracterÃ­stica tambÃ©m dificulta o envio dos determinados produtos para outros paÃ­ses por estar mais distante do litoral, mas tal situaÃ§Ã£o pode ser contornada conforme a utilizaÃ§Ã£o e qualidade dos meios de transporte a ser utilizado.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1258Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1258Font1&quot;  &gt;GoiÃ¡s e Mato Grosso estÃ£o entre os estados com maior parcela da produÃ§Ã£o agrÃ­cola nacional, uma produÃ§Ã£o voltada principalmente para o cultivo de soja, milho e cana-de-aÃ§Ãºcar, alÃ©m da criaÃ§Ã£o &#x0D;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Essa regi\&apos;e3o passou por v\&apos;e1rias transforma\&apos;e7\&apos;f5es a partir da segunda metade do s\&apos;e9culo XX, com a constru\&apos;e7\&apos;e3o de Bras\&apos;edlia na d\&apos;e9cada de 1960, tornando-se a capital federal, algum tempo &#x0A;depois a separa\&apos;e7\&apos;e3o do Mato Grosso em dois estados, Mato Grosso e Mato Grosso do Sul, al\&apos;e9m da separa\&apos;e7\&apos;e3o do estado de Goi\&apos;e1s, em 1988, dando origem ao Tocantins que passou a fazer parte da regi\&apos;e3o norte.\par\par Uma vantagem para regi\&apos;e3o &#x0A;centro-oeste \&apos;e9 que a distribui\&apos;e7\&apos;e3o da produ\&apos;e7\&apos;e3o \&apos;e9 facilitada por exercer fronteiras com todas as outras, fator esse que contribui para o escoamento da produ\&apos;e7\&apos;e3o. Por outro lado, tal caracter\&apos;edstica tamb\&apos;e9m dificulta o envio dos &#x0A;determinados produtos para outros pa\&apos;edses por estar mais distante do litoral, mas tal situa\&apos;e7\&apos;e3o pode ser contornada conforme a utiliza\&apos;e7\&apos;e3o e qualidade dos meios de transporte a ser utilizado.\par\par Goi\&apos;e1s e Mato Grosso est\&apos;e3o entre os &#x0A;estados com maior parcela da produ\&apos;e7\&apos;e3o agr\&apos;edcola nacional, uma produ\&apos;e7\&apos;e3o voltada principalmente para o cultivo de soja, milho e cana-de-a\&apos;e7\&apos;facar, al\&apos;e9m da cria\&apos;e7\&apos;e3o \&apos;0d\par}&#x0A;</rtf>
+<raw>?Essa regi�o passou por v�rias transforma��es a partir da segunda metade do s�culo XX, com a constru��o de Bras�lia na d�cada de 1960, tornando-se a capital federal, algum tempo depois a separa��o do Mato Grosso em dois estados, Mato Grosso e Mato Grosso do Sul, al�m da separa��o do estado de Goi�s, em 1988, dando origem ao Tocantins que passou a fazer parte da regi�o norte.&#x0A;&#x0A;Uma vantagem para regi�o centro-oeste � que a distribui��o da produ��o � facilitada por exercer fronteiras com todas as outras, fator esse que contribui para o escoamento da produ��o. Por outro lado, tal caracter�stica tamb�m dificulta o envio dos determinados produtos para outros pa�ses por estar mais distante do litoral, mas tal situa��o pode ser contornada conforme a utiliza��o e qualidade dos meios de transporte a ser utilizado.&#x0A;&#x0A;Goi�s e Mato Grosso est�o entre os estados com maior parcela da produ��o agr�cola nacional, uma produ��o voltada principalmente para o cultivo de soja, milho e cana-de-a��car, al�m da cria��o &#x0D;</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1259" parent="1257" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688144203</lastupdated>
+<possize>
+<point>
+<x>15</x>
+<y>151</y>
+</point>
+<size>
+<cx>473</cx>
+<cy>456</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1259Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1259Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1259Font1&quot;  &gt;Centro-oeste&lt;/span &gt;&lt;span class=&quot;text1259Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1259Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1259Font2&quot;  &gt;Com o desenvolvimento das regiÃµes nordeste e sudeste, a interiorizaÃ§Ã£o do Brasil pode ser considerada relativamente lenta, mas a descoberta de ouro pelos bandeirantes, a construÃ§Ã£o de algumas estradas de ferro, a assinatura do Trata de Madri e, de forma mais recente, a expansÃ£o da agropecuÃ¡ria foram formas influÃªncia que promoveram a ocupaÃ§Ã£o territorial dessa regiÃ£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1259Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1259Font2&quot;  &gt;A regiÃ£o centro-oeste Ã© a segunda maior regiÃ£o em extensÃ£o territorial, mas Ã© a que possui a menor densidade demogrÃ¡fica do paÃ­s. Essa caracterÃ­stica estar relacionada a concentraÃ§Ã£o urbana em locais distintos enquanto grande parte do territÃ³rio abriga vegetaÃ§Ã£o do cerrado ou o cultivo de terras agricultÃ¡veis.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs36\b Centro-oeste\fs28\b0\par\par Com o desenvolvimento das regi\&apos;f5es nordeste e sudeste, a interioriza\&apos;e7\&apos;e3o do Brasil pode ser considerada relativamente lenta, mas a descoberta de ouro pelos bandeirantes, &#x0A;a constru\&apos;e7\&apos;e3o de algumas estradas de ferro, a assinatura do Trata de Madri e, de forma mais recente, a expans\&apos;e3o da agropecu\&apos;e1ria foram formas influ\&apos;eancia que promoveram a ocupa\&apos;e7\&apos;e3o territorial dessa regi\&apos;e3o.\par\par A regi\&apos;e3o centro-oeste &#x0A;\&apos;e9 a segunda maior regi\&apos;e3o em extens\&apos;e3o territorial, mas \&apos;e9 a que possui a menor densidade demogr\&apos;e1fica do pa\&apos;eds. Essa caracter\&apos;edstica estar relacionada a concentra\&apos;e7\&apos;e3o urbana em locais distintos enquanto grande parte do territ\&apos;f3rio &#x0A;abriga vegeta\&apos;e7\&apos;e3o do cerrado ou o cultivo de terras agricult\&apos;e1veis.\par\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Centro-oeste&#x0A;&#x0A;Com o desenvolvimento das regi�es nordeste e sudeste, a interioriza��o do Brasil pode ser considerada relativamente lenta, mas a descoberta de ouro pelos bandeirantes, a constru��o de algumas estradas de ferro, a assinatura do Trata de Madri e, de forma mais recente, a expans�o da agropecu�ria foram formas influ�ncia que promoveram a ocupa��o territorial dessa regi�o.&#x0A;&#x0A;A regi�o centro-oeste � a segunda maior regi�o em extens�o territorial, mas � a que possui a menor densidade demogr�fica do pa�s. Essa caracter�stica estar relacionada a concentra��o urbana em locais distintos enquanto grande parte do territ�rio abriga vegeta��o do cerrado ou o cultivo de terras agricult�veis.&#x0A;&#x0A;</raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1261" parent="1257" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1688144147</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1263" parent="1257" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1688144147</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1265" parent="1257" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1688144147</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1266" parent="1257" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688144147</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>49</y>
+</point>
+<size>
+<cx>779</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1266Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1266Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1266Font1&quot;  &gt;RegiÃµes brasileiras&lt;/span &gt;&lt;span class=&quot;text1266Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Regi\&apos;f5es brasileiras\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Regi�es brasileiras</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1268" parent="1257" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688144147</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1270" parent="1257" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688144147</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="1405" parent="40">
+<name>Página 7</name>
+<lastupdated>1689700614</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="1435" parent="1405" resource="1434" ontop="false" fixed="false" proportional="true">
+<name>Imagem 3</name>
+<lastupdated>1688144387</lastupdated>
+<possize>
+<point>
+<x>556</x>
+<y>91</y>
+</point>
+<size>
+<cx>384</cx>
+<cy>392</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1407" parent="1405" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688144370</lastupdated>
+<possize>
+<point>
+<x>15</x>
+<y>151</y>
+</point>
+<size>
+<cx>473</cx>
+<cy>501</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1407Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1407Font1&quot;  &gt;de bovinos. Enquanto isso, outra Ã¡rea da economia que ajuda a alavancar o PIB Ã© o comÃ©rcio e a prestaÃ§Ã£o de serviÃ§os, muito em detrimento do Distrito Federal onde o funcionamento pÃºblico Ã© o maior do paÃ­s pelo fato de ser a capital nacional.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1407Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1407Font1&quot;  &gt;Entre todas as unidades federativas do Brasil, o Distrito Federal possui o melhor IDH sendo que essa qualidade de vida estÃ¡ relacionada a renda per capita por pessoa que Ã© considerada a mais elevada do paÃ­s.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1407Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1407Font1&quot;  &gt;Pelo fato de as fronteiras dessa regiÃ£o estar ligadas a todas as outras, o aspecto cultural sofreu influÃªncia dos mais diversos tipos, seja na questÃ£o musical, na culinÃ¡ria, nos dialetos e gÃ­rias ou na questÃ£o comportamental. PorÃ©m, os costumes e tradiÃ§Ãµes ainda sÃ£o mantidos e possuem carÃ¡ter enriquecedor para a cultura nÃ£o sÃ³ da regiÃ£o mais para todo o Brasil.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\lang1046\hich\f2\loch\f2\cf2\fs28 de bovinos. Enquanto isso, outra \&apos;e1rea da economia que ajuda a alavancar o PIB \&apos;e9 o com\&apos;e9rcio e a presta\&apos;e7\&apos;e3o de servi\&apos;e7os, muito em detrimento do Distrito Federal onde o funcionamento &#x0A;p\&apos;fablico \&apos;e9 o maior do pa\&apos;eds pelo fato de ser a capital nacional.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Entre todas as unidades federativas do Brasil, o Distrito Federal possui o melhor IDH sendo que essa qualidade de vida est\&apos;e1 &#x0A;relacionada a renda per capita por pessoa que \&apos;e9 considerada a mais elevada do pa\&apos;eds.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Pelo fato de as fronteiras dessa regi\&apos;e3o estar ligadas a todas as outras, o aspecto cultural sofreu influ\&apos;eancia &#x0A;dos mais diversos tipos, seja na quest\&apos;e3o musical, na culin\&apos;e1ria, nos dialetos e g\&apos;edrias ou na quest\&apos;e3o comportamental. Por\&apos;e9m, os costumes e tradi\&apos;e7\&apos;f5es ainda s\&apos;e3o mantidos e possuem car\&apos;e1ter enriquecedor para a cultura n\&apos;e3o s\&apos;f3 &#x0A;da regi\&apos;e3o mais para todo o Brasil.\lang1046\hich\f2\loch\f2\par\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?de bovinos. Enquanto isso, outra �rea da economia que ajuda a alavancar o PIB � o com�rcio e a presta��o de servi�os, muito em detrimento do Distrito Federal onde o funcionamento p�blico � o maior do pa�s pelo fato de ser a capital nacional.&#x0A;&#x0A;Entre todas as unidades federativas do Brasil, o Distrito Federal possui o melhor IDH sendo que essa qualidade de vida est� relacionada a renda per capita por pessoa que � considerada a mais elevada do pa�s.&#x0A;&#x0A;Pelo fato de as fronteiras dessa regi�o estar ligadas a todas as outras, o aspecto cultural sofreu influ�ncia dos mais diversos tipos, seja na quest�o musical, na culin�ria, nos dialetos e g�rias ou na quest�o comportamental. Por�m, os costumes e tradi��es ainda s�o mantidos e possuem car�ter enriquecedor para a cultura n�o s� da regi�o mais para todo o Brasil.&#x0A;&#x0A;</raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1409" parent="1405" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1688144273</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1411" parent="1405" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1688144273</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1413" parent="1405" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1688144273</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1414" parent="1405" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688144273</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>49</y>
+</point>
+<size>
+<cx>779</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1414Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1414Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1414Font1&quot;  &gt;RegiÃµes brasileiras&lt;/span &gt;&lt;span class=&quot;text1414Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Regi\&apos;f5es brasileiras\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Regi�es brasileiras</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1416" parent="1405" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688144273</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1418" parent="1405" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688144273</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="1473" parent="40">
+<name>Página 8</name>
+<lastupdated>1689700617</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1474" parent="1473" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1688144529</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>73</y>
+</point>
+<size>
+<cx>485</cx>
+<cy>590</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1474Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1474Font1&quot;  &gt;No final do sÃ©culo XIX e inÃ­cio do sÃ©culo XX, milhares de imigrantes europeus, principalmente italianos e alemÃ£es, chegaram ao Brasil e se aglomeraram em especial no sul do paÃ­s, regiÃ£o que possui caracterÃ­sticas climÃ¡ticas mais prÃ³ximas dos climas europeus, alÃ©m da prÃ³pria influÃªncia por parte do governo brasileiro. Devido a esse &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1474Font1&quot;  &gt;fator histÃ³rico, grande parte da populaÃ§Ã£o do sul possui descendÃªncia europeia e Ã© majoritariamente composta por brancos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1474Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1474Font1&quot;  &gt;A regiÃ£o Ã© formada por ParanÃ¡, Santa Catarina e Rio Grande do Sul, esses estados estÃ£o classificados entre as cinco unidades da federaÃ§Ã£o com melhor IDH, isso significa melhores condiÃ§Ãµes de vida para a populaÃ§Ã£o por meio da educaÃ§Ã£o, saÃºde pÃºblica, seguranÃ§a, alÃ©m de terem elevada renda per capita por pessoa.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1474Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1474Font1&quot;  &gt;As atividades econÃ´micas sÃ£o bem diversificadas e Ã© um dos grandes diferenciais da regiÃ£o sul. O grande destaque vai para os estados do ParanÃ¡ e Rio Grande do Sul, isso porque estÃ£o entre os maiores produtores agrÃ­colas do paÃ­s, ficando atrÃ¡s apenas do Mato Grosso (Censo IBGE, 2017). PorÃ©m, as indÃºstrias, o comÃ©rcio e a prestaÃ§Ã£o de serviÃ§os tambÃ©m contribuem para o desenvolvimento econÃ´mico da regiÃ£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 No final do s\&apos;e9culo XIX e in\&apos;edcio do s\&apos;e9culo XX, milhares de imigrantes europeus, principalmente italianos e alem\&apos;e3es, chegaram ao Brasil e se aglomeraram em especial no sul do pa\&apos;eds, regi\&apos;e3o &#x0A;que possui caracter\&apos;edsticas clim\&apos;e1ticas mais pr\&apos;f3ximas dos climas europeus, al\&apos;e9m da pr\&apos;f3pria influ\&apos;eancia por parte do governo brasileiro. Devido a esse \par fator hist\&apos;f3rico, grande parte da popula\&apos;e7\&apos;e3o do sul possui descend\&apos;eancia &#x0A;europeia e \&apos;e9 majoritariamente composta por brancos.\par\par A regi\&apos;e3o \&apos;e9 formada por Paran\&apos;e1, Santa Catarina e Rio Grande do Sul, esses estados est\&apos;e3o classificados entre as cinco unidades da federa\&apos;e7\&apos;e3o com melhor IDH, isso significa melhores &#x0A;condi\&apos;e7\&apos;f5es de vida para a popula\&apos;e7\&apos;e3o por meio da educa\&apos;e7\&apos;e3o, sa\&apos;fade p\&apos;fablica, seguran\&apos;e7a, al\&apos;e9m de terem elevada renda per capita por pessoa.\par\par As atividades econ\&apos;f4micas s\&apos;e3o bem diversificadas e \&apos;e9 um dos grandes diferenciais &#x0A;da regi\&apos;e3o sul. O grande destaque vai para os estados do Paran\&apos;e1 e Rio Grande do Sul, isso porque est\&apos;e3o entre os maiores produtores agr\&apos;edcolas do pa\&apos;eds, ficando atr\&apos;e1s apenas do Mato Grosso (Censo IBGE, 2017). Por\&apos;e9m, as ind\&apos;fastrias, &#x0A;o com\&apos;e9rcio e a presta\&apos;e7\&apos;e3o de servi\&apos;e7os tamb\&apos;e9m contribuem para o desenvolvimento econ\&apos;f4mico da regi\&apos;e3o.\par\par}&#x0A;</rtf>
+<raw>?No final do s�culo XIX e in�cio do s�culo XX, milhares de imigrantes europeus, principalmente italianos e alem�es, chegaram ao Brasil e se aglomeraram em especial no sul do pa�s, regi�o que possui caracter�sticas clim�ticas mais pr�ximas dos climas europeus, al�m da pr�pria influ�ncia por parte do governo brasileiro. Devido a esse &#x0A;fator hist�rico, grande parte da popula��o do sul possui descend�ncia europeia e � majoritariamente composta por brancos.&#x0A;&#x0A;A regi�o � formada por Paran�, Santa Catarina e Rio Grande do Sul, esses estados est�o classificados entre as cinco unidades da federa��o com melhor IDH, isso significa melhores condi��es de vida para a popula��o por meio da educa��o, sa�de p�blica, seguran�a, al�m de terem elevada renda per capita por pessoa.&#x0A;&#x0A;As atividades econ�micas s�o bem diversificadas e � um dos grandes diferenciais da regi�o sul. O grande destaque vai para os estados do Paran� e Rio Grande do Sul, isso porque est�o entre os maiores produtores agr�colas do pa�s, ficando atr�s apenas do Mato Grosso (Censo IBGE, 2017). Por�m, as ind�strias, o com�rcio e a presta��o de servi�os tamb�m contribuem para o desenvolvimento econ�mico da regi�o.&#x0A;</raw>
+<numoflines>26</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1475" parent="1473" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688144447</lastupdated>
+<possize>
+<point>
+<x>15</x>
+<y>151</y>
+</point>
+<size>
+<cx>473</cx>
+<cy>496</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1475Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1475Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1475Font1&quot;  &gt;Sul&lt;/span &gt;&lt;span class=&quot;text1475Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1475Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1475Font2&quot;  &gt;A ocupaÃ§Ã£o territorial na regiÃ£o sul do paÃ­s aconteceu de forma mais efetiva a partir da metade do sÃ©culo XIX, quando a coroa portuguesa doava grandes porÃ§Ãµes de terras aos militares, situaÃ§Ã£o essa que ocasionou na formaÃ§Ã£o de grandes latifÃºndios, mas anteriormente no sÃ©culo XVII e XVIII os bandeirantes jÃ¡ haviam percorrido pela regiÃ£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1475Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1475Font2&quot;  &gt;Foi nessa regiÃ£o que surgiram os primeiros pecuaristas do Brasil, os quais eram responsÃ¡veis pela produÃ§Ã£o da carne-de-chÃ¡ (carne seca e salgada). Por possuir uma regiÃ£o composta por campos (gramÃ­neas e pequenos arbustos), a criaÃ§Ã£o de animas foi facilitada e intensificada. Outro detalhe Ã© que grande parte da produÃ§Ã£o tinha destino Minas Gerais, onde o ciclo do ouro estava em evidÃªncia, e o Rio de Janeiro, que havia se tornado a capital do paÃ­s. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\lang1046\hich\f2\loch\f2\cf2\fs36\b Sul\fs28\b0\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 A ocupa\&apos;e7\&apos;e3o territorial na regi\&apos;e3o sul do pa\&apos;eds aconteceu de forma mais efetiva a partir da metade do s\&apos;e9culo &#x0A;XIX, quando a coroa portuguesa doava grandes por\&apos;e7\&apos;f5es de terras aos militares, situa\&apos;e7\&apos;e3o essa que ocasionou na forma\&apos;e7\&apos;e3o de grandes latif\&apos;fandios, mas anteriormente no s\&apos;e9culo XVII e XVIII os bandeirantes j\&apos;e1 haviam percorrido pela &#x0A;regi\&apos;e3o.\par\par Foi nessa regi\&apos;e3o que surgiram os primeiros pecuaristas do Brasil, os quais eram respons\&apos;e1veis pela produ\&apos;e7\&apos;e3o da carne-de-ch\&apos;e1 (carne seca e salgada). Por possuir uma regi\&apos;e3o composta por campos (gram\&apos;edneas e pequenos &#x0A;arbustos), a cria\&apos;e7\&apos;e3o de animas foi facilitada e intensificada. Outro detalhe \&apos;e9 que grande parte da produ\&apos;e7\&apos;e3o tinha destino Minas Gerais, onde o ciclo do ouro estava em evid\&apos;eancia, e o Rio de Janeiro, que havia se tornado a capital do pa\&apos;eds. \lang1046\hich\f2\loch\f2\par\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Sul&#x0A;&#x0A;A ocupa��o territorial na regi�o sul do pa�s aconteceu de forma mais efetiva a partir da metade do s�culo XIX, quando a coroa portuguesa doava grandes por��es de terras aos militares, situa��o essa que ocasionou na forma��o de grandes latif�ndios, mas anteriormente no s�culo XVII e XVIII os bandeirantes j� haviam percorrido pela regi�o.&#x0A;&#x0A;Foi nessa regi�o que surgiram os primeiros pecuaristas do Brasil, os quais eram respons�veis pela produ��o da carne-de-ch� (carne seca e salgada). Por possuir uma regi�o composta por campos (gram�neas e pequenos arbustos), a cria��o de animas foi facilitada e intensificada. Outro detalhe � que grande parte da produ��o tinha destino Minas Gerais, onde o ciclo do ouro estava em evid�ncia, e o Rio de Janeiro, que havia se tornado a capital do pa�s. &#x0A;&#x0A;</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1477" parent="1473" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1688144393</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1479" parent="1473" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1688144393</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1481" parent="1473" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1688144393</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1482" parent="1473" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688144393</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>49</y>
+</point>
+<size>
+<cx>779</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1482Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1482Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1482Font1&quot;  &gt;RegiÃµes brasileiras&lt;/span &gt;&lt;span class=&quot;text1482Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Regi\&apos;f5es brasileiras\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Regi�es brasileiras</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1484" parent="1473" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688144393</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1486" parent="1473" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688144393</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="1578" parent="40">
+<name>Página 9</name>
+<lastupdated>1689700619</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="1612" parent="1578" resource="1611" ontop="false" fixed="false" proportional="true">
+<name>Imagem 3</name>
+<lastupdated>1688144631</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>264</y>
+</point>
+<size>
+<cx>355</cx>
+<cy>341</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1579" parent="1578" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1688144713</lastupdated>
+<possize>
+<point>
+<x>508</x>
+<y>88</y>
+</point>
+<size>
+<cx>485</cx>
+<cy>531</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1579Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1579Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1579Font1&quot;  &gt;Sudeste&lt;/span &gt;&lt;span class=&quot;text1579Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1579Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1579Font2&quot;  &gt;A partir do sÃ©culo XVIII, o Brasil colonial passou por diversas transformaÃ§Ãµes econÃ´micas, sociais e polÃ­ticas que promovera muitas transformaÃ§Ãµes na regiÃ£o sudeste. Podemos destacar alguns momentos econÃ´micos como o ciclo do ouro, que teve como grande centro extrativista o estado de Minas Gerais; posteriormente, o ciclo do cafÃ©, tendo uma grande produÃ§Ã£o em SÃ£o Paulo e no EspÃ­rito Santo, alÃ©m da transferÃªncia da capital para o estado do Rio de Janeiro. JÃ¡ no final do sÃ©culo XIX e inÃ­cio do sÃ©culo XX, surgiram as primeiras industrias brasileiras que inicialmente se limitou a essa regiÃ£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1579Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1579Font2&quot;  &gt;Os fatores descritos anteriormente, contribuÃ­ram para a ascensÃ£o do Sudeste em relaÃ§Ã£o as demais. Esses fatores sÃ£o algumas das explicaÃ§Ãµes que fizeram com que essa regiÃ£o se tornasse a mais industrializada, mais rica e atraÃ­sse grande quantidade de pessoas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1579Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1579Font2&quot;  &gt;Atualmente, a maior concentraÃ§Ã£o de industrias estÃ¡ na regiÃ£o Sudeste, de forma mais especÃ­fica nos estados de SÃ£o Paulo e Rio de Janeiro. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs36\b Sudeste\fs28\b0\par\par A partir do s\&apos;e9culo XVIII, o Brasil colonial passou por diversas transforma\&apos;e7\&apos;f5es econ\&apos;f4micas, sociais e pol\&apos;edticas que promovera muitas transforma\&apos;e7\&apos;f5es na regi\&apos;e3o &#x0A;sudeste. Podemos destacar alguns momentos econ\&apos;f4micos como o ciclo do ouro, que teve como grande centro extrativista o estado de Minas Gerais; posteriormente, o ciclo do caf\&apos;e9, tendo uma grande produ\&apos;e7\&apos;e3o em S\&apos;e3o Paulo e no Esp\&apos;edrito Santo, &#x0A;al\&apos;e9m da transfer\&apos;eancia da capital para o estado do Rio de Janeiro. J\&apos;e1 no final do s\&apos;e9culo XIX e in\&apos;edcio do s\&apos;e9culo XX, surgiram as primeiras industrias brasileiras que inicialmente se limitou a essa regi\&apos;e3o.\par\par Os fatores descritos &#x0A;anteriormente, contribu\&apos;edram para a ascens\&apos;e3o do Sudeste em rela\&apos;e7\&apos;e3o as demais. Esses fatores s\&apos;e3o algumas das explica\&apos;e7\&apos;f5es que fizeram com que essa regi\&apos;e3o se tornasse a mais industrializada, mais rica e atra\&apos;edsse grande quantidade &#x0A;de pessoas.\par\par Atualmente, a maior concentra\&apos;e7\&apos;e3o de industrias est\&apos;e1 na regi\&apos;e3o Sudeste, de forma mais espec\&apos;edfica nos estados de S\&apos;e3o Paulo e Rio de Janeiro. \par}&#x0A;</rtf>
+<raw>?Sudeste&#x0A;&#x0A;A partir do s�culo XVIII, o Brasil colonial passou por diversas transforma��es econ�micas, sociais e pol�ticas que promovera muitas transforma��es na regi�o sudeste. Podemos destacar alguns momentos econ�micos como o ciclo do ouro, que teve como grande centro extrativista o estado de Minas Gerais; posteriormente, o ciclo do caf�, tendo uma grande produ��o em S�o Paulo e no Esp�rito Santo, al�m da transfer�ncia da capital para o estado do Rio de Janeiro. J� no final do s�culo XIX e in�cio do s�culo XX, surgiram as primeiras industrias brasileiras que inicialmente se limitou a essa regi�o.&#x0A;&#x0A;Os fatores descritos anteriormente, contribu�ram para a ascens�o do Sudeste em rela��o as demais. Esses fatores s�o algumas das explica��es que fizeram com que essa regi�o se tornasse a mais industrializada, mais rica e atra�sse grande quantidade de pessoas.&#x0A;&#x0A;Atualmente, a maior concentra��o de industrias est� na regi�o Sudeste, de forma mais espec�fica nos estados de S�o Paulo e Rio de Janeiro. </raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1580" parent="1578" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688144619</lastupdated>
+<possize>
+<point>
+<x>14</x>
+<y>135</y>
+</point>
+<size>
+<cx>473</cx>
+<cy>156</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1580Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1580Font1&quot;  &gt;Devido Ã  grande presenÃ§a de descendentes de europeus e buscando manter as tradiÃ§Ãµes, a cultura desta regiÃ£o possui caracterÃ­sticas bem prÃ³ximas ao do velho continente. Isso faz com que os costumes sejam passados de geraÃ§Ã£o em geraÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Devido \&apos;e0 grande presen\&apos;e7a de descendentes de europeus e buscando manter as tradi\&apos;e7\&apos;f5es, a cultura desta regi\&apos;e3o possui caracter\&apos;edsticas bem pr\&apos;f3ximas ao do velho continente. Isso faz com &#x0A;que os costumes sejam passados de gera\&apos;e7\&apos;e3o em gera\&apos;e7\&apos;e3o.\par\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Devido � grande presen�a de descendentes de europeus e buscando manter as tradi��es, a cultura desta regi�o possui caracter�sticas bem pr�ximas ao do velho continente. Isso faz com que os costumes sejam passados de gera��o em gera��o.&#x0A;&#x0A;</raw>
+<numoflines>7</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1582" parent="1578" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1688144601</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1584" parent="1578" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1688144601</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1586" parent="1578" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1688144601</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1587" parent="1578" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688144601</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>49</y>
+</point>
+<size>
+<cx>779</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1587Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1587Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1587Font1&quot;  &gt;RegiÃµes brasileiras&lt;/span &gt;&lt;span class=&quot;text1587Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Regi\&apos;f5es brasileiras\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Regi�es brasileiras</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1589" parent="1578" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688144601</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1591" parent="1578" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688144601</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="1697" parent="40">
+<name>Página 10</name>
+<lastupdated>1689700621</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1698" parent="1697" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1688144815</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>86</y>
+</point>
+<size>
+<cx>485</cx>
+<cy>160</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1698Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1698Font1&quot;  &gt;Diferente das demais regiÃµes brasileiras, Ã© difÃ­cil estabelecer uma caracterÃ­stica cultural prÃ³pria para essa regiÃ£o. Podemos dizer que cada estado dentro do contexto histÃ³rico, das particularidades sociais e modo de vida da populaÃ§Ã£o foram formando um perfil cultural prÃ³prio de cada estado.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\lang1046\hich\f2\loch\f2\cf2\fs28 Diferente das demais regi\&apos;f5es brasileiras, \&apos;e9 dif\&apos;edcil estabelecer uma caracter\&apos;edstica cultural pr\&apos;f3pria para essa regi\&apos;e3o. Podemos dizer que cada estado dentro do contexto hist\&apos;f3rico, &#x0A;das particularidades sociais e modo de vida da popula\&apos;e7\&apos;e3o foram formando um perfil cultural pr\&apos;f3prio de cada estado.\lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?Diferente das demais regi�es brasileiras, � dif�cil estabelecer uma caracter�stica cultural pr�pria para essa regi�o. Podemos dizer que cada estado dentro do contexto hist�rico, das particularidades sociais e modo de vida da popula��o foram formando um perfil cultural pr�prio de cada estado.</raw>
+<numoflines>6</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1699" parent="1697" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688144787</lastupdated>
+<possize>
+<point>
+<x>18</x>
+<y>122</y>
+</point>
+<size>
+<cx>473</cx>
+<cy>420</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1699Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1699Font1&quot;  &gt;Ambos alavancaram suas economias e assumiram o cenÃ¡rio de destaque no Ã¢mbito nacional e na AmÃ©rica Latina, tanto que se tornaram as duas metrÃ³poles brasileiras. Com a ascensÃ£o econÃ´mica desses dois estados vÃ¡rias pessoas, principalmente da regiÃ£o nordeste, migraram para essas localidades em busca de empregos e melhores condiÃ§Ãµes de vida.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1699Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1699Font1&quot;  &gt;Devido a esse grande fluxo populacional em direÃ§Ã£o a regiÃ£o sudeste, principalmente na segunda metade do sÃ©culo XX, a regiÃ£o passou a ter uma grande concentraÃ§Ã£o populacional alÃ©m do prÃ³prio crescimento vegetativo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1699Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1699Font1&quot;  &gt;Atualmente, os quatro estados da regiÃ£o estÃ£o classificados entre os que possuem maior IDH, mas Ã© importante destacar que possuem vÃ¡rios desafios como reduzir as desigualdades sociais e a criminalidade.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Ambos alavancaram suas economias e assumiram o cen\&apos;e1rio de destaque no \&apos;e2mbito nacional e na Am\&apos;e9rica Latina, tanto que se tornaram as duas metr\&apos;f3poles brasileiras. Com a ascens\&apos;e3o econ\&apos;f4mica &#x0A;desses dois estados v\&apos;e1rias pessoas, principalmente da regi\&apos;e3o nordeste, migraram para essas localidades em busca de empregos e melhores condi\&apos;e7\&apos;f5es de vida.\par\par Devido a esse grande fluxo populacional em dire\&apos;e7\&apos;e3o a regi\&apos;e3o sudeste, &#x0A;principalmente na segunda metade do s\&apos;e9culo XX, a regi\&apos;e3o passou a ter uma grande concentra\&apos;e7\&apos;e3o populacional al\&apos;e9m do pr\&apos;f3prio crescimento vegetativo.\par\par Atualmente, os quatro estados da regi\&apos;e3o est\&apos;e3o classificados entre os que &#x0A;possuem maior IDH, mas \&apos;e9 importante destacar que possuem v\&apos;e1rios desafios como reduzir as desigualdades sociais e a criminalidade.\par\par\par\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Ambos alavancaram suas economias e assumiram o cen�rio de destaque no �mbito nacional e na Am�rica Latina, tanto que se tornaram as duas metr�poles brasileiras. Com a ascens�o econ�mica desses dois estados v�rias pessoas, principalmente da regi�o nordeste, migraram para essas localidades em busca de empregos e melhores condi��es de vida.&#x0A;&#x0A;Devido a esse grande fluxo populacional em dire��o a regi�o sudeste, principalmente na segunda metade do s�culo XX, a regi�o passou a ter uma grande concentra��o populacional al�m do pr�prio crescimento vegetativo.&#x0A;&#x0A;Atualmente, os quatro estados da regi�o est�o classificados entre os que possuem maior IDH, mas � importante destacar que possuem v�rios desafios como reduzir as desigualdades sociais e a criminalidade.&#x0A;&#x0A;&#x0A;&#x0A;</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1701" parent="1697" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1688144724</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1703" parent="1697" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1688144724</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1705" parent="1697" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1688144724</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1706" parent="1697" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688144724</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>49</y>
+</point>
+<size>
+<cx>779</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1706Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1706Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1706Font1&quot;  &gt;RegiÃµes brasileiras&lt;/span &gt;&lt;span class=&quot;text1706Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Regi\&apos;f5es brasileiras\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Regi�es brasileiras</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1708" parent="1697" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688144724</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1710" parent="1697" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688144724</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

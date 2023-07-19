@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>2280</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="166" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="167" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="450" resourcetype="image">
+<name>Imagem 3.bmp</name>
+<relativelink>images\Imagem 3.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="953" resourcetype="image">
+<name>PNG.105.png</name>
+<relativelink>images\PNG.105.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1308" resourcetype="image">
+<name>PNG.106.png</name>
+<relativelink>images\PNG.106.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1396" resourcetype="image">
+<name>image0071.emf</name>
+<relativelink>images\image0071.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1397" resourcetype="image">
+<name>image0061.png</name>
+<relativelink>images\image0061.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="2131" resourcetype="image">
+<name>Imagem 3001.bmp</name>
+<relativelink>images\Imagem 3001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="2272" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="2273" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="76">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 3</name>
+<lastupdated>1688579629</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="75" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="76" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="70" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="68" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="69" parent="68" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="62" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="63" parent="62" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="54" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="55" parent="54" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="56" parent="54" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="54" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="54">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1688579629</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="2257" parent="40">
+<name>Página 1</name>
+<lastupdated>1689705115</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="2258" parent="2257">
+<name>Grupo_1</name>
+<lastupdated>1689705115</lastupdated>
+<image id="2260" parent="2258" resource="2272" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689705115</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2262" parent="2258" resource="2273" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689705115</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="2263" parent="2258" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689705119</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2263Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text2263Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2263Font1&quot;  &gt;Aula 2&lt;/span &gt;&lt;span class=&quot;text2263Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 2\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 2</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="2265" parent="2258" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689705115</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2267" parent="2258" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689705115</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2269" parent="2258" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689705115</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="2271" parent="2258" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689705115</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="152" parent="40">
+<name>Página 2</name>
+<lastupdated>1688579586</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="2132" parent="152" resource="2131" ontop="false" fixed="false" proportional="true">
+<name>Imagem 3</name>
+<lastupdated>1688579536</lastupdated>
+<possize>
+<point>
+<x>135</x>
+<y>430</y>
+</point>
+<size>
+<cx>248</cx>
+<cy>171</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="221" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1688579577</lastupdated>
+<possize>
+<point>
+<x>518</x>
+<y>85</y>
+</point>
+<size>
+<cx>472</cx>
+<cy>523</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text221Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text221Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text221Font3 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot;  &gt;O que Ã© Ã©tica?&lt;/span &gt;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot;  &gt;Os gregos clÃ¡ssicos nÃ£o separavam a Ã©tica da polÃ­tica. Na pÃ³lis grega, tanto o estudo da Ã©tica quanto &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot;  &gt;a formaÃ§Ã£o da pÃ³lis eram fundamentais para o comportamento, os costumes e a formaÃ§Ã£o do cidadÃ£o. A Ã©tica Ã© responsÃ¡vel por orientar a maneira como os cidadÃ£os deveriam se comportar na pÃ³lis. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot;  &gt;Para AristÃ³teles, a Ã©tica Ã© condiÃ§Ã£o de autorrealizaÃ§Ã£o do indivÃ­duo por meio de uma vida virtuosa com base na razÃ£o. Ã‰ por meio da Ã©tica que o indivÃ­duo se torna bom cidadÃ£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot;  &gt;PlatÃ£o centra suas indagaÃ§Ãµes na ideia perfeita, boa e justa como forma de organizaÃ§Ã£o da sociedade e da conduta humana. As ideias constituem a realidade platÃ´nica e sÃ£o os modelos para os seres humanos que possuem seus valores, leis e moral. Ele propÃµe uma Ã©tica transcendente, que nÃ£o se pauta na realidade empÃ­rica, nem mesmo na conduta ou nas relaÃ§Ãµes humanas, mas sim no mundo inteligÃ­vel, das ideias, da essÃªncia, do conhecimento e dos princÃ­pios Ã©ticos.&lt;/span &gt;&lt;span class=&quot;text221Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\lang1046\hich\f2\loch\f2\cf2\fs32\b O que \&apos;e9 \&apos;e9tica?\fs28\b0\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Os gregos cl\&apos;e1ssicos n\&apos;e3o separavam a \&apos;e9tica da pol\&apos;edtica. Na p\&apos;f3lis grega, tanto o estudo &#x0A;da \&apos;e9tica quanto \lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 a forma\&apos;e7\&apos;e3o da p\&apos;f3lis eram fundamentais para o comportamento, os costumes e a forma\&apos;e7\&apos;e3o do cidad\&apos;e3o. A \&apos;e9tica \&apos;e9 respons\&apos;e1vel por orientar a maneira como os &#x0A;cidad\&apos;e3os deveriam se comportar na p\&apos;f3lis. \par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Para Arist\&apos;f3teles, a \&apos;e9tica \&apos;e9 condi\&apos;e7\&apos;e3o de autorrealiza\&apos;e7\&apos;e3o do indiv\&apos;edduo por meio de uma vida virtuosa com base na raz\&apos;e3o. &#x0A;\&apos;c9 por meio da \&apos;e9tica que o indiv\&apos;edduo se torna bom cidad\&apos;e3o.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Plat\&apos;e3o centra suas indaga\&apos;e7\&apos;f5es na ideia perfeita, boa e justa como forma de organiza\&apos;e7\&apos;e3o da sociedade e da conduta &#x0A;humana. As ideias constituem a realidade plat\&apos;f4nica e s\&apos;e3o os modelos para os seres humanos que possuem seus valores, leis e moral. Ele prop\&apos;f5e uma \&apos;e9tica transcendente, que n\&apos;e3o se pauta na realidade emp\&apos;edrica, nem mesmo na conduta ou nas &#x0A;rela\&apos;e7\&apos;f5es humanas, mas sim no mundo intelig\&apos;edvel, das ideias, da ess\&apos;eancia, do conhecimento e dos princ\&apos;edpios \&apos;e9ticos.\plain\f1\fs24\par\pard\s0\qj\par}&#x0A;</rtf>
+<raw>?O que � �tica?&#x0A;&#x0A;Os gregos cl�ssicos n�o separavam a �tica da pol�tica. Na p�lis grega, tanto o estudo da �tica quanto &#x0A;a forma��o da p�lis eram fundamentais para o comportamento, os costumes e a forma��o do cidad�o. A �tica � respons�vel por orientar a maneira como os cidad�os deveriam se comportar na p�lis. &#x0A;&#x0A;Para Arist�teles, a �tica � condi��o de autorrealiza��o do indiv�duo por meio de uma vida virtuosa com base na raz�o. � por meio da �tica que o indiv�duo se torna bom cidad�o.&#x0A;&#x0A;Plat�o centra suas indaga��es na ideia perfeita, boa e justa como forma de organiza��o da sociedade e da conduta humana. As ideias constituem a realidade plat�nica e s�o os modelos para os seres humanos que possuem seus valores, leis e moral. Ele prop�e uma �tica transcendente, que n�o se pauta na realidade emp�rica, nem mesmo na conduta ou nas rela��es humanas, mas sim no mundo intelig�vel, das ideias, da ess�ncia, do conhecimento e dos princ�pios �ticos.&#x0A;</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="191" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688579529</lastupdated>
+<possize>
+<point>
+<x>19</x>
+<y>125</y>
+</point>
+<size>
+<cx>474</cx>
+<cy>309</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text191Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot;  &gt;AristÃ³teles Ã© considerado o primeiro grande pensador a sistematizar o conceito de polÃ­tica. Para o filÃ³sofo, o homem Ã© um animal polÃ­tico que tem como destino a vida comum na pÃ³lis e necessita viver em comunidade. A polÃ­tica existe para pensar em aÃ§Ãµes que favoreÃ§am o bem-estar individual e coletivo, uma vez que o homem Ã© polÃ­tico por ser racional e a Ã©tica e a polÃ­tica sÃ£o os instrumentos que garantem a racionalidade. Na visÃ£o de PlatÃ£o, a polÃ­tica nÃ£o Ã© para todos. A polÃ­tica Ã© somente para os mais capacitados, de forma que apenas os filÃ³sofos estariam aptos a exercer a administraÃ§Ã£o da pÃ³lis, por possuÃ­rem o conhecimento racional e verdadeiro. Nesse sentido, a polÃ­tica busca corrigir as injustiÃ§as. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\lang1046\hich\f2\loch\f2\cf2\fs28 Arist\&apos;f3teles \&apos;e9 considerado o primeiro grande pensador a sistematizar o conceito de pol\&apos;edtica. Para o fil\&apos;f3sofo, o homem \&apos;e9 um animal pol\&apos;edtico que tem como destino a vida comum &#x0A;na p\&apos;f3lis e necessita viver em comunidade. A pol\&apos;edtica existe para pensar em a\&apos;e7\&apos;f5es que favore\&apos;e7am o bem-estar individual e coletivo, uma vez que o homem \&apos;e9 pol\&apos;edtico por ser racional e a \&apos;e9tica e a pol\&apos;edtica s\&apos;e3o os instrumentos &#x0A;que garantem a racionalidade. Na vis\&apos;e3o de Plat\&apos;e3o, a pol\&apos;edtica n\&apos;e3o \&apos;e9 para todos. A pol\&apos;edtica \&apos;e9 somente para os mais capacitados, de forma que apenas os fil\&apos;f3sofos estariam aptos a exercer a administra\&apos;e7\&apos;e3o da p\&apos;f3lis, por possu\&apos;edrem &#x0A;o conhecimento racional e verdadeiro. Nesse sentido, a pol\&apos;edtica busca corrigir as injusti\&apos;e7as. \lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?Arist�teles � considerado o primeiro grande pensador a sistematizar o conceito de pol�tica. Para o fil�sofo, o homem � um animal pol�tico que tem como destino a vida comum na p�lis e necessita viver em comunidade. A pol�tica existe para pensar em a��es que favore�am o bem-estar individual e coletivo, uma vez que o homem � pol�tico por ser racional e a �tica e a pol�tica s�o os instrumentos que garantem a racionalidade. Na vis�o de Plat�o, a pol�tica n�o � para todos. A pol�tica � somente para os mais capacitados, de forma que apenas os fil�sofos estariam aptos a exercer a administra��o da p�lis, por possu�rem o conhecimento racional e verdadeiro. Nesse sentido, a pol�tica busca corrigir as injusti�as. </raw>
+<numoflines>14</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="165" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="163" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="161" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="159" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688579505</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text159Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text159Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text159Font1&quot;  &gt;Ã‰tica, virtude e justiÃ§a&lt;/span &gt;&lt;span class=&quot;text159Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b \&apos;c9tica, virtude e justi\&apos;e7a\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?�tica, virtude e justi�a</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="158" parent="152" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="156" parent="152" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="2214" parent="40">
+<name>Página 3</name>
+<lastupdated>1689705120</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="2218" parent="2214" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688579613</lastupdated>
+<possize>
+<point>
+<x>19</x>
+<y>125</y>
+</point>
+<size>
+<cx>474</cx>
+<cy>442</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2218Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2218Font1&quot;  &gt;No mito da caverna, PlatÃ£o ostenta a condiÃ§Ã£o de ignorÃ¢ncia na qual se depara o homem ao lidar com o conhecimento das aparÃªncias. Exclusivamente pelo mÃ©todo dialÃ©tico, o homem pode alcanÃ§ar as ideias e conhecer a verdade das coisas. Este mÃ©todo filosÃ³fico tem por intuito emancipar o ser humano da ignorÃ¢ncia e levÃ¡-los ao conhecimento de ideia em ideia, atÃ© alcanÃ§ar o conhecimento da ideia suprema: o bem.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2218Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2218Font1&quot;  &gt;Na Ã©tica platÃ´nica, a alma humana Ã© tripartite, formada pela inteligÃªncia, pela irascibilidade e pela concupiscÃªncia e, assim, como a divisÃ£o da cidade, cada uma das partes possui sua prÃ³pria funÃ§Ã£o que pode ser executada com nobreza ou nÃ£o, e, ao executÃ¡-la com nobreza, sua prÃ³pria virtude Ã© exercida.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2218Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2218Font1&quot;  &gt;Para AristÃ³teles, a Ã©tica estÃ¡ ligada Ã  noÃ§Ã£o de felicidade, ao bem agir, o agir segundo a virtude, podendo ser considerada eudemonista. A felicidade Ã© determinada por meio da atividade da alma que estÃ¡ em concordÃ¢ncia com a virtude.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\lang1046\hich\f2\loch\f2\cf2\fs28 No mito da caverna, Plat\&apos;e3o ostenta a condi\&apos;e7\&apos;e3o de ignor\&apos;e2ncia na qual se depara o homem ao lidar com o conhecimento das apar\&apos;eancias. Exclusivamente pelo m\&apos;e9todo dial\&apos;e9tico, &#x0A;o homem pode alcan\&apos;e7ar as ideias e conhecer a verdade das coisas. Este m\&apos;e9todo filos\&apos;f3fico tem por intuito emancipar o ser humano da ignor\&apos;e2ncia e lev\&apos;e1-los ao conhecimento de ideia em ideia, at\&apos;e9 alcan\&apos;e7ar o conhecimento da ideia suprema: &#x0A;o bem.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Na \&apos;e9tica plat\&apos;f4nica, a alma humana \&apos;e9 tripartite, formada pela intelig\&apos;eancia, pela irascibilidade e pela concupisc\&apos;eancia e, assim, como a divis\&apos;e3o da cidade, cada uma das partes &#x0A;possui sua pr\&apos;f3pria fun\&apos;e7\&apos;e3o que pode ser executada com nobreza ou n\&apos;e3o, e, ao execut\&apos;e1-la com nobreza, sua pr\&apos;f3pria virtude \&apos;e9 exercida.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Para Arist\&apos;f3teles, a \&apos;e9tica est\&apos;e1 ligada &#x0A;\&apos;e0 no\&apos;e7\&apos;e3o de felicidade, ao bem agir, o agir segundo a virtude, podendo ser considerada eudemonista. A felicidade \&apos;e9 determinada por meio da atividade da alma que est\&apos;e1 em concord\&apos;e2ncia com a virtude.\lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?No mito da caverna, Plat�o ostenta a condi��o de ignor�ncia na qual se depara o homem ao lidar com o conhecimento das apar�ncias. Exclusivamente pelo m�todo dial�tico, o homem pode alcan�ar as ideias e conhecer a verdade das coisas. Este m�todo filos�fico tem por intuito emancipar o ser humano da ignor�ncia e lev�-los ao conhecimento de ideia em ideia, at� alcan�ar o conhecimento da ideia suprema: o bem.&#x0A;&#x0A;Na �tica plat�nica, a alma humana � tripartite, formada pela intelig�ncia, pela irascibilidade e pela concupisc�ncia e, assim, como a divis�o da cidade, cada uma das partes possui sua pr�pria fun��o que pode ser executada com nobreza ou n�o, e, ao execut�-la com nobreza, sua pr�pria virtude � exercida.&#x0A;&#x0A;Para Arist�teles, a �tica est� ligada � no��o de felicidade, ao bem agir, o agir segundo a virtude, podendo ser considerada eudemonista. A felicidade � determinada por meio da atividade da alma que est� em concord�ncia com a virtude.</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="2220" parent="2214" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1688579588</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2222" parent="2214" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1688579588</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="2224" parent="2214" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1688579588</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="2225" parent="2214" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688579588</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2225Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text2225Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2225Font1&quot;  &gt;Ã‰tica, virtude e justiÃ§a&lt;/span &gt;&lt;span class=&quot;text2225Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b \&apos;c9tica, virtude e justi\&apos;e7a\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?�tica, virtude e justi�a</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="2227" parent="2214" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688579588</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2229" parent="2214" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688579588</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

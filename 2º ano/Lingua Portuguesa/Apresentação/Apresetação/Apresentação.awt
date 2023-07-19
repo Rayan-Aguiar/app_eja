@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc">
+<currentid>582</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="185" resourcetype="image">
+<name>Imagem2.png</name>
+<relativelink>images\Imagem2.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="186" resourcetype="image">
+<name>Imagem 3.bmp</name>
+<relativelink>images\Imagem 3.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="187" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="248" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="79">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Apresetação</name>
+<lastupdated>1687791832</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="78" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687187530</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687187530</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687187530</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="79" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687187530</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687187530</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687187530</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="70" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687187530</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="71" parent="70" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687187523</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="70" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687187523</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="63" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687187530</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="64" parent="63" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687187523</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="65" parent="63" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687187523</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="55" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687187530</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="56" parent="55" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687187523</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="55" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687187523</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="58" parent="55" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687187523</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="55">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="155" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1687791832</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="2" parent="155">
+<name>Página 1</name>
+<lastupdated>1687456472</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="184" parent="2" resource="187" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687187555</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>0</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>331</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="182" parent="2" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687456472</lastupdated>
+<possize>
+<point>
+<x>84</x>
+<y>306</y>
+</point>
+<size>
+<cx>417</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text182Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text182Font1&quot;  &gt;Ensino MÃ©dio â€“ 1Âº SÃ©rie&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text182Font1&quot;  &gt;Jordana Aparecida de Souza Rodrigues&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\ql\lang1033\hich\f2\loch\f2 Ensino M\&apos;e9dio \u8211 \&apos;96 1\&apos;ba S\&apos;e9rie\par\pard\s0\ql\lang1046\hich\f1\loch\f1\lang1033\hich\f2\loch\f2 Jordana Aparecida de Souza Rodrigues\lang1046\hich\f3\loch\f3\par}&#x0A;</rtf>
+<raw>?Ensino M�dio � 1� S�rie&#x0A;Jordana Aparecida de Souza Rodrigues</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="181" parent="2" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687456472</lastupdated>
+<possize>
+<point>
+<x>88</x>
+<y>262</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="179" parent="2" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687456472</lastupdated>
+<possize>
+<point>
+<x>108</x>
+<y>262</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="177" parent="2" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687456472</lastupdated>
+<possize>
+<point>
+<x>127</x>
+<y>262</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="175" parent="2" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687456472</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>173</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text175Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text175Font1&quot;  &gt;LÃNGUA &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text175Font1&quot;  &gt;PORTUGUESA&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b L\&apos;cdNGUA \par PORTUGUESA\par\par\par\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?L�NGUA &#x0A;PORTUGUESA&#x0A;&#x0A;&#x0A;</raw>
+<numoflines>5</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="174" parent="2" resource="186" ontop="false" fixed="false" proportional="true">
+<name>Imagem 3</name>
+<lastupdated>1687187545</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>523</y>
+</point>
+<size>
+<cx>216</cx>
+<cy>139</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="172" parent="2" resource="185" ontop="false" fixed="false" proportional="true">
+<name>Imagem2</name>
+<lastupdated>1687187545</lastupdated>
+<possize>
+<point>
+<x>566</x>
+<y>115</y>
+</point>
+<size>
+<cx>341</cx>
+<cy>462</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="243" parent="155">
+<name>Página 2</name>
+<lastupdated>1687791823</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="247" parent="243" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687187600</lastupdated>
+<possize>
+<point>
+<x>32</x>
+<y>55</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text247Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text247Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text247Font1&quot;  &gt;ApresentaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text247Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Apresenta\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Apresenta��o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="246" parent="243" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687791823</lastupdated>
+<possize>
+<point>
+<x>29</x>
+<y>121</y>
+</point>
+<size>
+<cx>606</cx>
+<cy>439</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text246Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font1&quot;  &gt;O estudo da LÃ­ngua Portuguesa possui grande importÃ¢ncia no convÃ­vio em sociedade, pois o nosso dia a dia , nossas vivÃªncias estÃ£o relacionadas ao meio e comunicaÃ§Ã£o Ã© atravÃ©s da comunicaÃ§Ã£o que estabelecemos nossas relaÃ§Ãµes com o outro por meio do cÃ³digo, que chamamos de lÃ­ngua Ã© por meio dele que transmitimos nosso pensamento e nos relacionamos na sociedade.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font1&quot;  &gt;A lÃ­ngua tambÃ©m modifica a forma como nos expressamos e vemos as coisas, como captamos e enviamos mensagens, como interpretamos o mundo e as pessoas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font1&quot;  &gt;Ã‰ por meio da linguagem que o homem comunica suas ideias e sentimentos, seja atravÃ©s da fala, da escrita. Portanto, a comunicaÃ§Ã£o Ã© a base para as relaÃ§Ãµes humanas sociais.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font1&quot;  &gt;Assim, a LÃ­ngua Portuguesa Ã© importante para o desenvolvimento das nossas prÃ¡ticas diÃ¡rias, tais como a leitura e a escrita, conhecimentos fundamentais para todas as pessoas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 O estudo da L\&apos;edngua Portuguesa possui grande import\&apos;e2ncia no conv\&apos;edvio em sociedade, pois o nosso dia a dia , nossas viv\&apos;eancias est\&apos;e3o relacionadas ao meio e comunica\&apos;e7\&apos;e3o \&apos;e9 atrav\&apos;e9s &#x0A;da comunica\&apos;e7\&apos;e3o que estabelecemos nossas rela\&apos;e7\&apos;f5es com o outro por meio do c\&apos;f3digo, que chamamos de l\&apos;edngua \&apos;e9 por meio dele que transmitimos nosso pensamento e nos relacionamos na sociedade.\par\par A l\&apos;edngua tamb\&apos;e9m modifica a forma &#x0A;como nos expressamos e vemos as coisas, como captamos e enviamos mensagens, como interpretamos o mundo e as pessoas.\par\par \&apos;c9 por meio da linguagem que o homem comunica suas ideias e sentimentos, seja atrav\&apos;e9s da fala, da escrita. Portanto, a comunica\&apos;e7\&apos;e3o &#x0A;\&apos;e9 a base para as rela\&apos;e7\&apos;f5es humanas sociais.\par\par Assim, a L\&apos;edngua Portuguesa \&apos;e9 importante para o desenvolvimento das nossas pr\&apos;e1ticas di\&apos;e1rias, tais como a leitura e a escrita, conhecimentos fundamentais para todas as pessoas.\par}&#x0A;</rtf>
+<raw>?O estudo da L�ngua Portuguesa possui grande import�ncia no conv�vio em sociedade, pois o nosso dia a dia , nossas viv�ncias est�o relacionadas ao meio e comunica��o � atrav�s da comunica��o que estabelecemos nossas rela��es com o outro por meio do c�digo, que chamamos de l�ngua � por meio dele que transmitimos nosso pensamento e nos relacionamos na sociedade.&#x0A;&#x0A;A l�ngua tamb�m modifica a forma como nos expressamos e vemos as coisas, como captamos e enviamos mensagens, como interpretamos o mundo e as pessoas.&#x0A;&#x0A;� por meio da linguagem que o homem comunica suas ideias e sentimentos, seja atrav�s da fala, da escrita. Portanto, a comunica��o � a base para as rela��es humanas sociais.&#x0A;&#x0A;Assim, a L�ngua Portuguesa � importante para o desenvolvimento das nossas pr�ticas di�rias, tais como a leitura e a escrita, conhecimentos fundamentais para todas as pessoas.</raw>
+<numoflines>18</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="245" parent="243" resource="248" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687187600</lastupdated>
+<possize>
+<point>
+<x>640</x>
+<y>0</y>
+</point>
+<size>
+<cx>387</cx>
+<cy>661</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="338" parent="155">
+<name>Página 3</name>
+<lastupdated>1687791832</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="344" parent="338" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687451162</lastupdated>
+<possize>
+<point>
+<x>32</x>
+<y>55</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text344Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text344Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text344Font1&quot;  &gt;ApresentaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text344Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Apresenta\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Apresenta��o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="343" parent="338" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687791832</lastupdated>
+<possize>
+<point>
+<x>29</x>
+<y>151</y>
+</point>
+<size>
+<cx>606</cx>
+<cy>412</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text343Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text343Font1&quot;  &gt;Mas o portuguÃªs nÃ£o se baseia apenas em ler e escrever, Ã© preciso ir alÃ©m, Ã© preciso compreender aquilo que se lÃª, Ã© preciso interpretar. Na hora em que desejamos passar uma mensagem, ou seja, comunicar-se, tambÃ©m devemos fazÃª-la de uma forma clara, forma que as outras pessoas entendam.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text343Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text343Font1&quot;  &gt;O desenvolvimento da LÃ­ngua Portuguesa, visa trabalhar a lÃ­ngua oral e escrita para que o aluno domine e reconheÃ§a a diversidade linguÃ­stica na sociedade em que vive e amplie sua competÃªncia discursiva atuando nos diversos contextos sociais com igualdade de condiÃ§Ã£o para o exercÃ­cio pleno da cidadania.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text343Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text343Font1&quot;  &gt;O objetivo Ã© apresentar aos alunos o estudo de estruturas elaboradas possibilitando a interiorizaÃ§Ã£o dos mecanismos reguladores da variante culta da lÃ­ngua, dessa forma pode-se ter o direito de usar essa variante na lÃ­ngua oral ou escrita.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text343Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text343Font1&quot;  &gt;Esta obra permite o estudo da gramÃ¡tica/texto com a atividades diversificadas a fim de desenvolver os conceitos estudados.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Mas o portugu\&apos;eas n\&apos;e3o se baseia apenas em ler e escrever, \&apos;e9 preciso ir al\&apos;e9m, \&apos;e9 preciso compreender aquilo que se l\&apos;ea, \&apos;e9 preciso interpretar. Na hora em que desejamos passar uma &#x0A;mensagem, ou seja, comunicar-se, tamb\&apos;e9m devemos faz\&apos;ea-la de uma forma clara, forma que as outras pessoas entendam.\par\par O desenvolvimento da L\&apos;edngua Portuguesa, visa trabalhar a l\&apos;edngua oral e escrita para que o aluno domine e reconhe\&apos;e7a &#x0A;a diversidade lingu\&apos;edstica na sociedade em que vive e amplie sua compet\&apos;eancia discursiva atuando nos diversos contextos sociais com igualdade de condi\&apos;e7\&apos;e3o para o exerc\&apos;edcio pleno da cidadania.\par\par O objetivo \&apos;e9 apresentar aos alunos o &#x0A;estudo de estruturas elaboradas possibilitando a interioriza\&apos;e7\&apos;e3o dos mecanismos reguladores da variante culta da l\&apos;edngua, dessa forma pode-se ter o direito de usar essa variante na l\&apos;edngua oral ou escrita.\par\par Esta obra permite o estudo da &#x0A;gram\&apos;e1tica/texto com a atividades diversificadas a fim de desenvolver os conceitos estudados.\par}&#x0A;</rtf>
+<raw>?Mas o portugu�s n�o se baseia apenas em ler e escrever, � preciso ir al�m, � preciso compreender aquilo que se l�, � preciso interpretar. Na hora em que desejamos passar uma mensagem, ou seja, comunicar-se, tamb�m devemos faz�-la de uma forma clara, forma que as outras pessoas entendam.&#x0A;&#x0A;O desenvolvimento da L�ngua Portuguesa, visa trabalhar a l�ngua oral e escrita para que o aluno domine e reconhe�a a diversidade lingu�stica na sociedade em que vive e amplie sua compet�ncia discursiva atuando nos diversos contextos sociais com igualdade de condi��o para o exerc�cio pleno da cidadania.&#x0A;&#x0A;O objetivo � apresentar aos alunos o estudo de estruturas elaboradas possibilitando a interioriza��o dos mecanismos reguladores da variante culta da l�ngua, dessa forma pode-se ter o direito de usar essa variante na l�ngua oral ou escrita.&#x0A;&#x0A;Esta obra permite o estudo da gram�tica/texto com a atividades diversificadas a fim de desenvolver os conceitos estudados.</raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="342" parent="338" resource="248" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687451162</lastupdated>
+<possize>
+<point>
+<x>640</x>
+<y>0</y>
+</point>
+<size>
+<cx>387</cx>
+<cy>661</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

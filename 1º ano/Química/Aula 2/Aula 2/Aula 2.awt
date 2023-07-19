@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>731</currentid>
+<currtheme></currtheme>
+<language>pt</language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="170" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="171" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="394" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="541" resourcetype="image">
+<name>Imagem002.bmp</name>
+<relativelink>images\Imagem002.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="600" resourcetype="image">
+<name>Imagem1.png</name>
+<relativelink>images\Imagem1.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="725" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="726" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="78">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>202812880</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 2</name>
+<lastupdated>1687201472</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="77" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687201368</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687201368</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687201368</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="78" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687201368</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687201368</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687201368</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="69" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687201368</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="70" parent="69" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687201368</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="69" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687201368</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="62" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687201368</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="63" parent="62" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687201368</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="64" parent="62" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687201368</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="54" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687201368</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="55" parent="54" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687201368</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="56" parent="54" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687201368</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="54" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687201368</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="54">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689695506</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="710" parent="40">
+<name>Página 1</name>
+<lastupdated>1689695507</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="711" parent="710">
+<name>Grupo_1</name>
+<lastupdated>1689695507</lastupdated>
+<image id="713" parent="711" resource="725" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689695507</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="715" parent="711" resource="726" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689695507</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="716" parent="711" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689695510</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text716Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text716Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text716Font1&quot;  &gt;Aula 2&lt;/span &gt;&lt;span class=&quot;text716Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 2\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 2</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="718" parent="711" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689695507</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="720" parent="711" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689695507</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="722" parent="711" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689695507</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="724" parent="711" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689695507</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="155" parent="40">
+<name>Página 2</name>
+<lastupdated>1689695506</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="267" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687201558</lastupdated>
+<possize>
+<point>
+<x>538</x>
+<y>134</y>
+</point>
+<size>
+<cx>437</cx>
+<cy>482</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text267Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text267Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text267Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text267Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text267Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text267ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text267Font1&quot;  &gt;Corpo: Ã© uma amostra ou porÃ§Ã£o limitada da matÃ©ria. Por exemplo, um pedaÃ§o de madeira.&lt;/span &gt;&lt;span class=&quot;text267Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text267Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text267Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text267ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text267Font1&quot;  &gt;Objeto: Ã© um corpo que sofreu alteraÃ§Ãµes e foi produzido para a utilizaÃ§Ã£o do ser humano. Por exemplo, a utilizaÃ§Ã£o da madeira para fazer um banco.&lt;/span &gt;&lt;span class=&quot;text267Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text267Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text267Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text267ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text267Font1&quot;  &gt;Sistema: Ã© um corpo submetido a uma observaÃ§Ã£o. Por exemplo, ao fazer um molho de&lt;/span &gt;&lt;span class=&quot;text267Font2&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text267Font1&quot;  &gt;macarrÃ£o em uma panela, a panela passa ser um sistema em que a mistura do molho estÃ¡ sendo realizada em seu interior.&lt;/span &gt;&lt;span class=&quot;text267Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text267Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text267Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text267ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text267Font1&quot;  &gt;TransformaÃ§Ã£o da matÃ©ria: qualquer processo (ou conjunto de processos) pelo qual se modificam as propriedades de determinado material. As transformaÃ§Ãµes da matÃ©ria sÃ£o tambÃ©m&lt;/span &gt;&lt;span class=&quot;text267Font2&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text267Font1&quot;  &gt;denominadas fenÃ´menos, que podem ser fÃ­sicos (nÃ£o altera a estrutura ou a constituiÃ§Ã£o da matÃ©ria) ou quÃ­micos (alteram a estrutura ou a constituiÃ§Ã£o da matÃ©ria).&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}{\f3 \fswiss \fcharset0 Arial;}{\f4 \fnil \fcharset2 Wingdings;}{\f5 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\pard\s0{\*\pn\pnlvlblt\pnhang\pnf4{\pntxtb \&apos;d8}}\fi-360\li360\qj\hich\f2\loch\f2 Corpo: \&apos;e9 uma amostra ou por\&apos;e7\&apos;e3o limitada da mat\&apos;e9ria. Por exemplo, um peda\&apos;e7o de madeira.\lang1046\hich\f3\loch\f3\par\pard\s0\qj\lang1046\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf4&#x0A;{\pntxtb \&apos;d8}}\fi-360\li360\qj\hich\f1\loch\f1\hich\f2\loch\f2 Objeto: \&apos;e9 um corpo que sofreu altera\&apos;e7\&apos;f5es e foi produzido para a utiliza\&apos;e7\&apos;e3o do ser humano. Por exemplo, a utiliza\&apos;e7\&apos;e3o da madeira para fazer um banco.\lang1046\hich\f3\loch\f3\par\pard\s0\qj\lang1046\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf4&#x0A;{\pntxtb \&apos;d8}}\fi-360\li360\qj\hich\f1\loch\f1\hich\f2\loch\f2 Sistema: \&apos;e9 um corpo submetido a uma observa\&apos;e7\&apos;e3o. Por exemplo, ao fazer um molho de\lang1046\hich\f3\loch\f3  \lang1046\hich\f2\loch\f2 macarr\&apos;e3o em uma panela, a panela passa ser &#x0A;um sistema em que a mistura do molho est\&apos;e1 sendo realizada em seu interior.\lang1046\hich\f3\loch\f3\par\pard\s0\qj\lang1046\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf4{\pntxtb \&apos;d8}}\fi-360\li360\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;Transforma\&apos;e7\&apos;e3o da mat\&apos;e9ria: qualquer processo (ou conjunto de processos) pelo qual se modificam as propriedades de determinado material. As transforma\&apos;e7\&apos;f5es da mat\&apos;e9ria s\&apos;e3o tamb\&apos;e9m\lang1046\hich\f3\loch\f3  \lang1046\hich\f2\loch\f2 &#x0A;denominadas fen\&apos;f4menos, que podem ser f\&apos;edsicos (n\&apos;e3o altera a estrutura ou a constitui\&apos;e7\&apos;e3o da mat\&apos;e9ria) ou qu\&apos;edmicos (alteram a estrutura ou a constitui\&apos;e7\&apos;e3o da mat\&apos;e9ria).\par}&#x0A;</rtf>
+<raw>?Corpo: � uma amostra ou por��o limitada da mat�ria. Por exemplo, um peda�o de madeira.&#x0A;&#x0A;Objeto: � um corpo que sofreu altera��es e foi produzido para a utiliza��o do ser humano. Por exemplo, a utiliza��o da madeira para fazer um banco.&#x0A;&#x0A;Sistema: � um corpo submetido a uma observa��o. Por exemplo, ao fazer um molho de macarr�o em uma panela, a panela passa ser um sistema em que a mistura do molho est� sendo realizada em seu interior.&#x0A;&#x0A;Transforma��o da mat�ria: qualquer processo (ou conjunto de processos) pelo qual se modificam as propriedades de determinado material. As transforma��es da mat�ria s�o tamb�m denominadas fen�menos, que podem ser f�sicos (n�o altera a estrutura ou a constitui��o da mat�ria) ou qu�micos (alteram a estrutura ou a constitui��o da mat�ria).</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text267ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>22</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="190" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687201477</lastupdated>
+<possize>
+<point>
+<x>46</x>
+<y>134</y>
+</point>
+<size>
+<cx>437</cx>
+<cy>493</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text190Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text190Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text190Font1&quot;  &gt;MatÃ©ria, energia e suas &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text190Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text190Font1&quot;  &gt;transformaÃ§Ãµes&lt;/span &gt;&lt;span class=&quot;text190Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text190Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text190Font2&quot;  &gt;Ao iniciar os estudos sobre a QuÃ­mica, Ã© necessÃ¡rio entender a diferenÃ§a e subdivisÃµes sobre a matÃ©ria, energia e suas transformaÃ§Ãµes que ocorrem no Ã¢mbito macroscÃ³pica (objetos grandes e visÃ­veis) e microscÃ³pica (mundo invisÃ­vel). Portanto, Ã© necessÃ¡rio que esses e outros conceitos fundamentais para o estudo de QuÃ­mica sejam analisados. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text190Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text190Font1&quot;  &gt;MatÃ©ria&lt;/span &gt;&lt;span class=&quot;text190Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text190Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text190Font2&quot;  &gt;No estudo da quÃ­mica, matÃ©ria estÃ¡ relacionada a tudo que ocupa lugar no espaÃ§o e apresenta volume e massa. Assim, esse conceito nos ajuda a ver que o estudo de QuÃ­mica engloba todo o mundo material, inclusive nÃ³s mesmos, que somos constituÃ­dos de matÃ©ria.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Mat\&apos;e9ria, energia e suas \par\par transforma\&apos;e7\&apos;f5es\fs28\b0\par\par Ao iniciar os estudos sobre a Qu\&apos;edmica, \&apos;e9 necess\&apos;e1rio entender a diferen\&apos;e7a e subdivis\&apos;f5es sobre a mat\&apos;e9ria, energia e suas transforma\&apos;e7\&apos;f5es &#x0A;que ocorrem no \&apos;e2mbito macrosc\&apos;f3pica (objetos grandes e vis\&apos;edveis) e microsc\&apos;f3pica (mundo invis\&apos;edvel). Portanto, \&apos;e9 necess\&apos;e1rio que esses e outros conceitos fundamentais para o estudo de Qu\&apos;edmica sejam analisados. \par\par\fs36\b Mat\&apos;e9ria\fs28\b0\par\par &#x0A;No estudo da qu\&apos;edmica, mat\&apos;e9ria est\&apos;e1 relacionada a tudo que ocupa lugar no espa\&apos;e7o e apresenta volume e massa. Assim, esse conceito nos ajuda a ver que o estudo de Qu\&apos;edmica engloba todo o mundo material, inclusive n\&apos;f3s mesmos, que somos constitu\&apos;eddos &#x0A;de mat\&apos;e9ria.\par}&#x0A;</rtf>
+<raw>?Mat�ria, energia e suas &#x0A;&#x0A;transforma��es&#x0A;&#x0A;Ao iniciar os estudos sobre a Qu�mica, � necess�rio entender a diferen�a e subdivis�es sobre a mat�ria, energia e suas transforma��es que ocorrem no �mbito macrosc�pica (objetos grandes e vis�veis) e microsc�pica (mundo invis�vel). Portanto, � necess�rio que esses e outros conceitos fundamentais para o estudo de Qu�mica sejam analisados. &#x0A;&#x0A;Mat�ria&#x0A;&#x0A;No estudo da qu�mica, mat�ria est� relacionada a tudo que ocupa lugar no espa�o e apresenta volume e massa. Assim, esse conceito nos ajuda a ver que o estudo de Qu�mica engloba todo o mundo material, inclusive n�s mesmos, que somos constitu�dos de mat�ria.</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="158" parent="155">
+<name>Grupo_1</name>
+<lastupdated>1687201385</lastupdated>
+<shape id="160" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687201385</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="162" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687201385</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="164" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687201385</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="165" parent="158" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687201401</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text165Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text165Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text165Font1&quot;  &gt;Conceitos bÃ¡sicos da QuÃ­mica&lt;/span &gt;&lt;span class=&quot;text165Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Conceitos b\&apos;e1sicos da Qu\&apos;edmica\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Conceitos b�sicos da Qu�mica</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="167" parent="158" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687201385</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="169" parent="158" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687201385</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="317" parent="40">
+<name>Página 3</name>
+<lastupdated>1687201773</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="415" parent="317" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687201833</lastupdated>
+<possize>
+<point>
+<x>537</x>
+<y>359</y>
+</point>
+<size>
+<cx>420</cx>
+<cy>278</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text415Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text415Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text415Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text415Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text415Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text415Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text415Font1&quot;  &gt;Volume&lt;/span &gt;&lt;span class=&quot;text415Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text415Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text415Font2&quot;  &gt;Ã‰ a grandeza que caracteriza a quantidade de espaÃ§o que determinado copo ocupa. A unidade utilizada para medir volume no Sistema Internacional Ã© o metro cÃºbico (m3).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text415Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text415Font3&quot;  &gt;Medindo o volume&lt;/span &gt;&lt;span class=&quot;text415Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text415Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text415Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text415ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text415Font3&quot;  &gt;SÃ³lido de forma regular:&lt;/span &gt;&lt;span class=&quot;text415Font2&quot;  &gt; Formas definidas de um objeto onde podemos utilizar cÃ¡lculos definidos para encontrar seu volume.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Volume\hich\f2\loch\f2\fs28\b0\par\par \&apos;c9 a grandeza que caracteriza a quantidade de espa\&apos;e7o que determinado copo ocupa. A unidade utilizada para medir volume no Sistema Internacional \&apos;e9 o metro c\&apos;fabico (m3).\par\par\b &#x0A;Medindo o volume\b0\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\b S\&apos;f3lido de forma regular:\b0  Formas definidas de um objeto onde podemos utilizar c\&apos;e1lculos definidos para encontrar &#x0A;seu volume.\par}&#x0A;</rtf>
+<raw>?Volume&#x0A;? a grandeza que caracteriza a quantidade de espa?o que determinado copo ocupa. A unidade utilizada para medir volume no Sistema Internacional ? o metro c?bico (m3).&#x0A;Medindo o volume&#x0A;S?lido de forma regular: Formas definidas de um objeto onde podemos utilizar c?lculos definidos para encontrar seu volume.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text415ArrowBulletFont10.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>12</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="395" parent="317" resource="394" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687201753</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>113</y>
+</point>
+<size>
+<cx>293</cx>
+<cy>224</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="331" parent="317" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687201641</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>129</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>392</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text331Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text331Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text331Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text331Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text331Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text331Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text331Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text331ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text331Font1&quot;  &gt;Energia: Ã© de difÃ­cil definiÃ§Ã£o, pois nÃ£o Ã© algo material, assim sendo classificada como uma propriedade de um sistema que lhe permite realizar trabalho. Por exemplo, a energia quÃ­mica dentro dos alimentos Ã© transformada no nosso organismo em energia que gera o&lt;/span &gt;&lt;span class=&quot;text331Font2&quot;  &gt; trabalho que nosso corpo realiza nas atividades diÃ¡rias e tambÃ©m o calor que aquece o nosso corpo. sÃ£o simplesmente Ã© de difÃ­cil definiÃ§Ã£o, pois nÃ£o Ã© algo material.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text331Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text331Font3&quot;  &gt;Massa &lt;/span &gt;&lt;span class=&quot;text331Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text331Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text331Font2&quot;  &gt;Ã‰ a quantidade de matÃ©ria que um corpo possui &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text331Font2&quot;  &gt;sendo uma grandeza fundamental no qual a sua &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text331Font2&quot;  &gt;unidade no sistema internacional de medida Ã© o &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text331Font2&quot;  &gt;quilograma (Kg)&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \froman \fcharset2 Symbol;}{\f4 \fnil \fcharset2 Wingdings;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf4{\pntxtb \&apos;d8}}\fi-360\li360\qj\cf2\fs28 Energia: \&apos;e9 de dif\&apos;edcil defini\&apos;e7\&apos;e3o, pois n\&apos;e3o \&apos;e9 algo material, assim sendo classificada como uma propriedade de um sistema que lhe permite realizar &#x0A;trabalho. Por exemplo, a energia qu\&apos;edmica dentro dos alimentos \&apos;e9 transformada no nosso organismo em energia que gera o\lang1046\hich\f2\loch\f2  trabalho que nosso corpo realiza nas atividades di\&apos;e1rias e tamb\&apos;e9m o calor que aquece o nosso corpo. &#x0A;s\&apos;e3o simplesmente \&apos;e9 de dif\&apos;edcil defini\&apos;e7\&apos;e3o, pois n\&apos;e3o \&apos;e9 algo material.\par\pard\s0\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28\par\fs36\b Massa \fs28\b0\par\par \&apos;c9 a quantidade de mat\&apos;e9ria que um corpo possui \par sendo uma &#x0A;grandeza fundamental no qual a sua \par unidade no sistema internacional de medida \&apos;e9 o \par quilograma (Kg)\par}&#x0A;</rtf>
+<raw>?Energia: ? de dif?cil defini??o, pois n?o ? algo material, assim sendo classificada como uma propriedade de um sistema que lhe permite realizar trabalho. Por exemplo, a energia qu?mica dentro dos alimentos ? transformada no nosso organismo em energia que gera o trabalho que nosso corpo realiza nas atividades di?rias e tamb?m o calor que aquece o nosso corpo. s?o simplesmente ? de dif?cil defini??o, pois n?o ? algo material.&#x0A;Massa &#x0A;? a quantidade de mat?ria que um corpo possui &#x0A;sendo uma grandeza fundamental no qual a sua &#x0A;unidade no sistema internacional de medida ? o &#x0A;quilograma (Kg)</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text331ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>17</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="319" parent="317">
+<name>Grupo_1</name>
+<lastupdated>1687201566</lastupdated>
+<shape id="321" parent="319" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687201566</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="323" parent="319" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687201566</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="325" parent="319" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687201566</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="326" parent="319" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687201566</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text326Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text326Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text326Font1&quot;  &gt;Conceitos bÃ¡sicos da QuÃ­mica&lt;/span &gt;&lt;span class=&quot;text326Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Conceitos b\&apos;e1sicos da Qu\&apos;edmica\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Conceitos b?sicos da Qu?mica</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="328" parent="319" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687201566</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="330" parent="319" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687201566</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="490" parent="40">
+<name>Página 4</name>
+<lastupdated>1687202025</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<shape id="597" parent="490" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687202047</lastupdated>
+<possize>
+<point>
+<x>532</x>
+<y>131</y>
+</point>
+<size>
+<cx>443</cx>
+<cy>144</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>20</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="01D1DD" />
+</shape>
+<image id="599" parent="490" resource="600" ontop="false" fixed="false" proportional="true">
+<name>Imagem1</name>
+<lastupdated>1687202051</lastupdated>
+<possize>
+<point>
+<x>914</x>
+<y>251</y>
+</point>
+<size>
+<cx>61</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="601" parent="490" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687202057</lastupdated>
+<possize>
+<point>
+<x>556</x>
+<y>137</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>133</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text601Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text601Font1&quot;  &gt;Algumas unidades de volume sÃ£o relacionadas com medidas de capacidade. Por exemplo&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text601Font1&quot;  &gt;1 m3 (lÃª-se um metro cÃºbico) = 1000 litros&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text601Font1&quot;  &gt;1 dm3 (lÃª-se um decÃ­metro cÃºbico) = 1 litro (L)&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text601Font1&quot;  &gt;1 cm3 (lÃª-se um centÃ­metro cÃºbico) = 1 militro (mL)&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Algumas unidades de volume s\&apos;e3o relacionadas com medidas de capacidade. Por exemplo\par 1 m3 (l\&apos;ea-se um metro c\&apos;fabico) = 1000 litros\par 1 dm3 (l\&apos;ea-se um dec\&apos;edmetro c\&apos;fabico) = 1 litro (L)\par 1 cm3 (l\&apos;ea-se &#x0A;um cent\&apos;edmetro c\&apos;fabico) = 1 militro (mL)\par}&#x0A;</rtf>
+<raw>?Algumas unidades de volume s�o relacionadas com medidas de capacidade. Por exemplo&#x0A;1 m3 (l�-se um metro c�bico) = 1000 litros&#x0A;1 dm3 (l�-se um dec�metro c�bico) = 1 litro (L)&#x0A;1 cm3 (l�-se um cent�metro c�bico) = 1 militro (mL)</raw>
+<numoflines>6</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="595" parent="490" ontop="false" fixed="false" proportional="false">
+<name>Retângulo 2</name>
+<lastupdated>1687202057</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>164</y>
+</point>
+<size>
+<cx>12</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="29B9A2" />
+</shape>
+<image id="542" parent="490" resource="541" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687201872</lastupdated>
+<possize>
+<point>
+<x>147</x>
+<y>449</y>
+</point>
+<size>
+<cx>237</cx>
+<cy>193</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="504" parent="490" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687201851</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>130</y>
+</point>
+<size>
+<cx>428</cx>
+<cy>341</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text504Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text504Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text504Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text504Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text504Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text504Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text504Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text504ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text504Font1&quot;  &gt;SÃ³lido de forma irregular:&lt;/span &gt;&lt;span class=&quot;text504Font2&quot;  &gt; Para determinar seu volume, mergulhamos o objeto em um recipiente graduado (apresenta marcaÃ§Ã£o de volume) contendo Ã¡gua e medimos o volume deslocado da Ã¡gua.&lt;/span &gt;&lt;span class=&quot;text504Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text504Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text504Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text504ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text504Font1&quot;  &gt;LÃ­quido:&lt;/span &gt;&lt;span class=&quot;text504Font2&quot;  &gt; Para medir o volume de um lÃ­quido utiliza-se recipientes graduados, como, por exemplo, uma proveta.&lt;/span &gt;&lt;span class=&quot;text504Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text504Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text504Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text504ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text504Font1&quot;  &gt;Gases:&lt;/span &gt;&lt;span class=&quot;text504Font2&quot;  &gt; Utilizamos um recipiente graduado invertido e cheio de Ã¡gua para medirmos o volume de um gÃ¡s. Quando colocamos o gÃ¡s no recipiente o volume deslocado Ã© o volume real do gÃ¡s.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\cf2\fs28\b S\&apos;f3lido de forma irregular:\b0  Para determinar seu volume, mergulhamos o objeto em um recipiente graduado (apresenta marca\&apos;e7\&apos;e3o de volume) contendo &#x0A;\&apos;e1gua e medimos o volume deslocado da \&apos;e1gua.\hich\f2\loch\f2\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28\b L\&apos;edquido:\b0  Para medir o volume de um l\&apos;edquido &#x0A;utiliza-se recipientes graduados, como, por exemplo, uma proveta.\hich\f2\loch\f2\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28\b Gases:\b0  Utilizamos um recipiente &#x0A;graduado invertido e cheio de \&apos;e1gua para medirmos o volume de um g\&apos;e1s. Quando colocamos o g\&apos;e1s no recipiente o volume deslocado \&apos;e9 o volume real do g\&apos;e1s.\par}&#x0A;</rtf>
+<raw>?S�lido de forma irregular: Para determinar seu volume, mergulhamos o objeto em um recipiente graduado (apresenta marca��o de volume) contendo �gua e medimos o volume deslocado da �gua.&#x0A;&#x0A;L�quido: Para medir o volume de um l�quido utiliza-se recipientes graduados, como, por exemplo, uma proveta.&#x0A;&#x0A;Gases: Utilizamos um recipiente graduado invertido e cheio de �gua para medirmos o volume de um g�s. Quando colocamos o g�s no recipiente o volume deslocado � o volume real do g�s.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text504ArrowBulletFont10.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>15</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="492" parent="490">
+<name>Grupo_1</name>
+<lastupdated>1687201777</lastupdated>
+<shape id="494" parent="492" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687201777</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="496" parent="492" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687201777</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="498" parent="492" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687201777</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="499" parent="492" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687201777</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text499Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text499Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text499Font1&quot;  &gt;Conceitos bÃ¡sicos da QuÃ­mica&lt;/span &gt;&lt;span class=&quot;text499Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Conceitos b\&apos;e1sicos da Qu\&apos;edmica\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Conceitos b�sicos da Qu�mica</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="501" parent="492" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687201777</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="503" parent="492" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687201777</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

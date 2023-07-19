@@ -1,0 +1,1536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>684</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="169" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="170" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="227" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="393" resourcetype="image">
+<name>Imagem1.png</name>
+<relativelink>images\Imagem1.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="523" resourcetype="image">
+<name>Imagem002.bmp</name>
+<relativelink>images\Imagem002.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="678" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="679" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="78">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 7</name>
+<lastupdated>1687973603</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="77" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687973617</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687973617</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687973617</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="78" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687973617</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687973617</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687973617</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="69" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687973617</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="70" parent="69" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687973617</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="69" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687973617</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="62" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687973617</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="63" parent="62" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687973617</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="64" parent="62" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687973617</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="54" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687973617</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="55" parent="54" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687973617</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="56" parent="54" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687973617</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="54" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687973617</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="54">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689701686</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="663" parent="40">
+<name>Página 1</name>
+<lastupdated>1689701688</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="664" parent="663">
+<name>Grupo_1</name>
+<lastupdated>1689701688</lastupdated>
+<image id="666" parent="664" resource="678" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689701688</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="668" parent="664" resource="679" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689701688</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="669" parent="664" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689701691</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text669Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text669Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text669Font1&quot;  &gt;Aula 7&lt;/span &gt;&lt;span class=&quot;text669Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 7\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 7</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="671" parent="664" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689701688</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="673" parent="664" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689701688</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="675" parent="664" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689701688</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="677" parent="664" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689701688</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="154" parent="40">
+<name>Página 2</name>
+<lastupdated>1689701686</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="268" parent="154" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687973791</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>370</y>
+</point>
+<size>
+<cx>444</cx>
+<cy>170</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text268Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text268Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text268Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text268Font1&quot;  &gt;Revolta de Beckman â€“ MaranhÃ£o â€“ (1684)&lt;/span &gt;&lt;span class=&quot;text268Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text268Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text268Font4&quot;  &gt;Liderada pelos irm&lt;/span &gt;&lt;span class=&quot;text268Font5&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text268Font4&quot;  &gt;os Manuel e Tom&lt;/span &gt;&lt;span class=&quot;text268Font5&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text268Font4&quot;  &gt;s Beckman, caracterizou as diverg&lt;/span &gt;&lt;span class=&quot;text268Font5&quot;  &gt;Ãª&lt;/span &gt;&lt;span class=&quot;text268Font4&quot;  &gt;ncias entre propriet&lt;/span &gt;&lt;span class=&quot;text268Font5&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text268Font4&quot;  &gt;rios de terras, a Companhia de Com&lt;/span &gt;&lt;span class=&quot;text268Font5&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text268Font4&quot;  &gt;rcio rec&lt;/span &gt;&lt;span class=&quot;text268Font5&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text268Font4&quot;  &gt;m-criada e a Miss&lt;/span &gt;&lt;span class=&quot;text268Font5&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text268Font4&quot;  &gt;o jesu&lt;/span &gt;&lt;span class=&quot;text268Font5&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text268Font4&quot;  &gt;ta na regi&lt;/span &gt;&lt;span class=&quot;text268Font5&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text268Font4&quot;  &gt;o. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Revolta de Beckman \u8211 \&apos;96 Maranh\u227 \&apos;e3o \u8211 \&apos;96 (1684)\lang1046\hich\f2\loch\f2\fs28\b0\par\lang1046\hich\f1\loch\f1\par Liderada pelos irm\u227 \&apos;e3os Manuel e Tom\u225 \&apos;e1s Beckman, caracterizou as diverg\u234 &#x0A;\&apos;eancias entre propriet\u225 \&apos;e1rios de terras, a Companhia de Com\u233 \&apos;e9rcio rec\u233 \&apos;e9m-criada e a Miss\u227 \&apos;e3o jesu\u237 \&apos;edta na regi\u227 \&apos;e3o. \par}&#x0A;</rtf>
+<raw>?Revolta de Beckman � Maranh�o � (1684)&#x0A;&#x0A;Liderada pelos irm�os Manuel e Tom�s Beckman, caracterizou as diverg�ncias entre propriet�rios de terras, a Companhia de Com�rcio rec�m-criada e a Miss�o jesu�ta na regi�o. </raw>
+<numoflines>7</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="248" parent="154" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687973765</lastupdated>
+<possize>
+<point>
+<x>561</x>
+<y>319</y>
+</point>
+<size>
+<cx>389</cx>
+<cy>26</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text248Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text248Font3 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text248Font1&quot;  &gt;Mapa ilustrando a localizaÃ§Ã£o de algumas das revoltas&lt;/span &gt;&lt;span class=&quot;text248Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs22\qc\hich\f2\loch\f2\b Mapa ilustrando a localiza\u231 \&apos;e7\u227 \&apos;e3o de algumas das revoltas\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Mapa ilustrando a localiza��o de algumas das revoltas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="228" parent="154" resource="227" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687973765</lastupdated>
+<possize>
+<point>
+<x>594</x>
+<y>83</y>
+</point>
+<size>
+<cx>322</cx>
+<cy>221</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="179" parent="154" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687973730</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>121</y>
+</point>
+<size>
+<cx>454</cx>
+<cy>530</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text179Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text179Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text179Font4 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font1&quot;  &gt;Ocorridas nos sÃ©culos XVII e XVIII, as revoltas nativistas tinham um carÃ¡ter local, nÃ£o desejavam a separaÃ§Ã£o do Brasil de Portugal. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font1&quot;  &gt;Os problemas econÃ´micos causados pela UniÃ£o IbÃ©rica aprofundaram o endividamento com a Inglaterra. Dessa forma, Portugal precisou intensificar ainda mais a exploraÃ§Ã£o sobre a colÃ´nia. Para tal intensificaÃ§Ã£o, aumentou a tributaÃ§Ã£o e a fiscalizaÃ§Ã£o sobre o Brasil. &lt;/span &gt;&lt;span class=&quot;text179Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font1&quot;  &gt;Diante do quadro de intensificaÃ§Ã£o metropolitana, surgiram movimentos locais (nativistas) contrÃ¡rios Ã s determinaÃ§Ãµes portuguesas, mas sem esboÃ§ar qualquer sentimento de separaÃ§Ã£o da metrÃ³pole. &lt;/span &gt;&lt;span class=&quot;text179Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font4&quot;  &gt;Exemplos desse tipo de movimento&lt;/span &gt;&lt;span class=&quot;text179Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font1&quot;  &gt;AclamaÃ§Ã£o de Amador Bueno (1641), Revolta da CachaÃ§a (1660-1661), ConjuraÃ§Ã£o de &quot;Nosso Pai&quot; &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font1&quot;  &gt;(1666), Revolta dos Beckman (1684-1685), Guerra dos Emboabas (1708-1709), Revolta do Sal (1710), Guerra dos Mascates (1710-1711), Motins do Maneta (1711), Revolta de Filipe dos Santos (1720).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Ocorridas nos s\u233 \&apos;e9culos XVII e XVIII, as revoltas nativistas tinham um car\u225 \&apos;e1ter local, n\u227 \&apos;e3o desejavam a separa\u231 \&apos;e7\u227 \&apos;e3o do Brasil de Portugal. \par\hich\f2\loch\f2\par\hich\f1\loch\f1 &#x0A;Os problemas econ\u244 \&apos;f4micos causados pela Uni\u227 \&apos;e3o Ib\u233 \&apos;e9rica aprofundaram o endividamento com a Inglaterra. Dessa forma, Portugal precisou intensificar ainda mais a explora\u231 \&apos;e7\u227 \&apos;e3o sobre a col\u244 \&apos;f4nia. Para tal intensifica\u231 &#x0A;\&apos;e7\u227 \&apos;e3o, aumentou a tributa\u231 \&apos;e7\u227 \&apos;e3o e a fiscaliza\u231 \&apos;e7\u227 \&apos;e3o sobre o Brasil. \hich\f2\loch\f2\par\hich\f1\loch\f1\par Diante do quadro de intensifica\u231 \&apos;e7\u227 \&apos;e3o metropolitana, surgiram movimentos locais (nativistas) &#x0A;contr\u225 \&apos;e1rios \u224 \&apos;e0s determina\u231 \&apos;e7\u245 \&apos;f5es portuguesas, mas sem esbo\u231 \&apos;e7ar qualquer sentimento de separa\u231 \&apos;e7\u227 \&apos;e3o da metr\u243 \&apos;f3pole. \hich\f2\loch\f2\par\hich\f1\loch\f1\par\fs36\b Exemplos desse tipo de movimento\hich\f2\loch\f2\fs28\b0\par\hich\f1\loch\f1\par &#x0A;Aclama\u231 \&apos;e7\u227 \&apos;e3o de Amador Bueno (1641), Revolta da Cacha\u231 \&apos;e7a (1660-1661), Conjura\u231 \&apos;e7\u227 \&apos;e3o de &quot;Nosso Pai&quot; \par (1666), Revolta dos Beckman (1684-1685), Guerra dos Emboabas (1708-1709), Revolta do Sal (1710), Guerra dos Mascates &#x0A;(1710-1711), Motins do Maneta (1711), Revolta de Filipe dos Santos (1720).\par}&#x0A;</rtf>
+<raw>?Ocorridas nos s�culos XVII e XVIII, as revoltas nativistas tinham um car�ter local, n�o desejavam a separa��o do Brasil de Portugal. &#x0A;&#x0A;Os problemas econ�micos causados pela Uni�o Ib�rica aprofundaram o endividamento com a Inglaterra. Dessa forma, Portugal precisou intensificar ainda mais a explora��o sobre a col�nia. Para tal intensifica��o, aumentou a tributa��o e a fiscaliza��o sobre o Brasil. &#x0A;&#x0A;Diante do quadro de intensifica��o metropolitana, surgiram movimentos locais (nativistas) contr�rios �s determina��es portuguesas, mas sem esbo�ar qualquer sentimento de separa��o da metr�pole. &#x0A;&#x0A;Exemplos desse tipo de movimento&#x0A;&#x0A;Aclama��o de Amador Bueno (1641), Revolta da Cacha�a (1660-1661), Conjura��o de &quot;Nosso Pai&quot; &#x0A;(1666), Revolta dos Beckman (1684-1685), Guerra dos Emboabas (1708-1709), Revolta do Sal (1710), Guerra dos Mascates (1710-1711), Motins do Maneta (1711), Revolta de Filipe dos Santos (1720).</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="157" parent="154">
+<name>Grupo_1</name>
+<lastupdated>1687973642</lastupdated>
+<shape id="159" parent="157" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687973642</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="161" parent="157" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687973642</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="163" parent="157" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687973642</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="164" parent="157" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687973650</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text164Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text164Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text164Font1&quot;  &gt;Revoltas Nativistas&lt;/span &gt;&lt;span class=&quot;text164Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Revoltas Nativistas\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Revoltas Nativistas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="166" parent="157" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687973642</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="168" parent="157" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687973642</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="299" parent="40">
+<name>Página 3</name>
+<lastupdated>1687973920</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="341" parent="299" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687973915</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>131</y>
+</point>
+<size>
+<cx>456</cx>
+<cy>457</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text341Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text341Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text341Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text341Font1&quot;  &gt;Guerra dos emboabas â€“ Minas Gerais (1707 â€“ 1709)&lt;/span &gt;&lt;span class=&quot;text341Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text341Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text341Font3&quot;  &gt;Os paulistas foram os respons&lt;/span &gt;&lt;span class=&quot;text341Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text341Font3&quot;  &gt;veis pelas descobertas de ouro na regi&lt;/span &gt;&lt;span class=&quot;text341Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text341Font3&quot;  &gt;o do sudeste brasileiro. Por serem os descobridores, acreditavam ter prioridade na explora&lt;/span &gt;&lt;span class=&quot;text341Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text341Font3&quot;  &gt;o, algo n&lt;/span &gt;&lt;span class=&quot;text341Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text341Font3&quot;  &gt;o concedido pelos portugueses. Os paulistas, liderados pelo bandeirante Borba Gato, lutaram contra os forasteiros, a quem apelidavam de emboabas. Esses eram liderados por Nunes Viana e disputavam riqueza mineral da regi&lt;/span &gt;&lt;span class=&quot;text341Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text341Font3&quot;  &gt;o das Minas Gerais. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text341Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text341Font3&quot;  &gt;A for&lt;/span &gt;&lt;span class=&quot;text341Font4&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text341Font3&quot;  &gt;a metropolitana derrotou os paulistas, gerando a perman&lt;/span &gt;&lt;span class=&quot;text341Font4&quot;  &gt;Ãª&lt;/span &gt;&lt;span class=&quot;text341Font3&quot;  &gt;ncia dos que aceitavam as regras impostas pela Coroa ou a migra&lt;/span &gt;&lt;span class=&quot;text341Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text341Font3&quot;  &gt;o desses bandeirantes insatisfeitos para outras regi&lt;/span &gt;&lt;span class=&quot;text341Font4&quot;  &gt;Ãµ&lt;/span &gt;&lt;span class=&quot;text341Font3&quot;  &gt;es, consequentemente, os paulistas migraram para as regi&lt;/span &gt;&lt;span class=&quot;text341Font4&quot;  &gt;Ãµ&lt;/span &gt;&lt;span class=&quot;text341Font3&quot;  &gt;es de Goi&lt;/span &gt;&lt;span class=&quot;text341Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text341Font3&quot;  &gt;s e Mato Grosso.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Guerra dos emboabas \u8211 \&apos;96 Minas Gerais (1707 \u8211 \&apos;96 1709)\hich\f2\loch\f2\fs28\b0\par\hich\f1\loch\f1\par Os paulistas foram os respons\u225 \&apos;e1veis pelas\hich\f2\loch\f2  \hich\f1\loch\f1 descobertas de &#x0A;ouro na regi\u227 \&apos;e3o do sudeste brasileiro. Por serem os descobridores, acreditavam ter prioridade na explora\u231 \&apos;e7\u227 \&apos;e3o, algo n\u227 \&apos;e3o concedido pelos portugueses. Os paulistas, liderados pelo bandeirante Borba Gato, lutaram contra os &#x0A;forasteiros, a quem apelidavam de emboabas. Esses eram liderados por Nunes Viana e disputavam riqueza mineral da regi\u227 \&apos;e3o das Minas Gerais. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par A for\u231 \&apos;e7a metropolitana derrotou os paulistas, &#x0A;gerando a perman\u234 \&apos;eancia dos que aceitavam as regras impostas pela Coroa ou a migra\u231 \&apos;e7\u227 \&apos;e3o desses bandeirantes insatisfeitos para outras regi\u245 \&apos;f5es, consequentemente, os paulistas migraram para as regi\u245 \&apos;f5es de Goi\u225 &#x0A;\&apos;e1s e Mato Grosso.\par}&#x0A;</rtf>
+<raw>?Guerra dos emboabas ? Minas Gerais (1707 ? 1709)&#x0A;Os paulistas foram os respons?veis pelas descobertas de ouro na regi?o do sudeste brasileiro. Por serem os descobridores, acreditavam ter prioridade na explora??o, algo n?o concedido pelos portugueses. Os paulistas, liderados pelo bandeirante Borba Gato, lutaram contra os forasteiros, a quem apelidavam de emboabas. Esses eram liderados por Nunes Viana e disputavam riqueza mineral da regi?o das Minas Gerais. &#x0A;A for?a metropolitana derrotou os paulistas, gerando a perman?ncia dos que aceitavam as regras impostas pela Coroa ou a migra??o desses bandeirantes insatisfeitos para outras regi?es, consequentemente, os paulistas migraram para as regi?es de Goi?s e Mato Grosso.</raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="313" parent="299" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687973857</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>127</y>
+</point>
+<size>
+<cx>441</cx>
+<cy>481</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text313Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text313Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text313Font1&quot;  &gt;Visando desenvolver economicamente a regiÃ£o do Estado do MaranhÃ£o, criou-se a Companhia de ComÃ©rcio do MaranhÃ£o, mas ao contrÃ¡rio do esperado, a companhia comprava produtos locais a baixos preÃ§os e vendia artigos importados a altos preÃ§os, alÃ©m de nÃ£o fornecer de forma satisfatÃ³ria a mÃ£o de obra escrava na regiÃ£o. A precariedade no fornecimento de escravos gerou inÃºmeros conflitos entre fazendeiros e jesuÃ­tas. &lt;/span &gt;&lt;span class=&quot;text313Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text313Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text313Font1&quot;  &gt;Depois de invadirem a sede da companhia, prenderem o capitÃ£o-mor do MaranhÃ£o e formarem um governo chamado de Junta Geral de Governo, os revoltosos foram presos e condenados Ã  forca, logo apÃ³s Portugal enviar um novo governador para colocar ordem na regiÃ£o. &lt;/span &gt;&lt;span class=&quot;text313Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text313Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text313Font1&quot;  &gt;Mesmo derrotada, a revolta fez com que o governo portuguÃªs reconhecesse a incompetÃªncia da Companhia de ComÃ©rcio do MaranhÃ£o, abolindo-a em 1685&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Visando desenvolver economicamente a regi\u227 \&apos;e3o do Estado do Maranh\u227 \&apos;e3o, criou-se a Companhia de Com\u233 \&apos;e9rcio do Maranh\u227 \&apos;e3o, mas ao contr\u225 \&apos;e1rio do esperado, a companhia comprava produtos &#x0A;locais a baixos pre\u231 \&apos;e7os e vendia artigos importados a altos pre\u231 \&apos;e7os, al\u233 \&apos;e9m de n\u227 \&apos;e3o fornecer de forma satisfat\u243 \&apos;f3ria a m\u227 \&apos;e3o de obra escrava na regi\u227 \&apos;e3o. A precariedade no fornecimento de escravos gerou &#x0A;in\u250 \&apos;fameros conflitos entre fazendeiros e jesu\u237 \&apos;edtas. \hich\f2\loch\f2\par\hich\f1\loch\f1\par Depois de invadirem a sede da companhia, prenderem o capit\u227 \&apos;e3o-mor do Maranh\u227 \&apos;e3o e formarem um governo chamado de Junta Geral de &#x0A;Governo, os revoltosos foram presos e condenados \u224 \&apos;e0 forca, logo ap\u243 \&apos;f3s Portugal enviar um novo governador para colocar ordem na regi\u227 \&apos;e3o. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par Mesmo derrotada, a revolta fez com &#x0A;que o governo portugu\u234 \&apos;eas reconhecesse a incompet\u234 \&apos;eancia da Companhia de Com\u233 \&apos;e9rcio do Maranh\u227 \&apos;e3o, abolindo-a em 1685\par}&#x0A;</rtf>
+<raw>?Visando desenvolver economicamente a regi?o do Estado do Maranh?o, criou-se a Companhia de Com?rcio do Maranh?o, mas ao contr?rio do esperado, a companhia comprava produtos locais a baixos pre?os e vendia artigos importados a altos pre?os, al?m de n?o fornecer de forma satisfat?ria a m?o de obra escrava na regi?o. A precariedade no fornecimento de escravos gerou in?meros conflitos entre fazendeiros e jesu?tas. &#x0A;Depois de invadirem a sede da companhia, prenderem o capit?o-mor do Maranh?o e formarem um governo chamado de Junta Geral de Governo, os revoltosos foram presos e condenados ? forca, logo ap?s Portugal enviar um novo governador para colocar ordem na regi?o. &#x0A;Mesmo derrotada, a revolta fez com que o governo portugu?s reconhecesse a incompet?ncia da Companhia de Com?rcio do Maranh?o, abolindo-a em 1685</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="301" parent="299">
+<name>Grupo_1</name>
+<lastupdated>1687973799</lastupdated>
+<shape id="303" parent="301" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687973799</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="305" parent="301" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687973799</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="307" parent="301" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687973799</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="308" parent="301" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687973799</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text308Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text308Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text308Font1&quot;  &gt;Revoltas Nativistas&lt;/span &gt;&lt;span class=&quot;text308Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Revoltas Nativistas\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Revoltas Nativistas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="310" parent="301" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687973799</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="312" parent="301" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687973799</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="370" parent="40">
+<name>Página 4</name>
+<lastupdated>1687974065</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="450" parent="370" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687974061</lastupdated>
+<possize>
+<point>
+<x>526</x>
+<y>126</y>
+</point>
+<size>
+<cx>449</cx>
+<cy>525</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text450Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text450Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text450Font1&quot;  &gt;Os fazendeiros de Olinda pegaram volumosos emprÃ©stimos com os comerciantes de Recife, criando um protagonismo dos recifenses, que incomodaria o poder estabelecido dos fazendeiros. Olinda era o centro do poder polÃ­tico e Recife um povoado subordinado a ela. PorÃ©m, Recife passou a pressionar o governo pela sua elevaÃ§Ã£o Ã  condiÃ§Ã£o de Vila, recebendo forte oposiÃ§Ã£o de Olinda, pois perderia a arrecadaÃ§Ã£o tributÃ¡ria. &lt;/span &gt;&lt;span class=&quot;text450Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text450Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text450Font1&quot;  &gt;Os grandes latifundiÃ¡rios de Olinda resolveram sabotar as tentativas de emancipaÃ§Ã£o do Recife com o uso da forÃ§a, ocasionando conflitos violentos. O estopim dos conflitos foi a Carta RÃ©gia que deu autonomia a Recife.&lt;/span &gt;&lt;span class=&quot;text450Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text450Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text450Font3&quot;  &gt;Para solucionar a caÃ³tica situaÃ§Ã£o, em 1711, foi enviado um novo governador para Pernambuco. A decisÃ£o tomada foi a de que de seis em seis meses, fosse transferida a administraÃ§Ã£o para cada uma das cidades. Acreditava-se que assim nÃ£o haveria razÃµes para que uma cidade fosse politicamente favorecida, desta forma, Recife foi equiparada a Olinda e assim terminou a Guerra dos Mascates. &lt;/span &gt;&lt;span class=&quot;text450Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Os fazendeiros de Olinda pegaram volumosos empr\u233 \&apos;e9stimos com os comerciantes de Recife, criando um protagonismo dos recifenses, que incomodaria o poder estabelecido dos fazendeiros. Olinda era o centro do poder &#x0A;pol\u237 \&apos;edtico e Recife um povoado subordinado a ela. Por\u233 \&apos;e9m, Recife passou a pressionar o governo pela sua eleva\u231 \&apos;e7\u227 \&apos;e3o \u224 \&apos;e0 condi\u231 \&apos;e7\u227 \&apos;e3o de Vila, recebendo forte oposi\u231 \&apos;e7\u227 \&apos;e3o de Olinda, pois &#x0A;perderia a arrecada\u231 \&apos;e7\u227 \&apos;e3o tribut\u225 \&apos;e1ria. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par Os grandes latifundi\u225 \&apos;e1rios de Olinda resolveram sabotar as tentativas de emancipa\u231 \&apos;e7\u227 \&apos;e3o do Recife com o uso &#x0A;da for\u231 \&apos;e7a, ocasionando conflitos violentos. O estopim dos conflitos foi a Carta R\u233 \&apos;e9gia que deu autonomia a Recife.\lang1046\hich\f2\loch\f2\par\par Para solucionar a ca\&apos;f3tica situa\&apos;e7\&apos;e3o, em 1711, foi enviado um novo governador para &#x0A;Pernambuco. A decis\&apos;e3o tomada foi a de que de seis em seis meses, fosse transferida a administra\&apos;e7\&apos;e3o para cada uma das cidades. Acreditava-se que assim n\&apos;e3o haveria raz\&apos;f5es para que uma cidade fosse politicamente favorecida, desta forma, Recife &#x0A;foi equiparada a Olinda e assim terminou a Guerra dos Mascates. \lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Os fazendeiros de Olinda pegaram volumosos empr?stimos com os comerciantes de Recife, criando um protagonismo dos recifenses, que incomodaria o poder estabelecido dos fazendeiros. Olinda era o centro do poder pol?tico e Recife um povoado subordinado a ela. Por?m, Recife passou a pressionar o governo pela sua eleva??o ? condi??o de Vila, recebendo forte oposi??o de Olinda, pois perderia a arrecada??o tribut?ria. &#x0A;Os grandes latifundi?rios de Olinda resolveram sabotar as tentativas de emancipa??o do Recife com o uso da for?a, ocasionando conflitos violentos. O estopim dos conflitos foi a Carta R?gia que deu autonomia a Recife.&#x0A;Para solucionar a ca?tica situa??o, em 1711, foi enviado um novo governador para Pernambuco. A decis?o tomada foi a de que de seis em seis meses, fosse transferida a administra??o para cada uma das cidades. Acreditava-se que assim n?o haveria raz?es para que uma cidade fosse politicamente favorecida, desta forma, Recife foi equiparada a Olinda e assim terminou a Guerra dos Mascates. </raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="420" parent="370" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687974009</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>335</y>
+</point>
+<size>
+<cx>428</cx>
+<cy>296</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text420Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text420Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text420Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text420Font1&quot;  &gt;Guerra dos Mascates â€“ Pernambuco â€“ (1710 â€“ 1711)&lt;/span &gt;&lt;span class=&quot;text420Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text420Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text420Font3&quot;  &gt;Durante o per&lt;/span &gt;&lt;span class=&quot;text420Font4&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text420Font3&quot;  &gt;odo em que os holandeses estiveram na regi&lt;/span &gt;&lt;span class=&quot;text420Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text420Font3&quot;  &gt;o, Recife se desenvolveu e, ap&lt;/span &gt;&lt;span class=&quot;text420Font4&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text420Font3&quot;  &gt;s a expuls&lt;/span &gt;&lt;span class=&quot;text420Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text420Font3&quot;  &gt;o dos holandeses, manteve o ritmo de crescimento em v&lt;/span &gt;&lt;span class=&quot;text420Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text420Font3&quot;  &gt;rias &lt;/span &gt;&lt;span class=&quot;text420Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text420Font3&quot;  &gt;reas, principalmente no &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text420Font3&quot;  &gt;com&lt;/span &gt;&lt;span class=&quot;text420Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text420Font3&quot;  &gt;rcio. Por sua vez, Olinda, mesmo sendo a sede da capitania de Pernambuco, estava de certa forma estagnada em crescimento devido a crise do a&lt;/span &gt;&lt;span class=&quot;text420Font4&quot;  &gt;Ã§Ãº&lt;/span &gt;&lt;span class=&quot;text420Font3&quot;  &gt;car. &lt;/span &gt;&lt;span class=&quot;text420Font4&quot;  &gt;Ã‰&lt;/span &gt;&lt;span class=&quot;text420Font3&quot;  &gt; chamada de Guerra dos Mascates porque os comerciantes recifenses tamb&lt;/span &gt;&lt;span class=&quot;text420Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text420Font3&quot;  &gt;m eram conhecidos como mascates.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Guerra dos Mascates \u8211 \&apos;96 Pernambuco \u8211 \&apos;96 (1710 \u8211 \&apos;96 1711)\hich\f2\loch\f2\fs28\b0\par\hich\f1\loch\f1\par Durante o per\u237 \&apos;edodo em que os holandeses\hich\f2\loch\f2  \hich\f1\loch\f1 estiveram &#x0A;na regi\u227 \&apos;e3o, Recife se desenvolveu e, ap\u243 \&apos;f3s a expuls\u227 \&apos;e3o dos holandeses, manteve o ritmo de crescimento em v\u225 \&apos;e1rias \u225 \&apos;e1reas, principalmente no \par com\u233 \&apos;e9rcio. Por sua vez, Olinda, mesmo sendo a sede da capitania &#x0A;de Pernambuco, estava de certa forma estagnada em crescimento devido a crise do a\u231 \&apos;e7\u250 \&apos;facar. \u201 \&apos;c9 chamada de Guerra dos Mascates porque os comerciantes recifenses tamb\u233 \&apos;e9m eram conhecidos como mascates.\par}&#x0A;</rtf>
+<raw>?Guerra dos Mascates ? Pernambuco ? (1710 ? 1711)&#x0A;Durante o per?odo em que os holandeses estiveram na regi?o, Recife se desenvolveu e, ap?s a expuls?o dos holandeses, manteve o ritmo de crescimento em v?rias ?reas, principalmente no &#x0A;com?rcio. Por sua vez, Olinda, mesmo sendo a sede da capitania de Pernambuco, estava de certa forma estagnada em crescimento devido a crise do a??car. ? chamada de Guerra dos Mascates porque os comerciantes recifenses tamb?m eram conhecidos como mascates.</raw>
+<numoflines>13</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="392" parent="370" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687973947</lastupdated>
+<possize>
+<point>
+<x>41</x>
+<y>131</y>
+</point>
+<size>
+<cx>443</cx>
+<cy>144</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>20</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="01D1DD" />
+</shape>
+<image id="390" parent="370" resource="393" ontop="false" fixed="false" proportional="true">
+<name>Imagem1</name>
+<lastupdated>1687973940</lastupdated>
+<possize>
+<point>
+<x>423</x>
+<y>251</y>
+</point>
+<size>
+<cx>61</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="388" parent="370" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687973965</lastupdated>
+<possize>
+<point>
+<x>65</x>
+<y>137</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>128</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text388Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text388Font1&quot;  &gt;ApÃ³s a Guerra dos Emboabas, vencida pela metrÃ³pole, separou-se as capitanias de Minas Gerais e de SÃ£o Paulo, visando facilitar o controle da administraÃ§Ã£o metropolitana, por exemplo, a regulamentaÃ§Ã£o da distribuiÃ§Ã£o de Lavras e da cobranÃ§a do quinto. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qj\hich\f2\loch\f2 Ap\&apos;f3s a Guerra dos Emboabas, vencida pela metr\&apos;f3pole, separou-se as capitanias de Minas Gerais e de S\&apos;e3o Paulo, visando facilitar o controle da administra\&apos;e7\&apos;e3o metropolitana, por exemplo, a &#x0A;regulamenta\&apos;e7\&apos;e3o da distribui\&apos;e7\&apos;e3o de Lavras e da cobran\&apos;e7a do quinto. \par}&#x0A;</rtf>
+<raw>?Ap?s a Guerra dos Emboabas, vencida pela metr?pole, separou-se as capitanias de Minas Gerais e de S?o Paulo, visando facilitar o controle da administra??o metropolitana, por exemplo, a regulamenta??o da distribui??o de Lavras e da cobran?a do quinto. </raw>
+<numoflines>6</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="387" parent="370" ontop="false" fixed="false" proportional="false">
+<name>Retângulo 2</name>
+<lastupdated>1687973940</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>164</y>
+</point>
+<size>
+<cx>12</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="29B9A2" />
+</shape>
+<objgroup id="374" parent="370">
+<name>Grupo_1</name>
+<lastupdated>1687973923</lastupdated>
+<shape id="376" parent="374" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687973923</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="378" parent="374" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687973923</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="380" parent="374" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687973923</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="381" parent="374" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687973923</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text381Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text381Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text381Font1&quot;  &gt;Revoltas Nativistas&lt;/span &gt;&lt;span class=&quot;text381Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Revoltas Nativistas\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Revoltas Nativistas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="383" parent="374" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687973923</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="385" parent="374" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687973923</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="488" parent="40">
+<name>Página 5</name>
+<lastupdated>1687974065</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="639" parent="488" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 4</name>
+<lastupdated>1687974276</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>113</y>
+</point>
+<size>
+<cx>448</cx>
+<cy>296</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text639Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text639Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text639Font1&quot;  &gt;O lÃ­der da revolta, Felipe dos Santos, era um rico fazendeiro e tropeiro da regiÃ£o, que conseguiu convencer os populares e classe mÃ©dia da vila para lutarem contra as imposiÃ§Ãµes de Portugal. AlÃ©m das queixas contra as tributaÃ§Ãµes, desejavam acabar com o monopÃ³lio metropolitano sobre o comÃ©rcio de fumo, sal, aguardente e do gado.&lt;/span &gt;&lt;span class=&quot;text639Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text639Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text639Font1&quot;  &gt;Portugal agiu com forte repressÃ£o, punindo com a morte Felipe dos Santos, lÃ­der do movimento, servindo de exemplo para demonstrar os castigos para aqueles que questionassem e se rebelassem contra Portugal. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 O l\u237 \&apos;edder da revolta, Felipe dos Santos, era um rico fazendeiro e tropeiro da regi\u227 \&apos;e3o, que conseguiu convencer os populares e classe m\u233 \&apos;e9dia da vila para lutarem contra as imposi\u231 \&apos;e7\u245 \&apos;f5es &#x0A;de Portugal. Al\u233 \&apos;e9m das queixas contra as tributa\u231 \&apos;e7\u245 \&apos;f5es, desejavam acabar com o monop\u243 \&apos;f3lio metropolitano sobre o com\u233 \&apos;e9rcio de fumo, sal, aguardente e do gado.\lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par &#x0A;Portugal agiu com forte repress\u227 \&apos;e3o, punindo com a morte Felipe dos Santos, l\u237 \&apos;edder do movimento, servindo de exemplo para demonstrar os castigos para aqueles que questionassem e se rebelassem contra Portugal. \par}&#x0A;</rtf>
+<raw>?O l?der da revolta, Felipe dos Santos, era um rico fazendeiro e tropeiro da regi?o, que conseguiu convencer os populares e classe m?dia da vila para lutarem contra as imposi??es de Portugal. Al?m das queixas contra as tributa??es, desejavam acabar com o monop?lio metropolitano sobre o com?rcio de fumo, sal, aguardente e do gado.&#x0A;Portugal agiu com forte repress?o, punindo com a morte Felipe dos Santos, l?der do movimento, servindo de exemplo para demonstrar os castigos para aqueles que questionassem e se rebelassem contra Portugal. </raw>
+<numoflines>13</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="573" parent="488" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687974250</lastupdated>
+<possize>
+<point>
+<x>42</x>
+<y>454</y>
+</point>
+<size>
+<cx>438</cx>
+<cy>221</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text573Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text573Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text573Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text573Font1&quot;  &gt;Revolta de Vila Rica/Revolta de Felipe dos Santos â€“ atual Ouro Preto â€“ 1720&lt;/span &gt;&lt;span class=&quot;text573Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text573Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text573Font3&quot;  &gt;A metr&lt;/span &gt;&lt;span class=&quot;text573Font4&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text573Font3&quot;  &gt;pole optou por controlar ainda mais a extra&lt;/span &gt;&lt;span class=&quot;text573Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text573Font3&quot;  &gt;o do ouro nas regi&lt;/span &gt;&lt;span class=&quot;text573Font4&quot;  &gt;Ãµ&lt;/span &gt;&lt;span class=&quot;text573Font3&quot;  &gt;es das Gerais. Portugal cobrava impostos, iniciou as constru&lt;/span &gt;&lt;span class=&quot;text573Font4&quot;  &gt;Ã§Ãµ&lt;/span &gt;&lt;span class=&quot;text573Font3&quot;  &gt;es das casas de fundi&lt;/span &gt;&lt;span class=&quot;text573Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text573Font3&quot;  &gt;o e proibiu a circula&lt;/span &gt;&lt;span class=&quot;text573Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text573Font3&quot;  &gt;o do ouro em p&lt;/span &gt;&lt;span class=&quot;text573Font4&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text573Font3&quot;  &gt;, medida para combater o tr&lt;/span &gt;&lt;span class=&quot;text573Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text573Font3&quot;  &gt;fico e a sonega&lt;/span &gt;&lt;span class=&quot;text573Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text573Font3&quot;  &gt;o. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Revolta de Vila Rica/Revolta de Felipe dos Santos \u8211 \&apos;96 atual Ouro Preto \u8211 \&apos;96 1720\lang1046\hich\f2\loch\f2\fs28\b0\par\lang1046\hich\f1\loch\f1\par A metr\u243 \&apos;f3pole optou por controlar ainda mais a &#x0A;extra\u231 \&apos;e7\u227 \&apos;e3o do ouro nas regi\u245 \&apos;f5es das Gerais. Portugal cobrava impostos, iniciou as constru\u231 \&apos;e7\u245 \&apos;f5es das casas de fundi\u231 \&apos;e7\u227 \&apos;e3o e proibiu a circula\u231 \&apos;e7\u227 \&apos;e3o do ouro em p\u243 \&apos;f3, medida para &#x0A;combater o tr\u225 \&apos;e1fico e a sonega\u231 \&apos;e7\u227 \&apos;e3o. \par}&#x0A;</rtf>
+<raw>?Revolta de Vila Rica/Revolta de Felipe dos Santos ? atual Ouro Preto ? 1720&#x0A;A metr?pole optou por controlar ainda mais a extra??o do ouro nas regi?es das Gerais. Portugal cobrava impostos, iniciou as constru??es das casas de fundi??o e proibiu a circula??o do ouro em p?, medida para combater o tr?fico e a sonega??o. </raw>
+<numoflines>8</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="544" parent="488" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687974246</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>409</y>
+</point>
+<size>
+<cx>394</cx>
+<cy>40</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text544Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text544Font2 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text544Font1&quot;  &gt;Henry Chamberlain. O mascate com seus escravos. SP &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text544Font1&quot;  &gt;Biblioteca Municipal. &lt;/span &gt;&lt;span class=&quot;text544Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qc\hich\f2\loch\f2\cf2\fs22\b Henry Chamberlain. O mascate com seus escravos. SP \par Biblioteca Municipal. \hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Henry Chamberlain. O mascate com seus escravos. SP &#x0A;Biblioteca Municipal. </raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="524" parent="488" resource="523" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687974244</lastupdated>
+<possize>
+<point>
+<x>111</x>
+<y>195</y>
+</point>
+<size>
+<cx>307</cx>
+<cy>207</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="508" parent="488" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687974244</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>118</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>80</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text508Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text508Font1&quot;  &gt;Em 1714, o rei D. JoÃ£o V anistiou os envolvidos nessa disputa e promoveu a cidade de Recife ao posto de capital do Pernambuco. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Em 1714, o rei D. Jo\u227 \&apos;e3o V anistiou os envolvidos nessa disputa e promoveu a cidade de Recife ao posto de capital do Pernambuco. \par}&#x0A;</rtf>
+<raw>?Em 1714, o rei D. Jo?o V anistiou os envolvidos nessa disputa e promoveu a cidade de Recife ao posto de capital do Pernambuco. </raw>
+<numoflines>3</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="496" parent="488">
+<name>Grupo_1</name>
+<lastupdated>1687974156</lastupdated>
+<shape id="498" parent="496" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687974156</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="500" parent="496" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687974156</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="502" parent="496" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687974156</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="503" parent="496" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687974156</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text503Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text503Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text503Font1&quot;  &gt;Revoltas Nativistas&lt;/span &gt;&lt;span class=&quot;text503Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Revoltas Nativistas\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Revoltas Nativistas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="505" parent="496" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687974156</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="507" parent="496" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687974156</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

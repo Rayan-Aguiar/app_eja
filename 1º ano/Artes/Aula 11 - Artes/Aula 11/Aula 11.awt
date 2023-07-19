@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc">
+<currentid>940</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="167" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="168" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="328" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="447" resourcetype="image">
+<name>Imagem 2001.bmp</name>
+<relativelink>images\Imagem 2001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="647" resourcetype="image">
+<name>Imagem002.bmp</name>
+<relativelink>images\Imagem002.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="668" resourcetype="image">
+<name>Imagem 2002.bmp</name>
+<relativelink>images\Imagem 2002.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="766" resourcetype="image">
+<name>Imagem 3.bmp</name>
+<relativelink>images\Imagem 3.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="76">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 11</name>
+<lastupdated>1686596040</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="75" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1686596048</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1686596048</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1686596048</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="76" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1686596048</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1686596048</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="70" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1686596048</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="68" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1686596048</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="69" parent="68" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686596048</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="62" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1686596048</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="63" parent="62" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686596048</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="54" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1686596048</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="55" parent="54" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1686596048</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="56" parent="54" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1686596048</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="54" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1686596048</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="54">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>0</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="2" parent="40">
+<name>Página 1</name>
+<lastupdated>1686596057</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+</page>
+<page id="152" parent="40">
+<name>Página 2</name>
+<lastupdated>1686596391</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="521" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 4</name>
+<lastupdated>1686596386</lastupdated>
+<possize>
+<point>
+<x>534</x>
+<y>352</y>
+</point>
+<size>
+<cx>428</cx>
+<cy>209</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text521Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text521Font1&quot;  &gt;Desde sua descoberta que o Brasil desperta a curiosidade e a imaginaÃ§Ã£o do estrangeiro. Esse paÃ­s pitoresco foi retratado por escritores, pesquisadores e viajantes que se encantavam ou viam com surpresa o lado exÃ³tico de nossas paisagens e das relaÃ§Ãµes sociais. Esse olhar dos colonizadores europeus atÃ© o sÃ©culo XIX foi o grande responsÃ¡vel pelos primeiros registros da nossa cultura.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Desde sua descoberta que o Brasil desperta a curiosidade e a imagina\&apos;e7\&apos;e3o do estrangeiro. Esse pa\&apos;eds pitoresco foi retratado por escritores, pesquisadores e viajantes que se encantavam ou viam com surpresa o lado &#x0A;ex\&apos;f3tico de nossas paisagens e das rela\&apos;e7\&apos;f5es sociais. Esse olhar dos colonizadores europeus at\&apos;e9 o s\&apos;e9culo XIX foi o grande respons\&apos;e1vel pelos primeiros registros da nossa cultura.\par}&#x0A;</rtf>
+<raw>?Desde sua descoberta que o Brasil desperta a curiosidade e a imagina??o do estrangeiro. Esse pa?s pitoresco foi retratado por escritores, pesquisadores e viajantes que se encantavam ou viam com surpresa o lado ex?tico de nossas paisagens e das rela??es sociais. Esse olhar dos colonizadores europeus at? o s?culo XIX foi o grande respons?vel pelos primeiros registros da nossa cultura.</raw>
+<numoflines>9</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="492" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1686596332</lastupdated>
+<possize>
+<point>
+<x>545</x>
+<y>292</y>
+</point>
+<size>
+<cx>397</cx>
+<cy>40</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text492Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text492Font2 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text492Font1&quot;  &gt;Registro dos Entrudos (precursor do nosso carnaval) feito pelo francÃªs Jean_Baptiste Debret no sÃ©culo XIX&lt;/span &gt;&lt;span class=&quot;text492Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qc\hich\f2\loch\f2\cf2\fs22\b Registro dos Entrudos (precursor do nosso carnaval) feito pelo franc\&apos;eas Jean_Baptiste Debret no s\&apos;e9culo \lang1046\hich\f2\loch\f2 XIX\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Registro dos Entrudos (precursor do nosso carnaval) feito pelo franc?s Jean_Baptiste Debret no s?culo XIX</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="448" parent="152" resource="447" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686596334</lastupdated>
+<possize>
+<point>
+<x>636</x>
+<y>116</y>
+</point>
+<size>
+<cx>214</cx>
+<cy>175</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="378" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1686596263</lastupdated>
+<possize>
+<point>
+<x>66</x>
+<y>602</y>
+</point>
+<size>
+<cx>394</cx>
+<cy>41</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text378Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text378Font2 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text378Font1&quot;  &gt;Tipos nacionais retratados pelo holandÃªs Albert Eckout no sÃ©culo XVII: A Mameluca (esq.) e Ãndia Tupi (dir.)&lt;/span &gt;&lt;span class=&quot;text378Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qc\hich\f2\loch\f2\cf2\fs22\b Tipos nacionais retratados pelo holand\&apos;eas Albert Eckout no s\&apos;e9culo XVII: A Mameluca (esq.) e \&apos;cdndia Tupi (dir.)\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipos nacionais retratados pelo holand?s Albert Eckout no s?culo XVII: A Mameluca (esq.) e ?ndia Tupi (dir.)</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="329" parent="152" resource="328" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686596270</lastupdated>
+<possize>
+<point>
+<x>162</x>
+<y>437</y>
+</point>
+<size>
+<cx>203</cx>
+<cy>161</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="257" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1686596263</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>121</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>324</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text257Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text257Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot;  &gt;O Brasil Ã© um paÃ­s com extenso territÃ³rio e enorme diversidade cultural. Temos variaÃ§Ãµes de clima, de relevo, de vegetaÃ§Ã£o; diferenÃ§as sociais marcantes, processos histÃ³ricos de formaÃ§Ã£o bem &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot;  &gt;distintos em cada regiÃ£o, caracterÃ­sticas que contribuÃ­ram ao longo dos anos para a construÃ§Ã£o de uma identidade bastante heterogÃªnea.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot;  &gt;Somos um dos paÃ­ses mais miscigenados do mundo, com um processo constante de aculturaÃ§Ã£o. Nossa rica cultura abraÃ§ou e fundiu elementos culturais de diversos povos e essa dinÃ¢mica faz-se presente atÃ© os dias atuais. Procurar o que diferencia nossa cultura do resto do mundo Ã© tambÃ©m procurar o que nos aproxima&lt;/span &gt;&lt;span class=&quot;text257Font2&quot;  &gt;.&lt;/span &gt;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 O Brasil \&apos;e9 um pa\&apos;eds com extenso territ\&apos;f3rio e enorme diversidade cultural. Temos varia\&apos;e7\&apos;f5es de clima, de relevo, de vegeta\&apos;e7\&apos;e3o; diferen\&apos;e7as sociais marcantes, processos hist\&apos;f3ricos de forma\&apos;e7\&apos;e3o &#x0A;bem \par distintos em cada regi\&apos;e3o, caracter\&apos;edsticas que contribu\&apos;edram ao longo dos anos para a constru\&apos;e7\&apos;e3o de uma identidade bastante heterog\&apos;eanea.\par\par Somos um dos pa\&apos;edses mais miscigenados do mundo, com um processo constante de acultura\&apos;e7\&apos;e3o. &#x0A;Nossa rica cultura abra\&apos;e7ou e fundiu elementos culturais de diversos povos e essa din\&apos;e2mica faz-se presente at\&apos;e9 os dias atuais. Procurar o que diferencia nossa cultura do resto do mundo \&apos;e9 tamb\&apos;e9m procurar o que nos aproxima\lang1046\hich\f2\loch\f2 &#x0A;.\lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?O Brasil ? um pa?s com extenso territ?rio e enorme diversidade cultural. Temos varia??es de clima, de relevo, de vegeta??o; diferen?as sociais marcantes, processos hist?ricos de forma??o bem &#x0A;distintos em cada regi?o, caracter?sticas que contribu?ram ao longo dos anos para a constru??o de uma identidade bastante heterog?nea.&#x0A;Somos um dos pa?ses mais miscigenados do mundo, com um processo constante de acultura??o. Nossa rica cultura abra?ou e fundiu elementos culturais de diversos povos e essa din?mica faz-se presente at? os dias atuais. Procurar o que diferencia nossa cultura do resto do mundo ? tamb?m procurar o que nos aproxima.</raw>
+<numoflines>15</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="253" parent="152">
+<name>Grupo_1</name>
+<lastupdated>1686596115</lastupdated>
+<shape id="157" parent="253" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686596115</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="159" parent="253" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686596115</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="161" parent="253" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686596115</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="162" parent="253" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686596115</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>41</y>
+</point>
+<size>
+<cx>845</cx>
+<cy>52</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text162Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text162Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text162Font1&quot;  &gt;Cultura brasileira em relaÃ§Ã£o Ã  cultura mundial &lt;/span &gt;&lt;span class=&quot;text162Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Cultura brasileira em rela\&apos;e7\&apos;e3o \&apos;e0 cultura mundial \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Cultura brasileira em rela??o ? cultura mundial </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="164" parent="253" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686596115</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="166" parent="253" resource="168" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686596115</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="596" parent="40">
+<name>Página 3</name>
+<lastupdated>1686596739</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="787" parent="596" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 4</name>
+<lastupdated>1686596583</lastupdated>
+<possize>
+<point>
+<x>597</x>
+<y>277</y>
+</point>
+<size>
+<cx>298</cx>
+<cy>41</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text787Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text787Font3 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text787Font1&quot;  &gt;Rendas de bilro, trabalho de rendeiras de Aquiraz â€“ CE.&lt;/span &gt;&lt;span class=&quot;text787Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qc\hich\f2\loch\f2\cf2\fs22\b Rendas de bilro, trabalho de rendeiras de Aquiraz \u8211 \&apos;96 CE.\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Rendas de bilro, trabalho de rendeiras de Aquiraz ? CE.</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="767" parent="596" resource="766" ontop="false" fixed="false" proportional="true">
+<name>Imagem 3</name>
+<lastupdated>1686596585</lastupdated>
+<possize>
+<point>
+<x>636</x>
+<y>126</y>
+</point>
+<size>
+<cx>220</cx>
+<cy>141</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="747" parent="596" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1686596525</lastupdated>
+<possize>
+<point>
+<x>280</x>
+<y>493</y>
+</point>
+<size>
+<cx>200</cx>
+<cy>47</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text747Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text747Font2 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text747Font1&quot;  &gt;Grafite dos IrmÃ£os Pandolfo &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text747Font1&quot;  &gt;(Os GÃªmeos) no CanadÃ¡&lt;/span &gt;&lt;span class=&quot;text747Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs22\qc\hich\f2\loch\f2\b Grafite dos Irm\&apos;e3os Pandolfo \par (Os G\&apos;eameos) no Canad\&apos;e1\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Grafite dos Irm?os Pandolfo &#x0A;(Os G?meos) no Canad?</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="725" parent="596" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1686596508</lastupdated>
+<possize>
+<point>
+<x>51</x>
+<y>493</y>
+</point>
+<size>
+<cx>200</cx>
+<cy>64</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text725Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text725Font2 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text725Font1&quot;  &gt;JoÃ£o Gilberto em &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text725Font1&quot;  &gt;apresentaÃ§Ã£o junto com a &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text725Font1&quot;  &gt;filha Bebel Gilberto&lt;/span &gt;&lt;span class=&quot;text725Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs22\qc\hich\f2\loch\f2\b Jo\&apos;e3o Gilberto em \par apresenta\&apos;e7\&apos;e3o junto com a \par filha Bebel Gilberto\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Jo?o Gilberto em &#x0A;apresenta??o junto com a &#x0A;filha Bebel Gilberto</raw>
+<numoflines>3</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="669" parent="596" resource="668" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686596492</lastupdated>
+<possize>
+<point>
+<x>286</x>
+<y>356</y>
+</point>
+<size>
+<cx>191</cx>
+<cy>128</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="648" parent="596" resource="647" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686596488</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>352</y>
+</point>
+<size>
+<cx>207</cx>
+<cy>140</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="610" parent="596" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1686596459</lastupdated>
+<possize>
+<point>
+<x>46</x>
+<y>129</y>
+</point>
+<size>
+<cx>432</cx>
+<cy>226</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text610Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text610Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text610Font1&quot;  &gt;Europeus, amerÃ­ndios, africanos, Ã¡rabes,&lt;/span &gt;&lt;span class=&quot;text610Font2&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text610Font1&quot;  &gt;asiÃ¡ticos, com o tempo todos esses povos se encontraram aqui e passaram a se enxergar em meio Ã  nossa pujante diversidade cultural. Nos dias atuais temos um conjunto de iniciativas e inovaÃ§Ãµes vindas do Estado, da iniciativa privada ou de aÃ§Ãµes espontÃ¢neas que visam melhor difundir essa pluralidade pelo mundo e mostrar que a imagem estereotipada de paÃ­s do carnaval e do futebol nÃ£o representa o que somos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Europeus, amer\&apos;edndios, africanos, \&apos;e1rabes,\hich\f2\loch\f2  \hich\f1\loch\f1 asi\&apos;e1ticos, com o tempo todos esses povos se encontraram aqui e passaram a se enxergar em meio \&apos;e0 nossa pujante diversidade cultural. &#x0A;Nos dias atuais temos um conjunto de iniciativas e inova\&apos;e7\&apos;f5es vindas do Estado, da iniciativa privada ou de a\&apos;e7\&apos;f5es espont\&apos;e2neas que visam melhor difundir essa pluralidade pelo mundo e mostrar que a imagem estereotipada de pa\&apos;eds do carnaval &#x0A;e do futebol n\&apos;e3o representa o que somos.\par}&#x0A;</rtf>
+<raw>?Europeus, amer?ndios, africanos, ?rabes, asi?ticos, com o tempo todos esses povos se encontraram aqui e passaram a se enxergar em meio ? nossa pujante diversidade cultural. Nos dias atuais temos um conjunto de iniciativas e inova??es vindas do Estado, da iniciativa privada ou de a??es espont?neas que visam melhor difundir essa pluralidade pelo mundo e mostrar que a imagem estereotipada de pa?s do carnaval e do futebol n?o representa o que somos.</raw>
+<numoflines>10</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="820" parent="596" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1686596736</lastupdated>
+<possize>
+<point>
+<x>530</x>
+<y>310</y>
+</point>
+<size>
+<cx>432</cx>
+<cy>320</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text820Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text820Font1&quot;  &gt;Agora o paÃ­s que sempre importou cultura e influÃªncias, mostra-se como gerador de tendÃªncias nas vÃ¡rias esferas. Nossa arte urbana ganha a cada dia mais espaÃ§o e reconhecimento mundial, os trabalhos das rendeiras do Nordeste invadem a moda nacional e internacional, a beleza das formas da tradicional cerÃ¢mica marajoara Ã© admirada por amantes do artesanato.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text820Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text820Font1&quot;  &gt;O FenÃ´meno da globalizaÃ§Ã£o e da queda de fronteira propiciado pelo desenvolvimento tecnolÃ³gico, as novas mÃ­dias, a facilidade e velocidade na comunicaÃ§Ã£o tem provocado mudanÃ§as sociais e culturais em todo o mundo, Ã© bem verdade, &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Agora o pa\&apos;eds que sempre importou cultura e influ\&apos;eancias, mostra-se como gerador de tend\&apos;eancias nas v\&apos;e1rias esferas. Nossa arte urbana ganha a cada dia mais espa\&apos;e7o e reconhecimento mundial, os trabalhos das &#x0A;rendeiras do Nordeste invadem a moda nacional e internacional, a beleza das formas da tradicional cer\&apos;e2mica marajoara \&apos;e9 admirada por amantes do artesanato.\par\par O Fen\&apos;f4meno da globaliza\&apos;e7\&apos;e3o e da queda de fronteira propiciado pelo desenvolvimento &#x0A;tecnol\&apos;f3gico, as novas m\&apos;eddias, a facilidade e velocidade na comunica\&apos;e7\&apos;e3o tem provocado mudan\&apos;e7as sociais e culturais em todo o mundo, \&apos;e9 bem verdade, \par}&#x0A;</rtf>
+<raw>?Agora o pa?s que sempre importou cultura e influ?ncias, mostra-se como gerador de tend?ncias nas v?rias esferas. Nossa arte urbana ganha a cada dia mais espa?o e reconhecimento mundial, os trabalhos das rendeiras do Nordeste invadem a moda nacional e internacional, a beleza das formas da tradicional cer?mica marajoara ? admirada por amantes do artesanato.&#x0A;O Fen?meno da globaliza??o e da queda de fronteira propiciado pelo desenvolvimento tecnol?gico, as novas m?dias, a facilidade e velocidade na comunica??o tem provocado mudan?as sociais e culturais em todo o mundo, ? bem verdade, </raw>
+<numoflines>15</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="598" parent="596">
+<name>Grupo_1</name>
+<lastupdated>1686596394</lastupdated>
+<shape id="600" parent="598" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686596394</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="602" parent="598" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686596394</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="604" parent="598" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686596394</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="605" parent="598" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686596394</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>41</y>
+</point>
+<size>
+<cx>845</cx>
+<cy>52</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text605Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text605Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text605Font1&quot;  &gt;Cultura brasileira em relaÃ§Ã£o Ã  cultura mundial &lt;/span &gt;&lt;span class=&quot;text605Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Cultura brasileira em rela\&apos;e7\&apos;e3o \&apos;e0 cultura mundial \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Cultura brasileira em rela??o ? cultura mundial </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="607" parent="598" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686596394</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="609" parent="598" resource="168" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686596394</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="895" parent="40">
+<name>Página 4</name>
+<lastupdated>1686596739</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="909" parent="895">
+<name>Grupo_1</name>
+<lastupdated>1686596745</lastupdated>
+<shape id="911" parent="909" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686596745</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="913" parent="909" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686596745</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="915" parent="909" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686596745</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="916" parent="909" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686596745</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>41</y>
+</point>
+<size>
+<cx>845</cx>
+<cy>52</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text916Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text916Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text916Font1&quot;  &gt;Cultura brasileira em relaÃ§Ã£o Ã  cultura mundial &lt;/span &gt;&lt;span class=&quot;text916Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Cultura brasileira em rela\&apos;e7\&apos;e3o \&apos;e0 cultura mundial \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Cultura brasileira em rela??o ? cultura mundial </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="918" parent="909" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686596745</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="920" parent="909" resource="168" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686596745</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+<text id="896" parent="895" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1686596756</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>127</y>
+</point>
+<size>
+<cx>424</cx>
+<cy>138</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text896Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text896Font1&quot;  &gt;mas tambÃ©m tem sido extremamente Ãºtil nesse processo de difusÃ£o da nossa diversidade e esse processo de troca de informaÃ§Ãµes e experiÃªncias propicia experiÃªncias enriquecedoras.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 mas tamb\&apos;e9m tem sido extremamente \&apos;fatil nesse processo de difus\&apos;e3o da nossa diversidade e esse processo de troca de informa\&apos;e7\&apos;f5es e experi\&apos;eancias propicia experi\&apos;eancias enriquecedoras.\par}&#x0A;</rtf>
+<raw>?mas tamb?m tem sido extremamente ?til nesse processo de difus?o da nossa diversidade e esse processo de troca de informa??es e experi?ncias propicia experi?ncias enriquecedoras.</raw>
+<numoflines>10</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

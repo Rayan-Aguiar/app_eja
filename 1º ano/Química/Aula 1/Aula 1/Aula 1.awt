@@ -1,0 +1,3427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>2497</currentid>
+<currtheme></currtheme>
+<language>pt</language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="180" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="181" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="586" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="760" resourcetype="image">
+<name>Imagem002.bmp</name>
+<relativelink>images\Imagem002.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="2417" resourcetype="image">
+<name>Imagem003.bmp</name>
+<relativelink>images\Imagem003.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="2491" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="2492" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="91">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 1</name>
+<lastupdated>1687187979</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="90" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687187862</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="89" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687187862</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="88" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687187862</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="91" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="87" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687187862</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="86" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687187862</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="85" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687187862</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="82" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687187862</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="83" parent="82" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687187862</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="84" parent="82" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687187862</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="75" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687187862</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="76" parent="75" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687187862</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="75" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687187862</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="67" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687187862</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="68" parent="67" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687187862</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="69" parent="67" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687187862</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="70" parent="67" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687187862</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="67">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="53" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689695472</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="2476" parent="53">
+<name>Página 1</name>
+<lastupdated>1689695474</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="2477" parent="2476">
+<name>Grupo_1</name>
+<lastupdated>1689695474</lastupdated>
+<image id="2479" parent="2477" resource="2491" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689695474</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2481" parent="2477" resource="2492" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689695474</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="2482" parent="2477" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689695474</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2482Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text2482Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2482Font1&quot;  &gt;Aula 1&lt;/span &gt;&lt;span class=&quot;text2482Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula 1\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 1</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="2484" parent="2477" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689695474</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2486" parent="2477" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689695474</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2488" parent="2477" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689695474</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="2490" parent="2477" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689695474</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="167" parent="53">
+<name>Página 2</name>
+<lastupdated>1689695472</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="198" parent="167" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687187989</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>138</y>
+</point>
+<size>
+<cx>424</cx>
+<cy>448</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text198Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text198Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text198Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text198Font1&quot;  &gt;Desenvolvimento histÃ³rico da quÃ­mica&lt;/span &gt;&lt;span class=&quot;text198Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text198Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text198Font2&quot;  &gt;Atualmente, a quÃ­mica Ã© definida como a ciÃªncia&lt;/span &gt;&lt;span class=&quot;text198Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text198Font2&quot;  &gt;que estuda a matÃ©ria, sua composiÃ§Ã£o, suas propriedades e suas transformaÃ§Ãµes. PorÃ©m, para chegar ao estÃ¡gio atual, com todos os seus mÃ©todos e teorias, ela passou por diversas fases.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text198Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text198Font1&quot;  &gt;A importÃ¢ncia da tÃ©cnica&lt;/span &gt;&lt;span class=&quot;text198Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text198Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text198Font2&quot;  &gt;As tÃ©cnicas que envolvem processos quÃ­micos tÃªm sido utilizadas hÃ¡ milhares de anos. A extraÃ§Ã£o de corantes, metalurgia e a produÃ§Ã£o de bebidas fermentadas, que exigem o conhecimento de propriedades e transformaÃ§Ãµes da matÃ©ria, sÃ£o&lt;/span &gt;&lt;span class=&quot;text198Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text198Font2&quot;  &gt;praticadas desde a Antiguidade.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ql\cf2\fs36\b Desenvolvimento hist\&apos;f3rico da qu\&apos;edmica\fs28\b0\par\qj\plain\f1\fs24\cf2\fs28\par Atualmente, a qu\&apos;edmica \&apos;e9 definida como a ci\&apos;eancia\lang1046\hich\f2\loch\f2  \lang1046\hich\f1\loch\f1 que estuda a mat\&apos;e9ria, &#x0A;sua composi\&apos;e7\&apos;e3o, suas propriedades e suas transforma\&apos;e7\&apos;f5es. Por\&apos;e9m, para chegar ao est\&apos;e1gio atual, com todos os seus m\&apos;e9todos e teorias, ela passou por diversas fases.\par\par\fs36\b A import\&apos;e2ncia da t\&apos;e9cnica\fs28\b0\par\par As t\&apos;e9cnicas &#x0A;que envolvem processos qu\&apos;edmicos t\&apos;eam sido utilizadas h\&apos;e1 milhares de anos. A extra\&apos;e7\&apos;e3o de corantes, metalurgia e a produ\&apos;e7\&apos;e3o de bebidas fermentadas, que exigem o conhecimento de propriedades e transforma\&apos;e7\&apos;f5es da mat\&apos;e9ria, s\&apos;e3o\lang1046\hich\f2\loch\f2 &#x0A; \lang1046\hich\f1\loch\f1 praticadas desde a Antiguidade.\par}&#x0A;</rtf>
+<raw>?Desenvolvimento hist�rico da qu�mica&#x0A;&#x0A;Atualmente, a qu�mica � definida como a ci�ncia que estuda a mat�ria, sua composi��o, suas propriedades e suas transforma��es. Por�m, para chegar ao est�gio atual, com todos os seus m�todos e teorias, ela passou por diversas fases.&#x0A;&#x0A;A import�ncia da t�cnica&#x0A;&#x0A;As t�cnicas que envolvem processos qu�micos t�m sido utilizadas h� milhares de anos. A extra��o de corantes, metalurgia e a produ��o de bebidas fermentadas, que exigem o conhecimento de propriedades e transforma��es da mat�ria, s�o praticadas desde a Antiguidade.</raw>
+<numoflines>17</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="282" parent="167" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687188101</lastupdated>
+<possize>
+<point>
+<x>542</x>
+<y>89</y>
+</point>
+<size>
+<cx>430</cx>
+<cy>540</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text282Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text282Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text282Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text282Font1&quot;  &gt;Ao passar do tempo, com o crescimento da demanda e o surgimento de novas necessidades, esses processos foram sendo aperfeiÃ§oados, e para isso foi preciso entender as caracterÃ­sticas e a constituiÃ§Ã£o da matÃ©ria para que suas propriedades pudessem ser exploradas e os processos de transformaÃ§Ã£o dominados.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text282Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text282Font2&quot;  &gt;A importÃ¢ncia da teoria&lt;/span &gt;&lt;span class=&quot;text282Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text282Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text282Font1&quot;  &gt;Uma teoria Ã© basicamente um conjunto organizado de ideias, conceitos e princÃ­pios que tem o propÃ³sito de descrever e explicar um determinado fato ou fenÃ´meno. Dessa forma, a teoria Ã© o que determina a prÃ¡tica de uma dada atividade.&lt;/span &gt;&lt;span class=&quot;text282Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text282Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text282Font3&quot;  &gt;o sÃ©culo V a.C., o filÃ³sofo grego Leucipo formulou uma teoria para explicar a composiÃ§Ã£o de todas as coisas do Universo. De acordo com essa teoria, tudo seria formado por Ã¡tomos (do grego a que significa &quot;nÃ£o&quot;, e tomos, que quer dizer &quot;divisÃ­vel&quot;), pequenas estruturas que se uniriam para formar estruturas maiores. DemÃ³crito (460-370 a.C.), discÃ­pulo de Leucipo, aperfeiÃ§oou e propagou essa teoria.&lt;/span &gt;&lt;span class=&quot;text282Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Ao passar do tempo, com o crescimento da demanda e o surgimento de novas necessidades, esses processos foram sendo aperfei\&apos;e7oados, e para isso foi preciso entender as caracter\&apos;edsticas e a constitui\&apos;e7\&apos;e3o da mat\&apos;e9ria &#x0A;para que suas propriedades pudessem ser exploradas e os processos de transforma\&apos;e7\&apos;e3o dominados.\par\par\fs36\b A import\&apos;e2ncia da teoria\fs28\b0\par\par Uma teoria \&apos;e9 basicamente um conjunto organizado de ideias, conceitos e princ\&apos;edpios que tem &#x0A;o prop\&apos;f3sito de descrever e explicar um determinado fato ou fen\&apos;f4meno. Dessa forma, a teoria \&apos;e9 o que determina a pr\&apos;e1tica de uma dada atividade.\hich\f2\loch\f2\par\par o s\u233 \&apos;e9culo V a.C., o fil\u243 \&apos;f3sofo grego Leucipo formulou uma &#x0A;teoria para explicar a composi\u231 \&apos;e7\u227 \&apos;e3o de todas as coisas do Universo. De acordo com essa teoria, tudo seria formado por \u225 \&apos;e1tomos (do grego a que significa &quot;n\u227 \&apos;e3o&quot;, e tomos, que quer dizer &quot;divis\u237 \&apos;edvel&quot;), pequenas estruturas &#x0A;que se uniriam para formar estruturas maiores. Dem\u243 \&apos;f3crito (460-370 a.C.), disc\u237 \&apos;edpulo de Leucipo, aperfei\u231 \&apos;e7oou e propagou essa teoria.\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Ao passar do tempo, com o crescimento da demanda e o surgimento de novas necessidades, esses processos foram sendo aperfei�oados, e para isso foi preciso entender as caracter�sticas e a constitui��o da mat�ria para que suas propriedades pudessem ser exploradas e os processos de transforma��o dominados.&#x0A;&#x0A;A import�ncia da teoria&#x0A;&#x0A;Uma teoria � basicamente um conjunto organizado de ideias, conceitos e princ�pios que tem o prop�sito de descrever e explicar um determinado fato ou fen�meno. Dessa forma, a teoria � o que determina a pr�tica de uma dada atividade.&#x0A;&#x0A;o s�culo V a.C., o fil�sofo grego Leucipo formulou uma teoria para explicar a composi��o de todas as coisas do Universo. De acordo com essa teoria, tudo seria formado por �tomos (do grego a que significa &quot;n�o&quot;, e tomos, que quer dizer &quot;divis�vel&quot;), pequenas estruturas que se uniriam para formar estruturas maiores. Dem�crito (460-370 a.C.), disc�pulo de Leucipo, aperfei�oou e propagou essa teoria.</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="168" parent="167">
+<name>Grupo_1</name>
+<lastupdated>1687188014</lastupdated>
+<shape id="170" parent="168" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687188013</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="172" parent="168" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687188013</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="174" parent="168" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687188013</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="175" parent="168" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687188013</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text175Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text175Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text175Font1&quot;  &gt;Conhecendo a QuÃ­mica&lt;/span &gt;&lt;span class=&quot;text175Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Conhecendo a Qu\&apos;edmica\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Conhecendo a Qu�mica</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="177" parent="168" resource="180" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687188013</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="179" parent="168" resource="181" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687188013</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="264" parent="53">
+<name>Página 3</name>
+<lastupdated>1687188342</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="425" parent="264" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687188312</lastupdated>
+<possize>
+<point>
+<x>538</x>
+<y>79</y>
+</point>
+<size>
+<cx>433</cx>
+<cy>558</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text425Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text425Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text425Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text425Font1&quot;  &gt;Mesmo teorias jÃ¡ estabelecidas estÃ£o sujeitas a novos testes e, nÃ£o raro, sÃ£o reformuladas ou mesmo substituÃ­das. Esse Ã© um processo geralmente complexo e demorado, porque envolve o julgamento das evidÃªncias pelos cientistas, que tambÃ©m estÃ£o sujeitos a fatores como a polÃ­tica, a economia ou a religiÃ£o. Afinal, a ciÃªncia Ã© tambÃ©m uma construÃ§Ã£o humana.&lt;/span &gt;&lt;span class=&quot;text425Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text425Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text425Font3&quot;  &gt;A quÃ­mica na indÃºstria&lt;/span &gt;&lt;span class=&quot;text425Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text425Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text425Font1&quot;  &gt;O fermento biolÃ³gico que pode ser comprado em mercados e padarias Ã© um produto industrializado. Como ele Ã© produzido&lt;/span &gt;&lt;span class=&quot;text425Font2&quot;  &gt;?&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text425Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text425Font2&quot;  &gt;Para que a indÃºstria produza uma substÃ¢ncia ou obtenha uma que esteja originalmente misturada a diversas outras na natureza, Ã© necessÃ¡ria uma etapa de pesquisa. Podem existir vÃ¡rios mÃ©todos para produzir uma substÃ¢ncia, cada qual com suas implicaÃ§Ãµes (econÃ´micas, ambientais etc.). Por isso, Ã© comum que profissionais de diferentes Ã¡reas, nÃ£o apenas quÃ­micos, participem da fase de pesquisa, pois alguns aspectos exigem diferentes especialidades, como as de um fÃ­sico, biÃ³logo ou economista, entre outros.&lt;/span &gt;&lt;span class=&quot;text425Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Mesmo teorias j\&apos;e1 estabelecidas est\&apos;e3o sujeitas a novos testes e, n\&apos;e3o raro, s\&apos;e3o reformuladas ou mesmo substitu\&apos;eddas. Esse \&apos;e9 um processo geralmente complexo e demorado, porque envolve o julgamento das evid\&apos;eancias &#x0A;pelos cientistas, que tamb\&apos;e9m est\&apos;e3o sujeitos a fatores como a pol\&apos;edtica, a economia ou a religi\&apos;e3o. Afinal, a ci\&apos;eancia \&apos;e9 tamb\&apos;e9m uma constru\&apos;e7\&apos;e3o humana.\hich\f2\loch\f2\par\hich\f1\loch\f1\par\fs36\b A qu\&apos;edmica na ind\&apos;fastria\hich\f2\loch\f2\fs28\b0\par\hich\f1\loch\f1\par &#x0A;O fermento biol\&apos;f3gico que pode ser comprado em mercados e padarias \&apos;e9 um produto industrializado. Como ele \&apos;e9 produzido\hich\f2\loch\f2 ?\par\par Para que a ind\&apos;fastria produza uma subst\&apos;e2ncia ou obtenha uma que esteja originalmente misturada &#x0A;a diversas outras na natureza, \&apos;e9 necess\&apos;e1ria uma etapa de pesquisa. Podem existir v\&apos;e1rios m\&apos;e9todos para produzir uma subst\&apos;e2ncia, cada qual com suas implica\&apos;e7\&apos;f5es (econ\&apos;f4micas, ambientais etc.). Por isso, \&apos;e9 comum que profissionais &#x0A;de diferentes \&apos;e1reas, n\&apos;e3o apenas qu\&apos;edmicos, participem da fase de pesquisa, pois alguns aspectos exigem diferentes especialidades, como as de um f\&apos;edsico, bi\&apos;f3logo ou economista, entre outros.\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Mesmo teorias j? estabelecidas est?o sujeitas a novos testes e, n?o raro, s?o reformuladas ou mesmo substitu?das. Esse ? um processo geralmente complexo e demorado, porque envolve o julgamento das evid?ncias pelos cientistas, que tamb?m est?o sujeitos a fatores como a pol?tica, a economia ou a religi?o. Afinal, a ci?ncia ? tamb?m uma constru??o humana.&#x0A;A qu?mica na ind?stria&#x0A;O fermento biol?gico que pode ser comprado em mercados e padarias ? um produto industrializado. Como ele ? produzido?&#x0A;Para que a ind?stria produza uma subst?ncia ou obtenha uma que esteja originalmente misturada a diversas outras na natureza, ? necess?ria uma etapa de pesquisa. Podem existir v?rios m?todos para produzir uma subst?ncia, cada qual com suas implica??es (econ?micas, ambientais etc.). Por isso, ? comum que profissionais de diferentes ?reas, n?o apenas qu?micos, participem da fase de pesquisa, pois alguns aspectos exigem diferentes especialidades, como as de um f?sico, bi?logo ou economista, entre outros.</raw>
+<numoflines>26</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="374" parent="264" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687188201</lastupdated>
+<possize>
+<point>
+<x>51</x>
+<y>131</y>
+</point>
+<size>
+<cx>416</cx>
+<cy>492</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text374Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text374Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text374Font1&quot;  &gt;Outro filÃ³sofo grego, EmpÃ©docles (490-430 a.C.), formulou uma teoria segundo a qual tudo Ã© constituÃ­do de quatro elementos bÃ¡sicos: fogo, terra, ar e Ã¡gua. Tanto a teoria de EmpÃ©docles quanto a de Leucipo, embora baseadas em observaÃ§Ãµes da natureza, nÃ£o puderam ser comprovadas, apenas debatidas.&lt;/span &gt;&lt;span class=&quot;text374Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text374Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text374Font2&quot;  &gt;Com o desenvolvimento da ciÃªncia, no entanto, o &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text374Font2&quot;  &gt;estabelecimento de teorias tornou-se mais rigoroso. Uma teoria cientÃ­fica precisa estar fundamentada em fatos (e nÃ£o mente em ideias filosÃ³ficas), deve explicar o mundo natural e ajudar a prever fenÃ´menos semelhantes.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text374Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text374Font2&quot;  &gt;Uma ideia que seja candidata a se tornar teoria cientÃ­fica Ã© chamada de hipÃ³tese, e deve ser rigorosamente testada para assegurar que cumpre os requisitos de teoria. A observaÃ§Ã£o e a experimentaÃ§Ã£o sÃ£o comuns no teste de hipÃ³teses, mas outros tipos de testes sÃ£o importantes, como a comparaÃ§Ã£o com outras teorias.&lt;/span &gt;&lt;span class=&quot;text374Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Outro fil\&apos;f3sofo grego, Emp\&apos;e9docles (490-430 a.C.), formulou uma teoria segundo a qual tudo \&apos;e9 constitu\&apos;eddo de quatro elementos b\&apos;e1sicos: fogo, terra, ar e \&apos;e1gua. Tanto a teoria de Emp\&apos;e9docles quanto a de &#x0A;Leucipo, embora baseadas em observa\&apos;e7\&apos;f5es da natureza, n\&apos;e3o puderam ser comprovadas, apenas debatidas.\lang1046\hich\f2\loch\f2\par\par Com o desenvolvimento da ci\&apos;eancia, no entanto, o \par estabelecimento de teorias tornou-se mais rigoroso. Uma &#x0A;teoria cient\&apos;edfica precisa estar fundamentada em fatos (e n\&apos;e3o mente em ideias filos\&apos;f3ficas), deve explicar o mundo natural e ajudar a prever fen\&apos;f4menos semelhantes.\par\par Uma ideia que seja candidata a se tornar teoria cient\&apos;edfica \&apos;e9 chamada &#x0A;de hip\&apos;f3tese, e deve ser rigorosamente testada para assegurar que cumpre os requisitos de teoria. A observa\&apos;e7\&apos;e3o e a experimenta\&apos;e7\&apos;e3o s\&apos;e3o comuns no teste de hip\&apos;f3teses, mas outros tipos de testes s\&apos;e3o importantes, como a compara\&apos;e7\&apos;e3o &#x0A;com outras teorias.\lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Outro fil?sofo grego, Emp?docles (490-430 a.C.), formulou uma teoria segundo a qual tudo ? constitu?do de quatro elementos b?sicos: fogo, terra, ar e ?gua. Tanto a teoria de Emp?docles quanto a de Leucipo, embora baseadas em observa??es da natureza, n?o puderam ser comprovadas, apenas debatidas.&#x0A;Com o desenvolvimento da ci?ncia, no entanto, o &#x0A;estabelecimento de teorias tornou-se mais rigoroso. Uma teoria cient?fica precisa estar fundamentada em fatos (e n?o mente em ideias filos?ficas), deve explicar o mundo natural e ajudar a prever fen?menos semelhantes.&#x0A;Uma ideia que seja candidata a se tornar teoria cient?fica ? chamada de hip?tese, e deve ser rigorosamente testada para assegurar que cumpre os requisitos de teoria. A observa??o e a experimenta??o s?o comuns no teste de hip?teses, mas outros tipos de testes s?o importantes, como a compara??o com outras teorias.</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="362" parent="264">
+<name>Grupo_1</name>
+<lastupdated>1687188122</lastupdated>
+<shape id="364" parent="362" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687188122</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="366" parent="362" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687188122</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="368" parent="362" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687188122</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="369" parent="362" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687188122</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text369Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text369Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text369Font1&quot;  &gt;Conhecendo a QuÃ­mica&lt;/span &gt;&lt;span class=&quot;text369Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Conhecendo a Qu\&apos;edmica\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Conhecendo a Qu?mica</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="371" parent="362" resource="180" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687188122</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="373" parent="362" resource="181" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687188122</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="514" parent="53">
+<name>Página 4</name>
+<lastupdated>1687188440</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="528" parent="514" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687188394</lastupdated>
+<possize>
+<point>
+<x>51</x>
+<y>137</y>
+</point>
+<size>
+<cx>421</cx>
+<cy>433</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text528Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text528Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-style:italic;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text528Font1&quot;  &gt;A pesquisa indica ou desenvolve a tÃ©cnica mais adequada para cada caso. Essa tÃ©cnica define, por exemplo, as matÃ©rias-primas necessÃ¡rias, as transformaÃ§Ãµes quÃ­micas, as condiÃ§Ãµes e os rendimentos dos processos. Muitas vezes, para a obtenÃ§Ã£o de um determinado produto, Ã© preciso aplicar diversas tÃ©cnicas. Esse conjunto de tÃ©cnicas constitui uma tecnologia, termo que provÃ©m do grego &lt;/span &gt;&lt;span class=&quot;text528Font2&quot;  &gt;tekhnologÃ­a&lt;/span &gt;&lt;span class=&quot;text528Font1&quot;  &gt; e significa o conjunto de conhecimentos, espe-cialmente princÃ­pios cientÃ­ficos, que se aplicam a um determinado ramo de atividade. Observe no esquema a seguir como a tecnologia foi aplicada Ã  produÃ§Ã£o industrial de fermento. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 A pesquisa indica ou desenvolve a t\&apos;e9cnica mais adequada para cada caso. Essa t\&apos;e9cnica define, por exemplo, as mat\&apos;e9rias-primas necess\&apos;e1rias, as transforma\&apos;e7\&apos;f5es qu\&apos;edmicas, as condi\&apos;e7\&apos;f5es e os rendimentos &#x0A;dos processos. Muitas vezes, para a obten\&apos;e7\&apos;e3o de um determinado produto, \&apos;e9 preciso aplicar diversas t\&apos;e9cnicas. Esse conjunto de t\&apos;e9cnicas constitui uma tecnologia, termo que prov\&apos;e9m do grego \i tekhnolog\&apos;eda\i0  e significa o conjunto de &#x0A;conhecimentos, espe-cialmente princ\&apos;edpios cient\&apos;edficos, que se aplicam a um determinado ramo de atividade. Observe no esquema a seguir como a tecnologia foi aplicada \&apos;e0 produ\&apos;e7\&apos;e3o industrial de fermento. \par}&#x0A;</rtf>
+<raw>?A pesquisa indica ou desenvolve a t?cnica mais adequada para cada caso. Essa t?cnica define, por exemplo, as mat?rias-primas necess?rias, as transforma??es qu?micas, as condi??es e os rendimentos dos processos. Muitas vezes, para a obten??o de um determinado produto, ? preciso aplicar diversas t?cnicas. Esse conjunto de t?cnicas constitui uma tecnologia, termo que prov?m do grego tekhnolog?a e significa o conjunto de conhecimentos, espe-cialmente princ?pios cient?ficos, que se aplicam a um determinado ramo de atividade. Observe no esquema a seguir como a tecnologia foi aplicada ? produ??o industrial de fermento. </raw>
+<numoflines>14</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="516" parent="514">
+<name>Grupo_1</name>
+<lastupdated>1687188345</lastupdated>
+<shape id="518" parent="516" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687188345</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="520" parent="516" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687188345</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="522" parent="516" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687188345</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="523" parent="516" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687188345</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text523Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text523Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text523Font1&quot;  &gt;Conhecendo a QuÃ­mica&lt;/span &gt;&lt;span class=&quot;text523Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Conhecendo a Qu\&apos;edmica\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Conhecendo a Qu?mica</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="525" parent="516" resource="180" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687188345</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="527" parent="516" resource="181" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687188345</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="560" parent="53">
+<name>Página 5</name>
+<lastupdated>1687188726</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="637" parent="560" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687188528</lastupdated>
+<possize>
+<point>
+<x>134</x>
+<y>588</y>
+</point>
+<size>
+<cx>740</cx>
+<cy>57</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text637Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text637Font2 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text637Font1&quot;  &gt;Fonte de consultada da imagem: DisponÃ­vel em: &amp;lt;http://www.exploreyeast.com/article/yeast-production&amp;gt;. Acesso em: mar. 2020. Â© ILUSTRAÃ‡Ã•ES: ADILSON SECCO&lt;/span &gt;&lt;span class=&quot;text637Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ql\hich\f2\loch\f2\cf2\fs22\b Fonte de consultada da imagem: Dispon\&apos;edvel em: &lt;http://www.exploreyeast.com/article/yeast-production&gt;. Acesso em: mar. 2020. \&apos;a9\lang1046\hich\f2\loch\f2  \lang1046\hich\f2\loch\f2 ILUSTRA\&apos;c7\&apos;d5ES: &#x0A;ADILSON SECCO\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Fonte de consultada da imagem: Dispon?vel em: &lt;http://www.exploreyeast.com/article/yeast-production&gt;. Acesso em: mar. 2020. ? ILUSTRA??ES: ADILSON SECCO</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="587" parent="560" resource="586" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687188513</lastupdated>
+<possize>
+<point>
+<x>141</x>
+<y>97</y>
+</point>
+<size>
+<cx>727</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<objgroup id="562" parent="560">
+<name>Grupo_1</name>
+<lastupdated>1687188451</lastupdated>
+<shape id="564" parent="562" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687188443</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="566" parent="562" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687188443</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="568" parent="562" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687188443</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="569" parent="562" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687188443</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text569Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text569Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text569Font1&quot;  &gt;Conhecendo a QuÃ­mica&lt;/span &gt;&lt;span class=&quot;text569Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Conhecendo a Qu\&apos;edmica\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Conhecendo a Qu?mica</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="573" parent="562" resource="181" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687188443</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="707" parent="53">
+<name>Página 6</name>
+<lastupdated>1687189029</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="887" parent="707" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 4</name>
+<lastupdated>1687188908</lastupdated>
+<possize>
+<point>
+<x>525</x>
+<y>123</y>
+</point>
+<size>
+<cx>448</cx>
+<cy>473</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text887Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text887Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text887Font1&quot;  &gt;Na verdade, o desenvolvimento cientÃ­fico Ã© um processo mais complexo, pois o conhecimento humano estÃ¡ em construÃ§Ã£o permanente, e ideias antigas e novas podem conviver por longos perÃ­odos.&lt;/span &gt;&lt;span class=&quot;text887Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text887Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text887Font2&quot;  &gt;Existem momentos na histÃ³ria em que o avanÃ§o cientÃ­fico pode parecer mais rÃ¡pido ou mais lento. No Brasil, as pesquisas cientÃ­ficas em quÃ­mica sÃ³ se intensificaram a partir de 1934, com a contrataÃ§Ã£o de quÃ­micos judeus expulsos de sua terra natal, a Alemanha. Em 1969, houve um novo impulso. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text887Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text887Font2&quot;  &gt;Jovens cientistas brasileiros foram enviados aos Estados Unidos para trazer tecnologias que pudessem fortalecer a indÃºstria nacional. O desenvolvimento cientÃ­fico tem sido financiado desde entÃ£o com recursos de instituiÃ§Ãµes governamentais, principalmente, e tambÃ©m privadas&lt;/span &gt;&lt;span class=&quot;text887Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red128\green128\blue128 ;}&#x0A;{\stylesheet{\f1\fs24\cf0\cb1\ulc0 Normal;}{\cs1\cf0\cb1\ulc0 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf3\fs28 Na verdade, o desenvolvimento cient\&apos;edfico \&apos;e9 um processo mais complexo, pois o conhecimento humano est\&apos;e1 em constru\&apos;e7\&apos;e3o permanente, e ideias antigas e novas podem conviver por longos per\&apos;edodos.\lang1046\hich\f2\loch\f2\par\par &#x0A;Existem momentos na hist\&apos;f3ria em que o avan\&apos;e7o cient\&apos;edfico pode parecer mais r\&apos;e1pido ou mais lento. No Brasil, as pesquisas cient\&apos;edficas em qu\&apos;edmica s\&apos;f3 se intensificaram a partir de 1934, com a contrata\&apos;e7\&apos;e3o de qu\&apos;edmicos judeus expulsos &#x0A;de sua terra natal, a Alemanha. Em 1969, houve um novo impulso. \par\par Jovens cientistas brasileiros foram enviados aos Estados Unidos para trazer tecnologias que pudessem fortalecer a ind\&apos;fastria nacional. O desenvolvimento cient\&apos;edfico tem sido &#x0A;financiado desde ent\&apos;e3o com recursos de institui\&apos;e7\&apos;f5es governamentais, principalmente, e tamb\&apos;e9m privadas\lang1046\hich\f1\loch\f1\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Na verdade, o desenvolvimento cient?fico ? um processo mais complexo, pois o conhecimento humano est? em constru??o permanente, e ideias antigas e novas podem conviver por longos per?odos.&#x0A;Existem momentos na hist?ria em que o avan?o cient?fico pode parecer mais r?pido ou mais lento. No Brasil, as pesquisas cient?ficas em qu?mica s? se intensificaram a partir de 1934, com a contrata??o de qu?micos judeus expulsos de sua terra natal, a Alemanha. Em 1969, houve um novo impulso. &#x0A;Jovens cientistas brasileiros foram enviados aos Estados Unidos para trazer tecnologias que pudessem fortalecer a ind?stria nacional. O desenvolvimento cient?fico tem sido financiado desde ent?o com recursos de institui??es governamentais, principalmente, e tamb?m privadas&#x0A;</raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="825" parent="707" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687188857</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>508</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text825Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text825Font1&quot;  &gt;Muitas vezes, o avanÃ§o da ciÃªncia pode parecer algo linear, como se novos dados fossem se somando aos jÃ¡ existentes, e velhas tecnologias fossem sendo substituÃ­das. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Muitas vezes, o avan\&apos;e7o da ci\&apos;eancia pode parecer algo linear, como se novos dados fossem se somando aos j\&apos;e1 existentes, e velhas tecnologias fossem sendo substitu\&apos;eddas. \par}&#x0A;</rtf>
+<raw>?Muitas vezes, o avan?o da ci?ncia pode parecer algo linear, como se novos dados fossem se somando aos j? existentes, e velhas tecnologias fossem sendo substitu?das. </raw>
+<numoflines>4</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="787" parent="707" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687188841</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>409</y>
+</point>
+<size>
+<cx>431</cx>
+<cy>70</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text787Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text787Font2 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text787Font1&quot;  &gt;Fonte de consultada da imagem: DisponÃ­vel em: &amp;lt;metrÃ³poles.com/saÃºde/fiocruz-consegue-liberar-2a-remessa-de-insumos-para-produÃ§Ã£o-de_vacina&amp;gt;. Acesso em: abr. 2021. Danny Lawson/PA imagens.&lt;/span &gt;&lt;span class=&quot;text787Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs22\ql\hich\f2\loch\f2\b Fonte de consultada da imagem: Dispon\&apos;edvel em: &lt;metr\&apos;f3poles.com/sa\&apos;fade/fiocruz-consegue-liberar-2a\lang1046\hich\f2\loch\f2 -\lang1046\hich\f2\loch\f2 remessa-de-insumos-para-produ\&apos;e7\&apos;e3o-de_vacina&gt;. &#x0A;Acesso em: abr. 2021. Danny Lawson/PA imagens.\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Fonte de consultada da imagem: Dispon?vel em: &lt;metr?poles.com/sa?de/fiocruz-consegue-liberar-2a-remessa-de-insumos-para-produ??o-de_vacina&gt;. Acesso em: abr. 2021. Danny Lawson/PA imagens.</raw>
+<numoflines>4</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="761" parent="707" resource="760" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687188837</lastupdated>
+<possize>
+<point>
+<x>50</x>
+<y>152</y>
+</point>
+<size>
+<cx>386</cx>
+<cy>254</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="722" parent="707" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687188758</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>129</y>
+</point>
+<size>
+<cx>277</cx>
+<cy>34</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text722Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text722Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text722Font1&quot;  &gt;O avanÃ§o da ciÃªncia&lt;/span &gt;&lt;span class=&quot;text722Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs36\ql\hich\f2\loch\f2\b O avan\&apos;e7o da ci\&apos;eancia\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?O avan?o da ci?ncia</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="710" parent="707">
+<name>Grupo_1</name>
+<lastupdated>1687188733</lastupdated>
+<shape id="712" parent="710" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687188733</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="714" parent="710" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687188733</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="716" parent="710" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687188733</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="717" parent="710" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687188733</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text717Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text717Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text717Font1&quot;  &gt;Conhecendo a QuÃ­mica&lt;/span &gt;&lt;span class=&quot;text717Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Conhecendo a Qu\&apos;edmica\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Conhecendo a Qu?mica</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="719" parent="710" resource="180" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687188733</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="721" parent="710" resource="181" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687188733</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="943" parent="53">
+<name>Página 7</name>
+<lastupdated>1687189762</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<shape id="1239" parent="943" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687189404</lastupdated>
+<possize>
+<point>
+<x>581</x>
+<y>527</y>
+</point>
+<size>
+<cx>332</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<text id="1237" parent="943" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687189429</lastupdated>
+<possize>
+<point>
+<x>589</x>
+<y>534</y>
+</point>
+<size>
+<cx>316</cx>
+<cy>91</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1237Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff; font-weight:bold;}&#x0A;span.text1237Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff;}&#x0A;span.text1237Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1237Font1&quot;  &gt;3. HipÃ³tese&lt;/span &gt;&lt;span class=&quot;text1237Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1237Font2&quot;  &gt;A falta de polÃ­ticas pÃºblicas contribui para&lt;/span &gt;&lt;span class=&quot;text1237Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text1237Font2&quot;  &gt;a grande quantidade de lixo espalhado?&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}{\f3 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qc\hich\f2\loch\f2\cf1\b 3. Hip\&apos;f3tese\b0\par A falta de pol\&apos;edticas p\&apos;fablicas contribui para\lang1046\hich\f3\loch\f3  \lang1046\hich\f2\loch\f2 a grande quantidade de lixo espalhado?\par}&#x0A;</rtf>
+<raw>?3. Hip?tese&#x0A;A falta de pol?ticas p?blicas contribui para a grande quantidade de lixo espalhado?</raw>
+<numoflines>4</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1072" parent="943" ontop="false" fixed="false" proportional="false">
+<name>Seta para baixo</name>
+<lastupdated>1687189221</lastupdated>
+<possize>
+<point>
+<x>711</x>
+<y>280</y>
+</point>
+<size>
+<cx>73</cx>
+<cy>62</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>10400</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="45000" />
+<controlpoint value="43" />
+</handledata>
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<shape id="1048" parent="943" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687189206</lastupdated>
+<possize>
+<point>
+<x>581</x>
+<y>172</y>
+</point>
+<size>
+<cx>332</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<text id="1025" parent="943" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687189146</lastupdated>
+<possize>
+<point>
+<x>538</x>
+<y>127</y>
+</point>
+<size>
+<cx>433</cx>
+<cy>32</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1025Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1025Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1025Font1&quot;  &gt;Etapas do mÃ©todo cientÃ­fico&lt;/span &gt;&lt;span class=&quot;text1025Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs36\qj\hich\f2\loch\f2\b Etapas do m\&apos;e9todo cient\&apos;edfico\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Etapas do m?todo cient?fico</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="957" parent="943" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687189114</lastupdated>
+<possize>
+<point>
+<x>46</x>
+<y>127</y>
+</point>
+<size>
+<cx>433</cx>
+<cy>481</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text957Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text957Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text957Font1&quot;  &gt;O avanÃ§o da ciÃªncia Ã© fortemente influenciado pelos interesses da sociedade. Atualmente, programas governamentais incentivam a inovaÃ§Ã£o, e a opiniÃ£o pÃºblica pressiona as indÃºstrias a desenvolverem novos mÃ©todos que causem menor impacto ambiental. Aprimorar mÃ©todos para gerar menos resÃ­duos Ã©, sem dÃºvida, um grande avanÃ§o da ciÃªncia, seja pela reinterpretaÃ§Ã£o de dados antigos, seja por meio de novas descobertas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text957Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text957Font2&quot;  &gt;MÃ©todo cientÃ­fico&lt;/span &gt;&lt;span class=&quot;text957Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text957Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text957Font1&quot;  &gt;Ao longo do tempo, o modo de fazer ciÃªncia sofreu modificaÃ§Ãµes. Teorias mais antigas passaram a ser contestadas e substituÃ­das por outras que podiam ser evidenciadas por experimentos, algo que Ã© muito valorizado. A partir do sÃ©culo XVII, comeÃ§ou-se a padronizar um conjunto de procedimentos que serviriam de base para chegar a uma teoria confiÃ¡vel. Surgia assim o mÃ©todo cientÃ­fico .&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 O avan\&apos;e7o da ci\&apos;eancia \&apos;e9 fortemente influenciado pelos interesses da sociedade. Atualmente, programas governamentais incentivam a inova\&apos;e7\&apos;e3o, e a opini\&apos;e3o p\&apos;fablica pressiona as ind\&apos;fastrias a desenvolverem &#x0A;novos m\&apos;e9todos que causem menor impacto ambiental. Aprimorar m\&apos;e9todos para gerar menos res\&apos;edduos \&apos;e9, sem d\&apos;favida, um grande avan\&apos;e7o da ci\&apos;eancia, seja pela reinterpreta\&apos;e7\&apos;e3o de dados antigos, seja por meio de novas descobertas.\par\par\fs36\b &#x0A;M\&apos;e9todo cient\&apos;edfico\fs28\b0\par\par Ao longo do tempo, o modo de fazer ci\&apos;eancia sofreu modifica\&apos;e7\&apos;f5es. Teorias mais antigas passaram a ser contestadas e substitu\&apos;eddas por outras que podiam ser evidenciadas por experimentos, algo que \&apos;e9 muito &#x0A;valorizado. A partir do s\&apos;e9culo XVII, come\&apos;e7ou-se a padronizar um conjunto de procedimentos que serviriam de base para chegar a uma teoria confi\&apos;e1vel. Surgia assim o m\&apos;e9todo cient\&apos;edfico .\par}&#x0A;</rtf>
+<raw>?O avan?o da ci?ncia ? fortemente influenciado pelos interesses da sociedade. Atualmente, programas governamentais incentivam a inova??o, e a opini?o p?blica pressiona as ind?strias a desenvolverem novos m?todos que causem menor impacto ambiental. Aprimorar m?todos para gerar menos res?duos ?, sem d?vida, um grande avan?o da ci?ncia, seja pela reinterpreta??o de dados antigos, seja por meio de novas descobertas.&#x0A;M?todo cient?fico&#x0A;Ao longo do tempo, o modo de fazer ci?ncia sofreu modifica??es. Teorias mais antigas passaram a ser contestadas e substitu?das por outras que podiam ser evidenciadas por experimentos, algo que ? muito valorizado. A partir do s?culo XVII, come?ou-se a padronizar um conjunto de procedimentos que serviriam de base para chegar a uma teoria confi?vel. Surgia assim o m?todo cient?fico .</raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="945" parent="943">
+<name>Grupo_1</name>
+<lastupdated>1687189032</lastupdated>
+<shape id="947" parent="945" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687189032</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="949" parent="945" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687189032</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="951" parent="945" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687189032</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="952" parent="945" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687189032</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text952Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text952Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text952Font1&quot;  &gt;Conhecendo a QuÃ­mica&lt;/span &gt;&lt;span class=&quot;text952Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Conhecendo a Qu\&apos;edmica\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Conhecendo a Qu?mica</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="954" parent="945" resource="180" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687189032</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="956" parent="945" resource="181" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687189032</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+<text id="1111" parent="943" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687189324</lastupdated>
+<possize>
+<point>
+<x>589</x>
+<y>179</y>
+</point>
+<size>
+<cx>316</cx>
+<cy>96</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1111Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff; font-weight:bold;}&#x0A;span.text1111Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1111Font1&quot;  &gt;1. ObservaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text1111Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1111Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1111Font2&quot;  &gt;Lixo espalhado na cidade Ã© um problema grande?&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red255\green255\blue255 ;\red0\green0\blue0 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb0\ulc3 Normal;}{\cs1\cf3\cb0\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs24\qc\fs28\b 1. Observa\&apos;e7\&apos;e3o\b0\par\par Lixo espalhado na cidade \&apos;e9 um problema grande?\par}&#x0A;</rtf>
+<raw>?1. Observa??o&#x0A;Lixo espalhado na cidade ? um problema grande?</raw>
+<numoflines>4</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1199" parent="943" ontop="false" fixed="false" proportional="false">
+<name>Seta para baixo</name>
+<lastupdated>1687189386</lastupdated>
+<possize>
+<point>
+<x>711</x>
+<y>455</y>
+</point>
+<size>
+<cx>73</cx>
+<cy>62</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>10400</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="45000" />
+<controlpoint value="43" />
+</handledata>
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<shape id="1197" parent="943" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687189386</lastupdated>
+<possize>
+<point>
+<x>581</x>
+<y>347</y>
+</point>
+<size>
+<cx>332</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<text id="1195" parent="943" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687189386</lastupdated>
+<possize>
+<point>
+<x>589</x>
+<y>354</y>
+</point>
+<size>
+<cx>316</cx>
+<cy>89</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1195Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff; font-weight:bold;}&#x0A;span.text1195Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1195Font1&quot;  &gt;2. Pergunta&lt;/span &gt;&lt;span class=&quot;text1195Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1195Font2&quot;  &gt;A falta de polÃ­ticas pÃºblicas contribui para a grande quantidade de lixo espalhado?&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qc\hich\f2\loch\f2\cf1\b 2. Pergunta\b0\par A falta de pol\&apos;edticas p\&apos;fablicas contribui para a grande quantidade de lixo espalhado?\par}&#x0A;</rtf>
+<raw>?2. Pergunta&#x0A;A falta de pol?ticas p?blicas contribui para a grande quantidade de lixo espalhado?</raw>
+<numoflines>4</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+</page>
+<page id="1266" parent="53">
+<name>Página 8</name>
+<lastupdated>1687189921</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<shape id="2080" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Seta para baixo</name>
+<lastupdated>1687189898</lastupdated>
+<possize>
+<point>
+<x>714</x>
+<y>415</y>
+</point>
+<size>
+<cx>73</cx>
+<cy>62</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>10400</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="45000" />
+<controlpoint value="43" />
+</handledata>
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<shape id="2043" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687189892</lastupdated>
+<possize>
+<point>
+<x>584</x>
+<y>486</y>
+</point>
+<size>
+<cx>332</cx>
+<cy>89</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<shape id="1951" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Seta para baixo</name>
+<lastupdated>1687189851</lastupdated>
+<possize>
+<point>
+<x>714</x>
+<y>295</y>
+</point>
+<size>
+<cx>73</cx>
+<cy>62</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>10400</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="45000" />
+<controlpoint value="43" />
+</handledata>
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<shape id="1944" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687189831</lastupdated>
+<possize>
+<point>
+<x>584</x>
+<y>368</y>
+</point>
+<size>
+<cx>332</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<text id="1942" parent="1266" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687189835</lastupdated>
+<possize>
+<point>
+<x>592</x>
+<y>372</y>
+</point>
+<size>
+<cx>316</cx>
+<cy>30</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1942Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff; font-weight:bold;}&#x0A;span.text1942Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1942Font1&quot;  &gt;7. Explica a observaÃ§Ã£o?&lt;/span &gt;&lt;span class=&quot;text1942Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qc\hich\f2\loch\f2\cf1\b 7. Explica a observa\&apos;e7\&apos;e3o?\b0\par}&#x0A;</rtf>
+<raw>?7. Explica a observa??o?</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1907" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Seta para baixo</name>
+<lastupdated>1687189771</lastupdated>
+<possize>
+<point>
+<x>835</x>
+<y>121</y>
+</point>
+<size>
+<cx>73</cx>
+<cy>62</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>10400</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="45000" />
+<controlpoint value="43" />
+</handledata>
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<shape id="1905" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Seta para baixo</name>
+<lastupdated>1687189771</lastupdated>
+<possize>
+<point>
+<x>596</x>
+<y>121</y>
+</point>
+<size>
+<cx>73</cx>
+<cy>62</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>10400</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="45000" />
+<controlpoint value="43" />
+</handledata>
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<shape id="1529" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687189764</lastupdated>
+<possize>
+<point>
+<x>268</x>
+<y>366</y>
+</point>
+<size>
+<cx>208</cx>
+<cy>170</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<shape id="1835" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Seta para baixo</name>
+<lastupdated>1687189764</lastupdated>
+<possize>
+<point>
+<x>349</x>
+<y>543</y>
+</point>
+<size>
+<cx>73</cx>
+<cy>62</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>10400</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="45000" />
+<controlpoint value="43" />
+</handledata>
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<shape id="1833" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Seta para baixo</name>
+<lastupdated>1687189764</lastupdated>
+<possize>
+<point>
+<x>110</x>
+<y>543</y>
+</point>
+<size>
+<cx>73</cx>
+<cy>62</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>10400</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="45000" />
+<controlpoint value="43" />
+</handledata>
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<shape id="1767" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687189771</lastupdated>
+<possize>
+<point>
+<x>584</x>
+<y>189</y>
+</point>
+<size>
+<cx>332</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<text id="1763" parent="1266" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687189771</lastupdated>
+<possize>
+<point>
+<x>592</x>
+<y>196</y>
+</point>
+<size>
+<cx>316</cx>
+<cy>96</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1763Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff; font-weight:bold;}&#x0A;span.text1763Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1763Font1&quot;  &gt;6. Resposta&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1763Font2&quot;  &gt;Ambos os grupos apresentaram &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1763Font2&quot;  &gt;efeitos positivos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qc\hich\f2\loch\f2\cf1\b 6. Resposta\par\b0 Ambos os grupos apresentaram \par efeitos positivos.\par}&#x0A;</rtf>
+<raw>?6. Resposta&#x0A;Ambos os grupos apresentaram &#x0A;efeitos positivos.</raw>
+<numoflines>3</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="2041" parent="1266" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687189889</lastupdated>
+<possize>
+<point>
+<x>592</x>
+<y>493</y>
+</point>
+<size>
+<cx>316</cx>
+<cy>76</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2041Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff; font-weight:bold;}&#x0A;span.text2041Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text2041Font1&quot;  &gt;8. ConclusÃ£o&lt;/span &gt;&lt;span class=&quot;text2041Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text2041Font2&quot;  &gt;DivulgaÃ§Ã£o e discussÃ£o pela &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text2041Font2&quot;  &gt;comunidade.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qc\hich\f2\loch\f2\cf1\b 8. Conclus\&apos;e3o\b0\par Divulga\&apos;e7\&apos;e3o e discuss\&apos;e3o pela \par comunidade.\par}&#x0A;</rtf>
+<raw>?8. Conclus?o&#x0A;Divulga??o e discuss?o pela &#x0A;comunidade.</raw>
+<numoflines>3</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1651" parent="1266" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687189764</lastupdated>
+<possize>
+<point>
+<x>273</x>
+<y>378</y>
+</point>
+<size>
+<cx>198</cx>
+<cy>153</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1651Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff; font-weight:bold;}&#x0A;span.text1651Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1651Font1&quot;  &gt;5.2. ObtenÃ§Ã£o de dados&lt;/span &gt;&lt;span class=&quot;text1651Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1651Font2&quot;  &gt;O quantitativo de pessoal nos &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1651Font2&quot;  &gt;grupos de instruÃ§Ã£o ou de multas voltaram a jogar lixo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qc\hich\f2\loch\f2\cf1\b 5.2. Obten\&apos;e7\&apos;e3o de dados\b0\par O quantitativo de pessoal nos \par grupos de instru\&apos;e7\&apos;e3o ou de multas voltaram a jogar lixo.\par}&#x0A;</rtf>
+<raw>?5.2. Obten??o de dados&#x0A;O quantitativo de pessoal nos &#x0A;grupos de instru??o ou de multas voltaram a jogar lixo.</raw>
+<numoflines>7</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1399" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Seta para baixo</name>
+<lastupdated>1687189764</lastupdated>
+<possize>
+<point>
+<x>349</x>
+<y>299</y>
+</point>
+<size>
+<cx>73</cx>
+<cy>62</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>10400</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="45000" />
+<controlpoint value="43" />
+</handledata>
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<shape id="1289" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687189764</lastupdated>
+<possize>
+<point>
+<x>90</x>
+<y>191</y>
+</point>
+<size>
+<cx>332</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<shape id="1310" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Seta para baixo</name>
+<lastupdated>1687189764</lastupdated>
+<possize>
+<point>
+<x>110</x>
+<y>299</y>
+</point>
+<size>
+<cx>73</cx>
+<cy>62</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>10400</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="45000" />
+<controlpoint value="43" />
+</handledata>
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<shape id="1291" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Seta para baixo</name>
+<lastupdated>1687189764</lastupdated>
+<possize>
+<point>
+<x>220</x>
+<y>128</y>
+</point>
+<size>
+<cx>73</cx>
+<cy>62</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>10400</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="45000" />
+<controlpoint value="43" />
+</handledata>
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<text id="1287" parent="1266" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687189764</lastupdated>
+<possize>
+<point>
+<x>98</x>
+<y>198</y>
+</point>
+<size>
+<cx>316</cx>
+<cy>96</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1287Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff; font-weight:bold;}&#x0A;span.text1287Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1287Font1&quot;  &gt;4. Pesquisa bibliogrÃ¡fica&lt;/span &gt;&lt;span class=&quot;text1287Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1287Font2&quot;  &gt;A cultura das pessoas das cidades e &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1287Font2&quot;  &gt;quais polÃ­ticas pÃºblicas durante um &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1287Font2&quot;  &gt;certo perÃ­odo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qc\hich\f2\loch\f2\cf1\b 4. Pesquisa bibliogr\&apos;e1fica\b0\par A cultura das pessoas das cidades e \par quais pol\&apos;edticas p\&apos;fablicas durante um \par certo per\&apos;edodo.\par}&#x0A;</rtf>
+<raw>?4. Pesquisa bibliogr?fica&#x0A;A cultura das pessoas das cidades e &#x0A;quais pol?ticas p?blicas durante um &#x0A;certo per?odo.</raw>
+<numoflines>4</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1284" parent="1266" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687189764</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>366</y>
+</point>
+<size>
+<cx>208</cx>
+<cy>167</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="085394" />
+</shape>
+<text id="1282" parent="1266" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687189764</lastupdated>
+<possize>
+<point>
+<x>41</x>
+<y>386</y>
+</point>
+<size>
+<cx>198</cx>
+<cy>115</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1282Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff; font-weight:bold;}&#x0A;span.text1282Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#ffffff;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1282Font1&quot;  &gt;5.1. Experimento&lt;/span &gt;&lt;span class=&quot;text1282Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1282Font2&quot;  &gt;Instruindo ou dando multa qual &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text1282Font2&quot;  &gt;implicarÃ¡ mais efeito sobre o cidadÃ£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qc\hich\f2\loch\f2\cf1\b 5.1. Experimento\b0\par Instruindo ou dando multa qual \par implicar\&apos;e1 mais efeito sobre o cidad\&apos;e3o.\par}&#x0A;</rtf>
+<raw>?5.1. Experimento&#x0A;Instruindo ou dando multa qual &#x0A;implicar? mais efeito sobre o cidad?o.</raw>
+<numoflines>5</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="1270" parent="1266">
+<name>Grupo_1</name>
+<lastupdated>1687189764</lastupdated>
+<shape id="1272" parent="1270" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687189804</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1274" parent="1270" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687189804</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1276" parent="1270" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687189804</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1277" parent="1270" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687189804</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1277Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1277Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1277Font1&quot;  &gt;Conhecendo a QuÃ­mica&lt;/span &gt;&lt;span class=&quot;text1277Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Conhecendo a Qu\&apos;edmica\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Conhecendo a Qu?mica</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1279" parent="1270" resource="180" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687189804</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1281" parent="1270" resource="181" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687189804</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="2103" parent="53">
+<name>Página 9</name>
+<lastupdated>1687189929</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="2118" parent="2103" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687190020</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>138</y>
+</point>
+<size>
+<cx>416</cx>
+<cy>467</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2118Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text2118Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2118Font1&quot;  &gt;Conduta CientÃ­fica&lt;/span &gt;&lt;span class=&quot;text2118Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2118Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2118Font2&quot;  &gt;A postura profissional frente Ã s suas experimentaÃ§Ãµes cientÃ­ficas deve ser crÃ­tica, objetiva e racional. Dentre suas qualidades, o(a) pesquisador(a) deve primar pela honestidade, impar-cialidade e liberdade intelectual no desenvolvimento da CiÃªncia. A observaÃ§Ã£o dessas caracterÃ­sticas e qualidades Ã© importante para a credibilidade dos resultados obtidos, permitindo a investigaÃ§Ã£o dos procedimentos e a replicabilidade dos resultados.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2118Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2118Font2&quot;  &gt;A Postura CientÃ­fica estÃ¡ diretamente relacionada Ã  conduta Ã©tica do(a) profissional durante o desenvolvimento da pesquisa. A Ã©tica Ã© fundamental para a produÃ§Ã£o cientÃ­fica de bom nÃ­vel, devendo ser seguida desde a elaboraÃ§Ã£o da pesquisa atÃ© sua publicaÃ§Ã£o&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Conduta Cient\&apos;edfica\fs28\b0\par\par A postura profissional frente \&apos;e0s suas experimenta\&apos;e7\&apos;f5es cient\&apos;edficas deve ser cr\&apos;edtica, objetiva e racional. Dentre suas qualidades, o(a) pesquisador(a) deve primar pela &#x0A;honestidade, impar-cialidade e liberdade intelectual no desenvolvimento da Ci\&apos;eancia. A observa\&apos;e7\&apos;e3o dessas caracter\&apos;edsticas e qualidades \&apos;e9 importante para a credibilidade dos resultados obtidos, permitindo a investiga\&apos;e7\&apos;e3o dos procedimentos &#x0A;e a replicabilidade dos resultados.\par\par A Postura Cient\&apos;edfica est\&apos;e1 diretamente relacionada \&apos;e0 conduta \&apos;e9tica do(a) profissional durante o desenvolvimento da pesquisa. A \&apos;e9tica \&apos;e9 fundamental para a produ\&apos;e7\&apos;e3o cient\&apos;edfica de bom &#x0A;n\&apos;edvel, devendo ser seguida desde a elabora\&apos;e7\&apos;e3o da pesquisa at\&apos;e9 sua publica\&apos;e7\&apos;e3o\par}&#x0A;</rtf>
+<raw>?Conduta Cient?fica&#x0A;A postura profissional frente ?s suas experimenta??es cient?ficas deve ser cr?tica, objetiva e racional. Dentre suas qualidades, o(a) pesquisador(a) deve primar pela honestidade, impar-cialidade e liberdade intelectual no desenvolvimento da Ci?ncia. A observa??o dessas caracter?sticas e qualidades ? importante para a credibilidade dos resultados obtidos, permitindo a investiga??o dos procedimentos e a replicabilidade dos resultados.&#x0A;A Postura Cient?fica est? diretamente relacionada ? conduta ?tica do(a) profissional durante o desenvolvimento da pesquisa. A ?tica ? fundamental para a produ??o cient?fica de bom n?vel, devendo ser seguida desde a elabora??o da pesquisa at? sua publica??o</raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="2179" parent="2103" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687190105</lastupdated>
+<possize>
+<point>
+<x>541</x>
+<y>139</y>
+</point>
+<size>
+<cx>428</cx>
+<cy>490</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2179Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text2179Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text2179Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text2179Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2179Font1&quot;  &gt;SÃ£o princÃ­pios caros ao CÃ³digo de Ã‰tica CientÃ­fica:&lt;/span &gt;&lt;span class=&quot;text2179Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2179Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text2179Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text2179ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text2179Font1&quot;  &gt;conhecimentos anteriormente publicados&lt;/span &gt;&lt;span class=&quot;text2179Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text2179Font1&quot;  &gt;devem ser sempre mencionados (citaÃ§Ãµes bibliogrÃ¡ficas) em trabalhos publicados ou mesmo restritos (relatÃ³rios tÃ©cnicos internos);&lt;/span &gt;&lt;span class=&quot;text2179Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2179Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text2179Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text2179ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text2179Font1&quot;  &gt;dados nÃ£o podem ser &quot;fabricados&quot; ou falsificados;&lt;/span &gt;&lt;span class=&quot;text2179Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2179Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text2179Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text2179ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text2179Font1&quot;  &gt;conhecimentos devem ser repassados Ã  comunidade cientÃ­fica.&lt;/span &gt;&lt;span class=&quot;text2179Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2179Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2179Font1&quot;  &gt;Dessa forma, sÃ£o condenÃ¡veis (inaceitÃ¡veis na CiÃªncia) toda e qualquer forma de plÃ¡gio (cÃ³pia de &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2179Font1&quot;  &gt;textos de outrem; uso de informaÃ§Ãµes de outros autores sem a devida citaÃ§Ã£o bibliogrÃ¡fica; apropriaÃ§Ã£o indevida de resultados e interpretaÃ§Ãµes de outrem) e publicaÃ§Ã£o de resultados inverÃ­dicos. Fonte: CAETANO-CHANG, M. R. RedaÃ§Ã£o cientÃ­fica. Rio Claro: IGCE/Unesp, 2012&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 S\u227 \&apos;e3o princ\u237 \&apos;edpios caros ao C\u243 \&apos;f3digo de \u201 \&apos;c9tica Cient\u237 \&apos;edfica:\lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 &#x0A;conhecimentos anteriormente publicados\lang1046\hich\f2\loch\f2  \lang1046\hich\f1\loch\f1 devem ser sempre mencionados (cita\u231 \&apos;e7\u245 \&apos;f5es bibliogr\u225 \&apos;e1ficas) em trabalhos publicados ou mesmo restritos (relat\u243 \&apos;f3rios t\u233 \&apos;e9cnicos &#x0A;internos);\lang1046\hich\f2\loch\f2\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 dados n\u227 \&apos;e3o podem ser &quot;fabricados&quot; ou falsificados;\lang1046\hich\f2\loch\f2\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 conhecimentos devem ser repassados \u224 \&apos;e0 comunidade cient\u237 \&apos;edfica.\lang1046\hich\f2\loch\f2\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par Dessa forma, s\u227 \&apos;e3o conden\u225 \&apos;e1veis (inaceit\u225 &#x0A;\&apos;e1veis na Ci\u234 \&apos;eancia) toda e qualquer forma de pl\u225 \&apos;e1gio (c\u243 \&apos;f3pia de \par textos de outrem; uso de informa\u231 \&apos;e7\u245 \&apos;f5es de outros autores sem a devida cita\u231 \&apos;e7\u227 \&apos;e3o bibliogr\u225 \&apos;e1fica; apropria\u231 \&apos;e7\u227 &#x0A;\&apos;e3o indevida de resultados e interpreta\u231 \&apos;e7\u245 \&apos;f5es de outrem) e publica\u231 \&apos;e7\u227 \&apos;e3o de resultados inver\u237 \&apos;eddicos. Fonte: CAETANO-CHANG, M. R. Reda\u231 \&apos;e7\u227 \&apos;e3o cient\u237 \&apos;edfica. Rio Claro: IGCE/Unesp, 2012\par}&#x0A;</rtf>
+<raw>?S?o princ?pios caros ao C?digo de ?tica Cient?fica:&#x0A;conhecimentos anteriormente publicados devem ser sempre mencionados (cita??es bibliogr?ficas) em trabalhos publicados ou mesmo restritos (relat?rios t?cnicos internos);&#x0A;dados n?o podem ser &quot;fabricados&quot; ou falsificados;&#x0A;conhecimentos devem ser repassados ? comunidade cient?fica.&#x0A;Dessa forma, s?o conden?veis (inaceit?veis na Ci?ncia) toda e qualquer forma de pl?gio (c?pia de &#x0A;textos de outrem; uso de informa??es de outros autores sem a devida cita??o bibliogr?fica; apropria??o indevida de resultados e interpreta??es de outrem) e publica??o de resultados inver?dicos. Fonte: CAETANO-CHANG, M. R. Reda??o cient?fica. Rio Claro: IGCE/Unesp, 2012</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text2179ArrowBulletFont11.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text2179ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text2179ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>23</numoflines>
+<numpubbullets>3</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="2105" parent="2103">
+<name>Grupo_1</name>
+<lastupdated>1687189925</lastupdated>
+<shape id="2107" parent="2105" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687189925</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2109" parent="2105" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687189925</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="2111" parent="2105" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687189925</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="2112" parent="2105" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687189925</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2112Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text2112Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2112Font1&quot;  &gt;Conhecendo a QuÃ­mica&lt;/span &gt;&lt;span class=&quot;text2112Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Conhecendo a Qu\&apos;edmica\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Conhecendo a Qu?mica</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="2114" parent="2105" resource="180" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687189925</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2116" parent="2105" resource="181" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687189925</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="2117" parent="53">
+<name>Página 10</name>
+<lastupdated>1687192213</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="2310" parent="2117" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687192335</lastupdated>
+<possize>
+<point>
+<x>541</x>
+<y>133</y>
+</point>
+<size>
+<cx>424</cx>
+<cy>482</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2310Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text2310Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2310Font1&quot;  &gt;Nas Ãºltimas dÃ©cadas, as preocupaÃ§Ãµes com os efeitos das atividades humanas (chamados efeitos antropogÃªnicos) e do lanÃ§amento de resÃ­duos no ambiente tÃªm aumentado, e diversas conferÃªncias internacionais tÃªm debatido o tema e &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2310Font1&quot;  &gt;proposto limites para esse descarte. Alguns dos efeitos mais preocupantes sÃ£o o aumento da temperatura mÃ©dia global, a contaminaÃ§Ã£o de fontes de Ã¡gua, o desaparecimento de espÃ©cies e o surgimento de doenÃ§as.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2310Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2310Font2&quot;  &gt;Preservando o meio ambiente&lt;/span &gt;&lt;span class=&quot;text2310Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2310Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2310Font1&quot;  &gt;QuÃ­mica verde Ã© a Ã¡rea da quÃ­mica que tem a finalidade de buscar soluÃ§Ãµes para os impactos ambientais gerados e para os resÃ­duos formados pelo homem. Com isso, sÃ£o aplicados alguns princÃ­pios da quÃ­mica verde, sempre que for possÃ­vel, Ã  produÃ§Ã£o de uma substÃ¢ncia ou material:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Nas \&apos;faltimas d\&apos;e9cadas, as preocupa\&apos;e7\&apos;f5es com os efeitos das atividades humanas (chamados efeitos antropog\&apos;eanicos) e do lan\&apos;e7amento de res\&apos;edduos no ambiente t\&apos;eam aumentado, e diversas confer\&apos;eancias &#x0A;internacionais t\&apos;eam debatido o tema e \par proposto limites para esse descarte. Alguns dos efeitos mais preocupantes s\&apos;e3o o aumento da temperatura m\&apos;e9dia global, a contamina\&apos;e7\&apos;e3o de fontes de \&apos;e1gua, o desaparecimento de esp\&apos;e9cies e o surgimento &#x0A;de doen\&apos;e7as.\par\par\fs36\b Preservando o meio ambiente\fs28\b0\par\par Qu\&apos;edmica verde \&apos;e9 a \&apos;e1rea da qu\&apos;edmica que tem a finalidade de buscar solu\&apos;e7\&apos;f5es para os impactos ambientais gerados e para os res\&apos;edduos formados pelo homem. Com isso, &#x0A;s\&apos;e3o aplicados alguns princ\&apos;edpios da qu\&apos;edmica verde, sempre que for poss\&apos;edvel, \&apos;e0 produ\&apos;e7\&apos;e3o de uma subst\&apos;e2ncia ou material:\par\par}&#x0A;</rtf>
+<raw>?Nas ?ltimas d?cadas, as preocupa??es com os efeitos das atividades humanas (chamados efeitos antropog?nicos) e do lan?amento de res?duos no ambiente t?m aumentado, e diversas confer?ncias internacionais t?m debatido o tema e &#x0A;proposto limites para esse descarte. Alguns dos efeitos mais preocupantes s?o o aumento da temperatura m?dia global, a contamina??o de fontes de ?gua, o desaparecimento de esp?cies e o surgimento de doen?as.&#x0A;Preservando o meio ambiente&#x0A;Qu?mica verde ? a ?rea da qu?mica que tem a finalidade de buscar solu??es para os impactos ambientais gerados e para os res?duos formados pelo homem. Com isso, s?o aplicados alguns princ?pios da qu?mica verde, sempre que for poss?vel, ? produ??o de uma subst?ncia ou material:&#x0A;</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="2235" parent="2117" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687192283</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>133</y>
+</point>
+<size>
+<cx>424</cx>
+<cy>482</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2235Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text2235Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text2235Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2235Font1&quot;  &gt;QuÃ­mica e o meio ambiente&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2235Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2235Font1&quot;  &gt;QuÃ­mica e seus impactos ambientais&lt;/span &gt;&lt;span class=&quot;text2235Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2235Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2235Font2&quot;  &gt;Por muito tempo, a sociedade nÃ£o se preocupou com a matÃ©ria e a energia residuais de seus processos, que eram, de maneira geral, liberadas livremente no ambiente, como no caso do gÃ¡s carbÃ´nico e calor resultantes da queima de combustÃ­veis fÃ³sseis. Mesmo os produtos quÃ­micos de interesse eram indiscriminadamente descartados no ambiente, como os inseticidas, por exemplo.&lt;/span &gt;&lt;span class=&quot;text2235Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2235Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2235Font3&quot;  &gt;Com o tempo, surgiram evidÃªncias de que tanto alguns compostos utilizados quanto certos resÃ­duos liberados poderiam causar impactos ambientais, ou seja, causar alteraÃ§Ãµes que podem degradar o ambiente e prejudicar a qualidade de vida de todos os seres vivos. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}{\f3 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qj\hich\f2\loch\f2\fs36\b Qu\&apos;edmica e o meio ambiente\par\par Qu\&apos;edmica e seus impactos ambientais\fs28\b0\par\par Por muito tempo, a sociedade n\&apos;e3o se preocupou com a mat\&apos;e9ria e a energia residuais de seus processos, &#x0A;que eram, de maneira geral, liberadas livremente no ambiente, como no caso do g\&apos;e1s carb\&apos;f4nico e calor resultantes da queima de combust\&apos;edveis f\&apos;f3sseis. Mesmo os produtos qu\&apos;edmicos de interesse eram indiscriminadamente descartados no ambiente, &#x0A;como os inseticidas, por exemplo.\lang1046\hich\f3\loch\f3\par\par Com o tempo, surgiram evid\&apos;eancias de que tanto alguns compostos utilizados quanto certos res\&apos;edduos liberados poderiam causar impactos ambientais, ou seja, causar altera\&apos;e7\&apos;f5es que &#x0A;podem degradar o ambiente e prejudicar a qualidade de vida de todos os seres vivos. \par\lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?Qu?mica e o meio ambiente&#x0A;Qu?mica e seus impactos ambientais&#x0A;Por muito tempo, a sociedade n?o se preocupou com a mat?ria e a energia residuais de seus processos, que eram, de maneira geral, liberadas livremente no ambiente, como no caso do g?s carb?nico e calor resultantes da queima de combust?veis f?sseis. Mesmo os produtos qu?micos de interesse eram indiscriminadamente descartados no ambiente, como os inseticidas, por exemplo.&#x0A;Com o tempo, surgiram evid?ncias de que tanto alguns compostos utilizados quanto certos res?duos liberados poderiam causar impactos ambientais, ou seja, causar altera??es que podem degradar o ambiente e prejudicar a qualidade de vida de todos os seres vivos. &#x0A;</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="2222" parent="2117">
+<name>Grupo_1</name>
+<lastupdated>1687192204</lastupdated>
+<shape id="2224" parent="2222" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687192204</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2226" parent="2222" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687192204</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="2228" parent="2222" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687192204</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="2229" parent="2222" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687192204</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2229Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text2229Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2229Font1&quot;  &gt;Conhecendo a QuÃ­mica&lt;/span &gt;&lt;span class=&quot;text2229Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Conhecendo a Qu\&apos;edmica\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Conhecendo a Qu?mica</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="2231" parent="2222" resource="180" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687192204</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2233" parent="2222" resource="181" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687192204</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="2234" parent="53">
+<name>Página 11</name>
+<lastupdated>1687192213</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="2444" parent="2234" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687192462</lastupdated>
+<possize>
+<point>
+<x>827</x>
+<y>261</y>
+</point>
+<size>
+<cx>247</cx>
+<cy>19</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<rotateEffect>
+<angle>90</angle>
+<anchorpoint>
+<x>50</x>
+<y>50</y>
+</anchorpoint>
+</rotateEffect>
+<html>span.text2444Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text2444Font2 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2444Font1&quot;  &gt;Fonte: Foto de formulÃ¡rio PxHere&lt;/span &gt;&lt;span class=&quot;text2444Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs22\ql\hich\f2\loch\f2\b Fonte: Foto de formul\&apos;e1rio PxHere\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Fonte: Foto de formul?rio PxHere</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="2418" parent="2234" resource="2417" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687192435</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>145</y>
+</point>
+<size>
+<cx>421</cx>
+<cy>256</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="2365" parent="2234" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687192417</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>137</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>313</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2365Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text2365Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text2365Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text2365Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2365Font1&quot;  &gt;Evitar a produÃ§Ã£o de resÃ­duos;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2365Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text2365Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text2365ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text2365Font1&quot;  &gt;Tentar utilizar e gerar substÃ¢ncias que possuam pouca ou nenhuma toxicidade Ã  saÃºde humana e ao ambiente;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2365Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text2365Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text2365ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text2365Font1&quot;  &gt;Minimizar o uso de energia;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2365Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text2365Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text2365ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text2365Font1&quot;  &gt;Utilizar fontes renovÃ¡veis de matÃ©ria-prima;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2365Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text2365Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text2365ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text2365Font1&quot;  &gt;Escolher substÃ¢ncias que minimizem o potencial&lt;/span &gt;&lt;span class=&quot;text2365Font2&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text2365Font1&quot;  &gt;para acidentes quÃ­micos, incluindo vazamentos,&lt;/span &gt;&lt;span class=&quot;text2365Font2&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text2365Font1&quot;  &gt;explosÃµes e incÃªndios.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \froman \fcharset2 Symbol;}{\f4 \fnil \fcharset2 Wingdings;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Evitar a produ\&apos;e7\&apos;e3o de res\&apos;edduos;\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf4{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 Tentar utilizar e gerar subst\&apos;e2ncias que possuam pouca ou nenhuma toxicidade \&apos;e0 &#x0A;sa\&apos;fade humana e ao ambiente;\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf4{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 Minimizar o uso de energia;\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf4{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 Utilizar fontes renov\&apos;e1veis de mat\&apos;e9ria-prima;\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf4{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 Escolher subst\&apos;e2ncias &#x0A;que minimizem o potencial\hich\f2\loch\f2  \hich\f1\loch\f1 para acidentes qu\&apos;edmicos, incluindo vazamentos,\lang1046\hich\f2\loch\f2  \lang1046\hich\f1\loch\f1 explos\&apos;f5es e inc\&apos;eandios.\par}&#x0A;</rtf>
+<raw>?Evitar a produ??o de res?duos;&#x0A;Tentar utilizar e gerar subst?ncias que possuam pouca ou nenhuma toxicidade ? sa?de humana e ao ambiente;&#x0A;Minimizar o uso de energia;&#x0A;Utilizar fontes renov?veis de mat?ria-prima;&#x0A;Escolher subst?ncias que minimizem o potencial para acidentes qu?micos, incluindo vazamentos, explos?es e inc?ndios.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text2365ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>13</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="2353" parent="2234">
+<name>Grupo_1</name>
+<lastupdated>1687192349</lastupdated>
+<shape id="2355" parent="2353" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687192349</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2357" parent="2353" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687192349</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="2359" parent="2353" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687192349</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="2360" parent="2353" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687192349</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2360Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text2360Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2360Font1&quot;  &gt;Conhecendo a QuÃ­mica&lt;/span &gt;&lt;span class=&quot;text2360Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Conhecendo a Qu\&apos;edmica\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Conhecendo a Qu?mica</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="2362" parent="2353" resource="180" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687192349</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2364" parent="2353" resource="181" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687192349</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

@@ -1,0 +1,1789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>768</currentid>
+<currtheme></currtheme>
+<language>pt</language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="170" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="171" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="610" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="753" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="754" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="79">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 4</name>
+<lastupdated>1689703653</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="78" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687809309</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687809309</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687809309</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="79" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687809309</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687809309</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687809309</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="70" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687809309</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="71" parent="70" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687809309</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="70" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687809309</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="63" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687809309</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="64" parent="63" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687809309</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="65" parent="63" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687809309</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="55" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687809309</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="56" parent="55" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687809309</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="55" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687809309</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="58" parent="55" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687809309</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="55">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689703651</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="738" parent="40">
+<name>Página 1</name>
+<lastupdated>1689703651</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="739" parent="738">
+<name>Grupo_1</name>
+<lastupdated>1689703651</lastupdated>
+<image id="741" parent="739" resource="753" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689703642</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="743" parent="739" resource="754" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689703642</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="744" parent="739" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689703651</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text744Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text744Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text744Font1&quot;  &gt;Aula 4&lt;/span &gt;&lt;span class=&quot;text744Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 4\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 4</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="746" parent="739" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689703642</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="748" parent="739" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689703642</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="750" parent="739" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689703642</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="752" parent="739" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689703642</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="155" parent="40">
+<name>Página 2</name>
+<lastupdated>1689703636</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="222" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687809496</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>145</y>
+</point>
+<size>
+<cx>433</cx>
+<cy>432</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text222Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text222Font1&quot;  &gt;Para Marx, toda e qualquer sociedade possui classes sociais que sÃ£o definidas pela posse de propriedades, pelo poder aquisitivo e pelo poder. Estas classes sÃ£o produzidas pelas relaÃ§Ãµes de produÃ§Ã£o da existÃªncia material das sociedades, de acordo com seus modos de produÃ§Ã£o. Na visÃ£o marxista, a classe tem importÃ¢ncia vital na histÃ³ria da humanidade: haveria sempre uma &quot;classe dominante&quot; em conflito com uma &quot;classe dominada&quot;. Este conflito â€“ que Marx chamava de &quot;luta de classes&quot; â€“ que era o principal agente de transformaÃ§Ãµes sociais, econÃ´micas e polÃ­ticas: era o &quot;motor da HistÃ³ria&quot;, para Marx. A luta de classes se dÃ¡ dentro de uma estrutura social que precisa ser modificada para que os dominados se &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text222Font1&quot;  &gt;libertem das opressÃµes que sofrem. AliÃ¡s, o prÃ³prio Estado, na visÃ£o marxista, Ã© feito para favorecer o domÃ­nio de uma classe social sobre outra. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Para Marx, toda e qualquer sociedade possui classes sociais que s\u227 \&apos;e3o definidas pela posse de propriedades, pelo poder aquisitivo e pelo poder. Estas classes s\u227 \&apos;e3o produzidas pelas rela\u231 \&apos;e7\u245 \&apos;f5es &#x0A;de produ\u231 \&apos;e7\u227 \&apos;e3o da exist\u234 \&apos;eancia material das sociedades, de acordo com seus modos de produ\u231 \&apos;e7\u227 \&apos;e3o. Na vis\u227 \&apos;e3o marxista, a classe tem import\u226 \&apos;e2ncia vital na hist\u243 \&apos;f3ria da humanidade: haveria sempre &#x0A;uma &quot;classe dominante&quot; em conflito com uma &quot;classe dominada&quot;. Este conflito \u8211 \&apos;96 que Marx chamava de &quot;luta de classes&quot; \u8211 \&apos;96 que era o principal agente de transforma\u231 \&apos;e7\u245 \&apos;f5es sociais, econ\u244 \&apos;f4micas e pol\u237 \&apos;edticas: &#x0A;era o &quot;motor da Hist\u243 \&apos;f3ria&quot;, para Marx. A luta de classes se d\u225 \&apos;e1 dentro de uma estrutura social que precisa ser modificada para que os dominados se \par libertem das opress\u245 \&apos;f5es que sofrem. Ali\u225 \&apos;e1s, o pr\u243 \&apos;f3prio Estado, &#x0A;na vis\u227 \&apos;e3o marxista, \u233 \&apos;e9 feito para favorecer o dom\u237 \&apos;ednio de uma classe social sobre outra. \par}&#x0A;</rtf>
+<raw>?Para Marx, toda e qualquer sociedade possui classes sociais que s�o definidas pela posse de propriedades, pelo poder aquisitivo e pelo poder. Estas classes s�o produzidas pelas rela��es de produ��o da exist�ncia material das sociedades, de acordo com seus modos de produ��o. Na vis�o marxista, a classe tem import�ncia vital na hist�ria da humanidade: haveria sempre uma &quot;classe dominante&quot; em conflito com uma &quot;classe dominada&quot;. Este conflito � que Marx chamava de &quot;luta de classes&quot; � que era o principal agente de transforma��es sociais, econ�micas e pol�ticas: era o &quot;motor da Hist�ria&quot;, para Marx. A luta de classes se d� dentro de uma estrutura social que precisa ser modificada para que os dominados se &#x0A;libertem das opress�es que sofrem. Ali�s, o pr�prio Estado, na vis�o marxista, � feito para favorecer o dom�nio de uma classe social sobre outra. </raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="195" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687809454</lastupdated>
+<possize>
+<point>
+<x>44</x>
+<y>138</y>
+</point>
+<size>
+<cx>432</cx>
+<cy>385</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text195Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text195Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text195Font1&quot;  &gt;A Sociologia tem especial interesse pela questÃ£o das classes sociais, jÃ¡ que estas refletem mudanÃ§as estruturais na sociedade causadas por uma diversidade de fatores. Por exemplo, jÃ¡ vimos que a estratificaÃ§Ã£o social na Europa vai sendo profundamente transformada Ã  medida que o crescimento econÃ´mico permitiu que pessoas se livrassem dos laÃ§os de servidÃ£o que as submetiam as vontades dos senhores feudais. Vimos tambÃ©m que o desenvolvimento econÃ´mico&lt;/span &gt;&lt;span class=&quot;text195Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text195Font1&quot;  &gt;dos burgos fez com que uma nova classe social surgisse na Europa, os burgueses, que acabaram por tomar o poder dos senhores feudais e implantando uma nova estrutura econÃ´mica, social e jurÃ­dica. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 A Sociologia tem especial interesse pela quest\u227 \&apos;e3o das classes sociais, j\u225 \&apos;e1 que estas refletem mudan\u231 \&apos;e7as estruturais na sociedade causadas por uma diversidade de fatores. Por exemplo, j\u225 \&apos;e1 &#x0A;vimos que a estratifica\u231 \&apos;e7\u227 \&apos;e3o social na Europa vai sendo profundamente transformada \u224 \&apos;e0 medida que o crescimento econ\u244 \&apos;f4mico permitiu que pessoas se livrassem dos la\u231 \&apos;e7os de servid\u227 \&apos;e3o que as submetiam as vontades &#x0A;dos senhores feudais. Vimos tamb\u233 \&apos;e9m que o desenvolvimento econ\u244 \&apos;f4mico\lang1046\hich\f2\loch\f2  \lang1046\hich\f1\loch\f1 dos burgos fez com que uma nova classe social surgisse na Europa, os burgueses, que acabaram por tomar o poder dos &#x0A;senhores feudais e implantando uma nova estrutura econ\u244 \&apos;f4mica, social e jur\u237 \&apos;eddica. \par}&#x0A;</rtf>
+<raw>?A Sociologia tem especial interesse pela quest�o das classes sociais, j� que estas refletem mudan�as estruturais na sociedade causadas por uma diversidade de fatores. Por exemplo, j� vimos que a estratifica��o social na Europa vai sendo profundamente transformada � medida que o crescimento econ�mico permitiu que pessoas se livrassem dos la�os de servid�o que as submetiam as vontades dos senhores feudais. Vimos tamb�m que o desenvolvimento econ�mico dos burgos fez com que uma nova classe social surgisse na Europa, os burgueses, que acabaram por tomar o poder dos senhores feudais e implantando uma nova estrutura econ�mica, social e jur�dica. </raw>
+<numoflines>14</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="158" parent="155">
+<name>Grupo_1</name>
+<lastupdated>1687809389</lastupdated>
+<shape id="160" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687809369</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="162" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687809369</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="164" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687809369</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="165" parent="158" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687809389</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>714</cx>
+<cy>61</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text165Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text165Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text165Font1&quot;  &gt;Classes sociais: histÃ³rico e formaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text165Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Classes sociais: hist\&apos;f3rico e forma\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Classes sociais: hist�rico e forma��o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="167" parent="158" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687809369</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="169" parent="158" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687809369</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="251" parent="40">
+<name>Página 3</name>
+<lastupdated>1687809608</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="296" parent="251" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687809605</lastupdated>
+<possize>
+<point>
+<x>538</x>
+<y>136</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>437</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text296Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text296Font1&quot;  &gt;TambÃ©m vimos que nos feudos havia vilas e cidades (os burgos) nos quais existiam trabalhadores livres e comerciantes, alÃ©m de artesÃ£os e suas corporaÃ§Ãµes de ofÃ­cios. Eram chamados de burgueses. Estes comerciantes faziam parte da classe dominada, pois estavam Ã  mercÃª das vontades dos senhores feudais e dos reis. Com o aumento do comÃ©rcio entre as cidades e feudos, os comerciantes comeÃ§aram a enriquecer e a rivalizar em poder econÃ´mico e prestÃ­gio com os senhores feudais, a ponto de superÃ¡-los. Os burgueses comeÃ§aram entÃ£o a conflitar com as estruturas da sociedade feudal, pois muitas vezes atrapalhavam seus negÃ³cios. Os burgueses acabaram por se unir aos senhores feudais classe dominante e, por fim, tirÃ¡-los do poder, ao cooperar para o colapso do feudalismo, pondo tÃ©rmino as relaÃ§Ãµes de servidÃ£o e eliminando os feudos da Europa.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Tamb\u233 \&apos;e9m vimos que nos feudos havia vilas e cidades (os burgos) nos quais existiam trabalhadores livres e comerciantes, al\u233 \&apos;e9m de artes\u227 \&apos;e3os e suas corpora\u231 \&apos;e7\u245 \&apos;f5es de of\u237 \&apos;edcios. &#x0A;Eram chamados de burgueses. Estes comerciantes faziam parte da classe dominada, pois estavam \u224 \&apos;e0 merc\u234 \&apos;ea das vontades dos senhores feudais e dos reis. Com o aumento do com\u233 \&apos;e9rcio entre as cidades e feudos, os comerciantes come\u231 &#x0A;\&apos;e7aram a enriquecer e a rivalizar em poder econ\u244 \&apos;f4mico e prest\u237 \&apos;edgio com os senhores feudais, a ponto de super\u225 \&apos;e1-los. Os burgueses come\u231 \&apos;e7aram ent\u227 \&apos;e3o a conflitar com as estruturas da sociedade feudal, pois muitas &#x0A;vezes atrapalhavam seus neg\u243 \&apos;f3cios. Os burgueses acabaram por se unir aos senhores feudais classe dominante e, por fim, tir\u225 \&apos;e1-los do poder, ao cooperar para o colapso do feudalismo, pondo t\u233 \&apos;e9rmino as rela\u231 \&apos;e7\u245 \&apos;f5es de &#x0A;servid\u227 \&apos;e3o e eliminando os feudos da Europa.\par}&#x0A;</rtf>
+<raw>?Tamb?m vimos que nos feudos havia vilas e cidades (os burgos) nos quais existiam trabalhadores livres e comerciantes, al?m de artes?os e suas corpora??es de of?cios. Eram chamados de burgueses. Estes comerciantes faziam parte da classe dominada, pois estavam ? merc? das vontades dos senhores feudais e dos reis. Com o aumento do com?rcio entre as cidades e feudos, os comerciantes come?aram a enriquecer e a rivalizar em poder econ?mico e prest?gio com os senhores feudais, a ponto de super?-los. Os burgueses come?aram ent?o a conflitar com as estruturas da sociedade feudal, pois muitas vezes atrapalhavam seus neg?cios. Os burgueses acabaram por se unir aos senhores feudais classe dominante e, por fim, tir?-los do poder, ao cooperar para o colapso do feudalismo, pondo t?rmino as rela??es de servid?o e eliminando os feudos da Europa.</raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="265" parent="251" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687809554</lastupdated>
+<possize>
+<point>
+<x>51</x>
+<y>133</y>
+</point>
+<size>
+<cx>425</cx>
+<cy>477</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text265Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text265Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text265Font1&quot;  &gt;Por exemplo, o longo processo histÃ³rico do capitalismo mostra como o conflito de classes se deu na Europa. Voltemos ao exemplo da Europa Feudal, em que as classes dominantes eram corporificadas na Nobreza e nos senhores feudais. Vimos que os senhores feudais recebiam tÃ­tulos de nobreza (como barÃ£o, conde, duque, marquÃªs, visconde) da aristocracia (os nobres que governavam acima de todos, como reis e rainhas) e tambÃ©m recebiam posse de terras. Os moradores destas terras se tornavam entÃ£o seus servos, constituindo a classe dominada. Os tÃ­tulos de nobreza e a posse de terras eram hereditÃ¡rios, e os filhos dos senhores feudais herdavam as terras e os servos d&lt;/span &gt;&lt;span class=&quot;text265Font3&quot;  &gt;e seus pais, perpetuando assim as estruturas de dominaÃ§Ã£o. Na estratificaÃ§Ã£o da sociedade feudalista, havia muito pouca mobilidade social, com a rÃ­gida estrutura de trÃªs classes sociais: Nobreza, Clero e Povo. &lt;/span &gt;&lt;span class=&quot;text265Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Por exemplo, o longo processo hist\u243 \&apos;f3rico do capitalismo mostra como o conflito de classes se deu na Europa. Voltemos ao exemplo da Europa Feudal, em que as classes dominantes eram corporificadas na Nobreza e nos &#x0A;senhores feudais. Vimos que os senhores feudais recebiam t\u237 \&apos;edtulos de nobreza (como bar\u227 \&apos;e3o, conde, duque, marqu\u234 \&apos;eas, visconde) da aristocracia (os nobres que governavam acima de todos, como reis e rainhas) e tamb\u233 \&apos;e9m recebiam &#x0A;posse de terras. Os moradores destas terras se tornavam ent\u227 \&apos;e3o seus servos, constituindo a classe dominada. Os t\u237 \&apos;edtulos de nobreza e a posse de terras eram heredit\u225 \&apos;e1rios, e os filhos dos senhores feudais herdavam as terras e os &#x0A;servos d\lang1046\hich\f2\loch\f2 e seus pais, perpetuando assim as estruturas de domina\&apos;e7\&apos;e3o. Na estratifica\&apos;e7\&apos;e3o da sociedade feudalista, havia muito pouca mobilidade social, com a r\&apos;edgida estrutura de tr\&apos;eas classes sociais: Nobreza, Clero &#x0A;e Povo. \lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Por exemplo, o longo processo hist?rico do capitalismo mostra como o conflito de classes se deu na Europa. Voltemos ao exemplo da Europa Feudal, em que as classes dominantes eram corporificadas na Nobreza e nos senhores feudais. Vimos que os senhores feudais recebiam t?tulos de nobreza (como bar?o, conde, duque, marqu?s, visconde) da aristocracia (os nobres que governavam acima de todos, como reis e rainhas) e tamb?m recebiam posse de terras. Os moradores destas terras se tornavam ent?o seus servos, constituindo a classe dominada. Os t?tulos de nobreza e a posse de terras eram heredit?rios, e os filhos dos senhores feudais herdavam as terras e os servos de seus pais, perpetuando assim as estruturas de domina??o. Na estratifica??o da sociedade feudalista, havia muito pouca mobilidade social, com a r?gida estrutura de tr?s classes sociais: Nobreza, Clero e Povo. </raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="253" parent="251">
+<name>Grupo_1</name>
+<lastupdated>1687809502</lastupdated>
+<shape id="255" parent="253" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687809502</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="257" parent="253" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687809502</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="259" parent="253" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687809502</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="260" parent="253" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687809502</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>714</cx>
+<cy>61</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text260Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text260Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text260Font1&quot;  &gt;Classes sociais: histÃ³rico e formaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text260Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Classes sociais: hist\&apos;f3rico e forma\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Classes sociais: hist?rico e forma??o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="262" parent="253" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687809502</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="264" parent="253" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687809502</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="319" parent="40">
+<name>Página 4</name>
+<lastupdated>1687890338</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="358" parent="319" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687809736</lastupdated>
+<possize>
+<point>
+<x>529</x>
+<y>114</y>
+</point>
+<size>
+<cx>447</cx>
+<cy>510</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text358Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text358Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text358Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text358Font1&quot;  &gt;Em 1789, acontece a &lt;/span &gt;&lt;span class=&quot;text358Font2&quot;  &gt;RevoluÃ§Ã£o Francesa&lt;/span &gt;&lt;span class=&quot;text358Font1&quot;  &gt;, com repercussÃµes no Haiti, pois os revolucionÃ¡rios aboliram a escravidÃ£o, jÃ¡ que seus ideais eram a igualdade de direitos, a fraternidade e a liberdade de todos os homens. Logo a casta dos negros e mestiÃ§os livres do Haiti comeÃ§aria a lutar por igualdade de direitos frente aos brancos, questionando tambÃ©m a manutenÃ§Ã£o da escravidÃ£&lt;/span &gt;&lt;span class=&quot;text358Font5&quot;  &gt;o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text358Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text358Font5&quot;  &gt;Em 1791, uma revolta de escravos se transforma em guerra civil, que seria alimentada quando, em 1802, NapoleÃ£o Bonaparte, agora imperador da FranÃ§a, restitui a escravidÃ£o nas colÃ´nias francesas. Bonaparte ainda decide enviar tropas para o Haiti a fim de restabelecer a escravidÃ£o, mas apÃ³s dois anos de lutas, os escravos derrotam os franceses e declaram a independÃªncia em 1804. A partir de entÃ£o, os negros livres e escravos, antes a classe dominada pelos brancos, se tornariam a classe dominante no Haiti. A rÃ­gida estratificaÃ§Ã£o social criada pelo modo de produÃ§Ã£o escravista, no qual uma pessoa se torna posse e objeto de outra, foi desestruturado pela luta de classes. &lt;/span &gt;&lt;span class=&quot;text358Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Em 1789, acontece a \b Revolu\u231 \&apos;e7\u227 \&apos;e3o Francesa\b0 , com repercuss\u245 \&apos;f5es no Haiti, pois os revolucion\u225 \&apos;e1rios aboliram a escravid\u227 \&apos;e3o, j\u225 \&apos;e1 que seus ideais eram a igualdade de direitos, &#x0A;a fraternidade e a liberdade de todos os homens. Logo a casta dos negros e mesti\u231 \&apos;e7os livres do Haiti come\u231 \&apos;e7aria a lutar por igualdade de direitos frente aos brancos, questionando tamb\u233 \&apos;e9m a manuten\u231 \&apos;e7\u227 \&apos;e3o da escravid\u227 &#x0A;\&apos;e3\hich\f2\loch\f2 o.\par\par Em 1791, uma revolta de escravos se transforma em guerra civil, que seria alimentada quando, em 1802, Napole\&apos;e3o Bonaparte, agora imperador da Fran\&apos;e7a, restitui a escravid\&apos;e3o nas col\&apos;f4nias francesas. Bonaparte ainda &#x0A;decide enviar tropas para o Haiti a fim de restabelecer a escravid\&apos;e3o, mas ap\&apos;f3s dois anos de lutas, os escravos derrotam os franceses e declaram a independ\&apos;eancia em 1804. A partir de ent\&apos;e3o, os negros livres e escravos, antes a classe dominada &#x0A;pelos brancos, se tornariam a classe dominante no Haiti. A r\&apos;edgida estratifica\&apos;e7\&apos;e3o social criada pelo modo de produ\&apos;e7\&apos;e3o escravista, no qual uma pessoa se torna posse e objeto de outra, foi desestruturado pela luta de classes. \hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Em 1789, acontece a Revolu??o Francesa, com repercuss?es no Haiti, pois os revolucion?rios aboliram a escravid?o, j? que seus ideais eram a igualdade de direitos, a fraternidade e a liberdade de todos os homens. Logo a casta dos negros e mesti?os livres do Haiti come?aria a lutar por igualdade de direitos frente aos brancos, questionando tamb?m a manuten??o da escravid?o.&#x0A;Em 1791, uma revolta de escravos se transforma em guerra civil, que seria alimentada quando, em 1802, Napole?o Bonaparte, agora imperador da Fran?a, restitui a escravid?o nas col?nias francesas. Bonaparte ainda decide enviar tropas para o Haiti a fim de restabelecer a escravid?o, mas ap?s dois anos de lutas, os escravos derrotam os franceses e declaram a independ?ncia em 1804. A partir de ent?o, os negros livres e escravos, antes a classe dominada pelos brancos, se tornariam a classe dominante no Haiti. A r?gida estratifica??o social criada pelo modo de produ??o escravista, no qual uma pessoa se torna posse e objeto de outra, foi desestruturado pela luta de classes. </raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="333" parent="319" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687809645</lastupdated>
+<possize>
+<point>
+<x>44</x>
+<y>133</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>481</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text333Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text333Font1&quot;  &gt;Outro exemplo de lutas de classes pode ser vista na RevoluÃ§Ã£o Haitiana, que aconteceu na ex-colÃ´nia francesa do Haiti entre 1791 e 1804. Os franceses levaram um expressivo nÃºmero de escravos africanos para o Haiti, para trabalhar nas plantaÃ§Ãµes de cana locais. Com o tempo, uma rÃ­gida estratificaÃ§Ã£o social surgiu no Haiti, com trÃªs castas bem claras: no alto, como classe dominante, estava a casta dos homens brancos franceses, que possuÃ­am os meios de produÃ§Ã£o. A casta dos brancos era dividida em duas: os &quot;grand blancs&quot;, que eram os donos das terras e estavam nos postos administrativos mais altos do governo colonial e os &quot;petit blancs&quot;, geralmente traficantes de escravos, pequenos comerciantes e artesÃ£os. No meio, estava a casta formada por negros livres e mestiÃ§os filhos de franceses com africanos, que geralmente trabalhavam para os brancos e para o governo colonial. A Ãºltima casta era a dos escravos africanos. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Outro exemplo de lutas de classes pode ser vista na Revolu\u231 \&apos;e7\u227 \&apos;e3o Haitiana, que aconteceu na ex-col\u244 \&apos;f4nia francesa do Haiti entre 1791 e 1804. Os franceses levaram um expressivo n\u250 \&apos;famero de &#x0A;escravos africanos para o Haiti, para trabalhar nas planta\u231 \&apos;e7\u245 \&apos;f5es de cana locais. Com o tempo, uma r\u237 \&apos;edgida estratifica\u231 \&apos;e7\u227 \&apos;e3o social surgiu no Haiti, com tr\u234 \&apos;eas castas bem claras: no alto, como classe dominante, &#x0A;estava a casta dos homens brancos franceses, que possu\u237 \&apos;edam os meios de produ\u231 \&apos;e7\u227 \&apos;e3o. A casta dos brancos era dividida em duas: os &quot;grand blancs&quot;, que eram os donos das terras e estavam nos postos administrativos mais altos do governo &#x0A;colonial e os &quot;petit blancs&quot;, geralmente traficantes de escravos, pequenos comerciantes e artes\u227 \&apos;e3os. No meio, estava a casta formada por negros livres e mesti\u231 \&apos;e7os filhos de franceses com africanos, que geralmente trabalhavam para os brancos &#x0A;e para o governo colonial. A \u250 \&apos;faltima casta era a dos escravos africanos. \par}&#x0A;</rtf>
+<raw>?Outro exemplo de lutas de classes pode ser vista na Revolu??o Haitiana, que aconteceu na ex-col?nia francesa do Haiti entre 1791 e 1804. Os franceses levaram um expressivo n?mero de escravos africanos para o Haiti, para trabalhar nas planta??es de cana locais. Com o tempo, uma r?gida estratifica??o social surgiu no Haiti, com tr?s castas bem claras: no alto, como classe dominante, estava a casta dos homens brancos franceses, que possu?am os meios de produ??o. A casta dos brancos era dividida em duas: os &quot;grand blancs&quot;, que eram os donos das terras e estavam nos postos administrativos mais altos do governo colonial e os &quot;petit blancs&quot;, geralmente traficantes de escravos, pequenos comerciantes e artes?os. No meio, estava a casta formada por negros livres e mesti?os filhos de franceses com africanos, que geralmente trabalhavam para os brancos e para o governo colonial. A ?ltima casta era a dos escravos africanos. </raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="321" parent="319">
+<name>Grupo_1</name>
+<lastupdated>1687809612</lastupdated>
+<shape id="323" parent="321" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687809612</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="325" parent="321" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687809612</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="327" parent="321" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687809612</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="328" parent="321" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687809612</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>714</cx>
+<cy>61</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text328Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text328Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font1&quot;  &gt;Classes sociais: histÃ³rico e formaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text328Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Classes sociais: hist\&apos;f3rico e forma\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Classes sociais: hist?rico e forma??o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="330" parent="321" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687809612</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="332" parent="321" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687809612</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="406" parent="40">
+<name>Página 5</name>
+<lastupdated>1687890567</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="474" parent="406" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687890562</lastupdated>
+<possize>
+<point>
+<x>521</x>
+<y>127</y>
+</point>
+<size>
+<cx>450</cx>
+<cy>392</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text474Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text474Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text474Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text474Font1&quot;  &gt;Desigualdades sociais&lt;/span &gt;&lt;span class=&quot;text474Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text474Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text474Font2&quot;  &gt;Com o Capitalismo, as antigas estratifica&lt;/span &gt;&lt;span class=&quot;text474Font3&quot;  &gt;Ã§Ãµ&lt;/span &gt;&lt;span class=&quot;text474Font2&quot;  &gt;es e classes da Europa foram alteradas, com o surgimento da alta burguesia, dos pequenos burgueses e do proletariado. Ou seja, temos uma estrutura de tr&lt;/span &gt;&lt;span class=&quot;text474Font3&quot;  &gt;Ãª&lt;/span &gt;&lt;span class=&quot;text474Font2&quot;  &gt;s grandes classes: a alta, a m&lt;/span &gt;&lt;span class=&quot;text474Font3&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text474Font2&quot;  &gt;dia e a &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text474Font2&quot;  &gt;baixa. Em todo o mundo, a classe alta concentra a maioria do capital e dos meios de produ&lt;/span &gt;&lt;span class=&quot;text474Font3&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text474Font2&quot;  &gt;o. Ainda, os mais ricos tendem a controlar maior quantidade de terras e empresas, investimentos e finan&lt;/span &gt;&lt;span class=&quot;text474Font3&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text474Font2&quot;  &gt;as e, por fim, maior quantidade de for&lt;/span &gt;&lt;span class=&quot;text474Font3&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text474Font2&quot;  &gt;a de trabalho. Os ricos t&lt;/span &gt;&lt;span class=&quot;text474Font3&quot;  &gt;Ãª&lt;/span &gt;&lt;span class=&quot;text474Font2&quot;  &gt;m mais acesso a educa&lt;/span &gt;&lt;span class=&quot;text474Font3&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text474Font2&quot;  &gt;o e empregos de alto n&lt;/span &gt;&lt;span class=&quot;text474Font3&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text474Font2&quot;  &gt;vel. Ou seja, a concentra&lt;/span &gt;&lt;span class=&quot;text474Font3&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text474Font2&quot;  &gt;o de renda tende a permanecer, e mesmo aumentar, na m&lt;/span &gt;&lt;span class=&quot;text474Font3&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text474Font2&quot;  &gt;o de poucas pessoas. De acordo com o grau&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Desigualdades sociais\hich\f2\loch\f2\fs28\b0\par\par Com o Capitalismo, as antigas estratifica\hich\f1\loch\f1\u231 \&apos;e7\u245 \&apos;f5\hich\f2\loch\f2 es e classes da Europa foram alteradas, com o surgimento da alta burguesia, &#x0A;dos pequenos burgueses e do proletariado. Ou seja, temos uma estrutura de tr\hich\f1\loch\f1\u234 \&apos;ea\hich\f2\loch\f2 s grandes classes: a alta, a m\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 dia e a \par baixa. Em todo o mundo, a classe alta concentra &#x0A;a maioria do capital e dos meios de produ\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o. Ainda, os mais ricos tendem a controlar maior quantidade de terras e empresas, investimentos e finan\hich\f1\loch\f1\u231 \&apos;e7\hich\f2\loch\f2 as e, por fim, &#x0A;maior quantidade de for\hich\f1\loch\f1\u231 \&apos;e7\hich\f2\loch\f2 a de trabalho. Os ricos t\hich\f1\loch\f1\u234 \&apos;ea\hich\f2\loch\f2 m mais acesso a educa\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o e empregos de alto n\hich\f1\loch\f1\u237 &#x0A;\&apos;ed\hich\f2\loch\f2 vel. Ou seja, a concentra\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o de renda tende a permanecer, e mesmo aumentar, na m\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o de poucas pessoas. De acordo com o grau\par}&#x0A;</rtf>
+<raw>?Desigualdades sociais&#x0A;Com o Capitalismo, as antigas estratifica??es e classes da Europa foram alteradas, com o surgimento da alta burguesia, dos pequenos burgueses e do proletariado. Ou seja, temos uma estrutura de tr?s grandes classes: a alta, a m?dia e a &#x0A;baixa. Em todo o mundo, a classe alta concentra a maioria do capital e dos meios de produ??o. Ainda, os mais ricos tendem a controlar maior quantidade de terras e empresas, investimentos e finan?as e, por fim, maior quantidade de for?a de trabalho. Os ricos t?m mais acesso a educa??o e empregos de alto n?vel. Ou seja, a concentra??o de renda tende a permanecer, e mesmo aumentar, na m?o de poucas pessoas. De acordo com o grau</raw>
+<numoflines>16</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="420" parent="406" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687890405</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>124</y>
+</point>
+<size>
+<cx>425</cx>
+<cy>513</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text420Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text420Font1&quot;  &gt;Voltando aos burgueses da Europa, vimos que, com o tempo, adquiriram prestÃ­gio e poder econÃ´mico a ponto de se tornar a classe dominante, ajudando no colapso do sistema feudal. Neste momento histÃ³rico, coube a burguesia o papel revolucionÃ¡rio de destruir a ordem feudal e construir as fundaÃ§Ãµes da sociedade capitalista. Vimos tambÃ©m que, com o fim da servidÃ£o, o trabalho passou a ser assalariado. Como classe dominante, parcela da burguesia acumulou capital suficiente para investir em novas tecnologias de produÃ§Ã£o a fim de aumentar a produtividade e, com isso, seus lucros. Surgiram entÃ£o as indÃºstrias e, com elas, uma nova estratificaÃ§Ã£o social e novas classes. Como jÃ¡ dito, Marx apontou para duas grandes classes sociais no capitalismo industrial: a burguesia (dona das indÃºstrias e a classe dominante) e o proletariado (os trabalhadores e a classe dominada). Segundo Marx existe uma pequena burguesia, um grupo intermediÃ¡rio que procura se identificar com a alta burguesia e se distanciar do proletariado, mas sendo, ao mesmo tempo, classe dominada e dominante.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Voltando aos burgueses da Europa, vimos que, com o tempo, adquiriram prest\&apos;edgio e poder econ\&apos;f4mico a ponto de se tornar a classe dominante, ajudando no colapso do sistema feudal. Neste momento hist\&apos;f3rico, coube a &#x0A;burguesia o papel revolucion\&apos;e1rio de destruir a ordem feudal e construir as funda\&apos;e7\&apos;f5es da sociedade capitalista. Vimos tamb\&apos;e9m que, com o fim da servid\&apos;e3o, o trabalho passou a ser assalariado. Como classe dominante, parcela da burguesia acumulou &#x0A;capital suficiente para investir em novas tecnologias de produ\&apos;e7\&apos;e3o a fim de aumentar a produtividade e, com isso, seus lucros. Surgiram ent\&apos;e3o as ind\&apos;fastrias e, com elas, uma nova estratifica\&apos;e7\&apos;e3o social e novas classes. Como j\&apos;e1 dito, &#x0A;Marx apontou para duas grandes classes sociais no capitalismo industrial: a burguesia (dona das ind\&apos;fastrias e a classe dominante) e o proletariado (os trabalhadores e a classe dominada). Segundo Marx existe uma pequena burguesia, um grupo intermedi\&apos;e1rio &#x0A;que procura se identificar com a alta burguesia e se distanciar do proletariado, mas sendo, ao mesmo tempo, classe dominada e dominante.\par}&#x0A;</rtf>
+<raw>?Voltando aos burgueses da Europa, vimos que, com o tempo, adquiriram prest?gio e poder econ?mico a ponto de se tornar a classe dominante, ajudando no colapso do sistema feudal. Neste momento hist?rico, coube a burguesia o papel revolucion?rio de destruir a ordem feudal e construir as funda??es da sociedade capitalista. Vimos tamb?m que, com o fim da servid?o, o trabalho passou a ser assalariado. Como classe dominante, parcela da burguesia acumulou capital suficiente para investir em novas tecnologias de produ??o a fim de aumentar a produtividade e, com isso, seus lucros. Surgiram ent?o as ind?strias e, com elas, uma nova estratifica??o social e novas classes. Como j? dito, Marx apontou para duas grandes classes sociais no capitalismo industrial: a burguesia (dona das ind?strias e a classe dominante) e o proletariado (os trabalhadores e a classe dominada). Segundo Marx existe uma pequena burguesia, um grupo intermedi?rio que procura se identificar com a alta burguesia e se distanciar do proletariado, mas sendo, ao mesmo tempo, classe dominada e dominante.</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="408" parent="406">
+<name>Grupo_1</name>
+<lastupdated>1687890343</lastupdated>
+<shape id="410" parent="408" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687890343</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="412" parent="408" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687890343</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="414" parent="408" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687890343</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="415" parent="408" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687890343</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>714</cx>
+<cy>61</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text415Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text415Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text415Font1&quot;  &gt;Classes sociais: histÃ³rico e formaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text415Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Classes sociais: hist\&apos;f3rico e forma\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Classes sociais: hist?rico e forma??o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="417" parent="408" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687890343</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="419" parent="408" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687890343</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="501" parent="40">
+<name>Página 6</name>
+<lastupdated>1687890657</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="545" parent="501" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687890654</lastupdated>
+<possize>
+<point>
+<x>526</x>
+<y>123</y>
+</point>
+<size>
+<cx>434</cx>
+<cy>296</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text545Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text545Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text545Font1&quot;  &gt;No Brasil, Ã© oficialmente considerada a existÃªncia de cinco estratos sociais, denominadas pelo IBGE de A, B, C, D e E, em ordem decrescente de renda: a classe A Ã© a mais rica, a E Ã© a mais pobre. &lt;/span &gt;&lt;span class=&quot;text545Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text545Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text545Font1&quot;  &gt;O IBGE utiliza como referÃªncia a renda mensal em salÃ¡rios mÃ­nimos para determinar o estrato social ao qual uma pessoa pertence. Assim, se uma pessoa ganha mais do que 15 salÃ¡rios mÃ­nimos mensais, ela pertence, pelo IBGE, a classe A. Desta maneira, os estratos sociais brasileiros sÃ£o assim ordenados:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 No Brasil, \u233 \&apos;e9 oficialmente considerada a exist\u234 \&apos;eancia de cinco estratos sociais, denominadas pelo IBGE de A, B, C, D e E, em ordem decrescente de renda: a classe A \u233 \&apos;e9 a mais rica, a E \u233 \&apos;e9 &#x0A;a mais pobre. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par O IBGE utiliza como refer\u234 \&apos;eancia a renda mensal em sal\u225 \&apos;e1rios m\u237 \&apos;ednimos para determinar o estrato social ao qual uma pessoa pertence. Assim, se uma pessoa ganha &#x0A;mais do que 15 sal\u225 \&apos;e1rios m\u237 \&apos;ednimos mensais, ela pertence, pelo IBGE, a classe A. Desta maneira, os estratos sociais brasileiros s\u227 \&apos;e3o assim ordenados:\par}&#x0A;</rtf>
+<raw>?No Brasil, ? oficialmente considerada a exist?ncia de cinco estratos sociais, denominadas pelo IBGE de A, B, C, D e E, em ordem decrescente de renda: a classe A ? a mais rica, a E ? a mais pobre. &#x0A;O IBGE utiliza como refer?ncia a renda mensal em sal?rios m?nimos para determinar o estrato social ao qual uma pessoa pertence. Assim, se uma pessoa ganha mais do que 15 sal?rios m?nimos mensais, ela pertence, pelo IBGE, a classe A. Desta maneira, os estratos sociais brasileiros s?o assim ordenados:</raw>
+<numoflines>12</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="523" parent="501" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687890616</lastupdated>
+<possize>
+<point>
+<x>45</x>
+<y>117</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>529</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text523Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text523Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text523Font1&quot;  &gt;de desenvolvimento humano de um paÃ­s, as classes sociais tÃªm tamanhos diferentes, indicando o grau de desigualdade social e de concentraÃ§Ã£o de renda existente. &lt;/span &gt;&lt;span class=&quot;text523Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text523Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text523Font1&quot;  &gt;Para se medir a desigualdade social de um paÃ­s, uma boa referÃªncia Ã© o &quot;Ãndice Gini&quot;, criado pelo economista italiano Conrado Gini, em 1912, quando a industrializaÃ§Ã£o jÃ¡ tinha se espalhado pela maioria dos paÃ­ses europeus. O Ãndice Gini compara a renda dos 20% mais pobres com os 20% mais ricos de uma populaÃ§Ã£o, indicando a diferenÃ§a de renda entre os dois grupos. Os resultados sÃ£o colocados em uma escala de 0 a 1 em que quanto mais prÃ³ximo de 1 um Ã­ndice Gini de um paÃ­s Ã©, mais desigual e concentrada a sua renda. Quanto mais prÃ³ximo de 0, mais distribuÃ­da a renda Ã©, indicando uma sociedade mais igualitÃ¡ria. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 de desenvolvimento humano de um pa\u237 \&apos;eds, as classes sociais t\u234 \&apos;eam tamanhos diferentes, indicando o grau de desigualdade social e de concentra\u231 \&apos;e7\u227 \&apos;e3o de renda existente. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par &#x0A;Para se medir a desigualdade social de um pa\u237 \&apos;eds, uma boa refer\u234 \&apos;eancia \u233 \&apos;e9 o &quot;\u205 \&apos;cdndice Gini&quot;, criado pelo economista italiano Conrado Gini, em 1912, quando a industrializa\u231 \&apos;e7\u227 \&apos;e3o j\u225 \&apos;e1 tinha se espalhado &#x0A;pela maioria dos pa\u237 \&apos;edses europeus. O \u205 \&apos;cdndice Gini compara a renda dos 20% mais pobres com os 20% mais ricos de uma popula\u231 \&apos;e7\u227 \&apos;e3o, indicando a diferen\u231 \&apos;e7a de renda entre os dois grupos. Os resultados s\u227 \&apos;e3o colocados &#x0A;em uma escala de 0 a 1 em que quanto mais pr\u243 \&apos;f3ximo de 1 um \u237 \&apos;edndice Gini de um pa\u237 \&apos;eds \u233 \&apos;e9, mais desigual e concentrada a sua renda. Quanto mais pr\u243 \&apos;f3ximo de 0, mais distribu\u237 \&apos;edda a renda \u233 \&apos;e9, indicando &#x0A;uma sociedade mais igualit\u225 \&apos;e1ria. \par}&#x0A;</rtf>
+<raw>?de desenvolvimento humano de um pa?s, as classes sociais t?m tamanhos diferentes, indicando o grau de desigualdade social e de concentra??o de renda existente. &#x0A;Para se medir a desigualdade social de um pa?s, uma boa refer?ncia ? o &quot;?ndice Gini&quot;, criado pelo economista italiano Conrado Gini, em 1912, quando a industrializa??o j? tinha se espalhado pela maioria dos pa?ses europeus. O ?ndice Gini compara a renda dos 20% mais pobres com os 20% mais ricos de uma popula??o, indicando a diferen?a de renda entre os dois grupos. Os resultados s?o colocados em uma escala de 0 a 1 em que quanto mais pr?ximo de 1 um ?ndice Gini de um pa?s ?, mais desigual e concentrada a sua renda. Quanto mais pr?ximo de 0, mais distribu?da a renda ?, indicando uma sociedade mais igualit?ria. </raw>
+<numoflines>18</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="511" parent="501">
+<name>Grupo_1</name>
+<lastupdated>1687890575</lastupdated>
+<shape id="513" parent="511" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687890575</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="515" parent="511" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687890575</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="517" parent="511" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687890575</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="518" parent="511" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687890575</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>714</cx>
+<cy>61</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text518Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text518Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text518Font1&quot;  &gt;Classes sociais: histÃ³rico e formaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text518Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Classes sociais: hist\&apos;f3rico e forma\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Classes sociais: hist?rico e forma??o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="520" parent="511" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687890575</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="522" parent="511" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687890575</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="575" parent="40">
+<name>Página 7</name>
+<lastupdated>1687890839</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="669" parent="575" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687890808</lastupdated>
+<possize>
+<point>
+<x>530</x>
+<y>121</y>
+</point>
+<size>
+<cx>446</cx>
+<cy>487</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text669Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text669Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text669Font1&quot;  &gt;Pelos estratos sociais do IBGE, vemos que a classe E, a mais pobre, tem que viver com atÃ© 1 salÃ¡rio mÃ­nimo por mÃªs. A pobreza Ã© entendida como uma situaÃ§Ã£o socioeconÃ´mica na qual um indivÃ­duo nÃ£o tem rendas suficientes para as necessidades da vida cotidiana, excluindo-o de serviÃ§os e direitos essenciais (como saneamento, moradia, alimentaÃ§Ã£o, educaÃ§Ã£o, saÃºde e cultura), prejudicando sua participaÃ§Ã£o na sociedade. &lt;/span &gt;&lt;span class=&quot;text669Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text669Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text669Font1&quot;  &gt;Dependendo do grau de pobreza, a sobrevivÃªncia&lt;/span &gt;&lt;span class=&quot;text669Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text669Font1&quot;  &gt;fÃ­sica e psÃ­quica de um indivÃ­duo Ã© ameaÃ§ada, pois jÃ¡ nÃ£o consegue suprir sua subsistÃªncia. Por exemplo, o Banco Mundial considera como pobreza extrema a situaÃ§Ã£o na qual uma pessoa tem que sobreviver com menos de um dÃ³lar americano por dia e pobreza moderada quando se vive com 1 a 2 dÃ³lares diÃ¡rios. Nestas condiÃ§Ãµes, os indivÃ­duos tÃªm pouca margem de manobra na vida cotidiana em relaÃ§Ã£o a escolhas de alimentaÃ§Ã£o, trabalho, moradia, educaÃ§Ã£o e saÃºde, sendo completamente excluÃ­dos dos benefÃ­cios da sociedade capitalista. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Pelos estratos sociais do IBGE, vemos que a classe E, a mais pobre, tem que viver com at\u233 \&apos;e9 1 sal\u225 \&apos;e1rio m\u237 \&apos;ednimo por m\u234 \&apos;eas. A pobreza \u233 \&apos;e9 entendida como uma situa\u231 \&apos;e7\u227 \&apos;e3o &#x0A;socioecon\u244 \&apos;f4mica na qual um indiv\&apos;edduo n\&apos;e3o tem rendas suficientes para as necessidades da vida cotidiana, excluindo-o de servi\&apos;e7os e direitos essenciais (como saneamento, moradia, alimenta\&apos;e7\&apos;e3o, educa\&apos;e7\&apos;e3o, sa\&apos;fade e cultura), prejudicando &#x0A;sua participa\&apos;e7\&apos;e3o na sociedade. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par Dependendo do grau de pobreza, a sobreviv\&apos;eancia\lang1046\hich\f2\loch\f2  \lang1046\hich\f1\loch\f1 f\&apos;edsica e ps\&apos;edquica de um indiv\&apos;edduo \&apos;e9 amea\&apos;e7ada, &#x0A;pois j\&apos;e1 n\&apos;e3o consegue suprir sua subsist\&apos;eancia. Por exemplo, o Banco Mundial considera como pobreza extrema a situa\&apos;e7\&apos;e3o na qual uma pessoa tem que sobreviver com menos de um d\&apos;f3lar americano por dia e pobreza moderada quando se vive com &#x0A;1 a 2 d\&apos;f3lares di\&apos;e1rios. Nestas condi\&apos;e7\&apos;f5es, os indiv\&apos;edduos t\&apos;eam pouca margem de manobra na vida cotidiana em rela\&apos;e7\&apos;e3o a escolhas de alimenta\&apos;e7\&apos;e3o, trabalho, moradia, educa\&apos;e7\&apos;e3o e sa\&apos;fade, sendo completamente exclu\&apos;eddos dos &#x0A;benef\&apos;edcios da sociedade capitalista. \par}&#x0A;</rtf>
+<raw>?Pelos estratos sociais do IBGE, vemos que a classe E, a mais pobre, tem que viver com at� 1 sal�rio m�nimo por m�s. A pobreza � entendida como uma situa��o socioecon�mica na qual um indiv�duo n�o tem rendas suficientes para as necessidades da vida cotidiana, excluindo-o de servi�os e direitos essenciais (como saneamento, moradia, alimenta��o, educa��o, sa�de e cultura), prejudicando sua participa��o na sociedade. &#x0A;&#x0A;Dependendo do grau de pobreza, a sobreviv�ncia f�sica e ps�quica de um indiv�duo � amea�ada, pois j� n�o consegue suprir sua subsist�ncia. Por exemplo, o Banco Mundial considera como pobreza extrema a situa��o na qual uma pessoa tem que sobreviver com menos de um d�lar americano por dia e pobreza moderada quando se vive com 1 a 2 d�lares di�rios. Nestas condi��es, os indiv�duos t�m pouca margem de manobra na vida cotidiana em rela��o a escolhas de alimenta��o, trabalho, moradia, educa��o e sa�de, sendo completamente exclu�dos dos benef�cios da sociedade capitalista. </raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="631" parent="575" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687890741</lastupdated>
+<possize>
+<point>
+<x>41</x>
+<y>591</y>
+</point>
+<size>
+<cx>461</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text631Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text631Font3 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text631Font1&quot;  &gt;Fonte: Datafolha/nov.2013 obs.: A soma nÃ£o chega a 100%, pois parte dos entrevistados se nega a declarar a renda.&lt;/span &gt;&lt;span class=&quot;text631Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ql\hich\f2\loch\f2\cf2\fs22\b Fonte: Datafolha/nov.2013 obs.: A soma n\u227 \&apos;e3o chega a 100%, pois parte dos entrevistados se nega a declarar a renda.\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Fonte: Datafolha/nov.2013 obs.: A soma n�o chega a 100%, pois parte dos entrevistados se nega a declarar a renda.</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="611" parent="575" resource="610" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687890712</lastupdated>
+<possize>
+<point>
+<x>103</x>
+<y>378</y>
+</point>
+<size>
+<cx>324</cx>
+<cy>195</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="589" parent="575" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687890725</lastupdated>
+<possize>
+<point>
+<x>46</x>
+<y>130</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>273</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text589Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text589Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text589Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text589Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text589Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text589Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text589Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text589ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text589Font1&quot;  &gt;Classe A: mais de 15 salÃ¡rios mÃ­nimos mensais&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text589Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text589ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text589Font1&quot;  &gt;Classe B: 5 a 15 salÃ¡rios mÃ­nimos mensais&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text589Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text589ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text589Font1&quot;  &gt;Classe C: 3 a 5 salÃ¡rios mÃ­nimos mensais&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text589Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text589ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text589Font1&quot;  &gt;Classe D: 1 a 3 salÃ¡rios mÃ­nimos mensais&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text589Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text589ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text589Font1&quot;  &gt;Classe E: atÃ© 1 salÃ¡rio mÃ­nimo mensal. &lt;/span &gt;&lt;span class=&quot;text589Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text589Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text589Font1&quot;  &gt;O Brasil Ã© um paÃ­s extremamente desigual, estando entre os piores do mundo em desigualdade social e concentraÃ§Ã£o de renda, atualmente estando em sÃ©timo lugar entre as naÃ§Ãµes mais desiguais. Abaixo temos a &quot;&lt;/span &gt;&lt;span class=&quot;text589Font4&quot;  &gt;pirÃ¢mide social&lt;/span &gt;&lt;span class=&quot;text589Font1&quot;  &gt;&quot; do Brasil.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\cf2\fs28 Classe A: mais de 15 sal\u225 \&apos;e1rios m\u237 \&apos;ednimos mensais\par Classe B: 5 a 15 sal\u225 \&apos;e1rios m\u237 \&apos;ednimos mensais\par Classe C: 3 a 5 sal\u225 &#x0A;\&apos;e1rios m\u237 \&apos;ednimos mensais\par Classe D: 1 a 3 sal\u225 \&apos;e1rios m\u237 \&apos;ednimos mensais\par Classe E: at\u233 \&apos;e9 1 sal\u225 \&apos;e1rio m\u237 \&apos;ednimo mensal. \lang1046\hich\f2\loch\f2\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par O Brasil \u233 \&apos;e9 &#x0A;um pa\u237 \&apos;eds extremamente desigual, estando entre os piores do mundo em desigualdade social e concentra\u231 \&apos;e7\u227 \&apos;e3o de renda, atualmente estando em s\u233 \&apos;e9timo lugar entre as na\u231 \&apos;e7\u245 \&apos;f5es mais desiguais. Abaixo temos a &quot;\b &#x0A;pir\u226 \&apos;e2mide social\b0 &quot; do Brasil.\par}&#x0A;</rtf>
+<raw>?Classe A: mais de 15 sal�rios m�nimos mensais&#x0A;Classe B: 5 a 15 sal�rios m�nimos mensais&#x0A;Classe C: 3 a 5 sal�rios m�nimos mensais&#x0A;Classe D: 1 a 3 sal�rios m�nimos mensais&#x0A;Classe E: at� 1 sal�rio m�nimo mensal. &#x0A;&#x0A;O Brasil � um pa�s extremamente desigual, estando entre os piores do mundo em desigualdade social e concentra��o de renda, atualmente estando em s�timo lugar entre as na��es mais desiguais. Abaixo temos a &quot;pir�mide social&quot; do Brasil.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text589ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text589ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text589ArrowBulletFont11.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>11</numoflines>
+<numpubbullets>3</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="577" parent="575">
+<name>Grupo_1</name>
+<lastupdated>1687890661</lastupdated>
+<shape id="579" parent="577" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687890661</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="581" parent="577" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687890661</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="583" parent="577" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687890661</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="584" parent="577" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687890661</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>714</cx>
+<cy>61</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text584Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text584Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text584Font1&quot;  &gt;Classes sociais: histÃ³rico e formaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text584Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Classes sociais: hist\&apos;f3rico e forma\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Classes sociais: hist�rico e forma��o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="586" parent="577" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687890661</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="588" parent="577" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687890661</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

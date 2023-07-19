@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc">
+<currentid>744</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="166" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="167" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="450" resourcetype="image">
+<name>Imagem 3.bmp</name>
+<relativelink>images\Imagem 3.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="76">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 3</name>
+<lastupdated>1686576678</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="75" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="76" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="70" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="68" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="69" parent="68" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="62" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="63" parent="62" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="54" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="55" parent="54" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="56" parent="54" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="54" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="54">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>0</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="2" parent="40">
+<name>Página 1</name>
+<lastupdated>1686576741</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+</page>
+<page id="152" parent="40">
+<name>Página 2</name>
+<lastupdated>1686577190</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="285" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 4</name>
+<lastupdated>1686577625</lastupdated>
+<possize>
+<point>
+<x>551</x>
+<y>434</y>
+</point>
+<size>
+<cx>430</cx>
+<cy>185</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text285Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text285Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ol  start=&quot;1&quot; style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text285Font2&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:16px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text285Font2&quot;  &gt;o tÃ­tulo e o assunto abordado;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text285Font2&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:16px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text285Font2&quot;  &gt;dados sobre o autor (nome, vida, classe social, formaÃ§Ã£o);&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text285Font2&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:16px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text285Font2&quot;  &gt;a data de execuÃ§Ã£o e o contexto histÃ³rico;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text285Font2&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:16px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text285Font2&quot;  &gt;o suporte (madeira, muro, tela), a tÃ©cnica e os materiais;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text285Font2&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:16px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text285Font2&quot;  &gt;identificaÃ§Ã£o das formas apresentadas (personagens e espaÃ§o);&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ol &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \froman \fcharset2 Symbol;}{\f3 \fnil \fcharset2 Wingdings;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577169&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable&#x0A;{\listoverride\listid1686577169\listoverridecount0\ls1}&#x0A;}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\pntext\pard\plain\f1\fs28 1.\tab}{\*\pn\pnlvlbody\pnstart1\ls1\ilvl0\pnhang{\pntxta \&apos;2e}}\ls1\ilvl0\fi-360\li360\qj\cf2\fs28 o t\&apos;edtulo e o assunto abordado;\par dados sobre o autor (nome, vida, classe social, forma\&apos;e7\&apos;e3o);\par &#x0A;a data de execu\&apos;e7\&apos;e3o e o contexto hist\&apos;f3rico;\par o suporte (madeira, muro, tela), a t\&apos;e9cnica e os materiais;\par identifica\&apos;e7\&apos;e3o das formas apresentadas (personagens e espa\&apos;e7o);\par}&#x0A;</rtf>
+<raw>?o t?tulo e o assunto abordado;&#x0A;dados sobre o autor (nome, vida, classe social, forma??o);&#x0A;a data de execu??o e o contexto hist?rico;&#x0A;o suporte (madeira, muro, tela), a t?cnica e os materiais;&#x0A;identifica??o das formas apresentadas (personagens e espa?o);</raw>
+<numoflines>8</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="221" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1686577625</lastupdated>
+<possize>
+<point>
+<x>526</x>
+<y>140</y>
+</point>
+<size>
+<cx>455</cx>
+<cy>274</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text221Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text221Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot;  &gt;sÃ£o estruturados e apontam para o estilo do artista ou da corrente a qual pertence.&lt;/span &gt;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot;  &gt;Existem vÃ¡rias fÃ³rmulas e roteiros para procedermos com a anÃ¡lise acerca de uma obra de arte, de modo geral todas possuem eficÃ¡cia e nos ajudam bastante. Ã‰ sempre interessante buscar as referÃªncias sobre o autor, o assunto abordado e o contexto histÃ³rico no qual se inserem.&lt;/span &gt;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot;  &gt;Cada um pode criar o seu prÃ³prio mÃ©todo de anÃ¡lise, mas vale muito a pena atentar para os seguintes pontos:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 s\&apos;e3o estruturados e apontam para o estilo do artista ou da corrente a qual pertence.\hich\f2\loch\f2\par\par\hich\f1\loch\f1 Existem v\&apos;e1rias f\&apos;f3rmulas e roteiros para procedermos com a an\&apos;e1lise acerca de uma obra &#x0A;de arte, de modo geral todas possuem efic\&apos;e1cia e nos ajudam bastante. \&apos;c9 sempre interessante buscar as refer\&apos;eancias sobre o autor, o assunto abordado e o contexto hist\&apos;f3rico no qual se inserem.\hich\f2\loch\f2\par\par\hich\f1\loch\f1 Cada um pode &#x0A;criar o seu pr\&apos;f3prio m\&apos;e9todo de an\&apos;e1lise, mas vale muito a pena atentar para os seguintes pontos:\par}&#x0A;</rtf>
+<raw>?s?o estruturados e apontam para o estilo do artista ou da corrente a qual pertence.&#x0A;Existem v?rias f?rmulas e roteiros para procedermos com a an?lise acerca de uma obra de arte, de modo geral todas possuem efic?cia e nos ajudam bastante. ? sempre interessante buscar as refer?ncias sobre o autor, o assunto abordado e o contexto hist?rico no qual se inserem.&#x0A;Cada um pode criar o seu pr?prio m?todo de an?lise, mas vale muito a pena atentar para os seguintes pontos:</raw>
+<numoflines>13</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="191" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1686577625</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>140</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>502</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text191Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot;  &gt;A apreciaÃ§Ã£o e a interpretaÃ§Ã£o de uma obra de arte nem sempre Ã© algo simples, pois ela pode apresentar variaÃ§Ãµes de linguagem, estrutura, estilo, tÃ©cnica e materiais que podem complicar bastante a assimilaÃ§Ã£o da relaÃ§Ã£o entre forma e conteÃºdo. Temos ainda que considerar o modo como sÃ£o explorados os elementos da composiÃ§Ã£o estudados anteriormente, bem como as funÃ§Ãµes da arte. Somados a isso, temos que buscara ainda a Ã©poca em que a obra foi construÃ­da, a vida do autor e o movimento artÃ­stico do qual possa ter feito parte.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot;  &gt;De modo geral, podemos reduzir a trÃªs tipos bÃ¡sicos de anÃ¡lise: a objetiva ou visual, aonde iremos descrever os elementos observados, como ponto, linha, planos, formas e cores; a subjetiva ou simbÃ³lica, que envolve a percepÃ§Ã£o individual, o modo como cada um de nÃ³s recebe e Ã© tocado pela obra; e a formal ou estÃ©tica, que Ã© mais prÃ¡tica, mecÃ¢nica, pois lida com a sintaxe visual, com o modo como os elementos compositivos (como equilÃ­brio, simetria, dinamismo, etc.) &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 A aprecia\&apos;e7\&apos;e3o e a interpreta\&apos;e7\&apos;e3o de uma obra de arte nem sempre \&apos;e9 algo simples, pois ela pode apresentar varia\&apos;e7\&apos;f5es de linguagem, estrutura, estilo, t\&apos;e9cnica e materiais que podem complicar bastante &#x0A;a assimila\&apos;e7\&apos;e3o da rela\&apos;e7\&apos;e3o entre forma e conte\&apos;fado. Temos ainda que considerar o modo como s\&apos;e3o explorados os elementos da composi\&apos;e7\&apos;e3o estudados anteriormente, bem como as fun\&apos;e7\&apos;f5es da arte. Somados a isso, temos que buscara ainda &#x0A;a \&apos;e9poca em que a obra foi constru\&apos;edda, a vida do autor e o movimento art\&apos;edstico do qual possa ter feito parte.\par\par De modo geral, podemos reduzir a tr\&apos;eas tipos b\&apos;e1sicos de an\&apos;e1lise: a objetiva ou visual, aonde iremos descrever os elementos &#x0A;observados, como ponto, linha, planos, formas e cores; a subjetiva ou simb\&apos;f3lica, que envolve a percep\&apos;e7\&apos;e3o individual, o modo como cada um de n\&apos;f3s recebe e \&apos;e9 tocado pela obra; e a formal ou est\&apos;e9tica, que \&apos;e9 mais pr\&apos;e1tica, mec\&apos;e2nica, &#x0A;pois lida com a sintaxe visual, com o modo como os elementos compositivos (como equil\&apos;edbrio, simetria, dinamismo, etc.) \par}&#x0A;</rtf>
+<raw>?A aprecia??o e a interpreta??o de uma obra de arte nem sempre ? algo simples, pois ela pode apresentar varia??es de linguagem, estrutura, estilo, t?cnica e materiais que podem complicar bastante a assimila??o da rela??o entre forma e conte?do. Temos ainda que considerar o modo como s?o explorados os elementos da composi??o estudados anteriormente, bem como as fun??es da arte. Somados a isso, temos que buscara ainda a ?poca em que a obra foi constru?da, a vida do autor e o movimento art?stico do qual possa ter feito parte.&#x0A;De modo geral, podemos reduzir a tr?s tipos b?sicos de an?lise: a objetiva ou visual, aonde iremos descrever os elementos observados, como ponto, linha, planos, formas e cores; a subjetiva ou simb?lica, que envolve a percep??o individual, o modo como cada um de n?s recebe e ? tocado pela obra; e a formal ou est?tica, que ? mais pr?tica, mec?nica, pois lida com a sintaxe visual, com o modo como os elementos compositivos (como equil?brio, simetria, dinamismo, etc.) </raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="165" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="163" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="161" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="159" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686577625</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text159Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text159Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text159Font1&quot;  &gt;Como analisar uma obra&lt;/span &gt;&lt;span class=&quot;text159Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Como analisar uma obra\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Como analisar uma obra</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="158" parent="152" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="156" parent="152" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="333" parent="40">
+<name>Página 3</name>
+<lastupdated>1686577844</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="527" parent="333" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 5</name>
+<lastupdated>1686577830</lastupdated>
+<possize>
+<point>
+<x>526</x>
+<y>380</y>
+</point>
+<size>
+<cx>457</cx>
+<cy>253</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text527Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text527Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text527Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text527Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text527Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text527Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text527Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text527Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text527Font2&quot;  &gt;Vejamos&lt;/span &gt;&lt;span class=&quot;text527Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text527Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ol  start=&quot;1&quot; style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text527Font4&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:34px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text527Font2&quot;  &gt;tÃ­tulo&lt;/span &gt;&lt;span class=&quot;text527Font4&quot;  &gt;: Os Retirantes; &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text527Font4&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:34px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text527Font2&quot;  &gt;autor&lt;/span &gt;&lt;span class=&quot;text527Font4&quot;  &gt;: Candido Portinari, nascido em Brodowski-SP, em 29 de dezembro de 1903 e falecido no Rio de Janeiro em 6 de fevereiro de 1962. Portinari Ã© o artista brasileiro de maior reconhecimento&lt;/span &gt;&lt;span class=&quot;text527Font5&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text527Font4&quot;  &gt;internacional, Ã© o autor do painel Guerra e Paz, que fica no hall do edifÃ­cio da ONU, em Nova Iorque-EUA. Sua morte decorreu de intoxicaÃ§Ã£o com o chumbo presente nas tintas que usava.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ol &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \froman \fcharset2 Symbol;}{\f4 \fnil \fcharset2 Wingdings;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577791&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable&#x0A;{\listoverride\listid1686577791\listoverridecount0\ls1}&#x0A;}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28\b Vejamos\lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\b0\par\pard\s0{\pntext\pard\plain\f1\fs28 1.\tab}{\*\pn\pnlvlbody\pnstart1\ls1\ilvl0\pnhang{\pntxta \&apos;2e}}\ls1\ilvl0\fi-630\li630\qj\plain\f1\fs24\cf2\fs28\b &#x0A;t\&apos;edtulo\b0 : Os Retirantes; \par\b autor\b0 : Candido Portinari, nascido em Brodowski-SP, em 29 de dezembro de 1903 e falecido no Rio de Janeiro em 6 de fevereiro de 1962. Portinari \&apos;e9 o artista brasileiro de maior reconhecimento\hich\f2\loch\f2  \hich\f1\loch\f1 &#x0A;internacional, \&apos;e9 o autor do painel Guerra e Paz, que fica no hall do edif\&apos;edcio da ONU, em Nova Iorque-EUA. Sua morte decorreu de intoxica\&apos;e7\&apos;e3o com o chumbo presente nas tintas que usava.\par}&#x0A;</rtf>
+<raw>?Vejamos&#x0A;t?tulo: Os Retirantes; &#x0A;autor: Candido Portinari, nascido em Brodowski-SP, em 29 de dezembro de 1903 e falecido no Rio de Janeiro em 6 de fevereiro de 1962. Portinari ? o artista brasileiro de maior reconhecimento internacional, ? o autor do painel Guerra e Paz, que fica no hall do edif?cio da ONU, em Nova Iorque-EUA. Sua morte decorreu de intoxica??o com o chumbo presente nas tintas que usava.</raw>
+<numoflines>12</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="493" parent="333" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 4</name>
+<lastupdated>1686577809</lastupdated>
+<possize>
+<point>
+<x>778</x>
+<y>309</y>
+</point>
+<size>
+<cx>200</cx>
+<cy>61</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text493Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text493Font2 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text493Font1&quot;  &gt;Portinari, Os Retirantes, 1944, Ã³leo sobre tela, 190x180cm, MASP&lt;/span &gt;&lt;span class=&quot;text493Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs22\b Portinari, Os\lang1046\hich\f2\loch\f2  \lang1046\hich\f2\loch\f2 Retirantes, 1944, \&apos;f3leo sobre tela, 190x180cm, MASP\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Portinari, Os Retirantes, 1944, ?leo sobre tela, 190x180cm, MASP</raw>
+<numoflines>3</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="451" parent="333" resource="450" ontop="false" fixed="false" proportional="true">
+<name>Imagem 3</name>
+<lastupdated>1686577809</lastupdated>
+<possize>
+<point>
+<x>526</x>
+<y>114</y>
+</point>
+<size>
+<cx>242</cx>
+<cy>251</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="382" parent="333" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1686577625</lastupdated>
+<possize>
+<point>
+<x>44</x>
+<y>329</y>
+</point>
+<size>
+<cx>447</cx>
+<cy>321</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text382Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text382Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text382Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text382Font1&quot;  &gt;O processo Ã© uma atividade prazerosa, pois a cada descoberta um novo mundo se abre diante dos seus olhos.&lt;/span &gt;&lt;span class=&quot;text382Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text382Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text382Font3&quot;  &gt;FaÃ§a o que se pede&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text382Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text382Font2&quot;  &gt;Observe bem a imagem abaixo, ela Ã© uma das mais expressivas composiÃ§Ãµes de CÃ¢ndido Portinari, um importante nome na histÃ³ria da arte brasileira. Atente para os detalhes, as fisionomias, os corpos das personagens; observe o ambiente, imagine o que o autor quis representar, busque as informaÃ§Ãµes abaixo da figura, a data de sua criaÃ§Ã£o e imagine o tema e o contexto que a envolve.&lt;/span &gt;&lt;span class=&quot;text382Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 O processo \&apos;e9 uma atividade prazerosa, pois a cada descoberta um novo mundo se abre diante dos seus olhos.\hich\f2\loch\f2\par\par\fs36\b Fa\&apos;e7a o que se pede\par\par\fs28\b0 Observe bem a imagem abaixo, ela \&apos;e9 uma &#x0A;das mais expressivas composi\&apos;e7\&apos;f5es de C\&apos;e2ndido Portinari, um importante nome na hist\&apos;f3ria da arte brasileira. Atente para os detalhes, as fisionomias, os corpos das personagens; observe o ambiente, imagine o que o autor quis representar, busque &#x0A;as informa\&apos;e7\&apos;f5es abaixo da figura, a data de sua cria\&apos;e7\&apos;e3o e imagine o tema e o contexto que a envolve.\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?O processo ? uma atividade prazerosa, pois a cada descoberta um novo mundo se abre diante dos seus olhos.&#x0A;Fa?a o que se pede&#x0A;Observe bem a imagem abaixo, ela ? uma das mais expressivas composi??es de C?ndido Portinari, um importante nome na hist?ria da arte brasileira. Atente para os detalhes, as fisionomias, os corpos das personagens; observe o ambiente, imagine o que o autor quis representar, busque as informa??es abaixo da figura, a data de sua cria??o e imagine o tema e o contexto que a envolve.</raw>
+<numoflines>14</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="352" parent="333" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1686577625</lastupdated>
+<possize>
+<point>
+<x>79</x>
+<y>140</y>
+</point>
+<size>
+<cx>405</cx>
+<cy>174</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text352Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text352Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ol  start=&quot;6&quot; style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text352Font2&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:16px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text352Font2&quot;  &gt;a linguagem, se figurativa, abstrata ou conceitual;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text352Font2&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:16px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text352Font2&quot;  &gt;o tema: se histÃ³rico, religioso, polÃ­tico, social;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text352Font2&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:16px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text352Font2&quot;  &gt;o gÃªnero, se paisagem, retrato, nu, etc. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text352Font2&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:16px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text352Font2&quot;  &gt;a expressividade ou o sentimento que transmite;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text352Font2&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:16px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text352Font2&quot;  &gt;a impressÃ£o que tem acerca do que vÃª;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ol &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \froman \fcharset2 Symbol;}{\f3 \fnil \fcharset2 Wingdings;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable&#x0A;{\listoverride\listid1686577285\listoverridecount0\ls1}&#x0A;}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\pntext\pard\plain\f1\fs28 6.\tab}{\*\pn\pnlvlbody\pnstart1\ls1\ilvl0\pnhang{\pntxta \&apos;2e}}\ls1\ilvl0\fi-360\li360\qj\cf2\fs28 a linguagem, se figurativa, abstrata ou conceitual;\par o tema: se hist\&apos;f3rico, religioso, pol\&apos;edtico, &#x0A;social;\par o g\&apos;eanero, se paisagem, retrato, nu, etc. \par a expressividade ou o sentimento que transmite;\par a impress\&apos;e3o que tem acerca do que v\&apos;ea;\par}&#x0A;</rtf>
+<raw>?a linguagem, se figurativa, abstrata ou conceitual;&#x0A;o tema: se hist?rico, religioso, pol?tico, social;&#x0A;o g?nero, se paisagem, retrato, nu, etc. &#x0A;a expressividade ou o sentimento que transmite;&#x0A;a impress?o que tem acerca do que v?;</raw>
+<numoflines>8</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="611" parent="333">
+<name>Grupo_1</name>
+<lastupdated>1686577844</lastupdated>
+<shape id="349" parent="611" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="347" parent="611" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="345" parent="611" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="343" parent="611" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text343Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text343Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text343Font1&quot;  &gt;Como analisar uma obra&lt;/span &gt;&lt;span class=&quot;text343Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Como analisar uma obra\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Como analisar uma obra</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="342" parent="611" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="340" parent="611" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="605" parent="40">
+<name>Página 4</name>
+<lastupdated>1686578194</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="668" parent="605" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1686578188</lastupdated>
+<possize>
+<point>
+<x>525</x>
+<y>140</y>
+</point>
+<size>
+<cx>438</cx>
+<cy>652</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text668Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text668Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text668Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text668Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ol  start=&quot;6&quot; style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text668Font3&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:34px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text668Font2&quot;  &gt;linguagem:&lt;/span &gt;&lt;span class=&quot;text668Font3&quot;  &gt; figurativa, com uso de formas facilmente reconhecÃ­veis e desenhos expressionistas, com distorÃ§Ãµes propositais das imagens para dramatizar a representaÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text668Font3&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:34px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text668Font2&quot;  &gt;tema:&lt;/span &gt;&lt;span class=&quot;text668Font3&quot;  &gt; social, voltado para denÃºncia quanto ao sofrimento e a desigualdade.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text668Font3&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:34px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text668Font2&quot;  &gt;gÃªnero:&lt;/span &gt;&lt;span class=&quot;text668Font3&quot;  &gt; documentÃ¡rio.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text668Font3&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:34px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text668Font2&quot;  &gt;sensaÃ§Ãµes transmitidas:&lt;/span &gt;&lt;span class=&quot;text668Font3&quot;  &gt; sofrimento, angÃºstia. Os olhares das personagens parecem um pedido de socorro. A obra Ã© um retrato da desigualdade social no paÃ­s e do sofrimento do sertanejo durante os perÃ­odos da seca, motivo pela saÃ­da de suas terras em busca de melhores condiÃ§Ãµes nas cidades.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text668Font3&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:34px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text668Font2&quot;  &gt;impressÃµes acerca da obra:&lt;/span &gt;&lt;span class=&quot;text668Font3&quot;  &gt; Portinari cresceu em uma cidade pequena do interior de SÃ£o Paulo, Ã© bem provÃ¡vel que tenha visto vÃ¡rios caminhÃµes (chamados paus de arara) com retirantes da grande seca que assolou o nordeste do paÃ­s em 1915. A sensibilidade do artista com as condiÃ§Ãµes daquela gente o impeliu a levar seu descontentamento para as telas e, assim, mexer um pouco com o consciente coletivo. Embora tenha sido pintada em 1944 Ã© impossÃ­vel observÃ¡-la e nÃ£o pensar na grande parcela da populaÃ§Ã£o carente a nossa volta, seja nos campo, seja nas cidades e na disparidade que, infelizmente, ainda estÃ¡ presente em nosso paÃ­s. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ol &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \froman \fcharset2 Symbol;}{\f4 \fnil \fcharset2 Wingdings;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577931&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577979&#x0A;}&#x0A;{\list\listtemplateid3&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat3{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577990&#x0A;}&#x0A;{\list\listtemplateid4&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686578124&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable&#x0A;{\listoverride\listid1686578124\listoverridecount0\ls1}&#x0A;}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\pntext\pard\plain\f2\fs28 6.\tab}{\*\pn\pnlvlbody\pnstart1\ls1\ilvl0\pnhang{\pntxta \&apos;2e}}\ls1\ilvl0\fi-630\li630\qj\hich\f2\loch\f2\cf2\fs28\b linguagem:\b0  figurativa, com uso de formas facilmente reconhec\&apos;edveis e desenhos &#x0A;expressionistas, com distor\&apos;e7\&apos;f5es propositais das imagens para dramatizar a representa\&apos;e7\&apos;e3o.\par\b tema:\b0  social, voltado para den\&apos;fancia quanto ao sofrimento e a desigualdade.\par\b g\&apos;eanero:\b0  document\&apos;e1rio.\par\b sensa\&apos;e7\&apos;f5es transmitidas:\b0 &#x0A; sofrimento, ang\&apos;fastia. Os olhares das personagens parecem um pedido de socorro. A obra \&apos;e9 um retrato da desigualdade social no pa\&apos;eds e do sofrimento do sertanejo durante os per\&apos;edodos da seca, motivo pela sa\&apos;edda de suas terras em busca de melhores &#x0A;condi\&apos;e7\&apos;f5es nas cidades.\par\b impress\&apos;f5es acerca da obra:\b0  Portinari cresceu em uma cidade pequena do interior de S\&apos;e3o Paulo, \&apos;e9 bem prov\&apos;e1vel que tenha visto v\&apos;e1rios caminh\&apos;f5es (chamados paus de arara) com retirantes da grande seca &#x0A;que assolou o nordeste do pa\&apos;eds em 1915. A sensibilidade do artista com as condi\&apos;e7\&apos;f5es daquela gente o impeliu a levar seu descontentamento para as telas e, assim, mexer um pouco com o consciente coletivo. Embora tenha sido pintada em 1944 \&apos;e9 &#x0A;imposs\&apos;edvel observ\&apos;e1-la e n\&apos;e3o pensar na grande parcela da popula\&apos;e7\&apos;e3o carente a nossa volta, seja nos campo, seja nas cidades e na disparidade que, infelizmente, ainda est\&apos;e1 presente em nosso pa\&apos;eds. \par}&#x0A;</rtf>
+<raw>?linguagem: figurativa, com uso de formas facilmente reconhec?veis e desenhos expressionistas, com distor??es propositais das imagens para dramatizar a representa??o.&#x0A;tema: social, voltado para den?ncia quanto ao sofrimento e a desigualdade.&#x0A;g?nero: document?rio.&#x0A;sensa??es transmitidas: sofrimento, ang?stia. Os olhares das personagens parecem um pedido de socorro. A obra ? um retrato da desigualdade social no pa?s e do sofrimento do sertanejo durante os per?odos da seca, motivo pela sa?da de suas terras em busca de melhores condi??es nas cidades.&#x0A;impress?es acerca da obra: Portinari cresceu em uma cidade pequena do interior de S?o Paulo, ? bem prov?vel que tenha visto v?rios caminh?es (chamados paus de arara) com retirantes da grande seca que assolou o nordeste do pa?s em 1915. A sensibilidade do artista com as condi??es daquela gente o impeliu a levar seu descontentamento para as telas e, assim, mexer um pouco com o consciente coletivo. Embora tenha sido pintada em 1944 ? imposs?vel observ?-la e n?o pensar na grande parcela da popula??o carente a nossa volta, seja nos campo, seja nas cidades e na disparidade que, infelizmente, ainda est? presente em nosso pa?s. </raw>
+<numoflines>30</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="629" parent="605" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1686577992</lastupdated>
+<possize>
+<point>
+<x>46</x>
+<y>143</y>
+</point>
+<size>
+<cx>438</cx>
+<cy>461</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text629Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text629Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text629Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text629Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text629Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text629Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ol  start=&quot;3&quot; style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text629Font4&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:34px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text629Font2&quot;  &gt;data de execuÃ§Ã£o e o contexto histÃ³rico:&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt; a obra foi realizada em 1945, durante o governo de Get&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ãº&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;lio Vargas. O pa&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;s vivia um clima de tens&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;o devido a quest&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ãµ&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;es pol&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;ticas do Estado Novo e o mundo sofria com a II Guerra Mundial.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text629Font4&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:34px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text629Font2&quot;  &gt;o suporte e tÃ©cnica:&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt; pintura a &lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;leo sobre tela.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text629Font4&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:34px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text629Font2&quot;  &gt;identificaÃ§Ã£o das formas apresentadas:&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt; o cen&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;rio &lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt; do sert&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;o, com tons terrosos e paisagem desoladora. A presen&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;a de urubus e carca&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;as de animais indicam a morte decorrente da seca. As personagens envolvem dois grupos: as cinco crian&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;as, sendo duas de colo, e os adultos, dois homens e duas mulheres. As express&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ãµ&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;es e as formas de todos denotam sofrimento, subnutri&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;o, mis&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;ria e desespero. A crian&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;a na extremidade direita parece acometido de barriga d&apos;agua, doen&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;a comum em locais de muita pobreza e escassez de &lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;gua, esta geralmente vinda de fontes n&lt;/span &gt;&lt;span class=&quot;text629Font5&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text629Font4&quot;  &gt;o tratadas.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ol &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \froman \fcharset2 Symbol;}{\f4 \fnil \fcharset2 Wingdings;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577931&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577979&#x0A;}&#x0A;{\list\listtemplateid3&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat3{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577990&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable&#x0A;{\listoverride\listid1686577990\listoverridecount0\ls1}&#x0A;}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\pntext\pard\plain\f2\fs28 3.\tab}{\*\pn\pnlvlbody\pnstart1\ls1\ilvl0\pnhang{\pntxta \&apos;2e}}\ls1\ilvl0\fi-630\li630\qj\cf2\fs28\b data de execu\u231 \&apos;e7\u227 \&apos;e3o e o contexto hist\u243 \&apos;f3rico:\hich\f2\loch\f2\b0  a obra &#x0A;foi realizada em 1945, durante o governo de Get\hich\f1\loch\f1\u250 \&apos;fa\hich\f2\loch\f2 lio Vargas. O pa\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 s vivia um clima de tens\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o devido a quest\hich\f1\loch\f1\u245 &#x0A;\&apos;f5\hich\f2\loch\f2 es pol\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 ticas do Estado Novo e o mundo sofria com a II Guerra Mundial.\par\hich\f1\loch\f1\b o suporte e t\u233 \&apos;e9cnica:\hich\f2\loch\f2\b0  pintura a \hich\f1\loch\f1\u243 \&apos;f3\hich\f2\loch\f2 &#x0A;leo sobre tela.\par\hich\f1\loch\f1\b identifica\u231 \&apos;e7\u227 \&apos;e3o das formas apresentadas:\hich\f2\loch\f2\b0  o cen\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 rio \hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2  do sert\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 &#x0A;o, com tons terrosos e paisagem desoladora. A presen\hich\f1\loch\f1\u231 \&apos;e7\hich\f2\loch\f2 a de urubus e carca\hich\f1\loch\f1\u231 \&apos;e7\hich\f2\loch\f2 as de animais indicam a morte decorrente da seca. As personagens envolvem dois grupos: as cinco &#x0A;crian\hich\f1\loch\f1\u231 \&apos;e7\hich\f2\loch\f2 as, sendo duas de colo, e os adultos, dois homens e duas mulheres. As express\hich\f1\loch\f1\u245 \&apos;f5\hich\f2\loch\f2 es e as formas de todos denotam sofrimento, subnutri\hich\f1\loch\f1\u231 \&apos;e7\u227 &#x0A;\&apos;e3\hich\f2\loch\f2 o, mis\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 ria e desespero. A crian\hich\f1\loch\f1\u231 \&apos;e7\hich\f2\loch\f2 a na extremidade direita parece acometido de barriga d&apos;agua, doen\hich\f1\loch\f1\u231 \&apos;e7\hich\f2\loch\f2 a comum &#x0A;em locais de muita pobreza e escassez de \hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 gua, esta geralmente vinda de fontes n\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o tratadas.\par}&#x0A;</rtf>
+<raw>?data de execu??o e o contexto hist?rico: a obra foi realizada em 1945, durante o governo de Get?lio Vargas. O pa?s vivia um clima de tens?o devido a quest?es pol?ticas do Estado Novo e o mundo sofria com a II Guerra Mundial.&#x0A;o suporte e t?cnica: pintura a ?leo sobre tela.&#x0A;identifica??o das formas apresentadas: o cen?rio ? do sert?o, com tons terrosos e paisagem desoladora. A presen?a de urubus e carca?as de animais indicam a morte decorrente da seca. As personagens envolvem dois grupos: as cinco crian?as, sendo duas de colo, e os adultos, dois homens e duas mulheres. As express?es e as formas de todos denotam sofrimento, subnutri??o, mis?ria e desespero. A crian?a na extremidade direita parece acometido de barriga d&apos;agua, doen?a comum em locais de muita pobreza e escassez de ?gua, esta geralmente vinda de fontes n?o tratadas.</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="617" parent="605">
+<name>Grupo_1</name>
+<lastupdated>1686577852</lastupdated>
+<shape id="619" parent="617" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686577852</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="621" parent="617" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686577852</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="623" parent="617" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686577852</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="624" parent="617" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686577852</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text624Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text624Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text624Font1&quot;  &gt;Como analisar uma obra&lt;/span &gt;&lt;span class=&quot;text624Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Como analisar uma obra\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Como analisar uma obra</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="626" parent="617" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686577852</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="628" parent="617" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686577852</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="711" parent="40">
+<name>Página 5</name>
+<lastupdated>1686578194</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="727" parent="711" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1686578243</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>140</y>
+</point>
+<size>
+<cx>438</cx>
+<cy>385</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text727Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text727Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text727Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text727Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ol  start=&quot;10&quot; style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text727Font3&quot; style=&quot;line-height:1.107;position:relative;padding-left:10px;list-style-type:decimal;margin-left:34px;margin-top:0px;margin-bottom:0px;&quot;&gt;&lt;span class=&quot;text727Font2&quot;  &gt;impressÃµes acerca da obra:&lt;/span &gt;&lt;span class=&quot;text727Font3&quot;  &gt; Portinari cresceu em uma cidade pequena do interior de SÃ£o Paulo, Ã© bem provÃ¡vel que tenha visto vÃ¡rios caminhÃµes (chamados paus de arara) com retirantes da grande seca que assolou o nordeste do paÃ­s em 1915. A sensibilidade do artista com as condiÃ§Ãµes daquela gente o impeliu a levar seu descontentamento para as telas e, assim, mexer um pouco com o consciente coletivo. Embora tenha sido pintada em 1944 Ã© impossÃ­vel observÃ¡-la e nÃ£o pensar na grande parcela da populaÃ§Ã£o carente a nossa volta, seja nos campo, seja nas cidades e na disparidade que, infelizmente, ainda estÃ¡ presente em nosso paÃ­s. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ol &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \froman \fcharset2 Symbol;}{\f4 \fnil \fcharset2 Wingdings;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577931&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577979&#x0A;}&#x0A;{\list\listtemplateid3&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat3{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577990&#x0A;}&#x0A;{\list\listtemplateid4&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686578124&#x0A;}&#x0A;{\list\listtemplateid5&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat10{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686578242&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable&#x0A;{\listoverride\listid1686578242\listoverridecount0\ls1}&#x0A;}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\pntext\pard\plain\f2\fs28 10.\tab}{\*\pn\pnlvlbody\pnstart1\ls1\ilvl0\pnhang{\pntxta \&apos;2e}}\ls1\ilvl0\fi-630\li630\qj\hich\f2\loch\f2\cf2\fs28\b impress\&apos;f5es acerca da obra:\b0  Portinari cresceu em uma cidade pequena do &#x0A;interior de S\&apos;e3o Paulo, \&apos;e9 bem prov\&apos;e1vel que tenha visto v\&apos;e1rios caminh\&apos;f5es (chamados paus de arara) com retirantes da grande seca que assolou o nordeste do pa\&apos;eds em 1915. A sensibilidade do artista com as condi\&apos;e7\&apos;f5es daquela gente o impeliu &#x0A;a levar seu descontentamento para as telas e, assim, mexer um pouco com o consciente coletivo. Embora tenha sido pintada em 1944 \&apos;e9 imposs\&apos;edvel observ\&apos;e1-la e n\&apos;e3o pensar na grande parcela da popula\&apos;e7\&apos;e3o carente a nossa volta, seja nos campo, &#x0A;seja nas cidades e na disparidade que, infelizmente, ainda est\&apos;e1 presente em nosso pa\&apos;eds. \par}&#x0A;</rtf>
+<raw>?impress?es acerca da obra: Portinari cresceu em uma cidade pequena do interior de S?o Paulo, ? bem prov?vel que tenha visto v?rios caminh?es (chamados paus de arara) com retirantes da grande seca que assolou o nordeste do pa?s em 1915. A sensibilidade do artista com as condi??es daquela gente o impeliu a levar seu descontentamento para as telas e, assim, mexer um pouco com o consciente coletivo. Embora tenha sido pintada em 1944 ? imposs?vel observ?-la e n?o pensar na grande parcela da popula??o carente a nossa volta, seja nos campo, seja nas cidades e na disparidade que, infelizmente, ainda est? presente em nosso pa?s. </raw>
+<numoflines>16</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="713" parent="711">
+<name>Grupo_1</name>
+<lastupdated>1686578198</lastupdated>
+<shape id="715" parent="713" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686578198</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="717" parent="713" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686578198</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="719" parent="713" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686578198</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="720" parent="713" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686578198</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text720Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text720Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text720Font1&quot;  &gt;Como analisar uma obra&lt;/span &gt;&lt;span class=&quot;text720Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Como analisar uma obra\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Como analisar uma obra</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="722" parent="713" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686578198</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="724" parent="713" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686578198</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

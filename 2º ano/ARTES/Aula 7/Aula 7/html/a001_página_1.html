@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="pt">
+<!--GERADO POR::  Lectora Inspire v.17.1.5-(11381) (http://www.trivantis.com) -->
+<!--TÍTULO: C:\Users\yuri.ozorio\OneDrive - G1learn\Documents\2º ano\ARTES\Aula 7\Aula 7 -->
+
+
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Página 1</title>
+
+<link rel="stylesheet" href="trivantis.css" type="text/css" />
+<link rel="stylesheet" href="dialog.css" type="text/css" />
+<style type="text/css">
+  body { background-color:#ffffff; }
+</style>
+
+<!--[if lt IE 7]>
+<style type="text/css">
+    #image831 img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+    #image831 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/image0001.png',sizingMethod='scale'); }
+    #image833 img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+    #image833 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/image0007_844.png',sizingMethod='scale'); }
+</style>
+<![endif]-->
+
+<!--[if lte IE 9]>
+<script>
+document.namespaces.add('v', 'urn:schemas-microsoft-com:vml', "#default#VML")
+</script>
+<![endif]-->
+
+<script src="trivantis.js"></script>
+<script src="trivantis-timedate.js"></script>
+<script src="es6-promise-2.0.0.min.js"></script>
+<script src="jquery-1.10.2.min.js"></script>
+<script src="trivantis-cookie.js"></script>
+<script src="trivantis-button.js"></script>
+<script src="trivantis-image.js"></script>
+<script src="trivantis-inline.js"></script>
+<script src="trivantis-text.js"></script>
+<script src="trivantis-trans.js"></script>
+<script src="trivantis-pagetracking.js"></script>
+<script src="trivantis-dialog.js"></script>
+<script src="trivantis-strings.js" charset="UTF-8"></script>
+<script>
+
+<!-- 
+var trivPageScope = {};
+var pgID = 'page828';
+trivWeb20Popups = true;
+var trivPlayer = null;
+var bPageLoaded = false;
+var bDisableBrowserResize = (null);
+var bScaleToWindow = false;
+var bFitToWidth = false;
+var pageHeight = 662;
+var bLoadedVariables = false;
+
+var arObjs = [];
+if( !is.min )
+  document.write( 'Seu navegador não é compatível com html dinâmico. Baixe a versão atual do <a href="http://www.microsoft.com/ie/">Microsoft Internet Explorer</a> ou <a href="http://www.mozilla.com/en-US/firefox/">Mozilla Firefox </a> e tente visitar nosso site novamente.  Obrigado.<br /><br />' )
+
+var pageLayer = null
+var winW = getDisplayWindow().screen.width
+var winH = getDisplayWindow().screen.height
+var transformScale = 1
+
+function findWH(){	//echo LD-769
+	if (is.ie9) {
+	var vScrollAdj =  (is.ns ? 16 : 20);
+	winW = (is.ns) ? window.innerWidth - vScrollAdj : document.body.offsetWidth;
+	winH = (is.ns) ? window.innerHeight : document.body.offsetHeight;
+	}
+	else if (is.ie) {
+   winW = Math.max(Math.max(getDisplayDocument().body.scrollWidth, getDisplayDocument().documentElement.scrollWidth)-16,
+					  Math.max(getDisplayDocument().body.offsetWidth, getDisplayDocument().documentElement.offsetWidth)-16,
+					  Math.max(getDisplayDocument().body.clientWidth, getDisplayDocument().documentElement.clientWidth)-16 );
+   winH = Math.max(Math.max(getDisplayDocument().body.scrollHeight, getDisplayDocument().documentElement.scrollHeight)-16,
+					  Math.max(getDisplayDocument().body.offsetHeight, getDisplayDocument().documentElement.offsetHeight)-16,
+					  Math.max(getDisplayDocument().body.clientHeight, getDisplayDocument().documentElement.clientHeight)-16 );
+	}
+	else
+	{
+   winW =  getDisplayDocument().documentElement.clientWidth ? getDisplayDocument().documentElement.clientWidth : getDisplayDocument().body.clientWidth;
+   if(is.iOS && (navigator.userAgent.indexOf('CellCast-iPad') != -1 || navigator.userAgent.indexOf('CellCast-iPhone') != -1) )
+		 winW =  getScreenWidth();
+   winH =  getDisplayDocument().documentElement.clientHeight ? getDisplayDocument().documentElement.clientHeight : getDisplayDocument().body.clientHeight;
+	}
+}
+
+trivSetupPage();
+
+ if( isSppCapable() && window.trivPlayer === null )window.location.replace("index.html?jmptopg=a001_página_1.html");
+ function ReFlow() {
+  findWH()
+  var left = (winW > 1009) ? (winW-1009)/2 : 0
+  if (pageLayer)
+  {
+    pageLayer.moveTo( left, 0 );
+    if(!bScaleToWindow)
+    pageLayer.hasMoved = true;
+    pageLayer.newX = left;
+    pageLayer.newY = 0;
+   fillBrowser();
+   adjustAllObjectsForFixedPosition();
+   setfixed();
+ }
+}
+
+var arVariables = [];
+
+AICC_Lesson_Status = new Variable( 'AICC_Lesson_Status', '', 0, 0, null, null, 'aula_7', false )
+VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'aula_7', true )
+VarPageInTitle = new Variable( 'VarPageInTitle', null, 0, 0, null, null, 'aula_7' )
+VarPageInTitle.set( '1' )
+VarPagesInTitle = new Variable( 'VarPagesInTitle', null, 0, 0, null, null, 'aula_7' )
+VarPagesInTitle.set( '4' )
+VarClickCount = new Variable( 'VarClickCount', '0', 0, 0, null, null, 'aula_7', false )
+
+onload = init
+if( is.webkit && !is.iOSSafari )
+  onbeforeunload = finish
+else
+  onunload = finish
+
+function init() {
+  trivAlert( '828', 'Aula 7', 'Este título foi criado com a versão de demonstração do Lectora Inspire.\nEste diálogo não aparecerá mais logo que este título é publicado com uma versão completa do produto. <br> Para obter a versão completa do Lectora Inspire, ir para http://www.trivantis.com.', 'init11()' );
+}
+
+function init11() {
+  findWH()
+  if( is.min ){
+    trivPageTracking.InitPageTracking();
+    PreloadResources(new Array(button71,button64,button56,og829,image831,image833,text834,shape836,shape838,shape840,shape842))
+    pageLayer = new ObjLayer(GetCurrentPageID());
+    pageLayer.show(true);
+    button71.init()
+    button64.init()
+    button56.init()
+    og829.init()
+    image831.init()
+    image833.init()
+    text834.init()
+    shape836.init()
+    shape838.init()
+    shape840.init()
+    shape842.init()
+    button71.activate()
+    button64.activate()
+    button56.activate()
+    og829.activate()
+    image831.activate()
+    image833.activate()
+    text834.activate()
+    shape836.activate()
+    shape838.activate()
+    shape840.activate()
+    shape842.activate()
+    window.scrollTo(0,1);
+    var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
+    if(titleManagerIndexWindow)titleManagerIndexWindow.scrollTo(0,1);
+    if(!isSinglePagePlayerAvail()) postPageShowAction();
+    if( location.hash )
+    {
+      var newHash
+      if( location.hash.charAt(0) == '#' )
+        newHash = location.hash.slice( 1 )
+      else
+        newHash = location.hash
+      location.hash = newHash
+      if((typeof(bTrivRunView) != 'undefined'  && bTrivRunView) || (typeof(bTrivOffline) != 'undefined' && bTrivOffline)) window.scrollTo(0 , getTopofObj(document.getElementById(newHash)));
+    }
+    getDisplayDocument().onkeydown=keyDown
+    getDisplayDocument().onkeyup=keyUp
+    setTimeout( 'trivUpdateTOC( 1 )', 100 )
+    bPageLoaded = true;
+    ReFlow();
+    if(!isSinglePagePlayerAvail())
+       loadActions();
+  }
+}
+  window.bLoadedVariables = true;
+function loadActions(){
+    if((window.bPageLoaded && window.bLoadedVariables && getDisplayWindow().pagePlayer &&
+	getDisplayWindow().pagePlayer.arLoadedPages && getDisplayWindow().pagePlayer.arLoadedPages.length == 1) || (window.bPageLoaded && window.bLoadedVariables && !isSinglePagePlayerAvail() )){
+      action77(  );
+
+       postPageShowAction();
+    }
+    else
+      setTimeout(loadActions, 100);
+}
+function postPageShowAction(){
+  if ( trivPageTracking.GetRangeStatus(828) == 'notstarted' ) trivPageTracking.SetRangeStatus(828,2);
+}  
+
+var trivGoToPage = null
+var trivCompleteCnt = 1;
+var hasProcessedExitActions = false;
+var trivActFBCnt = 0;
+var currFeedbackIdx = 0;
+var trivPageExited = false;
+var trivInTest = false;
+
+function finish() {
+}
+
+function trivOnFocus() {
+    if( trivPageExited ) return
+}
+
+function checkLeavePage() {
+    if( trivPageExited ) return
+    if( trivActFBCnt == 0 )
+    {
+        currFeedbackIdx++;
+        if( currFeedbackIdx > -1)
+        {
+            trivLeavePage();
+          return;
+        }
+        else if( !checkQuestions( true ))
+          return;
+    }
+    setTimeout( 'checkLeavePage()', 100)
+}
+
+function trivExitPage( newPage, bFeedback ) {
+    if( newPage.indexOf( "ObjLayerAction" ) >= 0 || newPage.indexOf( "javascript:app." ) >= 0 || newPage.indexOf( ".action" ) >= 0 || newPage.indexOf( "history.back()" ) >= 0) trivGoToPage = newPage
+    else trivGoToPage = 'ObjLayerActionGoTo("' + newPage + '")'
+    if( !hasProcessedExitActions ) {
+        findWH()
+        hasProcessedExitActions = true
+        setTimeout( 'checkLeavePage()', 100)
+    }
+}
+
+function trivLeavePage() {
+    trivCompleteCnt--
+    if( trivCompleteCnt <= 0 ) {
+        hasProcessedExitActions = false
+        if( trivGoToPage != null )
+        {
+			eval( trivGoToPage )
+			trivGoToPage = null;
+			if( window.closed ) trivPageExited = true;
+        }
+    }
+}
+
+function trivPrevPage() {
+}
+
+function trivNextPage() {
+    trivExitPage( 'a001_página_2.html', true )
+}
+
+function trivUpdateTOC( bRecurse ) {
+    var i
+}
+
+function trivUpdateEntry() {
+}
+
+function trivResetEntry(entFld) {
+}
+
+function OnDeviceRotate() {
+
+}
+
+keyVal = 0;
+keyFlags = 0;
+
+function keyDown(e) {
+    if( is.ie ) e = event
+    keyVal = 0
+    if( e.keyCode == 18 )
+        keyFlags = keyFlags | 1
+    else if( e.keyCode == 17 )
+        keyFlags = keyFlags | 2
+    else if( e.keyCode == 16 )
+        keyFlags = keyFlags | 4
+    else
+        keyVal = e.keyCode
+
+    if( keyFlags == 0 && keyVal == 32 ){action79();}
+    if( keyFlags == 0 && keyVal == 13 ){action78();}
+    if( keyFlags == 0 && keyVal == 39 ){action76();}
+    if( keyFlags == 0 && keyVal == 27 ){action74();}
+}
+
+function keyUp(e) {
+    if( is.ie ) e = event
+    if( e.keyCode == 18 )
+        keyFlags = keyFlags & ~1
+    else if( e.keyCode == 17 )
+        keyFlags = keyFlags & ~2
+    else if( e.keyCode == 16 )
+        keyFlags = keyFlags & ~4
+}
+
+function action77(fn){
+    VarClickCount.set('0'); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action72(fn){
+    trivExitPage('a001_página_2.html',true); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action73else(fn){
+    
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action73(fn){
+    if(VarPageInTitle.equals(VarPagesInTitle.getValue()))
+    {button71.setDisabled(true);
+
+    }else{ action73else();}
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function button71onUp() {
+  action72();action73();
+}
+
+function action66else(fn){
+    
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action66(fn){
+    if(VarPageInTitle.equals('1'))
+    {button64.setDisabled(true);
+
+    }else{ action66else();}
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function button64onUp() {
+  action66();
+}
+
+function action57(fn){
+    {cleanupTitle('aula_7'); trivExitPage('ObjLayerActionExit()',false);} 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action58(fn){
+    AICC_Lesson_Status.set('Completed'); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action59(fn){
+    button56.actionHide(); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function button56onUp() {
+  action57();action58();action59();
+}
+
+function action79(fn){
+    trivExitPage('a001_página_2.html',true); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action78(fn){
+    trivExitPage('a001_página_2.html',true); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action76(fn){
+    trivExitPage('a001_página_2.html',true); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action74(fn){
+    {cleanupTitle('aula_7'); trivExitPage('ObjLayerActionExit()',false);} 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+if( is.min ){
+button71 = new ObjButton('button71', '>',953,6,41.000000,41.000000,1,22,'div','',1,0)
+button71.setUseSvgFile(1)
+button71.setFillStyle(1)
+button71.setUniqueFillID('a001_página_1_button71')
+button71.initRotateAngle(0,0,0,-1.000000,-1.000000,39,39)
+button71.initHasShadow(0)
+button71.initHasReflection(0)
+button71.setImages('images/button71.png', 'images/button71_down.png', 'images/button71_over.png','images/button71_disabled.png');
+button71.setStateOpacity( 1.000000, 1.000000, 1.000000, 0.600000 );
+button71.addIe8Attr(953.000000, 6.000000, 41.000000, 41.000000, 0, 0)
+button71.addOpacity(100)
+button71.initImageMap('20,1,21,1,25,1,28,3,32,4,34,7,37,9,39,13,40,16,40,20,40,21,40,25,39,28,37,32,34,34,32,37,28,39,25,40,21,40,20,40,16,40,13,39,10,37,7,34,4,32,2,28,1,25,1,21,1,20,1,16,3,13,4,9,7,7,9,4,13,3,16,1,20,1','M 20.000000 1.000000 L 21.000000 1.000000 L 24.812500 1.375000 L 28.375000 2.500000 L 31.625000 4.250000 L 34.437500 6.562500 L 36.750000 9.375000 L 38.500000 12.625000 L 39.625000 16.187500 L 40.000000 20.000000 L 40.000000 21.000000 L 39.625000 24.812500 L 38.500000 28.375000 L 36.750000 31.625000 L 34.437500 34.437500 L 31.625000 36.750000 L 28.375000 38.500000 L 24.812500 39.625000 L 21.000000 40.000000 L 20.000000 40.000000 L 16.312500 39.625000 L 12.750000 38.562500 L 9.500000 36.812500 L 6.625000 34.437500 L 4.187500 31.562500 L 2.437500 28.312500 L 1.375000 24.750000 L 1.000000 21.000000 L 1.000000 20.000000 L 1.375000 16.187500 L 2.500000 12.625000 L 4.250000 9.375000 L 6.562500 6.562500 L 9.375000 4.250000 L 12.625000 2.500000 L 16.187500 1.375000 L 20.000000 1.000000 z')
+button71.setFills('                <linearGradient id="LinGrad_a001_página_1_button71" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#0064BB" offset="0.000000"/>                <stop id="Stop1" stop-color="#007CE9" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button71_over" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#13446F" offset="0.000000"/>                <stop id="Stop1" stop-color="#18558A" offset="0.000000"/>                <stop id="Stop2" stop-color="#6BBAFF" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button71_down" x1="0.000000" x2="0.000000" y1="0.000000" y2="1.000000">                <stop id="Stop0" stop-color="#13446F" offset="0.000000"/>                <stop id="Stop1" stop-color="#18558A" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button71_disabled" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#0064BB" offset="0.000000"/>                <stop id="Stop1" stop-color="#007CE9" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button71);"','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button71_over);"','stroke:#0963B1; stroke-width:2; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button71_down);"','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button71_disabled);"')
+button71.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABKSURBVFhH7dDBCcAwCEBR9+kqHaVjZU6pgRxzKy0W3gMPevoYAAAAH8nMUXOuta+KvMS+4W+xM3TOsU59VFTfT4p7onUcAMBexA1cylXmIaFdWwAAAABJRU5ErkJggg==' , 'fill:url(#Text_a001_página_1_button71)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABKSURBVFhH7dDBCcAwCEBR9+kqHaVjZU6pgRxzKy0W3gMPevoYAAAAH8nMUXOuta+KvMS+4W+xM3TOsU59VFTfT4p7onUcAMBexA1cylXmIaFdWwAAAABJRU5ErkJggg==', 'fill:url(#Text_a001_página_1_button71_over)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABJSURBVFhH7dDRCcAwCEBB98kqHaVjZU6pgYzQgqF34Id+PQwAAIADZeasufbaW4Xegr90YvCKXTP2qZcK6/1RgW9oHwgA8EMRDz9rVeaB7KMNAAAAAElFTkSuQmCC', 'fill:url(#Text_a001_página_1_button71_down)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABKSURBVFhH7dDBCcAwCEBR9+kqHaVjZU6pgRxzKy0W3gMPevoYAAAAH8nMUXOuta+KvMS+4W+xM3TOsU59VFTfT4p7onUcAMBexA1cylXmIaFdWwAAAABJRU5ErkJggg==', 'fill:url(#Text_a001_página_1_button71_disabled)')
+button71.setBase64Images( '' , '' , '' , '' )
+button71.initLineWeight('1')
+button71.onUp = button71onUp
+button71.hasOnUp = true
+button71.capture=4
+button71.build()
+
+button64 = new ObjButton('button64', '<',907,6,41.000000,41.000000,1,23,'div','',1,0)
+button64.setUseSvgFile(1)
+button64.setFillStyle(1)
+button64.setUniqueFillID('a001_página_1_button64')
+button64.initRotateAngle(0,0,0,-1.000000,-1.000000,39,39)
+button64.initHasShadow(0)
+button64.initHasReflection(0)
+button64.setImages('images/button64.png', 'images/button64_down.png', 'images/button64_over.png','images/button64_disabled.png');
+button64.setStateOpacity( 1.000000, 1.000000, 1.000000, 0.600000 );
+button64.addIe8Attr(907.000000, 6.000000, 41.000000, 41.000000, 0, 0)
+button64.addOpacity(100)
+button64.initImageMap('20,1,21,1,25,1,28,3,32,4,34,7,37,9,39,13,40,16,40,20,40,21,40,25,39,28,37,32,34,34,32,37,28,39,25,40,21,40,20,40,16,40,13,39,10,37,7,34,4,32,2,28,1,25,1,21,1,20,1,16,3,13,4,9,7,7,9,4,13,3,16,1,20,1','M 20.000000 1.000000 L 21.000000 1.000000 L 24.812500 1.375000 L 28.375000 2.500000 L 31.625000 4.250000 L 34.437500 6.562500 L 36.750000 9.375000 L 38.500000 12.625000 L 39.625000 16.187500 L 40.000000 20.000000 L 40.000000 21.000000 L 39.625000 24.812500 L 38.500000 28.375000 L 36.750000 31.625000 L 34.437500 34.437500 L 31.625000 36.750000 L 28.375000 38.500000 L 24.812500 39.625000 L 21.000000 40.000000 L 20.000000 40.000000 L 16.312500 39.625000 L 12.750000 38.562500 L 9.500000 36.812500 L 6.625000 34.437500 L 4.187500 31.562500 L 2.437500 28.312500 L 1.375000 24.750000 L 1.000000 21.000000 L 1.000000 20.000000 L 1.375000 16.187500 L 2.500000 12.625000 L 4.250000 9.375000 L 6.562500 6.562500 L 9.375000 4.250000 L 12.625000 2.500000 L 16.187500 1.375000 L 20.000000 1.000000 z')
+button64.setFills('                <linearGradient id="LinGrad_a001_página_1_button64" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#0064BB" offset="0.000000"/>                <stop id="Stop1" stop-color="#007CE9" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button64_over" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#13446F" offset="0.000000"/>                <stop id="Stop1" stop-color="#18558A" offset="0.000000"/>                <stop id="Stop2" stop-color="#6BBAFF" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button64_down" x1="0.000000" x2="0.000000" y1="0.000000" y2="1.000000">                <stop id="Stop0" stop-color="#13446F" offset="0.000000"/>                <stop id="Stop1" stop-color="#18558A" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button64_disabled" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#0064BB" offset="0.000000"/>                <stop id="Stop1" stop-color="#007CE9" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button64);"','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button64_over);"','stroke:#0963B1; stroke-width:2; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button64_down);"','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button64_disabled);"')
+button64.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABeSURBVFhH7dTRCcAgDEXR7OMqHaWDdJDOmRghQugET3rPTyRfFxENAAAAAAS4+4iIJ+dVKx0t7l3nWms4Iq4CteKWjLozLiTjOvmb7HZsTr03+XVqrN4/CQAA/sxsAm/VbsRNwVnxAAAAAElFTkSuQmCC' , 'fill:url(#Text_a001_página_1_button64)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABeSURBVFhH7dTRCcAgDEXR7OMqHaWDdJDOmRghQugET3rPTyRfFxENAAAAAAS4+4iIJ+dVKx0t7l3nWms4Iq4CteKWjLozLiTjOvmb7HZsTr03+XVqrN4/CQAA/sxsAm/VbsRNwVnxAAAAAElFTkSuQmCC', 'fill:url(#Text_a001_página_1_button64_over)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABeSURBVFhH7dTRCcAwCEVR9+kqHaWDdJDOqTVgQTrBM9zzY/DrEkIMAAAAADbj7kdE3DnPWmlpgc8611rHmMCK1AtcMuzKwJAN7EbcaPcF59R8o3+TgzX/UQAAgE2ZvbzNbsSWBWUVAAAAAElFTkSuQmCC', 'fill:url(#Text_a001_página_1_button64_down)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABeSURBVFhH7dTRCcAgDEXR7OMqHaWDdJDOmRghQugET3rPTyRfFxENAAAAAAS4+4iIJ+dVKx0t7l3nWms4Iq4CteKWjLozLiTjOvmb7HZsTr03+XVqrN4/CQAA/sxsAm/VbsRNwVnxAAAAAElFTkSuQmCC', 'fill:url(#Text_a001_página_1_button64_disabled)')
+button64.setBase64Images( '' , '' , '' , '' )
+button64.initLineWeight('1')
+button64.onUp = button64onUp
+button64.hasOnUp = true
+button64.capture=4
+button64.build()
+
+button56 = new ObjButton('button56', 'X',861,6,41.000000,41.000000,0,24,'div','',1,0)
+button56.setUseSvgFile(1)
+button56.setFillStyle(1)
+button56.setUniqueFillID('a001_página_1_button56')
+button56.initRotateAngle(0,0,0,-1.000000,-1.000000,39,39)
+button56.initHasShadow(0)
+button56.initHasReflection(0)
+button56.setImages('images/button56.png', 'images/button56_down.png', 'images/button56_over.png','images/button56_disabled.png');
+button56.setStateOpacity( 1.000000, 1.000000, 1.000000, 0.600000 );
+button56.addIe8Attr(861.000000, 6.000000, 41.000000, 41.000000, 0, 0)
+button56.addOpacity(100)
+button56.initImageMap('20,1,21,1,25,1,28,3,32,4,34,7,37,9,39,13,40,16,40,20,40,21,40,25,39,28,37,32,34,34,32,37,28,39,25,40,21,40,20,40,16,40,13,39,10,37,7,34,4,32,2,28,1,25,1,21,1,20,1,16,3,13,4,9,7,7,9,4,13,3,16,1,20,1','M 20.000000 1.000000 L 21.000000 1.000000 L 24.812500 1.375000 L 28.375000 2.500000 L 31.625000 4.250000 L 34.437500 6.562500 L 36.750000 9.375000 L 38.500000 12.625000 L 39.625000 16.187500 L 40.000000 20.000000 L 40.000000 21.000000 L 39.625000 24.812500 L 38.500000 28.375000 L 36.750000 31.625000 L 34.437500 34.437500 L 31.625000 36.750000 L 28.375000 38.500000 L 24.812500 39.625000 L 21.000000 40.000000 L 20.000000 40.000000 L 16.312500 39.625000 L 12.750000 38.562500 L 9.500000 36.812500 L 6.625000 34.437500 L 4.187500 31.562500 L 2.437500 28.312500 L 1.375000 24.750000 L 1.000000 21.000000 L 1.000000 20.000000 L 1.375000 16.187500 L 2.500000 12.625000 L 4.250000 9.375000 L 6.562500 6.562500 L 9.375000 4.250000 L 12.625000 2.500000 L 16.187500 1.375000 L 20.000000 1.000000 z')
+button56.setFills('                <linearGradient id="LinGrad_a001_página_1_button56" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#0064BB" offset="0.000000"/>                <stop id="Stop1" stop-color="#007CE9" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button56_over" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#13446F" offset="0.000000"/>                <stop id="Stop1" stop-color="#18558A" offset="0.000000"/>                <stop id="Stop2" stop-color="#6BBAFF" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button56_down" x1="0.000000" x2="0.000000" y1="0.000000" y2="1.000000">                <stop id="Stop0" stop-color="#13446F" offset="0.000000"/>                <stop id="Stop1" stop-color="#18558A" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button56_disabled" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#0064BB" offset="0.000000"/>                <stop id="Stop1" stop-color="#007CE9" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button56);"','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button56_over);"','stroke:#0963B1; stroke-width:2; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button56_down);"','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button56_disabled);"')
+button56.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACiSURBVFhH7dTLDYQwDITh9LOtpBQKoRDqDOtBEwRLzsTS/t8JOxxGzqMAAAAAM+2htba5vPHa4nIehRiFidaqvsv5NEkH/biuruvxQwYKp1BhVX39TkWhlKxP1e18FE5SbfMvZ3xcojQi2227dU69lIO218Gqwvl7+HZOo1DhvM0RsL+dOc5mD+TypEmO+q+LIH1rHxNTT2sh33sJAAD+XSlfqWHMRUzehowAAAAASUVORK5CYII=' , 'fill:url(#Text_a001_página_1_button56)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACiSURBVFhH7dTLDYQwDITh9LOtpBQKoRDqDOtBEwRLzsTS/t8JOxxGzqMAAAAAM+2htba5vPHa4nIehRiFidaqvsv5NEkH/biuruvxQwYKp1BhVX39TkWhlKxP1e18FE5SbfMvZ3xcojQi2227dU69lIO218Gqwvl7+HZOo1DhvM0RsL+dOc5mD+TypEmO+q+LIH1rHxNTT2sh33sJAAD+XSlfqWHMRUzehowAAAAASUVORK5CYII=', 'fill:url(#Text_a001_página_1_button56_over)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACiSURBVFhH7dTLEYMwDIRh95NWXAqFUAh1mmiZNQPBd4vM/52QzGFHfhQAAADgzfbQWttc3nhtcTmXgowCRWtV32UOmqjDflxX1/X4IQsFVLCwqr5+p6NgSten63ZOCijptvyXcz4uViqR77b1OrdeykNb7XBVAf09fFunUrBw3vII2d/WPGe1h3J50kRH/SkiTN/mx+TU01rI+Z4CAAD8sVK+eDnMRUXiS3oAAAAASUVORK5CYII=', 'fill:url(#Text_a001_página_1_button56_down)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACiSURBVFhH7dTLDYQwDITh9LOtpBQKoRDqDOtBEwRLzsTS/t8JOxxGzqMAAAAAM+2htba5vPHa4nIehRiFidaqvsv5NEkH/biuruvxQwYKp1BhVX39TkWhlKxP1e18FE5SbfMvZ3xcojQi2227dU69lIO218Gqwvl7+HZOo1DhvM0RsL+dOc5mD+TypEmO+q+LIH1rHxNTT2sh33sJAAD+XSlfqWHMRUzehowAAAAASUVORK5CYII=', 'fill:url(#Text_a001_página_1_button56_disabled)')
+button56.setBase64Images( '' , '' , '' , '' )
+button56.initLineWeight('1')
+button56.onUp = button56onUp
+button56.hasOnUp = true
+button56.capture=4
+button56.build()
+
+og829 = new ObjInline('og829',null,0,0,1009,662,1,0)
+og829.isGrp = true
+og829.addChild('image831')
+og829.addChild('image833')
+og829.addChild('text834')
+og829.addChild('shape836')
+og829.addChild('shape838')
+og829.addChild('shape840')
+og829.addChild('shape842')
+og829.build()
+
+image831 = new ObjImage('image831','images/image0001.png','object 2',0,174,577,488,1,4,'div',null, 0 )
+image831.initRotateAngle(0,0,1,0,0,0,0)
+image831.initHasShadow(0)
+image831.initHasReflection(0)
+image831.addIe8Attr(0, 174, 577, 488, 0, 0)
+image831.initImageMap(1,'0,0,577,0,577,488,0,488,0,0','M 0 0 L 577 0 L 577 488 L 0 488 L 0 0 z')
+image831.addBorder(0)
+image831.addOpacity(100)
+image831.build()
+
+image833 = new ObjImage('image833','images/image0007_844.png','Freeform: Shape 3',600,0,408,408,1,5,'div',null, 0 )
+image833.initRotateAngle(0,0,0,0,0,0,0)
+image833.initHasShadow(0)
+image833.initHasReflection(0)
+image833.addIe8Attr(600, 0, 408, 408, 0, 0)
+image833.initImageMap(1,'0,0,408,0,408,408,0,408,0,0','M 0 0 L 408 0 L 408 408 L 0 408 L 0 0 z')
+image833.addBorder(0)
+image833.addOpacity(100)
+image833.build()
+
+text834 = new ObjText('text834',null,53,79,429,53,1,6,null,'div',null,0 )
+text834.initSLine(0)
+text834.initHasBullet(0)
+text834.initRotateAngle(0,0,0)
+text834.initHasOuterShadow(0)
+text834.initHasTextShadow(0)
+text834.initHasBorder(0)
+text834.initHasOutline(0)
+text834.initHasMargin(6)
+text834.addIe8Attr(53, 79, 429, 53, 0, 0)
+text834.addOpacity(100)
+text834.arrCSSStyles = new Array();
+text834.arrCSSStyles.push('span.text834Font1 { font-size:37px; font-family:"Arial", sans-serif; color:#000080; font-weight:bold;}');
+text834.arrCSSStyles.push('span.text834Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text834.addInnerText('<div id=\"text834\"><a id=\"text834anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text834Font1\"  >Aula 7</span ><span class=\"text834Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text834.build()
+
+shape836 = new ObjImage('shape836','images/shape836.png','Rectangle 8',-1,645,1011.000000,18.000000,1,7,'div','',0 )
+shape836.initRotateAngle(0,0,0,-1.000000,-1.000000,1009,16)
+shape836.initHasShadow(0)
+shape836.initHasReflection(0)
+shape836.setUniqueFillID('a001_página_1_shape836')
+shape836.addIe8Attr(-1.000000, 645.000000, 1011.000000, 18.000000, -1, 0)
+shape836.initImageMap(1,'1,1,1010,1,1010,17,1,17,1,1','M 1.000000 1.000000 L 1010.000000 1.000000 L 1010.000000 17.000000 L 1.000000 17.000000 L 1.000000 1.000000 z', '', 'stroke:#2F528F; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:#0E2766;"' , '')
+shape836.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA/MAAAASCAYAAAAXDI4ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABeSURBVHhe7cExAQAAAMKg9U9tB28gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADjUABx5AAHqmx/jAAAAAElFTkSuQmCC' , 'fill:url(#Text_a001_página_1_shape836)')
+shape836.setUseSvgFile(1)
+shape836.addBorder(0)
+shape836.initLineWeight(1)
+shape836.addOpacity(100)
+shape836.build()
+
+shape838 = new ObjImage('shape838','images/shape838.png','Oval 7',61,132,12.000000,12.000000,1,8,'div','',0 )
+shape838.initRotateAngle(0,0,0,-0.000000,-0.000000,11,11)
+shape838.initHasShadow(0)
+shape838.initHasReflection(0)
+shape838.setUniqueFillID('a001_página_1_shape838')
+shape838.addIe8Attr(61.000000, 132.000000, 12.000000, 12.000000, 0, 0)
+shape838.initImageMap(1,'0,6,0,3,2,2,3,0,6,0,8,0,9,2,11,3,11,6,11,8,9,9,8,11,6,11,3,11,2,9,0,8,0,6','M 0.000000 5.500000 L 0.437500 3.375000 L 1.625000 1.625000 L 3.375000 0.437500 L 5.500000 0.000000 L 7.625000 0.437500 L 9.375000 1.625000 L 10.562500 3.375000 L 11.000000 5.500000 L 10.562500 7.625000 L 9.375000 9.375000 L 7.625000 10.562500 L 5.500000 11.000000 L 3.375000 10.562500 L 1.625000 9.375000 L 0.437500 7.625000 L 0.000000 5.500000 z', '', 'fill:#0E2766;"' , '')
+shape838.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAQSURBVChTYxgFo4AqgIEBAAJMAAH8Lw67AAAAAElFTkSuQmCC' , 'fill:url(#Text_a001_página_1_shape838)')
+shape838.setUseSvgFile(1)
+shape838.addBorder(0)
+shape838.initLineWeight(0)
+shape838.addOpacity(100)
+shape838.build()
+
+shape840 = new ObjImage('shape840','images/shape840.png','Oval 8',81,132,12.000000,12.000000,1,9,'div','',0 )
+shape840.initRotateAngle(0,0,0,-0.000000,-0.000000,11,11)
+shape840.initHasShadow(0)
+shape840.initHasReflection(0)
+shape840.setUniqueFillID('a001_página_1_shape840')
+shape840.addIe8Attr(81.000000, 132.000000, 12.000000, 12.000000, 0, 0)
+shape840.initImageMap(1,'0,6,0,3,2,2,3,0,6,0,8,0,9,2,11,3,11,6,11,8,9,9,8,11,6,11,3,11,2,9,0,8,0,6','M 0.000000 5.500000 L 0.437500 3.375000 L 1.625000 1.625000 L 3.375000 0.437500 L 5.500000 0.000000 L 7.625000 0.437500 L 9.375000 1.625000 L 10.562500 3.375000 L 11.000000 5.500000 L 10.562500 7.625000 L 9.375000 9.375000 L 7.625000 10.562500 L 5.500000 11.000000 L 3.375000 10.562500 L 1.625000 9.375000 L 0.437500 7.625000 L 0.000000 5.500000 z', '', 'fill:#01D1DD;"' , '')
+shape840.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAQSURBVChTYxgFo4AqgIEBAAJMAAH8Lw67AAAAAElFTkSuQmCC' , 'fill:url(#Text_a001_página_1_shape840)')
+shape840.setUseSvgFile(1)
+shape840.addBorder(0)
+shape840.initLineWeight(0)
+shape840.addOpacity(100)
+shape840.build()
+
+shape842 = new ObjImage('shape842','images/shape842.png','Oval 9',100,132,12.000000,12.000000,1,10,'div','',0 )
+shape842.initRotateAngle(0,0,0,-0.000000,-0.000000,11,11)
+shape842.initHasShadow(0)
+shape842.initHasReflection(0)
+shape842.setUniqueFillID('a001_página_1_shape842')
+shape842.addIe8Attr(100.000000, 132.000000, 12.000000, 12.000000, 0, 0)
+shape842.initImageMap(1,'0,6,0,3,2,2,3,0,6,0,8,0,9,2,11,3,11,6,11,8,9,9,8,11,6,11,3,11,2,9,0,8,0,6','M 0.000000 5.500000 L 0.437500 3.375000 L 1.625000 1.625000 L 3.375000 0.437500 L 5.500000 0.000000 L 7.625000 0.437500 L 9.375000 1.625000 L 10.562500 3.375000 L 11.000000 5.500000 L 10.562500 7.625000 L 9.375000 9.375000 L 7.625000 10.562500 L 5.500000 11.000000 L 3.375000 10.562500 L 1.625000 9.375000 L 0.437500 7.625000 L 0.000000 5.500000 z', '', 'fill:#29B9A2;"' , '')
+shape842.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAQSURBVChTYxgFo4AqgIEBAAJMAAH8Lw67AAAAAElFTkSuQmCC' , 'fill:url(#Text_a001_página_1_shape842)')
+shape842.setUseSvgFile(1)
+shape842.addBorder(0)
+shape842.initLineWeight(0)
+shape842.addOpacity(100)
+shape842.build()
+
+arObjs.push(button71);
+arObjs.push(button64);
+arObjs.push(button56);
+arObjs.push(og829);
+arObjs.push(image831);
+arObjs.push(image833);
+arObjs.push(text834);
+arObjs.push(shape836);
+arObjs.push(shape838);
+arObjs.push(shape840);
+arObjs.push(shape842);
+
+
+writeStyleSheets(arObjs);}
+// -->
+
+</script>
+</head>
+
+<body onfocus="trivOnFocus()" onResize="ReFlow()">
+
+   <DIV id="pageDIV" class="pageDIV">
+<div id="og829"><a id="og829anc"></a></div>
+   </DIV>
+<script>
+if( is.min ){
+    findWH()
+    var left = (winW > 1009) ? (winW-1009)/2 : 0
+    document.write('<style type="text/css">.pageDIV { position: absolute; top:0px; left: ' + left + 'px; width:1009px; height:662px; clip:rect(0px 1009px 662px 0px); overflow:hidden;' )
+    if(is.iOS)
+		document.write('-webkit-text-size-adjust:100%;')
+    document.write('} </style>')
+}
+</script>
+
+<script>
+if( is.min ){
+    appendElement(button71, null, null);
+    appendElement(button64, null, null);
+    appendElement(button56, null, null);
+    appendElement(image831, null, null);
+    appendElement(image833, null, null);
+    appendElement(text834, null, null);
+    appendElement(shape836, null, null);
+    appendElement(shape838, null, null);
+    appendElement(shape840, null, null);
+    appendElement(shape842, null, null);
+}
+</script>
+
+</body>
+</html>

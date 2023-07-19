@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>634</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="170" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="171" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="623" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="624" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="79">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 6</name>
+<lastupdated>1687453385</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="78" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687453399</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687453399</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687453399</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="79" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687453399</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687453399</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687453399</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="70" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687453399</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="71" parent="70" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687453399</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="70" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687453399</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="63" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687453399</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="64" parent="63" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687453399</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="65" parent="63" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687453399</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="55" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687453399</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="56" parent="55" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687453399</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="55" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687453399</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="58" parent="55" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687453399</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="55">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689694251</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="608" parent="40">
+<name>Página 1</name>
+<lastupdated>1689694254</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="609" parent="608">
+<name>Grupo_1</name>
+<lastupdated>1689694249</lastupdated>
+<image id="611" parent="609" resource="623" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689694249</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="613" parent="609" resource="624" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689694249</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="614" parent="609" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689694257</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text614Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text614Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text614Font1&quot;  &gt;Aula 6&lt;/span &gt;&lt;span class=&quot;text614Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 6\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 6</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="616" parent="609" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689694249</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="618" parent="609" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689694249</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="620" parent="609" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689694249</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="622" parent="609" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689694249</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="155" parent="40">
+<name>Página 2</name>
+<lastupdated>1689694251</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="211" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687453524</lastupdated>
+<possize>
+<point>
+<x>537</x>
+<y>122</y>
+</point>
+<size>
+<cx>449</cx>
+<cy>514</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text211Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text211Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text211Font1&quot;  &gt;Como cognatos podemos citar: school (escola), telephone (telefone), car (carro), question (questÃ£o, pergunta), activity (atividade), training (treinamento)... VocÃª mesmo poderÃ¡ criar sua prÃ³pria lista de cognatos!&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text211Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text211Font2&quot;  &gt;Palavras repetidas,&lt;/span &gt;&lt;span class=&quot;text211Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text211Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text211Font1&quot;  &gt;As palavras repetidas em um texto possuem um valor muito importante. Um autor nÃ£o repete as palavras em vÃ£o. Se elas sÃ£o repetidas, Ã© porque sÃ£o importantes dentro do texto. Muitas vezes para nÃ£o repetir o mesmo termo, o autor utiliza sinÃ´nimos das mesmas palavras para nÃ£o tornar o texto cansativo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text211Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text211Font2&quot;  &gt;Pistas tipogrÃ¡ficas&lt;/span &gt;&lt;span class=&quot;text211Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text211Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text211Font1&quot;  &gt;As pistas tipogrÃ¡ficas sÃ£o elementos visuais que nos auxiliam na compreensÃ£o do texto. AtenÃ§Ã£o com datas, nÃºmeros, tabelas, grÃ¡ficas, figuras... SÃ£o informaÃ§Ãµes tambÃ©m contidas no texto. Os recursos de escrita tambÃ©m sÃ£o pistas tipogrÃ¡ficas. Por exemplo:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Como cognatos podemos citar: school (escola), telephone (telefone), car (carro), question (quest\&apos;e3o, pergunta), activity (atividade), training (treinamento)... Voc\&apos;ea mesmo poder\&apos;e1 criar sua &#x0A;pr\&apos;f3pria lista de cognatos!\par\par\b Palavras repetidas,\b0\par\par As palavras repetidas em um texto possuem um valor muito importante. Um autor n\&apos;e3o repete as palavras em v\&apos;e3o. Se elas s\&apos;e3o repetidas, \&apos;e9 porque s\&apos;e3o importantes dentro do &#x0A;texto. Muitas vezes para n\&apos;e3o repetir o mesmo termo, o autor utiliza sin\&apos;f4nimos das mesmas palavras para n\&apos;e3o tornar o texto cansativo.\par\par\b Pistas tipogr\&apos;e1ficas\b0\par\par As pistas tipogr\&apos;e1ficas s\&apos;e3o elementos visuais que nos auxiliam &#x0A;na compreens\&apos;e3o do texto. Aten\&apos;e7\&apos;e3o com datas, n\&apos;fameros, tabelas, gr\&apos;e1ficas, figuras... S\&apos;e3o informa\&apos;e7\&apos;f5es tamb\&apos;e9m contidas no texto. Os recursos de escrita tamb\&apos;e9m s\&apos;e3o pistas tipogr\&apos;e1ficas. Por exemplo:\par\par\fi-180\li180\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\fi0\li0\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par&#x0A;}&#x0A;</rtf>
+<raw>?Como cognatos podemos citar: school (escola), telephone (telefone), car (carro), question (quest�o, pergunta), activity (atividade), training (treinamento)... Voc� mesmo poder� criar sua pr�pria lista de cognatos!&#x0A;&#x0A;Palavras repetidas,&#x0A;&#x0A;As palavras repetidas em um texto possuem um valor muito importante. Um autor n�o repete as palavras em v�o. Se elas s�o repetidas, � porque s�o importantes dentro do texto. Muitas vezes para n�o repetir o mesmo termo, o autor utiliza sin�nimos das mesmas palavras para n�o tornar o texto cansativo.&#x0A;&#x0A;Pistas tipogr�ficas&#x0A;&#x0A;As pistas tipogr�ficas s�o elementos visuais que nos auxiliam na compreens�o do texto. Aten��o com datas, n�meros, tabelas, gr�ficas, figuras... S�o informa��es tamb�m contidas no texto. Os recursos de escrita tamb�m s�o pistas tipogr�ficas. Por exemplo:&#x0A;&#x0A;&#x0A;</raw>
+<numoflines>27</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="180" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687453452</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>125</y>
+</point>
+<size>
+<cx>432</cx>
+<cy>505</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text180Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text180Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot;  &gt;As tÃ©cnicas de leitura, como o prÃ³prio nome diz, vÃ£o nos ajudar a ler um texto. Existem tÃ©cnicas variadas, mas veremos as mais utilizadas. Ao ler um texto em InglÃªs, lembre-se de usar as tÃ©cnicas aprendidas, elas vÃ£o ajudÃ¡-lo. O uso da gramÃ¡tica vai ajudar tambÃ©m.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot;  &gt;As principais tÃ©cnicas sÃ£o: a identificaÃ§Ã£o de cognatos, de palavras repetidas e de pistas tipogrÃ¡ficas. Ao lermos um texto vamos,ainda, apurar a ideia geral do texto (general comprehension) e utilizar duas outras tÃ©cnicas bastante Ãºteis: skimming e scanning.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font2&quot;  &gt;Cognatos&lt;/span &gt;&lt;span class=&quot;text180Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot;  &gt;Os cognatos sÃ£o palavras muito parecidas com as palavras do PortuguÃªs. SÃ£o as chamadas palavras transparentes. Existem tambÃ©m os falsos cognatos, que sÃ£o palavras que achamos que Ã© tal coisa, mas nÃ£o Ã©; os falsos cognatos sÃ£o em menor nÃºmero, estes nÃ³s veremos adiante.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 As t\&apos;e9cnicas de leitura, como o pr\&apos;f3prio nome diz, v\&apos;e3o nos ajudar a ler um texto. Existem t\&apos;e9cnicas variadas, mas veremos as mais utilizadas. Ao ler um texto em Ingl\&apos;eas, lembre-se de usar &#x0A;as t\&apos;e9cnicas aprendidas, elas v\&apos;e3o ajud\&apos;e1-lo. O uso da gram\&apos;e1tica vai ajudar tamb\&apos;e9m.\par\par As principais t\&apos;e9cnicas s\&apos;e3o: a identifica\&apos;e7\&apos;e3o de cognatos, de palavras repetidas e de pistas tipogr\&apos;e1ficas. Ao lermos um texto vamos,ainda, &#x0A;apurar a ideia geral do texto (general comprehension) e utilizar duas outras t\&apos;e9cnicas bastante \&apos;fateis: skimming e scanning.\par\par\b Cognatos\b0\par\par Os cognatos s\&apos;e3o palavras muito parecidas com as palavras do Portugu\&apos;eas. S\&apos;e3o as chamadas &#x0A;palavras transparentes. Existem tamb\&apos;e9m os falsos cognatos, que s\&apos;e3o palavras que achamos que \&apos;e9 tal coisa, mas n\&apos;e3o \&apos;e9; os falsos cognatos s\&apos;e3o em menor n\&apos;famero, estes n\&apos;f3s veremos adiante.\par\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?As t�cnicas de leitura, como o pr�prio nome diz, v�o nos ajudar a ler um texto. Existem t�cnicas variadas, mas veremos as mais utilizadas. Ao ler um texto em Ingl�s, lembre-se de usar as t�cnicas aprendidas, elas v�o ajud�-lo. O uso da gram�tica vai ajudar tamb�m.&#x0A;&#x0A;As principais t�cnicas s�o: a identifica��o de cognatos, de palavras repetidas e de pistas tipogr�ficas. Ao lermos um texto vamos,ainda, apurar a ideia geral do texto (general comprehension) e utilizar duas outras t�cnicas bastante �teis: skimming e scanning.&#x0A;&#x0A;Cognatos&#x0A;&#x0A;Os cognatos s�o palavras muito parecidas com as palavras do Portugu�s. S�o as chamadas palavras transparentes. Existem tamb�m os falsos cognatos, que s�o palavras que achamos que � tal coisa, mas n�o �; os falsos cognatos s�o em menor n�mero, estes n�s veremos adiante.&#x0A;&#x0A;</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="158" parent="155">
+<name>Grupo_1</name>
+<lastupdated>1687453411</lastupdated>
+<shape id="160" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687453411</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="162" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687453411</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="164" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687453411</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="165" parent="158" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687453424</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text165Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text165Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text165Font1&quot;  &gt;Text Comprehension&lt;/span &gt;&lt;span class=&quot;text165Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Text Comprehension\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Text Comprehension</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="167" parent="158" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687453411</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="169" parent="158" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687453411</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="267" parent="40">
+<name>Página 3</name>
+<lastupdated>1687453682</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="375" parent="267" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687453670</lastupdated>
+<possize>
+<point>
+<x>530</x>
+<y>125</y>
+</point>
+<size>
+<cx>457</cx>
+<cy>246</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text375Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text375Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text375Font4 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text375Font1&quot;  &gt;Por exemplo, vamos ler o trecho abaixo e tentar obter a â€œgeneral comprehensionâ€ deste parÃ¡grafo:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text375Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text375Font1&quot;  &gt;â€œ&lt;/span &gt;&lt;span class=&quot;text375Font3&quot;  &gt;Distance education&lt;/span &gt;&lt;span class=&quot;text375Font1&quot;  &gt; takes place when a teacher and &lt;/span &gt;&lt;span class=&quot;text375Font3&quot;  &gt;students &lt;/span &gt;&lt;span class=&quot;text375Font1&quot;  &gt;are &lt;/span &gt;&lt;span class=&quot;text375Font3&quot;  &gt;separated &lt;/span &gt;&lt;span class=&quot;text375Font1&quot;  &gt;by &lt;/span &gt;&lt;span class=&quot;text375Font3&quot;  &gt;physical distance&lt;/span &gt;&lt;span class=&quot;text375Font1&quot;  &gt;, and &lt;/span &gt;&lt;span class=&quot;text375Font3&quot;  &gt;technology &lt;/span &gt;&lt;span class=&quot;text375Font1&quot;  &gt;(i.e., &lt;/span &gt;&lt;span class=&quot;text375Font3&quot;  &gt;voice&lt;/span &gt;&lt;span class=&quot;text375Font1&quot;  &gt;, &lt;/span &gt;&lt;span class=&quot;text375Font3&quot;  &gt;video &lt;/span &gt;&lt;span class=&quot;text375Font1&quot;  &gt;and &lt;/span &gt;&lt;span class=&quot;text375Font3&quot;  &gt;data&lt;/span &gt;&lt;span class=&quot;text375Font1&quot;  &gt;), often in concert with &lt;/span &gt;&lt;span class=&quot;text375Font3&quot;  &gt;face-to-face communication&lt;/span &gt;&lt;span class=&quot;text375Font1&quot;  &gt;, is &lt;/span &gt;&lt;span class=&quot;text375Font3&quot;  &gt;used &lt;/span &gt;&lt;span class=&quot;text375Font1&quot;  &gt;to bridge the &lt;/span &gt;&lt;span class=&quot;text375Font3&quot;  &gt;instructional &lt;/span &gt;&lt;span class=&quot;text375Font1&quot;  &gt;gap.â€&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text375Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:right;&quot; &gt;&#x0A;&lt;span class=&quot;text375Font4&quot;  &gt;From: Engineering Outreach&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:right;&quot; &gt;&#x0A;&lt;span class=&quot;text375Font4&quot;  &gt;College of Engineering â€“ University of Idaho&lt;/span &gt;&lt;span class=&quot;text375Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2 Por exemplo, vamos ler o trecho abaixo e tentar obter a \u8220 \&apos;93general comprehension\u8221 \&apos;94 deste par\&apos;e1grafo:\par\par\u8220 \&apos;93\b Distance education\b0  takes place when a teacher and \b &#x0A;students \b0 are \b separated \b0 by \b physical distance\b0 , and \b technology \b0 (i.e., \b voice\b0 , \b video \b0 and \b data\b0 ), often in concert with \b face-to-face communication\b0 , is \b used \b0 to bridge the \b instructional \b0 gap.\u8221 &#x0A;\&apos;94\par\par\qr\hich\f1\loch\f1\hich\f2\loch\f2\fs22\b From: Engineering Outreach\par College of Engineering \u8211 \&apos;96 University of Idaho\fs28\b0\par}&#x0A;</rtf>
+<raw>?Por exemplo, vamos ler o trecho abaixo e tentar obter a ?general comprehension? deste par?grafo:&#x0A;?Distance education takes place when a teacher and students are separated by physical distance, and technology (i.e., voice, video and data), often in concert with face-to-face communication, is used to bridge the instructional gap.?&#x0A;From: Engineering Outreach&#x0A;College of Engineering ? University of Idaho</raw>
+<numoflines>11</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="328" parent="267" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687453574</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>295</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>337</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text328Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text328Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font1&quot;  &gt;â€˜â€™ â€˜â€™ (aspas) salientam a importÃ¢ncia de alguma &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font1&quot;  &gt;palavra;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font1&quot;  &gt;( ) (parÃªnteses) introduzem uma ideia complementar ao texto.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font3&quot;  &gt;General Comprehension&lt;/span &gt;&lt;span class=&quot;text328Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text328Font1&quot;  &gt;A ideia geral de um texto Ã© obtida com o emprego das tÃ©cnicas anteriores. Selecionando-se criteriosamente algumas palavras, termos e expressÃµes no texto, poderemos chegar Ã  ideia geral do texto.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28\u8216 \&apos;91\u8217 \&apos;92 \u8216 \&apos;91\u8217 \&apos;92 (aspas) salientam a import\&apos;e2ncia de alguma \par palavra;\par\par ( ) (par\&apos;eanteses) introduzem uma ideia complementar ao texto.\par\par\fs36\b General &#x0A;Comprehension\fs28\b0\par\par A ideia geral de um texto \&apos;e9 obtida com o emprego das t\&apos;e9cnicas anteriores. Selecionando-se criteriosamente algumas palavras, termos e express\&apos;f5es no texto, poderemos chegar \&apos;e0 ideia geral do texto.\par\par\qr\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par}&#x0A;</rtf>
+<raw>??? ?? (aspas) salientam a import?ncia de alguma &#x0A;palavra;&#x0A;( ) (par?nteses) introduzem uma ideia complementar ao texto.&#x0A;General Comprehension&#x0A;A ideia geral de um texto ? obtida com o emprego das t?cnicas anteriores. Selecionando-se criteriosamente algumas palavras, termos e express?es no texto, poderemos chegar ? ideia geral do texto.&#x0A;</raw>
+<numoflines>15</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="312" parent="267" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687453535</lastupdated>
+<possize>
+<point>
+<x>46</x>
+<y>124</y>
+</point>
+<size>
+<cx>441</cx>
+<cy>186</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text312Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text312Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text312Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:33px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text312ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text312Font1&quot;  &gt;... (trÃªs pontos) indicam a continuaÃ§Ã£o de uma ideia que nÃ£o estÃ¡ ali exposta;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text312Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text312Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:33px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text312ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text312Font1&quot;  &gt;negrito dÃ¡ destaque a algum termo ou palavra;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text312Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text312Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:33px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text312ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text312Font1&quot;  &gt;itÃ¡lico tambÃ©m destaca um termo, menos importante que o negrito;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-540\li540\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 ... (tr\&apos;eas pontos) indicam a continua\&apos;e7\&apos;e3o de uma ideia que n\&apos;e3o est\&apos;e1 ali exposta;\par\pard\s0\fi-540\li540\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-540\li540\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 negrito d\&apos;e1 destaque a algum termo ou palavra;\par\pard\s0\fi-540\li540\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-540\li540\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 &#x0A;it\&apos;e1lico tamb\&apos;e9m destaca um termo, menos importante que o negrito;}&#x0A;</rtf>
+<raw>?... (tr?s pontos) indicam a continua??o de uma ideia que n?o est? ali exposta;&#x0A;negrito d? destaque a algum termo ou palavra;&#x0A;it?lico tamb?m destaca um termo, menos importante que o negrito;</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text312ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>7</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="273" parent="267">
+<name>Grupo_1</name>
+<lastupdated>1687453505</lastupdated>
+<shape id="275" parent="273" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687453505</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="277" parent="273" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687453505</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="279" parent="273" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687453505</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="280" parent="273" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687453505</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text280Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text280Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text280Font1&quot;  &gt;Text Comprehension&lt;/span &gt;&lt;span class=&quot;text280Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Text Comprehension\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Text Comprehension</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="282" parent="273" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687453505</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="284" parent="273" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687453505</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="414" parent="40">
+<name>Página 4</name>
+<lastupdated>1687453721</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="441" parent="414" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687453714</lastupdated>
+<possize>
+<point>
+<x>544</x>
+<y>116</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>482</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text441Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text441Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text441Font1&quot;  &gt;VocÃª poderia ter esta conclusÃ£o sobre o texto mesmo sem ter muito conhecimento de InglÃªs. Ã‰ claro que Ã  medida que vocÃª for aprendendo, a sua percepÃ§Ã£o sobre o texto tambÃ©m aumentarÃ¡. HÃ¡ muitas informaÃ§Ãµes que nÃ£o sÃ£o tÃ£o Ã³bvias assim.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text441Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text441Font2&quot;  &gt;Skimming&lt;/span &gt;&lt;span class=&quot;text441Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text441Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text441Font1&quot;  &gt;â€œskimâ€ em inglÃªs Ã© deslizar Ã  superfÃ­cie, desnatar (daÃ­ skimmed milk = leite desnatado), passar os olhos por. A tÃ©cnica de â€œskimmingâ€ nos leva a ler um texto superficialmente. Utilizar esta tÃ©cnica significa que precisamos ler cada sentenÃ§a, mas sim passarmos os olhos por sobre o texto, lendo algumas frases aqui e ali, procurando reconhecer certas palavras e expressÃµes que sirvam como â€˜dicasâ€™ na obtenÃ§Ã£o de informaÃ§Ãµes sobre o texto. Ã€s vezes nÃ£o Ã© necessÃ¡rio ler o texto em detalhes. Para usar esta tÃ©cnica, precisamos nos valer dos nossos conhecimentos de InglÃªs tambÃ©m.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2 Voc\&apos;ea poderia ter esta conclus\&apos;e3o sobre o texto mesmo sem ter muito conhecimento de Ingl\&apos;eas. \&apos;c9 claro que \&apos;e0 medida que voc\&apos;ea for aprendendo, a sua percep\&apos;e7\&apos;e3o sobre o texto tamb\&apos;e9m &#x0A;aumentar\&apos;e1. H\&apos;e1 muitas informa\&apos;e7\&apos;f5es que n\&apos;e3o s\&apos;e3o t\&apos;e3o \&apos;f3bvias assim.\par\par\fs36\b Skimming\fs28\b0\par\par\u8220 \&apos;93skim\u8221 \&apos;94 em ingl\&apos;eas \&apos;e9 deslizar \&apos;e0 superf\&apos;edcie, desnatar (da\&apos;ed skimmed milk = leite desnatado), passar &#x0A;os olhos por. A t\&apos;e9cnica de \u8220 \&apos;93skimming\u8221 \&apos;94 nos leva a ler um texto superficialmente. Utilizar esta t\&apos;e9cnica significa que precisamos ler cada senten\&apos;e7a, mas sim passarmos os olhos por sobre o texto, lendo algumas frases aqui e ali, &#x0A;procurando reconhecer certas palavras e express\&apos;f5es que sirvam como \u8216 \&apos;91dicas\u8217 \&apos;92 na obten\&apos;e7\&apos;e3o de informa\&apos;e7\&apos;f5es sobre o texto. \&apos;c0s vezes n\&apos;e3o \&apos;e9 necess\&apos;e1rio ler o texto em detalhes. Para usar esta t\&apos;e9cnica, precisamos &#x0A;nos valer dos nossos conhecimentos de Ingl\&apos;eas tamb\&apos;e9m.\par}&#x0A;</rtf>
+<raw>?Voc? poderia ter esta conclus?o sobre o texto mesmo sem ter muito conhecimento de Ingl?s. ? claro que ? medida que voc? for aprendendo, a sua percep??o sobre o texto tamb?m aumentar?. H? muitas informa??es que n?o s?o t?o ?bvias assim.&#x0A;Skimming&#x0A;?skim? em ingl?s ? deslizar ? superf?cie, desnatar (da? skimmed milk = leite desnatado), passar os olhos por. A t?cnica de ?skimming? nos leva a ler um texto superficialmente. Utilizar esta t?cnica significa que precisamos ler cada senten?a, mas sim passarmos os olhos por sobre o texto, lendo algumas frases aqui e ali, procurando reconhecer certas palavras e express?es que sirvam como ?dicas? na obten??o de informa??es sobre o texto. ?s vezes n?o ? necess?rio ler o texto em detalhes. Para usar esta t?cnica, precisamos nos valer dos nossos conhecimentos de Ingl?s tamb?m.</raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="428" parent="414" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687453697</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>116</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>496</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text428Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text428Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text428Font1&quot;  &gt;A partir das palavras cognatas do texto (em negrito) podemos ter uma ideia geral do que se trata; vamos enumerar as palavras conhecidas (pelo menos as que sÃ£o semelhantes ao &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text428Font1&quot;  &gt;PortuguÃªs):&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text428Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text428Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text428ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text428Font1&quot;  &gt;distance education = educaÃ§Ã£o a distÃ¢ncia&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text428Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text428ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text428Font1&quot;  &gt;students = estudantes, alunos&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text428Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text428ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text428Font1&quot;  &gt;separeted = separado&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text428Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text428ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text428Font1&quot;  &gt;physical distance = distÃ¢ncia fÃ­sica&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text428Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text428ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text428Font1&quot;  &gt;technology = tecnologia&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text428Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text428ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text428Font1&quot;  &gt;voice, video, data = voz, vÃ­deo e dados (atenÃ§Ã£o: â€œdataâ€ nÃ£o Ã© data)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text428Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text428ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text428Font1&quot;  &gt;face-to-face communication = comunicaÃ§Ã£o face a face &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text428Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text428ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text428Font1&quot;  &gt;used = usado (a)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text428Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text428ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text428Font1&quot;  &gt;instructional = instrucional&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text428Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text428Font1&quot;  &gt;EntÃ£o vocÃª poderia dizer que o texto trata sobre educaÃ§Ã£o a distÃ¢ncia; que esta ocorre quando os alunos estÃ£o separados fisicamente do professor; a tecnologia (voz, vÃ­deo, dados) podem ser usados de forma instrucional.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2 A partir das palavras cognatas do texto (em negrito) podemos ter uma ideia geral do que se trata; vamos enumerar as palavras conhecidas (pelo menos as que s\&apos;e3o semelhantes ao \par Portugu\&apos;eas):\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 distance education = educa\&apos;e7\&apos;e3o a dist\&apos;e2ncia\par students = estudantes, alunos\par separeted = separado\par physical distance = dist\&apos;e2ncia f\&apos;edsica\par technology = tecnologia\par &#x0A;voice, video, data = voz, v\&apos;eddeo e dados (aten\&apos;e7\&apos;e3o: \u8220 \&apos;93data\u8221 \&apos;94 n\&apos;e3o \&apos;e9 data)\par face-to-face communication = comunica\&apos;e7\&apos;e3o face a face \par used = usado (a)\par instructional = instrucional\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\fi0\li0\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;Ent\&apos;e3o voc\&apos;ea poderia dizer que o texto trata sobre educa\&apos;e7\&apos;e3o a dist\&apos;e2ncia; que esta ocorre quando os alunos est\&apos;e3o separados fisicamente do professor; a tecnologia (voz, v\&apos;eddeo, dados) podem ser usados de forma instrucional.\par}&#x0A;</rtf>
+<raw>?A partir das palavras cognatas do texto (em negrito) podemos ter uma ideia geral do que se trata; vamos enumerar as palavras conhecidas (pelo menos as que s?o semelhantes ao &#x0A;Portugu?s):&#x0A;distance education = educa??o a dist?ncia&#x0A;students = estudantes, alunos&#x0A;separeted = separado&#x0A;physical distance = dist?ncia f?sica&#x0A;technology = tecnologia&#x0A;voice, video, data = voz, v?deo e dados (aten??o: ?data? n?o ? data)&#x0A;face-to-face communication = comunica??o face a face &#x0A;used = usado (a)&#x0A;instructional = instrucional&#x0A;Ent?o voc? poderia dizer que o texto trata sobre educa??o a dist?ncia; que esta ocorre quando os alunos est?o separados fisicamente do professor; a tecnologia (voz, v?deo, dados) podem ser usados de forma instrucional.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text428ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text428ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>23</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="416" parent="414">
+<name>Grupo_1</name>
+<lastupdated>1687453686</lastupdated>
+<shape id="418" parent="416" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687453686</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="420" parent="416" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687453686</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="422" parent="416" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687453686</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="423" parent="416" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687453686</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text423Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text423Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text423Font1&quot;  &gt;Text Comprehension&lt;/span &gt;&lt;span class=&quot;text423Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Text Comprehension\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Text Comprehension</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="425" parent="416" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687453686</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="427" parent="416" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687453686</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="459" parent="40">
+<name>Página 5</name>
+<lastupdated>1687453771</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="524" parent="459" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687453768</lastupdated>
+<possize>
+<point>
+<x>522</x>
+<y>116</y>
+</point>
+<size>
+<cx>445</cx>
+<cy>412</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text524Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text524Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text524Font1&quot;  &gt;Com a tÃ©cnica do â€œskimmingâ€, podemos dizer que este trecho afirma que a tarefa do educador Ã© selecionar as opÃ§Ãµes tecnolÃ³gicas; o objetivo Ã© ter uma mistura de mÃ­dias instrucionais de uma maneira instrucionalmente efetiva e economicamente prudente.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text524Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text524Font3&quot;  &gt;Scanning&lt;/span &gt;&lt;span class=&quot;text524Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text524Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text524Font1&quot;  &gt;â€œScanâ€ em InglÃªs quer dizer examinar, sondar, explorar. O que faz um scanner? Uma varredura, nÃ£o Ã©?! Logo, com a tÃ©cnica de â€œscanningâ€ vocÃª irÃ¡ fazer uma varredura do texto, procurando detalhes e ideias objetivas. Aqui Ã© importante que vocÃª utilize os conhecimentos de InglÃªs; por isso, nÃ³s vamos ver detalhadamente alguns itens gramaticais no ser â€œ Estudo da LÃ­ngua Inglesaâ€.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Com a t\&apos;e9cnica do \u8220 \&apos;93skimming\u8221 \&apos;94, podemos dizer que este trecho afirma que a tarefa do educador \&apos;e9 selecionar as op\&apos;e7\&apos;f5es tecnol\&apos;f3gicas; o objetivo \&apos;e9 ter uma mistura &#x0A;de m\&apos;eddias instrucionais de uma maneira instrucionalmente efetiva e economicamente prudente.\par\par\fs36\b Scanning\fs28\b0\par\par\u8220 \&apos;93Scan\u8221 \&apos;94 em Ingl\&apos;eas quer dizer examinar, sondar, explorar. O que faz um scanner? Uma varredura, n\&apos;e3o &#x0A;\&apos;e9?! Logo, com a t\&apos;e9cnica de \u8220 \&apos;93scanning\u8221 \&apos;94 voc\&apos;ea ir\&apos;e1 fazer uma varredura do texto, procurando detalhes e ideias objetivas. Aqui \&apos;e9 importante que voc\&apos;ea utilize os conhecimentos de Ingl\&apos;eas; por isso, n\&apos;f3s vamos ver detalhadamente &#x0A;alguns itens gramaticais no ser \u8220 \&apos;93 Estudo da L\&apos;edngua Inglesa\u8221 \&apos;94.\par\par}&#x0A;</rtf>
+<raw>?Com a t?cnica do ?skimming?, podemos dizer que este trecho afirma que a tarefa do educador ? selecionar as op??es tecnol?gicas; o objetivo ? ter uma mistura de m?dias instrucionais de uma maneira instrucionalmente efetiva e economicamente prudente.&#x0A;Scanning&#x0A;?Scan? em Ingl?s quer dizer examinar, sondar, explorar. O que faz um scanner? Uma varredura, n?o ??! Logo, com a t?cnica de ?scanning? voc? ir? fazer uma varredura do texto, procurando detalhes e ideias objetivas. Aqui ? importante que voc? utilize os conhecimentos de Ingl?s; por isso, n?s vamos ver detalhadamente alguns itens gramaticais no ser ? Estudo da L?ngua Inglesa?.&#x0A;</raw>
+<numoflines>18</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="473" parent="459" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687453751</lastupdated>
+<possize>
+<point>
+<x>40</x>
+<y>103</y>
+</point>
+<size>
+<cx>451</cx>
+<cy>559</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text473Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text473Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text473Font3 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text473Font3 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text473Font1&quot;  &gt;Observe este trecho:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text473Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text473Font1&quot;  &gt;Using this integrated approach, the educatorâ€™s task is to carefully select among the technological options. The goal is to build a mix of instructional media, meeting the needs of the learner in a manner that is instructionally effective and economically prudent.â€&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text473Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:right;&quot; &gt;&#x0A;&lt;span class=&quot;text473Font3&quot;  &gt;From: Engineering Outreach&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:right;&quot; &gt;&#x0A;&lt;span class=&quot;text473Font3&quot;  &gt;College of Engineering â€“ University of Idaho&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:right;&quot; &gt;&#x0A;&lt;span class=&quot;text473Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:right;&quot; &gt;&#x0A;&lt;span class=&quot;text473Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text473Font1&quot;  &gt;Selecionando algumas expressÃµes teremos: &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text473Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text473Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text473ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text473Font1&quot;  &gt;integrated approach = abordagem (approach = abordagem, enfoque) integrada &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text473Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text473Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text473ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text473Font1&quot;  &gt;educatorâ€™s task = tarefa (task = tarefa) do educador â€“ â€˜s significa posse = do &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text473Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text473Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text473ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text473Font1&quot;  &gt;tecnological options = opÃ§Ãµes tecnolÃ³gicas (tecnological Ã© adjetivo) Ã„ goal = objetivo &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text473Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text473Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text473ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text473Font1&quot;  &gt;a mix instrucional media = uma mistura de mÃ­dia instrucional.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\lang1033\hich\f2\loch\f2 Observe este trecho:\par\par Using this integrated approach, the educator\u8217 \&apos;92s task is to carefully select among the technological options. The goal is to build a mix of instructional &#x0A;media, meeting the needs of the learner in a manner that is instructionally effective and economically prudent.\u8221 \&apos;94\par\par\qr\lang1046\hich\f1\loch\f1\lang1033\hich\f2\loch\f2\fs22\b From: Engineering Outreach\par College of Engineering \u8211 &#x0A;\&apos;96 University of Idaho\par\fs28\b0\par\par\qj\lang1046\hich\f1\loch\f1\lang1033\hich\f2\loch\f2 Selecionando algumas express\&apos;f5es teremos: \par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\lang1046\hich\f1\loch\f1\lang1033\hich\f2\loch\f2 &#x0A;integrated approach = abordagem (approach = abordagem, enfoque) integrada \par\pard\s0\fi-450\li450\ltrpar\qj\lang1046\hich\f1\loch\f1\lang1033\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\lang1046\hich\f1\loch\f1\lang1033\hich\f2\loch\f2 &#x0A;educator\u8217 \&apos;92s task = tarefa (task = tarefa) do educador \u8211 \&apos;96 \u8216 \&apos;91s significa posse = do \par\pard\s0\fi-450\li450\ltrpar\qj\lang1046\hich\f1\loch\f1\lang1033\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\lang1046\hich\f1\loch\f1\lang1033\hich\f2\loch\f2 &#x0A;tecnological options = op\&apos;e7\&apos;f5es tecnol\&apos;f3gicas (tecnological \&apos;e9 adjetivo) \&apos;c4 goal = objetivo \par\pard\s0\fi-450\li450\ltrpar\qj\lang1046\hich\f1\loch\f1\lang1033\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\lang1046\hich\f1\loch\f1\lang1033\hich\f2\loch\f2 &#x0A;a mix instrucional media = uma mistura de m\&apos;eddia instrucional.\par}&#x0A;</rtf>
+<raw>?Observe este trecho:&#x0A;Using this integrated approach, the educator?s task is to carefully select among the technological options. The goal is to build a mix of instructional media, meeting the needs of the learner in a manner that is instructionally effective and economically prudent.?&#x0A;From: Engineering Outreach&#x0A;College of Engineering ? University of Idaho&#x0A;Selecionando algumas express?es teremos: &#x0A;integrated approach = abordagem (approach = abordagem, enfoque) integrada &#x0A;educator?s task = tarefa (task = tarefa) do educador ? ?s significa posse = do &#x0A;tecnological options = op??es tecnol?gicas (tecnological ? adjetivo) ? goal = objetivo &#x0A;a mix instrucional media = uma mistura de m?dia instrucional.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text473ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text473ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>26</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="461" parent="459">
+<name>Grupo_1</name>
+<lastupdated>1687453723</lastupdated>
+<shape id="463" parent="461" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687453723</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="465" parent="461" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687453723</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="467" parent="461" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687453723</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="468" parent="461" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687453723</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text468Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text468Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text468Font1&quot;  &gt;Text Comprehension&lt;/span &gt;&lt;span class=&quot;text468Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Text Comprehension\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Text Comprehension</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="470" parent="461" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687453723</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="472" parent="461" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687453723</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="542" parent="40">
+<name>Página 6</name>
+<lastupdated>1687453771</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="588" parent="542" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687453817</lastupdated>
+<possize>
+<point>
+<x>532</x>
+<y>128</y>
+</point>
+<size>
+<cx>439</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text588Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text588Font1&quot;  &gt;Seu de quem? Lendo um pouco para trÃ¡s, vemos que hÃ¡ â€œstudentsâ€; logo concluÃ­mos que â€œtheirâ€ refere-se a â€œstudents, ou seja, instrutor dos alunosâ€.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\lang1033\hich\f2\loch\f2\cf2\fs28 Seu de quem? Lendo um pouco para tr\&apos;e1s, vemos que h\&apos;e1 \u8220 \&apos;93students\u8221 \&apos;94; logo conclu\&apos;edmos que \u8220 \&apos;93their\u8221 \&apos;94 refere-se a \u8220 \&apos;93students, ou seja, instrutor &#x0A;dos alunos\u8221 \&apos;94.\par}&#x0A;</rtf>
+<raw>?Seu de quem? Lendo um pouco para tr?s, vemos que h? ?students?; logo conclu?mos que ?their? refere-se a ?students, ou seja, instrutor dos alunos?.</raw>
+<numoflines>8</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="561" parent="542" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687453806</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>116</y>
+</point>
+<size>
+<cx>437</cx>
+<cy>521</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text561Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text561Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text561Font1&quot;  &gt;Olhe este trecho:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text561Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text561Font1&quot;  &gt;â€œTeaching and learning at a distance is demanding. However, learning will be more meaningful and â€œdeeperâ€ for distant students, if students and &lt;/span &gt;&lt;span class=&quot;text561Font3&quot;  &gt;their &lt;/span &gt;&lt;span class=&quot;text561Font1&quot;  &gt;instructor share responsibility for developing learning goals: actively interacting with class members; promoting reflection on experience; relating new information to examples that make sense to learners. This is the challenge and the opportunity provided by distance education.â€&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text561Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text561Font1&quot;  &gt;PoderÃ­amos perguntar qual o referente do pronome â€œtheirâ€ em negrito no trecho?&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text561Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text561Font1&quot;  &gt;Utilizando a tÃ©cnica de skimming, seria necessÃ¡rio retornar ao texto e entender a sentenÃ§a na qual o pronome estÃ¡ sendo empregado. â€œTheirâ€ Ã© um pronome possessivo ( e como tal, sempre vem acompanhado de um substantivo) da terceira pessoa do plural ( o seu referente Ã© um substantivo no plural). A traduÃ§Ã£o de â€œtheir instructorâ€ seria seu instrutor. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\lang1033\hich\f2\loch\f2\cf2\fs28 Olhe este trecho:\par\par\u8220 \&apos;93Teaching and learning at a distance is demanding. However, learning will be more meaningful and \u8220 \&apos;93deeper\u8221 \&apos;94 for distant students, if &#x0A;students and \b their \b0 instructor share responsibility for developing learning goals: actively interacting with class members; promoting reflection on experience; relating new information to examples that make sense to learners. This is the challenge &#x0A;and the opportunity provided by distance education.\u8221 \&apos;94\par\par Poder\&apos;edamos perguntar qual o referente do pronome \u8220 \&apos;93their\u8221 \&apos;94 em negrito no trecho?\par\par Utilizando a t\&apos;e9cnica de skimming, seria necess\&apos;e1rio retornar ao texto &#x0A;e entender a senten\&apos;e7a na qual o pronome est\&apos;e1 sendo empregado. \u8220 \&apos;93Their\u8221 \&apos;94 \&apos;e9 um pronome possessivo ( e como tal, sempre vem acompanhado de um substantivo) da terceira pessoa do plural ( o seu referente \&apos;e9 um substantivo no plural). &#x0A;A tradu\&apos;e7\&apos;e3o de \u8220 \&apos;93their instructor\u8221 \&apos;94 seria seu instrutor. \par}&#x0A;</rtf>
+<raw>?Olhe este trecho:&#x0A;?Teaching and learning at a distance is demanding. However, learning will be more meaningful and ?deeper? for distant students, if students and their instructor share responsibility for developing learning goals: actively interacting with class members; promoting reflection on experience; relating new information to examples that make sense to learners. This is the challenge and the opportunity provided by distance education.?&#x0A;Poder?amos perguntar qual o referente do pronome ?their? em negrito no trecho?&#x0A;Utilizando a t?cnica de skimming, seria necess?rio retornar ao texto e entender a senten?a na qual o pronome est? sendo empregado. ?Their? ? um pronome possessivo ( e como tal, sempre vem acompanhado de um substantivo) da terceira pessoa do plural ( o seu referente ? um substantivo no plural). A tradu??o de ?their instructor? seria seu instrutor. </raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="549" parent="542">
+<name>Grupo_1</name>
+<lastupdated>1687453775</lastupdated>
+<shape id="551" parent="549" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687453775</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="553" parent="549" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687453775</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="555" parent="549" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687453775</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="556" parent="549" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687453775</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text556Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text556Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text556Font1&quot;  &gt;Text Comprehension&lt;/span &gt;&lt;span class=&quot;text556Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Text Comprehension\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Text Comprehension</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="558" parent="549" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687453775</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="560" parent="549" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687453775</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

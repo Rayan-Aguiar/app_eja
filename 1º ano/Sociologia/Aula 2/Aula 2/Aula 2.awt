@@ -1,0 +1,1357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>820</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="177" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="178" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="609" resourcetype="image">
+<name>Imagem1.png</name>
+<relativelink>images\Imagem1.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="812" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="813" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="85">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>134503368</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 2</name>
+<lastupdated>1687709302</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="84" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687709304</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="83" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687709304</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="82" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687709304</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="85" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="81" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687709304</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="80" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687709304</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="79" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687709304</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="76" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687709304</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="77" parent="76" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687709304</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="78" parent="76" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687709304</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="69" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687709304</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="70" parent="69" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687709304</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="69" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687709304</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="61" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687709304</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="62" parent="61" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687709304</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="63" parent="61" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687709304</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="64" parent="61" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687709304</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="61">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689696156</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="797" parent="40">
+<name>Página 1</name>
+<lastupdated>1689696159</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="798" parent="797">
+<name>Grupo_1</name>
+<lastupdated>1689696159</lastupdated>
+<image id="800" parent="798" resource="812" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689696159</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="802" parent="798" resource="813" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689696159</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="803" parent="798" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689696162</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text803Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text803Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text803Font1&quot;  &gt;Aula 2&lt;/span &gt;&lt;span class=&quot;text803Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 2\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 2</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="805" parent="798" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689696159</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="807" parent="798" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689696159</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="809" parent="798" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689696159</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="811" parent="798" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689696159</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="162" parent="40">
+<name>Página 2</name>
+<lastupdated>1689696156</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="264" parent="162" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687709467</lastupdated>
+<possize>
+<point>
+<x>536</x>
+<y>128</y>
+</point>
+<size>
+<cx>428</cx>
+<cy>477</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text264Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text264Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text264Font1&quot;  &gt;pautadas pelo &quot;tempo linear &quot; comeÃ§aram a mudar a relaÃ§Ã£o dos indivÃ­duos com o tempo e com outras pessoas, jÃ¡ que a vida urbana comeÃ§a a ser caracterizada pelo anonimato, pela impessoalidade e efemeridade das interaÃ§Ãµes sociais.&lt;/span &gt;&lt;span class=&quot;text264Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text264Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text264Font3&quot;  &gt;A RevoluÃ§Ã£o Industrial pode ser considerada um ponto central em uma complexa teia de eventos que ocorreram durante os SÃ©culos XVIII e XIX. Com a industrializaÃ§Ã£o, veio o crescimento das cidades, a intensificaÃ§Ã£o da vida urbana e novas relaÃ§Ãµes econÃ´micas e sociais, afetando as tradicionais formas de se viver em sociedade, de se relacionar com o tempo e com a Natureza. Esses sÃ©culos tambÃ©m testemunham o surgimento do Estado-NaÃ§Ã£o, com delimitaÃ§Ãµes de fronteiras, mercados internos, populaÃ§Ãµes submetidas a formas de governos cada vez mais racionalizadas, impessoais e burocratizadas.&lt;/span &gt;&lt;span class=&quot;text264Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 pautadas pelo &quot;tempo linear &quot; come\u231 \&apos;e7aram a mudar a rela\u231 \&apos;e7\u227 \&apos;e3o dos indiv\u237 \&apos;edduos com o tempo e com outras pessoas, j\u225 \&apos;e1 que a vida urbana come\u231 \&apos;e7a a ser caracterizada pelo anonimato, &#x0A;pela impessoalidade e efemeridade das intera\u231 \&apos;e7\u245 \&apos;f5es sociais.\lang1046\hich\f2\loch\f2\par\par A Revolu\&apos;e7\&apos;e3o Industrial pode ser considerada um ponto central em uma complexa teia de eventos que ocorreram durante os S\&apos;e9culos XVIII e &#x0A;XIX. Com a industrializa\&apos;e7\&apos;e3o, veio o crescimento das cidades, a intensifica\&apos;e7\&apos;e3o da vida urbana e novas rela\&apos;e7\&apos;f5es econ\&apos;f4micas e sociais, afetando as tradicionais formas de se viver em sociedade, de se relacionar com o tempo e com a Natureza. &#x0A;Esses s\&apos;e9culos tamb\&apos;e9m testemunham o surgimento do Estado-Na\&apos;e7\&apos;e3o, com delimita\&apos;e7\&apos;f5es de fronteiras, mercados internos, popula\&apos;e7\&apos;f5es submetidas a formas de governos cada vez mais racionalizadas, impessoais e burocratizadas.\lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?pautadas pelo &quot;tempo linear &quot; come�aram a mudar a rela��o dos indiv�duos com o tempo e com outras pessoas, j� que a vida urbana come�a a ser caracterizada pelo anonimato, pela impessoalidade e efemeridade das intera��es sociais.&#x0A;&#x0A;A Revolu��o Industrial pode ser considerada um ponto central em uma complexa teia de eventos que ocorreram durante os S�culos XVIII e XIX. Com a industrializa��o, veio o crescimento das cidades, a intensifica��o da vida urbana e novas rela��es econ�micas e sociais, afetando as tradicionais formas de se viver em sociedade, de se relacionar com o tempo e com a Natureza. Esses s�culos tamb�m testemunham o surgimento do Estado-Na��o, com delimita��es de fronteiras, mercados internos, popula��es submetidas a formas de governos cada vez mais racionalizadas, impessoais e burocratizadas.</raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="210" parent="162" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687709411</lastupdated>
+<possize>
+<point>
+<x>44</x>
+<y>125</y>
+</point>
+<size>
+<cx>448</cx>
+<cy>512</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text210Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text210Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text210Font1&quot;  &gt;Entre 1760 e as primeiras dÃ©cadas do SÃ©culo XIX, a Europa e os Estados Unidos passaram pela I RevoluÃ§Ã£o Industrial, marcada por grandes inovaÃ§Ãµes tÃ©cnicas que levariam a gradual substituiÃ§Ã£o do trabalho artesanal pelo industrial, com grandes repercussÃµes nas relaÃ§Ãµes de trabalho e na economia, alterando profundamente as estruturas sociais vigentes atÃ© entÃ£o. Por exemplo,&lt;/span &gt;&lt;span class=&quot;text210Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text210Font1&quot;  &gt;uma das consequÃªncias da RevoluÃ§Ã£o Industrial foi o aumento populacional e urbano, devido ao Ãªxodo rural e Ã  expansÃ£o do trabalho assalariado nas cidades. Ainda, nos primÃ³rdios da industrializaÃ§Ã£o, houve a exploraÃ§Ã£o intensiva da mÃ£o de obra disponÃ­vel, inclusive infantil e feminina, com jornadas de trabalho exaustivas, o que levou a organizaÃ§Ã£o de sindicatos, greves, politizaÃ§Ã£o dos operÃ¡rios e lutas por direitos trabalhistas. Junto com o crescimento das cidades, vieram problemas de saÃºde e higiene, epidemias, desnutriÃ§Ã£o, precariedade e superlotaÃ§Ã£o de habitaÃ§Ãµes. Por fim, as cidades, cada vez maiores, com iluminaÃ§Ã£o artificial e &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Entre 1760 e as primeiras d\u233 \&apos;e9cadas do S\u233 \&apos;e9culo XIX, a Europa e os Estados Unidos passaram pela I Revolu\u231 \&apos;e7\u227 \&apos;e3o Industrial, marcada por grandes inova\u231 \&apos;e7\u245 \&apos;f5es t\u233 \&apos;e9cnicas &#x0A;que levariam a gradual substitui\u231 \&apos;e7\u227 \&apos;e3o do trabalho artesanal pelo industrial, com grandes repercuss\u245 \&apos;f5es nas rela\u231 \&apos;e7\u245 \&apos;f5es de trabalho e na economia, alterando profundamente as estruturas sociais vigentes at\u233 \&apos;e9 &#x0A;ent\u227 \&apos;e3o. Por exemplo,\hich\f2\loch\f2  \hich\f1\loch\f1 uma das consequ\u234 \&apos;eancias da Revolu\u231 \&apos;e7\u227 \&apos;e3o Industrial foi o aumento populacional e urbano, devido ao \u234 \&apos;eaxodo rural e \u224 \&apos;e0 expans\u227 \&apos;e3o do trabalho assalariado &#x0A;nas cidades. Ainda, nos prim\u243 \&apos;f3rdios da industrializa\u231 \&apos;e7\u227 \&apos;e3o, houve a explora\u231 \&apos;e7\u227 \&apos;e3o intensiva da m\u227 \&apos;e3o de obra dispon\u237 \&apos;edvel, inclusive infantil e feminina, com jornadas de trabalho exaustivas, o que levou &#x0A;a organiza\u231 \&apos;e7\u227 \&apos;e3o de sindicatos, greves, politiza\u231 \&apos;e7\u227 \&apos;e3o dos oper\u225 \&apos;e1rios e lutas por direitos trabalhistas. Junto com o crescimento das cidades, vieram problemas de sa\u250 \&apos;fade e higiene, epidemias, desnutri\u231 &#x0A;\&apos;e7\u227 \&apos;e3o, precariedade e superlota\u231 \&apos;e7\u227 \&apos;e3o de habita\u231 \&apos;e7\u245 \&apos;f5es. Por fim, as cidades, cada vez maiores, com ilumina\u231 \&apos;e7\u227 \&apos;e3o artificial e \par}&#x0A;</rtf>
+<raw>?Entre 1760 e as primeiras d�cadas do S�culo XIX, a Europa e os Estados Unidos passaram pela I Revolu��o Industrial, marcada por grandes inova��es t�cnicas que levariam a gradual substitui��o do trabalho artesanal pelo industrial, com grandes repercuss�es nas rela��es de trabalho e na economia, alterando profundamente as estruturas sociais vigentes at� ent�o. Por exemplo, uma das consequ�ncias da Revolu��o Industrial foi o aumento populacional e urbano, devido ao �xodo rural e � expans�o do trabalho assalariado nas cidades. Ainda, nos prim�rdios da industrializa��o, houve a explora��o intensiva da m�o de obra dispon�vel, inclusive infantil e feminina, com jornadas de trabalho exaustivas, o que levou a organiza��o de sindicatos, greves, politiza��o dos oper�rios e lutas por direitos trabalhistas. Junto com o crescimento das cidades, vieram problemas de sa�de e higiene, epidemias, desnutri��o, precariedade e superlota��o de habita��es. Por fim, as cidades, cada vez maiores, com ilumina��o artificial e </raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="165" parent="162">
+<name>Grupo_1</name>
+<lastupdated>1687709314</lastupdated>
+<shape id="167" parent="165" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687709334</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="169" parent="165" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687709334</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="171" parent="165" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687709334</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="172" parent="165" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687709338</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>695</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text172Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text172Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text172Font1&quot;  &gt;A RevoluÃ§Ã£o Industrial e a Sociologia&lt;/span &gt;&lt;span class=&quot;text172Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b A Revolu\&apos;e7\&apos;e3o Industrial e a Sociologia\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?A Revolu��o Industrial e a Sociologia</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="174" parent="165" resource="177" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687709334</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="176" parent="165" resource="178" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687709334</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="318" parent="40">
+<name>Página 3</name>
+<lastupdated>1687709594</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="409" parent="318" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687709589</lastupdated>
+<possize>
+<point>
+<x>530</x>
+<y>120</y>
+</point>
+<size>
+<cx>437</cx>
+<cy>433</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text409Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text409Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text409Font1&quot;  &gt;Outros fatores que favoreceram a Inglaterra foram a ampliaÃ§Ã£o das prÃ¡ticas capitalistas para o campo, os ganhos econÃ´micos oriundos do poderio imperial inglÃªs e seu comÃ©rcio colonial ultramarino e, por fim, o investimento em tecnologias que fossem capazes de gerar eficiÃªncia, produtividade e lucro Ã s nascentes atividades manufatureiras. Ainda, nÃ£o menos importante, a acumulaÃ§Ã£o de capital das classes abastadas inglesas propiciou o investimento em infraestrutura, portos e atividades que permitissem a ampliaÃ§Ã£o das indÃºstrias e do comÃ©rcio. Esses fatores foram fundamentais para que a&lt;/span &gt;&lt;span class=&quot;text409Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text409Font1&quot;  &gt;Inglaterra fosse a vanguarda da industrializaÃ§Ã£o e o primeiro paÃ­s onde as radicais alteraÃ§Ãµes causadas pela RevoluÃ§Ã£o industrial fossem percebidas. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Outros fatores que favoreceram a Inglaterra foram a amplia\u231 \&apos;e7\u227 \&apos;e3o das pr\u225 \&apos;e1ticas capitalistas para o campo, os ganhos econ\u244 \&apos;f4micos oriundos do poderio imperial ingl\u234 \&apos;eas e seu com\u233 &#x0A;\&apos;e9rcio colonial ultramarino e, por fim, o investimento em tecnologias que fossem capazes de gerar efici\u234 \&apos;eancia, produtividade e lucro \u224 \&apos;e0s nascentes atividades manufatureiras. Ainda, n\u227 \&apos;e3o menos importante, a acumula\u231 \&apos;e7\u227 &#x0A;\&apos;e3o de capital das classes abastadas inglesas propiciou o investimento em infraestrutura, portos e atividades que permitissem a amplia\u231 \&apos;e7\u227 \&apos;e3o das ind\u250 \&apos;fastrias e do com\u233 \&apos;e9rcio. Esses fatores foram fundamentais para que a\lang1046\hich\f2\loch\f2 &#x0A; \lang1046\hich\f1\loch\f1 Inglaterra fosse a vanguarda da industrializa\u231 \&apos;e7\u227 \&apos;e3o e o primeiro pa\u237 \&apos;eds onde as radicais altera\u231 \&apos;e7\u245 \&apos;f5es causadas pela Revolu\u231 \&apos;e7\u227 \&apos;e3o industrial fossem percebidas. \par}&#x0A;</rtf>
+<raw>?Outros fatores que favoreceram a Inglaterra foram a amplia??o das pr?ticas capitalistas para o campo, os ganhos econ?micos oriundos do poderio imperial ingl?s e seu com?rcio colonial ultramarino e, por fim, o investimento em tecnologias que fossem capazes de gerar efici?ncia, produtividade e lucro ?s nascentes atividades manufatureiras. Ainda, n?o menos importante, a acumula??o de capital das classes abastadas inglesas propiciou o investimento em infraestrutura, portos e atividades que permitissem a amplia??o das ind?strias e do com?rcio. Esses fatores foram fundamentais para que a Inglaterra fosse a vanguarda da industrializa??o e o primeiro pa?s onde as radicais altera??es causadas pela Revolu??o industrial fossem percebidas. </raw>
+<numoflines>16</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="332" parent="318" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687709553</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>117</y>
+</point>
+<size>
+<cx>437</cx>
+<cy>536</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text332Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text332Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text332Font1&quot;  &gt;Ainda, com a ascensÃ£o do Capitalismo Industrial surgem novas classes sociais, intensificam conflitos polÃ­ticos, desigualdades econÃ´micas, concentraÃ§Ã£o de renda e assimetrias de poder que repercutem&lt;/span &gt;&lt;span class=&quot;text332Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text332Font1&quot;  &gt;nas relaÃ§Ãµes sociais. A RevoluÃ§Ã£o Industrial Ã© tanto um momento de prosperidade e de novas&lt;/span &gt;&lt;span class=&quot;text332Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text332Font1&quot;  &gt;oportunidades quanto um momento de crise: ao passo em que a crescente diferenciaÃ§Ã£o social do trabalho amplia&lt;/span &gt;&lt;span class=&quot;text332Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text332Font1&quot;  &gt;as possibilidades de ganhos econÃ´micos, antigas formas da vida cotidiana e de comunidades sÃ£o radicalmente transformadas, quando nÃ£o extintas. A Sociologia nasce da percepÃ§Ã£o dessa crise.&lt;/span &gt;&lt;span class=&quot;text332Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text332Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text332Font3&quot;  &gt;A RevoluÃ§Ã£o Industrial acontece, inicialmente, na Inglaterra, devido a uma sÃ©rie de fatores, como, por &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text332Font3&quot;  &gt;exemplo, as diversas &quot;Leis de Cercamentos&quot; durante o SÃ©culo XVIII, que permitiu a crescente privatizaÃ§Ã£o, pelas classes mais abastadas, dos outrora campos comunais ingleses, de onde os camponeses retiravam seus alimentos e produtos para comÃ©rcio. O cercamento dos campos fez com que um grande nÃºmero de camponeses se mudasse para as cidades, aumentando a disponibilidade de mÃ£o de obra.&lt;/span &gt;&lt;span class=&quot;text332Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Ainda, com a ascens\u227 \&apos;e3o do Capitalismo Industrial surgem novas classes sociais, intensificam conflitos pol\u237 \&apos;edticos, desigualdades econ\u244 \&apos;f4micas, concentra\u231 \&apos;e7\u227 \&apos;e3o de renda e assimetrias &#x0A;de poder que repercutem\hich\f2\loch\f2  \hich\f1\loch\f1 nas rela\u231 \&apos;e7\u245 \&apos;f5es sociais. A Revolu\u231 \&apos;e7\u227 \&apos;e3o Industrial \u233 \&apos;e9 tanto um momento de prosperidade e de novas\hich\f2\loch\f2  \hich\f1\loch\f1 oportunidades quanto um &#x0A;momento de crise: ao passo em que a crescente diferencia\u231 \&apos;e7\u227 \&apos;e3o social do trabalho amplia\hich\f2\loch\f2  \hich\f1\loch\f1 as possibilidades de ganhos econ\u244 \&apos;f4micos, antigas formas da vida cotidiana e de comunidades s\u227 \&apos;e3o radicalmente &#x0A;transformadas, quando n\u227 \&apos;e3o extintas. A Sociologia nasce da percep\u231 \&apos;e7\u227 \&apos;e3o dessa crise.\hich\f2\loch\f2\par\par A Revolu\u231 \&apos;e7\u227 \&apos;e3o Industrial acontece, inicialmente, na Inglaterra, devido a uma s\u233 \&apos;e9rie de fatores, &#x0A;como, por \par exemplo, as diversas &quot;Leis de Cercamentos&quot; durante o S\u233 \&apos;e9culo XVIII, que permitiu a crescente privatiza\u231 \&apos;e7\u227 \&apos;e3o, pelas classes mais abastadas, dos outrora campos comunais ingleses, de onde os camponeses retiravam seus &#x0A;alimentos e produtos para com\u233 \&apos;e9rcio. O cercamento dos campos fez com que um grande n\u250 \&apos;famero de camponeses se mudasse para as cidades, aumentando a disponibilidade de m\u227 \&apos;e3o de obra\lang1046\hich\f2\loch\f2 .\lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Ainda, com a ascens?o do Capitalismo Industrial surgem novas classes sociais, intensificam conflitos pol?ticos, desigualdades econ?micas, concentra??o de renda e assimetrias de poder que repercutem nas rela??es sociais. A Revolu??o Industrial ? tanto um momento de prosperidade e de novas oportunidades quanto um momento de crise: ao passo em que a crescente diferencia??o social do trabalho amplia as possibilidades de ganhos econ?micos, antigas formas da vida cotidiana e de comunidades s?o radicalmente transformadas, quando n?o extintas. A Sociologia nasce da percep??o dessa crise.&#x0A;A Revolu??o Industrial acontece, inicialmente, na Inglaterra, devido a uma s?rie de fatores, como, por &#x0A;exemplo, as diversas &quot;Leis de Cercamentos&quot; durante o S?culo XVIII, que permitiu a crescente privatiza??o, pelas classes mais abastadas, dos outrora campos comunais ingleses, de onde os camponeses retiravam seus alimentos e produtos para com?rcio. O cercamento dos campos fez com que um grande n?mero de camponeses se mudasse para as cidades, aumentando a disponibilidade de m?o de obra.</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="320" parent="318">
+<name>Grupo_1</name>
+<lastupdated>1687709472</lastupdated>
+<shape id="322" parent="320" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687709472</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="324" parent="320" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687709472</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="326" parent="320" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687709472</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="327" parent="320" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687709472</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>695</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text327Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text327Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text327Font1&quot;  &gt;A RevoluÃ§Ã£o Industrial e a Sociologia&lt;/span &gt;&lt;span class=&quot;text327Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b A Revolu\&apos;e7\&apos;e3o Industrial e a Sociologia\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?A Revolu??o Industrial e a Sociologia</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="329" parent="320" resource="177" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687709472</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="331" parent="320" resource="178" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687709472</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="427" parent="40">
+<name>Página 4</name>
+<lastupdated>1687709692</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="469" parent="427" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687709684</lastupdated>
+<possize>
+<point>
+<x>533</x>
+<y>130</y>
+</point>
+<size>
+<cx>448</cx>
+<cy>241</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text469Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text469Font1&quot;  &gt;As imensas transformaÃ§Ãµes e a complexa teia de eventos que a Europa e os Estados Unidos presenciaram a partir da emergÃªncia do Capitalismo Industrial chamaram a atenÃ§Ã£o de estudiosos para os efeitos que causavam na sociedade e nos indivÃ­duos. Ã‰ da observaÃ§Ã£o dessa complexidade de eventos e da busca de critÃ©rios objetivos e cientÃ­ficos para analisar seus efeitos Ã© que surge a Sociologia. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 As imensas transforma\u231 \&apos;e7\u245 \&apos;f5es e a complexa teia de eventos que a Europa e os Estados Unidos presenciaram a partir da emerg\u234 \&apos;eancia do Capitalismo Industrial chamaram a aten\u231 \&apos;e7\u227 \&apos;e3o de estudiosos &#x0A;para os efeitos que causavam na sociedade e nos indiv\u237 \&apos;edduos. \u201 \&apos;c9 da observa\u231 \&apos;e7\u227 \&apos;e3o dessa complexidade de eventos e da busca de crit\u233 \&apos;e9rios objetivos e cient\u237 \&apos;edficos para analisar seus efeitos \u233 \&apos;e9 que surge &#x0A;a Sociologia. \par}&#x0A;</rtf>
+<raw>?As imensas transforma??es e a complexa teia de eventos que a Europa e os Estados Unidos presenciaram a partir da emerg?ncia do Capitalismo Industrial chamaram a aten??o de estudiosos para os efeitos que causavam na sociedade e nos indiv?duos. ? da observa??o dessa complexidade de eventos e da busca de crit?rios objetivos e cient?ficos para analisar seus efeitos ? que surge a Sociologia. </raw>
+<numoflines>9</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="441" parent="427" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687709650</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>128</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>481</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text441Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text441Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text441Font1&quot;  &gt;A partir da Inglaterra, a RevoluÃ§Ã£o Industrial tambÃ©m aconteceu na Europa, nos Estados Unidos e atÃ© no JapÃ£o, desencadeando um processo de mudanÃ§as em escala planetÃ¡ria, devido aos incessantes avanÃ§os tecnolÃ³gicos, sociais, econÃ´micos e culturais. Com a industrializaÃ§Ã£o, houve cada vez mais a penetraÃ§Ã£o dos ideais do progresso, do racionalismo, da objetividade na percepÃ§Ã£o do mundo e na centralidade do indivÃ­duo que os Iluministas tanto valorizavam. Com esta penetraÃ§Ã£o dos ideais pr&lt;/span &gt;&lt;span class=&quot;text441Font3&quot;  &gt;o&lt;/span &gt;&lt;span class=&quot;text441Font1&quot;  &gt;gressistas, aliado a uma visÃ£o pragmÃ¡tica do mundo e da valorizaÃ§Ã£o dos avanÃ§os tÃ©cnico-cientÃ­ficos, a industrializaÃ§Ã£o afetou modos de vidas tradicionais, alterou as relaÃ§Ãµes dos indivÃ­duos e grupos sociais entre si e com a natureza e o trabalho, modificando&lt;/span &gt;&lt;span class=&quot;text441Font3&quot;  &gt; alores, ideÃ¡rios e atÃ© intimidade sexual das pessoas. &lt;/span &gt;&lt;span class=&quot;text441Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 A partir da Inglaterra, a Revolu\u231 \&apos;e7\u227 \&apos;e3o Industrial tamb\u233 \&apos;e9m aconteceu na Europa, nos Estados Unidos e at\u233 \&apos;e9 no Jap\u227 \&apos;e3o, desencadeando um processo de mudan\u231 \&apos;e7as em escala planet\u225 &#x0A;\&apos;e1ria, devido aos incessantes avan\u231 \&apos;e7os tecnol\u243 \&apos;f3gicos, sociais, econ\u244 \&apos;f4micos e culturais. Com a industrializa\u231 \&apos;e7\u227 \&apos;e3o, houve cada vez mais a penetra\u231 \&apos;e7\u227 \&apos;e3o dos ideais do progresso, do racionalismo, da &#x0A;objetividade na percep\u231 \&apos;e7\u227 \&apos;e3o do mundo e na centralidade do indiv\u237 \&apos;edduo que os Iluministas tanto valorizavam. Com esta penetra\u231 \&apos;e7\u227 \&apos;e3o dos ideais pr\lang1046\hich\f2\loch\f2 o\lang1046\hich\f1\loch\f1 gressistas, aliado &#x0A;a uma vis\u227 \&apos;e3o pragm\u225 \&apos;e1tica do mundo e da valoriza\u231 \&apos;e7\u227 \&apos;e3o dos avan\u231 \&apos;e7os t\u233 \&apos;e9cnico-cient\u237 \&apos;edficos, a industrializa\u231 \&apos;e7\u227 \&apos;e3o afetou modos de vidas tradicionais, alterou as rela\u231 \&apos;e7\u245 \&apos;f5es &#x0A;dos indiv\u237 \&apos;edduos e grupos sociais entre si e com a natureza e o trabalho, modificando\lang1046\hich\f2\loch\f2  alores, ide\&apos;e1rios e at\&apos;e9 intimidade sexual das pessoas. \lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?A partir da Inglaterra, a Revolu??o Industrial tamb?m aconteceu na Europa, nos Estados Unidos e at? no Jap?o, desencadeando um processo de mudan?as em escala planet?ria, devido aos incessantes avan?os tecnol?gicos, sociais, econ?micos e culturais. Com a industrializa??o, houve cada vez mais a penetra??o dos ideais do progresso, do racionalismo, da objetividade na percep??o do mundo e na centralidade do indiv?duo que os Iluministas tanto valorizavam. Com esta penetra??o dos ideais progressistas, aliado a uma vis?o pragm?tica do mundo e da valoriza??o dos avan?os t?cnico-cient?ficos, a industrializa??o afetou modos de vidas tradicionais, alterou as rela??es dos indiv?duos e grupos sociais entre si e com a natureza e o trabalho, modificando alores, ide?rios e at? intimidade sexual das pessoas. </raw>
+<numoflines>17</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="429" parent="427">
+<name>Grupo_1</name>
+<lastupdated>1687709597</lastupdated>
+<shape id="431" parent="429" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687709597</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="433" parent="429" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687709597</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="435" parent="429" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687709597</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="436" parent="429" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687709597</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>695</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text436Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text436Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text436Font1&quot;  &gt;A RevoluÃ§Ã£o Industrial e a Sociologia&lt;/span &gt;&lt;span class=&quot;text436Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b A Revolu\&apos;e7\&apos;e3o Industrial e a Sociologia\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?A Revolu??o Industrial e a Sociologia</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="438" parent="429" resource="177" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687709597</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="440" parent="429" resource="178" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687709597</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="487" parent="40">
+<name>Página 5</name>
+<lastupdated>1687709881</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<shape id="608" parent="487" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687709853</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>193</y>
+</point>
+<size>
+<cx>934</cx>
+<cy>378</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>20</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="01D1DD" />
+</shape>
+<image id="606" parent="487" resource="609" ontop="false" fixed="false" proportional="true">
+<name>Imagem1</name>
+<lastupdated>1687709853</lastupdated>
+<possize>
+<point>
+<x>891</x>
+<y>530</y>
+</point>
+<size>
+<cx>61</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<shape id="603" parent="487" ontop="false" fixed="false" proportional="false">
+<name>Retângulo 2</name>
+<lastupdated>1687709853</lastupdated>
+<possize>
+<point>
+<x>32</x>
+<y>343</y>
+</point>
+<size>
+<cx>12</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="501" parent="487" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687709853</lastupdated>
+<possize>
+<point>
+<x>62</x>
+<y>218</y>
+</point>
+<size>
+<cx>884</cx>
+<cy>328</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text501Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text501Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text501Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text501Font1&quot;  &gt;Tempo linear e tempo cÃ­clico&lt;/span &gt;&lt;span class=&quot;text501Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text501Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text501Font3&quot;  &gt;AtÃ© a RevoluÃ§Ã£o Industrial, a humanidade se relacionava com o tempo de uma maneira diferente de como hoje experimentamos o passar dos dias e dos anos. A humanidade era acostumada ao chamado &quot;tempo cÃ­clico&quot; e a acordar com os primeiros raios de sol e a dormir quando escurecia. O tempo cÃ­clico, comum nas sociedades tradicionais e prÃ©-capitalistas, era vivenciado nos ciclos solares, nas fases da Lua, no ritmo dos planetas, estrelas e estaÃ§Ãµes, nas celebraÃ§Ãµes de solstÃ­cios de Inverno e VerÃ£o. O tempo cÃ­clico pressupÃµe um retorno contÃ­nuo e geralmente era comum nas sociedades politeÃ­stas e nos cultos de divindades agrÃ¡rias. JÃ¡ o tempo linear, pressupÃµe um passado, um presente e um futuro, sendo o tempo uma linha reta em direÃ§Ã£o a algum propÃ³sito entendido como progressista, sendo o futuro sempre diferente do momento atual. Com a RevoluÃ§Ã£o Industrial e a introduÃ§Ã£o dos turnos de trabalho, o tempo passou a ser cada vez mais entendido como linear, agora mediado pelos relÃ³gios. Junto com a difusÃ£o dos turnos de trabalho, do tempo medido pelo relÃ³gio, pela vida urbana, pela luz elÃ©trica e, recentemente, com a televisÃ£o, cada vez mais a humanidade se desconectava da percepÃ§Ã£o de tempo que experimentou desde os seus primÃ³rdios. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28\b Tempo linear e tempo c\u237 \&apos;edclico\b0\par\hich\f2\loch\f2\par\hich\f1\loch\f1 At\u233 \&apos;e9 a Revolu\u231 \&apos;e7\u227 \&apos;e3o Industrial, a humanidade se relacionava com o tempo de uma maneira diferente de como hoje experimentamos &#x0A;o passar dos dias e dos anos. A humanidade era acostumada ao chamado &quot;tempo c\u237 \&apos;edclico&quot; e a acordar com os primeiros raios de sol e a dormir quando escurecia. O tempo c\u237 \&apos;edclico, comum nas sociedades tradicionais e pr\u233 \&apos;e9-capitalistas, &#x0A;era vivenciado nos ciclos solares, nas fases da Lua, no ritmo dos planetas, estrelas e esta\u231 \&apos;e7\u245 \&apos;f5es, nas celebra\u231 \&apos;e7\u245 \&apos;f5es de solst\u237 \&apos;edcios de Inverno e Ver\u227 \&apos;e3o. O tempo c\u237 \&apos;edclico pressup\u245 \&apos;f5e um retorno &#x0A;cont\u237 \&apos;ednuo e geralmente era comum nas sociedades polite\u237 \&apos;edstas e nos cultos de divindades agr\u225 \&apos;e1rias. J\u225 \&apos;e1 o tempo linear, pressup\u245 \&apos;f5e um passado, um presente e um futuro, sendo o tempo uma linha reta em dire\u231 \&apos;e7\u227 &#x0A;\&apos;e3o a algum prop\u243 \&apos;f3sito entendido como progressista, sendo o futuro sempre diferente do momento atual. Com a Revolu\u231 \&apos;e7\u227 \&apos;e3o Industrial e a introdu\u231 \&apos;e7\u227 \&apos;e3o dos turnos de trabalho, o tempo passou a ser cada vez mais entendido &#x0A;como linear, agora mediado pelos rel\u243 \&apos;f3gios. Junto com a difus\u227 \&apos;e3o dos turnos de trabalho, do tempo medido pelo rel\u243 \&apos;f3gio, pela vida urbana, pela luz el\u233 \&apos;e9trica e, recentemente, com a televis\u227 \&apos;e3o, cada vez mais a humanidade &#x0A;se desconectava da percep\u231 \&apos;e7\u227 \&apos;e3o de tempo que experimentou desde os seus prim\u243 \&apos;f3rdios. \par}&#x0A;</rtf>
+<raw>?Tempo linear e tempo c?clico&#x0A;At? a Revolu??o Industrial, a humanidade se relacionava com o tempo de uma maneira diferente de como hoje experimentamos o passar dos dias e dos anos. A humanidade era acostumada ao chamado &quot;tempo c?clico&quot; e a acordar com os primeiros raios de sol e a dormir quando escurecia. O tempo c?clico, comum nas sociedades tradicionais e pr?-capitalistas, era vivenciado nos ciclos solares, nas fases da Lua, no ritmo dos planetas, estrelas e esta??es, nas celebra??es de solst?cios de Inverno e Ver?o. O tempo c?clico pressup?e um retorno cont?nuo e geralmente era comum nas sociedades polite?stas e nos cultos de divindades agr?rias. J? o tempo linear, pressup?e um passado, um presente e um futuro, sendo o tempo uma linha reta em dire??o a algum prop?sito entendido como progressista, sendo o futuro sempre diferente do momento atual. Com a Revolu??o Industrial e a introdu??o dos turnos de trabalho, o tempo passou a ser cada vez mais entendido como linear, agora mediado pelos rel?gios. Junto com a difus?o dos turnos de trabalho, do tempo medido pelo rel?gio, pela vida urbana, pela luz el?trica e, recentemente, com a televis?o, cada vez mais a humanidade se desconectava da percep??o de tempo que experimentou desde os seus prim?rdios. </raw>
+<numoflines>15</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="489" parent="487">
+<name>Grupo_1</name>
+<lastupdated>1687709775</lastupdated>
+<shape id="491" parent="489" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687709695</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="493" parent="489" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687709695</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="495" parent="489" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687709695</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="496" parent="489" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687709695</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>695</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text496Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text496Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text496Font1&quot;  &gt;A RevoluÃ§Ã£o Industrial e a Sociologia&lt;/span &gt;&lt;span class=&quot;text496Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b A Revolu\&apos;e7\&apos;e3o Industrial e a Sociologia\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?A Revolu??o Industrial e a Sociologia</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="500" parent="489" resource="178" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687709695</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

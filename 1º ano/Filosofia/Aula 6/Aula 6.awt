@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>2899</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="166" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="167" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="450" resourcetype="image">
+<name>Imagem 3.bmp</name>
+<relativelink>images\Imagem 3.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="953" resourcetype="image">
+<name>PNG.105.png</name>
+<relativelink>images\PNG.105.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1308" resourcetype="image">
+<name>PNG.106.png</name>
+<relativelink>images\PNG.106.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1396" resourcetype="image">
+<name>image0071.emf</name>
+<relativelink>images\image0071.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1397" resourcetype="image">
+<name>image0061.png</name>
+<relativelink>images\image0061.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="2889" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="2890" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="76">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 3</name>
+<lastupdated>1687284431</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="75" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="76" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="70" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="68" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="69" parent="68" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="62" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="63" parent="62" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="54" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="55" parent="54" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="56" parent="54" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="54" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="54">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1687284431</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="2874" parent="40">
+<name>Página 1</name>
+<lastupdated>1689692152</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="2875" parent="2874">
+<name>Grupo_1</name>
+<lastupdated>1689692143</lastupdated>
+<image id="2877" parent="2875" resource="2889" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689692143</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2879" parent="2875" resource="2890" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689692143</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="2880" parent="2875" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689692150</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2880Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text2880Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2880Font1&quot;  &gt;Aula 6&lt;/span &gt;&lt;span class=&quot;text2880Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 6\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 6</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="2882" parent="2875" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689692143</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2884" parent="2875" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689692143</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2886" parent="2875" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689692143</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="2888" parent="2875" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689692143</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="152" parent="40">
+<name>Página 2</name>
+<lastupdated>1687284416</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="221" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687284011</lastupdated>
+<possize>
+<point>
+<x>514</x>
+<y>101</y>
+</point>
+<size>
+<cx>472</cx>
+<cy>506</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text221Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text221Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text221Font3 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text221Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text221Font7 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#000000;}&#x0A;span.text221Font8 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#000000;}&#x0A;span.text221Font9 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot;  &gt;Cinismo&lt;/span &gt;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.164&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:0.850;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font4&quot;  &gt;Escola fundada por AntÃ­stenes (445 a.C. â€“ 365 a.C.), tendo como seu filÃ³sofo mais ilustre DiÃ³genes (404 a.C. â€“ 323 a.C.), o &quot;cÃ£o de rua&quot;. Para os cÃ­nicos a busca da verdade se encontra no modo de vida e na espiritualidade, sendo elas mais importantes do que discursos filosÃ³ficos. &lt;/span &gt;&lt;span class=&quot;text221Font7&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font8&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font4&quot;  &gt;Por isso, a conduta, denominada como askÃ©sis, era fundamental para uma vida virtuosa. Para os filÃ³sofos cÃ­nicos, a ataraxia (tranquilidade da alma) consistia em evitar as perturbaÃ§Ãµes que fazem a alma sofrer, como, por exemplo, a vaidade (tÃ½phos) e as convenÃ§Ãµes sociais (nÃ³mos). PorÃ©m, para suportar essas tentaÃ§Ãµes e vaidades Ã© preciso conduta, ou seja, praticar a virtude constantemente. Quando o indivÃ­duo consegue controlar suas paixÃµes, ele alcanÃ§a autodomÃ­nio (autarkÃ©ia), se tornando senhor de si.&lt;/span &gt;&lt;span class=&quot;text221Font9&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\b Cinismo\fs24\par\fs18\b0\par\fs28 Escola fundada por Ant\u237 \&apos;edstenes (445 a.C. \u8211 \&apos;96 365 a.C.), tendo como seu fil\u243 \&apos;f3sofo mais ilustre Di\u243 \&apos;f3genes (404 a.C. \u8211 \&apos;96 323 &#x0A;a.C.), o &quot;c\u227 \&apos;e3o de rua&quot;. Para os c\u237 \&apos;ednicos a busca da verdade se encontra no modo de vida e na espiritualidade, sendo elas mais importantes do que discursos filos\u243 \&apos;f3ficos. \hich\f1\loch\f1\cf3\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf3\fs28\par\cf2 &#x0A;Por isso, a conduta, denominada como ask\u233 \&apos;e9sis, era fundamental para uma vida virtuosa. Para os fil\u243 \&apos;f3sofos c\u237 \&apos;ednicos, a ataraxia (tranquilidade da alma) consistia em evitar as perturba\u231 \&apos;e7\u245 \&apos;f5es que fazem a alma sofrer, &#x0A;como, por exemplo, a vaidade (t\u253 \&apos;fdphos) e as conven\u231 \&apos;e7\u245 \&apos;f5es sociais (n\u243 \&apos;f3mos). Por\u233 \&apos;e9m, para suportar essas tenta\u231 \&apos;e7\u245 \&apos;f5es e vaidades \u233 \&apos;e9 preciso conduta, ou seja, praticar a virtude constantemente. &#x0A;Quando o indiv\u237 \&apos;edduo consegue controlar suas paix\u245 \&apos;f5es, ele alcan\u231 \&apos;e7a autodom\u237 \&apos;ednio (autark\u233 \&apos;e9ia), se tornando senhor de si\lang1046\hich\f2\loch\f2 .\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Cinismo&#x0A;&#x0A;Escola fundada por Ant�stenes (445 a.C. � 365 a.C.), tendo como seu fil�sofo mais ilustre Di�genes (404 a.C. � 323 a.C.), o &quot;c�o de rua&quot;. Para os c�nicos a busca da verdade se encontra no modo de vida e na espiritualidade, sendo elas mais importantes do que discursos filos�ficos. &#x0A;&#x0A;Por isso, a conduta, denominada como ask�sis, era fundamental para uma vida virtuosa. Para os fil�sofos c�nicos, a ataraxia (tranquilidade da alma) consistia em evitar as perturba��es que fazem a alma sofrer, como, por exemplo, a vaidade (t�phos) e as conven��es sociais (n�mos). Por�m, para suportar essas tenta��es e vaidades � preciso conduta, ou seja, praticar a virtude constantemente. Quando o indiv�duo consegue controlar suas paix�es, ele alcan�a autodom�nio (autark�ia), se tornando senhor de si.</raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="191" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687283962</lastupdated>
+<possize>
+<point>
+<x>12</x>
+<y>125</y>
+</point>
+<size>
+<cx>474</cx>
+<cy>437</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text191Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text191Font2 { font-size:13px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text191Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot;  &gt;IntroduÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text191Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font3&quot;  &gt;O perÃ­odo helenÃ­stico sucede o perÃ­odo socrÃ¡tico, se estendendo de 323 a.C. Ã  31 a.C. Com a con_quista da GrÃ©cia pelo imperador Alexandre Magno (334-323 a.C.), a vida polÃ­tica e social grega foi radicalmente alterada. Se para SÃ³crates, PlatÃ£o e AristÃ³teles um dos elementos fundamentais para uma vida virtuosa e feliz era a participaÃ§Ã£o do cidadÃ£o na polÃ­tica da cidade (pÃ³lis), entÃ£o a vida em sociedade, em boa parte, havia perdido o sentido, pois os cidadÃ£os agora se tornaram sÃºditos. Se nÃ£o hÃ¡ mais a vida pÃºblica, entÃ£o devo me preocupar com minha vida particular. Seguindo tal pensamento, os filÃ³sofos da era helenÃ­stica, organizados em vÃ¡rias escolas, vÃ£o concentrar seus esforÃ§os para alcanÃ§ar a tranquilidade da alma, conhecida como ataraxia. Para atingir essa tranquilidade da alma, se faz necessÃ¡rio o domÃ­nio ou extinÃ§Ã£o das paixÃµes, livrando-se de tudo quanto for desnecessÃ¡rio. Vejamos a seguir as principais escolas helenÃ­sticas. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\b Introdu\&apos;e7\&apos;e3o\fs20\par\fs28\b0\par O per\&apos;edodo helen\&apos;edstico sucede o per\&apos;edodo socr\&apos;e1tico, se estendendo de 323 a.C. \&apos;e0 31 a.C. Com a con_quista da Gr\&apos;e9cia pelo imperador Alexandre &#x0A;Magno (334-323 a.C.), a vida pol\&apos;edtica e social grega foi radicalmente alterada. Se para S\&apos;f3crates, Plat\&apos;e3o e Arist\&apos;f3teles um dos elementos fundamentais para uma vida virtuosa e feliz era a participa\&apos;e7\&apos;e3o do cidad\&apos;e3o na pol\&apos;edtica da cidade &#x0A;(p\&apos;f3lis), ent\&apos;e3o a vida em sociedade, em boa parte, havia perdido o sentido, pois os cidad\&apos;e3os agora se tornaram s\&apos;faditos. Se n\&apos;e3o h\&apos;e1 mais a vida p\&apos;fablica, ent\&apos;e3o devo me preocupar com minha vida particular. Seguindo tal pensamento, os &#x0A;fil\&apos;f3sofos da era helen\&apos;edstica, organizados em v\&apos;e1rias escolas, v\&apos;e3o concentrar seus esfor\&apos;e7os para alcan\&apos;e7ar a tranquilidade da alma, conhecida como ataraxia. Para atingir essa tranquilidade da alma, se faz necess\&apos;e1rio o dom\&apos;ednio ou extin\&apos;e7\&apos;e3o &#x0A;das paix\&apos;f5es, livrando-se de tudo quanto for desnecess\&apos;e1rio. Vejamos a seguir as principais escolas helen\&apos;edsticas. \par}&#x0A;</rtf>
+<raw>?Introdu��o&#x0A;&#x0A;O per�odo helen�stico sucede o per�odo socr�tico, se estendendo de 323 a.C. � 31 a.C. Com a con_quista da Gr�cia pelo imperador Alexandre Magno (334-323 a.C.), a vida pol�tica e social grega foi radicalmente alterada. Se para S�crates, Plat�o e Arist�teles um dos elementos fundamentais para uma vida virtuosa e feliz era a participa��o do cidad�o na pol�tica da cidade (p�lis), ent�o a vida em sociedade, em boa parte, havia perdido o sentido, pois os cidad�os agora se tornaram s�ditos. Se n�o h� mais a vida p�blica, ent�o devo me preocupar com minha vida particular. Seguindo tal pensamento, os fil�sofos da era helen�stica, organizados em v�rias escolas, v�o concentrar seus esfor�os para alcan�ar a tranquilidade da alma, conhecida como ataraxia. Para atingir essa tranquilidade da alma, se faz necess�rio o dom�nio ou extin��o das paix�es, livrando-se de tudo quanto for desnecess�rio. Vejamos a seguir as principais escolas helen�sticas. </raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="165" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="163" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="161" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="159" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687284416</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>96</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text159Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text159Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text159Font1&quot;  &gt;Escolas helenÃ­sticas&lt;/span &gt;&lt;span class=&quot;text159Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Escolas helen\&apos;edsticas\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Escolas helen�sticas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="158" parent="152" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="156" parent="152" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="333" parent="40">
+<name>Página 3</name>
+<lastupdated>1687284422</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="2189" parent="333" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687284252</lastupdated>
+<possize>
+<point>
+<x>508</x>
+<y>77</y>
+</point>
+<size>
+<cx>483</cx>
+<cy>546</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2189Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text2189Font3 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2189Font2&quot;  &gt;TambÃ©m, para o pensamento epicurista, o ser humano deve se libertar das phobÃ­as (medos), pois eles causam sofrimentos. SÃ£o quatro as fontes de sofrimento. Primeiro, o medo dos deuses, devido ao receio de um possÃ­vel julgamento por parte deles. Segundo os epicuristas, nÃ£o se deve temer os deuses porque sÃ£o invenÃ§Ãµes humanas. Se eles existirem sÃ£o bons, porque se forem maus nÃ£o sÃ£o deuses. O segundo medo Ã© o da morte, pois ela pÃµe um fim Ã  vida. Para os epicuristas, nÃ£o Ã© preciso temÃª-la, porque quando estamos vivos, a morte nÃ£o estÃ¡ presente, e quando ela chegar jÃ¡ nÃ£o estaremos vivos. Dessa forma, nÃ£o Ã© necessÃ¡rio sofrer por antecipaÃ§Ã£o pois a morte nÃ£o Ã© um fato da vida. O terceiro medo, motivo de sofrimento, Ã© o de doenÃ§as.A partir do pen_samento epicurista, nÃ£o Ã© preciso temÃª-la. As doenÃ§as passageiras logo passam, as doenÃ§as duradouras nos levam Ã  morte, nÃ£o havendo nada o que possamos fazer para detÃª-las. O quarto e Ãºltimo medo, causa de sofrimentos, Ã© o medo pela falta de reconhecimento das outras pessoas. Para os epicuristas, querer ser reconhecido pelos outros Ã© apenas vaidade.NÃ£o Ã© algo natural e necessÃ¡rio e, por esse motivo, nÃ£o deve ser buscado.&lt;/span &gt;&lt;span class=&quot;text2189Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text2189Font2&quot;  &gt;Em resposta a esses medos, o epicurismo propÃµe quatro remÃ©dios, isto Ã©, os tetrafarmacos. &lt;/span &gt;&lt;span class=&quot;text2189Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Tamb\&apos;e9m, para o pensamento epicurista, o ser humano deve se libertar das phob\&apos;edas (medos), pois eles causam sofrimentos. S\&apos;e3o quatro as fontes de sofrimento. Primeiro, o medo dos deuses, devido ao &#x0A;receio de um poss\&apos;edvel julgamento por parte deles. Segundo os epicuristas, n\&apos;e3o se deve temer os deuses porque s\&apos;e3o inven\&apos;e7\&apos;f5es humanas. Se eles existirem s\&apos;e3o bons, porque se forem maus n\&apos;e3o s\&apos;e3o deuses. O segundo medo \&apos;e9 o da morte, &#x0A;pois ela p\&apos;f5e um fim \&apos;e0 vida. Para os epicuristas, n\&apos;e3o \&apos;e9 preciso tem\&apos;ea-la, porque quando estamos vivos, a morte n\&apos;e3o est\&apos;e1 presente, e quando ela chegar j\&apos;e1 n\&apos;e3o estaremos vivos. Dessa forma, n\&apos;e3o \&apos;e9 necess\&apos;e1rio sofrer por antecipa\&apos;e7\&apos;e3o &#x0A;pois a morte n\&apos;e3o \&apos;e9 um fato da vida. O terceiro medo, motivo de sofrimento, \&apos;e9 o de doen\&apos;e7as.A partir do pen_samento epicurista, n\&apos;e3o \&apos;e9 preciso tem\&apos;ea-la. As doen\&apos;e7as passageiras logo passam, as doen\&apos;e7as duradouras nos levam \&apos;e0 morte, &#x0A;n\&apos;e3o havendo nada o que possamos fazer para det\&apos;ea-las. O quarto e \&apos;faltimo medo, causa de sofrimentos, \&apos;e9 o medo pela falta de reconhecimento das outras pessoas. Para os epicuristas, querer ser reconhecido pelos outros \&apos;e9 apenas vaidade.N\&apos;e3o &#x0A;\&apos;e9 algo natural e necess\&apos;e1rio e, por esse motivo, n\&apos;e3o deve ser buscado.\fs18  \fs28 Em resposta a esses medos, o epicurismo prop\&apos;f5e quatro rem\&apos;e9dios, isto \&apos;e9, os tetrafarmacos. \fs18\par}&#x0A;</rtf>
+<raw>?Tamb?m, para o pensamento epicurista, o ser humano deve se libertar das phob?as (medos), pois eles causam sofrimentos. S?o quatro as fontes de sofrimento. Primeiro, o medo dos deuses, devido ao receio de um poss?vel julgamento por parte deles. Segundo os epicuristas, n?o se deve temer os deuses porque s?o inven??es humanas. Se eles existirem s?o bons, porque se forem maus n?o s?o deuses. O segundo medo ? o da morte, pois ela p?e um fim ? vida. Para os epicuristas, n?o ? preciso tem?-la, porque quando estamos vivos, a morte n?o est? presente, e quando ela chegar j? n?o estaremos vivos. Dessa forma, n?o ? necess?rio sofrer por antecipa??o pois a morte n?o ? um fato da vida. O terceiro medo, motivo de sofrimento, ? o de doen?as.A partir do pen_samento epicurista, n?o ? preciso tem?-la. As doen?as passageiras logo passam, as doen?as duradouras nos levam ? morte, n?o havendo nada o que possamos fazer para det?-las. O quarto e ?ltimo medo, causa de sofrimentos, ? o medo pela falta de reconhecimento das outras pessoas. Para os epicuristas, querer ser reconhecido pelos outros ? apenas vaidade.N?o ? algo natural e necess?rio e, por esse motivo, n?o deve ser buscado. Em resposta a esses medos, o epicurismo prop?e quatro rem?dios, isto ?, os tetrafarmacos. </raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="352" parent="333" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687284036</lastupdated>
+<possize>
+<point>
+<x>22</x>
+<y>110</y>
+</point>
+<size>
+<cx>467</cx>
+<cy>491</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text352Font1 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;span.text352Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text352Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text352Font4 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text352Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text352Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text352Font3&quot;  &gt;Epicurismo&lt;/span &gt;&lt;span class=&quot;text352Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.164&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:0.850;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text352Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text352Font5&quot;  &gt;Escola fundada por Epicuro (341 a.C. â€“ 271 a.C.), possui uma filosofia de aproximaÃ§Ã£o do ser humano com a natureza e de afastamento com a cidade, por essa razÃ£o, os filÃ³sofos do jardim, como sÃ£o conhecidos os epicuristas, sÃ£o considerados anticulturistas. Como viviam em pequenos grupos, tinham regras para os horÃ¡rios, descanso e alimentaÃ§Ã£o. Tudo isso pelo objetivo de tornar todos mais virtuosos. O epicurismo pretende conduzir o indivÃ­duo ao prazer. Contudo, nÃ£o Ã© qualquer prazer que deve ser buscado, sendo necessÃ¡rio, entÃ£o, purificar e categorizar os prazeres por meio da reflexÃ£o filosÃ³fica. Os prazeres foram divididos, pelos epicuristas, em trÃªs categorias: os prazeres naturais e necessÃ¡rios, que devem ser buscados, como, por exemplo, se alimentar; os prazeres naturais nÃ£o necessÃ¡rios, que devem ser evitados, como, por exemplo, comer comidas renecessÃ¡rios, que devem ser abominados, como, por exemplo, a busca de fama, glÃ³ria e riquezas. &lt;/span &gt;&lt;span class=&quot;text352Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\par\b Epicurismo\fs18\b0\par\par\fs28 Escola fundada por Epicuro (341 a.C. \u8211 \&apos;96 271 a.C.), possui uma filosofia de aproxima\u231 \&apos;e7\u227 \&apos;e3o do ser humano com a natureza e de afastamento &#x0A;com a cidade, por essa raz\u227 \&apos;e3o, os fil\u243 \&apos;f3sofos do jardim, como s\u227 \&apos;e3o conhecidos os epicuristas, s\u227 \&apos;e3o considerados anticulturistas. Como viviam em pequenos grupos, tinham regras para os hor\u225 \&apos;e1rios, descanso e alimenta\u231 &#x0A;\&apos;e7\u227 \&apos;e3o. Tudo isso pelo objetivo de tornar todos mais virtuosos. O epicurismo pretende conduzir o indiv\u237 \&apos;edduo ao prazer. Contudo, n\u227 \&apos;e3o \u233 \&apos;e9 qualquer prazer que deve ser buscado, sendo necess\u225 \&apos;e1rio, ent\u227 \&apos;e3o, purificar &#x0A;e categorizar os prazeres por meio da reflex\u227 \&apos;e3o filos\u243 \&apos;f3fica. Os prazeres foram divididos, pelos epicuristas, em tr\u234 \&apos;eas categorias: os prazeres naturais e necess\u225 \&apos;e1rios, que devem ser buscados, como, por exemplo, se alimentar; &#x0A;os prazeres naturais n\u227 \&apos;e3o necess\u225 \&apos;e1rios, que devem ser evitados, como, por exemplo, comer comidas renecess\u225 \&apos;e1rios, que devem ser abominados, como, por exemplo, a busca de fama, gl\u243 \&apos;f3ria e riquezas. \plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?&#x0A;Epicurismo&#x0A;Escola fundada por Epicuro (341 a.C. ? 271 a.C.), possui uma filosofia de aproxima??o do ser humano com a natureza e de afastamento com a cidade, por essa raz?o, os fil?sofos do jardim, como s?o conhecidos os epicuristas, s?o considerados anticulturistas. Como viviam em pequenos grupos, tinham regras para os hor?rios, descanso e alimenta??o. Tudo isso pelo objetivo de tornar todos mais virtuosos. O epicurismo pretende conduzir o indiv?duo ao prazer. Contudo, n?o ? qualquer prazer que deve ser buscado, sendo necess?rio, ent?o, purificar e categorizar os prazeres por meio da reflex?o filos?fica. Os prazeres foram divididos, pelos epicuristas, em tr?s categorias: os prazeres naturais e necess?rios, que devem ser buscados, como, por exemplo, se alimentar; os prazeres naturais n?o necess?rios, que devem ser evitados, como, por exemplo, comer comidas renecess?rios, que devem ser abominados, como, por exemplo, a busca de fama, gl?ria e riquezas. </raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="611" parent="333">
+<name>Grupo_1</name>
+<lastupdated>1687284422</lastupdated>
+<shape id="349" parent="611" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="347" parent="611" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="345" parent="611" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="343" parent="611" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687284422</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text343Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text343Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text343Font1&quot;  &gt;Escolas helenÃ­sticas&lt;/span &gt;&lt;span class=&quot;text343Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Escolas helen\&apos;edsticas\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Escolas helen?sticas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="342" parent="611" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="340" parent="611" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="2228" parent="40">
+<name>Página 4</name>
+<lastupdated>1687284428</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="2229" parent="2228" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687284350</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>106</y>
+</point>
+<size>
+<cx>483</cx>
+<cy>515</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2229Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text2229Font4 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text2229Font5 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text2229Font6 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text2229Font8 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2229Font2&quot;  &gt;A visÃ£o estoica Ã© determinista, isso significa, que tudo jÃ¡ estÃ¡ determinado pela natureza. Sendo assim, Ã© preciso, para os estoicos, a virtude da indiferenÃ§a, denominada como apatia. Ã‰ necessÃ¡rio aceitar as coisas como elas sÃ£o. &quot;Dance a mÃºsica conforme ela toca&quot;.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2229Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.164&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:0.850;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2229Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2229Font5&quot;  &gt;Ceticismo&lt;/span &gt;&lt;span class=&quot;text2229Font6&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.127&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2229Font6&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2229Font2&quot;  &gt;Escola fundada, possivelmente, por GÃ³rgias (485 a.C. â€“ 380 a.C.) e Pirro de Elis (360 a.C. â€“ 270 a.C.). Defendia que a tranquilidade da alma (ataraxia) poderia ser alcanÃ§ada pela suspensÃ£o dos juÃ­zos, processo denominado como afasia. Para os cÃ©ticos, em um confronto de ideias pode nÃ£o haver uma conclusÃ£o. Todas as ideias podem estar equivocadas, ou certas, ou ainda algumas certas e outras equivocadas. Como o conhecimento das coisas Ã© impossÃ­vel de se atingir, o verdadeiro e o falso Ã© difÃ­cil de se constatar, para os cÃ©ticos, cabe apenas mantermos um &quot;estado permanente de dÃºvida&quot;, se abstendo de todo e qualquer julgamento. Por essas caraterÃ­sticas, o ceticismo irÃ¡ contestar os dogmas, as &quot;certezas inquestionÃ¡veis&quot; e os cÃ³digos morais da&lt;/span &gt;&lt;span class=&quot;text2229Font8&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text2229Font2&quot;  &gt;sociedade.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 A vis\u227 \&apos;e3o estoica \u233 \&apos;e9 determinista, isso significa, que tudo j\u225 \&apos;e1 est\u225 \&apos;e1 determinado pela natureza. Sendo assim, \u233 \&apos;e9 preciso, para os estoicos, a virtude da indiferen\u231 &#x0A;\&apos;e7a, denominada como apatia. \u201 \&apos;c9 necess\u225 \&apos;e1rio aceitar as coisas como elas s\u227 \&apos;e3o. &quot;Dance a m\u250 \&apos;fasica conforme ela toca&quot;.\lang1046\hich\f2\loch\f2\par\par\lang1046\hich\f2\loch\f2\fs18\par\fs36\b Ceticismo\fs24\par\par\fs28\b0 &#x0A;Escola fundada, possivelmente, por G\u243 \&apos;f3rgias (485 a.C. \u8211 \&apos;96 380 a.C.) e Pirro de Elis (360 a.C. \u8211 \&apos;96 270 a.C.). Defendia que a tranquilidade da alma (ataraxia) poderia ser alcan\u231 \&apos;e7ada pela suspens\u227 \&apos;e3o dos ju\u237 \&apos;edzos, &#x0A;processo denominado como afasia. Para os c\u233 \&apos;e9ticos, em um confronto de ideias pode n\u227 \&apos;e3o haver uma conclus\u227 \&apos;e3o. Todas as ideias podem estar equivocadas, ou certas, ou ainda algumas certas e outras equivocadas. Como o conhecimento &#x0A;das coisas \u233 \&apos;e9 imposs\u237 \&apos;edvel de se atingir, o verdadeiro e o falso \u233 \&apos;e9 dif\u237 \&apos;edcil de se constatar, para os c\u233 \&apos;e9ticos, cabe apenas mantermos um &quot;estado permanente de d\u250 \&apos;favida&quot;, se abstendo de todo e qualquer julgamento. &#x0A;Por essas carater\u237 \&apos;edsticas, o ceticismo ir\u225 \&apos;e1 contestar os dogmas, as &quot;certezas inquestion\u225 \&apos;e1veis&quot; e os c\u243 \&apos;f3digos morais da\b  \b0 sociedade.\par\par\fs18\par\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?A vis?o estoica ? determinista, isso significa, que tudo j? est? determinado pela natureza. Sendo assim, ? preciso, para os estoicos, a virtude da indiferen?a, denominada como apatia. ? necess?rio aceitar as coisas como elas s?o. &quot;Dance a m?sica conforme ela toca&quot;.&#x0D;&#x0A;Ceticismo&#x0A;Escola fundada, possivelmente, por G?rgias (485 a.C. ? 380 a.C.) e Pirro de Elis (360 a.C. ? 270 a.C.). Defendia que a tranquilidade da alma (ataraxia) poderia ser alcan?ada pela suspens?o dos ju?zos, processo denominado como afasia. Para os c?ticos, em um confronto de ideias pode n?o haver uma conclus?o. Todas as ideias podem estar equivocadas, ou certas, ou ainda algumas certas e outras equivocadas. Como o conhecimento das coisas ? imposs?vel de se atingir, o verdadeiro e o falso ? dif?cil de se constatar, para os c?ticos, cabe apenas mantermos um &quot;estado permanente de d?vida&quot;, se abstendo de todo e qualquer julgamento. Por essas carater?sticas, o ceticismo ir? contestar os dogmas, as &quot;certezas inquestion?veis&quot; e os c?digos morais da sociedade.&#x0D;&#x0A;</raw>
+<numoflines>27</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="2230" parent="2228" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687284318</lastupdated>
+<possize>
+<point>
+<x>21</x>
+<y>135</y>
+</point>
+<size>
+<cx>473</cx>
+<cy>456</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2230Font1 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;span.text2230Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text2230Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text2230Font4 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text2230Font5 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text2230Font6 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2230Font2&quot;  &gt;SÃ£o eles: nÃ£o temer os deuses, nÃ£o temer a morte, buscar os bons prazeres e afastar-se da dor.Por fim, para a escola epicurista, a purificaÃ§Ã£o e categorizaÃ§Ã£o dos prazeres, juntamente com o combate aos medos, faz com que o ser humano evite os sofrimentos do corpo (&lt;/span &gt;&lt;span class=&quot;text2230Font3&quot;  &gt;aponia&lt;/span &gt;&lt;span class=&quot;text2230Font2&quot;  &gt;) e alcance a tranquilidade da alma (&lt;/span &gt;&lt;span class=&quot;text2230Font3&quot;  &gt;ataraxia&lt;/span &gt;&lt;span class=&quot;text2230Font2&quot;  &gt;).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2230Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2230Font4&quot;  &gt;&amp;nbsp;&lt;/span &gt;&lt;span class=&quot;text2230Font5&quot;  &gt;Estoicismo&lt;/span &gt;&lt;span class=&quot;text2230Font6&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.164&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:0.850;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2230Font6&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2230Font2&quot;  &gt;Escola fundada por ZenÃ£o de CÃ­cio (335-264 a.C.), tinha um carÃ¡cter universalista, permitindo o acesso de todos, e defendia uma vida humana conectada com a natureza. Para os estoicos, havia a necessidade de o ser humano viver da melhor forma possÃ­vel. Para isso, ele teria de aceitar a vida como ela se apresenta para ele, seja nas coisas boas ou nas ruins. A vida Ã© uma peÃ§a teatral que jÃ¡ foi escrita antes de vocÃª existir. Quando vocÃª vem ao mundo basta aceitar o papel que lhe foi dado e encenÃ¡-lo da melhor forma possÃ­vel. Viva intensamente e nÃ£o fuja de seu destino. &lt;/span &gt;&lt;span class=&quot;text2230Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 S\&apos;e3o eles: n\&apos;e3o temer os deuses, n\&apos;e3o temer a morte, buscar os bons prazeres e afastar-se da dor.Por fim, para a escola epicurista, a purifica\&apos;e7\&apos;e3o e categoriza\&apos;e7\&apos;e3o dos prazeres, juntamente &#x0A;com o combate aos medos, faz com que o ser humano evite os sofrimentos do corpo (\b aponia\b0 ) e alcance a tranquilidade da alma (\b ataraxia\b0 ).\par\par\fs36  \b Estoicismo\fs18\b0\par\par\fs28 Escola fundada por Zen\u227 \&apos;e3o de C\u237 \&apos;edcio (335-264 &#x0A;a.C.), tinha um car\u225 \&apos;e1cter universalista, permitindo o acesso de todos, e defendia uma vida humana conectada com a natureza. Para os estoicos, havia a necessidade de o ser humano viver da melhor forma poss\u237 \&apos;edvel. Para isso, ele teria de &#x0A;aceitar a vida como ela se apresenta para ele, seja nas coisas boas ou nas ruins. A vida \u233 \&apos;e9 uma pe\u231 \&apos;e7a teatral que j\u225 \&apos;e1 foi escrita antes de voc\u234 \&apos;ea existir. Quando voc\u234 \&apos;ea vem ao mundo basta aceitar o papel que lhe foi &#x0A;dado e encen\u225 \&apos;e1-lo da melhor forma poss\u237 \&apos;edvel. Viva intensamente e n\u227 \&apos;e3o fuja de seu destino. \plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?S?o eles: n?o temer os deuses, n?o temer a morte, buscar os bons prazeres e afastar-se da dor.Por fim, para a escola epicurista, a purifica??o e categoriza??o dos prazeres, juntamente com o combate aos medos, faz com que o ser humano evite os sofrimentos do corpo (aponia) e alcance a tranquilidade da alma (ataraxia).&#x0A; Estoicismo&#x0A;Escola fundada por Zen?o de C?cio (335-264 a.C.), tinha um car?cter universalista, permitindo o acesso de todos, e defendia uma vida humana conectada com a natureza. Para os estoicos, havia a necessidade de o ser humano viver da melhor forma poss?vel. Para isso, ele teria de aceitar a vida como ela se apresenta para ele, seja nas coisas boas ou nas ruins. A vida ? uma pe?a teatral que j? foi escrita antes de voc? existir. Quando voc? vem ao mundo basta aceitar o papel que lhe foi dado e encen?-lo da melhor forma poss?vel. Viva intensamente e n?o fuja de seu destino. </raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="2231" parent="2228">
+<name>Grupo_1</name>
+<lastupdated>1687284428</lastupdated>
+<shape id="2233" parent="2231" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2235" parent="2231" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="2237" parent="2231" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="2238" parent="2231" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687284428</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2238Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text2238Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2238Font1&quot;  &gt;Escolas helenÃ­sticas&lt;/span &gt;&lt;span class=&quot;text2238Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Escolas helen\&apos;edsticas\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Escolas helen?sticas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="2240" parent="2231" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2242" parent="2231" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="2507" parent="40">
+<name>Página 5</name>
+<lastupdated>1687284431</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="2509" parent="2507" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687284381</lastupdated>
+<possize>
+<point>
+<x>20</x>
+<y>119</y>
+</point>
+<size>
+<cx>473</cx>
+<cy>493</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2509Font1 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;span.text2509Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text2509Font3 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text2509Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2509Font2&quot;  &gt;Ceticismo&lt;/span &gt;&lt;span class=&quot;text2509Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2509Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2509Font4&quot;  &gt;O ceticismo serÃ¡ recuperado em vÃ¡rios momentos da histÃ³ria da filosofia, sobretudo, quando um filÃ³sofo ou uma corrente de pensamento pre_tende questionar &quot;as verdades intocÃ¡veis de uma Ã©poca&quot;. Por isso, ser cÃ©tico nÃ£o Ã© &quot;ser do contra&quot;, mas ser alguÃ©m que nÃ£o toma nada como verda_deiro sem antes examinÃ¡-lo.&lt;/span &gt;&lt;span class=&quot;text2509Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\b Ceticismo\fs18\b0\par\fs28\par O ceticismo ser\u225 \&apos;e1 recuperado em v\u225 \&apos;e1rios momentos da hist\u243 \&apos;f3ria da filosofia, sobretudo, quando um fil\u243 \&apos;f3sofo ou uma corrente de pensamento &#x0A;pre_tende questionar &quot;as verdades intoc\u225 \&apos;e1veis de uma \u233 \&apos;e9poca&quot;. Por isso, ser c\u233 \&apos;e9tico n\u227 \&apos;e3o \u233 \&apos;e9 &quot;ser do contra&quot;, mas ser algu\u233 \&apos;e9m que n\u227 \&apos;e3o toma nada como verda_deiro sem antes examin\u225 \&apos;e1-lo.\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Ceticismo&#x0A;O ceticismo ser? recuperado em v?rios momentos da hist?ria da filosofia, sobretudo, quando um fil?sofo ou uma corrente de pensamento pre_tende questionar &quot;as verdades intoc?veis de uma ?poca&quot;. Por isso, ser c?tico n?o ? &quot;ser do contra&quot;, mas ser algu?m que n?o toma nada como verda_deiro sem antes examin?-lo.</raw>
+<numoflines>8</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="2510" parent="2507">
+<name>Grupo_1</name>
+<lastupdated>1687284431</lastupdated>
+<shape id="2512" parent="2510" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687283590</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2514" parent="2510" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687283590</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="2516" parent="2510" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687283590</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="2517" parent="2510" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687284431</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2517Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text2517Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2517Font1&quot;  &gt;Escolas helenÃ­sticas&lt;/span &gt;&lt;span class=&quot;text2517Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Escolas helen\&apos;edsticas\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Escolas helen?sticas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="2519" parent="2510" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687283590</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2521" parent="2510" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687283590</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

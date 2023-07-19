@@ -1,0 +1,2438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>1240</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="169" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="170" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="318" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="656" resourcetype="image">
+<name>Imagem002.bmp</name>
+<relativelink>images\Imagem002.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="806" resourcetype="image">
+<name>Imagem003.bmp</name>
+<relativelink>images\Imagem003.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="880" resourcetype="image">
+<name>Imagem1.png</name>
+<relativelink>images\Imagem1.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1178" resourcetype="image">
+<name>Imagem004.bmp</name>
+<relativelink>images\Imagem004.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1232" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1233" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="78">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 8</name>
+<lastupdated>1687974318</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="77" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687974328</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687974328</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687974328</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="78" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687974328</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687974328</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687974328</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="69" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687974328</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="70" parent="69" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687974328</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="69" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687974328</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="62" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687974328</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="63" parent="62" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687974328</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="64" parent="62" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687974328</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="54" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687974328</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="55" parent="54" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687974328</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="56" parent="54" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687974328</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="54" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687974328</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="54">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689701711</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="1217" parent="40">
+<name>Página 1</name>
+<lastupdated>1689701713</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="1218" parent="1217">
+<name>Grupo_1</name>
+<lastupdated>1689701713</lastupdated>
+<image id="1220" parent="1218" resource="1232" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689701713</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1222" parent="1218" resource="1233" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689701713</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1223" parent="1218" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689701716</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1223Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1223Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1223Font1&quot;  &gt;Aula 8&lt;/span &gt;&lt;span class=&quot;text1223Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 8\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 8</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="1225" parent="1218" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689701713</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1227" parent="1218" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689701713</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1229" parent="1218" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689701713</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1231" parent="1218" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689701713</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="154" parent="40">
+<name>Página 2</name>
+<lastupdated>1689701711</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="232" parent="154" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687974490</lastupdated>
+<possize>
+<point>
+<x>532</x>
+<y>135</y>
+</point>
+<size>
+<cx>440</cx>
+<cy>528</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text232Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text232Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text232Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text232Font1&quot;  &gt;PerÃ­odo Pombalino â€“ (1750 â€“ 1777)&lt;/span &gt;&lt;span class=&quot;text232Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text232Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text232Font4&quot;  &gt;Sebasti&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;o Jos&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt; Carvalho e Melo, o Marqu&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ãª&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;s de Pombal, ministro do rei D. Jos&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;, foi respons&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;vel por uma s&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;rie de medidas de car&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;ter pol&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;tico--econ&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;mico que marcaram o per&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;odo colonial brasileiro.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text232Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text232Font4&quot;  &gt;Sob sua gest&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;o, ocorreu o aumento da centraliza&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;o administrativa em Portugal, da arrecada&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;o, da fiscaliza&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;o colonial e a expuls&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;o dos jesu&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;tas. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text232Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text232Font4&quot;  &gt;Ap&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;s a expuls&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;o dos jesu&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;tas, Pombal criou o subs&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;dio liter&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;rio para fomentar a educa&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;o na col&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;nia, que passou a ser feita por professores sem liga&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã§Ãµ&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;es com a Igreja, buscando difundir os valores culturais e pol&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;ticos da Coroa, por meio da L&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;ngua Portuguesa. Tal iniciativa n&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;o teve sucesso, pois o sistema educacional era composto por professores em sua maioria despreparados, mal pagos e que, por diversas vezes, ficavam longos per&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;odos sem receber seus sal&lt;/span &gt;&lt;span class=&quot;text232Font5&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text232Font4&quot;  &gt;rios. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Per\u237 \&apos;edodo Pombalino \u8211 \&apos;96 (1750 \u8211 \&apos;96 1777)\hich\f2\loch\f2\fs28\b0\par\par Sebasti\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o Jos\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2  Carvalho e Melo, o Marqu\hich\f1\loch\f1\u234 &#x0A;\&apos;ea\hich\f2\loch\f2 s de Pombal, ministro do rei D. Jos\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 , foi respons\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 vel por\lang1046\hich\f2\loch\f2  \lang1046\hich\f2\loch\f2 uma s\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 &#x0A;rie de medidas de car\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 ter pol\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 tico--econ\hich\f1\loch\f1\u244 \&apos;f4\hich\f2\loch\f2 mico que marcaram o per\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 odo colonial brasileiro.\par\par &#x0A;Sob sua gest\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o, ocorreu o aumento da centraliza\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o administrativa em Portugal, da arrecada\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o, da fiscaliza\hich\f1\loch\f1\u231 &#x0A;\&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o colonial e a expuls\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o dos jesu\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 tas. \par\par Ap\hich\f1\loch\f1\u243 \&apos;f3\hich\f2\loch\f2 s a expuls\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 &#x0A;o dos jesu\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 tas, Pombal criou o subs\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 dio liter\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 rio para fomentar a educa\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o &#x0A;na col\hich\f1\loch\f1\u244 \&apos;f4\hich\f2\loch\f2 nia, que passou a ser feita por professores sem liga\hich\f1\loch\f1\u231 \&apos;e7\u245 \&apos;f5\hich\f2\loch\f2 es com a Igreja, buscando difundir os valores culturais e pol\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 &#x0A;ticos da Coroa, por meio da L\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 ngua Portuguesa. Tal iniciativa n\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o teve sucesso, pois o sistema educacional era composto por professores em sua maioria despreparados, mal &#x0A;pagos e que, por diversas vezes, ficavam longos per\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 odos sem receber seus sal\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 rios. \par}&#x0A;</rtf>
+<raw>?Per�odo Pombalino � (1750 � 1777)&#x0A;&#x0A;Sebasti�o Jos� Carvalho e Melo, o Marqu�s de Pombal, ministro do rei D. Jos�, foi respons�vel por uma s�rie de medidas de car�ter pol�tico--econ�mico que marcaram o per�odo colonial brasileiro.&#x0A;&#x0A;Sob sua gest�o, ocorreu o aumento da centraliza��o administrativa em Portugal, da arrecada��o, da fiscaliza��o colonial e a expuls�o dos jesu�tas. &#x0A;&#x0A;Ap�s a expuls�o dos jesu�tas, Pombal criou o subs�dio liter�rio para fomentar a educa��o na col�nia, que passou a ser feita por professores sem liga��es com a Igreja, buscando difundir os valores culturais e pol�ticos da Coroa, por meio da L�ngua Portuguesa. Tal iniciativa n�o teve sucesso, pois o sistema educacional era composto por professores em sua maioria despreparados, mal pagos e que, por diversas vezes, ficavam longos per�odos sem receber seus sal�rios. </raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="179" parent="154" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687974432</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>131</y>
+</point>
+<size>
+<cx>432</cx>
+<cy>531</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text179Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text179Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text179Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font1&quot;  &gt;A transiÃ§Ã£o para o emancipacionismo&lt;/span &gt;&lt;span class=&quot;text179Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font3&quot;  &gt;Antes mesmo da independÃªncia brasileira, sentimentos contrÃ¡rios ao domÃ­nio metropolitano se fizeram presentes na colÃ´nia. Vimos anteriormente que os movimentos nativistas, de certa forma, apresentavam questionamentos ao pacto colonial, mesmo nÃ£o tendo caracterÃ­sticas separatistas. &lt;/span &gt;&lt;span class=&quot;text179Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font3&quot;  &gt;Na Europa, as revoluÃ§Ãµes burguesas e o iluminismo tinham levantado suas bandeiras contra&lt;/span &gt;&lt;span class=&quot;text179Font5&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text179Font3&quot;  &gt;a dominaÃ§Ã£o do absolutismo monÃ¡rquico e contra o mercantilismo. &lt;/span &gt;&lt;span class=&quot;text179Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font3&quot;  &gt;Com a RevoluÃ§Ã£o Francesa e o Iluminismo,&lt;/span &gt;&lt;span class=&quot;text179Font5&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text179Font3&quot;  &gt;ocorrera a difusÃ£o de ideias liberais por jovens de famÃ­lias ricas que estudaram na Europa,&lt;/span &gt;&lt;span class=&quot;text179Font5&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text179Font3&quot;  &gt;alimentando no Brasil as ambiÃ§Ãµes da elite&lt;/span &gt;&lt;span class=&quot;text179Font5&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text179Font3&quot;  &gt;colonial, cansada de dividir os lucros com Portugal, alÃ©m do aumento da carga tributÃ¡ria e da crise mineradora, gerando insatisfaÃ§Ã£o que resultaria nas manifestaÃ§Ãµes emancipacionistas (separatistas)&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b A transi\u231 \&apos;e7\u227 \&apos;e3o para o emancipacionismo\fs28\b0\par\par Antes mesmo da independ\u234 \&apos;eancia brasileira, sentimentos contr\u225 \&apos;e1rios ao dom\u237 \&apos;ednio metropolitano se fizeram presentes na col\u244 &#x0A;\&apos;f4nia. Vimos anteriormente que os movimentos nativistas, de certa forma, apresentavam questionamentos ao pacto colonial, mesmo n\u227 \&apos;e3o tendo caracter\u237 \&apos;edsticas separatistas. \hich\f2\loch\f2\par\hich\f1\loch\f1\par Na Europa, as revolu\u231 &#x0A;\&apos;e7\u245 \&apos;f5es burguesas e o iluminismo tinham levantado suas bandeiras contra\hich\f2\loch\f2  \hich\f1\loch\f1 a domina\u231 \&apos;e7\u227 \&apos;e3o do absolutismo mon\u225 \&apos;e1rquico e contra o mercantilismo. \hich\f2\loch\f2\par\hich\f1\loch\f1\par Com &#x0A;a Revolu\u231 \&apos;e7\u227 \&apos;e3o Francesa e o Iluminismo,\hich\f2\loch\f2  \hich\f1\loch\f1 ocorrera a difus\u227 \&apos;e3o de ideias liberais por jovens de fam\u237 \&apos;edlias ricas que estudaram na Europa,\hich\f2\loch\f2  \hich\f1\loch\f1 alimentando no Brasil &#x0A;as ambi\u231 \&apos;e7\u245 \&apos;f5es da elite\hich\f2\loch\f2  \hich\f1\loch\f1 colonial, cansada de dividir os lucros com Portugal, al\u233 \&apos;e9m do aumento da carga tribut\u225 \&apos;e1ria e da crise mineradora, gerando insatisfa\u231 \&apos;e7\u227 \&apos;e3o que resultaria &#x0A;nas manifesta\u231 \&apos;e7\u245 \&apos;f5es emancipacionistas (separatistas)\par}&#x0A;</rtf>
+<raw>?A transi��o para o emancipacionismo&#x0A;&#x0A;Antes mesmo da independ�ncia brasileira, sentimentos contr�rios ao dom�nio metropolitano se fizeram presentes na col�nia. Vimos anteriormente que os movimentos nativistas, de certa forma, apresentavam questionamentos ao pacto colonial, mesmo n�o tendo caracter�sticas separatistas. &#x0A;&#x0A;Na Europa, as revolu��es burguesas e o iluminismo tinham levantado suas bandeiras contra a domina��o do absolutismo mon�rquico e contra o mercantilismo. &#x0A;&#x0A;Com a Revolu��o Francesa e o Iluminismo, ocorrera a difus�o de ideias liberais por jovens de fam�lias ricas que estudaram na Europa, alimentando no Brasil as ambi��es da elite colonial, cansada de dividir os lucros com Portugal, al�m do aumento da carga tribut�ria e da crise mineradora, gerando insatisfa��o que resultaria nas manifesta��es emancipacionistas (separatistas)</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="157" parent="154">
+<name>Grupo_1</name>
+<lastupdated>1687974338</lastupdated>
+<shape id="159" parent="157" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687974338</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="161" parent="157" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687974338</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="163" parent="157" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687974338</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="164" parent="157" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687974355</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text164Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text164Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text164Font1&quot;  &gt;Movimentos Emancipacionistas&lt;/span &gt;&lt;span class=&quot;text164Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Movimentos Emancipacionistas\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Movimentos Emancipacionistas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="166" parent="157" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687974338</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="168" parent="157" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687974338</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="271" parent="40">
+<name>Página 3</name>
+<lastupdated>1687975233</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="396" parent="271" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 4</name>
+<lastupdated>1687975227</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>126</y>
+</point>
+<size>
+<cx>444</cx>
+<cy>457</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text396Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text396Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text396Font1&quot;  &gt;Ainda se tratando da regiÃ£o das Minas Gerais, transferiu a capital de Salvador para o Rio de Janeiro, local mais prÃ³ximo das minas, aumentando a vigilÃ¢ncia e o controle da exploraÃ§Ã£o de diamantes dos contratadores para a coroa. &lt;/span &gt;&lt;span class=&quot;text396Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text396Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text396Font1&quot;  &gt;No norte da colÃ´nia, buscava-se desenvolver, ocupar e garantir a lucratividade para a Coroa, criou &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text396Font1&quot;  &gt;as Companhias de ComÃ©rcio do MaranhÃ£o e do GrÃ£o-ParÃ¡, enfatizando o monopÃ³lio dos produtos portugueses nas regiÃµes. Desejoso de uma integraÃ§Ã£o na regiÃ£o e um maior nÃºmero de sÃºditos para o rei, proibiu definitivamente a escravidÃ£o indÃ­gena no Brasil. &lt;/span &gt;&lt;span class=&quot;text396Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text396Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text396Font1&quot;  &gt;ApÃ³s a morte do rei Dom JosÃ©, os adversÃ¡rios polÃ­ticos do MarquÃªs pressionaram atÃ© conseguirem o seu afastamento do governo. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Ainda se tratando da regi\u227 \&apos;e3o das Minas Gerais, transferiu a capital de Salvador para o Rio de Janeiro, local mais pr\u243 \&apos;f3ximo das minas, aumentando a vigil\u226 \&apos;e2ncia e o controle da explora\u231 \&apos;e7\u227 &#x0A;\&apos;e3o de diamantes dos contratadores para a coroa. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par No norte da col\u244 \&apos;f4nia, buscava-se desenvolver, ocupar e garantir a lucratividade para a Coroa, criou \par as Companhias de Com\u233 \&apos;e9rcio &#x0A;do Maranh\u227 \&apos;e3o e do Gr\u227 \&apos;e3o-Par\u225 \&apos;e1, enfatizando o monop\u243 \&apos;f3lio dos produtos portugueses nas regi\u245 \&apos;f5es. Desejoso de uma integra\u231 \&apos;e7\u227 \&apos;e3o na regi\u227 \&apos;e3o e um maior n\u250 \&apos;famero de s\u250 \&apos;faditos para &#x0A;o rei, proibiu definitivamente a escravid\u227 \&apos;e3o ind\u237 \&apos;edgena no Brasil. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par Ap\u243 \&apos;f3s a morte do rei Dom Jos\u233 \&apos;e9, os advers\u225 \&apos;e1rios pol\u237 \&apos;edticos do Marqu\u234 \&apos;eas &#x0A;pressionaram at\u233 \&apos;e9 conseguirem o seu afastamento do governo. \par}&#x0A;</rtf>
+<raw>?Ainda se tratando da regi?o das Minas Gerais, transferiu a capital de Salvador para o Rio de Janeiro, local mais pr?ximo das minas, aumentando a vigil?ncia e o controle da explora??o de diamantes dos contratadores para a coroa. &#x0A;No norte da col?nia, buscava-se desenvolver, ocupar e garantir a lucratividade para a Coroa, criou &#x0A;as Companhias de Com?rcio do Maranh?o e do Gr?o-Par?, enfatizando o monop?lio dos produtos portugueses nas regi?es. Desejoso de uma integra??o na regi?o e um maior n?mero de s?ditos para o rei, proibiu definitivamente a escravid?o ind?gena no Brasil. &#x0A;Ap?s a morte do rei Dom Jos?, os advers?rios pol?ticos do Marqu?s pressionaram at? conseguirem o seu afastamento do governo. </raw>
+<numoflines>18</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="368" parent="271" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687974604</lastupdated>
+<possize>
+<point>
+<x>44</x>
+<y>469</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>169</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text368Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text368Font1&quot;  &gt;Para que Portugal mantivesse uma quantia considerÃ¡vel de ouro ao fim de cada ano, Pombal impÃ´s a cobranÃ§a de um imposto retroativo chamado de Derrama, que, na regiÃ£o da Minas Gerais, geraria dÃ©cadas depois o movimento chamado de InconfidÃªncia Mineira.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Para que Portugal mantivesse uma quantia consider\u225 \&apos;e1vel de ouro ao fim de cada ano, Pombal imp\u244 \&apos;f4s a cobran\u231 \&apos;e7a de um imposto retroativo chamado de Derrama, que, na regi\u227 \&apos;e3o da Minas Gerais, &#x0A;geraria d\u233 \&apos;e9cadas depois o movimento chamado de Inconfid\u234 \&apos;eancia Mineira.\par}&#x0A;</rtf>
+<raw>?Para que Portugal mantivesse uma quantia consider?vel de ouro ao fim de cada ano, Pombal imp?s a cobran?a de um imposto retroativo chamado de Derrama, que, na regi?o da Minas Gerais, geraria d?cadas depois o movimento chamado de Inconfid?ncia Mineira.</raw>
+<numoflines>6</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="339" parent="271" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687974565</lastupdated>
+<possize>
+<point>
+<x>222</x>
+<y>394</y>
+</point>
+<size>
+<cx>200</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text339Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text339Font3 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text339Font1&quot;  &gt;Van Lou, MarquÃªs de &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text339Font1&quot;  &gt;Pombal, Portugal, CÃ¢mara &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text339Font1&quot;  &gt;Municipal de Oeiras.&lt;/span &gt;&lt;span class=&quot;text339Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs22\ql\hich\f2\loch\f2\b Van Lou, Marqu\u234 \&apos;eas de \par Pombal, Portugal, C\u226 \&apos;e2mara \par Municipal de Oeiras.\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Van Lou, Marqu?s de &#x0A;Pombal, Portugal, C?mara &#x0A;Municipal de Oeiras.</raw>
+<numoflines>3</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="319" parent="271" resource="318" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687974552</lastupdated>
+<possize>
+<point>
+<x>50</x>
+<y>265</y>
+</point>
+<size>
+<cx>160</cx>
+<cy>183</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="285" parent="271" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687974541</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>123</y>
+</point>
+<size>
+<cx>437</cx>
+<cy>145</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text285Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text285Font1&quot;  &gt;Visando centralizar ainda mais a administraÃ§Ã£o metropolitana, extinguiu as capitanias hereditÃ¡rias, dando um poder maior de exploraÃ§Ã£o da Coroa sobre as regiÃµes, fato que acentuaria as diferenÃ§as de interesses da administraÃ§Ã£o portuguesa em relaÃ§Ã£o Ã s elites locais.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Visando centralizar ainda mais a administra\u231 \&apos;e7\u227 \&apos;e3o metropolitana, extinguiu as capitanias heredit\&apos;e1rias, dando um poder maior de explora\&apos;e7\&apos;e3o da Coroa sobre as regi\&apos;f5es, fato que acentuaria as diferen\&apos;e7as &#x0A;de interesses da administra\&apos;e7\&apos;e3o portuguesa em rela\&apos;e7\&apos;e3o \&apos;e0s elites locais.\par}&#x0A;</rtf>
+<raw>?Visando centralizar ainda mais a administra??o metropolitana, extinguiu as capitanias heredit?rias, dando um poder maior de explora??o da Coroa sobre as regi?es, fato que acentuaria as diferen?as de interesses da administra??o portuguesa em rela??o ?s elites locais.</raw>
+<numoflines>6</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="273" parent="271">
+<name>Grupo_1</name>
+<lastupdated>1687974503</lastupdated>
+<shape id="275" parent="273" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687974503</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="277" parent="273" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687974503</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="279" parent="273" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687974503</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="280" parent="273" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687974503</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text280Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text280Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text280Font1&quot;  &gt;Movimentos Emancipacionistas&lt;/span &gt;&lt;span class=&quot;text280Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Movimentos Emancipacionistas\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Movimentos Emancipacionistas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="282" parent="273" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687974503</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="284" parent="273" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687974503</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="414" parent="40">
+<name>Página 4</name>
+<lastupdated>1687975508</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="523" parent="414" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687975500</lastupdated>
+<possize>
+<point>
+<x>536</x>
+<y>120</y>
+</point>
+<size>
+<cx>432</cx>
+<cy>500</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text523Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text523Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text523Font4 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text523Font1&quot;  &gt;Um grupo de intelectuais criou a Sociedade LiterÃ¡ria, que tinha como objetivo discutir teorias consideradas pelos portugueses como subversivas. O vice-rei, Conde de Resende, nÃ£o hesitou em ordenar o fechamento da Sociedade LiterÃ¡ria, exigindo a clandestinidade de cada membro envolvido. &lt;/span &gt;&lt;span class=&quot;text523Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text523Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text523Font1&quot;  &gt;Mesmo com as determinaÃ§Ãµes do vice-rei, nÃ£o houve comprovaÃ§Ã£o de fatos subversivos Ã  Coroa e os membros da Sociedade LiterÃ¡ria foram soltos.&lt;/span &gt;&lt;span class=&quot;text523Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text523Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text523Font4&quot;  &gt;ConjuraÃ§Ã£o/InconfidÃªncia Mineira â€“ 1789&lt;/span &gt;&lt;span class=&quot;text523Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text523Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text523Font3&quot;  &gt;Devido Ã  crise mineradora, desde meados de 1760, Portugal havia elevado a carga tributÃ¡ria, ocorrendo uma alta generalizada dos preÃ§os dos produtos. A situaÃ§Ã£o jÃ¡ nÃ£o era das melhores quando se impÃ´s a Derrama, cobranÃ§a forÃ§ada da coroa portuguesa de impostos atrasados no Brasil. &lt;/span &gt;&lt;span class=&quot;text523Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Um grupo de intelectuais criou a Sociedade Liter\u225 \&apos;e1ria, que tinha como objetivo discutir teorias consideradas pelos portugueses como subversivas. O vice-rei, Conde de Resende, n\u227 \&apos;e3o hesitou em ordenar o fechamento &#x0A;da Sociedade Liter\u225 \&apos;e1ria, exigindo a clandestinidade de cada membro envolvido. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par Mesmo com as determina\u231 \&apos;e7\u245 \&apos;f5es do vice-rei, n\u227 \&apos;e3o houve comprova\u231 \&apos;e7\u227 \&apos;e3o &#x0A;de fatos subversivos \u224 \&apos;e0 Coroa e os membros da Sociedade Liter\u225 \&apos;e1ria foram soltos.\lang1046\hich\f2\loch\f2\par\par\fs36\b Conjura\u231 \&apos;e7\u227 \&apos;e3o/Inconfid\u234 \&apos;eancia Mineira \u8211 \&apos;96 1789\fs28\b0\par\par Devido \u224 \&apos;e0 crise &#x0A;mineradora, desde meados de 1760, Portugal havia elevado a carga tribut\u225 \&apos;e1ria, ocorrendo uma alta generalizada dos pre\u231 \&apos;e7os dos produtos. A situa\u231 \&apos;e7\u227 \&apos;e3o j\u225 \&apos;e1 n\u227 \&apos;e3o era das melhores quando se imp\u244 \&apos;f4s a Derrama, &#x0A;cobran\u231 \&apos;e7a for\u231 \&apos;e7ada da coroa portuguesa de impostos atrasados no Brasil. \lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Um grupo de intelectuais criou a Sociedade Liter?ria, que tinha como objetivo discutir teorias consideradas pelos portugueses como subversivas. O vice-rei, Conde de Resende, n?o hesitou em ordenar o fechamento da Sociedade Liter?ria, exigindo a clandestinidade de cada membro envolvido. &#x0A;Mesmo com as determina??es do vice-rei, n?o houve comprova??o de fatos subversivos ? Coroa e os membros da Sociedade Liter?ria foram soltos.&#x0A;Conjura??o/Inconfid?ncia Mineira ? 1789&#x0A;Devido ? crise mineradora, desde meados de 1760, Portugal havia elevado a carga tribut?ria, ocorrendo uma alta generalizada dos pre?os dos produtos. A situa??o j? n?o era das melhores quando se imp?s a Derrama, cobran?a for?ada da coroa portuguesa de impostos atrasados no Brasil. </raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="428" parent="414" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687975506</lastupdated>
+<possize>
+<point>
+<x>44</x>
+<y>118</y>
+</point>
+<size>
+<cx>434</cx>
+<cy>556</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text428Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text428Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text428Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text428Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text428Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text428Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text428Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text428Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text428Font1&quot;  &gt;Movimentos emancipacionistas&lt;/span &gt;&lt;span class=&quot;text428Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text428Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text428Font3&quot;  &gt;Entenda por movimento emancipacionista aquele que deseja o rompimento com a MetrÃ³pole, nÃ£o necessariamente um movimento articulado por um sentimento nacional, mas muito mais pautado em questÃµes regionais. Veremos a seguir os seguintes movimentos:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text428Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text428Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text428ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text428Font3&quot;  &gt;ConjuraÃ§Ã£o Carioca (1786);&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text428Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text428ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text428Font3&quot;  &gt;InconfidÃªncia Mineira (1789);&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text428Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text428ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text428Font3&quot;  &gt;Revolta dos Alfaiates (1798);&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text428Font5&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text428ArrowBulletFont13.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text428Font3&quot;  &gt;RevoluÃ§Ã£o Pernambucana (1817)&lt;/span &gt;&lt;span class=&quot;text428Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text428Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text428Font2&quot;  &gt;ConjuraÃ§Ã£o Carioca &lt;/span &gt;&lt;span class=&quot;text428Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text428Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text428Font5&quot;  &gt;Ocorrida no Rio de Janeiro em 1786, tratou-se de um movimento intelectual influenciado pelas ideias iluministas que ganhavam forÃ§a na Europa e no mundo, pouco antes e depois da eclosÃ£o da RevoluÃ§Ã£o Francesa. A expansÃ£o dessas ideias assustava a monarquia portuguesa, porque dava margem Ã  reflexÃ£o e adesÃ£o da sociedade ao sistema polÃ­tico republicano.&lt;/span &gt;&lt;span class=&quot;text428Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Movimentos emancipacionistas\hich\f2\loch\f2\par\hich\f1\loch\f1\fs28\b0\par Entenda por movimento emancipacionista aquele que deseja o rompimento com a Metr\u243 \&apos;f3pole, n\u227 \&apos;e3o necessariamente um movimento articulado &#x0A;por um sentimento nacional, mas muito mais pautado em quest\u245 \&apos;f5es regionais. Veremos a seguir os seguintes movimentos:\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 Conjura\u231 \&apos;e7\u227 \&apos;e3o &#x0A;Carioca (1786);\par Inconfid\u234 \&apos;eancia Mineira (1789);\par Revolta dos Alfaiates (1798);\par Revolu\u231 \&apos;e7\u227 \&apos;e3o Pernambucana (1817)\hich\f2\loch\f2\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\fs36\b Conjura\&apos;e7\&apos;e3o Carioca \fs28\b0\par\par &#x0A;Ocorrida no Rio de Janeiro em 1786, tratou-se de um movimento intelectual influenciado pelas ideias iluministas que ganhavam for\&apos;e7a na Europa e no mundo, pouco antes e depois da eclos\&apos;e3o da Revolu\&apos;e7\&apos;e3o Francesa. A expans\&apos;e3o dessas ideias assustava &#x0A;a monarquia portuguesa, porque dava margem \&apos;e0 reflex\&apos;e3o e ades\&apos;e3o da sociedade ao sistema pol\&apos;edtico republicano\lang1046\hich\f2\loch\f2 .\lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Movimentos emancipacionistas&#x0A;Entenda por movimento emancipacionista aquele que deseja o rompimento com a Metr?pole, n?o necessariamente um movimento articulado por um sentimento nacional, mas muito mais pautado em quest?es regionais. Veremos a seguir os seguintes movimentos:&#x0A;Conjura??o Carioca (1786);&#x0A;Inconfid?ncia Mineira (1789);&#x0A;Revolta dos Alfaiates (1798);&#x0A;Revolu??o Pernambucana (1817)&#x0A;Conjura??o Carioca &#x0A;Ocorrida no Rio de Janeiro em 1786, tratou-se de um movimento intelectual influenciado pelas ideias iluministas que ganhavam for?a na Europa e no mundo, pouco antes e depois da eclos?o da Revolu??o Francesa. A expans?o dessas ideias assustava a monarquia portuguesa, porque dava margem ? reflex?o e ades?o da sociedade ao sistema pol?tico republicano.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text428ArrowBulletFont11.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text428ArrowBulletFont11.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text428ArrowBulletFont13.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>24</numoflines>
+<numpubbullets>3</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="416" parent="414">
+<name>Grupo_1</name>
+<lastupdated>1687975237</lastupdated>
+<shape id="418" parent="416" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687975237</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="420" parent="416" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687975237</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="422" parent="416" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687975237</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="423" parent="416" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687975237</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text423Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text423Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text423Font1&quot;  &gt;Movimentos Emancipacionistas&lt;/span &gt;&lt;span class=&quot;text423Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Movimentos Emancipacionistas\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Movimentos Emancipacionistas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="425" parent="416" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687975237</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="427" parent="416" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687975237</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="575" parent="40">
+<name>Página 5</name>
+<lastupdated>1687975702</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="622" parent="575" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687975632</lastupdated>
+<possize>
+<point>
+<x>530</x>
+<y>133</y>
+</point>
+<size>
+<cx>441</cx>
+<cy>505</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text622Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text622Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text622Font1&quot;  &gt;Pelo seu carÃ¡ter elitista, o movimento nÃ£o visava a reformulaÃ§Ã£o social e nem melhorias para o povo, sem aderir ao ideal abolicionista, visto que muitos eram donos de escravos. Joaquim JosÃ© da Silva Xavier, mais conhecido por Tiradentes, por ser o mais humilde dos inconfidentes, promoveu a ligaÃ§Ã£o entre conspiradores e as camadas populares. &lt;/span &gt;&lt;span class=&quot;text622Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text622Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text622Font1&quot;  &gt;Portugal passou a executar um conjunto de inquÃ©ritos de investigaÃ§Ã£o no intuito de encontrar possÃ­veis conspiradores da colÃ´nia em relaÃ§Ã£o Ã  Portugal, chamados de Devassa. Joaquim SilvÃ©rio dos Reis, conjurador, delatou o movimento, que estouraria, em 1788, no dia em que a Derrama seria realizada, em troca do perdÃ£o de suas altÃ­ssimas dÃ­vidas. De posse das informaÃ§Ãµes, o governo aprisionou os inconfidentes, que negaram participaÃ§Ã£o, com exceÃ§Ã£o de Tiradentes, enforcado em 21 de abril de 1792. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Pelo seu car\u225 \&apos;e1ter elitista, o movimento n\u227 \&apos;e3o visava a reformula\u231 \&apos;e7\u227 \&apos;e3o social e nem melhorias para o povo, sem aderir ao ideal abolicionista, visto que muitos eram donos de escravos. Joaquim &#x0A;Jos\u233 \&apos;e9 da Silva Xavier, mais conhecido por Tiradentes, por ser o mais humilde dos inconfidentes, promoveu a liga\u231 \&apos;e7\u227 \&apos;e3o entre conspiradores e as camadas populares. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par Portugal &#x0A;passou a executar um conjunto de inqu\u233 \&apos;e9ritos de investiga\u231 \&apos;e7\u227 \&apos;e3o no intuito de encontrar poss\u237 \&apos;edveis conspiradores da col\u244 \&apos;f4nia em rela\u231 \&apos;e7\u227 \&apos;e3o \u224 \&apos;e0 Portugal, chamados de Devassa. Joaquim Silv\u233 &#x0A;\&apos;e9rio dos Reis, conjurador, delatou o movimento, que estouraria, em 1788, no dia em que a Derrama seria realizada, em troca do perd\u227 \&apos;e3o de suas alt\u237 \&apos;edssimas d\u237 \&apos;edvidas. De posse das informa\u231 \&apos;e7\u245 \&apos;f5es, o governo aprisionou &#x0A;os inconfidentes, que negaram participa\u231 \&apos;e7\u227 \&apos;e3o, com exce\u231 \&apos;e7\u227 \&apos;e3o de Tiradentes, enforcado em 21 de abril de 1792. \par}&#x0A;</rtf>
+<raw>?Pelo seu car?ter elitista, o movimento n?o visava a reformula??o social e nem melhorias para o povo, sem aderir ao ideal abolicionista, visto que muitos eram donos de escravos. Joaquim Jos? da Silva Xavier, mais conhecido por Tiradentes, por ser o mais humilde dos inconfidentes, promoveu a liga??o entre conspiradores e as camadas populares. &#x0A;Portugal passou a executar um conjunto de inqu?ritos de investiga??o no intuito de encontrar poss?veis conspiradores da col?nia em rela??o ? Portugal, chamados de Devassa. Joaquim Silv?rio dos Reis, conjurador, delatou o movimento, que estouraria, em 1788, no dia em que a Derrama seria realizada, em troca do perd?o de suas alt?ssimas d?vidas. De posse das informa??es, o governo aprisionou os inconfidentes, que negaram participa??o, com exce??o de Tiradentes, enforcado em 21 de abril de 1792. </raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="589" parent="575" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687975585</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>126</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>454</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text589Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text589Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text589Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-style:italic;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text589Font1&quot;  &gt;A juventude intelectual brasileira teve contato com os ideais iluministas, crÃ­ticos ao Antigo Regime. A partir&lt;/span &gt;&lt;span class=&quot;text589Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text589Font1&quot;  &gt;das notÃ­cias da independÃªncia norte-americana, de moldes republicanos, e do inÃ­cio dos levantes civis na FranÃ§a, alimentou-se na regiÃ£o o desejo pelo movimento de carÃ¡ter separatista. &lt;/span &gt;&lt;span class=&quot;text589Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text589Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text589Font3&quot;  &gt;A elite pensou o movimento, mas nÃ£o houve contribuiÃ§Ã£o expressiva de carÃ¡ter popular na formulaÃ§Ã£o das ideias que encabeÃ§ariam os interesses dos inconfidentes: repÃºblica independente de Portugal, reduÃ§Ã£o de impostos, abertura dos portos, desenvolvimento industrial, liberdade comercial, transferÃªncia da capital para sÃ£o JoÃ£o d&apos;el Rei, criaÃ§Ã£o de faculdades e uma nova bandeira cujo lema era &lt;/span &gt;&lt;span class=&quot;text589Font5&quot;  &gt;libertas quae sera tamen&lt;/span &gt;&lt;span class=&quot;text589Font3&quot;  &gt;, em portuguÃªs significa liberdade ainda que tardia).&lt;/span &gt;&lt;span class=&quot;text589Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 A juventude intelectual brasileira teve contato com os ideais iluministas, cr\u237 \&apos;edticos ao Antigo Regime. A partir\lang1046\hich\f2\loch\f2  \lang1046\hich\f1\loch\f1 das not\u237 \&apos;edcias da independ\u234 \&apos;eancia &#x0A;norte-americana, de moldes republicanos, e do in\u237 \&apos;edcio dos levantes civis na Fran\u231 \&apos;e7a, alimentou-se na regi\u227 \&apos;e3o o desejo pelo movimento de car\u225 \&apos;e1ter separatista. \hich\f2\loch\f2\par\par A elite pensou o movimento, mas n\u227 &#x0A;\&apos;e3o houve contribui\u231 \&apos;e7\u227 \&apos;e3o expressiva de car\u225 \&apos;e1ter popular na formula\u231 \&apos;e7\u227 \&apos;e3o das ideias que encabe\u231 \&apos;e7ariam os interesses dos inconfidentes: rep\u250 \&apos;fablica independente de Portugal, redu\u231 \&apos;e7\u227 \&apos;e3o &#x0A;de impostos, abertura dos portos, desenvolvimento industrial, liberdade comercial, transfer\u234 \&apos;eancia da capital para s\u227 \&apos;e3o Jo\u227 \&apos;e3o d&apos;el Rei, cria\u231 \&apos;e7\u227 \&apos;e3o de faculdades e uma nova bandeira cujo lema era \i libertas quae sera &#x0A;tamen\i0 , em portugu\u234 \&apos;eas significa liberdade ainda que tardia).\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?A juventude intelectual brasileira teve contato com os ideais iluministas, cr?ticos ao Antigo Regime. A partir das not?cias da independ?ncia norte-americana, de moldes republicanos, e do in?cio dos levantes civis na Fran?a, alimentou-se na regi?o o desejo pelo movimento de car?ter separatista. &#x0A;A elite pensou o movimento, mas n?o houve contribui??o expressiva de car?ter popular na formula??o das ideias que encabe?ariam os interesses dos inconfidentes: rep?blica independente de Portugal, redu??o de impostos, abertura dos portos, desenvolvimento industrial, liberdade comercial, transfer?ncia da capital para s?o Jo?o d&apos;el Rei, cria??o de faculdades e uma nova bandeira cujo lema era libertas quae sera tamen, em portugu?s significa liberdade ainda que tardia).</raw>
+<numoflines>18</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="577" parent="575">
+<name>Grupo_1</name>
+<lastupdated>1687975513</lastupdated>
+<shape id="579" parent="577" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687975513</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="581" parent="577" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687975513</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="583" parent="577" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687975513</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="584" parent="577" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687975513</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text584Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text584Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text584Font1&quot;  &gt;Movimentos Emancipacionistas&lt;/span &gt;&lt;span class=&quot;text584Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Movimentos Emancipacionistas\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Movimentos Emancipacionistas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="586" parent="577" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687975513</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="588" parent="577" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687975513</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="640" parent="40">
+<name>Página 6</name>
+<lastupdated>1687975989</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="739" parent="640" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687975987</lastupdated>
+<possize>
+<point>
+<x>533</x>
+<y>115</y>
+</point>
+<size>
+<cx>442</cx>
+<cy>386</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text739Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text739Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text739Font1&quot;  &gt;Semelhante ao movimento de Minas Gerais, a ConjuraÃ§Ã£o Baiana se tratou de um movimento emancipacionista, mas difere-se desta pois teve uma caracterizaÃ§Ã£o popular a abolicionista. &lt;/span &gt;&lt;span class=&quot;text739Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text739Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text739Font1&quot;  &gt;Devido ao contexto de crise social, contou com a participaÃ§Ã£o de camadas intermediÃ¡rias da sociedade como advogados, pequenos comerciantes e alfaiates, por isso, tambÃ©m conhecida como Revolta dos Alfaiates. &lt;/span &gt;&lt;span class=&quot;text739Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text739Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text739Font1&quot;  &gt;A InconfidÃªncia Baiana recebeu influÃªncias do iluminismo, da independÃªncia norte-americana, da RevoluÃ§Ã£o Francesa e das lutas que levariam o Haiti Ã  independÃªncia em 1804. Destaca-se a influÃªncia do movimento haitiano na formaÃ§Ã£o do ideal abolicionista do movimento. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Semelhante ao movimento de Minas Gerais, a Conjura\u231 \&apos;e7\u227 \&apos;e3o Baiana se tratou de um movimento emancipacionista, mas difere-se desta pois teve uma caracteriza\u231 \&apos;e7\u227 \&apos;e3o popular a abolicionista. \hich\f2\loch\f2\par\hich\f1\loch\f1\par &#x0A;Devido ao contexto de crise social, contou com a participa\u231 \&apos;e7\u227 \&apos;e3o de camadas intermedi\u225 \&apos;e1rias da sociedade como advogados, pequenos comerciantes e alfaiates, por isso, tamb\u233 \&apos;e9m conhecida como Revolta dos Alfaiates. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par &#x0A;A Inconfid\u234 \&apos;eancia Baiana recebeu influ\u234 \&apos;eancias do iluminismo, da independ\u234 \&apos;eancia norte-americana, da Revolu\u231 \&apos;e7\u227 \&apos;e3o Francesa e das lutas que levariam o Haiti \u224 \&apos;e0 independ\u234 \&apos;eancia em 1804. Destaca-se a influ\u234 &#x0A;\&apos;eancia do movimento haitiano na forma\u231 \&apos;e7\u227 \&apos;e3o do ideal abolicionista do movimento. \par}&#x0A;</rtf>
+<raw>?Semelhante ao movimento de Minas Gerais, a Conjura??o Baiana se tratou de um movimento emancipacionista, mas difere-se desta pois teve uma caracteriza??o popular a abolicionista. &#x0A;Devido ao contexto de crise social, contou com a participa??o de camadas intermedi?rias da sociedade como advogados, pequenos comerciantes e alfaiates, por isso, tamb?m conhecida como Revolta dos Alfaiates. &#x0A;A Inconfid?ncia Baiana recebeu influ?ncias do iluminismo, da independ?ncia norte-americana, da Revolu??o Francesa e das lutas que levariam o Haiti ? independ?ncia em 1804. Destaca-se a influ?ncia do movimento haitiano na forma??o do ideal abolicionista do movimento. </raw>
+<numoflines>17</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="708" parent="640" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687975793</lastupdated>
+<possize>
+<point>
+<x>44</x>
+<y>407</y>
+</point>
+<size>
+<cx>432</cx>
+<cy>217</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text708Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text708Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text708Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text708Font6 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text708Font1&quot;  &gt;ConjuraÃ§Ã£o/InconfidÃªncia Baiana/Revolta dos&lt;/span &gt;&lt;span class=&quot;text708Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text708Font1&quot;  &gt;Alfaiates â€“ 1798&lt;/span &gt;&lt;span class=&quot;text708Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text708Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text708Font5&quot;  &gt;Na Bahia, ap&lt;/span &gt;&lt;span class=&quot;text708Font6&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text708Font5&quot;  &gt;s a transfer&lt;/span &gt;&lt;span class=&quot;text708Font6&quot;  &gt;Ãª&lt;/span &gt;&lt;span class=&quot;text708Font5&quot;  &gt;ncia da capital para o Rio de Janeiro, os investimentos do governo diminu&lt;/span &gt;&lt;span class=&quot;text708Font6&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text708Font5&quot;  &gt;ram de forma absurda na regi&lt;/span &gt;&lt;span class=&quot;text708Font6&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text708Font5&quot;  &gt;o, mas alta carga tribut&lt;/span &gt;&lt;span class=&quot;text708Font6&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text708Font5&quot;  &gt;ria continuou e gerou uma crise aliment&lt;/span &gt;&lt;span class=&quot;text708Font6&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text708Font5&quot;  &gt;cia por conta da infla&lt;/span &gt;&lt;span class=&quot;text708Font6&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text708Font5&quot;  &gt;o, discrimina&lt;/span &gt;&lt;span class=&quot;text708Font6&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text708Font5&quot;  &gt;o &lt;/span &gt;&lt;span class=&quot;text708Font6&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text708Font5&quot;  &gt;tnica e social. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Conjura\u231 \&apos;e7\u227 \&apos;e3o/Inconfid\u234 \&apos;eancia Baiana/Revolta dos\hich\f2\loch\f2  \hich\f1\loch\f1 Alfaiates \u8211 \&apos;96 1798\hich\f2\loch\f2\fs28\b0\par\par Na Bahia, ap\hich\f1\loch\f1\u243 \&apos;f3\hich\f2\loch\f2 &#x0A;s a transfer\hich\f1\loch\f1\u234 \&apos;ea\hich\f2\loch\f2 ncia da capital para o Rio de Janeiro, os investimentos do governo diminu\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 ram de forma absurda na regi\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o, mas alta &#x0A;carga tribut\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 ria continuou e gerou uma crise aliment\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 cia por conta da infla\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o, discrimina\hich\f1\loch\f1\u231 \&apos;e7\u227 &#x0A;\&apos;e3\hich\f2\loch\f2 o \hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 tnica e social. \par}&#x0A;</rtf>
+<raw>?Conjura??o/Inconfid?ncia Baiana/Revolta dos Alfaiates ? 1798&#x0A;Na Bahia, ap?s a transfer?ncia da capital para o Rio de Janeiro, os investimentos do governo diminu?ram de forma absurda na regi?o, mas alta carga tribut?ria continuou e gerou uma crise aliment?cia por conta da infla??o, discrimina??o ?tnica e social. </raw>
+<numoflines>9</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="689" parent="640" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687975754</lastupdated>
+<possize>
+<point>
+<x>98</x>
+<y>307</y>
+</point>
+<size>
+<cx>200</cx>
+<cy>68</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text689Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text689Font3 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:right;&quot; &gt;&#x0A;&lt;span class=&quot;text689Font1&quot;  &gt;Pedro AmÃ©rico. Tiradentes &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:right;&quot; &gt;&#x0A;&lt;span class=&quot;text689Font1&quot;  &gt;esquartejado. 1893. Juiz de &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:right;&quot; &gt;&#x0A;&lt;span class=&quot;text689Font1&quot;  &gt;Fora. Museu Mariano ProcÃ³pio&lt;/span &gt;&lt;span class=&quot;text689Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qr\hich\f2\loch\f2\cf2\fs22\b Pedro Am\u233 \&apos;e9rico. Tiradentes \par esquartejado. 1893. Juiz de \par Fora. Museu Mariano Proc\u243 \&apos;f3pio\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Pedro Am?rico. Tiradentes &#x0A;esquartejado. 1893. Juiz de &#x0A;Fora. Museu Mariano Proc?pio</raw>
+<numoflines>4</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="657" parent="640" resource="656" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687975754</lastupdated>
+<possize>
+<point>
+<x>304</x>
+<y>121</y>
+</point>
+<size>
+<cx>172</cx>
+<cy>254</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<objgroup id="644" parent="640">
+<name>Grupo_1</name>
+<lastupdated>1687975707</lastupdated>
+<shape id="646" parent="644" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687975707</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="648" parent="644" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687975707</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="650" parent="644" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687975707</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="651" parent="644" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687975707</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text651Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text651Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text651Font1&quot;  &gt;Movimentos Emancipacionistas&lt;/span &gt;&lt;span class=&quot;text651Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Movimentos Emancipacionistas\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Movimentos Emancipacionistas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="653" parent="644" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687975707</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="655" parent="644" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687975707</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="774" parent="40">
+<name>Página 7</name>
+<lastupdated>1687976156</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<shape id="879" parent="774" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687976148</lastupdated>
+<possize>
+<point>
+<x>532</x>
+<y>433</y>
+</point>
+<size>
+<cx>443</cx>
+<cy>122</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>20</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="01D1DD" />
+</shape>
+<image id="877" parent="774" resource="880" ontop="false" fixed="false" proportional="true">
+<name>Imagem1</name>
+<lastupdated>1687976153</lastupdated>
+<possize>
+<point>
+<x>914</x>
+<y>527</y>
+</point>
+<size>
+<cx>61</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="875" parent="774" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687976148</lastupdated>
+<possize>
+<point>
+<x>556</x>
+<y>434</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>120</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text875Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text875Font1&quot;  &gt;Animai-vos Povo baiense que estÃ¡ para chegar o tempo feliz da nossa Liberdade: o tempo em que todos seremos irmÃ£os: o tempo em que todos seremos iguais. (Trecho de um boletim revolucionÃ¡rio&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qj\hich\f2\loch\f2 Animai-vos Povo baiense que est\&apos;e1 para chegar o tempo feliz da nossa Liberdade: o tempo em que todos seremos irm\&apos;e3os: o tempo em que todos seremos iguais. (Trecho de um boletim revolucion\&apos;e1rio\par}&#x0A;</rtf>
+<raw>?Animai-vos Povo baiense que est? para chegar o tempo feliz da nossa Liberdade: o tempo em que todos seremos irm?os: o tempo em que todos seremos iguais. (Trecho de um boletim revolucion?rio</raw>
+<numoflines>5</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="874" parent="774" ontop="false" fixed="false" proportional="false">
+<name>Retângulo 2</name>
+<lastupdated>1687976148</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>455</y>
+</point>
+<size>
+<cx>12</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="854" parent="774" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687976084</lastupdated>
+<possize>
+<point>
+<x>526</x>
+<y>326</y>
+</point>
+<size>
+<cx>442</cx>
+<cy>80</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text854Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text854Font1&quot;  &gt;ApÃ³s a saÃ­da da Ordem dos Cavaleiros da Luz, o movimento se desorganizou, facilitando a aÃ§Ã£o das tropas que prenderam e condenaram seus lÃ­deres.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Ap\u243 \&apos;f3s a sa\u237 \&apos;edda da Ordem dos Cavaleiros da Luz, o movimento se desorganizou, facilitando a a\u231 \&apos;e7\u227 \&apos;e3o das tropas que prenderam e condenaram seus l\u237 \&apos;edderes.\par}&#x0A;</rtf>
+<raw>?Ap?s a sa?da da Ordem dos Cavaleiros da Luz, o movimento se desorganizou, facilitando a a??o das tropas que prenderam e condenaram seus l?deres.</raw>
+<numoflines>3</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="833" parent="774" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687976065</lastupdated>
+<possize>
+<point>
+<x>623</x>
+<y>279</y>
+</point>
+<size>
+<cx>248</cx>
+<cy>23</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text833Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text833Font3 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;&quot; &gt;&#x0A;&lt;span class=&quot;text833Font1&quot;  &gt;Bandeira da ConjuraÃ§Ã£o Baiana&lt;/span &gt;&lt;span class=&quot;text833Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qc\hich\f2\loch\f2\cf2\fs22\b Bandeira da Conjura\u231 \&apos;e7\u227 \&apos;e3o Baiana\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Bandeira da Conjura??o Baiana</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="807" parent="774" resource="806" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687976061</lastupdated>
+<possize>
+<point>
+<x>631</x>
+<y>116</y>
+</point>
+<size>
+<cx>232</cx>
+<cy>155</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="788" parent="774" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687976037</lastupdated>
+<possize>
+<point>
+<x>45</x>
+<y>127</y>
+</point>
+<size>
+<cx>444</cx>
+<cy>433</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text788Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text788Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text788Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text788Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text788Font1&quot;  &gt;A elite tambÃ©m participou do pontapÃ© da conjuraÃ§Ã£o, com a Ordem dos Cavaleiros da Luz, entidade maÃ§Ã´nica que, nos primeiros momentos da conjuraÃ§Ã£o, foram os financiadores e organizadores. PorÃ©m, com o fortalecimento do discurso abolicionista, a ordem se retirou do movimento, visto que muitos de seus membros eram donos de posses e de escravos. &lt;/span &gt;&lt;span class=&quot;text788Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text788Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text788Font1&quot;  &gt;ConheÃ§amos os principais objetivos da ConjuraÃ§Ã£o Baiana:&lt;/span &gt;&lt;span class=&quot;text788Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text788Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text788Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text788ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text788Font1&quot;  &gt;repÃºblica independente de Portugal;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text788Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text788ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text788Font1&quot;  &gt;abertura dos portos e desenvolvimento do comÃ©rcio;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text788Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text788ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text788Font1&quot;  &gt;aboliÃ§Ã£o da escravidÃ£o;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text788Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text788ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text788Font1&quot;  &gt;reforma educacional;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text788Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text788ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text788Font1&quot;  &gt;melhorias salariais para soldados.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 A elite tamb\u233 \&apos;e9m participou do pontap\u233 \&apos;e9 da conjura\u231 \&apos;e7\u227 \&apos;e3o, com a Ordem dos Cavaleiros da Luz, entidade ma\u231 \&apos;e7\u244 \&apos;f4nica que, nos primeiros momentos da conjura\u231 \&apos;e7\u227 \&apos;e3o, &#x0A;foram os financiadores e organizadores. Por\u233 \&apos;e9m, com o fortalecimento do discurso abolicionista, a ordem se retirou do movimento, visto que muitos de seus membros eram donos de posses e de escravos. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par &#x0A;Conhe\u231 \&apos;e7amos os principais objetivos da Conjura\u231 \&apos;e7\u227 \&apos;e3o Baiana:\lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 rep\u250 \&apos;fablica independente &#x0A;de Portugal;\par abertura dos portos e desenvolvimento do com\u233 \&apos;e9rcio;\par aboli\u231 \&apos;e7\u227 \&apos;e3o da escravid\u227 \&apos;e3o;\par reforma educacional;\par melhorias salariais para soldados.\par}&#x0A;</rtf>
+<raw>?A elite tamb?m participou do pontap? da conjura??o, com a Ordem dos Cavaleiros da Luz, entidade ma??nica que, nos primeiros momentos da conjura??o, foram os financiadores e organizadores. Por?m, com o fortalecimento do discurso abolicionista, a ordem se retirou do movimento, visto que muitos de seus membros eram donos de posses e de escravos. &#x0A;Conhe?amos os principais objetivos da Conjura??o Baiana:&#x0A;rep?blica independente de Portugal;&#x0A;abertura dos portos e desenvolvimento do com?rcio;&#x0A;aboli??o da escravid?o;&#x0A;reforma educacional;&#x0A;melhorias salariais para soldados.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text788ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text788ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>18</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="776" parent="774">
+<name>Grupo_1</name>
+<lastupdated>1687975993</lastupdated>
+<shape id="778" parent="776" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687975993</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="780" parent="776" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687975993</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="782" parent="776" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687975993</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="783" parent="776" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687975993</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text783Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text783Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text783Font1&quot;  &gt;Movimentos Emancipacionistas&lt;/span &gt;&lt;span class=&quot;text783Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Movimentos Emancipacionistas\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Movimentos Emancipacionistas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="785" parent="776" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687975993</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="787" parent="776" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687975993</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1068" parent="40">
+<name>Página 8</name>
+<lastupdated>1687976297</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1121" parent="1068" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687976288</lastupdated>
+<possize>
+<point>
+<x>533</x>
+<y>130</y>
+</point>
+<size>
+<cx>424</cx>
+<cy>500</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1121Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1121Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1121Font1&quot;  &gt;Mesmo em terras brasileiras, a promoÃ§Ã£o de militares era de preferÃªncia para os portugueses, gerando insatisfaÃ§Ã£o nos militares brasileiros. Em Pernambuco, nÃ£o foi diferente, eclodindo um movimento de carÃ¡ter separatista com desejo de implantaÃ§Ã£o de uma RepÃºblica. &lt;/span &gt;&lt;span class=&quot;text1121Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1121Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1121Font1&quot;  &gt;Mais uma vez as influÃªncias das revoluÃ§Ãµes burguesas da Europa e dos Estados Unidos se fizeram presentes em um movimento no Brasil. Houve grande participaÃ§Ã£o de camadas intermediÃ¡rias, influenciadas por esses ideais, almejando a liberdade de expressÃ£o e a instalaÃ§Ã£o de uma RepÃºblica.&lt;/span &gt;&lt;span class=&quot;text1121Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1121Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1121Font3&quot;  &gt;Em Pernambuco, instarou-se uma RepÃºblica por cerca de 2 meses, mas o carÃ¡ter abolicionista do movimento incomodou a aristocracia rural, gerando uma desorganizaÃ§Ã£o interna que enfraqueceu o movimento e possibilitou a ofensiva das forÃ§as portuguesas. &lt;/span &gt;&lt;span class=&quot;text1121Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Mesmo em terras brasileiras, a promo\u231 \&apos;e7\u227 \&apos;e3o de militares era de prefer\u234 \&apos;eancia para os portugueses, gerando insatisfa\u231 \&apos;e7\u227 \&apos;e3o nos militares brasileiros. Em Pernambuco, n\u227 \&apos;e3o foi &#x0A;diferente, eclodindo um movimento de car\u225 \&apos;e1ter separatista com desejo de implanta\u231 \&apos;e7\u227 \&apos;e3o de uma Rep\u250 \&apos;fablica. \hich\f2\loch\f2\par\hich\f1\loch\f1\par Mais uma vez as influ\u234 \&apos;eancias das revolu\u231 \&apos;e7\u245 \&apos;f5es burguesas &#x0A;da Europa e dos Estados Unidos se fizeram presentes em um movimento no Brasil. Houve grande participa\u231 \&apos;e7\u227 \&apos;e3o de camadas intermedi\u225 \&apos;e1rias, influenciadas por esses ideais, almejando a liberdade de express\u227 \&apos;e3o e a instala\u231 &#x0A;\&apos;e7\u227 \&apos;e3o de uma Rep\u250 \&apos;fablica.\lang1046\hich\f2\loch\f2\par\par Em Pernambuco, instarou-se uma Rep\&apos;fablica por cerca de 2 meses, mas o car\&apos;e1ter abolicionista do movimento incomodou a aristocracia rural, gerando uma desorganiza\&apos;e7\&apos;e3o &#x0A;interna que enfraqueceu o movimento e possibilitou a ofensiva das for\&apos;e7as portuguesas. \lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Mesmo em terras brasileiras, a promo??o de militares era de prefer?ncia para os portugueses, gerando insatisfa??o nos militares brasileiros. Em Pernambuco, n?o foi diferente, eclodindo um movimento de car?ter separatista com desejo de implanta??o de uma Rep?blica. &#x0A;Mais uma vez as influ?ncias das revolu??es burguesas da Europa e dos Estados Unidos se fizeram presentes em um movimento no Brasil. Houve grande participa??o de camadas intermedi?rias, influenciadas por esses ideais, almejando a liberdade de express?o e a instala??o de uma Rep?blica.&#x0A;Em Pernambuco, instarou-se uma Rep?blica por cerca de 2 meses, mas o car?ter abolicionista do movimento incomodou a aristocracia rural, gerando uma desorganiza??o interna que enfraqueceu o movimento e possibilitou a ofensiva das for?as portuguesas. </raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1082" parent="1068" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687976218</lastupdated>
+<possize>
+<point>
+<x>45</x>
+<y>133</y>
+</point>
+<size>
+<cx>446</cx>
+<cy>442</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1082Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1082Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1082Font1&quot;  &gt;InsurreiÃ§Ã£o/RevoluÃ§Ã£o Pernambucana â€“ 1817 &lt;/span &gt;&lt;span class=&quot;text1082Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1082Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1082Font4&quot;  &gt;Em 1808, a FamÃ­lia Real veio para o Brasil, fugindo de NapoleÃ£o Bonaparte. A instalaÃ§Ã£o da famÃ­lia real portuguesa e de boa parte da Corte no Rio de Janeiro proporcionou o aumento da carga tributÃ¡ria para cobrir os gastos. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1082Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1082Font4&quot;  &gt;A regiÃ£o do centro-sul do paÃ­s passou a se beneficiar da presenÃ§a real e o Nordeste passou a ser explorado com mais intensidade. Com a abertura dos portos brasileiros para as naÃ§Ãµes amigas, agravou-se ainda mais a crise econÃ´mica em Pernambuco, principalmente pela queda dos preÃ§os do aÃ§Ãºcar e do algodÃ£o, que disputavam espaÃ§o com produtos estrangeiros (principalmente ingleses). &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Insurrei\u231 \&apos;e7\u227 \&apos;e3o/Revolu\u231 \&apos;e7\u227 \&apos;e3o Pernambucana \u8211 \&apos;96 1817 \fs28\b0\par\par Em 1808, a Fam\u237 \&apos;edlia Real veio para o Brasil, fugindo de Napole\u227 \&apos;e3o Bonaparte. A instala\u231 \&apos;e7\u227 &#x0A;\&apos;e3o da fam\u237 \&apos;edlia real portuguesa e de boa parte da Corte no Rio de Janeiro proporcionou o aumento da carga tribut\u225 \&apos;e1ria para cobrir os gastos. \par\par A regi\u227 \&apos;e3o do centro-sul do pa\u237 \&apos;eds passou a se beneficiar da presen\u231 &#x0A;\&apos;e7a real e o Nordeste passou a ser explorado com mais intensidade. Com a abertura dos portos brasileiros para as na\u231 \&apos;e7\u245 \&apos;f5es amigas, agravou-se ainda mais a crise econ\u244 \&apos;f4mica em Pernambuco, principalmente pela queda dos pre\u231 &#x0A;\&apos;e7os do a\u231 \&apos;e7\u250 \&apos;facar e do algod\u227 \&apos;e3o, que disputavam espa\u231 \&apos;e7o com produtos estrangeiros (principalmente ingleses). \par}&#x0A;</rtf>
+<raw>?Insurrei??o/Revolu??o Pernambucana ? 1817 &#x0A;Em 1808, a Fam?lia Real veio para o Brasil, fugindo de Napole?o Bonaparte. A instala??o da fam?lia real portuguesa e de boa parte da Corte no Rio de Janeiro proporcionou o aumento da carga tribut?ria para cobrir os gastos. &#x0A;A regi?o do centro-sul do pa?s passou a se beneficiar da presen?a real e o Nordeste passou a ser explorado com mais intensidade. Com a abertura dos portos brasileiros para as na??es amigas, agravou-se ainda mais a crise econ?mica em Pernambuco, principalmente pela queda dos pre?os do a??car e do algod?o, que disputavam espa?o com produtos estrangeiros (principalmente ingleses). </raw>
+<numoflines>18</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="1070" parent="1068">
+<name>Grupo_1</name>
+<lastupdated>1687976159</lastupdated>
+<shape id="1072" parent="1070" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687976159</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1074" parent="1070" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687976159</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1076" parent="1070" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687976159</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1077" parent="1070" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687976159</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1077Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1077Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1077Font1&quot;  &gt;Movimentos Emancipacionistas&lt;/span &gt;&lt;span class=&quot;text1077Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Movimentos Emancipacionistas\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Movimentos Emancipacionistas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1079" parent="1070" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687976159</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1081" parent="1070" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687976159</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1164" parent="40">
+<name>Página 9</name>
+<lastupdated>1687976297</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1199" parent="1164" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687976335</lastupdated>
+<possize>
+<point>
+<x>200</x>
+<y>225</y>
+</point>
+<size>
+<cx>200</cx>
+<cy>58</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1199Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1199Font3 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1199Font1&quot;  &gt;AntÃ´nio Parreiras. Quadro &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1199Font1&quot;  &gt;BenÃ§Ã£o das bandeiras &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1199Font1&quot;  &gt;da RevoluÃ§Ã£o de 1817.&lt;/span &gt;&lt;span class=&quot;text1199Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs22\ql\hich\f2\loch\f2\b Ant\u244 \&apos;f4nio Parreiras. Quadro \par Ben\u231 \&apos;e7\u227 \&apos;e3o das bandeiras \par da Revolu\u231 \&apos;e7\u227 \&apos;e3o de 1817.\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Ant?nio Parreiras. Quadro &#x0A;Ben??o das bandeiras &#x0A;da Revolu??o de 1817.</raw>
+<numoflines>3</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="1179" parent="1164" resource="1178" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687976322</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>126</y>
+</point>
+<size>
+<cx>147</cx>
+<cy>156</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<objgroup id="1166" parent="1164">
+<name>Grupo_1</name>
+<lastupdated>1687976300</lastupdated>
+<shape id="1168" parent="1166" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687976300</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1170" parent="1166" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687976300</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1172" parent="1166" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687976300</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1173" parent="1166" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687976300</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1173Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1173Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1173Font1&quot;  &gt;Movimentos Emancipacionistas&lt;/span &gt;&lt;span class=&quot;text1173Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Movimentos Emancipacionistas\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Movimentos Emancipacionistas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1175" parent="1166" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687976300</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1177" parent="1166" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687976300</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

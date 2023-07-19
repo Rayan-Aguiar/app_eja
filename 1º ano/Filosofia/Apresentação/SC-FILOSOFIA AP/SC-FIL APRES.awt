@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc">
+<currentid>878</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="160" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="199" resourcetype="image">
+<name>Imagem2.png</name>
+<relativelink>images\Imagem2.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="282" resourcetype="image">
+<name>Imagem 3.bmp</name>
+<relativelink>images\Imagem 3.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="471" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="596" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="79">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>384032280</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Apresentação</name>
+<lastupdated>1687268926</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="78" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1686153743</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1686153743</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1686153743</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="79" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1686153743</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1686153743</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1686153743</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="71" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1686153743</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="72" parent="71" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686153743</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="65" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1686153743</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="66" parent="65" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686153743</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="57" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1686153790</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="58" parent="57" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1686153743</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="59" parent="57" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1686153743</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="60" parent="57" on="hide">
+<name>Em ocultarOcultar</name>
+<lastupdated>1686153790</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="57">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1687268926</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="2" parent="40">
+<name>TEMA</name>
+<lastupdated>1687268914</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="440" parent="2" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687268798</lastupdated>
+<possize>
+<point>
+<x>84</x>
+<y>249</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>76</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text440Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text440Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text440Font1&quot;  &gt;Ensino MÃ©dio â€“ 1Âº SÃ©rie&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text440Font3&quot;  &gt;MoisÃ©s Bueno Farias Neto&lt;/span &gt;&lt;span class=&quot;text440Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1033\hich\f2\loch\f2\cf2\fs28 Ensino M\&apos;e9dio \u8211 \&apos;96 1\&apos;ba S\&apos;e9rie\par\cf3 Mois\&apos;e9s Bueno Farias Neto\cf2\par\qj\plain\f1\fs24\lang1033\hich\f2\loch\f2\cf2\fs28\par}&#x0A;</rtf>
+<raw>?Ensino M�dio � 1� S�rie&#x0A;Mois�s Bueno Farias Neto&#x0A;</raw>
+<numoflines>3</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="341" parent="2" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686158451</lastupdated>
+<possize>
+<point>
+<x>88</x>
+<y>205</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="339" parent="2" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686158451</lastupdated>
+<possize>
+<point>
+<x>108</x>
+<y>205</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="337" parent="2" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686158451</lastupdated>
+<possize>
+<point>
+<x>127</x>
+<y>205</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="307" parent="2" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687268743</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>159</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text307Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text307Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text307Font1&quot;  &gt;FILOSOFIA&lt;/span &gt;&lt;span class=&quot;text307Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf3\fs56\b FILOSOFIA\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?FILOSOFIA</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="283" parent="2" resource="282" ontop="false" fixed="false" proportional="true">
+<name>Imagem 3</name>
+<lastupdated>1686158309</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>523</y>
+</point>
+<size>
+<cx>216</cx>
+<cy>139</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="161" parent="2" resource="160" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686158195</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>0</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>331</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="197" parent="2" resource="199" ontop="false" fixed="false" proportional="true">
+<name>Imagem2</name>
+<lastupdated>1686158295</lastupdated>
+<possize>
+<point>
+<x>571</x>
+<y>113</y>
+</point>
+<size>
+<cx>341</cx>
+<cy>462</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="470" parent="40">
+<name>APRES 1.</name>
+<lastupdated>1687268921</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="717" parent="470" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686159447</lastupdated>
+<possize>
+<point>
+<x>32</x>
+<y>55</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text717Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text717Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text717Font1&quot;  &gt;ApresentaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text717Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Apresenta\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Apresenta��o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="615" parent="470" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687269276</lastupdated>
+<possize>
+<point>
+<x>29</x>
+<y>138</y>
+</point>
+<size>
+<cx>606</cx>
+<cy>502</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text615Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text615Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text615Font4 { font-size:13px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text615Font1&quot;  &gt;Iniciaremos o estudo da disciplina de filosofia, caracterizada como um saber teÃ³rico de cunho humanÃ­stico. A filosofia nasceu na GrÃ©cia Antiga e se constituiu como um meio do qual o indivÃ­duo pode se apropriar para conhecer a si mesmo e a realidade externa a ele. A filosofia compreende uma pluralidade de pensamentos e perspectivas sobre diversas temÃ¡ticas e problemas. Por isso, na filosofia hÃ¡ varias cosmovisÃµes. Cada filÃ³sofo ou filÃ³sofa tem sua prÃ³pria cosmovisÃ£o, isto Ã©, sua maneira de &quot;ver a vida&quot;.&lt;/span &gt;&lt;span class=&quot;text615Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text615Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.156&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text615Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text615Font1&quot;  &gt;A filosofia nÃ£o Ã© a posse da verdade, mas a busca constante por ela. Sendo assim, a filosofia pretende, por via da razÃ£o, alcanÃ§ar o Ã¢mago de seu objeto de estudo. Exemplos de perguntas que guiam as reflexÃµes filosÃ³ficas: qual a essÃªncia das coisas? A realidade Ã© fixa ou estÃ¡ em constante modificaÃ§Ã£o? Posso conhecer a mim mesmo e a realidade? Quais mÃ©todos devo usar em uma investigaÃ§Ã£o filosÃ³fica? Como posso construir um raciocÃ­nio lÃ³gico? Quais as caracterÃ­sticas do agir humano? O que um ser humano necessita para pensar, agir e viver eticamente? O que Ã© a verdade? O que Ã© a justiÃ§a? O que a beleza? Qual a finalidade das coisas? HÃ¡ outros mundos alÃ©m do nosso? HÃ¡ vida apÃ³s a morte? Qual o sentido de minha vida? Como demonstrado, sÃ£o as perguntas e nÃ£o as respostas que impulsionam a filosofia. &lt;/span &gt;&lt;span class=&quot;text615Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf3\fs28 Iniciaremos o estudo da disciplina de filosofia, caracterizada como um saber te\u243 \&apos;f3rico de cunho human\u237 \&apos;edstico. A filosofia nasceu na Gr\u233 \&apos;e9cia Antiga e se constituiu como um meio &#x0A;do qual o indiv\u237 \&apos;edduo pode se apropriar para conhecer a si mesmo e a realidade externa a ele. A filosofia compreende uma pluralidade de pensamentos e perspectivas sobre diversas tem\u225 \&apos;e1ticas e problemas. Por isso, na filosofia h\u225 \&apos;e1 &#x0A;varias cosmovis\u245 \&apos;f5es. Cada fil\u243 \&apos;f3sofo ou fil\u243 \&apos;f3sofa tem sua pr\u243 \&apos;f3pria cosmovis\u227 \&apos;e3o, isto \u233 \&apos;e9, sua maneira de &quot;ver a vida&quot;.\lang1033\hich\f2\loch\f2\cf2\par\par\lang1046\hich\f2\loch\f2\cf3\fs20\par\fs28 A filosofia &#x0A;n\&apos;e3o \&apos;e9 a posse da verdade, mas a busca constante por ela. Sendo assim, a filosofia pretende, por via da raz\&apos;e3o, alcan\&apos;e7ar o \&apos;e2mago de seu objeto de estudo. Exemplos de perguntas que guiam as reflex\&apos;f5es filos\&apos;f3ficas: qual a ess\&apos;eancia das &#x0A;coisas? A realidade \&apos;e9 fixa ou est\&apos;e1 em constante modifica\&apos;e7\&apos;e3o? Posso conhecer a mim mesmo e a realidade? Quais m\&apos;e9todos devo usar em uma investiga\&apos;e7\&apos;e3o filos\&apos;f3fica? Como posso construir um racioc\&apos;ednio l\&apos;f3gico? Quais as caracter\&apos;edsticas &#x0A;do agir humano? O que um ser humano necessita para pensar, agir e viver eticamente? O que \&apos;e9 a verdade? O que \&apos;e9 a justi\&apos;e7a? O que a beleza? Qual a finalidade das coisas? H\&apos;e1 outros mundos al\&apos;e9m do nosso? H\&apos;e1 vida ap\&apos;f3s a morte? Qual o sentido &#x0A;de minha vida? Como demonstrado, s\&apos;e3o as perguntas e n\&apos;e3o as respostas que impulsionam a filosofia. \lang1033\hich\f2\loch\f2\cf2\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Iniciaremos o estudo da disciplina de filosofia, caracterizada como um saber te�rico de cunho human�stico. A filosofia nasceu na Gr�cia Antiga e se constituiu como um meio do qual o indiv�duo pode se apropriar para conhecer a si mesmo e a realidade externa a ele. A filosofia compreende uma pluralidade de pensamentos e perspectivas sobre diversas tem�ticas e problemas. Por isso, na filosofia h� varias cosmovis�es. Cada fil�sofo ou fil�sofa tem sua pr�pria cosmovis�o, isto �, sua maneira de &quot;ver a vida&quot;.&#x0A;&#x0A;&#x0A;A filosofia n�o � a posse da verdade, mas a busca constante por ela. Sendo assim, a filosofia pretende, por via da raz�o, alcan�ar o �mago de seu objeto de estudo. Exemplos de perguntas que guiam as reflex�es filos�ficas: qual a ess�ncia das coisas? A realidade � fixa ou est� em constante modifica��o? Posso conhecer a mim mesmo e a realidade? Quais m�todos devo usar em uma investiga��o filos�fica? Como posso construir um racioc�nio l�gico? Quais as caracter�sticas do agir humano? O que um ser humano necessita para pensar, agir e viver eticamente? O que � a verdade? O que � a justi�a? O que a beleza? Qual a finalidade das coisas? H� outros mundos al�m do nosso? H� vida ap�s a morte? Qual o sentido de minha vida? Como demonstrado, s�o as perguntas e n�o as respostas que impulsionam a filosofia. &#x0A;</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="472" parent="470" resource="471" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686159141</lastupdated>
+<possize>
+<point>
+<x>640</x>
+<y>0</y>
+</point>
+<size>
+<cx>387</cx>
+<cy>661</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="733" parent="40">
+<name>APRES 2.</name>
+<lastupdated>1687268926</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="734" parent="733" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686159482</lastupdated>
+<possize>
+<point>
+<x>32</x>
+<y>44</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text734Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text734Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text734Font1&quot;  &gt;ApresentaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text734Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Apresenta\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Apresenta��o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="735" parent="733" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687269287</lastupdated>
+<possize>
+<point>
+<x>28</x>
+<y>97</y>
+</point>
+<size>
+<cx>606</cx>
+<cy>399</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text735Font1 { font-size:13px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text735Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text735Font3 { font-size:27px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.156&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text735Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text735Font2&quot;  &gt;A importÃ¢ncia da filosofia para a formaÃ§Ã£o do estudante nÃ£o Ã© apenas na qualificaÃ§Ã£o tÃ©cnica, mas tambÃ©m para a sua compreensÃ£o existencial. A filosofia pode auxiliar um aluno(a) a bem estruturar seu raciocÃ­nio, oral e escrito, ampliar seu repertÃ³rio cultural e apropriar-se de sua cidadania, tanto no sentido de reconhecer seus direitos quanto de praticar seus deveres. TambÃ©m, a formaÃ§Ã£o filosÃ³fica permite ao indivÃ­duo aprimorar a si mesmo em um sentido existencial, o convidando a conhecer suas virtudes, limitaÃ§Ãµes, propÃ³sitos e medos. Portanto, a formaÃ§Ã£o filosÃ³fica Ã© fundamental para a formaÃ§Ã£o humanÃ­stica do indivÃ­duo.&lt;/span &gt;&lt;span class=&quot;text735Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs20\par\fs28 A import\&apos;e2ncia da filosofia para a forma\&apos;e7\&apos;e3o do estudante n\&apos;e3o \&apos;e9 apenas na qualifica\&apos;e7\&apos;e3o t\&apos;e9cnica, mas tamb\&apos;e9m para a sua compreens\&apos;e3o existencial. A filosofia pode &#x0A;auxiliar um aluno(a) a bem estruturar seu racioc\&apos;ednio, oral e escrito, ampliar seu repert\&apos;f3rio cultural e apropriar-se de sua cidadania, tanto no sentido de reconhecer seus direitos quanto de praticar seus deveres. Tamb\&apos;e9m, a forma\&apos;e7\&apos;e3o filos\&apos;f3fica &#x0A;permite ao indiv\&apos;edduo aprimorar a si mesmo em um sentido existencial, o convidando a conhecer suas virtudes, limita\&apos;e7\&apos;f5es, prop\&apos;f3sitos e medos. Portanto, a forma\&apos;e7\&apos;e3o filos\&apos;f3fica \&apos;e9 fundamental para a forma\&apos;e7\&apos;e3o human\&apos;edstica do indiv\&apos;edduo.\fs40\par\lang1033\hich\f2\loch\f2\cf3\fs28\par\ql\plain\f1\fs24\lang1033\hich\f2\loch\f2\cf3\fs28\par\qj\plain\f1\fs24\lang1033\hich\f2\loch\f2\cf3\fs28\par&#x0A;}&#x0A;</rtf>
+<raw>?&#x0A;A import�ncia da filosofia para a forma��o do estudante n�o � apenas na qualifica��o t�cnica, mas tamb�m para a sua compreens�o existencial. A filosofia pode auxiliar um aluno(a) a bem estruturar seu racioc�nio, oral e escrito, ampliar seu repert�rio cultural e apropriar-se de sua cidadania, tanto no sentido de reconhecer seus direitos quanto de praticar seus deveres. Tamb�m, a forma��o filos�fica permite ao indiv�duo aprimorar a si mesmo em um sentido existencial, o convidando a conhecer suas virtudes, limita��es, prop�sitos e medos. Portanto, a forma��o filos�fica � fundamental para a forma��o human�stica do indiv�duo.&#x0A;&#x0A;&#x0A;</raw>
+<numoflines>14</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="737" parent="733" resource="471" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686159461</lastupdated>
+<possize>
+<point>
+<x>640</x>
+<y>0</y>
+</point>
+<size>
+<cx>387</cx>
+<cy>661</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

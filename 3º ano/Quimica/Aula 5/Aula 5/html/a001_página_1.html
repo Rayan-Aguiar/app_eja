@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="pt">
+<!--GERADO POR::  Lectora Inspire v.17.1.5-(11381) (http://www.trivantis.com) -->
+<!--TÍTULO: C:\Users\yuri.ozorio\OneDrive - G1learn\Documents\3º ano\Quimica\Aula 5\Aula 5 -->
+
+
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Página 1</title>
+
+<link rel="stylesheet" href="trivantis.css" type="text/css" />
+<link rel="stylesheet" href="dialog.css" type="text/css" />
+<style type="text/css">
+  body { background-color:#ffffff; }
+</style>
+
+<!--[if lt IE 7]>
+<style type="text/css">
+    #image2588 img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+    #image2588 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/image0001.png',sizingMethod='scale'); }
+    #image2590 img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+    #image2590 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/image0007_2601.png',sizingMethod='scale'); }
+</style>
+<![endif]-->
+
+<!--[if lte IE 9]>
+<script>
+document.namespaces.add('v', 'urn:schemas-microsoft-com:vml', "#default#VML")
+</script>
+<![endif]-->
+
+<script src="trivantis.js"></script>
+<script src="trivantis-timedate.js"></script>
+<script src="es6-promise-2.0.0.min.js"></script>
+<script src="jquery-1.10.2.min.js"></script>
+<script src="trivantis-cookie.js"></script>
+<script src="trivantis-button.js"></script>
+<script src="trivantis-image.js"></script>
+<script src="trivantis-inline.js"></script>
+<script src="trivantis-text.js"></script>
+<script src="trivantis-trans.js"></script>
+<script src="trivantis-pagetracking.js"></script>
+<script src="trivantis-dialog.js"></script>
+<script src="trivantis-strings.js" charset="UTF-8"></script>
+<script>
+
+<!-- 
+var trivPageScope = {};
+var pgID = 'page2';
+trivWeb20Popups = true;
+var trivPlayer = null;
+var bPageLoaded = false;
+var bDisableBrowserResize = (null);
+var bScaleToWindow = false;
+var bFitToWidth = false;
+var pageHeight = 662;
+var bLoadedVariables = false;
+
+var arObjs = [];
+if( !is.min )
+  document.write( 'Seu navegador não é compatível com html dinâmico. Baixe a versão atual do <a href="http://www.microsoft.com/ie/">Microsoft Internet Explorer</a> ou <a href="http://www.mozilla.com/en-US/firefox/">Mozilla Firefox </a> e tente visitar nosso site novamente.  Obrigado.<br /><br />' )
+
+var pageLayer = null
+var winW = getDisplayWindow().screen.width
+var winH = getDisplayWindow().screen.height
+var transformScale = 1
+
+function findWH(){	//echo LD-769
+	if (is.ie9) {
+	var vScrollAdj =  (is.ns ? 16 : 20);
+	winW = (is.ns) ? window.innerWidth - vScrollAdj : document.body.offsetWidth;
+	winH = (is.ns) ? window.innerHeight : document.body.offsetHeight;
+	}
+	else if (is.ie) {
+   winW = Math.max(Math.max(getDisplayDocument().body.scrollWidth, getDisplayDocument().documentElement.scrollWidth)-16,
+					  Math.max(getDisplayDocument().body.offsetWidth, getDisplayDocument().documentElement.offsetWidth)-16,
+					  Math.max(getDisplayDocument().body.clientWidth, getDisplayDocument().documentElement.clientWidth)-16 );
+   winH = Math.max(Math.max(getDisplayDocument().body.scrollHeight, getDisplayDocument().documentElement.scrollHeight)-16,
+					  Math.max(getDisplayDocument().body.offsetHeight, getDisplayDocument().documentElement.offsetHeight)-16,
+					  Math.max(getDisplayDocument().body.clientHeight, getDisplayDocument().documentElement.clientHeight)-16 );
+	}
+	else
+	{
+   winW =  getDisplayDocument().documentElement.clientWidth ? getDisplayDocument().documentElement.clientWidth : getDisplayDocument().body.clientWidth;
+   if(is.iOS && (navigator.userAgent.indexOf('CellCast-iPad') != -1 || navigator.userAgent.indexOf('CellCast-iPhone') != -1) )
+		 winW =  getScreenWidth();
+   winH =  getDisplayDocument().documentElement.clientHeight ? getDisplayDocument().documentElement.clientHeight : getDisplayDocument().body.clientHeight;
+	}
+}
+
+trivSetupPage();
+
+ if( isSppCapable() && window.trivPlayer === null )window.location.replace("index.html?jmptopg=a001_página_1.html");
+ function ReFlow() {
+  findWH()
+  var left = (winW > 1009) ? (winW-1009)/2 : 0
+  if (pageLayer)
+  {
+    pageLayer.moveTo( left, 0 );
+    if(!bScaleToWindow)
+    pageLayer.hasMoved = true;
+    pageLayer.newX = left;
+    pageLayer.newY = 0;
+   fillBrowser();
+   adjustAllObjectsForFixedPosition();
+   setfixed();
+ }
+}
+
+var arVariables = [];
+
+AICC_Lesson_Status = new Variable( 'AICC_Lesson_Status', '', 0, 0, null, null, 'aula_5', false )
+VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'aula_5', true )
+VarPageInTitle = new Variable( 'VarPageInTitle', null, 0, 0, null, null, 'aula_5' )
+VarPageInTitle.set( '1' )
+VarPagesInTitle = new Variable( 'VarPagesInTitle', null, 0, 0, null, null, 'aula_5' )
+VarPagesInTitle.set( '14' )
+VarClickCount = new Variable( 'VarClickCount', '0', 0, 0, null, null, 'aula_5', false )
+
+onload = init
+if( is.webkit && !is.iOSSafari )
+  onbeforeunload = finish
+else
+  onunload = finish
+
+function init() {
+  trivAlert( '2', 'Aula 5', 'Este título foi criado com a versão de demonstração do Lectora Inspire.\nEste diálogo não aparecerá mais logo que este título é publicado com uma versão completa do produto. <br> Para obter a versão completa do Lectora Inspire, ir para http://www.trivantis.com.', 'init11()' );
+}
+
+function init11() {
+  findWH()
+  if( is.min ){
+    trivPageTracking.InitPageTracking();
+    PreloadResources(new Array(button69,button62,button54,og2586,image2588,image2590,text2591,shape2593,shape2595,shape2597,shape2599))
+    pageLayer = new ObjLayer(GetCurrentPageID());
+    pageLayer.show(true);
+    button69.init()
+    button62.init()
+    button54.init()
+    og2586.init()
+    image2588.init()
+    image2590.init()
+    text2591.init()
+    shape2593.init()
+    shape2595.init()
+    shape2597.init()
+    shape2599.init()
+    button69.activate()
+    button62.activate()
+    button54.activate()
+    og2586.activate()
+    image2588.activate()
+    image2590.activate()
+    text2591.activate()
+    shape2593.activate()
+    shape2595.activate()
+    shape2597.activate()
+    shape2599.activate()
+    window.scrollTo(0,1);
+    var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
+    if(titleManagerIndexWindow)titleManagerIndexWindow.scrollTo(0,1);
+    if(!isSinglePagePlayerAvail()) postPageShowAction();
+    if( location.hash )
+    {
+      var newHash
+      if( location.hash.charAt(0) == '#' )
+        newHash = location.hash.slice( 1 )
+      else
+        newHash = location.hash
+      location.hash = newHash
+      if((typeof(bTrivRunView) != 'undefined'  && bTrivRunView) || (typeof(bTrivOffline) != 'undefined' && bTrivOffline)) window.scrollTo(0 , getTopofObj(document.getElementById(newHash)));
+    }
+    getDisplayDocument().onkeydown=keyDown
+    getDisplayDocument().onkeyup=keyUp
+    setTimeout( 'trivUpdateTOC( 1 )', 100 )
+    bPageLoaded = true;
+    ReFlow();
+    if(!isSinglePagePlayerAvail())
+       loadActions();
+  }
+}
+  window.bLoadedVariables = true;
+function loadActions(){
+    if((window.bPageLoaded && window.bLoadedVariables && getDisplayWindow().pagePlayer &&
+	getDisplayWindow().pagePlayer.arLoadedPages && getDisplayWindow().pagePlayer.arLoadedPages.length == 1) || (window.bPageLoaded && window.bLoadedVariables && !isSinglePagePlayerAvail() )){
+      action75(  );
+
+       postPageShowAction();
+    }
+    else
+      setTimeout(loadActions, 100);
+}
+function postPageShowAction(){
+  if ( trivPageTracking.GetRangeStatus(2) == 'notstarted' ) trivPageTracking.SetRangeStatus(2,2);
+}  
+
+var trivGoToPage = null
+var trivCompleteCnt = 1;
+var hasProcessedExitActions = false;
+var trivActFBCnt = 0;
+var currFeedbackIdx = 0;
+var trivPageExited = false;
+var trivInTest = false;
+
+function finish() {
+}
+
+function trivOnFocus() {
+    if( trivPageExited ) return
+}
+
+function checkLeavePage() {
+    if( trivPageExited ) return
+    if( trivActFBCnt == 0 )
+    {
+        currFeedbackIdx++;
+        if( currFeedbackIdx > -1)
+        {
+            trivLeavePage();
+          return;
+        }
+        else if( !checkQuestions( true ))
+          return;
+    }
+    setTimeout( 'checkLeavePage()', 100)
+}
+
+function trivExitPage( newPage, bFeedback ) {
+    if( newPage.indexOf( "ObjLayerAction" ) >= 0 || newPage.indexOf( "javascript:app." ) >= 0 || newPage.indexOf( ".action" ) >= 0 || newPage.indexOf( "history.back()" ) >= 0) trivGoToPage = newPage
+    else trivGoToPage = 'ObjLayerActionGoTo("' + newPage + '")'
+    if( !hasProcessedExitActions ) {
+        findWH()
+        hasProcessedExitActions = true
+        setTimeout( 'checkLeavePage()', 100)
+    }
+}
+
+function trivLeavePage() {
+    trivCompleteCnt--
+    if( trivCompleteCnt <= 0 ) {
+        hasProcessedExitActions = false
+        if( trivGoToPage != null )
+        {
+			eval( trivGoToPage )
+			trivGoToPage = null;
+			if( window.closed ) trivPageExited = true;
+        }
+    }
+}
+
+function trivPrevPage() {
+}
+
+function trivNextPage() {
+    trivExitPage( 'a001_página_2.html', true )
+}
+
+function trivUpdateTOC( bRecurse ) {
+    var i
+}
+
+function trivUpdateEntry() {
+}
+
+function trivResetEntry(entFld) {
+}
+
+function OnDeviceRotate() {
+
+}
+
+keyVal = 0;
+keyFlags = 0;
+
+function keyDown(e) {
+    if( is.ie ) e = event
+    keyVal = 0
+    if( e.keyCode == 18 )
+        keyFlags = keyFlags | 1
+    else if( e.keyCode == 17 )
+        keyFlags = keyFlags | 2
+    else if( e.keyCode == 16 )
+        keyFlags = keyFlags | 4
+    else
+        keyVal = e.keyCode
+
+    if( keyFlags == 0 && keyVal == 32 ){action77();}
+    if( keyFlags == 0 && keyVal == 13 ){action76();}
+    if( keyFlags == 0 && keyVal == 39 ){action74();}
+    if( keyFlags == 0 && keyVal == 27 ){action72();}
+}
+
+function keyUp(e) {
+    if( is.ie ) e = event
+    if( e.keyCode == 18 )
+        keyFlags = keyFlags & ~1
+    else if( e.keyCode == 17 )
+        keyFlags = keyFlags & ~2
+    else if( e.keyCode == 16 )
+        keyFlags = keyFlags & ~4
+}
+
+function action75(fn){
+    VarClickCount.set('0'); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action70(fn){
+    trivExitPage('a001_página_2.html',true); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action71else(fn){
+    
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action71(fn){
+    if(VarPageInTitle.equals(VarPagesInTitle.getValue()))
+    {button69.setDisabled(true);
+
+    }else{ action71else();}
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function button69onUp() {
+  action70();action71();
+}
+
+function action64else(fn){
+    
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action64(fn){
+    if(VarPageInTitle.equals('1'))
+    {button62.setDisabled(true);
+
+    }else{ action64else();}
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function button62onUp() {
+  action64();
+}
+
+function action55(fn){
+    {cleanupTitle('aula_5'); trivExitPage('ObjLayerActionExit()',false);} 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action56(fn){
+    AICC_Lesson_Status.set('Completed'); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action57(fn){
+    button54.actionHide(); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function button54onUp() {
+  action55();action56();action57();
+}
+
+function action77(fn){
+    trivExitPage('a001_página_2.html',true); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action76(fn){
+    trivExitPage('a001_página_2.html',true); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action74(fn){
+    trivExitPage('a001_página_2.html',true); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function action72(fn){
+    {cleanupTitle('aula_5'); trivExitPage('ObjLayerActionExit()',false);} 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+if( is.min ){
+button69 = new ObjButton('button69', '>',953,6,41.000000,41.000000,1,22,'div','',1,0)
+button69.setUseSvgFile(1)
+button69.setFillStyle(1)
+button69.setUniqueFillID('a001_página_1_button69')
+button69.initRotateAngle(0,0,0,-1.000000,-1.000000,39,39)
+button69.initHasShadow(0)
+button69.initHasReflection(0)
+button69.setImages('images/button69.png', 'images/button69_down.png', 'images/button69_over.png','images/button69_disabled.png');
+button69.setStateOpacity( 1.000000, 1.000000, 1.000000, 0.600000 );
+button69.addIe8Attr(953.000000, 6.000000, 41.000000, 41.000000, 0, 0)
+button69.addOpacity(100)
+button69.initImageMap('20,1,21,1,25,1,28,3,32,4,34,7,37,9,39,13,40,16,40,20,40,21,40,25,39,28,37,32,34,34,32,37,28,39,25,40,21,40,20,40,16,40,13,39,10,37,7,34,4,32,2,28,1,25,1,21,1,20,1,16,3,13,4,9,7,7,9,4,13,3,16,1,20,1','M 20.000000 1.000000 L 21.000000 1.000000 L 24.812500 1.375000 L 28.375000 2.500000 L 31.625000 4.250000 L 34.437500 6.562500 L 36.750000 9.375000 L 38.500000 12.625000 L 39.625000 16.187500 L 40.000000 20.000000 L 40.000000 21.000000 L 39.625000 24.812500 L 38.500000 28.375000 L 36.750000 31.625000 L 34.437500 34.437500 L 31.625000 36.750000 L 28.375000 38.500000 L 24.812500 39.625000 L 21.000000 40.000000 L 20.000000 40.000000 L 16.312500 39.625000 L 12.750000 38.562500 L 9.500000 36.812500 L 6.625000 34.437500 L 4.187500 31.562500 L 2.437500 28.312500 L 1.375000 24.750000 L 1.000000 21.000000 L 1.000000 20.000000 L 1.375000 16.187500 L 2.500000 12.625000 L 4.250000 9.375000 L 6.562500 6.562500 L 9.375000 4.250000 L 12.625000 2.500000 L 16.187500 1.375000 L 20.000000 1.000000 z')
+button69.setFills('                <linearGradient id="LinGrad_a001_página_1_button69" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#0064BB" offset="0.000000"/>                <stop id="Stop1" stop-color="#007CE9" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button69_over" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#13446F" offset="0.000000"/>                <stop id="Stop1" stop-color="#18558A" offset="0.000000"/>                <stop id="Stop2" stop-color="#6BBAFF" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button69_down" x1="0.000000" x2="0.000000" y1="0.000000" y2="1.000000">                <stop id="Stop0" stop-color="#13446F" offset="0.000000"/>                <stop id="Stop1" stop-color="#18558A" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button69_disabled" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#0064BB" offset="0.000000"/>                <stop id="Stop1" stop-color="#007CE9" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button69);"','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button69_over);"','stroke:#0963B1; stroke-width:2; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button69_down);"','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button69_disabled);"')
+button69.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABKSURBVFhH7dDBCcAwCEBR9+kqHaVjZU6pgRxzKy0W3gMPevoYAAAAH8nMUXOuta+KvMS+4W+xM3TOsU59VFTfT4p7onUcAMBexA1cylXmIaFdWwAAAABJRU5ErkJggg==' , 'fill:url(#Text_a001_página_1_button69)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABKSURBVFhH7dDBCcAwCEBR9+kqHaVjZU6pgRxzKy0W3gMPevoYAAAAH8nMUXOuta+KvMS+4W+xM3TOsU59VFTfT4p7onUcAMBexA1cylXmIaFdWwAAAABJRU5ErkJggg==', 'fill:url(#Text_a001_página_1_button69_over)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABJSURBVFhH7dDRCcAwCEBB98kqHaVjZU6pgYzQgqF34Id+PQwAAIADZeasufbaW4Xegr90YvCKXTP2qZcK6/1RgW9oHwgA8EMRDz9rVeaB7KMNAAAAAElFTkSuQmCC', 'fill:url(#Text_a001_página_1_button69_down)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABKSURBVFhH7dDBCcAwCEBR9+kqHaVjZU6pgRxzKy0W3gMPevoYAAAAH8nMUXOuta+KvMS+4W+xM3TOsU59VFTfT4p7onUcAMBexA1cylXmIaFdWwAAAABJRU5ErkJggg==', 'fill:url(#Text_a001_página_1_button69_disabled)')
+button69.setBase64Images( '' , '' , '' , '' )
+button69.initLineWeight('1')
+button69.onUp = button69onUp
+button69.hasOnUp = true
+button69.capture=4
+button69.build()
+
+button62 = new ObjButton('button62', '<',907,6,41.000000,41.000000,1,23,'div','',1,0)
+button62.setUseSvgFile(1)
+button62.setFillStyle(1)
+button62.setUniqueFillID('a001_página_1_button62')
+button62.initRotateAngle(0,0,0,-1.000000,-1.000000,39,39)
+button62.initHasShadow(0)
+button62.initHasReflection(0)
+button62.setImages('images/button62.png', 'images/button62_down.png', 'images/button62_over.png','images/button62_disabled.png');
+button62.setStateOpacity( 1.000000, 1.000000, 1.000000, 0.600000 );
+button62.addIe8Attr(907.000000, 6.000000, 41.000000, 41.000000, 0, 0)
+button62.addOpacity(100)
+button62.initImageMap('20,1,21,1,25,1,28,3,32,4,34,7,37,9,39,13,40,16,40,20,40,21,40,25,39,28,37,32,34,34,32,37,28,39,25,40,21,40,20,40,16,40,13,39,10,37,7,34,4,32,2,28,1,25,1,21,1,20,1,16,3,13,4,9,7,7,9,4,13,3,16,1,20,1','M 20.000000 1.000000 L 21.000000 1.000000 L 24.812500 1.375000 L 28.375000 2.500000 L 31.625000 4.250000 L 34.437500 6.562500 L 36.750000 9.375000 L 38.500000 12.625000 L 39.625000 16.187500 L 40.000000 20.000000 L 40.000000 21.000000 L 39.625000 24.812500 L 38.500000 28.375000 L 36.750000 31.625000 L 34.437500 34.437500 L 31.625000 36.750000 L 28.375000 38.500000 L 24.812500 39.625000 L 21.000000 40.000000 L 20.000000 40.000000 L 16.312500 39.625000 L 12.750000 38.562500 L 9.500000 36.812500 L 6.625000 34.437500 L 4.187500 31.562500 L 2.437500 28.312500 L 1.375000 24.750000 L 1.000000 21.000000 L 1.000000 20.000000 L 1.375000 16.187500 L 2.500000 12.625000 L 4.250000 9.375000 L 6.562500 6.562500 L 9.375000 4.250000 L 12.625000 2.500000 L 16.187500 1.375000 L 20.000000 1.000000 z')
+button62.setFills('                <linearGradient id="LinGrad_a001_página_1_button62" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#0064BB" offset="0.000000"/>                <stop id="Stop1" stop-color="#007CE9" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button62_over" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#13446F" offset="0.000000"/>                <stop id="Stop1" stop-color="#18558A" offset="0.000000"/>                <stop id="Stop2" stop-color="#6BBAFF" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button62_down" x1="0.000000" x2="0.000000" y1="0.000000" y2="1.000000">                <stop id="Stop0" stop-color="#13446F" offset="0.000000"/>                <stop id="Stop1" stop-color="#18558A" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button62_disabled" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#0064BB" offset="0.000000"/>                <stop id="Stop1" stop-color="#007CE9" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button62);"','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button62_over);"','stroke:#0963B1; stroke-width:2; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button62_down);"','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button62_disabled);"')
+button62.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABeSURBVFhH7dTRCcAgDEXR7OMqHaWDdJDOmRghQugET3rPTyRfFxENAAAAAAS4+4iIJ+dVKx0t7l3nWms4Iq4CteKWjLozLiTjOvmb7HZsTr03+XVqrN4/CQAA/sxsAm/VbsRNwVnxAAAAAElFTkSuQmCC' , 'fill:url(#Text_a001_página_1_button62)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABeSURBVFhH7dTRCcAgDEXR7OMqHaWDdJDOmRghQugET3rPTyRfFxENAAAAAAS4+4iIJ+dVKx0t7l3nWms4Iq4CteKWjLozLiTjOvmb7HZsTr03+XVqrN4/CQAA/sxsAm/VbsRNwVnxAAAAAElFTkSuQmCC', 'fill:url(#Text_a001_página_1_button62_over)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABeSURBVFhH7dTRCcAwCEVR9+kqHaWDdJDOqTVgQTrBM9zzY/DrEkIMAAAAADbj7kdE3DnPWmlpgc8611rHmMCK1AtcMuzKwJAN7EbcaPcF59R8o3+TgzX/UQAAgE2ZvbzNbsSWBWUVAAAAAElFTkSuQmCC', 'fill:url(#Text_a001_página_1_button62_down)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABeSURBVFhH7dTRCcAgDEXR7OMqHaWDdJDOmRghQugET3rPTyRfFxENAAAAAAS4+4iIJ+dVKx0t7l3nWms4Iq4CteKWjLozLiTjOvmb7HZsTr03+XVqrN4/CQAA/sxsAm/VbsRNwVnxAAAAAElFTkSuQmCC', 'fill:url(#Text_a001_página_1_button62_disabled)')
+button62.setBase64Images( '' , '' , '' , '' )
+button62.initLineWeight('1')
+button62.onUp = button62onUp
+button62.hasOnUp = true
+button62.capture=4
+button62.build()
+
+button54 = new ObjButton('button54', 'X',861,6,41.000000,41.000000,0,24,'div','',1,0)
+button54.setUseSvgFile(1)
+button54.setFillStyle(1)
+button54.setUniqueFillID('a001_página_1_button54')
+button54.initRotateAngle(0,0,0,-1.000000,-1.000000,39,39)
+button54.initHasShadow(0)
+button54.initHasReflection(0)
+button54.setImages('images/button54.png', 'images/button54_down.png', 'images/button54_over.png','images/button54_disabled.png');
+button54.setStateOpacity( 1.000000, 1.000000, 1.000000, 0.600000 );
+button54.addIe8Attr(861.000000, 6.000000, 41.000000, 41.000000, 0, 0)
+button54.addOpacity(100)
+button54.initImageMap('20,1,21,1,25,1,28,3,32,4,34,7,37,9,39,13,40,16,40,20,40,21,40,25,39,28,37,32,34,34,32,37,28,39,25,40,21,40,20,40,16,40,13,39,10,37,7,34,4,32,2,28,1,25,1,21,1,20,1,16,3,13,4,9,7,7,9,4,13,3,16,1,20,1','M 20.000000 1.000000 L 21.000000 1.000000 L 24.812500 1.375000 L 28.375000 2.500000 L 31.625000 4.250000 L 34.437500 6.562500 L 36.750000 9.375000 L 38.500000 12.625000 L 39.625000 16.187500 L 40.000000 20.000000 L 40.000000 21.000000 L 39.625000 24.812500 L 38.500000 28.375000 L 36.750000 31.625000 L 34.437500 34.437500 L 31.625000 36.750000 L 28.375000 38.500000 L 24.812500 39.625000 L 21.000000 40.000000 L 20.000000 40.000000 L 16.312500 39.625000 L 12.750000 38.562500 L 9.500000 36.812500 L 6.625000 34.437500 L 4.187500 31.562500 L 2.437500 28.312500 L 1.375000 24.750000 L 1.000000 21.000000 L 1.000000 20.000000 L 1.375000 16.187500 L 2.500000 12.625000 L 4.250000 9.375000 L 6.562500 6.562500 L 9.375000 4.250000 L 12.625000 2.500000 L 16.187500 1.375000 L 20.000000 1.000000 z')
+button54.setFills('                <linearGradient id="LinGrad_a001_página_1_button54" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#0064BB" offset="0.000000"/>                <stop id="Stop1" stop-color="#007CE9" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button54_over" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#13446F" offset="0.000000"/>                <stop id="Stop1" stop-color="#18558A" offset="0.000000"/>                <stop id="Stop2" stop-color="#6BBAFF" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button54_down" x1="0.000000" x2="0.000000" y1="0.000000" y2="1.000000">                <stop id="Stop0" stop-color="#13446F" offset="0.000000"/>                <stop id="Stop1" stop-color="#18558A" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','                <linearGradient id="LinGrad_a001_página_1_button54_disabled" x1="0.000000" x2="0.000000" y1="1.000000" y2="0.000000">                <stop id="Stop0" stop-color="#0064BB" offset="0.000000"/>                <stop id="Stop1" stop-color="#007CE9" offset="0.000000"/>                <stop id="Stop2" stop-color="#1994FE" offset="1.000000"/>           </linearGradient>       ','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button54);"','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button54_over);"','stroke:#0963B1; stroke-width:2; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button54_down);"','stroke:#0963B1; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:url(#LinGrad_a001_página_1_button54_disabled);"')
+button54.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACiSURBVFhH7dTLDYQwDITh9LOtpBQKoRDqDOtBEwRLzsTS/t8JOxxGzqMAAAAAM+2htba5vPHa4nIehRiFidaqvsv5NEkH/biuruvxQwYKp1BhVX39TkWhlKxP1e18FE5SbfMvZ3xcojQi2227dU69lIO218Gqwvl7+HZOo1DhvM0RsL+dOc5mD+TypEmO+q+LIH1rHxNTT2sh33sJAAD+XSlfqWHMRUzehowAAAAASUVORK5CYII=' , 'fill:url(#Text_a001_página_1_button54)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACiSURBVFhH7dTLDYQwDITh9LOtpBQKoRDqDOtBEwRLzsTS/t8JOxxGzqMAAAAAM+2htba5vPHa4nIehRiFidaqvsv5NEkH/biuruvxQwYKp1BhVX39TkWhlKxP1e18FE5SbfMvZ3xcojQi2227dU69lIO218Gqwvl7+HZOo1DhvM0RsL+dOc5mD+TypEmO+q+LIH1rHxNTT2sh33sJAAD+XSlfqWHMRUzehowAAAAASUVORK5CYII=', 'fill:url(#Text_a001_página_1_button54_over)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACiSURBVFhH7dTLEYMwDIRh95NWXAqFUAh1mmiZNQPBd4vM/52QzGFHfhQAAADgzfbQWttc3nhtcTmXgowCRWtV32UOmqjDflxX1/X4IQsFVLCwqr5+p6NgSten63ZOCijptvyXcz4uViqR77b1OrdeykNb7XBVAf09fFunUrBw3vII2d/WPGe1h3J50kRH/SkiTN/mx+TU01rI+Z4CAAD8sVK+eDnMRUXiS3oAAAAASUVORK5CYII=', 'fill:url(#Text_a001_página_1_button54_down)', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACiSURBVFhH7dTLDYQwDITh9LOtpBQKoRDqDOtBEwRLzsTS/t8JOxxGzqMAAAAAM+2htba5vPHa4nIehRiFidaqvsv5NEkH/biuruvxQwYKp1BhVX39TkWhlKxP1e18FE5SbfMvZ3xcojQi2227dU69lIO218Gqwvl7+HZOo1DhvM0RsL+dOc5mD+TypEmO+q+LIH1rHxNTT2sh33sJAAD+XSlfqWHMRUzehowAAAAASUVORK5CYII=', 'fill:url(#Text_a001_página_1_button54_disabled)')
+button54.setBase64Images( '' , '' , '' , '' )
+button54.initLineWeight('1')
+button54.onUp = button54onUp
+button54.hasOnUp = true
+button54.capture=4
+button54.build()
+
+og2586 = new ObjInline('og2586',null,0,0,1009,662,1,0)
+og2586.isGrp = true
+og2586.addChild('image2588')
+og2586.addChild('image2590')
+og2586.addChild('text2591')
+og2586.addChild('shape2593')
+og2586.addChild('shape2595')
+og2586.addChild('shape2597')
+og2586.addChild('shape2599')
+og2586.build()
+
+image2588 = new ObjImage('image2588','images/image0001.png','object 2',0,174,577,488,1,4,'div',null, 0 )
+image2588.initRotateAngle(0,0,1,0,0,0,0)
+image2588.initHasShadow(0)
+image2588.initHasReflection(0)
+image2588.addIe8Attr(0, 174, 577, 488, 0, 0)
+image2588.initImageMap(1,'0,0,577,0,577,488,0,488,0,0','M 0 0 L 577 0 L 577 488 L 0 488 L 0 0 z')
+image2588.addBorder(0)
+image2588.addOpacity(100)
+image2588.build()
+
+image2590 = new ObjImage('image2590','images/image0007_2601.png','Freeform: Shape 3',600,0,408,408,1,5,'div',null, 0 )
+image2590.initRotateAngle(0,0,0,0,0,0,0)
+image2590.initHasShadow(0)
+image2590.initHasReflection(0)
+image2590.addIe8Attr(600, 0, 408, 408, 0, 0)
+image2590.initImageMap(1,'0,0,408,0,408,408,0,408,0,0','M 0 0 L 408 0 L 408 408 L 0 408 L 0 0 z')
+image2590.addBorder(0)
+image2590.addOpacity(100)
+image2590.build()
+
+text2591 = new ObjText('text2591',null,53,79,429,53,1,6,null,'div',null,0 )
+text2591.initSLine(0)
+text2591.initHasBullet(0)
+text2591.initRotateAngle(0,0,0)
+text2591.initHasOuterShadow(0)
+text2591.initHasTextShadow(0)
+text2591.initHasBorder(0)
+text2591.initHasOutline(0)
+text2591.initHasMargin(6)
+text2591.addIe8Attr(53, 79, 429, 53, 0, 0)
+text2591.addOpacity(100)
+text2591.arrCSSStyles = new Array();
+text2591.arrCSSStyles.push('span.text2591Font1 { font-size:37px; font-family:"Arial", sans-serif; color:#000080; font-weight:bold;}');
+text2591.arrCSSStyles.push('span.text2591Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text2591.addInnerText('<div id=\"text2591\"><a id=\"text2591anc\" style=\"display:block;height:0px;width:0px;\"></a>\n<table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2591Font1\"  >Aula 5</span ><span class=\"text2591Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text2591.build()
+
+shape2593 = new ObjImage('shape2593','images/shape2593.png','Rectangle 8',-1,645,1011.000000,18.000000,1,7,'div','',0 )
+shape2593.initRotateAngle(0,0,0,-1.000000,-1.000000,1009,16)
+shape2593.initHasShadow(0)
+shape2593.initHasReflection(0)
+shape2593.setUniqueFillID('a001_página_1_shape2593')
+shape2593.addIe8Attr(-1.000000, 645.000000, 1011.000000, 18.000000, -1, 0)
+shape2593.initImageMap(1,'1,1,1010,1,1010,17,1,17,1,1','M 1.000000 1.000000 L 1010.000000 1.000000 L 1010.000000 17.000000 L 1.000000 17.000000 L 1.000000 1.000000 z', '', 'stroke:#2F528F; stroke-width:1; stroke-linejoin:round;stroke-dasharray: none; fill:#0E2766;"' , '')
+shape2593.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA/MAAAASCAYAAAAXDI4ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABeSURBVHhe7cExAQAAAMKg9U9tB28gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADjUABx5AAHqmx/jAAAAAElFTkSuQmCC' , 'fill:url(#Text_a001_página_1_shape2593)')
+shape2593.setUseSvgFile(1)
+shape2593.addBorder(0)
+shape2593.initLineWeight(1)
+shape2593.addOpacity(100)
+shape2593.build()
+
+shape2595 = new ObjImage('shape2595','images/shape2595.png','Oval 7',61,132,12.000000,12.000000,1,8,'div','',0 )
+shape2595.initRotateAngle(0,0,0,-0.000000,-0.000000,11,11)
+shape2595.initHasShadow(0)
+shape2595.initHasReflection(0)
+shape2595.setUniqueFillID('a001_página_1_shape2595')
+shape2595.addIe8Attr(61.000000, 132.000000, 12.000000, 12.000000, 0, 0)
+shape2595.initImageMap(1,'0,6,0,3,2,2,3,0,6,0,8,0,9,2,11,3,11,6,11,8,9,9,8,11,6,11,3,11,2,9,0,8,0,6','M 0.000000 5.500000 L 0.437500 3.375000 L 1.625000 1.625000 L 3.375000 0.437500 L 5.500000 0.000000 L 7.625000 0.437500 L 9.375000 1.625000 L 10.562500 3.375000 L 11.000000 5.500000 L 10.562500 7.625000 L 9.375000 9.375000 L 7.625000 10.562500 L 5.500000 11.000000 L 3.375000 10.562500 L 1.625000 9.375000 L 0.437500 7.625000 L 0.000000 5.500000 z', '', 'fill:#0E2766;"' , '')
+shape2595.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAQSURBVChTYxgFo4AqgIEBAAJMAAH8Lw67AAAAAElFTkSuQmCC' , 'fill:url(#Text_a001_página_1_shape2595)')
+shape2595.setUseSvgFile(1)
+shape2595.addBorder(0)
+shape2595.initLineWeight(0)
+shape2595.addOpacity(100)
+shape2595.build()
+
+shape2597 = new ObjImage('shape2597','images/shape2597.png','Oval 8',81,132,12.000000,12.000000,1,9,'div','',0 )
+shape2597.initRotateAngle(0,0,0,-0.000000,-0.000000,11,11)
+shape2597.initHasShadow(0)
+shape2597.initHasReflection(0)
+shape2597.setUniqueFillID('a001_página_1_shape2597')
+shape2597.addIe8Attr(81.000000, 132.000000, 12.000000, 12.000000, 0, 0)
+shape2597.initImageMap(1,'0,6,0,3,2,2,3,0,6,0,8,0,9,2,11,3,11,6,11,8,9,9,8,11,6,11,3,11,2,9,0,8,0,6','M 0.000000 5.500000 L 0.437500 3.375000 L 1.625000 1.625000 L 3.375000 0.437500 L 5.500000 0.000000 L 7.625000 0.437500 L 9.375000 1.625000 L 10.562500 3.375000 L 11.000000 5.500000 L 10.562500 7.625000 L 9.375000 9.375000 L 7.625000 10.562500 L 5.500000 11.000000 L 3.375000 10.562500 L 1.625000 9.375000 L 0.437500 7.625000 L 0.000000 5.500000 z', '', 'fill:#01D1DD;"' , '')
+shape2597.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAQSURBVChTYxgFo4AqgIEBAAJMAAH8Lw67AAAAAElFTkSuQmCC' , 'fill:url(#Text_a001_página_1_shape2597)')
+shape2597.setUseSvgFile(1)
+shape2597.addBorder(0)
+shape2597.initLineWeight(0)
+shape2597.addOpacity(100)
+shape2597.build()
+
+shape2599 = new ObjImage('shape2599','images/shape2599.png','Oval 9',100,132,12.000000,12.000000,1,10,'div','',0 )
+shape2599.initRotateAngle(0,0,0,-0.000000,-0.000000,11,11)
+shape2599.initHasShadow(0)
+shape2599.initHasReflection(0)
+shape2599.setUniqueFillID('a001_página_1_shape2599')
+shape2599.addIe8Attr(100.000000, 132.000000, 12.000000, 12.000000, 0, 0)
+shape2599.initImageMap(1,'0,6,0,3,2,2,3,0,6,0,8,0,9,2,11,3,11,6,11,8,9,9,8,11,6,11,3,11,2,9,0,8,0,6','M 0.000000 5.500000 L 0.437500 3.375000 L 1.625000 1.625000 L 3.375000 0.437500 L 5.500000 0.000000 L 7.625000 0.437500 L 9.375000 1.625000 L 10.562500 3.375000 L 11.000000 5.500000 L 10.562500 7.625000 L 9.375000 9.375000 L 7.625000 10.562500 L 5.500000 11.000000 L 3.375000 10.562500 L 1.625000 9.375000 L 0.437500 7.625000 L 0.000000 5.500000 z', '', 'fill:#29B9A2;"' , '')
+shape2599.setTextVal('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAQSURBVChTYxgFo4AqgIEBAAJMAAH8Lw67AAAAAElFTkSuQmCC' , 'fill:url(#Text_a001_página_1_shape2599)')
+shape2599.setUseSvgFile(1)
+shape2599.addBorder(0)
+shape2599.initLineWeight(0)
+shape2599.addOpacity(100)
+shape2599.build()
+
+arObjs.push(button69);
+arObjs.push(button62);
+arObjs.push(button54);
+arObjs.push(og2586);
+arObjs.push(image2588);
+arObjs.push(image2590);
+arObjs.push(text2591);
+arObjs.push(shape2593);
+arObjs.push(shape2595);
+arObjs.push(shape2597);
+arObjs.push(shape2599);
+
+
+writeStyleSheets(arObjs);}
+// -->
+
+</script>
+</head>
+
+<body onfocus="trivOnFocus()" onResize="ReFlow()">
+
+   <DIV id="pageDIV" class="pageDIV">
+<div id="og2586"><a id="og2586anc"></a></div>
+   </DIV>
+<script>
+if( is.min ){
+    findWH()
+    var left = (winW > 1009) ? (winW-1009)/2 : 0
+    document.write('<style type="text/css">.pageDIV { position: absolute; top:0px; left: ' + left + 'px; width:1009px; height:662px; clip:rect(0px 1009px 662px 0px); overflow:hidden;' )
+    if(is.iOS)
+		document.write('-webkit-text-size-adjust:100%;')
+    document.write('} </style>')
+}
+</script>
+
+<script>
+if( is.min ){
+    appendElement(button69, null, null);
+    appendElement(button62, null, null);
+    appendElement(button54, null, null);
+    appendElement(image2588, null, null);
+    appendElement(image2590, null, null);
+    appendElement(text2591, null, null);
+    appendElement(shape2593, null, null);
+    appendElement(shape2595, null, null);
+    appendElement(shape2597, null, null);
+    appendElement(shape2599, null, null);
+}
+</script>
+
+</body>
+</html>

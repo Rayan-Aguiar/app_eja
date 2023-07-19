@@ -1,0 +1,1935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>1229</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="166" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="167" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="450" resourcetype="image">
+<name>Imagem 3.bmp</name>
+<relativelink>images\Imagem 3.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1221" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1222" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="76">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 3</name>
+<lastupdated>1687895155</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="75" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="76" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="70" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="68" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="69" parent="68" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="62" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="63" parent="62" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="54" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="55" parent="54" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="56" parent="54" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="54" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="54">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1687895155</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="1206" parent="40">
+<name>Página 1</name>
+<lastupdated>1689702942</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="1207" parent="1206">
+<name>Grupo_1</name>
+<lastupdated>1689702942</lastupdated>
+<image id="1209" parent="1207" resource="1221" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689702942</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1211" parent="1207" resource="1222" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689702942</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1212" parent="1207" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689702949</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1212Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1212Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1212Font1&quot;  &gt;Aula 16&lt;/span &gt;&lt;span class=&quot;text1212Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 16\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 16</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="1214" parent="1207" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689702942</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1216" parent="1207" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689702942</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1218" parent="1207" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689702942</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1220" parent="1207" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689702942</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="152" parent="40">
+<name>Página 2</name>
+<lastupdated>1687894324</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="221" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687894324</lastupdated>
+<possize>
+<point>
+<x>514</x>
+<y>89</y>
+</point>
+<size>
+<cx>478</cx>
+<cy>559</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text221Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text221Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text221Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot;  &gt;Tipos de textos&lt;/span &gt;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font3&quot;  &gt;Texto narrativo&lt;/span &gt;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot;  &gt;Trata-se da tipologia textual mais antiga, que nos cerca diariamente. Nela, um narrador terÃ¡ o papel de relatar um acontecimento real ou fictÃ­cio, envolvendo personagens e lugares.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot;  &gt;Sempre hÃ¡ uma relaÃ§Ã£o de anterioridade e posterioridade (o que aconteceu primeiro, o que veio depois). Os tempos verbais mais usados sÃ£o os do pretÃ©rito.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot;  &gt;Uma narraÃ§Ã£o busca responder o que, quando, como, onde e por quÃª algo aconteceu. Ela aparece em: contos infantis; piadas; depoimentos; crÃ´nicas; novelas. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font3&quot;  &gt;Texto descritivo&lt;/span &gt;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font2&quot;  &gt;O objetivo dessa modalidade Ã© descrever, de maneira objetiva ou subjetiva, pessoas, coisas, lugares, sensaÃ§Ãµes ou situaÃ§Ãµes. A intenÃ§Ã£o Ã© que o interlocutor crie uma imagem a partir dessa descriÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs36\b Tipos de textos\fs28\b0\par\par\fs32\b Texto narrativo\fs28\b0\par\par Trata-se da tipologia textual mais antiga, que nos cerca diariamente. Nela, um narrador ter\&apos;e1 o papel de relatar um acontecimento &#x0A;real ou fict\&apos;edcio, envolvendo personagens e lugares.\par\par Sempre h\&apos;e1 uma rela\&apos;e7\&apos;e3o de anterioridade e posterioridade (o que aconteceu primeiro, o que veio depois). Os tempos verbais mais usados s\&apos;e3o os do pret\&apos;e9rito.\par\par Uma narra\&apos;e7\&apos;e3o &#x0A;busca responder o que, quando, como, onde e por qu\&apos;ea algo aconteceu. Ela aparece em: contos infantis; piadas; depoimentos; cr\&apos;f4nicas; novelas. \par\par\fs32\b Texto descritivo\fs28\b0\par\par O objetivo dessa modalidade \&apos;e9 descrever, de maneira &#x0A;objetiva ou subjetiva, pessoas, coisas, lugares, sensa\&apos;e7\&apos;f5es ou situa\&apos;e7\&apos;f5es. A inten\&apos;e7\&apos;e3o \&apos;e9 que o interlocutor crie uma imagem a partir dessa descri\&apos;e7\&apos;e3o.\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Tipos de textos&#x0A;&#x0A;Texto narrativo&#x0A;&#x0A;Trata-se da tipologia textual mais antiga, que nos cerca diariamente. Nela, um narrador ter� o papel de relatar um acontecimento real ou fict�cio, envolvendo personagens e lugares.&#x0A;&#x0A;Sempre h� uma rela��o de anterioridade e posterioridade (o que aconteceu primeiro, o que veio depois). Os tempos verbais mais usados s�o os do pret�rito.&#x0A;&#x0A;Uma narra��o busca responder o que, quando, como, onde e por qu� algo aconteceu. Ela aparece em: contos infantis; piadas; depoimentos; cr�nicas; novelas. &#x0A;&#x0A;Texto descritivo&#x0A;&#x0A;O objetivo dessa modalidade � descrever, de maneira objetiva ou subjetiva, pessoas, coisas, lugares, sensa��es ou situa��es. A inten��o � que o interlocutor crie uma imagem a partir dessa descri��o.&#x0A;</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="191" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687894247</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>140</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>502</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text191Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot;  &gt;As tipologias textuais referem-se Ã s diferentes formas que um texto pode apresentar, visando as diferentes formas e intenÃ§Ãµes comunicativas que variam de acordo com a finalidade do texto: contar, descrever, argumentar, informar dentre outras. Existem diferentes tipos de texto com diferentes caracterÃ­sticas relacionadas a estrutura, construÃ§Ãµes frÃ¡sicas, linguagem, vocabulÃ¡rio, tempos verbais, relaÃ§Ãµes lÃ³gicas, modo de interaÃ§Ã£o com o leitor etc.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot;  &gt;De acordo com a tipologia textual, eles sÃ£o classificados em cinco tipos: texto narrativo, texto descritivo, texto dissertativo, texto expositivo e texto injuntivo. O texto narrativo Ã© o Ãºnico que pode apresentar passagens de vÃ¡rias tipologias textuais. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\lang1046\hich\f2\loch\f2\cf2\fs28 As tipologias textuais referem-se \&apos;e0s diferentes formas que um texto pode apresentar, visando as diferentes formas e inten\&apos;e7\&apos;f5es comunicativas que variam de acordo com a finalidade do texto: &#x0A;contar, descrever, argumentar, informar dentre outras. Existem diferentes tipos de texto com diferentes caracter\&apos;edsticas relacionadas a estrutura, constru\&apos;e7\&apos;f5es fr\&apos;e1sicas, linguagem, vocabul\&apos;e1rio, tempos verbais, rela\&apos;e7\&apos;f5es l\&apos;f3gicas, modo &#x0A;de intera\&apos;e7\&apos;e3o com o leitor etc.\par\lang1046\hich\f1\loch\f1\par\lang1046\hich\f2\loch\f2 De acordo com a tipologia textual, eles s\&apos;e3o classificados em cinco tipos: texto narrativo, texto descritivo, texto dissertativo, texto expositivo e texto &#x0A;injuntivo. O texto narrativo \&apos;e9 o \&apos;fanico que pode apresentar passagens de v\&apos;e1rias tipologias textuais. \lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?As tipologias textuais referem-se �s diferentes formas que um texto pode apresentar, visando as diferentes formas e inten��es comunicativas que variam de acordo com a finalidade do texto: contar, descrever, argumentar, informar dentre outras. Existem diferentes tipos de texto com diferentes caracter�sticas relacionadas a estrutura, constru��es fr�sicas, linguagem, vocabul�rio, tempos verbais, rela��es l�gicas, modo de intera��o com o leitor etc.&#x0A;&#x0A;De acordo com a tipologia textual, eles s�o classificados em cinco tipos: texto narrativo, texto descritivo, texto dissertativo, texto expositivo e texto injuntivo. O texto narrativo � o �nico que pode apresentar passagens de v�rias tipologias textuais. </raw>
+<numoflines>16</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="165" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="163" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="161" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="159" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687894214</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text159Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text159Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text159Font1&quot;  &gt;Tipologias textuais&lt;/span &gt;&lt;span class=&quot;text159Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Tipologias textuais\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipologias textuais</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="158" parent="152" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="156" parent="152" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="868" parent="40">
+<name>Página 3</name>
+<lastupdated>1689702953</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="869" parent="868" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687894446</lastupdated>
+<possize>
+<point>
+<x>514</x>
+<y>89</y>
+</point>
+<size>
+<cx>478</cx>
+<cy>559</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text869Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text869Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text869Font1&quot;  &gt;Texto dissertativo&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text869Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text869Font1&quot;  &gt;O objetivo desse tipo de texto Ã© expor e/ou deba_ter um tema. Para tanto, Ã© necessÃ¡rio construir argumentos fortes, atentos Ã  atualidade e com condiÃ§Ãµes de serem comprovados.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text869Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text869Font1&quot;  &gt;Para transmitir autoridade em um texto dissertativo, Ã© preciso dominar bem o assunto. Caso contrÃ¡rio, corre-se o risco de cair no senso comum ou dar informaÃ§Ãµes baseadas no &quot;achismo&quot;. A estrutura da dissertaÃ§Ã£o divide-se em:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text869Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text869Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text869ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text869Font1&quot;  &gt;introduÃ§Ã£o â€“ exposiÃ§Ã£o do tema;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text869Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text869Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text869ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text869Font1&quot;  &gt;desenvolvimento â€“ apresentaÃ§Ã£o de argumen_tos que contribuam para o ponto de vista do autor e guiem o leitor;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text869Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text869Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text869ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text869Font1&quot;  &gt;conclusÃ£o â€“ retorno ao tema, para concluir ou finalizar a abordagem.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\lang1046\hich\f2\loch\f2\cf2\fs28 Texto dissertativo\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 O objetivo desse tipo de texto \u233 \&apos;e9 expor e/ou deba&#x02;ter um tema. Para tanto, \u233 \&apos;e9 necess\u225 \&apos;e1rio construir &#x0A;argumentos fortes, atentos \u224 \&apos;e0 atualidade e com condi\u231 \&apos;e7\u245 \&apos;f5es de serem comprovados.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Para transmitir autoridade em um texto dissertativo, \u233 \&apos;e9 preciso dominar bem o assunto. &#x0A;Caso contr\u225 \&apos;e1rio, corre-se o risco de cair no senso comum ou dar informa\u231 \&apos;e7\u245 \&apos;f5es baseadas no &quot;achismo&quot;. A estrutura da disserta\u231 \&apos;e7\u227 \&apos;e3o divide-se em:\par\lang1046\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28 introdu\u231 \&apos;e7\u227 \&apos;e3o \u8211 \&apos;96 exposi\u231 \&apos;e7\u227 \&apos;e3o do tema;\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28 &#x0A;desenvolvimento \u8211 \&apos;96 apresenta\u231 \&apos;e7\u227 \&apos;e3o de argumen&#x02;tos que contribuam para o ponto de vista do autor e guiem o leitor;\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28 &#x0A;conclus\u227 \&apos;e3o \u8211 \&apos;96 retorno ao tema, para concluir ou finalizar a abordagem.\lang1046\hich\f2\loch\f2\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Texto dissertativo&#x0A;&#x0A;O objetivo desse tipo de texto � expor e/ou deba_ter um tema. Para tanto, � necess�rio construir argumentos fortes, atentos � atualidade e com condi��es de serem comprovados.&#x0A;&#x0A;Para transmitir autoridade em um texto dissertativo, � preciso dominar bem o assunto. Caso contr�rio, corre-se o risco de cair no senso comum ou dar informa��es baseadas no &quot;achismo&quot;. A estrutura da disserta��o divide-se em:&#x0A;&#x0A;introdu��o � exposi��o do tema;&#x0A;&#x0A;desenvolvimento � apresenta��o de argumen_tos que contribuam para o ponto de vista do autor e guiem o leitor;&#x0A;&#x0A;conclus�o � retorno ao tema, para concluir ou finalizar a abordagem.&#x0A;</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text869ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text869ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text869ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>22</numoflines>
+<numpubbullets>3</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="870" parent="868" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687894396</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>140</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>502</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text870Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text870Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text870Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text870ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text870Font1&quot;  &gt;numeraÃ§Ã£o â€“ com ela, Ã© possÃ­vel criar um retrato da descriÃ§Ã£o. Uma situaÃ§Ã£o ou um objeto Ã© narrado numa ordem, como se fosse uma aÃ§Ã£o em movimento, atÃ© a imagem ser montada;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text870Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text870Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text870ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text870Font1&quot;  &gt;comparaÃ§Ã£o â€“ as comparaÃ§Ãµes ajudam o interlocutor a entender o que estÃ¡ sendo dito. Trata-se de um recurso de grande valia para facilitar a interpretaÃ§Ã£o do texto.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text870Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text870Font1&quot;  &gt;A sinestesia Ã© muito utilizada nos textos descritivos. Por meio dela, hÃ¡ uma associaÃ§Ã£o de palavras ou expressÃµes apresentando combinaÃ§Ã£o de sensaÃ§Ãµes diferentes â€“ aÃ§Ãµes ou personagens sÃ£o descritos por meio dos sentidos (tato, paladar, olfato, audiÃ§Ã£o e visÃ£o). Assim, o interlocutor compreende o contexto, sentindo ou visualizando a cena descrita. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\lang1046\hich\f2\loch\f2\cf2\fs28 numera\u231 \&apos;e7\u227 \&apos;e3o \u8211 \&apos;96 com ela, \u233 \&apos;e9 poss\u237 \&apos;edvel criar um retrato da descri\u231 \&apos;e7\u227 \&apos;e3o. Uma &#x0A;situa\u231 \&apos;e7\u227 \&apos;e3o ou um objeto \u233 \&apos;e9 narrado numa ordem, como se fosse uma a\u231 \&apos;e7\u227 \&apos;e3o em movimento, at\u233 \&apos;e9 a imagem ser montada;\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28 compara\u231 \&apos;e7\u227 \&apos;e3o \u8211 \&apos;96 as compara\u231 \&apos;e7\u245 \&apos;f5es ajudam o interlocutor a entender o que est\u225 \&apos;e1 sendo dito. Trata-se de um recurso de grande valia para &#x0A;facilitar a interpreta\u231 \&apos;e7\u227 \&apos;e3o do texto.\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\lang1046\hich\f2\loch\f2 A sinestesia \u233 \&apos;e9 muito utilizada nos textos descritivos. Por meio dela, h\u225 \&apos;e1 uma associa\u231 \&apos;e7\u227 &#x0A;\&apos;e3o de palavras ou express\u245 \&apos;f5es apresentando combina\u231 \&apos;e7\u227 \&apos;e3o de sensa\u231 \&apos;e7\u245 \&apos;f5es diferentes \u8211 \&apos;96 a\u231 \&apos;e7\u245 \&apos;f5es ou personagens s\u227 \&apos;e3o descritos por meio dos sentidos (tato, paladar, olfato, audi\u231 &#x0A;\&apos;e7\u227 \&apos;e3o e vis\u227 \&apos;e3o). Assim, o interlocutor compreende o contexto, sentindo ou visualizando a cena descrita.\lang1046\hich\f2\loch\f2  \par}&#x0A;</rtf>
+<raw>?numera��o � com ela, � poss�vel criar um retrato da descri��o. Uma situa��o ou um objeto � narrado numa ordem, como se fosse uma a��o em movimento, at� a imagem ser montada;&#x0A;&#x0A;compara��o � as compara��es ajudam o interlocutor a entender o que est� sendo dito. Trata-se de um recurso de grande valia para facilitar a interpreta��o do texto.&#x0A;&#x0A;A sinestesia � muito utilizada nos textos descritivos. Por meio dela, h� uma associa��o de palavras ou express�es apresentando combina��o de sensa��es diferentes � a��es ou personagens s�o descritos por meio dos sentidos (tato, paladar, olfato, audi��o e vis�o). Assim, o interlocutor compreende o contexto, sentindo ou visualizando a cena descrita. </raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text870ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text870ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text870ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>18</numoflines>
+<numpubbullets>3</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="872" parent="868" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687894328</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="874" parent="868" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687894328</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="876" parent="868" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687894328</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="877" parent="868" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687894328</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text877Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text877Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text877Font1&quot;  &gt;Tipologias textuais&lt;/span &gt;&lt;span class=&quot;text877Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Tipologias textuais\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipologias textuais</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="879" parent="868" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687894328</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="881" parent="868" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687894328</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="898" parent="40">
+<name>Página 4</name>
+<lastupdated>1689702954</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="899" parent="898" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687894621</lastupdated>
+<possize>
+<point>
+<x>514</x>
+<y>89</y>
+</point>
+<size>
+<cx>478</cx>
+<cy>559</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text899Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text899Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text899Font3 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text899Font1&quot;  &gt;Texto expositivo &lt;/span &gt;&lt;span class=&quot;text899Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text899Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text899Font2&quot;  &gt;O principal objetivo dessa tipologia Ã© transmitir uma mensagem da forma mais clara possÃ­vel. Sua funÃ§Ã£o Ã© ser descritivo, preciso, esclarecedor e compreensÃ­vel. Dessa forma, o leitor tem informaÃ§Ãµes suficientes para compreender o assunto ou interpretar os dados. Os gÃªneros mais comuns presentes no nosso cotidiano sÃ£o: artigos cientÃ­ficos, notÃ­cias, manuais.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text899Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text899Font1&quot;  &gt;Texto injuntivo ou instrucional &lt;/span &gt;&lt;span class=&quot;text899Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text899Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text899Font2&quot;  &gt;Este texto tem a funÃ§Ã£o de transmitir informaÃ§Ãµes aoleitor, instruir, explicar, utilizando mÃ©todos para a concretizaÃ§Ã£o de uma aÃ§Ã£o, mas sem a intenÃ§Ã£o de persuasÃ£o. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text899Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text899Font2&quot;  &gt;Esses textos incitam a aÃ§Ã£o dos destinatÃ¡rios, controlando, assim, seu comportamento, ao fornecer instruÃ§Ãµes e indicaÃ§Ãµes para a realizaÃ§Ã£o de um trabalho ou a utilizaÃ§Ã£o correta de instrumentos e/ouferramentas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text899Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text899Font2&quot;  &gt;Essa tipologia estÃ¡ presente em: receita de bolo; bula de remÃ©dio; manual de instruÃ§Ãµes; propagandas.&lt;/span &gt;&lt;span class=&quot;text899Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs32\b Texto expositivo \fs28\b0\par\par O principal objetivo dessa tipologia \&apos;e9 transmitir uma mensagem da forma mais clara poss\&apos;edvel. Sua fun\&apos;e7\&apos;e3o \&apos;e9 ser descritivo, preciso, esclarecedor e compreens\&apos;edvel. &#x0A;Dessa forma, o leitor tem informa\&apos;e7\&apos;f5es suficientes para compreender o assunto ou interpretar os dados. Os g\&apos;eaneros mais comuns presentes no nosso cotidiano s\&apos;e3o: artigos cient\&apos;edficos, not\&apos;edcias, manuais.\par\par\fs32\b Texto injuntivo ou &#x0A;instrucional \fs28\b0\par\par Este texto tem a fun\&apos;e7\&apos;e3o de transmitir informa\&apos;e7\&apos;f5es aoleitor, instruir, explicar, utilizando m\&apos;e9todos para a concretiza\&apos;e7\&apos;e3o de uma a\&apos;e7\&apos;e3o, mas sem a inten\&apos;e7\&apos;e3o de persuas\&apos;e3o. \par\par Esses textos &#x0A;incitam a a\&apos;e7\&apos;e3o dos destinat\&apos;e1rios, controlando, assim, seu comportamento, ao fornecer instru\&apos;e7\&apos;f5es e indica\&apos;e7\&apos;f5es para a realiza\&apos;e7\&apos;e3o de um trabalho ou a utiliza\&apos;e7\&apos;e3o correta de instrumentos e/ouferramentas.\par\par Essa tipologia &#x0A;est\&apos;e1 presente em: receita de bolo; bula de rem\&apos;e9dio; manual de instru\&apos;e7\&apos;f5es; propagandas.\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Texto expositivo &#x0A;&#x0A;O principal objetivo dessa tipologia � transmitir uma mensagem da forma mais clara poss�vel. Sua fun��o � ser descritivo, preciso, esclarecedor e compreens�vel. Dessa forma, o leitor tem informa��es suficientes para compreender o assunto ou interpretar os dados. Os g�neros mais comuns presentes no nosso cotidiano s�o: artigos cient�ficos, not�cias, manuais.&#x0A;&#x0A;Texto injuntivo ou instrucional &#x0A;&#x0A;Este texto tem a fun��o de transmitir informa��es aoleitor, instruir, explicar, utilizando m�todos para a concretiza��o de uma a��o, mas sem a inten��o de persuas�o. &#x0A;&#x0A;Esses textos incitam a a��o dos destinat�rios, controlando, assim, seu comportamento, ao fornecer instru��es e indica��es para a realiza��o de um trabalho ou a utiliza��o correta de instrumentos e/ouferramentas.&#x0A;&#x0A;Essa tipologia est� presente em: receita de bolo; bula de rem�dio; manual de instru��es; propagandas.</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="900" parent="898" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687894552</lastupdated>
+<possize>
+<point>
+<x>18</x>
+<y>140</y>
+</point>
+<size>
+<cx>466</cx>
+<cy>468</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text900Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text900Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text900Font1&quot;  &gt;DissertaÃ§Ã£o expositiva&lt;/span &gt;&lt;span class=&quot;text900Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text900Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text900Font2&quot;  &gt;A dissertaÃ§Ã£o expositiva apresenta informaÃ§Ãµes sobre assuntos consagrados ou legitimados. Suas principais funÃ§Ãµes sÃ£o esclarecer, informar ou avaliar, sem haver interferÃªncia da opiniÃ£o do autor.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text900Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text900Font2&quot;  &gt;A linguagem Ã© clara, objetiva e impessoal. A maioria dos verbos Ã© conjugada no presente do indicativo. Alguns exemplos sÃ£o: textos cientÃ­ficos; enciclopÃ©dias; notÃ­cias de jornais.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text900Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text900Font1&quot;  &gt;DissertaÃ§Ã£o argumentativa&lt;/span &gt;&lt;span class=&quot;text900Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text900Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text900Font2&quot;  &gt;Uma de suas caracterÃ­sticas Ã© a persuasÃ£o, com argumentos que convenÃ§am o leitor. As ideias surgem numa progressÃ£o lÃ³gica e devem estar conectadas ao contexto; geralmente, a linguagem utilizada Ã© denotativa, precisa, literal. Ã‰ comum a gÃªneros formais, como: ensaio; monografia; crÃ­tica; manifestos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs36\b Disserta\&apos;e7\&apos;e3o expositiva\fs28\b0\par\par A disserta\&apos;e7\&apos;e3o expositiva apresenta informa\&apos;e7\&apos;f5es sobre assuntos consagrados ou legitimados. Suas principais fun\&apos;e7\&apos;f5es s\&apos;e3o esclarecer, informar &#x0A;ou avaliar, sem haver interfer\&apos;eancia da opini\&apos;e3o do autor.\par\par A linguagem \&apos;e9 clara, objetiva e impessoal. A maioria dos verbos \&apos;e9 conjugada no presente do indicativo. Alguns exemplos s\&apos;e3o: textos cient\&apos;edficos; enciclop\&apos;e9dias; not\&apos;edcias &#x0A;de jornais.\par\par\fs36\b Disserta\&apos;e7\&apos;e3o argumentativa\fs28\b0\par\par Uma de suas caracter\&apos;edsticas \&apos;e9 a persuas\&apos;e3o, com argumentos que conven\&apos;e7am o leitor. As ideias surgem numa progress\&apos;e3o l\&apos;f3gica e devem estar conectadas ao contexto; &#x0A;geralmente, a linguagem utilizada \&apos;e9 denotativa, precisa, literal. \&apos;c9 comum a g\&apos;eaneros formais, como: ensaio; monografia; cr\&apos;edtica; manifestos.\par}&#x0A;</rtf>
+<raw>?Disserta��o expositiva&#x0A;&#x0A;A disserta��o expositiva apresenta informa��es sobre assuntos consagrados ou legitimados. Suas principais fun��es s�o esclarecer, informar ou avaliar, sem haver interfer�ncia da opini�o do autor.&#x0A;&#x0A;A linguagem � clara, objetiva e impessoal. A maioria dos verbos � conjugada no presente do indicativo. Alguns exemplos s�o: textos cient�ficos; enciclop�dias; not�cias de jornais.&#x0A;&#x0A;Disserta��o argumentativa&#x0A;&#x0A;Uma de suas caracter�sticas � a persuas�o, com argumentos que conven�am o leitor. As ideias surgem numa progress�o l�gica e devem estar conectadas ao contexto; geralmente, a linguagem utilizada � denotativa, precisa, literal. � comum a g�neros formais, como: ensaio; monografia; cr�tica; manifestos.</raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="902" parent="898" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687894448</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="904" parent="898" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687894448</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="906" parent="898" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687894448</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="907" parent="898" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687894448</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text907Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text907Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text907Font1&quot;  &gt;Tipologias textuais&lt;/span &gt;&lt;span class=&quot;text907Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Tipologias textuais\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipologias textuais</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="909" parent="898" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687894448</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="911" parent="898" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687894448</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="975" parent="40">
+<name>Página 5</name>
+<lastupdated>1689702956</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="976" parent="975" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687894791</lastupdated>
+<possize>
+<point>
+<x>514</x>
+<y>89</y>
+</point>
+<size>
+<cx>478</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text976Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text976Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text976Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text976Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text976Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text976ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text976Font1&quot;  &gt;Romances, contos, fÃ¡bulas, novelas e crÃ´nicas, pertencentes ao tipo textual narrativo.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text976Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text976ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text976Font1&quot;  &gt;DiÃ¡rios, relatos de viagens, folhetos turÃ­sticos, cardÃ¡pios de restaurantes, classificados, entre outros, pertencem aos textos descritivos.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text976Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text976ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text976Font1&quot;  &gt;Jornais, enciclopÃ©dias, resumos escolares, verbetes de dicionÃ¡rio sÃ£o gÃªneros textuais que fazem parte do tipo textual expositivo.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text976Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text976ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text976Font1&quot;  &gt;Artigos de opiniÃ£o, os abaixo-assinados e manifestos pertencem ao texto argumentativo.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text976Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text976ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text976Font1&quot;  &gt;Receitas culinÃ¡rias, manuais de instruÃ§Ãµes, bula de remÃ©dio, leis, clÃ¡usulas contratuais, edital de concursos pÃºblicos, entre outros sÃ£o textos injuntivos.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font2&quot;  &gt;GÃªneros textuais orais &lt;/span &gt;&lt;span class=&quot;text976Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text976Font1&quot;  &gt;(ApresentaÃ§Ãµes, exposiÃ§Ãµes, debates, seminÃ¡rios)&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\hich\f2\loch\f2\cf2\fs28 Romances, contos, f\&apos;e1bulas, novelas e cr\&apos;f4nicas, pertencentes ao tipo textual narrativo.\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 Di\&apos;e1rios, relatos de viagens, folhetos tur\&apos;edsticos, card\&apos;e1pios de restaurantes, classificados, entre outros, pertencem aos textos descritivos.\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 Jornais, enciclop\&apos;e9dias, resumos escolares, verbetes de dicion\&apos;e1rio s\&apos;e3o g\&apos;eaneros textuais que fazem parte do tipo textual expositivo.\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 Artigos de opini\&apos;e3o, os abaixo-assinados e manifestos pertencem ao texto argumentativo.\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 Receitas culin\&apos;e1rias, manuais de instru\&apos;e7\&apos;f5es, bula de rem\&apos;e9dio, leis, cl\&apos;e1usulas contratuais, edital de concursos p\&apos;fablicos, entre outros s\&apos;e3o textos injuntivos.\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\fs36\b &#x0A;G\&apos;eaneros textuais orais \fs28\b0\par\par (Apresenta\&apos;e7\&apos;f5es, exposi\&apos;e7\&apos;f5es, debates, semin\&apos;e1rios)\par\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Romances, contos, f�bulas, novelas e cr�nicas, pertencentes ao tipo textual narrativo.&#x0A;&#x0A;Di�rios, relatos de viagens, folhetos tur�sticos, card�pios de restaurantes, classificados, entre outros, pertencem aos textos descritivos.&#x0A;&#x0A;Jornais, enciclop�dias, resumos escolares, verbetes de dicion�rio s�o g�neros textuais que fazem parte do tipo textual expositivo.&#x0A;&#x0A;Artigos de opini�o, os abaixo-assinados e manifestos pertencem ao texto argumentativo.&#x0A;&#x0A;Receitas culin�rias, manuais de instru��es, bula de rem�dio, leis, cl�usulas contratuais, edital de concursos p�blicos, entre outros s�o textos injuntivos.&#x0A;&#x0A;G�neros textuais orais &#x0A;&#x0A;(Apresenta��es, exposi��es, debates, semin�rios)&#x0A;&#x0A;</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text976ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>23</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="977" parent="975" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687894664</lastupdated>
+<possize>
+<point>
+<x>18</x>
+<y>140</y>
+</point>
+<size>
+<cx>466</cx>
+<cy>468</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text977Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text977Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text977Font1&quot;  &gt;GÃªneros textuais&lt;/span &gt;&lt;span class=&quot;text977Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text977Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text977Font2&quot;  &gt;Os gÃªneros textuais sÃ£o as classificaÃ§Ãµes que determinam os textos de acordo com suas caracterÃ­sticas em relaÃ§Ã£o a um contexto. Eles variam de acordo com a intenÃ§Ã£o comunicativa e com as particularidades em relaÃ§Ã£o Ã  linguagem, Ã  estrutura e ao conteÃºdo. Cada gÃªnero textual apresenta especificidades que permitem identificar a sua classificaÃ§Ã£o. Os gÃªneros possuem estruturas e caracterÃ­sticas prÃ³prias, no entanto, vale ressaltar que eles sÃ£o flexÃ­veis e nÃ£o possuem estrutura fixa, pois estÃ£o em constante evoluÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text977Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text977Font2&quot;  &gt;Os gÃªneros textuais estÃ£o presentes nas tipologias textuais, como:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\lang1046\hich\f2\loch\f2\cf2\fs32\b G\&apos;eaneros textuais\fs28\b0\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Os g\&apos;eaneros textuais s\&apos;e3o as classifica\&apos;e7\&apos;f5es que determinam os textos de acordo com suas caracter\&apos;edsticas &#x0A;em rela\&apos;e7\&apos;e3o a um contexto. Eles variam de acordo com a inten\&apos;e7\&apos;e3o comunicativa e com as particularidades em rela\&apos;e7\&apos;e3o \&apos;e0 linguagem, \&apos;e0 estrutura e ao conte\&apos;fado. Cada g\&apos;eanero textual apresenta especificidades que permitem identificar &#x0A;a sua classifica\&apos;e7\&apos;e3o. Os g\&apos;eaneros possuem estruturas e caracter\&apos;edsticas pr\&apos;f3prias, no entanto, vale ressaltar que eles s\&apos;e3o flex\&apos;edveis e n\&apos;e3o possuem estrutura fixa, pois est\&apos;e3o em constante evolu\&apos;e7\&apos;e3o.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 &#x0A;Os g\&apos;eaneros textuais est\&apos;e3o presentes nas tipologias textuais, como:\lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?G�neros textuais&#x0A;&#x0A;Os g�neros textuais s�o as classifica��es que determinam os textos de acordo com suas caracter�sticas em rela��o a um contexto. Eles variam de acordo com a inten��o comunicativa e com as particularidades em rela��o � linguagem, � estrutura e ao conte�do. Cada g�nero textual apresenta especificidades que permitem identificar a sua classifica��o. Os g�neros possuem estruturas e caracter�sticas pr�prias, no entanto, vale ressaltar que eles s�o flex�veis e n�o possuem estrutura fixa, pois est�o em constante evolu��o.&#x0A;&#x0A;Os g�neros textuais est�o presentes nas tipologias textuais, como:</raw>
+<numoflines>16</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="979" parent="975" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687894625</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="981" parent="975" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687894625</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="983" parent="975" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687894625</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="984" parent="975" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687894625</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text984Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text984Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text984Font1&quot;  &gt;Tipologias textuais&lt;/span &gt;&lt;span class=&quot;text984Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Tipologias textuais\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipologias textuais</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="986" parent="975" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687894625</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="988" parent="975" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687894625</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="1034" parent="40">
+<name>Página 6</name>
+<lastupdated>1689702956</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1035" parent="1034" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687894913</lastupdated>
+<possize>
+<point>
+<x>514</x>
+<y>89</y>
+</point>
+<size>
+<cx>478</cx>
+<cy>556</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1035Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1035Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font1&quot;  &gt;ExposiÃ§Ã£o oral&lt;/span &gt;&lt;span class=&quot;text1035Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font2&quot;  &gt;A exposiÃ§Ã£o oral Ã© um gÃªnero textual pÃºblico, relativamente formal e especÃ­fico, no qual um expositor especialista dirige-se a um auditÃ³rio, de maneira estruturada, para lhe transmitir informaÃ§Ãµes, descrever ou lhe explicar alguma coisa. O expositor deve, tambÃ©m, ao longo de sua exposiÃ§Ã£o, avaliar a novidade e a dificuldade daquilo que expÃµe, permanecendo atento aos sinais que lhe sÃ£o enviados pelo auditÃ³rio e, na medida em que for necessÃ¡rio, reformular o modo de se &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font2&quot;  &gt;expressar.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font1&quot;  &gt;Debate&lt;/span &gt;&lt;span class=&quot;text1035Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font2&quot;  &gt;Todos os dias pessoas expressam suas opiniÃµes, sentimentos e desejos, seja em casa, na escola, numa reuniÃ£o de amigos, no futebol, por meio da escrita, enfim, sÃ£o diversas as situaÃ§Ãµes de comunicaÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font2&quot;  &gt;O debate Ã© um gÃªnero textual oral pois se manifesta por meio da fala. Os debates podem ser realizados pela televisÃ£o, Internet e ao vivo. Nas escolas, esse gÃªnero Ã© referente Ã  aula, pois conduz as pessoas a uma discussÃ£o. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs36\b Exposi\&apos;e7\&apos;e3o oral\lang1046\hich\f2\loch\f2\fs28\b0\par\lang1046\hich\f2\loch\f2\par A exposi\&apos;e7\&apos;e3o oral \&apos;e9 um g\&apos;eanero textual p\&apos;fablico, relativamente formal e espec\&apos;edfico, no qual um expositor &#x0A;especialista dirige-se a um audit\&apos;f3rio, de maneira estruturada, para lhe transmitir informa\&apos;e7\&apos;f5es, descrever ou lhe explicar alguma coisa. O expositor deve, tamb\&apos;e9m, ao longo de sua exposi\&apos;e7\&apos;e3o, avaliar a novidade e a dificuldade daquilo que &#x0A;exp\&apos;f5e, permanecendo atento aos sinais que lhe s\&apos;e3o enviados pelo audit\&apos;f3rio e, na medida em que for necess\&apos;e1rio, reformular o modo de se \par expressar\lang1046\hich\f2\loch\f2 .\par\par\fs36\b Debate\fs28\b0\par\par Todos os dias pessoas expressam &#x0A;suas opini\&apos;f5es, sentimentos e desejos, seja em casa, na escola, numa reuni\&apos;e3o de amigos, no futebol, por meio da escrita, enfim, s\&apos;e3o diversas as situa\&apos;e7\&apos;f5es de comunica\&apos;e7\&apos;e3o.\par\par O debate \&apos;e9 um g\&apos;eanero textual oral pois se manifesta &#x0A;por meio da fala. Os debates podem ser realizados pela televis\&apos;e3o, Internet e ao vivo. Nas escolas, esse g\&apos;eanero \&apos;e9 referente \&apos;e0 aula, pois conduz as pessoas a uma discuss\&apos;e3o. \lang1046\hich\f2\loch\f2\par\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Exposi��o oral&#x0A;&#x0A;A exposi��o oral � um g�nero textual p�blico, relativamente formal e espec�fico, no qual um expositor especialista dirige-se a um audit�rio, de maneira estruturada, para lhe transmitir informa��es, descrever ou lhe explicar alguma coisa. O expositor deve, tamb�m, ao longo de sua exposi��o, avaliar a novidade e a dificuldade daquilo que exp�e, permanecendo atento aos sinais que lhe s�o enviados pelo audit�rio e, na medida em que for necess�rio, reformular o modo de se &#x0A;expressar.&#x0A;&#x0A;Debate&#x0A;&#x0A;Todos os dias pessoas expressam suas opini�es, sentimentos e desejos, seja em casa, na escola, numa reuni�o de amigos, no futebol, por meio da escrita, enfim, s�o diversas as situa��es de comunica��o.&#x0A;&#x0A;O debate � um g�nero textual oral pois se manifesta por meio da fala. Os debates podem ser realizados pela televis�o, Internet e ao vivo. Nas escolas, esse g�nero � referente � aula, pois conduz as pessoas a uma discuss�o. &#x0A;&#x0A;</raw>
+<numoflines>27</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1036" parent="1034" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687894818</lastupdated>
+<possize>
+<point>
+<x>18</x>
+<y>140</y>
+</point>
+<size>
+<cx>466</cx>
+<cy>468</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1036Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1036Font1&quot;  &gt;Os gÃªneros textuais se organizam com base na composiÃ§Ã£o, no estilo e no tema; por sua vez, podem ser classificados em orais e escritos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1036Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1036Font1&quot;  &gt;Orais: realizam-se por meio da fala, por isso sÃ£o mais espontÃ¢neos. Devemos observar que hÃ¡ gÃªneros escritos que se realizam oralmente. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1036Font1&quot;  &gt;Exemplo: ladainhas, novenas etc.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1036Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1036Font1&quot;  &gt;Escritos: se materializam em textos escritos. Da mesma forma que acontece com os gÃªneros orais, hÃ¡ aqueles que sÃ£o escritos, porÃ©m se realizam na oralidade. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1036Font1&quot;  &gt;Exemplo: Os telejornais.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Os g\&apos;eaneros textuais se organizam com base na composi\&apos;e7\&apos;e3o, no estilo e no tema; por sua vez, podem ser classificados em orais e escritos.\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\par &#x0A;Orais: realizam-se por meio da fala, por isso s\&apos;e3o mais espont\&apos;e2neos. Devemos observar que h\&apos;e1 g\&apos;eaneros escritos que se realizam oralmente. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Exemplo: ladainhas, novenas etc.\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\par &#x0A;Escritos: se materializam em textos escritos. Da mesma forma que acontece com os g\&apos;eaneros orais, h\&apos;e1 aqueles que s\&apos;e3o escritos, por\&apos;e9m se realizam na oralidade. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Exemplo: Os telejornais.\par}&#x0A;</rtf>
+<raw>?Os g�neros textuais se organizam com base na composi��o, no estilo e no tema; por sua vez, podem ser classificados em orais e escritos.&#x0A;&#x0A;Orais: realizam-se por meio da fala, por isso s�o mais espont�neos. Devemos observar que h� g�neros escritos que se realizam oralmente. &#x0A;Exemplo: ladainhas, novenas etc.&#x0A;&#x0A;Escritos: se materializam em textos escritos. Da mesma forma que acontece com os g�neros orais, h� aqueles que s�o escritos, por�m se realizam na oralidade. &#x0A;Exemplo: Os telejornais.</raw>
+<numoflines>14</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1038" parent="1034" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687894758</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1040" parent="1034" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687894758</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1042" parent="1034" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687894758</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1043" parent="1034" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687894758</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1043Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1043Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1043Font1&quot;  &gt;Tipologias textuais&lt;/span &gt;&lt;span class=&quot;text1043Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Tipologias textuais\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipologias textuais</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1045" parent="1034" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687894758</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1047" parent="1034" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687894758</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="1098" parent="40">
+<name>Página 7</name>
+<lastupdated>1689702958</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1099" parent="1098" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687895063</lastupdated>
+<possize>
+<point>
+<x>514</x>
+<y>89</y>
+</point>
+<size>
+<cx>478</cx>
+<cy>517</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1099Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text1099Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1099Font1&quot;  &gt;Muitas pessoas nÃ£o se acham capacitadas para falar em pÃºblico, entretanto, no caso de um seminÃ¡rio, nÃ£o Ã© preciso que a pessoa seja dotada dessa capacidade. Evidentemente, quem a possui pode se sentir mais Ã  vontade, no entanto, o que define a qualidade de um seminÃ¡rio Ã© o seu planejamento.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1099Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1099Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1099ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1099Font1&quot;  &gt;O planejamento, ou seja, aquilo que Ã© feito antes da apresentaÃ§Ã£o, definirÃ¡ o sucesso ou o insucesso do trabalho. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1099Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1099Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1099ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1099Font1&quot;  &gt;ConsideraÃ§Ãµes importantes no momento do planejamento.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1099Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1099Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1099ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1099Font1&quot;  &gt;definiÃ§Ã£o do tema e dos componentes;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1099Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1099Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1099ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1099Font1&quot;  &gt;definiÃ§Ã£o do pÃºblico-alvo;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1099Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1099Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1099ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1099Font1&quot;  &gt;pesquisa sobre o tema em diferentes fontes e anexe todos os dados que possam contribuir com o seminÃ¡rio;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1099Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1099Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1099ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1099Font1&quot;  &gt;elaboraÃ§Ã£o de um roteiro escrito e divisÃ£o das partes para a apresentaÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\lang1046\hich\f2\loch\f2\cf2\fs28 Muitas pessoas n\&apos;e3o se acham capacitadas para falar em p\&apos;fablico, entretanto, no caso de um semin\&apos;e1rio, n\&apos;e3o \&apos;e9 preciso que a pessoa seja dotada dessa capacidade. Evidentemente, quem a &#x0A;possui pode se sentir mais \&apos;e0 vontade, no entanto, o que define a qualidade de um semin\&apos;e1rio \&apos;e9 o seu planejamento.\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28 O planejamento, &#x0A;ou seja, aquilo que \&apos;e9 feito antes da apresenta\&apos;e7\&apos;e3o, definir\&apos;e1 o sucesso ou o insucesso do trabalho. \par\pard\s0\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28 &#x0A;Considera\&apos;e7\&apos;f5es importantes no momento do planejamento.\par\pard\s0\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28 defini\&apos;e7\&apos;e3o &#x0A;do tema e dos componentes;\par\pard\s0\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28 defini\&apos;e7\&apos;e3o do p\&apos;fablico-alvo;\par\pard\s0\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3&#x0A;{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28 pesquisa sobre o tema em diferentes fontes e anexe todos os dados que possam contribuir com o semin\&apos;e1rio;\par\pard\s0\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28 elabora\&apos;e7\&apos;e3o de um roteiro escrito e divis\&apos;e3o das partes para a apresenta\&apos;e7\&apos;e3o.\lang1046\hich\f2\loch\f2\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Muitas pessoas n�o se acham capacitadas para falar em p�blico, entretanto, no caso de um semin�rio, n�o � preciso que a pessoa seja dotada dessa capacidade. Evidentemente, quem a possui pode se sentir mais � vontade, no entanto, o que define a qualidade de um semin�rio � o seu planejamento.&#x0A;&#x0A;O planejamento, ou seja, aquilo que � feito antes da apresenta��o, definir� o sucesso ou o insucesso do trabalho. &#x0A;&#x0A;Considera��es importantes no momento do planejamento.&#x0A;&#x0A;defini��o do tema e dos componentes;&#x0A;&#x0A;defini��o do p�blico-alvo;&#x0A;&#x0A;pesquisa sobre o tema em diferentes fontes e anexe todos os dados que possam contribuir com o semin�rio;&#x0A;&#x0A;elabora��o de um roteiro escrito e divis�o das partes para a apresenta��o.&#x0A;&#x0A;</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text1099ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>26</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1100" parent="1098" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687894992</lastupdated>
+<possize>
+<point>
+<x>13</x>
+<y>140</y>
+</point>
+<size>
+<cx>471</cx>
+<cy>483</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1100Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1100Font2 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1100Font1&quot;  &gt;A linguagem utilizada nesse gÃªnero, costuma variar, ou seja, poderÃ¡ ser formal, dependendo da situaÃ§Ã£o, ou informal, como Ã© o caso de um debate ente uma reuniÃ£o de amigos. O fato Ã© que debater nÃ£o significa brigar, discordar da ideia dos outros, ao contrÃ¡rio, Ã© um momento no qual expressamos nossas ideias e respeitamos as ideias alheias. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1100Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1100Font2&quot;  &gt;SeminÃ¡rio&lt;/span &gt;&lt;span class=&quot;text1100Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1100Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1100Font1&quot;  &gt;O seminÃ¡rio Ã© um dos componentes dos gÃªneros orais, entretanto, nÃ£o deve ser entendido como uma simples exposiÃ§Ã£o de um tema. AliÃ¡s, seu principal objetivo nÃ£o Ã© a exposiÃ§Ã£o, Ã© a reflexÃ£o. Diferentemente do que em geral acontece, o seminÃ¡rio nÃ£o deve ser considerado como concluÃ­do no final da exposiÃ§Ã£o. Essa Ã© apenas a primeira parte, pois, a partir dela, surgem as dÃºvidas, as argumentaÃ§Ãµes, os pontos de vistas e sÃ£o esses fatores que enriquecem o seminÃ¡rio.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 A linguagem utilizada nesse g\&apos;eanero, costuma variar, ou seja, poder\&apos;e1 ser formal, dependendo da situa\&apos;e7\&apos;e3o, ou informal, como \&apos;e9 o caso de um debate ente uma reuni\&apos;e3o de amigos. O fato \&apos;e9 &#x0A;que debater n\&apos;e3o significa brigar, discordar da ideia dos outros, ao contr\&apos;e1rio, \&apos;e9 um momento no qual expressamos nossas ideias e respeitamos as ideias alheias. \par\par\fs32\b Semin\&apos;e1rio\fs28\b0\par\par O semin\&apos;e1rio \&apos;e9 um dos componentes &#x0A;dos g\&apos;eaneros orais, entretanto, n\&apos;e3o deve ser entendido como uma simples exposi\&apos;e7\&apos;e3o de um tema. Ali\&apos;e1s, seu principal objetivo n\&apos;e3o \&apos;e9 a exposi\&apos;e7\&apos;e3o, \&apos;e9 a reflex\&apos;e3o. Diferentemente do que em geral acontece, o semin\&apos;e1rio n\&apos;e3o &#x0A;deve ser considerado como conclu\&apos;eddo\lang1046\hich\f2\loch\f2  \lang1046\hich\f2\loch\f2 no final da exposi\&apos;e7\&apos;e3o. Essa \&apos;e9 apenas a primeira parte, pois, a partir dela, surgem as d\&apos;favidas, as argumenta\&apos;e7\&apos;f5es, os pontos de vistas e s\&apos;e3o &#x0A;esses fatores que enriquecem o semin\&apos;e1rio.\par\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?A linguagem utilizada nesse g�nero, costuma variar, ou seja, poder� ser formal, dependendo da situa��o, ou informal, como � o caso de um debate ente uma reuni�o de amigos. O fato � que debater n�o significa brigar, discordar da ideia dos outros, ao contr�rio, � um momento no qual expressamos nossas ideias e respeitamos as ideias alheias. &#x0A;&#x0A;Semin�rio&#x0A;&#x0A;O semin�rio � um dos componentes dos g�neros orais, entretanto, n�o deve ser entendido como uma simples exposi��o de um tema. Ali�s, seu principal objetivo n�o � a exposi��o, � a reflex�o. Diferentemente do que em geral acontece, o semin�rio n�o deve ser considerado como conclu�do no final da exposi��o. Essa � apenas a primeira parte, pois, a partir dela, surgem as d�vidas, as argumenta��es, os pontos de vistas e s�o esses fatores que enriquecem o semin�rio.&#x0A;&#x0A;</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1102" parent="1098" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687894923</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1104" parent="1098" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687894923</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1106" parent="1098" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687894923</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1107" parent="1098" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687894923</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1107Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1107Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1107Font1&quot;  &gt;Tipologias textuais&lt;/span &gt;&lt;span class=&quot;text1107Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Tipologias textuais\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipologias textuais</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1109" parent="1098" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687894923</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1111" parent="1098" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687894923</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="1158" parent="40">
+<name>Página 8</name>
+<lastupdated>1689702959</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1159" parent="1158" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687895155</lastupdated>
+<possize>
+<point>
+<x>514</x>
+<y>89</y>
+</point>
+<size>
+<cx>478</cx>
+<cy>544</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1159Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1159Font1&quot;  &gt;MInÃ­cio: em poucas palavras, uma pessoa do grupo faz a apresentaÃ§Ã£o do tema e dos componentes do grupo. Ã‰ interessante justificar a escolha do tema, entretanto, isso sÃ³ Ã© necessÃ¡rio quando o prÃ³prio grupo escolhe o tema, quando esse Ã© preestabelecido, nÃ£o Ã© necessÃ¡rio.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1159Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1159Font1&quot;  &gt;Desenvolvimento: embora cada participante apresente a sua parte, nÃ£o perca o foco de que o seminÃ¡rio Ã© um texto. Portanto, os elementos de textualidade (coesÃ£o, coerÃªncia e clareza) devem estar presentes. Entenda que as partes precisam se relacionar, por isso, Ã© importante que se retome a fala do colega e que se utilize alguma explicaÃ§Ã£o feita anteriormente para embasar a argumentaÃ§Ã£o. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1159Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1159Font1&quot;  &gt;ConclusÃ£o: para finalizar o seminÃ¡rio, os principais pontos apresentados devem ser retomados, e o posicionamento do grupo referente ao tema apresentado deve ser definido. Lembre-se de que, a partir desse momento, o debate deverÃ¡ ser iniciado. Logo, Ã© importante que todos do grupo dominem o assunto e estejam preparados para simpaticamente responderem aos colegas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 MIn\&apos;edcio: em poucas palavras, uma pessoa do grupo faz a apresenta\&apos;e7\&apos;e3o do tema e dos componentes do grupo. \&apos;c9 interessante justificar a escolha do tema, entretanto, isso s\&apos;f3 \&apos;e9 necess\&apos;e1rio &#x0A;quando o pr\&apos;f3prio grupo escolhe o tema, quando esse \&apos;e9 preestabelecido, n\&apos;e3o \&apos;e9 necess\&apos;e1rio.\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\par Desenvolvimento: embora cada participante apresente a sua parte, n\&apos;e3o perca o foco de que &#x0A;o semin\&apos;e1rio \&apos;e9 um texto. Portanto, os elementos de textualidade (coes\&apos;e3o, coer\&apos;eancia e clareza) devem estar presentes. Entenda que as partes precisam se relacionar, por isso, \&apos;e9 importante que se retome a fala do colega e que se utilize alguma &#x0A;explica\&apos;e7\&apos;e3o feita anteriormente para embasar a argumenta\&apos;e7\&apos;e3o. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\par Conclus\&apos;e3o: para finalizar o semin\&apos;e1rio, os principais\lang1046\hich\f2\loch\f2  pontos apresentados devem ser retomados, &#x0A;e o posicionamento do grupo referente ao tema apresentado deve ser definido. Lembre-se de que, a partir desse momento, o debate dever\&apos;e1 ser iniciado. Logo, \&apos;e9 importante que todos do grupo dominem o assunto e estejam preparados para simpaticamente &#x0A;responderem aos colegas.\lang1046\hich\f2\loch\f2\par\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?MIn�cio: em poucas palavras, uma pessoa do grupo faz a apresenta��o do tema e dos componentes do grupo. � interessante justificar a escolha do tema, entretanto, isso s� � necess�rio quando o pr�prio grupo escolhe o tema, quando esse � preestabelecido, n�o � necess�rio.&#x0A;&#x0A;Desenvolvimento: embora cada participante apresente a sua parte, n�o perca o foco de que o semin�rio � um texto. Portanto, os elementos de textualidade (coes�o, coer�ncia e clareza) devem estar presentes. Entenda que as partes precisam se relacionar, por isso, � importante que se retome a fala do colega e que se utilize alguma explica��o feita anteriormente para embasar a argumenta��o. &#x0A;&#x0A;Conclus�o: para finalizar o semin�rio, os principais pontos apresentados devem ser retomados, e o posicionamento do grupo referente ao tema apresentado deve ser definido. Lembre-se de que, a partir desse momento, o debate dever� ser iniciado. Logo, � importante que todos do grupo dominem o assunto e estejam preparados para simpaticamente responderem aos colegas.&#x0A;&#x0A;</raw>
+<numoflines>26</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1160" parent="1158" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687895094</lastupdated>
+<possize>
+<point>
+<x>13</x>
+<y>140</y>
+</point>
+<size>
+<cx>471</cx>
+<cy>483</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1160Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1160Font1&quot;  &gt;A divisÃ£o de partes de cada componente nÃ£o significa que nÃ£o seja necessÃ¡rio dominar todo o assunto abordado; Ã© importante que os apresentadores do seminÃ¡rio conheÃ§am a parte de todos. O pÃºblico--alvo tambÃ©m Ã© essencial, pois isso definirÃ¡ a forma com que o assunto serÃ¡ abordado, pois, a partir da idade e do nÃ­vel de conhecimento do grupo, Ã© que serÃ£o definidas a linguagem e a abordagem.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1160Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1160Font1&quot;  &gt;O seminÃ¡rio, por compor o gÃªnero oral, permite que sejam utilizados recursos prÃ³prios da fala, como repetiÃ§Ã£o, pausa, entonaÃ§Ã£o diferenciada etc. No entanto, Ã© imprescindÃ­vel evitar as gÃ­rias e as expressÃµes vulgares.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1160Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1160Font1&quot;  &gt;O seminÃ¡rio Ã© um texto, portanto, suas partes nÃ£o devem ser entendidas como fragmentos, mas como elementos que compÃµem um todo. Ele precisa seguir uma sequÃªncia dividida em: &#x0D;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\lang1046\hich\f2\loch\f2\cf2\fs28 A divis\&apos;e3o de partes de cada componente n\&apos;e3o significa que n\&apos;e3o seja necess\&apos;e1rio dominar todo o assunto abordado; \&apos;e9 importante que os apresentadores do semin\&apos;e1rio conhe\&apos;e7am a parte &#x0A;de todos. O p\&apos;fablico--alvo tamb\&apos;e9m \&apos;e9 essencial, pois isso definir\&apos;e1 a forma com que o assunto ser\&apos;e1 abordado, pois, a partir da idade e do n\&apos;edvel de conhecimento do grupo, \&apos;e9 que ser\&apos;e3o definidas a linguagem e a abordagem.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 &#x0A;O semin\&apos;e1rio, por compor o g\&apos;eanero oral, permite que sejam utilizados recursos pr\&apos;f3prios da fala, como repeti\&apos;e7\&apos;e3o, pausa, entona\&apos;e7\&apos;e3o diferenciada etc. No entanto, \&apos;e9 imprescind\&apos;edvel evitar as g\&apos;edrias e as express\&apos;f5es vulgares.\par\par &#x0A;O semin\&apos;e1rio \&apos;e9 um texto, portanto, suas partes n\&apos;e3o devem ser entendidas como fragmentos, mas como elementos que comp\&apos;f5em um todo. Ele precisa seguir uma sequ\&apos;eancia dividida em: \&apos;0d\lang1046\hich\f2\loch\f2\par\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?A divis�o de partes de cada componente n�o significa que n�o seja necess�rio dominar todo o assunto abordado; � importante que os apresentadores do semin�rio conhe�am a parte de todos. O p�blico--alvo tamb�m � essencial, pois isso definir� a forma com que o assunto ser� abordado, pois, a partir da idade e do n�vel de conhecimento do grupo, � que ser�o definidas a linguagem e a abordagem.&#x0A;&#x0A;O semin�rio, por compor o g�nero oral, permite que sejam utilizados recursos pr�prios da fala, como repeti��o, pausa, entona��o diferenciada etc. No entanto, � imprescind�vel evitar as g�rias e as express�es vulgares.&#x0A;&#x0A;O semin�rio � um texto, portanto, suas partes n�o devem ser entendidas como fragmentos, mas como elementos que comp�em um todo. Ele precisa seguir uma sequ�ncia dividida em: &#x0D;&#x0A;&#x0A;</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1162" parent="1158" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687895070</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1164" parent="1158" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687895070</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1166" parent="1158" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687895070</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1167" parent="1158" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687895070</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1167Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1167Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1167Font1&quot;  &gt;Tipologias textuais&lt;/span &gt;&lt;span class=&quot;text1167Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1046\hich\f2\loch\f2\cf2\fs56\b Tipologias textuais\lang1046\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipologias textuais</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1169" parent="1158" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687895070</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1171" parent="1158" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687895070</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

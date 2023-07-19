@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc">
+<currentid>849</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="170" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="171" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="357" resourcetype="image">
+<name>image0047.png</name>
+<relativelink>images\image0047.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="79">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>166874968</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 2</name>
+<lastupdated>1687372036</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="78" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687372050</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687372050</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687372050</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="79" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687372050</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687372050</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687372050</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="70" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687372050</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="71" parent="70" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687372050</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="70" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687372050</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="63" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687372050</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="64" parent="63" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687372050</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="65" parent="63" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687372050</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="55" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687372050</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="56" parent="55" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687372050</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="55" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687372050</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="58" parent="55" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687372050</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="55">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>0</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="2" parent="40">
+<name>Página 1</name>
+<lastupdated>1687372054</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+</page>
+<page id="155" parent="40">
+<name>Página 2</name>
+<lastupdated>1687372257</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="356" parent="155" resource="357" ontop="false" fixed="false" proportional="true">
+<name>Picture 3</name>
+<lastupdated>1687372244</lastupdated>
+<possize>
+<point>
+<x>645</x>
+<y>516</y>
+</point>
+<size>
+<cx>180</cx>
+<cy>119</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="330" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687372244</lastupdated>
+<possize>
+<point>
+<x>526</x>
+<y>204</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>307</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text330Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text330Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text330Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text330ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text330Font1&quot;  &gt;Ambiente adequado, sem desorganizaÃ§Ã£o de livros, papÃ©is, copos e similares sujos espalhados sobre a mesa, entre outros.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text330Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text330Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text330ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text330Font1&quot;  &gt;OtimizaÃ§Ã£o do tempo, planejar horÃ¡rios de acordo com a necessidade dos estudos.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text330Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text330Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text330ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text330Font1&quot;  &gt;Prioridades, atenÃ§Ã£o a conteÃºdos que precisam de mais dedicaÃ§Ã£o que outros, por algum fator.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text330Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text330Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text330ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text330Font1&quot;  &gt;Cuidado fÃ­sico, prÃ¡tica de alguns exercÃ­cios leves, para amenizar o cansaÃ§o provocado pelo sedentarismo&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f2\loch\f2 Ambiente adequado, sem desorganiza\&apos;e7\&apos;e3o de livros, pap\&apos;e9is, copos e similares sujos espalhados sobre a mesa, entre outros.\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3&#x0A;{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Otimiza\&apos;e7\&apos;e3o do tempo, planejar hor\&apos;e1rios de acordo com a necessidade dos estudos.\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Prioridades, aten\&apos;e7\&apos;e3o a conte\&apos;fados que precisam de mais dedica\&apos;e7\&apos;e3o que outros, por algum fator.\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Cuidado f\&apos;edsico, pr\&apos;e1tica de alguns exerc\&apos;edcios leves, para amenizar o cansa\&apos;e7o provocado pelo sedentarismo\par}&#x0A;</rtf>
+<raw>?Ambiente adequado, sem desorganiza??o de livros, pap?is, copos e similares sujos espalhados sobre a mesa, entre outros.&#x0A;Otimiza??o do tempo, planejar hor?rios de acordo com a necessidade dos estudos.&#x0A;Prioridades, aten??o a conte?dos que precisam de mais dedica??o que outros, por algum fator.&#x0A;Cuidado f?sico, pr?tica de alguns exerc?cios leves, para amenizar o cansa?o provocado pelo sedentarismo</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text330ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>14</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="300" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687372244</lastupdated>
+<possize>
+<point>
+<x>526</x>
+<y>101</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>103</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text300Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text300Font1&quot;  &gt;Outro ponto importante na escolha da tÃ©cnica Ã© lembrar que sozinhas nÃ£o apresentam resultados satisfatÃ³rios. Alguns fatores, jÃ¡ citados, precisam ser tambÃ©m considerados.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Outro ponto importante na escolha da t\&apos;e9cnica \&apos;e9 lembrar que sozinhas n\&apos;e3o apresentam resultados satisfat\&apos;f3rios. Alguns fatores, j\&apos;e1 citados, precisam ser tamb\&apos;e9m considerados.\par}&#x0A;</rtf>
+<raw>?Outro ponto importante na escolha da t?cnica ? lembrar que sozinhas n?o apresentam resultados satisfat?rios. Alguns fatores, j? citados, precisam ser tamb?m considerados.</raw>
+<numoflines>4</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="276" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687372191</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>143</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>499</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text276Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text276Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text276Font1&quot;  &gt;TÃ©cnicas de MemorizaÃ§Ã£o de Estudos&lt;/span &gt;&lt;span class=&quot;text276Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text276Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text276Font2&quot;  &gt;As tÃ©cnicas de estudo oferecem ferramentas que potencializam momento de aprendizagem, melhorando o desempenho e a retenÃ§Ã£o dos conteÃºdos a serem estudados; contribuem, tambÃ©m, para manter a concentraÃ§Ã£o e afastar distraÃ§Ãµes e outros hÃ¡bitos que possam prejudicar o desempenho e facilitam a fixaÃ§Ã£o dos conteÃºdos. Em outras palavras, melhoram a qualidade do aprendizado no que se refere Ã  reduÃ§Ã£o do gasto de energia e da potencializaÃ§Ã£o dos estudos, organizando a rotina e elevando a motivaÃ§Ã£o&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text276Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text276Font2&quot;  &gt;Ã‰ importante destacar que algumas tÃ©cnicas podem ser mais eficazes que outras, considerando o contexto em que sÃ£o utilizadas, como aplicabilidade correta, habilidades e preferÃªncias do estudante.Portanto, a tÃ©cnica ideal Ã© a que atende aos objetivos propostos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2\fs36\b T\&apos;e9cnicas de Memoriza\&apos;e7\&apos;e3o de Estudos\fs28\b0\par\par As t\&apos;e9cnicas de estudo oferecem ferramentas que potencializam momento de aprendizagem, melhorando o desempenho e a reten\&apos;e7\&apos;e3o &#x0A;dos conte\&apos;fados a serem estudados; contribuem, tamb\&apos;e9m, para manter a concentra\&apos;e7\&apos;e3o e afastar distra\&apos;e7\&apos;f5es e outros h\&apos;e1bitos que possam prejudicar o desempenho e facilitam a fixa\&apos;e7\&apos;e3o dos conte\&apos;fados. Em outras palavras, melhoram a &#x0A;qualidade do aprendizado no que se refere \&apos;e0 redu\&apos;e7\&apos;e3o do gasto de energia e da potencializa\&apos;e7\&apos;e3o dos estudos, organizando a rotina e elevando a motiva\&apos;e7\&apos;e3o\par\par \&apos;c9 importante destacar que algumas t\&apos;e9cnicas podem ser mais eficazes &#x0A;que outras, considerando o contexto em que s\&apos;e3o utilizadas, como aplicabilidade correta, habilidades e prefer\&apos;eancias do estudante.Portanto, a t\&apos;e9cnica ideal \&apos;e9 a que atende aos objetivos propostos.\par}&#x0A;</rtf>
+<raw>?T?cnicas de Memoriza??o de Estudos&#x0A;As t?cnicas de estudo oferecem ferramentas que potencializam momento de aprendizagem, melhorando o desempenho e a reten??o dos conte?dos a serem estudados; contribuem, tamb?m, para manter a concentra??o e afastar distra??es e outros h?bitos que possam prejudicar o desempenho e facilitam a fixa??o dos conte?dos. Em outras palavras, melhoram a qualidade do aprendizado no que se refere ? redu??o do gasto de energia e da potencializa??o dos estudos, organizando a rotina e elevando a motiva??o&#x0A;? importante destacar que algumas t?cnicas podem ser mais eficazes que outras, considerando o contexto em que s?o utilizadas, como aplicabilidade correta, habilidades e prefer?ncias do estudante.Portanto, a t?cnica ideal ? a que atende aos objetivos propostos.</raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="267" parent="155">
+<name>Grupo_1</name>
+<lastupdated>1687372143</lastupdated>
+<shape id="160" parent="267" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687372143</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="162" parent="267" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687372143</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="164" parent="267" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687372143</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="165" parent="267" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687372146</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>26</y>
+</point>
+<size>
+<cx>810</cx>
+<cy>94</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text165Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text165Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text165Font1&quot;  &gt;OpÃ§Ãµes para aumentar sua Performance nos &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text165Font1&quot;  &gt;Estudos&lt;/span &gt;&lt;span class=&quot;text165Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Op\&apos;e7\&apos;f5es para aumentar sua Performance nos \par Estudos\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Op??es para aumentar sua Performance nos &#x0A;Estudos</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="167" parent="267" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687372143</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="169" parent="267" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687372143</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="398" parent="40">
+<name>Página 3</name>
+<lastupdated>1687372400</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="443" parent="398" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687372416</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>102</y>
+</point>
+<size>
+<cx>446</cx>
+<cy>517</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text443Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text443Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text443Font1&quot;  &gt;Mapas Mentais&lt;/span &gt;&lt;span class=&quot;text443Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text443Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text443Font2&quot;  &gt;PrÃ¡tica eficiente de resumir as principais informaÃ§Ãµes de um conteÃºdo, por meio da criaÃ§Ã£o de diagramas com palavras, Ã­cones e flechas, para tornar a visualizaÃ§Ã£o mais lÃ³gica, sem contar que, com o mÃ©todo, Ã© possÃ­vel realizar interconexÃµes e relaÃ§Ãµes de hierarquia.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text443Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text443Font2&quot;  &gt;A tÃ©cnica tambÃ©m Ã© vÃ¡lida para otimizar o tempo na hora das revisÃµes, pois mantÃªm o conteÃºdo consolidado e resumido. Ainda oferece a possibilidade de se fazer associaÃ§Ãµes entre os conteÃºdos, diminuindo a necessidade de memorizaÃ§Ã£o e facilitando o aprendizado.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text443Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text443Font2&quot;  &gt;Os mapas nÃ£o tÃªm o objetivo de fixar assuntos, mas, sim, de conseguir associÃ¡-los de modo sistÃªmico. Ã‰ preciso ter uma leitura prÃ©via para compreender todo o contexto e, depois, montar uma diagramaÃ§Ã£o que indique como os tÃ³picos estÃ£o distribuÃ­dos no campo do saber.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\b Mapas Mentais\fs28\b0\par\par Pr\&apos;e1tica eficiente de resumir as principais informa\&apos;e7\&apos;f5es de um conte\&apos;fado, por meio da cria\&apos;e7\&apos;e3o de diagramas com palavras, \&apos;edcones e flechas, para tornar &#x0A;a visualiza\&apos;e7\&apos;e3o mais l\&apos;f3gica, sem contar que, com o m\&apos;e9todo, \&apos;e9 poss\&apos;edvel realizar interconex\&apos;f5es e rela\&apos;e7\&apos;f5es de hierarquia.\par\par A t\&apos;e9cnica tamb\&apos;e9m \&apos;e9 v\&apos;e1lida para otimizar o tempo na hora das revis\&apos;f5es, pois mant\&apos;eam &#x0A;o conte\&apos;fado consolidado e resumido. Ainda oferece a possibilidade de se fazer associa\&apos;e7\&apos;f5es entre os conte\&apos;fados, diminuindo a necessidade de memoriza\&apos;e7\&apos;e3o e facilitando o aprendizado.\par\par Os mapas n\&apos;e3o t\&apos;eam o objetivo de fixar assuntos, &#x0A;mas, sim, de conseguir associ\&apos;e1-los de modo sist\&apos;eamico. \&apos;c9 preciso ter uma leitura pr\&apos;e9via para compreender todo o contexto e, depois, montar uma diagrama\&apos;e7\&apos;e3o que indique como os t\&apos;f3picos est\&apos;e3o distribu\&apos;eddos no campo do saber.\par\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Mapas Mentais&#x0A;Pr?tica eficiente de resumir as principais informa??es de um conte?do, por meio da cria??o de diagramas com palavras, ?cones e flechas, para tornar a visualiza??o mais l?gica, sem contar que, com o m?todo, ? poss?vel realizar interconex?es e rela??es de hierarquia.&#x0A;A t?cnica tamb?m ? v?lida para otimizar o tempo na hora das revis?es, pois mant?m o conte?do consolidado e resumido. Ainda oferece a possibilidade de se fazer associa??es entre os conte?dos, diminuindo a necessidade de memoriza??o e facilitando o aprendizado.&#x0A;Os mapas n?o t?m o objetivo de fixar assuntos, mas, sim, de conseguir associ?-los de modo sist?mico. ? preciso ter uma leitura pr?via para compreender todo o contexto e, depois, montar uma diagrama??o que indique como os t?picos est?o distribu?dos no campo do saber.&#x0A;</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="412" parent="398" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687372288</lastupdated>
+<possize>
+<point>
+<x>42</x>
+<y>147</y>
+</point>
+<size>
+<cx>450</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text412Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text412Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text412Font1&quot;  &gt;Esses fatores aliados ao conhecimento de tÃ©cnicas de estudo, com certeza, proporcionarÃ£o melhores resultados na sua busca pelo conhecimento.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text412Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text412Font1&quot;  &gt;Seguem algumas tÃ©cnicas de estudo que vocÃª deve incluir no seu cronograma, para tirar melhor proveito dos conhecimentos e do seu tempo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text412Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text412Font2&quot;  &gt;Estudos Intercalados&lt;/span &gt;&lt;span class=&quot;text412Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text412Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text412Font1&quot;  &gt;PrÃ¡tica que propÃµe ao estudante intercalar diferentes assuntos em uma mesma sessÃ£o de estudos, ajudando a manter a concentraÃ§Ã£o nos conteÃºdos e proporcionando um tempo de estudo mais longo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text412Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text412Font1&quot;  &gt;Em geral, quando se fica muitas horas estudando um mesmo conteÃºdo, a concentraÃ§Ã£o diminui, pois o cÃ©rebro acostuma-se com o assunto. Assim, trocÃ¡-lo Ã© uma estratÃ©gia para retomar o interesse, estimular o pensamento, tornando o aprendizado completo e menos cansativo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2 Esses fatores aliados ao conhecimento de t\&apos;e9cnicas de estudo, com certeza, proporcionar\&apos;e3o melhores resultados na sua busca pelo conhecimento.\par\par Seguem algumas t\&apos;e9cnicas de estudo que &#x0A;voc\&apos;ea deve incluir no seu cronograma, para tirar melhor proveito dos conhecimentos e do seu tempo.\par\par\fs36\b Estudos Intercalados\fs28\b0\par\par Pr\&apos;e1tica que prop\&apos;f5e ao estudante intercalar diferentes assuntos em uma mesma sess\&apos;e3o de estudos, &#x0A;ajudando a manter a concentra\&apos;e7\&apos;e3o nos conte\&apos;fados e proporcionando um tempo de estudo mais longo.\par\par Em geral, quando se fica muitas horas estudando um mesmo conte\&apos;fado, a concentra\&apos;e7\&apos;e3o diminui, pois o c\&apos;e9rebro acostuma-se com o assunto. &#x0A;Assim, troc\&apos;e1-lo \&apos;e9 uma estrat\&apos;e9gia para retomar o interesse, estimular o pensamento, tornando o aprendizado completo e menos cansativo.\par}&#x0A;</rtf>
+<raw>?Esses fatores aliados ao conhecimento de t?cnicas de estudo, com certeza, proporcionar?o melhores resultados na sua busca pelo conhecimento.&#x0A;Seguem algumas t?cnicas de estudo que voc? deve incluir no seu cronograma, para tirar melhor proveito dos conhecimentos e do seu tempo.&#x0A;Estudos Intercalados&#x0A;Pr?tica que prop?e ao estudante intercalar diferentes assuntos em uma mesma sess?o de estudos, ajudando a manter a concentra??o nos conte?dos e proporcionando um tempo de estudo mais longo.&#x0A;Em geral, quando se fica muitas horas estudando um mesmo conte?do, a concentra??o diminui, pois o c?rebro acostuma-se com o assunto. Assim, troc?-lo ? uma estrat?gia para retomar o interesse, estimular o pensamento, tornando o aprendizado completo e menos cansativo.</raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="400" parent="398">
+<name>Grupo_1</name>
+<lastupdated>1687372262</lastupdated>
+<shape id="402" parent="400" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687372262</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="404" parent="400" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687372262</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="406" parent="400" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687372262</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="407" parent="400" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687372262</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>26</y>
+</point>
+<size>
+<cx>810</cx>
+<cy>94</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text407Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text407Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text407Font1&quot;  &gt;OpÃ§Ãµes para aumentar sua Performance nos &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text407Font1&quot;  &gt;Estudos&lt;/span &gt;&lt;span class=&quot;text407Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Op\&apos;e7\&apos;f5es para aumentar sua Performance nos \par Estudos\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Op??es para aumentar sua Performance nos &#x0A;Estudos</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="409" parent="400" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687372262</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="411" parent="400" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687372262</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="478" parent="40">
+<name>Página 4</name>
+<lastupdated>1687372514</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="577" parent="478" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687372500</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>279</y>
+</point>
+<size>
+<cx>454</cx>
+<cy>293</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text577Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text577Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text577Font1&quot;  &gt;Fichamentos&lt;/span &gt;&lt;span class=&quot;text577Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text577Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text577Font2&quot;  &gt;PrÃ¡tica essencial para reorganizar as informaÃ§Ãµes adquiridas durante a leitura de um conteÃºdo, pois contribui para a compreensÃ£o e a assimilaÃ§Ã£o do que foi lido.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text577Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text577Font2&quot;  &gt;Os fichamentos nada mais sÃ£o do que sÃ­nteses esquemÃ¡ticas de cada conteÃºdo. Uma forma eficiente de estudar, pois reÃºnem as informaÃ§Ãµes mais importantes sobre o conteÃºdo que, uma vez destacado, facilita seu acesso quando precisa ser reforÃ§ado.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2\fs36\b Fichamentos\fs28\b0\par\par Pr\&apos;e1tica essencial para reorganizar as informa\&apos;e7\&apos;f5es adquiridas durante a leitura de um conte\&apos;fado, pois contribui para a compreens\&apos;e3o e a assimila\&apos;e7\&apos;e3o &#x0A;do que foi lido.\par\par Os fichamentos nada mais s\&apos;e3o do que s\&apos;ednteses esquem\&apos;e1ticas de cada conte\&apos;fado. Uma forma eficiente de estudar, pois re\&apos;fanem as informa\&apos;e7\&apos;f5es mais importantes sobre o conte\&apos;fado que, uma vez destacado, facilita &#x0A;seu acesso quando precisa ser refor\&apos;e7ado.\par}&#x0A;</rtf>
+<raw>?Fichamentos&#x0A;Pr?tica essencial para reorganizar as informa??es adquiridas durante a leitura de um conte?do, pois contribui para a compreens?o e a assimila??o do que foi lido.&#x0A;Os fichamentos nada mais s?o do que s?nteses esquem?ticas de cada conte?do. Uma forma eficiente de estudar, pois re?nem as informa??es mais importantes sobre o conte?do que, uma vez destacado, facilita seu acesso quando precisa ser refor?ado.</raw>
+<numoflines>13</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="561" parent="478" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687372467</lastupdated>
+<possize>
+<point>
+<x>529</x>
+<y>159</y>
+</point>
+<size>
+<cx>447</cx>
+<cy>142</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text561Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text561Font1&quot;  &gt;Uma boa sugestÃ£o para quem segue uma rotina de estudos diÃ¡rios. Os conhecimentos adquiridos em cada aula podem ser reforÃ§ados posteriormente com o hÃ¡bito de ler e reler os assuntos para fixar os conteÃºdos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Uma boa sugest\&apos;e3o para quem segue uma rotina de estudos di\&apos;e1rios. Os conhecimentos adquiridos em cada aula podem ser refor\&apos;e7ados posteriormente com o h\&apos;e1bito de ler e reler os assuntos para &#x0A;fixar os conte\&apos;fados.\par}&#x0A;</rtf>
+<raw>?Uma boa sugest?o para quem segue uma rotina de estudos di?rios. Os conhecimentos adquiridos em cada aula podem ser refor?ados posteriormente com o h?bito de ler e reler os assuntos para fixar os conte?dos.</raw>
+<numoflines>5</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="521" parent="478" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687372456</lastupdated>
+<possize>
+<point>
+<x>44</x>
+<y>246</y>
+</point>
+<size>
+<cx>439</cx>
+<cy>373</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text521Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text521Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text521Font1&quot;  &gt;Reeleitura&lt;/span &gt;&lt;span class=&quot;text521Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text521Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text521Font2&quot;  &gt;PrÃ¡tica simples, mas eficaz. Uma forma interessante de memorizar os conhecimentos vistos, pois ela permite que o estudante retorne ao conteÃºdo com um novo olhar e, possivelmente, com novas ideias em mente, ou seja, retorne ao conteÃºdo com uma bagagem prÃ©via, facilitando a elaboraÃ§Ã£o de ideias complementares. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text521Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text521Font2&quot;  &gt;O mÃ©todo tem melhor aproveitamento quando a reeleitura Ã© realizada imediatamente apÃ³s o conteÃºdo lido. Importante, tambÃ©m, durante a reeleitura, ir destacando as palavras-chave e os trechos mais importantes.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\b Reeleitura\fs28\b0\par\par Pr\&apos;e1tica simples, mas eficaz. Uma forma interessante de memorizar os conhecimentos vistos, pois ela permite que o estudante retorne ao conte\&apos;fado com um novo olhar &#x0A;e, possivelmente, com novas ideias em mente, ou seja, retorne ao conte\&apos;fado com uma bagagem pr\&apos;e9via, facilitando a elabora\&apos;e7\&apos;e3o de ideias complementares. \par\par O m\&apos;e9todo tem melhor aproveitamento quando a reeleitura \&apos;e9 realizada imediatamente &#x0A;ap\&apos;f3s o conte\&apos;fado lido. Importante, tamb\&apos;e9m, durante a reeleitura, ir destacando as palavras-chave e os trechos mais importantes.\par\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Reeleitura&#x0A;Pr?tica simples, mas eficaz. Uma forma interessante de memorizar os conhecimentos vistos, pois ela permite que o estudante retorne ao conte?do com um novo olhar e, possivelmente, com novas ideias em mente, ou seja, retorne ao conte?do com uma bagagem pr?via, facilitando a elabora??o de ideias complementares. &#x0A;O m?todo tem melhor aproveitamento quando a reeleitura ? realizada imediatamente ap?s o conte?do lido. Importante, tamb?m, durante a reeleitura, ir destacando as palavras-chave e os trechos mais importantes.&#x0A;</raw>
+<numoflines>17</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="505" parent="478" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687372427</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>170</y>
+</point>
+<size>
+<cx>437</cx>
+<cy>80</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text505Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text505Font1&quot;  &gt;MÃ©todo muito vantajoso para o estudante que deseja economizar horas de estudo e consolidar um bom conhecimento sobre o conteÃºdo visto.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 M\&apos;e9todo muito vantajoso para o estudante que deseja economizar horas de estudo e consolidar um bom conhecimento sobre o conte\&apos;fado visto.\par}&#x0A;</rtf>
+<raw>?M?todo muito vantajoso para o estudante que deseja economizar horas de estudo e consolidar um bom conhecimento sobre o conte?do visto.</raw>
+<numoflines>3</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="483" parent="478">
+<name>Grupo_1</name>
+<lastupdated>1687372407</lastupdated>
+<shape id="485" parent="483" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687372407</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="487" parent="483" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687372407</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="489" parent="483" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687372407</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="490" parent="483" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687372407</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>26</y>
+</point>
+<size>
+<cx>810</cx>
+<cy>94</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text490Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text490Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text490Font1&quot;  &gt;OpÃ§Ãµes para aumentar sua Performance nos &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text490Font1&quot;  &gt;Estudos&lt;/span &gt;&lt;span class=&quot;text490Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Op\&apos;e7\&apos;f5es para aumentar sua Performance nos \par Estudos\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Op??es para aumentar sua Performance nos &#x0A;Estudos</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="492" parent="483" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687372407</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="494" parent="483" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687372407</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="626" parent="40">
+<name>Página 5</name>
+<lastupdated>1687372624</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="688" parent="626" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687372616</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>231</y>
+</point>
+<size>
+<cx>458</cx>
+<cy>349</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text688Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text688Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text688Font1&quot;  &gt;AutoexplicaÃ§Ãµes&lt;/span &gt;&lt;span class=&quot;text688Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text688Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text688Font2&quot;  &gt;PrÃ¡tica que se utiliza de mÃ©todo eficiente para conteÃºdos que exigem mais compreensÃ£o, ou seja, nÃ£o sÃ£o exatos. Funciona com a pessoa lendo sobre determinado assunto e explicando-o com suas prÃ³prias palavras (diante de um espelho, para outra pessoa, para si mesmo).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text688Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text688Font2&quot;  &gt;Essa explicaÃ§Ã£o deve ser feita enquanto o assunto do conteÃºdo ainda estÃ¡ recente na memÃ³ria.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text688Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text688Font2&quot;  &gt;AlÃ©m de melhorar entendimento sobre o conteÃºdo, a autoexplicaÃ§Ã£o ajuda a promover a habilidade de comunicaÃ§Ã£o e oratÃ³ria.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\b Autoexplica\&apos;e7\&apos;f5es\fs28\b0\par\par Pr\&apos;e1tica que se utiliza de m\&apos;e9todo eficiente para conte\&apos;fados que exigem mais compreens\&apos;e3o, ou seja, n\&apos;e3o s\&apos;e3o exatos. Funciona com a pessoa lendo &#x0A;sobre determinado assunto e explicando-o com suas pr\&apos;f3prias palavras (diante de um espelho, para outra pessoa, para si mesmo).\par\par Essa explica\&apos;e7\&apos;e3o deve ser feita enquanto o assunto do conte\&apos;fado ainda est\&apos;e1 recente na mem\&apos;f3ria.\par\par &#x0A;Al\&apos;e9m de melhorar entendimento sobre o conte\&apos;fado, a autoexplica\&apos;e7\&apos;e3o ajuda a promover a habilidade de comunica\&apos;e7\&apos;e3o e orat\&apos;f3ria.\par}&#x0A;</rtf>
+<raw>?Autoexplica??es&#x0A;Pr?tica que se utiliza de m?todo eficiente para conte?dos que exigem mais compreens?o, ou seja, n?o s?o exatos. Funciona com a pessoa lendo sobre determinado assunto e explicando-o com suas pr?prias palavras (diante de um espelho, para outra pessoa, para si mesmo).&#x0A;Essa explica??o deve ser feita enquanto o assunto do conte?do ainda est? recente na mem?ria.&#x0A;Al?m de melhorar entendimento sobre o conte?do, a autoexplica??o ajuda a promover a habilidade de comunica??o e orat?ria.</raw>
+<numoflines>15</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="675" parent="626" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687372553</lastupdated>
+<possize>
+<point>
+<x>532</x>
+<y>166</y>
+</point>
+<size>
+<cx>452</cx>
+<cy>80</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text675Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text675Font1&quot;  &gt;compreensÃ£o, o domÃ­nio e a memorizaÃ§Ã£o das informaÃ§Ãµes.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 compreens\&apos;e3o, o dom\&apos;ednio e a memoriza\&apos;e7\&apos;e3o das informa\&apos;e7\&apos;f5es.\par}&#x0A;</rtf>
+<raw>?compreens?o, o dom?nio e a memoriza??o das informa??es.</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="640" parent="626" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687372546</lastupdated>
+<possize>
+<point>
+<x>42</x>
+<y>157</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text640Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text640Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text640Font1&quot;  &gt;Testes PrÃ¡ticos &lt;/span &gt;&lt;span class=&quot;text640Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text640Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text640Font2&quot;  &gt;PrÃ¡tica realizada por meio de simulaÃ§Ã£o de avaliaÃ§Ãµes sobre o conteÃºdo estudado. Quanto mais exercÃ­cios realizados, mais assimilaÃ§Ã£o dos conteÃºdos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text640Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text640Font2&quot;  &gt;O mÃ©todo Ã© importante para refazer questÃµes que geram dÃºvidas ou que foram respondidas incorretamente, o que pode ser feito tambÃ©m com a ajuda de dispositivos on-line, entre outros.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text640Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text640Font2&quot;  &gt;Vale ressaltar que nÃ£o basta responder aleatoriamente as questÃµes. Ã‰ necessÃ¡rio entender o conteÃºdo abordado. Essa anÃ¡lise permite verificar o real entendimento do assunto. Ainda, identificar pontos fracos que precisam de mais estudo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text640Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text640Font2&quot;  &gt;A formulaÃ§Ã£o de questÃµes tambÃ©m favorece o aprendizado, pois Ã© preciso pensar para elaborar questionamentos inteligentes, e permite a &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\b Testes Pr\&apos;e1ticos \fs28\b0\par\par Pr\&apos;e1tica realizada por meio de simula\&apos;e7\&apos;e3o de avalia\&apos;e7\&apos;f5es sobre o conte\&apos;fado estudado. Quanto mais exerc\&apos;edcios realizados, mais assimila\&apos;e7\&apos;e3o &#x0A;dos conte\&apos;fados.\par\par O m\&apos;e9todo \&apos;e9 importante para refazer quest\&apos;f5es que geram d\&apos;favidas ou que foram respondidas incorretamente, o que pode ser feito tamb\&apos;e9m com a ajuda de dispositivos on-line, entre outros.\par\par Vale ressaltar que n\&apos;e3o &#x0A;basta responder aleatoriamente as quest\&apos;f5es. \&apos;c9 necess\&apos;e1rio entender o conte\&apos;fado abordado. Essa an\&apos;e1lise permite verificar o real entendimento do assunto. Ainda, identificar pontos fracos que precisam de mais estudo.\par\par A formula\&apos;e7\&apos;e3o &#x0A;de quest\&apos;f5es tamb\&apos;e9m favorece o aprendizado, pois \&apos;e9 preciso pensar para elaborar questionamentos inteligentes, e permite a \par}&#x0A;</rtf>
+<raw>?Testes Pr?ticos &#x0A;Pr?tica realizada por meio de simula??o de avalia??es sobre o conte?do estudado. Quanto mais exerc?cios realizados, mais assimila??o dos conte?dos.&#x0A;O m?todo ? importante para refazer quest?es que geram d?vidas ou que foram respondidas incorretamente, o que pode ser feito tamb?m com a ajuda de dispositivos on-line, entre outros.&#x0A;Vale ressaltar que n?o basta responder aleatoriamente as quest?es. ? necess?rio entender o conte?do abordado. Essa an?lise permite verificar o real entendimento do assunto. Ainda, identificar pontos fracos que precisam de mais estudo.&#x0A;A formula??o de quest?es tamb?m favorece o aprendizado, pois ? preciso pensar para elaborar questionamentos inteligentes, e permite a </raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="628" parent="626">
+<name>Grupo_1</name>
+<lastupdated>1687372518</lastupdated>
+<shape id="630" parent="628" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687372518</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="632" parent="628" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687372518</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="634" parent="628" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687372518</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="635" parent="628" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687372518</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>26</y>
+</point>
+<size>
+<cx>810</cx>
+<cy>94</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text635Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text635Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text635Font1&quot;  &gt;OpÃ§Ãµes para aumentar sua Performance nos &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text635Font1&quot;  &gt;Estudos&lt;/span &gt;&lt;span class=&quot;text635Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Op\&apos;e7\&apos;f5es para aumentar sua Performance nos \par Estudos\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Op??es para aumentar sua Performance nos &#x0A;Estudos</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="637" parent="628" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687372518</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="639" parent="628" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687372518</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="709" parent="40">
+<name>Página 6</name>
+<lastupdated>1687372711</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="767" parent="709" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687372702</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>157</y>
+</point>
+<size>
+<cx>448</cx>
+<cy>293</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text767Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text767Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text767Font1&quot;  &gt;Resumos&lt;/span &gt;&lt;span class=&quot;text767Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text767Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text767Font2&quot;  &gt;PrÃ¡tica tradicional das mais eficazes para fixar conteÃºdo e conseguir melhores resultados. SÃ­ntese de um conteÃºdo em formato de texto, no qual se elenca seus aspectos mais importantes de maneira reduzida e fluida.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text767Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text767Font2&quot;  &gt;Um resumo bem-feito deve destacar palavras-chave e termos importantes para a compreensÃ£o das informaÃ§Ãµes. Pode ainda se embasar em anotaÃ§Ãµes e mapas mentais realizados durante o estudo do conteÃºdo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2\fs36\b Resumos\fs28\b0\par\par Pr\&apos;e1tica tradicional das mais eficazes para fixar conte\&apos;fado e conseguir melhores resultados. S\&apos;edntese de um conte\&apos;fado em formato de texto, no qual se elenca &#x0A;seus aspectos mais importantes de maneira reduzida e fluida.\par\par Um resumo bem-feito deve destacar palavras-chave e termos importantes para a compreens\&apos;e3o das informa\&apos;e7\&apos;f5es. Pode ainda se embasar em anota\&apos;e7\&apos;f5es e mapas mentais realizados &#x0A;durante o estudo do conte\&apos;fado.\par}&#x0A;</rtf>
+<raw>?Resumos&#x0A;Pr?tica tradicional das mais eficazes para fixar conte?do e conseguir melhores resultados. S?ntese de um conte?do em formato de texto, no qual se elenca seus aspectos mais importantes de maneira reduzida e fluida.&#x0A;Um resumo bem-feito deve destacar palavras-chave e termos importantes para a compreens?o das informa??es. Pode ainda se embasar em anota??es e mapas mentais realizados durante o estudo do conte?do.</raw>
+<numoflines>13</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="745" parent="709" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687372678</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>150</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>440</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text745Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text745Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text745Font1&quot;  &gt;Estudos MnemÃ´nicos&lt;/span &gt;&lt;span class=&quot;text745Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text745Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text745Font2&quot;  &gt;PrÃ¡tica que utiliza siglas para lembrar aspectos especÃ­ficos do conteÃºdo. Para lembrar da sequÃªncia de palavras â€œcompetÃªncia, atitude e habilidadeâ€, grava-se a sigla CAH, por exemplo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text745Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text745Font2&quot;  &gt;A criaÃ§Ã£o de parÃ³dias, substituindo a letra de determinada mÃºsica por informaÃ§Ãµes relevantes do conteÃºdo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text745Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text745Font2&quot;  &gt;Ainda Ã© possÃ­vel criar frases fÃ¡ceis de memorizar, cujas letras iniciais remetem aos termos que se precisa gravar.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text745Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text745Font2&quot;  &gt;Trata-se de um mÃ©todo mneumÃ´nico, isto Ã©, uma tÃ©cnica que aplica a associaÃ§Ã£o de um conteÃºdo complexo a ideias simples, que podem trazer Ã  memÃ³ria as informaÃ§Ãµes necessÃ¡rias.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2\fs36\b Estudos Mnem\&apos;f4nicos\fs28\b0\par\par Pr\&apos;e1tica que utiliza siglas para lembrar aspectos espec\&apos;edficos do conte\&apos;fado. Para lembrar da sequ\&apos;eancia de palavras \u8220 \&apos;93compet\&apos;eancia, &#x0A;atitude e habilidade\u8221 \&apos;94, grava-se a sigla CAH, por exemplo.\par\par A cria\&apos;e7\&apos;e3o de par\&apos;f3dias, substituindo a letra de determinada m\&apos;fasica por informa\&apos;e7\&apos;f5es relevantes do conte\&apos;fado.\par\par Ainda \&apos;e9 poss\&apos;edvel criar frases f\&apos;e1ceis &#x0A;de memorizar, cujas letras iniciais remetem aos termos que se precisa gravar.\par\par Trata-se de um m\&apos;e9todo mneum\&apos;f4nico, isto \&apos;e9, uma t\&apos;e9cnica que aplica a associa\&apos;e7\&apos;e3o de um conte\&apos;fado complexo a ideias simples, que podem trazer \&apos;e0 mem\&apos;f3ria &#x0A;as informa\&apos;e7\&apos;f5es necess\&apos;e1rias.\par}&#x0A;</rtf>
+<raw>?Estudos Mnem?nicos&#x0A;Pr?tica que utiliza siglas para lembrar aspectos espec?ficos do conte?do. Para lembrar da sequ?ncia de palavras ?compet?ncia, atitude e habilidade?, grava-se a sigla CAH, por exemplo.&#x0A;A cria??o de par?dias, substituindo a letra de determinada m?sica por informa??es relevantes do conte?do.&#x0A;Ainda ? poss?vel criar frases f?ceis de memorizar, cujas letras iniciais remetem aos termos que se precisa gravar.&#x0A;Trata-se de um m?todo mneum?nico, isto ?, uma t?cnica que aplica a associa??o de um conte?do complexo a ideias simples, que podem trazer ? mem?ria as informa??es necess?rias.</raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="711" parent="709">
+<name>Grupo_1</name>
+<lastupdated>1687372649</lastupdated>
+<shape id="713" parent="711" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687372649</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="715" parent="711" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687372649</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="717" parent="711" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687372649</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="718" parent="711" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687372649</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>26</y>
+</point>
+<size>
+<cx>810</cx>
+<cy>94</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text718Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text718Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text718Font1&quot;  &gt;OpÃ§Ãµes para aumentar sua Performance nos &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text718Font1&quot;  &gt;Estudos&lt;/span &gt;&lt;span class=&quot;text718Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Op\&apos;e7\&apos;f5es para aumentar sua Performance nos \par Estudos\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Op??es para aumentar sua Performance nos &#x0A;Estudos</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="720" parent="711" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687372649</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="722" parent="711" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687372649</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="793" parent="40">
+<name>Página 7</name>
+<lastupdated>1687372711</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="825" parent="793" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687372777</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>152</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>314</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text825Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text825Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text825Font1&quot;  &gt;PrÃ¡ticas DistribuÃ­das&lt;/span &gt;&lt;span class=&quot;text825Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text825Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text825Font2&quot;  &gt;PrÃ¡tica responsÃ¡vel pela divisÃ£o dos perÃ­odos de estudo ao longo do dia. Em vez de estudar certo conteÃºdo em um Ãºnico perÃ­odo, pode-se reservar 1 hora pela manhÃ£, 1 hora pela tarde, 1 hora pela noite, por exemplo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text825Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text825Font2&quot;  &gt;Essa estratÃ©gia garante mais produtividade, pois permite descansar a mente e o corpo entre os intervalos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text825Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text825Font2&quot;  &gt;Trata-se de um mÃ©todo interessante para quem conta com momentos fragmentados do dia.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2\fs36\b Pr\&apos;e1ticas Distribu\&apos;eddas\fs28\b0\par\par Pr\&apos;e1tica respons\&apos;e1vel pela divis\&apos;e3o dos per\&apos;edodos de estudo ao longo do dia. Em vez de estudar certo conte\&apos;fado em um \&apos;fanico per\&apos;edodo, &#x0A;pode-se reservar 1 hora pela manh\&apos;e3, 1 hora pela tarde, 1 hora pela noite, por exemplo.\par\par Essa estrat\&apos;e9gia garante mais produtividade, pois permite descansar a mente e o corpo entre os intervalos.\par\par Trata-se de um m\&apos;e9todo interessante &#x0A;para quem conta com momentos fragmentados do dia.\par}&#x0A;</rtf>
+<raw>?Pr?ticas Distribu?das&#x0A;Pr?tica respons?vel pela divis?o dos per?odos de estudo ao longo do dia. Em vez de estudar certo conte?do em um ?nico per?odo, pode-se reservar 1 hora pela manh?, 1 hora pela tarde, 1 hora pela noite, por exemplo.&#x0A;Essa estrat?gia garante mais produtividade, pois permite descansar a mente e o corpo entre os intervalos.&#x0A;Trata-se de um m?todo interessante para quem conta com momentos fragmentados do dia.</raw>
+<numoflines>14</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="807" parent="793" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687372729</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>149</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>482</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text807Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text807Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text807Font1&quot;  &gt;Flashcards&lt;/span &gt;&lt;span class=&quot;text807Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text807Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text807Font2&quot;  &gt;PrÃ¡ticas realizadas por ferramentas alternativas positivas, para as pessoas que precisam desenvolver a capacidade de memorizaÃ§Ã£o em determinados conteÃºdos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text807Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text807Font2&quot;  &gt;A prÃ¡tica Ã© realizada por meio de cartÃµes feitos pelo estudante, geralmente em folha diferenciada, para testar sua memÃ³ria. De um lado da folha, elabora-se uma pergunta e, de outro, escreve-se a resposta dessa pergunta.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text807Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text807Font2&quot;  &gt;Os cartÃµes podem ter formato diferente, considerando o tÃ³pico a ser estudado. Pode conter definiÃ§Ãµes/conceitos/ palavras-chave, entre outros aspectos do conteÃºdo a ser memorizado.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text807Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text807Font2&quot;  &gt;A grande vantagem deste mÃ©todo Ã© servir para qualquer tipo de conteÃºdo e ser de fÃ¡cil execuÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2\fs36\b Flashcards\fs28\b0\par\par Pr\&apos;e1ticas realizadas por ferramentas alternativas positivas, para as pessoas que precisam desenvolver a capacidade de memoriza\&apos;e7\&apos;e3o em determinados conte\&apos;fados.\par\par &#x0A;A pr\&apos;e1tica \&apos;e9 realizada por meio de cart\&apos;f5es feitos pelo estudante, geralmente em folha diferenciada, para testar sua mem\&apos;f3ria. De um lado da folha, elabora-se uma pergunta e, de outro, escreve-se a resposta dessa pergunta.\par\par Os cart\&apos;f5es &#x0A;podem ter formato diferente, considerando o t\&apos;f3pico a ser estudado. Pode conter defini\&apos;e7\&apos;f5es/conceitos/ palavras-chave, entre outros aspectos do conte\&apos;fado a ser memorizado.\par\par A grande vantagem deste m\&apos;e9todo \&apos;e9 servir para qualquer tipo &#x0A;de conte\&apos;fado e ser de f\&apos;e1cil execu\&apos;e7\&apos;e3o.\par}&#x0A;</rtf>
+<raw>?Flashcards&#x0A;Pr?ticas realizadas por ferramentas alternativas positivas, para as pessoas que precisam desenvolver a capacidade de memoriza??o em determinados conte?dos.&#x0A;A pr?tica ? realizada por meio de cart?es feitos pelo estudante, geralmente em folha diferenciada, para testar sua mem?ria. De um lado da folha, elabora-se uma pergunta e, de outro, escreve-se a resposta dessa pergunta.&#x0A;Os cart?es podem ter formato diferente, considerando o t?pico a ser estudado. Pode conter defini??es/conceitos/ palavras-chave, entre outros aspectos do conte?do a ser memorizado.&#x0A;A grande vantagem deste m?todo ? servir para qualquer tipo de conte?do e ser de f?cil execu??o.</raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="795" parent="793">
+<name>Grupo_1</name>
+<lastupdated>1687372716</lastupdated>
+<shape id="797" parent="795" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687372716</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="799" parent="795" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687372716</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="801" parent="795" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687372716</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>121</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="802" parent="795" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687372716</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>26</y>
+</point>
+<size>
+<cx>810</cx>
+<cy>94</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text802Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text802Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text802Font1&quot;  &gt;OpÃ§Ãµes para aumentar sua Performance nos &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text802Font1&quot;  &gt;Estudos&lt;/span &gt;&lt;span class=&quot;text802Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Op\&apos;e7\&apos;f5es para aumentar sua Performance nos \par Estudos\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Op??es para aumentar sua Performance nos &#x0A;Estudos</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="804" parent="795" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687372716</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="806" parent="795" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687372716</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

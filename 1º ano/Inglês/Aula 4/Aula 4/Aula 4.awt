@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>496</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="169" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="170" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="196" resourcetype="image">
+<name>image0063.png</name>
+<relativelink>images\image0063.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="365" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="422" resourcetype="image">
+<name>image0066.png</name>
+<relativelink>images\image0066.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="485" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="486" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="78">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>166940392</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 4</name>
+<lastupdated>1687452755</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="77" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687452762</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687452762</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687452762</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="78" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687452762</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687452762</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687452762</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="69" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687452762</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="70" parent="69" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687452762</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="69" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687452762</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="62" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687452762</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="63" parent="62" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687452762</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="64" parent="62" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687452762</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="54" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687452762</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="55" parent="54" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687452762</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="56" parent="54" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687452762</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="54" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687452762</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="54">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689694118</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="470" parent="40">
+<name>Página 1</name>
+<lastupdated>1689694121</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="471" parent="470">
+<name>Grupo_1</name>
+<lastupdated>1689694116</lastupdated>
+<image id="473" parent="471" resource="485" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689694116</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="475" parent="471" resource="486" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689694116</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="476" parent="471" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689694122</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text476Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text476Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text476Font1&quot;  &gt;Aula 4&lt;/span &gt;&lt;span class=&quot;text476Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 4\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 4</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="478" parent="471" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689694116</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="480" parent="471" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689694116</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="482" parent="471" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689694116</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="484" parent="471" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689694116</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="154" parent="40">
+<name>Página 2</name>
+<lastupdated>1689694118</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="257" parent="154" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452810</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>116</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>475</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text257Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text257Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot;  &gt;Exemplos: &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text257Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text257ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text257Font1&quot;  &gt;I am a doctor. (Eu sou/estou um mÃ©dico) â€“ Affirmative form.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text257Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text257ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text257Font1&quot;  &gt;I am not (Iâ€™m not) a doctor. (Eu nÃ£o sou/nÃ£o estou um mÃ©dico) â€“ Negative form.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text257Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text257ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text257Font1&quot;  &gt;Am I a doctor? (Eu sou/estou um mÃ©dico?) â€“ Interrogative form.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text257Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text257ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text257Font1&quot;  &gt;You are a doctor. (VocÃª Ã©/estÃ¡ um mÃ©dico) â€“ Affirmative form.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text257Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text257ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text257Font1&quot;  &gt;You are not (arenâ€™t) a doctor. (VocÃª nÃ£o Ã©/nÃ£o estÃ¡ um mÃ©dico) â€“ Negative form.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text257Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text257ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text257Font1&quot;  &gt;Are you a doctor? (VocÃª Ã©/estÃ¡ um mÃ©dico?) â€“ Interrogative form.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text257Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text257ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text257Font1&quot;  &gt;He is intelligent. (Ele Ã©/estÃ¡ inteligente) â€“ Affirmative form. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2 Exemplos: \par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 I am a doctor. (Eu sou/estou um m\&apos;e9dico) \u8211 \&apos;96 Affirmative form.\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3&#x0A;{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 I am not (I\u8217 \&apos;92m not) a doctor. (Eu n\&apos;e3o sou/n\&apos;e3o estou um m\&apos;e9dico) \u8211 \&apos;96 Negative form.\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Am I a doctor? (Eu sou/estou um m\&apos;e9dico?) \u8211 \&apos;96 Interrogative form.\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 You are a doctor. (Voc\&apos;ea \&apos;e9/est\&apos;e1 um m\&apos;e9dico) \u8211 \&apos;96 Affirmative form.\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 You are not (aren\u8217 \&apos;92t) a doctor. (Voc\&apos;ea n\&apos;e3o \&apos;e9/n\&apos;e3o est\&apos;e1 um m\&apos;e9dico) \u8211 \&apos;96 Negative form.\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Are you a doctor? (Voc\&apos;ea \&apos;e9/est\&apos;e1 um m\&apos;e9dico?) \u8211 \&apos;96 Interrogative form.\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 He is intelligent. (Ele \&apos;e9/est\&apos;e1 inteligente) \u8211 \&apos;96 Affirmative form. \par}&#x0A;</rtf>
+<raw>?Exemplos: &#x0A;&#x0A;I am a doctor. (Eu sou/estou um m�dico) � Affirmative form.&#x0A;&#x0A;I am not (I�m not) a doctor. (Eu n�o sou/n�o estou um m�dico) � Negative form.&#x0A;&#x0A;Am I a doctor? (Eu sou/estou um m�dico?) � Interrogative form.&#x0A;&#x0A;You are a doctor. (Voc� �/est� um m�dico) � Affirmative form.&#x0A;&#x0A;You are not (aren�t) a doctor. (Voc� n�o �/n�o est� um m�dico) � Negative form.&#x0A;&#x0A;Are you a doctor? (Voc� �/est� um m�dico?) � Interrogative form.&#x0A;&#x0A;He is intelligent. (Ele �/est� inteligente) � Affirmative form. </raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text257ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text257ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>22</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="195" parent="154" resource="196" ontop="false" fixed="false" proportional="true">
+<name>Picture 3</name>
+<lastupdated>1687452804</lastupdated>
+<possize>
+<point>
+<x>128</x>
+<y>396</y>
+</point>
+<size>
+<cx>227</cx>
+<cy>233</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="179" parent="154" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452799</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>116</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>272</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text179Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text179Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font1&quot;  &gt;Usos&lt;/span &gt;&lt;span class=&quot;text179Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text179Font2&quot;  &gt;Verb to be, Ã© o verbo SER/ESTAR em portuguÃªs, e Ã© usado para relatar que o sujeito Ã‰ ou ESTÃ de alguma forma, os verbs to be sÃ£o AM, IS e ARE, sendo que eles sÃ£o usados com determinado sujeitos para a conjugaÃ§Ã£o verbal, o verb to be â€œAMâ€, serÃ¡ sado com o pronome I, o verb to be â€œISâ€, serÃ¡ usado com os pronomes HE, SHE, IT (3Âª pessoa do singular), e o verb to be â€œAREâ€, serÃ¡ usado com os pronomes YOU, WE, THEY.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2\fs36\b Usos\fs28\b0\par\par Verb to be, \&apos;e9 o verbo SER/ESTAR em portugu\&apos;eas, e \&apos;e9 usado para relatar que o sujeito \&apos;c9 ou EST\&apos;c1 de alguma forma, os verbs to be s\&apos;e3o AM, IS e ARE, sendo &#x0A;que eles s\&apos;e3o usados com determinado sujeitos para a conjuga\&apos;e7\&apos;e3o verbal, o verb to be \u8220 \&apos;93AM\u8221 \&apos;94, ser\&apos;e1 sado com o pronome I, o verb to be \u8220 \&apos;93IS\u8221 \&apos;94, ser\&apos;e1 usado com os pronomes HE, SHE, IT (3\&apos;aa pessoa do singular), &#x0A;e o verb to be \u8220 \&apos;93ARE\u8221 \&apos;94, ser\&apos;e1 usado com os pronomes YOU, WE, THEY.\par}&#x0A;</rtf>
+<raw>?Usos&#x0A;&#x0A;Verb to be, � o verbo SER/ESTAR em portugu�s, e � usado para relatar que o sujeito � ou EST� de alguma forma, os verbs to be s�o AM, IS e ARE, sendo que eles s�o usados com determinado sujeitos para a conjuga��o verbal, o verb to be �AM�, ser� sado com o pronome I, o verb to be �IS�, ser� usado com os pronomes HE, SHE, IT (3� pessoa do singular), e o verb to be �ARE�, ser� usado com os pronomes YOU, WE, THEY.</raw>
+<numoflines>12</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="157" parent="154">
+<name>Grupo_1</name>
+<lastupdated>1687452777</lastupdated>
+<shape id="159" parent="157" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687452777</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="161" parent="157" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687452777</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="163" parent="157" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687452777</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="164" parent="157" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687452785</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text164Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text164Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text164Font1&quot;  &gt;Verb To Be&lt;/span &gt;&lt;span class=&quot;text164Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Verb To Be\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Verb To Be</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="166" parent="157" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687452777</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="168" parent="157" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687452777</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="267" parent="40">
+<name>Página 3</name>
+<lastupdated>1687452864</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="316" parent="267" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452861</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>116</y>
+</point>
+<size>
+<cx>439</cx>
+<cy>517</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text316Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text316Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text316Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text316ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text316Font1&quot;  &gt;THERE IS: hÃ¡, existe â€“ Sempre utilizado com substantivos no singular.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text316Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text316Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text316ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text316Font1&quot;  &gt;THERE ARE: hÃ¡, existem â€“ Sempre utilizado com substantivos no plural.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text316Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text316Font1&quot;  &gt;Exemplos:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text316Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text316Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text316ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text316Font1&quot;  &gt;There is a big house over there. (Affirmative)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text316Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text316Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text316ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text316Font1&quot;  &gt;There is not (isnÂ´t) a big house over there. (Negative)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text316Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text316Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text316ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text316Font1&quot;  &gt;Is there a big house over there? (Interrogative)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text316Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text316Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text316ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text316Font1&quot;  &gt;There are seven billion people living on this beautiful planet. (Affirmative)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text316Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text316Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text316ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text316Font1&quot;  &gt;There are not (arenÂ´t) seven billion people on this beautiful planet. (Negative)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text316Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text316Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text316ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text316Font1&quot;  &gt;Are there seven billion people living on this beautiful planet? (Interrogative)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f2\loch\f2 THERE IS: h\&apos;e1, existe \u8211 \&apos;96 Sempre utilizado com substantivos no singular.\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 THERE ARE: h\&apos;e1, existem \u8211 \&apos;96 Sempre utilizado com substantivos no plural.\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\fi0\li0\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;Exemplos:\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 There is a big house over there. (Affirmative)\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 There is not (isn\&apos;b4t) a big house over there. (Negative)\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;Is there a big house over there? (Interrogative)\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 There are seven billion people &#x0A;living on this beautiful planet. (Affirmative)\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 There are not (aren\&apos;b4t) seven &#x0A;billion people on this beautiful planet. (Negative)\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Are there seven billion &#x0A;people living on this beautiful planet? (Interrogative)\par}&#x0A;</rtf>
+<raw>?THERE IS: h?, existe ? Sempre utilizado com substantivos no singular.&#x0A;THERE ARE: h?, existem ? Sempre utilizado com substantivos no plural.&#x0A;Exemplos:&#x0A;There is a big house over there. (Affirmative)&#x0A;There is not (isn?t) a big house over there. (Negative)&#x0A;Is there a big house over there? (Interrogative)&#x0A;There are seven billion people living on this beautiful planet. (Affirmative)&#x0A;There are not (aren?t) seven billion people on this beautiful planet. (Negative)&#x0A;Are there seven billion people living on this beautiful planet? (Interrogative)</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text316ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text316ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>23</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="281" parent="267" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452847</lastupdated>
+<possize>
+<point>
+<x>42</x>
+<y>110</y>
+</point>
+<size>
+<cx>452</cx>
+<cy>559</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text281Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text281Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text281Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text281Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text281Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text281ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text281Font1&quot;  &gt;He is not (isnâ€™t) intelligent. (Ele nÃ£o Ã©/nÃ£o estÃ¡ inteligente) â€“ Negative form.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text281Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text281Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text281ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text281Font1&quot;  &gt;Is he intelligent? (Ele Ã©/estÃ¡ inteligente?) â€“ Interrogative form. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text281Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text281Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text281ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text281Font1&quot;  &gt;They are intelligent. (Eles/Elas sÃ£o/estÃ£o inteligentes) â€“ affirmative form.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text281Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text281Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text281ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text281Font1&quot;  &gt;They are not (arenâ€™t) intelligent. (Eles/Elas nÃ£o sÃ£o/nÃ£o estÃ£o inteligentes) â€“ Negative form.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text281Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text281Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text281ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text281Font1&quot;  &gt;Are they intelligent? (Eles/Elas sÃ£o/estÃ£o inteligentes?) â€“ Interrogative form&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text281Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text281Font3&quot;  &gt;Verb There to be&lt;/span &gt;&lt;span class=&quot;text281Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text281Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text281Font1&quot;  &gt;Usamos o &quot;&lt;/span &gt;&lt;span class=&quot;text281Font3&quot;  &gt;there to be&lt;/span &gt;&lt;span class=&quot;text281Font1&quot;  &gt;&quot; para relatar a existÃªncia de pessoas, situaÃ§Ãµes, objetos e animais. â€œThere to beâ€, tem o mesmo significado que o verbo &quot;haver&quot; (ou &quot;ter&quot; no sentido de existir). De qualquer maneira, em inglÃªs, nÃ£o se pode utilizar o verbo &quot;to have&quot; para indicar existÃªncia. O verbo &quot;to have&quot;, que significa &quot;ter&quot;, indica apenas posse ou uma obrigaÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 He is not (isn\u8217 \&apos;92t) intelligent. (Ele n\&apos;e3o \&apos;e9/n\&apos;e3o est\&apos;e1 inteligente) \u8211 \&apos;96 Negative form.\par\pard\s0\fi-450\li450\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3&#x0A;{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 Is he intelligent? (Ele \&apos;e9/est\&apos;e1 inteligente?) \u8211 \&apos;96 Interrogative form. \par\pard\s0\fi-450\li450\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 They are intelligent. (Eles/Elas s\&apos;e3o/est\&apos;e3o inteligentes) \u8211 \&apos;96 affirmative form.\par\pard\s0\fi-450\li450\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 They are not (aren\u8217 \&apos;92t) intelligent. (Eles/Elas n\&apos;e3o s\&apos;e3o/n\&apos;e3o est\&apos;e3o inteligentes) \u8211 \&apos;96 Negative form.\par\pard\s0\fi-450\li450\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 Are they intelligent? (Eles/Elas s\&apos;e3o/est\&apos;e3o inteligentes?) \u8211 \&apos;96 Interrogative form\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\b Verb There to be\b0\par\par &#x0A;Usamos o &quot;\b there to be\b0 &quot; para relatar a exist\&apos;eancia de pessoas, situa\&apos;e7\&apos;f5es, objetos e animais. \u8220 \&apos;93There to be\u8221 \&apos;94, tem o mesmo significado que o verbo &quot;haver&quot; (ou &quot;ter&quot; no sentido de existir). De qualquer maneira, em ingl\&apos;eas, &#x0A;n\&apos;e3o se pode utilizar o verbo &quot;to have&quot; para indicar exist\&apos;eancia. O verbo &quot;to have&quot;, que significa &quot;ter&quot;, indica apenas posse ou uma obriga\&apos;e7\&apos;e3o.\par}&#x0A;</rtf>
+<raw>?He is not (isn?t) intelligent. (Ele n?o ?/n?o est? inteligente) ? Negative form.&#x0A;Is he intelligent? (Ele ?/est? inteligente?) ? Interrogative form. &#x0A;They are intelligent. (Eles/Elas s?o/est?o inteligentes) ? affirmative form.&#x0A;They are not (aren?t) intelligent. (Eles/Elas n?o s?o/n?o est?o inteligentes) ? Negative form.&#x0A;Are they intelligent? (Eles/Elas s?o/est?o inteligentes?) ? Interrogative form&#x0A;Verb There to be&#x0A;Usamos o &quot;there to be&quot; para relatar a exist?ncia de pessoas, situa??es, objetos e animais. ?There to be?, tem o mesmo significado que o verbo &quot;haver&quot; (ou &quot;ter&quot; no sentido de existir). De qualquer maneira, em ingl?s, n?o se pode utilizar o verbo &quot;to have&quot; para indicar exist?ncia. O verbo &quot;to have&quot;, que significa &quot;ter&quot;, indica apenas posse ou uma obriga??o.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text281ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text281ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>25</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="269" parent="267">
+<name>Grupo_1</name>
+<lastupdated>1687452822</lastupdated>
+<shape id="271" parent="269" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687452822</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="273" parent="269" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687452822</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="275" parent="269" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687452822</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="276" parent="269" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687452822</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text276Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text276Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text276Font1&quot;  &gt;Verb To Be&lt;/span &gt;&lt;span class=&quot;text276Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Verb To Be\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Verb To Be</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="278" parent="269" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687452822</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="280" parent="269" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687452822</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="333" parent="40">
+<name>Página 4</name>
+<lastupdated>1687452965</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="435" parent="333" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452958</lastupdated>
+<possize>
+<point>
+<x>529</x>
+<y>225</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>307</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text435Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text435Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text435Font1&quot;  &gt;O futuro com going to Ã© usado nas seguintes situaÃ§Ãµes:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text435Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text435Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text435CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text435Font1&quot;  &gt;Para expressar planos e intenÃ§Ãµes. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text435Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text435Font1&quot;  &gt;Exemplo: We are going to study for the test tonight. (Hoje a noite, nÃ³s vamos estudar para a prova.)&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text435Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text435Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text435CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text435Font1&quot;  &gt;Para descrever algo que obviamente vai acontecer.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text435Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text435Font1&quot;  &gt;Exemplo: Look at those clouds! It is going to rain. â†’ Olhe aquelas nuvens! Vai chover.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \froman \fcharset2 Symbol;}{\f4 \fnil \fcharset2 Wingdings;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2 O futuro com going to \&apos;e9 usado nas seguintes situa\&apos;e7\&apos;f5es:\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Para expressar planos &#x0A;e inten\&apos;e7\&apos;f5es. \par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par Exemplo: We are going to study for the test tonight. (Hoje a noite, n\&apos;f3s vamos estudar para a prova.)\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;Para descrever algo que obviamente vai acontecer.\par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par Exemplo: Look at those clouds! It is going to rain. \u8594 \&apos;3f Olhe aquelas nuvens! Vai chover.\par}&#x0A;</rtf>
+<raw>?O futuro com going to ? usado nas seguintes situa??es:&#x0A;Para expressar planos e inten??es. &#x0A;Exemplo: We are going to study for the test tonight. (Hoje a noite, n?s vamos estudar para a prova.)&#x0A;Para descrever algo que obviamente vai acontecer.&#x0A;Exemplo: Look at those clouds! It is going to rain. ? Olhe aquelas nuvens! Vai chover.</raw>
+<publishedbullets>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text435CircleBulletFont6.png</name>
+</bullet>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text435CircleBulletFont6.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>14</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="421" parent="333" resource="422" ontop="false" fixed="false" proportional="true">
+<name>Picture 4</name>
+<lastupdated>1687452952</lastupdated>
+<possize>
+<point>
+<x>529</x>
+<y>141</y>
+</point>
+<size>
+<cx>291</cx>
+<cy>75</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="408" parent="333" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452950</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>116</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>32</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text408Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text408Font1&quot;  &gt;Exemplo&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2 Exemplo\par}&#x0A;</rtf>
+<raw>?Exemplo</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="366" parent="333" resource="365" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687452933</lastupdated>
+<possize>
+<point>
+<x>57</x>
+<y>540</y>
+</point>
+<size>
+<cx>415</cx>
+<cy>45</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<objgroup id="342" parent="333">
+<name>Grupo_1</name>
+<lastupdated>1687452873</lastupdated>
+<shape id="344" parent="342" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687452873</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="346" parent="342" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687452873</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="348" parent="342" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687452873</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="349" parent="342" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687452873</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text349Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text349Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text349Font1&quot;  &gt;Verb To Be&lt;/span &gt;&lt;span class=&quot;text349Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Verb To Be\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Verb To Be</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="351" parent="342" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687452873</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="353" parent="342" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687452873</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+<text id="334" parent="333" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452922</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>116</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>370</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text334Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text334Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text334Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text334Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text334Font1&quot;  &gt;OBS.:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text334Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text334Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text334CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text334Font1&quot;  &gt;Podemos usar o there is na forma contraÃ­da que Ã© there&apos;s, jÃ¡ there are nÃ£o possui contraÃ§Ã£o na forma afirmativa, portanto nÃ£o pode ser escrito na forma contraÃ­da.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text334Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text334Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text334CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text334Font1&quot;  &gt;A forma contraÃ­da do verbo there is na afirmativa nunca ocorre no fim de uma frase:&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text334Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text334Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text334CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text334Font1&quot;  &gt;Is there any milk?&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text334Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text334CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text334Font1&quot;  &gt;Yes, there is. (NOT Yes, thereâ€™s.)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text334Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text334Font3&quot;  &gt;Immediate future&lt;/span &gt;&lt;span class=&quot;text334Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text334Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text334Font3&quot;  &gt;FORMAÃ‡ÃƒO&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \froman \fcharset2 Symbol;}{\f4 \fnil \fcharset2 Wingdings;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2 OBS.:\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Podemos usar o there is na forma contra\&apos;edda que \&apos;e9 there&apos;s, j\&apos;e1 there &#x0A;are n\&apos;e3o possui contra\&apos;e7\&apos;e3o na forma afirmativa, portanto n\&apos;e3o pode ser escrito na forma contra\&apos;edda.\par\pard\s0\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;A forma contra\&apos;edda do verbo there is na afirmativa nunca ocorre no fim de uma frase:\par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Is &#x0A;there any milk?\par Yes, there is. (NOT Yes, there\u8217 \&apos;92s.)\par\pard\s0\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\fi0\li0\hich\f1\loch\f1\hich\f2\loch\f2\b Immediate future\b0\par\b\par FORMA\&apos;c7\&apos;c3O\par}&#x0A;</rtf>
+<raw>?OBS.:&#x0A;Podemos usar o there is na forma contra?da que ? there&apos;s, j? there are n?o possui contra??o na forma afirmativa, portanto n?o pode ser escrito na forma contra?da.&#x0A;A forma contra?da do verbo there is na afirmativa nunca ocorre no fim de uma frase:&#x0A;Is there any milk?&#x0A;Yes, there is. (NOT Yes, there?s.)&#x0A;Immediate future&#x0A;FORMA??O</raw>
+<publishedbullets>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text334CircleBulletFont6.png</name>
+</bullet>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text334CircleBulletFont6.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>17</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+</page>
+<page id="445" parent="40">
+<name>Página 5</name>
+<lastupdated>1687452965</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="459" parent="445" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452976</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>116</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>412</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text459Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text459Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text459Font1&quot;  &gt;ObservaÃ§Ã£o: As estruturas was going to / were going to sÃ£o usadas no passado, mas expressam que alguma coisa era futuro naquele momento.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text459Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text459Font1&quot;  &gt;Exemplo: She was going to get married the last time I saw her. â†’ A Ãºltima vez que a vi, ela ia se casar.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text459Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text459Font1&quot;  &gt;O present continuous tense tambÃ©m pode ser usado para expressar futuro quando algo certamente irÃ¡ acontecer em um futuro prÃ³ximo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text459Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text459Font1&quot;  &gt;Exemplo: Iâ€™m playing tennis tomorrow. â†’ EstÃ¡ tudo arranjado para o jogo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text459Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text459Font1&quot;  &gt;AdvÃ©rbios que frequentemente acompanham o futuro: tomorrow (amanhÃ£), next (prÃ³ximo), tonight (hoje Ã  noite)&lt;/span &gt;&lt;span class=&quot;text459Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2 Observa\&apos;e7\&apos;e3o: As estruturas was going to / were going to s\&apos;e3o usadas no passado, mas expressam que alguma coisa era futuro naquele momento.\par\par Exemplo: She was going to get married the &#x0A;last time I saw her. \u8594 \&apos;3f A \&apos;faltima vez que a vi, ela ia se casar.\par\par O present continuous tense tamb\&apos;e9m pode ser usado para expressar futuro quando algo certamente ir\&apos;e1 acontecer em um futuro pr\&apos;f3ximo.\par\par Exemplo: I\u8217 \&apos;92m &#x0A;playing tennis tomorrow. \u8594 \&apos;3f Est\&apos;e1 tudo arranjado para o jogo.\par\par Adv\&apos;e9rbios que frequentemente acompanham o futuro: tomorrow (amanh\&apos;e3), next (pr\&apos;f3ximo), tonight (hoje \&apos;e0 noite)\b\par}&#x0A;</rtf>
+<raw>?Observa??o: As estruturas was going to / were going to s?o usadas no passado, mas expressam que alguma coisa era futuro naquele momento.&#x0A;Exemplo: She was going to get married the last time I saw her. ? A ?ltima vez que a vi, ela ia se casar.&#x0A;O present continuous tense tamb?m pode ser usado para expressar futuro quando algo certamente ir? acontecer em um futuro pr?ximo.&#x0A;Exemplo: I?m playing tennis tomorrow. ? Est? tudo arranjado para o jogo.&#x0A;Adv?rbios que frequentemente acompanham o futuro: tomorrow (amanh?), next (pr?ximo), tonight (hoje ? noite)</raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="447" parent="445">
+<name>Grupo_1</name>
+<lastupdated>1687452969</lastupdated>
+<shape id="449" parent="447" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687452969</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="451" parent="447" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687452969</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="453" parent="447" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687452969</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="454" parent="447" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687452969</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>60</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text454Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text454Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text454Font1&quot;  &gt;Verb To Be&lt;/span &gt;&lt;span class=&quot;text454Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Verb To Be\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Verb To Be</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="456" parent="447" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687452969</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="458" parent="447" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687452969</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

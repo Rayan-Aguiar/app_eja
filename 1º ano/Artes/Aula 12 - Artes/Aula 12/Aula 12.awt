@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc">
+<currentid>615</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="167" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="168" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="521" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="76">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>195910088</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 12</name>
+<lastupdated>1686596815</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="75" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1686596823</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1686596823</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1686596823</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="76" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1686596823</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1686596823</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="70" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1686596823</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="68" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1686596823</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="69" parent="68" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686596823</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="62" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1686596823</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="63" parent="62" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686596823</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="54" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1686596823</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="55" parent="54" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1686596823</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="56" parent="54" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1686596823</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="54" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1686596823</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="54">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>0</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="2" parent="40">
+<name>Página 1</name>
+<lastupdated>1686596826</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+</page>
+<page id="152" parent="40">
+<name>Página 2</name>
+<lastupdated>1686597085</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="254" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1686597019</lastupdated>
+<possize>
+<point>
+<x>50</x>
+<y>152</y>
+</point>
+<size>
+<cx>427</cx>
+<cy>487</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text254Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text254Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text254Font1&quot;  &gt;A preservaÃ§Ã£o da cultura de um povo Ã© algo essencial para a perpetuaÃ§Ã£o de sua memÃ³ria e de sua histÃ³ria. Nesse sentido, vÃ¡rias sÃ£o as aÃ§Ãµes governamentais, privadas e voluntÃ¡rias voltadas para a proteÃ§Ã£o do patrimÃ´nio histÃ³rico e artÃ­stico nacional.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text254Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text254Font1&quot;  &gt;Ã‰ importante destacar a questÃ£o desse patrimÃ´nio &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text254Font1&quot;  &gt;em meio ao mundo globalizado, uma vez que, como vimos hÃ¡ pouco, a quebra de fronteiras e o maior contato entre os povos pode promover um processo constante de mudanÃ§as culturais, cujos reflexos sÃ£o percebidos sobre as produÃ§Ãµes artÃ­sticas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text254Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text254Font1&quot;  &gt;O fenÃ´meno da globalizaÃ§Ã£o teve inÃ­cio com a expansÃ£o do comÃ©rcio entre os povos e a consequente integraÃ§Ã£o decorrente do desenvolvimento tecnolÃ³gico, sobretudo nas Ã¡reas da&lt;/span &gt;&lt;span class=&quot;text254Font2&quot;  &gt; comunicaÃ§Ã£o e do transporte. HÃ¡ de se destacar o papel do capitalismo, seu grande motor, e tambÃ©m das guerras nesse processo de formaÃ§Ã£o das relaÃ§Ãµes socioespaciais.&lt;/span &gt;&lt;span class=&quot;text254Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 A preserva\&apos;e7\&apos;e3o da cultura de um povo \&apos;e9 algo essencial para a perpetua\&apos;e7\&apos;e3o de sua mem\&apos;f3ria e de sua hist\&apos;f3ria. Nesse sentido, v\&apos;e1rias s\&apos;e3o as a\&apos;e7\&apos;f5es governamentais, privadas e volunt\&apos;e1rias voltadas &#x0A;para a prote\&apos;e7\&apos;e3o do patrim\&apos;f4nio hist\&apos;f3rico e art\&apos;edstico nacional.\par\par \&apos;c9 importante destacar a quest\&apos;e3o desse patrim\&apos;f4nio \par em meio ao mundo globalizado, uma vez que, como vimos h\&apos;e1 pouco, a quebra de fronteiras e o maior contato &#x0A;entre os povos pode promover um processo constante de mudan\&apos;e7as culturais, cujos reflexos s\&apos;e3o percebidos sobre as produ\&apos;e7\&apos;f5es art\&apos;edsticas.\par\par O fen\&apos;f4meno da globaliza\&apos;e7\&apos;e3o teve in\&apos;edcio com a expans\&apos;e3o do com\&apos;e9rcio entre os &#x0A;povos e a consequente integra\&apos;e7\&apos;e3o decorrente do desenvolvimento tecnol\&apos;f3gico, sobretudo nas \&apos;e1reas da\hich\f2\loch\f2  comunica\&apos;e7\&apos;e3o e do transporte. H\&apos;e1 de se destacar o papel do capitalismo, seu grande motor, e tamb\&apos;e9m das guerras nesse &#x0A;processo de forma\&apos;e7\&apos;e3o das rela\&apos;e7\&apos;f5es socioespaciais\lang1046\hich\f2\loch\f2 .\lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?A preserva??o da cultura de um povo ? algo essencial para a perpetua??o de sua mem?ria e de sua hist?ria. Nesse sentido, v?rias s?o as a??es governamentais, privadas e volunt?rias voltadas para a prote??o do patrim?nio hist?rico e art?stico nacional.&#x0A;? importante destacar a quest?o desse patrim?nio &#x0A;em meio ao mundo globalizado, uma vez que, como vimos h? pouco, a quebra de fronteiras e o maior contato entre os povos pode promover um processo constante de mudan?as culturais, cujos reflexos s?o percebidos sobre as produ??es art?sticas.&#x0A;O fen?meno da globaliza??o teve in?cio com a expans?o do com?rcio entre os povos e a consequente integra??o decorrente do desenvolvimento tecnol?gico, sobretudo nas ?reas da comunica??o e do transporte. H? de se destacar o papel do capitalismo, seu grande motor, e tamb?m das guerras nesse processo de forma??o das rela??es socioespaciais.</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="351" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1686597078</lastupdated>
+<possize>
+<point>
+<x>537</x>
+<y>152</y>
+</point>
+<size>
+<cx>427</cx>
+<cy>479</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text351Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text351Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text351Font1&quot;  &gt;Os aspectos positivos e negativos da globalizaÃ§Ã£o &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text351Font1&quot;  &gt;dependem da abordagem ou do viÃ©s ideolÃ³gico de quem os aponta. Eles podem ser analisados sob vÃ¡rias Ã³ticas, econÃ´mica, polÃ­tica, social, tecnolÃ³gica, cultural, educacional, por exemplo, mas algo nÃ£o pode ser negado: ela propicia uma velocidade imensa na propagaÃ§Ã£o do conhecimento.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text351Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text351Font1&quot;  &gt;Nas primeiras dÃ©cadas do sÃ©culo passado, importantes personagens da arte e da literatura brasileira sentiram a necessidade de modernizar nossas produÃ§Ãµes, de alinhÃ¡-las ao que havia de&lt;/span &gt;&lt;span class=&quot;text351Font2&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text351Font1&quot;  &gt;mais moderno na arte mundial, assim, nomes&lt;/span &gt;&lt;span class=&quot;text351Font2&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text351Font1&quot;  &gt;conhecidos do pÃºblico como as pintoras Tarsila do Amaral e Anita Malfatti e o poeta Oswald de Andrade realizaram viagens a Paris, o grande polo da Vanguarda ArtÃ­stica, para assimilarem o mÃ¡ximo que puderam das novas propostas estÃ©ticas. Seu aprendizado fomentou a realizaÃ§Ã£o da Semana de Arte Moderna, de 1922 e o surgimento do Movimento AntropofÃ¡gico.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}{\f3 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qj\hich\f2\loch\f2 Os aspectos positivos e negativos da globaliza\&apos;e7\&apos;e3o \par dependem da abordagem ou do vi\&apos;e9s ideol\&apos;f3gico de quem os aponta. Eles podem ser analisados sob v\&apos;e1rias \&apos;f3ticas, econ\&apos;f4mica, pol\&apos;edtica, &#x0A;social, tecnol\&apos;f3gica, cultural, educacional, por exemplo, mas algo n\&apos;e3o pode ser negado: ela propicia uma velocidade imensa na propaga\&apos;e7\&apos;e3o do conhecimento.\par\par Nas primeiras d\&apos;e9cadas do s\&apos;e9culo passado, importantes personagens da arte &#x0A;e da literatura brasileira sentiram a necessidade de modernizar nossas produ\&apos;e7\&apos;f5es, de alinh\&apos;e1-las ao que havia de\lang1046\hich\f3\loch\f3  \lang1046\hich\f2\loch\f2 mais moderno na arte mundial, assim, nomes\lang1046\hich\f3\loch\f3  \lang1046\hich\f2\loch\f2 &#x0A;conhecidos do p\&apos;fablico como as pintoras Tarsila do Amaral e Anita Malfatti e o poeta Oswald de Andrade realizaram viagens a Paris, o grande polo da Vanguarda Art\&apos;edstica, para assimilarem o m\&apos;e1ximo que puderam das novas propostas est\&apos;e9ticas. Seu &#x0A;aprendizado fomentou a realiza\&apos;e7\&apos;e3o da Semana de Arte Moderna, de 1922 e o surgimento do Movimento Antropof\&apos;e1gico.\par}&#x0A;</rtf>
+<raw>?Os aspectos positivos e negativos da globaliza??o &#x0A;dependem da abordagem ou do vi?s ideol?gico de quem os aponta. Eles podem ser analisados sob v?rias ?ticas, econ?mica, pol?tica, social, tecnol?gica, cultural, educacional, por exemplo, mas algo n?o pode ser negado: ela propicia uma velocidade imensa na propaga??o do conhecimento.&#x0A;Nas primeiras d?cadas do s?culo passado, importantes personagens da arte e da literatura brasileira sentiram a necessidade de modernizar nossas produ??es, de alinh?-las ao que havia de mais moderno na arte mundial, assim, nomes conhecidos do p?blico como as pintoras Tarsila do Amaral e Anita Malfatti e o poeta Oswald de Andrade realizaram viagens a Paris, o grande polo da Vanguarda Art?stica, para assimilarem o m?ximo que puderam das novas propostas est?ticas. Seu aprendizado fomentou a realiza??o da Semana de Arte Moderna, de 1922 e o surgimento do Movimento Antropof?gico.</raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="250" parent="152">
+<name>Grupo_1</name>
+<lastupdated>1686596879</lastupdated>
+<shape id="157" parent="250" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686596879</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>115</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="159" parent="250" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686596879</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>115</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="161" parent="250" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686596879</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>115</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="162" parent="250" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686596879</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>24</y>
+</point>
+<size>
+<cx>693</cx>
+<cy>98</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text162Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text162Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text162Font1&quot;  &gt;Aspectos da globalizaÃ§Ã£o, obra de &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text162Font1&quot;  &gt;arte e sua funÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text162Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Aspectos da globaliza\&apos;e7\&apos;e3o, obra de \par arte e sua fun\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Aspectos da globaliza??o, obra de &#x0A;arte e sua fun??o</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="164" parent="250" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686596879</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="166" parent="250" resource="168" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686596879</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="395" parent="40">
+<name>Página 3</name>
+<lastupdated>1686597233</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="467" parent="395" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1686597215</lastupdated>
+<possize>
+<point>
+<x>540</x>
+<y>158</y>
+</point>
+<size>
+<cx>425</cx>
+<cy>476</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text467Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text467Font1&quot;  &gt;Artistas que conseguem entrelaÃ§ar sua origem, sua identidade cultural e temas de alcance global atravÃ©s de tÃ©cnicas, meios e recursos atraentes vÃªm obtendo Ãªxito e crÃ­ticas positivas, espalhando seus trabalhos por galerias de vÃ¡rios paÃ­ses. Exemplos disso sÃ£o Adriana VarejÃ£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text467Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text467Font1&quot;  &gt;Esses artistas representam a resistÃªncia do sujeito e da diversidade frente Ã  massificaÃ§Ã£o e Ã  homogeneizaÃ§Ã£o da indÃºstria cultural que, inevitavelmente, acompanha o fluxo contÃ­nuo desse processo chamado globalizaÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text467Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text467Font1&quot;  &gt;O artista Ã© um agente observador, analÃ­tico e crÃ­tico, Ã© tÃ­pica desse profissional a capacidade de assimilar o mundo, a realidade que o cerca, carregar com sua experiÃªncia e sentimentos e devolver ao mesmo mundo em formas e cores.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qj\hich\f2\loch\f2 Artistas que conseguem entrela\&apos;e7ar sua origem, sua identidade cultural e temas de alcance global atrav\&apos;e9s de t\&apos;e9cnicas, meios e recursos atraentes v\&apos;eam obtendo \&apos;eaxito e cr\&apos;edticas positivas, &#x0A;espalhando seus trabalhos por galerias de v\&apos;e1rios pa\&apos;edses. Exemplos disso s\&apos;e3o Adriana Varej\&apos;e3o.\par\par Esses artistas representam a resist\&apos;eancia do sujeito e da diversidade frente \&apos;e0 massifica\&apos;e7\&apos;e3o e \&apos;e0 homogeneiza\&apos;e7\&apos;e3o da ind\&apos;fastria &#x0A;cultural que, inevitavelmente, acompanha o fluxo cont\&apos;ednuo desse processo chamado globaliza\&apos;e7\&apos;e3o.\par\par O artista \&apos;e9 um agente observador, anal\&apos;edtico e cr\&apos;edtico, \&apos;e9 t\&apos;edpica desse profissional a capacidade de assimilar o mundo, a realidade &#x0A;que o cerca, carregar com sua experi\&apos;eancia e sentimentos e devolver ao mesmo mundo em formas e cores.\par}&#x0A;</rtf>
+<raw>?Artistas que conseguem entrela?ar sua origem, sua identidade cultural e temas de alcance global atrav?s de t?cnicas, meios e recursos atraentes v?m obtendo ?xito e cr?ticas positivas, espalhando seus trabalhos por galerias de v?rios pa?ses. Exemplos disso s?o Adriana Varej?o.&#x0A;Esses artistas representam a resist?ncia do sujeito e da diversidade frente ? massifica??o e ? homogeneiza??o da ind?stria cultural que, inevitavelmente, acompanha o fluxo cont?nuo desse processo chamado globaliza??o.&#x0A;O artista ? um agente observador, anal?tico e cr?tico, ? t?pica desse profissional a capacidade de assimilar o mundo, a realidade que o cerca, carregar com sua experi?ncia e sentimentos e devolver ao mesmo mundo em formas e cores.</raw>
+<numoflines>18</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="409" parent="395" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1686597155</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>158</y>
+</point>
+<size>
+<cx>425</cx>
+<cy>476</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text409Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text409Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text409Font1&quot;  &gt;O interessante Ã© que esses artistas conseguiram desenvolver linguagens utilizando recursos e tÃ©cnicas modernas, assimiladas do contato com outras culturas, e canalizaram para temas nacionais, valorizando, assim, sua origem, cultura e identidade.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text409Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text409Font1&quot;  &gt;No cenÃ¡rio contemporÃ¢neo, no entanto, essas informaÃ§Ãµes buscadas pelos artistas do passado sÃ£o obtidas rapidamente, em tempo integral. O que hÃ¡ de inovador, ousado, de chamativo salta Ã s &lt;/span &gt;&lt;span class=&quot;text409Font2&quot;  &gt;&#x1C;&lt;/span &gt;&lt;span class=&quot;text409Font1&quot;  &gt;telas dos computadores e smartphones em um simples toque. PorÃ©m, a arte em meio ao mudo globalizado tem apresentado suas exigÃªncias. o artista vive em uma berlinda, de uma lado esperam-se obras que firmem sua linguagem individual, uma arte local em meio ao multiculturalismo caracterÃ­stico do paÃ­s; do outro a hÃ¡ a exigÃªncia de uma arte inovadora e antenada ao que hÃ¡ de novo no mundo, que exprima toda a diversidade, possibilidades e influÃªncias advindas do mundo sem fronteiras.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 O interessante \&apos;e9 que esses artistas conseguiram desenvolver linguagens utilizando recursos e t\&apos;e9cnicas modernas, assimiladas do contato com outras culturas, e canalizaram para temas nacionais, valorizando, assim, &#x0A;sua origem, cultura e identidade.\par\par No cen\&apos;e1rio contempor\&apos;e2neo, no entanto, essas informa\&apos;e7\&apos;f5es buscadas pelos artistas do passado s\&apos;e3o obtidas rapidamente, em tempo integral. O que h\&apos;e1 de inovador, ousado, de chamativo salta \&apos;e0s \lang1046\hich\f2\loch\f2 &#x0A;\&apos;1c\lang1046\hich\f1\loch\f1 telas dos computadores e smartphones em um simples toque. Por\&apos;e9m, a arte em meio ao mudo globalizado tem apresentado suas exig\&apos;eancias. o artista vive em uma berlinda, de uma lado esperam-se obras que firmem sua linguagem &#x0A;individual, uma arte local em meio ao multiculturalismo caracter\&apos;edstico do pa\&apos;eds; do outro a h\&apos;e1 a exig\&apos;eancia de uma arte inovadora e antenada ao que h\&apos;e1 de novo no mundo, que exprima toda a diversidade, possibilidades e influ\&apos;eancias advindas &#x0A;do mundo sem fronteiras.\par}&#x0A;</rtf>
+<raw>?O interessante ? que esses artistas conseguiram desenvolver linguagens utilizando recursos e t?cnicas modernas, assimiladas do contato com outras culturas, e canalizaram para temas nacionais, valorizando, assim, sua origem, cultura e identidade.&#x0A;No cen?rio contempor?neo, no entanto, essas informa??es buscadas pelos artistas do passado s?o obtidas rapidamente, em tempo integral. O que h? de inovador, ousado, de chamativo salta ?s &#x1C;telas dos computadores e smartphones em um simples toque. Por?m, a arte em meio ao mudo globalizado tem apresentado suas exig?ncias. o artista vive em uma berlinda, de uma lado esperam-se obras que firmem sua linguagem individual, uma arte local em meio ao multiculturalismo caracter?stico do pa?s; do outro a h? a exig?ncia de uma arte inovadora e antenada ao que h? de novo no mundo, que exprima toda a diversidade, possibilidades e influ?ncias advindas do mundo sem fronteiras.</raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="397" parent="395">
+<name>Grupo_1</name>
+<lastupdated>1686597088</lastupdated>
+<shape id="399" parent="397" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686597088</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>115</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="401" parent="397" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686597088</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>115</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="403" parent="397" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686597088</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>115</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="404" parent="397" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686597088</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>24</y>
+</point>
+<size>
+<cx>693</cx>
+<cy>98</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text404Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text404Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text404Font1&quot;  &gt;Aspectos da globalizaÃ§Ã£o, obra de &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text404Font1&quot;  &gt;arte e sua funÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text404Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Aspectos da globaliza\&apos;e7\&apos;e3o, obra de \par arte e sua fun\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Aspectos da globaliza??o, obra de &#x0A;arte e sua fun??o</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="406" parent="397" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686597088</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="408" parent="397" resource="168" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686597088</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="507" parent="40">
+<name>Página 4</name>
+<lastupdated>1686597233</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="542" parent="507" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1686597293</lastupdated>
+<possize>
+<point>
+<x>536</x>
+<y>168</y>
+</point>
+<size>
+<cx>426</cx>
+<cy>197</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text542Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text542Font1&quot;  &gt;Dentre as vÃ¡rias funÃ§Ãµes da arte (ornamentar, entreter, educar, registrar, entre outras), talvez a mais importante seja a de levar o pÃºblico Ã  reflexÃ£o sobre sua condiÃ§Ã£o humana, suas relaÃ§Ãµes com o outro, sua posiÃ§Ã£o em meio a um universo no qual o individual e o coletivo se fundem e se conflitam ao mesmo tempo atravÃ©s do poder das mÃ­dias, das redes sociais e da comunicaÃ§Ã£o imediata.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Dentre as v\&apos;e1rias fun\&apos;e7\&apos;f5es da arte (ornamentar, entreter, educar, registrar, entre outras), talvez a mais importante seja a de levar o p\&apos;fablico \&apos;e0 reflex\&apos;e3o sobre sua condi\&apos;e7\&apos;e3o humana, suas rela\&apos;e7\&apos;f5es &#x0A;com o outro, sua posi\&apos;e7\&apos;e3o em meio a um universo no qual o individual e o coletivo se fundem e se conflitam ao mesmo tempo atrav\&apos;e9s do poder das m\&apos;eddias, das redes sociais e da comunica\&apos;e7\&apos;e3o imediata.\par}&#x0A;</rtf>
+<raw>?Dentre as v?rias fun??es da arte (ornamentar, entreter, educar, registrar, entre outras), talvez a mais importante seja a de levar o p?blico ? reflex?o sobre sua condi??o humana, suas rela??es com o outro, sua posi??o em meio a um universo no qual o individual e o coletivo se fundem e se conflitam ao mesmo tempo atrav?s do poder das m?dias, das redes sociais e da comunica??o imediata.</raw>
+<numoflines>9</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="522" parent="507" resource="521" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686597289</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>168</y>
+</point>
+<size>
+<cx>324</cx>
+<cy>374</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<objgroup id="509" parent="507">
+<name>Grupo_1</name>
+<lastupdated>1686597236</lastupdated>
+<shape id="511" parent="509" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686597236</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>115</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="513" parent="509" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686597236</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>115</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="515" parent="509" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686597236</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>115</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="516" parent="509" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686597236</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>24</y>
+</point>
+<size>
+<cx>693</cx>
+<cy>98</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text516Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text516Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text516Font1&quot;  &gt;Aspectos da globalizaÃ§Ã£o, obra de &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text516Font1&quot;  &gt;arte e sua funÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text516Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Aspectos da globaliza\&apos;e7\&apos;e3o, obra de \par arte e sua fun\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Aspectos da globaliza??o, obra de &#x0A;arte e sua fun??o</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="518" parent="509" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686597236</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="520" parent="509" resource="168" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686597236</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

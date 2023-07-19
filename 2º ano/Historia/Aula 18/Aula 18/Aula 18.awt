@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>817</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="170" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="171" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="498" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="707" resourcetype="image">
+<name>Imagem1.png</name>
+<relativelink>images\Imagem1.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="726" resourcetype="image">
+<name>Imagem 2001.bmp</name>
+<relativelink>images\Imagem 2001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="809" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="810" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="79">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 18</name>
+<lastupdated>1688051645</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="78" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1688051656</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1688051656</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1688051656</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="79" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1688051656</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1688051656</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1688051656</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="70" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1688051656</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="71" parent="70" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1688051656</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="70" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1688051656</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="63" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1688051656</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="64" parent="63" on="mouseclick">
+<name>back page</name>
+<lastupdated>1688051656</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="65" parent="63" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1688051656</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="55" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1688051656</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="56" parent="55" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1688051656</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="55" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1688051656</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="58" parent="55" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1688051656</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="55">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689702013</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="794" parent="40">
+<name>Página 1</name>
+<lastupdated>1689702015</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="795" parent="794">
+<name>Grupo_1</name>
+<lastupdated>1689702015</lastupdated>
+<image id="797" parent="795" resource="809" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689702015</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="799" parent="795" resource="810" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689702015</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="800" parent="795" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689702017</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text800Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text800Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text800Font1&quot;  &gt;Aula 18&lt;/span &gt;&lt;span class=&quot;text800Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula 1\lang1046\hich\f2\loch\f2 8\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 18</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="802" parent="795" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689702015</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="804" parent="795" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689702015</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="806" parent="795" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689702015</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="808" parent="795" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689702015</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="155" parent="40">
+<name>Página 2</name>
+<lastupdated>1689702013</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="246" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688051802</lastupdated>
+<possize>
+<point>
+<x>514</x>
+<y>91</y>
+</point>
+<size>
+<cx>446</cx>
+<cy>545</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text246Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text246Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text246Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text246Font6 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font1&quot;  &gt;O avanÃ§o Liberal &lt;/span &gt;&lt;span class=&quot;text246Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font4&quot;  &gt;RegÃªncia Trina Permanente (1831-1834)&lt;/span &gt;&lt;span class=&quot;text246Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font3&quot;  &gt;Em 1831, o governo percebe a necessidade de renova&lt;/span &gt;&lt;span class=&quot;text246Font6&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text246Font3&quot;  &gt;o da economia e passa a implantar no pa&lt;/span &gt;&lt;span class=&quot;text246Font6&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text246Font3&quot;  &gt;s o cultivo do caf&lt;/span &gt;&lt;span class=&quot;text246Font6&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text246Font3&quot;  &gt;, principalmente nas regi&lt;/span &gt;&lt;span class=&quot;text246Font6&quot;  &gt;Ãµ&lt;/span &gt;&lt;span class=&quot;text246Font3&quot;  &gt;es do Vale &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font3&quot;  &gt;do Para&lt;/span &gt;&lt;span class=&quot;text246Font6&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text246Font3&quot;  &gt;ba, no Rio de Janeiro, e do Oeste Paulista, prop&lt;/span &gt;&lt;span class=&quot;text246Font6&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text246Font3&quot;  &gt;cias ao plantio, pois o produto era extremamente lucrativo e popular no exterior. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font3&quot;  &gt;Com o investimento do governo e dos latifundi&lt;/span &gt;&lt;span class=&quot;text246Font6&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text246Font3&quot;  &gt;rios no crescimento da cultura cafeeira, formou-se no pa&lt;/span &gt;&lt;span class=&quot;text246Font6&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text246Font3&quot;  &gt;s um grupo de crescente influ&lt;/span &gt;&lt;span class=&quot;text246Font6&quot;  &gt;Ãª&lt;/span &gt;&lt;span class=&quot;text246Font3&quot;  &gt;ncia pol&lt;/span &gt;&lt;span class=&quot;text246Font6&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text246Font3&quot;  &gt;tica e econ&lt;/span &gt;&lt;span class=&quot;text246Font6&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text246Font3&quot;  &gt;mica, os chamados &quot;Bar&lt;/span &gt;&lt;span class=&quot;text246Font6&quot;  &gt;Ãµ&lt;/span &gt;&lt;span class=&quot;text246Font3&quot;  &gt;es do Caf&lt;/span &gt;&lt;span class=&quot;text246Font6&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text246Font3&quot;  &gt;&quot;. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font3&quot;  &gt;Por meio de reformas constitucionais, os liberais moderados procuraram diminuir as funÃ§Ãµes do Executivo e ampliar as atribuiÃ§Ãµes do Legislativo. Procuravam atender as reivindicaÃ§Ãµes de liberais exaltados, defensores do federalismo. Como forma de aplacar os anseios dos liberais exaltados a respeito da autonomia municipal, a descentralizaÃ§Ã£o do sistema judiciÃ¡rio acabou reforÃ§ando o poder da aristocracia agrÃ¡ria&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b O avan\u231 \&apos;e7o Liberal \hich\f2\loch\f2\fs28\b0\par\par\hich\f1\loch\f1\b Reg\u234 \&apos;eancia Trina Permanente (1831-1834)\hich\f2\loch\f2\b0\par\par Em 1831, o governo percebe a necessidade de renova\hich\f1\loch\f1\u231 &#x0A;\&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o da economia e passa a implantar no pa\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 s o cultivo do caf\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 , principalmente nas regi\hich\f1\loch\f1\u245 \&apos;f5\hich\f2\loch\f2 es do Vale \par &#x0A;do Para\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 ba, no Rio de Janeiro, e do Oeste Paulista, prop\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 cias ao plantio, pois o produto era extremamente lucrativo e popular no exterior. \par\par Com o investimento &#x0A;do governo e dos latifundi\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 rios no crescimento da cultura cafeeira, formou-se no pa\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 s um grupo de crescente influ\hich\f1\loch\f1\u234 \&apos;ea\hich\f2\loch\f2 ncia pol\hich\f1\loch\f1\u237 &#x0A;\&apos;ed\hich\f2\loch\f2 tica e econ\hich\f1\loch\f1\u244 \&apos;f4\hich\f2\loch\f2 mica, os chamados &quot;Bar\hich\f1\loch\f1\u245 \&apos;f5\hich\f2\loch\f2 es do Caf\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 &quot;. \par\par Por meio de reformas constitucionais, os liberais &#x0A;moderados procuraram diminuir as fun\&apos;e7\&apos;f5es do Executivo e ampliar as atribui\&apos;e7\&apos;f5es do Legislativo. Procuravam atender as reivindica\&apos;e7\&apos;f5es de liberais exaltados, defensores do federalismo. Como forma de aplacar os anseios dos liberais exaltados &#x0A;a respeito da autonomia municipal, a descentraliza\&apos;e7\&apos;e3o do sistema judici\&apos;e1rio acabou refor\&apos;e7ando o poder da aristocracia agr\&apos;e1ria\par}&#x0A;</rtf>
+<raw>?O avan�o Liberal &#x0A;&#x0A;Reg�ncia Trina Permanente (1831-1834)&#x0A;&#x0A;Em 1831, o governo percebe a necessidade de renova��o da economia e passa a implantar no pa�s o cultivo do caf�, principalmente nas regi�es do Vale &#x0A;do Para�ba, no Rio de Janeiro, e do Oeste Paulista, prop�cias ao plantio, pois o produto era extremamente lucrativo e popular no exterior. &#x0A;&#x0A;Com o investimento do governo e dos latifundi�rios no crescimento da cultura cafeeira, formou-se no pa�s um grupo de crescente influ�ncia pol�tica e econ�mica, os chamados &quot;Bar�es do Caf�&quot;. &#x0A;&#x0A;Por meio de reformas constitucionais, os liberais moderados procuraram diminuir as fun��es do Executivo e ampliar as atribui��es do Legislativo. Procuravam atender as reivindica��es de liberais exaltados, defensores do federalismo. Como forma de aplacar os anseios dos liberais exaltados a respeito da autonomia municipal, a descentraliza��o do sistema judici�rio acabou refor�ando o poder da aristocracia agr�ria</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="180" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1688051723</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>131</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>454</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text180Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text180Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot;  &gt;Com a abdicaÃ§Ã£o de Dom Pedro I, consolidou-se a independÃªncia polÃ­tica brasileira, de fato, e o Brasil seria governado por brasileiros. Os portugueses que ocupavam cargos pÃºblicos foram afastados e substituÃ­dos por cidadÃ£os brasileiros.&lt;/span &gt;&lt;span class=&quot;text180Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot;  &gt;Com esse novo contexto polÃ­tico de ausÃªncia de um imperador, jÃ¡ que o sucessor era menor de idade, surgiram trÃªs grupos polÃ­ticos para a disputa das eleiÃ§Ãµes para a regÃªncia: Liberais moderados, Liberais exaltados e Restauradores. &lt;/span &gt;&lt;span class=&quot;text180Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot;  &gt;Durante o PerÃ­odo Regencial, os debates polÃ­ticos giravam em torno das questÃµes como unidade territorial, ameaÃ§ada por revoltas e manifestaÃ§Ãµes; debates pautados na centralizaÃ§Ã£o ou descentralizaÃ§Ã£o administrativas; organizaÃ§Ã£o das forÃ§as armadas e o grau de autonomia das provÃ­ncias. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Com a abdica\u231 \&apos;e7\u227 \&apos;e3o de Dom Pedro I, consolidou-se a independ\u234 \&apos;eancia pol\u237 \&apos;edtica brasileira, de fato, e o Brasil seria governado por brasileiros. Os portugueses que ocupavam cargos p\u250 \&apos;fablicos &#x0A;foram afastados e substitu\u237 \&apos;eddos por cidad\u227 \&apos;e3os brasileiros.\lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par Com esse novo contexto pol\u237 \&apos;edtico de aus\u234 \&apos;eancia de um imperador, j\u225 \&apos;e1 que o sucessor era menor de &#x0A;idade, surgiram tr\u234 \&apos;eas grupos pol\u237 \&apos;edticos para a disputa das elei\u231 \&apos;e7\u245 \&apos;f5es para a reg\u234 \&apos;eancia: Liberais moderados, Liberais exaltados e Restauradores. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par Durante &#x0A;o Per\u237 \&apos;edodo Regencial, os debates pol\u237 \&apos;edticos giravam em torno das quest\u245 \&apos;f5es como unidade territorial, amea\u231 \&apos;e7ada por revoltas e manifesta\u231 \&apos;e7\u245 \&apos;f5es; debates pautados na centraliza\u231 \&apos;e7\u227 \&apos;e3o ou descentraliza\u231 &#x0A;\&apos;e7\u227 \&apos;e3o administrativas; organiza\u231 \&apos;e7\u227 \&apos;e3o das for\u231 \&apos;e7as armadas e o grau de autonomia das prov\u237 \&apos;edncias. \par}&#x0A;</rtf>
+<raw>?Com a abdica��o de Dom Pedro I, consolidou-se a independ�ncia pol�tica brasileira, de fato, e o Brasil seria governado por brasileiros. Os portugueses que ocupavam cargos p�blicos foram afastados e substitu�dos por cidad�os brasileiros.&#x0A;&#x0A;Com esse novo contexto pol�tico de aus�ncia de um imperador, j� que o sucessor era menor de idade, surgiram tr�s grupos pol�ticos para a disputa das elei��es para a reg�ncia: Liberais moderados, Liberais exaltados e Restauradores. &#x0A;&#x0A;Durante o Per�odo Regencial, os debates pol�ticos giravam em torno das quest�es como unidade territorial, amea�ada por revoltas e manifesta��es; debates pautados na centraliza��o ou descentraliza��o administrativas; organiza��o das for�as armadas e o grau de autonomia das prov�ncias. </raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="158" parent="155">
+<name>Grupo_1</name>
+<lastupdated>1688051668</lastupdated>
+<shape id="160" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1688051668</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="162" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1688051668</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="164" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1688051668</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="165" parent="158" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688051680</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text165Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text165Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text165Font1&quot;  &gt;PerÃ­odo Regencial &lt;/span &gt;&lt;span class=&quot;text165Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Per\&apos;edodo Regencial \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Per�odo Regencial </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="167" parent="158" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688051668</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="169" parent="158" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688051668</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="310" parent="40">
+<name>Página 3</name>
+<lastupdated>1688051981</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="372" parent="310" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688051976</lastupdated>
+<possize>
+<point>
+<x>525</x>
+<y>133</y>
+</point>
+<size>
+<cx>452</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text372Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text372Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text372Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text372Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text372Font1&quot;  &gt;CriaÃ§Ã£o do cÃ³digo do processo criminal em 1832&lt;/span &gt;&lt;span class=&quot;text372Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text372Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text372Font3&quot;  &gt;O C&lt;/span &gt;&lt;span class=&quot;text372Font4&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text372Font3&quot;  &gt;digo instituiu o tribunal do j&lt;/span &gt;&lt;span class=&quot;text372Font4&quot;  &gt;Ãº&lt;/span &gt;&lt;span class=&quot;text372Font3&quot;  &gt;ri e ampliou o poder dos ju&lt;/span &gt;&lt;span class=&quot;text372Font4&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text372Font3&quot;  &gt;zes de paz nas regi&lt;/span &gt;&lt;span class=&quot;text372Font4&quot;  &gt;Ãµ&lt;/span &gt;&lt;span class=&quot;text372Font3&quot;  &gt;es. Esses tinham autoridade para prender criminosos, apreender listas de votantes, presidir mesas eleitorais e compor listas de jurados. Para buscar prest&lt;/span &gt;&lt;span class=&quot;text372Font4&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text372Font3&quot;  &gt;gio, os ju&lt;/span &gt;&lt;span class=&quot;text372Font4&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text372Font3&quot;  &gt;zes se aliavam aos grandes latifundi&lt;/span &gt;&lt;span class=&quot;text372Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text372Font3&quot;  &gt;rios que controlavam a aplica&lt;/span &gt;&lt;span class=&quot;text372Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text372Font3&quot;  &gt;o das leis regionais, fechando um c&lt;/span &gt;&lt;span class=&quot;text372Font4&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text372Font3&quot;  &gt;rculo de mandonismo e de governos municipais repletos de acordos entre esses grupos. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text372Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text372Font5&quot;  &gt;AlteraÃ§Ãµes na ConstituiÃ§Ã£o de 1824 â€“ Ato Adicional de 1834 &lt;/span &gt;&lt;span class=&quot;text372Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text372Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text372Font3&quot;  &gt;O ato adicional trouxe uma sÃ©rie de alteraÃ§Ãµes ao texto original da ConstituiÃ§Ã£o de 1824. O Poder Executivo deveria ficar nas mÃ£os de apenas um representante eleito e eleiÃ§Ãµes previstas de quatro em quatro anos. Outras previsÃµes do ato:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Cria\u231 \&apos;e7\u227 \&apos;e3o do c\u243 \&apos;f3digo do processo criminal em 1832\hich\f2\loch\f2\fs28\b0\par\par O C\hich\f1\loch\f1\u243 \&apos;f3\hich\f2\loch\f2 digo instituiu o tribunal do j\hich\f1\loch\f1\u250 \&apos;fa\hich\f2\loch\f2 &#x0A;ri e ampliou o poder dos ju\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 zes de paz nas regi\hich\f1\loch\f1\u245 \&apos;f5\hich\f2\loch\f2 es. Esses tinham autoridade para prender criminosos, apreender listas de votantes, presidir mesas eleitorais e compor listas &#x0A;de jurados. Para buscar prest\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 gio, os ju\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 zes se aliavam aos grandes latifundi\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 rios que controlavam a aplica\hich\f1\loch\f1\u231 &#x0A;\&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o das leis regionais, fechando um c\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 rculo de mandonismo e de governos municipais repletos de acordos entre esses grupos. \lang1046\hich\f2\loch\f2\par\par\b Altera\u231 \&apos;e7\u245 &#x0A;\&apos;f5es na Constitui\u231 \&apos;e7\u227 \&apos;e3o de 1824 \u8211 \&apos;96 Ato Adicional de 1834 \b0\par\par O ato adicional trouxe uma s\u233 \&apos;e9rie de altera\u231 \&apos;e7\u245 \&apos;f5es ao texto original da Constitui\u231 \&apos;e7\u227 \&apos;e3o de 1824. O Poder Executivo deveria &#x0A;ficar nas m\u227 \&apos;e3os de apenas um representante eleito e elei\u231 \&apos;e7\u245 \&apos;f5es previstas de quatro em quatro anos. Outras previs\u245 \&apos;f5es do ato:\lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?Cria??o do c?digo do processo criminal em 1832&#x0A;O C?digo instituiu o tribunal do j?ri e ampliou o poder dos ju?zes de paz nas regi?es. Esses tinham autoridade para prender criminosos, apreender listas de votantes, presidir mesas eleitorais e compor listas de jurados. Para buscar prest?gio, os ju?zes se aliavam aos grandes latifundi?rios que controlavam a aplica??o das leis regionais, fechando um c?rculo de mandonismo e de governos municipais repletos de acordos entre esses grupos. &#x0A;Altera??es na Constitui??o de 1824 ? Ato Adicional de 1834 &#x0A;O ato adicional trouxe uma s?rie de altera??es ao texto original da Constitui??o de 1824. O Poder Executivo deveria ficar nas m?os de apenas um representante eleito e elei??es previstas de quatro em quatro anos. Outras previs?es do ato:</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="324" parent="310" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1688051852</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>126</y>
+</point>
+<size>
+<cx>424</cx>
+<cy>392</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text324Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text324Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text324Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text324Font1&quot;  &gt;CriaÃ§Ã£o da Guarda Nacional em 1831&lt;/span &gt;&lt;span class=&quot;text324Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text324Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text324Font3&quot;  &gt;Muitas revoltas aconteceram no pa&lt;/span &gt;&lt;span class=&quot;text324Font4&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text324Font3&quot;  &gt;s e o ex&lt;/span &gt;&lt;span class=&quot;text324Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text324Font3&quot;  &gt;rcito foi perdendo credibilidade junto ao Governo Central. Nesse contexto, foi criada a Guarda Nacional para combater as revoltas e reestabelecer a ordem, onde o ex&lt;/span &gt;&lt;span class=&quot;text324Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text324Font3&quot;  &gt;rcito havia fracassado. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text324Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text324Font3&quot;  &gt;A Guarda Nacional se tratava de uma for&lt;/span &gt;&lt;span class=&quot;text324Font4&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text324Font3&quot;  &gt;a paramilitar, na qual os grandes latifundi&lt;/span &gt;&lt;span class=&quot;text324Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text324Font3&quot;  &gt;rios influentes em suas regi&lt;/span &gt;&lt;span class=&quot;text324Font4&quot;  &gt;Ãµ&lt;/span &gt;&lt;span class=&quot;text324Font3&quot;  &gt;es recebiam o controle da guarda e o t&lt;/span &gt;&lt;span class=&quot;text324Font4&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text324Font3&quot;  &gt;tulo de &quot;Coron&lt;/span &gt;&lt;span class=&quot;text324Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text324Font3&quot;  &gt;is&quot;. Segundo algumas fontes, somente homens entre 21 e 60 anos e com renda anual acima de 200 mil r&lt;/span &gt;&lt;span class=&quot;text324Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text324Font3&quot;  &gt;is tinham participa&lt;/span &gt;&lt;span class=&quot;text324Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text324Font3&quot;  &gt;o efetiva e controle de grupos da guarda.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}{\f3 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qj\hich\f2\loch\f2\fs36\b Cria\u231 \&apos;e7\u227 \&apos;e3o da Guarda Nacional em 1831\hich\f3\loch\f3\fs28\b0\par\hich\f2\loch\f2\par Muitas revoltas aconteceram no pa\u237 \&apos;eds e o ex\u233 \&apos;e9rcito foi perdendo credibilidade &#x0A;junto ao Governo Central. Nesse contexto, foi criada a Guarda Nacional para combater as revoltas e reestabelecer a ordem, onde o ex\u233 \&apos;e9rcito havia fracassado. \lang1046\hich\f3\loch\f3\par\lang1046\hich\f2\loch\f2\par A Guarda Nacional se tratava &#x0A;de uma for\u231 \&apos;e7a paramilitar, na qual os grandes latifundi\u225 \&apos;e1rios influentes em suas regi\u245 \&apos;f5es recebiam o controle da guarda e o t\u237 \&apos;edtulo de &quot;Coron\u233 \&apos;e9is&quot;. Segundo algumas fontes, somente homens entre 21 e 60 anos e com &#x0A;renda anual acima de 200 mil r\u233 \&apos;e9is tinham participa\u231 \&apos;e7\u227 \&apos;e3o efetiva e controle de grupos da guarda.\par}&#x0A;</rtf>
+<raw>?Cria??o da Guarda Nacional em 1831&#x0A;Muitas revoltas aconteceram no pa?s e o ex?rcito foi perdendo credibilidade junto ao Governo Central. Nesse contexto, foi criada a Guarda Nacional para combater as revoltas e reestabelecer a ordem, onde o ex?rcito havia fracassado. &#x0A;A Guarda Nacional se tratava de uma for?a paramilitar, na qual os grandes latifundi?rios influentes em suas regi?es recebiam o controle da guarda e o t?tulo de &quot;Coron?is&quot;. Segundo algumas fontes, somente homens entre 21 e 60 anos e com renda anual acima de 200 mil r?is tinham participa??o efetiva e controle de grupos da guarda.</raw>
+<numoflines>17</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="312" parent="310">
+<name>Grupo_1</name>
+<lastupdated>1688051811</lastupdated>
+<shape id="314" parent="312" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1688051811</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="316" parent="312" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1688051811</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="318" parent="312" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1688051811</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="319" parent="312" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688051811</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text319Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text319Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text319Font1&quot;  &gt;PerÃ­odo Regencial &lt;/span &gt;&lt;span class=&quot;text319Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Per\&apos;edodo Regencial \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Per?odo Regencial </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="321" parent="312" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688051811</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="323" parent="312" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688051854</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="434" parent="40">
+<name>Página 4</name>
+<lastupdated>1688052195</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="566" parent="434" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 4</name>
+<lastupdated>1688052190</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>401</y>
+</point>
+<size>
+<cx>452</cx>
+<cy>148</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text566Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text566Font1&quot;  &gt;Nessa fase, os partidos se organizaram em uma nova &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text566Font1&quot;  &gt;estrutura polÃ­tica, divididos em regressistas e progressistas. No governo de FeijÃ³, eclodiram as duas maiores revoltas regenciais, Cabanagem, no Norte, e Farroupilha, no Sul. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Nessa fase, os partidos se organizaram em uma nova \par estrutura pol\u237 \&apos;edtica, divididos em regressistas e progressistas. No governo de Feij\u243 \&apos;f3, eclodiram as duas maiores revoltas regenciais, Cabanagem, no &#x0A;Norte, e Farroupilha, no Sul. \par\lang1046\hich\f2\loch\f2\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Nessa fase, os partidos se organizaram em uma nova &#x0A;estrutura pol?tica, divididos em regressistas e progressistas. No governo de Feij?, eclodiram as duas maiores revoltas regenciais, Cabanagem, no Norte, e Farroupilha, no Sul. &#x0A;</raw>
+<numoflines>7</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="519" parent="434" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1688052148</lastupdated>
+<possize>
+<point>
+<x>678</x>
+<y>213</y>
+</point>
+<size>
+<cx>313</cx>
+<cy>151</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text519Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text519Font1&quot;  &gt;Diogo FeijÃ³ foi um dos defensores do Ato Adicional de 1834, e foi eleito em 1835 para um mandato de quatro anos. Seu governo foi marcado por um clima de insatisfaÃ§Ã£o polÃ­tica, econÃ´mica e social. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Diogo Feij\u243 \&apos;f3 foi um dos defensores do Ato Adicional de 1834, e foi eleito em 1835 para um mandato de quatro anos. Seu governo foi marcado por um clima de insatisfa\u231 \&apos;e7\u227 \&apos;e3o pol\u237 \&apos;edtica, econ\u244 &#x0A;\&apos;f4mica e social. \par}&#x0A;</rtf>
+<raw>?Diogo Feij? foi um dos defensores do Ato Adicional de 1834, e foi eleito em 1835 para um mandato de quatro anos. Seu governo foi marcado por um clima de insatisfa??o pol?tica, econ?mica e social. </raw>
+<numoflines>6</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="499" parent="434" resource="498" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688052153</lastupdated>
+<possize>
+<point>
+<x>541</x>
+<y>198</y>
+</point>
+<size>
+<cx>123</cx>
+<cy>187</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="478" parent="434" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688052097</lastupdated>
+<possize>
+<point>
+<x>517</x>
+<y>127</y>
+</point>
+<size>
+<cx>464</cx>
+<cy>85</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text478Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text478Font4 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text478Font1&quot;  &gt;RegÃªncia Una â€“ Diogo FeijÃ³ (1835 â€“ 1837)&lt;/span &gt;&lt;span class=&quot;text478Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ql\hich\f2\loch\f2\cf2\fs36\b Reg\u234 \&apos;eancia Una \u8211 \&apos;96 Diogo Feij\u243 \&apos;f3 (1835 \u8211 \&apos;96 1837)\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Reg?ncia Una ? Diogo Feij? (1835 ? 1837)</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="448" parent="434" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1688052051</lastupdated>
+<possize>
+<point>
+<x>50</x>
+<y>124</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>386</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text448Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text448Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text448Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text448Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text448Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text448ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text448Font1&quot;  &gt;substituiÃ§Ã£o da RegÃªncia Trina por uma RegÃªncia Una, estabelecida por meio de voto direto e secreto, mas censitÃ¡rio;&lt;/span &gt;&lt;span class=&quot;text448Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text448Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text448Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text448ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text448Font1&quot;  &gt;extinÃ§Ã£o do Conselho de Estado, Ã³rgÃ£o de assessoria do imperador criado pela ConstituiÃ§Ã£o de 1824;&lt;/span &gt;&lt;span class=&quot;text448Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text448Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text448Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text448ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text448Font1&quot;  &gt;cada provÃ­ncia era autorizada a criar uma assembleia, que poderia controlar impostos, gasto locais e nomear seus prÃ³prios funcionÃ¡rios;&lt;/span &gt;&lt;span class=&quot;text448Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text448Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text448Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text448ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text448Font1&quot;  &gt;manutenÃ§Ã£o dos cargos vitalÃ­cios do Senado;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text448Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text448Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text448ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text448Font1&quot;  &gt;transformaÃ§Ã£o da Cidade do Rio de Janeiro em municÃ­pio neutro.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\cf2\fs28 substitui\u231 \&apos;e7\u227 \&apos;e3o da Reg\u234 \&apos;eancia Trina por uma Reg\u234 \&apos;eancia Una, estabelecida por meio de voto direto e secreto, mas censit\u225 \&apos;e1rio;\lang1046\hich\f2\loch\f2\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3&#x0A;{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 extin\u231 \&apos;e7\u227 \&apos;e3o do Conselho de Estado, \u243 \&apos;f3rg\u227 \&apos;e3o de assessoria do imperador criado pela Constitui\u231 \&apos;e7\u227 \&apos;e3o de 1824;\lang1046\hich\f2\loch\f2\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 cada prov\u237 \&apos;edncia era autorizada a criar uma assembleia, que poderia controlar impostos, gasto locais e nomear seus pr\u243 \&apos;f3prios funcion\u225 \&apos;e1rios;\lang1046\hich\f2\loch\f2\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 manuten\u231 \&apos;e7\u227 \&apos;e3o dos cargos vital\u237 \&apos;edcios do Senado;\par\pard\s0\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 &#x0A;transforma\u231 \&apos;e7\u227 \&apos;e3o da Cidade do Rio de Janeiro em munic\u237 \&apos;edpio neutro.\par}&#x0A;</rtf>
+<raw>?substitui??o da Reg?ncia Trina por uma Reg?ncia Una, estabelecida por meio de voto direto e secreto, mas censit?rio;&#x0A;extin??o do Conselho de Estado, ?rg?o de assessoria do imperador criado pela Constitui??o de 1824;&#x0A;cada prov?ncia era autorizada a criar uma assembleia, que poderia controlar impostos, gasto locais e nomear seus pr?prios funcion?rios;&#x0A;manuten??o dos cargos vital?cios do Senado;&#x0A;transforma??o da Cidade do Rio de Janeiro em munic?pio neutro.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text448ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text448ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>17</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="436" parent="434">
+<name>Grupo_1</name>
+<lastupdated>1688051984</lastupdated>
+<shape id="438" parent="436" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1688051984</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="440" parent="436" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1688051984</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="442" parent="436" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1688051984</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="443" parent="436" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688051984</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text443Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text443Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text443Font1&quot;  &gt;PerÃ­odo Regencial &lt;/span &gt;&lt;span class=&quot;text443Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Per\&apos;edodo Regencial \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Per?odo Regencial </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="445" parent="436" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688051984</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="447" parent="436" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688051984</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="593" parent="40">
+<name>Página 5</name>
+<lastupdated>1688052291</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="657" parent="593" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688052285</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>126</y>
+</point>
+<size>
+<cx>456</cx>
+<cy>433</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text657Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text657Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text657Font1&quot;  &gt;AraÃºjo Lima, frente ao quadro conflituoso politicamente e das revoltas no territÃ³rio, formou um ministÃ©rio que representava os interesses da maioria regressista e a alianÃ§a entre o Executivo e o Legislativo, alÃ©m da liberaÃ§Ã£o de verbas para os governos provinciais que ajudaram a reprimir quase todas as revoltas regenciais. &lt;/span &gt;&lt;span class=&quot;text657Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text657Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text657Font1&quot;  &gt;No ano de 1838 ocorre o surgimento do Partido Liberal, originÃ¡rio dos antes progressistas e, em 1840, do Partido Conservador, originÃ¡rios dos regressistas. Ambos representavam as elites nacionais sob perspectivas diferentes, uma mais descentralizadora e outra mais centralizadora em relaÃ§Ã£o ao governo federal. O Partido liberal comeÃ§ou a defender o projeto de antecipaÃ§Ã£o da maioridade de Pedro de AlcÃ¢ntara, apresentando-o como uma soluÃ§Ã£o para a crise de governabilidade jÃ¡ em 1839.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Ara\u250 \&apos;fajo Lima, frente ao quadro conflituoso politicamente e das revoltas no territ\u243 \&apos;f3rio, formou um minist\u233 \&apos;e9rio que representava os interesses da maioria regressista e a alian\u231 \&apos;e7a entre o Executivo &#x0A;e o Legislativo, al\u233 \&apos;e9m da libera\u231 \&apos;e7\u227 \&apos;e3o de verbas para os governos provinciais que ajudaram a reprimir quase todas as revoltas regenciais. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par No ano de 1838 ocorre o surgimento &#x0A;do Partido Liberal, origin\u225 \&apos;e1rio dos antes progressistas e, em 1840, do Partido Conservador, origin\u225 \&apos;e1rios dos regressistas. Ambos representavam as elites nacionais sob perspectivas diferentes, uma mais descentralizadora e outra mais centralizadora &#x0A;em rela\u231 \&apos;e7\u227 \&apos;e3o ao governo federal. O Partido liberal come\u231 \&apos;e7ou a defender o projeto de antecipa\u231 \&apos;e7\u227 \&apos;e3o da maioridade de Pedro de Alc\u226 \&apos;e2ntara, apresentando-o como uma solu\u231 \&apos;e7\u227 \&apos;e3o para a crise de governabilidade &#x0A;j\u225 \&apos;e1 em 1839.\par}&#x0A;</rtf>
+<raw>?Ara?jo Lima, frente ao quadro conflituoso politicamente e das revoltas no territ?rio, formou um minist?rio que representava os interesses da maioria regressista e a alian?a entre o Executivo e o Legislativo, al?m da libera??o de verbas para os governos provinciais que ajudaram a reprimir quase todas as revoltas regenciais. &#x0A;No ano de 1838 ocorre o surgimento do Partido Liberal, origin?rio dos antes progressistas e, em 1840, do Partido Conservador, origin?rios dos regressistas. Ambos representavam as elites nacionais sob perspectivas diferentes, uma mais descentralizadora e outra mais centralizadora em rela??o ao governo federal. O Partido liberal come?ou a defender o projeto de antecipa??o da maioridade de Pedro de Alc?ntara, apresentando-o como uma solu??o para a crise de governabilidade j? em 1839.</raw>
+<numoflines>18</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="608" parent="593">
+<name>Grupo_1</name>
+<lastupdated>1688052207</lastupdated>
+<shape id="610" parent="608" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1688052207</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="612" parent="608" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1688052207</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="614" parent="608" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1688052207</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="615" parent="608" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688052207</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text615Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text615Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text615Font1&quot;  &gt;PerÃ­odo Regencial &lt;/span &gt;&lt;span class=&quot;text615Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Per\&apos;edodo Regencial \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Per?odo Regencial </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="617" parent="608" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688052207</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="619" parent="608" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688052207</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+<text id="594" parent="593" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1688052243</lastupdated>
+<possize>
+<point>
+<x>52</x>
+<y>127</y>
+</point>
+<size>
+<cx>428</cx>
+<cy>545</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text594Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text594Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text594Font4 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text594Font1&quot;  &gt;Em 1837, nas eleiÃ§Ãµes para o Legislativo, os vitoriosos eram de maioria regressistas, agravando ainda mais o desgaste entre o Executivo e o Legislativo. FeijÃ³ passou a ser acusado de ser incapaz de reprimir os levantes provinciais e de ser favorÃ¡vel ao casamento de padres. Em 1837, Diogo FeijÃ³ renunciou ao cargo e o Poder Executivo foi assumido pelo Senador Pedro de AraÃºjo Lima, representante dos regressistas. &lt;/span &gt;&lt;span class=&quot;text594Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text594Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text594Font4&quot;  &gt;RegÃªncia Una â€“ Pedro de AraÃºjo Lima (1837 â€“ 1840)&lt;/span &gt;&lt;span class=&quot;text594Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text594Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text594Font3&quot;  &gt;O acirramento das tensÃµes polÃ­ticas e sociais no paÃ­s marcou o Ãºltimo governo do perÃ­odo regencial. Com a aprovaÃ§Ã£o da Lei interpretativa do ato Adicional, criada, em 1838, aumentou ainda &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text594Font3&quot;  &gt;mais os problemas no Brasil, pois ela retirava a autonomia legislativa das provÃ­ncias, permitindo a anulaÃ§Ã£o de leis provinciais pelo governo central, ocasionando um aumento do poder de repressÃ£o do governo federal. &lt;/span &gt;&lt;span class=&quot;text594Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Em 1837, nas elei\u231 \&apos;e7\u245 \&apos;f5es para o Legislativo, os vitoriosos eram de maioria regressistas, agravando ainda mais o desgaste entre o Executivo e o Legislativo. Feij\u243 \&apos;f3 passou a ser acusado de ser incapaz &#x0A;de reprimir os levantes provinciais e de ser favor\u225 \&apos;e1vel ao casamento de padres. Em 1837, Diogo Feij\u243 \&apos;f3 renunciou ao cargo e o Poder Executivo foi assumido pelo Senador Pedro de Ara\u250 \&apos;fajo Lima, representante dos regressistas. \lang1046\hich\f2\loch\f2\par\par\fs36\b &#x0A;Reg\u234 \&apos;eancia Una \u8211 \&apos;96 Pedro de Ara\u250 \&apos;fajo Lima (1837 \u8211 \&apos;96 1840)\fs28\b0\par\par O acirramento das tens\u245 \&apos;f5es pol\u237 \&apos;edticas e sociais no pa\u237 \&apos;eds marcou o \u250 \&apos;faltimo governo do per\u237 \&apos;edodo regencial. Com &#x0A;a aprova\u231 \&apos;e7\u227 \&apos;e3o da Lei interpretativa do ato Adicional, criada, em 1838, aumentou ainda \par mais os problemas no Brasil, pois ela retirava a autonomia legislativa das prov\u237 \&apos;edncias, permitindo a anula\u231 \&apos;e7\u227 \&apos;e3o de leis &#x0A;provinciais pelo governo central, ocasionando um aumento do poder de repress\u227 \&apos;e3o do governo federal. \lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Em 1837, nas elei??es para o Legislativo, os vitoriosos eram de maioria regressistas, agravando ainda mais o desgaste entre o Executivo e o Legislativo. Feij? passou a ser acusado de ser incapaz de reprimir os levantes provinciais e de ser favor?vel ao casamento de padres. Em 1837, Diogo Feij? renunciou ao cargo e o Poder Executivo foi assumido pelo Senador Pedro de Ara?jo Lima, representante dos regressistas. &#x0A;Reg?ncia Una ? Pedro de Ara?jo Lima (1837 ? 1840)&#x0A;O acirramento das tens?es pol?ticas e sociais no pa?s marcou o ?ltimo governo do per?odo regencial. Com a aprova??o da Lei interpretativa do ato Adicional, criada, em 1838, aumentou ainda &#x0A;mais os problemas no Brasil, pois ela retirava a autonomia legislativa das prov?ncias, permitindo a anula??o de leis provinciais pelo governo central, ocasionando um aumento do poder de repress?o do governo federal. </raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+</page>
+<page id="686" parent="40">
+<name>Página 6</name>
+<lastupdated>1688052359</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<shape id="706" parent="686" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1688052359</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>131</y>
+</point>
+<size>
+<cx>443</cx>
+<cy>300</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>20</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="01D1DD" />
+</shape>
+<image id="727" parent="686" resource="726" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688052344</lastupdated>
+<possize>
+<point>
+<x>129</x>
+<y>249</y>
+</point>
+<size>
+<cx>135</cx>
+<cy>165</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="704" parent="686" resource="707" ontop="false" fixed="false" proportional="true">
+<name>Imagem1</name>
+<lastupdated>1688052364</lastupdated>
+<possize>
+<point>
+<x>430</x>
+<y>368</y>
+</point>
+<size>
+<cx>61</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="702" parent="686" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1688052350</lastupdated>
+<possize>
+<point>
+<x>72</x>
+<y>136</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>136</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text702Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text702Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text702Font1&quot;  &gt;A revoluÃ§Ã£o Farroupilha no Sul, que separou politicamente o Sul do restante do paÃ­s, influenciou a promoÃ§Ã£o da maioridade do jovem sucessor, naquilo que ficou conhecido como &lt;/span &gt;&lt;span class=&quot;text702Font2&quot;  &gt;Golpe da Maioridade&lt;/span &gt;&lt;span class=&quot;text702Font1&quot;  &gt;.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qj\hich\f2\loch\f2 A revolu\&apos;e7\&apos;e3o Farroupilha no Sul, que separou politicamente o Sul do restante do pa\&apos;eds, influenciou a promo\&apos;e7\&apos;e3o da maioridade do jovem sucessor, naquilo que ficou conhecido como \b Golpe da &#x0A;Maioridade\b0 .\par}&#x0A;</rtf>
+<raw>?A revolu??o Farroupilha no Sul, que separou politicamente o Sul do restante do pa?s, influenciou a promo??o da maioridade do jovem sucessor, naquilo que ficou conhecido como Golpe da Maioridade.</raw>
+<numoflines>5</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="701" parent="686" ontop="false" fixed="false" proportional="false">
+<name>Retângulo 2</name>
+<lastupdated>1688052362</lastupdated>
+<possize>
+<point>
+<x>44</x>
+<y>266</y>
+</point>
+<size>
+<cx>12</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="29B9A2" />
+</shape>
+<objgroup id="688" parent="686">
+<name>Grupo_1</name>
+<lastupdated>1688052294</lastupdated>
+<shape id="690" parent="688" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1688052294</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="692" parent="688" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1688052294</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="694" parent="688" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1688052294</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="695" parent="688" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1688052294</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text695Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text695Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text695Font1&quot;  &gt;PerÃ­odo Regencial &lt;/span &gt;&lt;span class=&quot;text695Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Per\&apos;edodo Regencial \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Per?odo Regencial </raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="697" parent="688" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1688052294</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="699" parent="688" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1688052294</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

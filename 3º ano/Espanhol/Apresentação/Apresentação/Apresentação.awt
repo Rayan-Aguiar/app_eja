@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>484</currentid>
+<currtheme></currtheme>
+<language>pt</language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="169" resourcetype="image">
+<name>Imagem2.png</name>
+<relativelink>images\Imagem2.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="170" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="171" resourcetype="image">
+<name>Imagem 3.bmp</name>
+<relativelink>images\Imagem 3.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="247" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="77">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>6619251</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Apresentação</name>
+<lastupdated>1686838855</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="76" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1686838316</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1686838316</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1686838316</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="77" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1686838316</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1686838316</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1686838316</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="69" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1686839227</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="70" parent="69" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1686839166</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="293" parent="69" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1686839227</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="63" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1686839256</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="64" parent="63" on="mouseclick">
+<name>back page</name>
+<lastupdated>1686839186</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="312" parent="63" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1686839256</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="55" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1686838316</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="56" parent="55" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1686838316</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="55" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1686838316</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="58" parent="55" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1686838316</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="55">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1686838690</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="2" parent="40">
+<name>Página 1</name>
+<lastupdated>1686838855</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="158" parent="2" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686838443</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>0</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>331</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="168" parent="2" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689092978</lastupdated>
+<possize>
+<point>
+<x>84</x>
+<y>249</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>97</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text168Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text168Font1&quot;  &gt;Ensino MÃ©dio â€“ 3Âº SÃ©rie&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text168Font1&quot;  &gt;Ana Paula PorfÃ­rio de Souza&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\lang1033\hich\f2\loch\f2\cf2\fs28 Ensino M\&apos;e9dio \u8211 \&apos;96 \lang1046\hich\f2\loch\f2 3\lang1033\hich\f2\loch\f2 \&apos;ba S\&apos;e9rie\par\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28 Ana Paula Porf\&apos;edrio de Souza\lang1033\hich\f2\loch\f2\par\par}&#x0A;</rtf>
+<raw>?Ensino M�dio � 3� S�rie&#x0A;Ana Paula Porf�rio de Souza&#x0A;</raw>
+<numoflines>3</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="167" parent="2" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686838429</lastupdated>
+<possize>
+<point>
+<x>88</x>
+<y>205</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="165" parent="2" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686838429</lastupdated>
+<possize>
+<point>
+<x>108</x>
+<y>205</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="163" parent="2" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686838429</lastupdated>
+<possize>
+<point>
+<x>127</x>
+<y>205</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="161" parent="2" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687375543</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>159</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>59</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text161Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text161Font1&quot;  &gt;ESPANHOL&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b ESPANHOL\par\par\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?ESPANHOL&#x0A;&#x0A;</raw>
+<numoflines>3</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="160" parent="2" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem 3</name>
+<lastupdated>1686838429</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>523</y>
+</point>
+<size>
+<cx>216</cx>
+<cy>139</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="156" parent="2" resource="169" ontop="false" fixed="false" proportional="true">
+<name>Imagem2</name>
+<lastupdated>1686838431</lastupdated>
+<possize>
+<point>
+<x>566</x>
+<y>115</y>
+</point>
+<size>
+<cx>341</cx>
+<cy>462</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="242" parent="40">
+<name>Página 2</name>
+<lastupdated>1687375581</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="246" parent="242" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1686838515</lastupdated>
+<possize>
+<point>
+<x>32</x>
+<y>55</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text246Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text246Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text246Font1&quot;  &gt;ApresentaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text246Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Apresenta\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Apresenta��o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="245" parent="242" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687375578</lastupdated>
+<possize>
+<point>
+<x>29</x>
+<y>153</y>
+</point>
+<size>
+<cx>606</cx>
+<cy>446</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text245Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text245Font1&quot;  &gt;El CurrrÃ­culo de la EnseÃ±aza Media, en Brasil, en el Ã¡rea de Lenguajes y sus TecnologÃ­as, contempla en su parte diversificada la Lengua EspaÃ±ola, como forma de integraciÃ³n humana, de agregaciÃ³n cultural y de amistad entre pueblos hermanos, pero distanciados por lenguas diferentes. Es una tentativa del Ministerio de la EducaciÃ³n de que nosotros, brasileÃ±os, no nos quedemos apartados de una cultura que mucho tiene a contribuir con la nuestra, asÃ­ como la nuestra tambiÃ©n tiene su contribuiciÃ³n a ofrecer a nuestros hermanos que ( no se culpe a nadie) se mantuvieron tan ignorados e tan lejos, unos de los otros, por siglos; era como si estuviÃ©ramos de espaldas a nuestros vecinos de la AmÃ©rica del Sur, sin conocerlos, ni apreciar su cultura, sus talentosos autores, cantantes, actores y actrizes.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text245Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text245Font1&quot;  &gt;Es hora de cambiar la situaciÃ³n: de leer los autores como Pablo Neruda, Roberto BolaÃ±o e Isabel Allende (Chile), Juan Carlos Onetti y Mario Benedetti (Uruguay), Laura Restrepo y Gabriel GarcÃ­a MÃ¡rquez, (Colombia), Sergio Pitol (MÃ©xico), Alan Pauls, Ernesto SÃ¡bato y Jorge Luis Borges (Argentina) ademÃ¡s de los centroamericanos, como Claudia Lars, Hugo Lindo, Arturo Ambrogi, Alberto Masferrer (El Salvador), Guillermo Cabrera Infante (Cuba). &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\lang3082\hich\f2\loch\f2 El Currr\&apos;edculo de la Ense\&apos;f1aza Media, en Brasil, en el \&apos;e1rea de Lenguajes y sus Tecnolog\&apos;edas, contempla en su parte diversificada la Lengua Espa\&apos;f1ola, como forma de integraci\&apos;f3n &#x0A;humana, de agregaci\&apos;f3n cultural y de amistad entre pueblos hermanos, pero distanciados por lenguas diferentes. Es una tentativa del Ministerio de la Educaci\&apos;f3n de que nosotros, brasile\&apos;f1os, no nos quedemos apartados de una cultura que mucho tiene &#x0A;a contribuir con la nuestra, as\&apos;ed como la nuestra tambi\&apos;e9n tiene su contribuici\&apos;f3n a ofrecer a nuestros hermanos que ( no se culpe a nadie) se mantuvieron tan ignorados e tan lejos, unos de los otros, por siglos; era como si estuvi\&apos;e9ramos de espaldas &#x0A;a nuestros vecinos de la Am\&apos;e9rica del Sur, sin conocerlos, ni apreciar su cultura, sus talentosos autores, cantantes, actores y actrizes.\par\par Es hora de cambiar la situaci\&apos;f3n: de leer los autores como Pablo Neruda, Roberto Bola\&apos;f1o e Isabel Allende &#x0A;(Chile), Juan Carlos Onetti y Mario Benedetti (Uruguay), Laura Restrepo y Gabriel Garc\&apos;eda M\&apos;e1rquez, (Colombia), Sergio Pitol (M\&apos;e9xico), Alan Pauls, Ernesto S\&apos;e1bato y Jorge Luis Borges (Argentina) adem\&apos;e1s de los centroamericanos, como Claudia &#x0A;Lars, Hugo Lindo, Arturo Ambrogi, Alberto Masferrer (El Salvador), Guillermo Cabrera Infante (Cuba). \par\par\pard\s0\ql\lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?El Currr�culo de la Ense�aza Media, en Brasil, en el �rea de Lenguajes y sus Tecnolog�as, contempla en su parte diversificada la Lengua Espa�ola, como forma de integraci�n humana, de agregaci�n cultural y de amistad entre pueblos hermanos, pero distanciados por lenguas diferentes. Es una tentativa del Ministerio de la Educaci�n de que nosotros, brasile�os, no nos quedemos apartados de una cultura que mucho tiene a contribuir con la nuestra, as� como la nuestra tambi�n tiene su contribuici�n a ofrecer a nuestros hermanos que ( no se culpe a nadie) se mantuvieron tan ignorados e tan lejos, unos de los otros, por siglos; era como si estuvi�ramos de espaldas a nuestros vecinos de la Am�rica del Sur, sin conocerlos, ni apreciar su cultura, sus talentosos autores, cantantes, actores y actrizes.&#x0A;&#x0A;Es hora de cambiar la situaci�n: de leer los autores como Pablo Neruda, Roberto Bola�o e Isabel Allende (Chile), Juan Carlos Onetti y Mario Benedetti (Uruguay), Laura Restrepo y Gabriel Garc�a M�rquez, (Colombia), Sergio Pitol (M�xico), Alan Pauls, Ernesto S�bato y Jorge Luis Borges (Argentina) adem�s de los centroamericanos, como Claudia Lars, Hugo Lindo, Arturo Ambrogi, Alberto Masferrer (El Salvador), Guillermo Cabrera Infante (Cuba). &#x0A;&#x0A;</raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="244" parent="242" resource="247" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686838515</lastupdated>
+<possize>
+<point>
+<x>640</x>
+<y>0</y>
+</point>
+<size>
+<cx>387</cx>
+<cy>661</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="369" parent="40">
+<name>Página 3</name>
+<lastupdated>1687375629</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="389" parent="369" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687375589</lastupdated>
+<possize>
+<point>
+<x>32</x>
+<y>55</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text389Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text389Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text389Font1&quot;  &gt;ApresentaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text389Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Apresenta\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Apresenta��o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="388" parent="369" resource="247" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687375589</lastupdated>
+<possize>
+<point>
+<x>640</x>
+<y>0</y>
+</point>
+<size>
+<cx>387</cx>
+<cy>661</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="370" parent="369" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687375616</lastupdated>
+<possize>
+<point>
+<x>40</x>
+<y>122</y>
+</point>
+<size>
+<cx>594</cx>
+<cy>526</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text370Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text370Font1&quot;  &gt;Es hora de oÃ­r mÃºsica y de comprenderlas, a partir de sus versos, de los boleros, los tangos, los chÃ¡chÃ¡-chÃ¡s, las rancheras, ademÃ¡s de las mÃ¡s modernas: las de Rick MartÃ­n, de JÃºlio Iglesias, de Shakira y de otros mÃ¡s, como son romanticas, hermosas y emocionales. &amp;nbsp;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text370Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text370Font1&quot;  &gt;Es hora tambiÃ©n de asistir a pelÃ­culas espaÃ±olas y latinoamericanas, de conocer las series histÃ³ricas espaÃ±olas y los dramas mejicanos. Entre las pelÃ­culas de Almodovar, famoso director espaÃ±ol, podemos indicarle â€œAtame, Hable com ella, Volver, Todo sobre mi madreâ€. Entre las series de la TVE (teve espaÃ±ola), le indicamos â€œIsabelâ€ sobre la reina de Castilla que con su marido, FernÃ¡n de AragÃ³n, hicieron gran diferencia, al expulsar los moros de sus domÃ­nios y posibilitar a CristÃ³bal ColÃ³n descobrir las AmÃ©ricas; â€œLo que escondÃ­an tus ojosâ€ que se pasa durante la dictadura de Francisco Franco; â€œLa verdadâ€ y â€œLa caza Monteperdidoâ€ sobre el rapto de niÃ±as; â€œLos nuestrosâ€ sobre guerras modernas en el Oriente; â€œEl prÃ­ncipeâ€ sobre el combate a los fundamentalistas musulmanes en la Isla de Ceuta, pertenencia de EspaÃ±a. Entre las series latinoamericanas, le indicamos â€œBloque de bÃºsquedaâ€ (Colombia) ficciÃ³n sobre la caza y muerte de Escobar, un traficante colombiano ; â€œLa DoÃ±aâ€ y â€œRosario Tijerasâ€, dramas mejicanos envolventes como las tele-novelas brasileÃ±as. Para que entrene el espaÃ±ol, es importante que oiga el sonido en el original y lo acompaÃ±e leyendo las leyendas en portuguÃ©s, asÃ­ se acostumbrarÃ¡ a relacionar los sonidos de las palabas a sus significados. El desarollo en el dominio del espaÃ±ol serÃ¡ tan agradable cuanto eficiente.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\lang3082\hich\f2\loch\f2\cf2\fs28 Es hora de o\&apos;edr m\&apos;fasica y de comprenderlas, a partir de sus versos, de los boleros, los tangos, los ch\&apos;e1ch\&apos;e1-ch\&apos;e1s, las rancheras, adem\&apos;e1s de las m\&apos;e1s modernas: las de Rick &#x0A;Mart\&apos;edn, de J\&apos;falio Iglesias, de Shakira y de otros m\&apos;e1s, como son romanticas, hermosas y emocionales.  \lang1046\hich\f2\loch\f2\par\par\lang3082\hich\f2\loch\f2 Es hora tambi\&apos;e9n de asistir a pel\&apos;edculas espa\&apos;f1olas y latinoamericanas, de conocer &#x0A;las series hist\&apos;f3ricas espa\&apos;f1olas y los dramas mejicanos. Entre las pel\&apos;edculas de Almodovar, famoso director espa\&apos;f1ol, podemos indicarle \u8220 \&apos;93Atame, Hable com ella, Volver, Todo sobre mi madre\u8221 \&apos;94. Entre las series de la TVE (teve &#x0A;espa\&apos;f1ola), le indicamos \u8220 \&apos;93Isabel\u8221 \&apos;94 sobre la reina de Castilla que con su marido, Fern\&apos;e1n de Arag\&apos;f3n, hicieron gran diferencia, al expulsar los moros de sus dom\&apos;ednios y posibilitar a Crist\&apos;f3bal Col\&apos;f3n descobrir las Am\&apos;e9ricas; \u8220 &#x0A;\&apos;93Lo que escond\&apos;edan tus ojos\u8221 \&apos;94 que se pasa durante la dictadura de Francisco Franco; \u8220 \&apos;93La verdad\u8221 \&apos;94 y \u8220 \&apos;93La caza Monteperdido\u8221 \&apos;94 sobre el rapto de ni\&apos;f1as; \u8220 \&apos;93Los nuestros\u8221 \&apos;94 sobre guerras &#x0A;modernas en el Oriente; \u8220 \&apos;93El pr\&apos;edncipe\u8221 \&apos;94 sobre el combate a los fundamentalistas musulmanes en la Isla de Ceuta, pertenencia de Espa\&apos;f1a. Entre las series latinoamericanas, le indicamos \u8220 \&apos;93Bloque de b\&apos;fasqueda\u8221 \&apos;94 &#x0A;(Colombia) ficci\&apos;f3n sobre la caza y muerte de Escobar, un traficante colombiano ; \u8220 \&apos;93La Do\&apos;f1a\u8221 \&apos;94 y \u8220 \&apos;93Rosario Tijeras\u8221 \&apos;94, dramas mejicanos envolventes como las tele-novelas brasile\&apos;f1as. Para que entrene el espa\&apos;f1ol, &#x0A;es importante que oiga el sonido en el original y lo acompa\&apos;f1e leyendo las leyendas en portugu\&apos;e9s, as\&apos;ed se acostumbrar\&apos;e1 a relacionar los sonidos de las palabas a sus significados. El desarollo en el dominio del espa\&apos;f1ol ser\&apos;e1 tan agradable &#x0A;cuanto eficiente.\par}&#x0A;</rtf>
+<raw>?Es hora de o�r m�sica y de comprenderlas, a partir de sus versos, de los boleros, los tangos, los ch�ch�-ch�s, las rancheras, adem�s de las m�s modernas: las de Rick Mart�n, de J�lio Iglesias, de Shakira y de otros m�s, como son romanticas, hermosas y emocionales.  &#x0A;&#x0A;Es hora tambi�n de asistir a pel�culas espa�olas y latinoamericanas, de conocer las series hist�ricas espa�olas y los dramas mejicanos. Entre las pel�culas de Almodovar, famoso director espa�ol, podemos indicarle �Atame, Hable com ella, Volver, Todo sobre mi madre�. Entre las series de la TVE (teve espa�ola), le indicamos �Isabel� sobre la reina de Castilla que con su marido, Fern�n de Arag�n, hicieron gran diferencia, al expulsar los moros de sus dom�nios y posibilitar a Crist�bal Col�n descobrir las Am�ricas; �Lo que escond�an tus ojos� que se pasa durante la dictadura de Francisco Franco; �La verdad� y �La caza Monteperdido� sobre el rapto de ni�as; �Los nuestros� sobre guerras modernas en el Oriente; �El pr�ncipe� sobre el combate a los fundamentalistas musulmanes en la Isla de Ceuta, pertenencia de Espa�a. Entre las series latinoamericanas, le indicamos �Bloque de b�squeda� (Colombia) ficci�n sobre la caza y muerte de Escobar, un traficante colombiano ; �La Do�a� y �Rosario Tijeras�, dramas mejicanos envolventes como las tele-novelas brasile�as. Para que entrene el espa�ol, es importante que oiga el sonido en el original y lo acompa�e leyendo las leyendas en portugu�s, as� se acostumbrar� a relacionar los sonidos de las palabas a sus significados. El desarollo en el dominio del espa�ol ser� tan agradable cuanto eficiente.</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+</page>
+<page id="431" parent="40">
+<name>Página 4</name>
+<lastupdated>1687375629</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="435" parent="431" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687375637</lastupdated>
+<possize>
+<point>
+<x>41</x>
+<y>208</y>
+</point>
+<size>
+<cx>599</cx>
+<cy>244</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text435Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text435Font1&quot;  &gt;La EducaciÃ³n brasileÃ±a, por intermedio de la Base Nacional ComÃºn Curricular, en su parte diversificada, ofrece a sus alumnos la oportunidad, no sÃ³lo de recuperar una parte importante de la historia continental, como tambiÃ©n de acrecer al bagaje intelectual y cultural un rico, ingenioso y complejo conocimiento que, aÃºn no lo supieron, les ha hecho bastante falta hasta el momento en el cual la lengua espaÃ±ola se ha tornado parte integrante del currÃ­culo nacional, por lo menos para aquellos que se interasan por los estudios de Letras, Artes, Literatura, HistÃ³ria y otras ciencias humanas o solamente para ampliar visiÃ³n de mundo y para usufructuar un placer personal y cultural.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\lang3082\hich\f2\loch\f2 La Educaci\&apos;f3n brasile\&apos;f1a, por intermedio de la Base Nacional Com\&apos;fan Curricular, en su parte diversificada, ofrece a sus alumnos la oportunidad, no s\&apos;f3lo de recuperar una parte &#x0A;importante de la historia continental, como tambi\&apos;e9n de acrecer al bagaje intelectual y cultural un rico, ingenioso y complejo conocimiento que, a\&apos;fan no lo supieron, les ha hecho bastante falta hasta el momento en el cual la lengua espa\&apos;f1ola se &#x0A;ha tornado parte integrante del curr\&apos;edculo nacional, por lo menos para aquellos que se interasan por los estudios de Letras, Artes, Literatura, Hist\&apos;f3ria y otras ciencias humanas o solamente para ampliar visi\&apos;f3n de mundo y para usufructuar un placer &#x0A;personal y cultural.\par}&#x0A;</rtf>
+<raw>?La Educaci�n brasile�a, por intermedio de la Base Nacional Com�n Curricular, en su parte diversificada, ofrece a sus alumnos la oportunidad, no s�lo de recuperar una parte importante de la historia continental, como tambi�n de acrecer al bagaje intelectual y cultural un rico, ingenioso y complejo conocimiento que, a�n no lo supieron, les ha hecho bastante falta hasta el momento en el cual la lengua espa�ola se ha tornado parte integrante del curr�culo nacional, por lo menos para aquellos que se interasan por los estudios de Letras, Artes, Literatura, Hist�ria y otras ciencias humanas o solamente para ampliar visi�n de mundo y para usufructuar un placer personal y cultural.</raw>
+<numoflines>11</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="434" parent="431" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687375629</lastupdated>
+<possize>
+<point>
+<x>32</x>
+<y>55</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text434Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text434Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text434Font1&quot;  &gt;ApresentaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text434Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Apresenta\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Apresenta��o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="433" parent="431" resource="247" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687375645</lastupdated>
+<possize>
+<point>
+<x>665</x>
+<y>0</y>
+</point>
+<size>
+<cx>387</cx>
+<cy>661</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

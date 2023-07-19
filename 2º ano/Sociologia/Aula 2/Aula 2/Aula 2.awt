@@ -1,0 +1,2769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>1653</currentid>
+<currtheme></currtheme>
+<language>pt</language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="170" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="171" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="621" resourcetype="image">
+<name>Imagem1.png</name>
+<relativelink>images\Imagem1.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1647" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1648" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="79">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 2</name>
+<lastupdated>1687807082</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="78" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687806203</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687806203</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687806203</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="79" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687806203</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687806203</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687806203</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="70" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687806203</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="71" parent="70" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687806203</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="70" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687806203</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="63" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687806203</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="64" parent="63" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687806203</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="65" parent="63" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687806203</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="55" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687806203</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="56" parent="55" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687806203</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="55" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687806203</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="58" parent="55" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687806203</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="55">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689703550</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="1632" parent="40">
+<name>Página 1</name>
+<lastupdated>1689703551</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="1633" parent="1632">
+<name>Grupo_1</name>
+<lastupdated>1689703551</lastupdated>
+<image id="1635" parent="1633" resource="1647" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689703551</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1637" parent="1633" resource="1648" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689703551</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1638" parent="1633" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689703554</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1638Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1638Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1638Font1&quot;  &gt;Aula 2&lt;/span &gt;&lt;span class=&quot;text1638Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 2\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 2</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="1640" parent="1633" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689703552</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1642" parent="1633" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689703552</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1644" parent="1633" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689703552</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1646" parent="1633" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689703552</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="155" parent="40">
+<name>Página 2</name>
+<lastupdated>1689703550</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="666" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 4</name>
+<lastupdated>1687806515</lastupdated>
+<possize>
+<point>
+<x>532</x>
+<y>473</y>
+</point>
+<size>
+<cx>441</cx>
+<cy>163</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text666Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text666Font1&quot;  &gt;Surgem os primeiros &quot;burgueses&quot;, que eram os comerciantes instalados nas cidades e que comeÃ§aram a acumular riquezas e poder. Com o aumento do comÃ©rcio e produÃ§Ã£o de alimentos e mercadorias, os monopÃ³lios das corporaÃ§Ãµes de ofÃ­cios e a economia de autossuficiÃªncia dos feudos comeÃ§am a sofrer concorrÃªncias. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Surgem os primeiros &quot;burgueses&quot;, que eram os comerciantes instalados nas cidades e que come\u231 \&apos;e7aram a acumular riquezas e poder. Com o aumento do com\u233 \&apos;e9rcio e produ\u231 \&apos;e7\u227 \&apos;e3o de alimentos e mercadorias, &#x0A;os monop\u243 \&apos;f3lios das corpora\u231 \&apos;e7\u245 \&apos;f5es de of\u237 \&apos;edcios e a economia de autossufici\u234 \&apos;eancia dos feudos come\u231 \&apos;e7am a sofrer concorr\u234 \&apos;eancias. \par}&#x0A;</rtf>
+<raw>?Surgem os primeiros &quot;burgueses&quot;, que eram os comerciantes instalados nas cidades e que come�aram a acumular riquezas e poder. Com o aumento do com�rcio e produ��o de alimentos e mercadorias, os monop�lios das corpora��es de of�cios e a economia de autossufici�ncia dos feudos come�am a sofrer concorr�ncias. </raw>
+<numoflines>7</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="620" parent="155" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687806454</lastupdated>
+<possize>
+<point>
+<x>532</x>
+<y>296</y>
+</point>
+<size>
+<cx>443</cx>
+<cy>144</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>20</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="01D1DD" />
+</shape>
+<image id="618" parent="155" resource="621" ontop="false" fixed="false" proportional="true">
+<name>Imagem1</name>
+<lastupdated>1687806448</lastupdated>
+<possize>
+<point>
+<x>914</x>
+<y>416</y>
+</point>
+<size>
+<cx>61</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="616" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687806487</lastupdated>
+<possize>
+<point>
+<x>556</x>
+<y>302</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>129</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text616Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text616Font1&quot;  &gt;Nesta fase, surgem os primeiros trabalhadores assalariados e livres das relaÃ§Ãµes de servidÃ£o com os senhores feudais, surgindo a possibilidade de ascensÃ£o social em uma sociedade atÃ© entÃ£o rigidamente dividida em trÃªs classes: nobreza, clero e servos. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qj\hich\f2\loch\f2 Nesta fase, surgem os primeiros trabalhadores assalariados e livres das rela\&apos;e7\&apos;f5es de servid\&apos;e3o com os senhores feudais, surgindo a possibilidade de ascens\&apos;e3o social em uma sociedade at\&apos;e9 ent\&apos;e3o &#x0A;rigidamente dividida em tr\&apos;eas classes: nobreza, clero e servos. \par}&#x0A;</rtf>
+<raw>?Nesta fase, surgem os primeiros trabalhadores assalariados e livres das rela��es de servid�o com os senhores feudais, surgindo a possibilidade de ascens�o social em uma sociedade at� ent�o rigidamente dividida em tr�s classes: nobreza, clero e servos. </raw>
+<numoflines>6</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="615" parent="155" ontop="false" fixed="false" proportional="false">
+<name>Retângulo 2</name>
+<lastupdated>1687806448</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>329</y>
+</point>
+<size>
+<cx>12</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="577" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687806440</lastupdated>
+<possize>
+<point>
+<x>527</x>
+<y>127</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>188</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text577Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text577Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text577Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text577Font1&quot;  &gt;PrÃ©-Capitalismo&lt;/span &gt;&lt;span class=&quot;text577Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text577Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text577Font3&quot;  &gt;Surge durante a crise do sistema de produ&lt;/span &gt;&lt;span class=&quot;text577Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text577Font3&quot;  &gt;o feudal, quando o com&lt;/span &gt;&lt;span class=&quot;text577Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text577Font3&quot;  &gt;rcio entre feudos e cidades europeias come&lt;/span &gt;&lt;span class=&quot;text577Font4&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text577Font3&quot;  &gt;a a produzir uma classe de comerciantes ricos que rivalizariam em poder econ&lt;/span &gt;&lt;span class=&quot;text577Font4&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text577Font3&quot;  &gt;mico com os senhores feudais.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Pr\u233 \&apos;e9-Capitalismo\hich\f2\loch\f2\fs28\b0\par\par Surge durante a crise do sistema de produ\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o feudal, quando o com\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 &#x0A;rcio entre feudos e cidades europeias come\hich\f1\loch\f1\u231 \&apos;e7\hich\f2\loch\f2 a a produzir uma classe de comerciantes ricos que rivalizariam em poder econ\hich\f1\loch\f1\u244 \&apos;f4\hich\f2\loch\f2 mico com os senhores feudais.\par}&#x0A;</rtf>
+<raw>?Pr�-Capitalismo&#x0A;&#x0A;Surge durante a crise do sistema de produ��o feudal, quando o com�rcio entre feudos e cidades europeias come�a a produzir uma classe de comerciantes ricos que rivalizariam em poder econ�mico com os senhores feudais.</raw>
+<numoflines>7</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="542" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687806406</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>166</y>
+</point>
+<size>
+<cx>424</cx>
+<cy>433</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text542Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text542Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text542Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text542Font1&quot;  &gt;PrÃ©-capitalismo, Capitalismo comercial, Industrial e Financeiro:&lt;/span &gt;&lt;span class=&quot;text542Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text542Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text542Font2&quot;  &gt;Vimos que no modo de produÃ§Ã£o capitalista os meios de produÃ§Ã£o e o capital concentram-se na mÃ£o de poucos e que esta concentraÃ§Ã£o Ã© ajudada pelo lucro obtido na venda de produtos e mercadorias fabricadas pelo proletariado. PorÃ©m, o modo de produÃ§Ã£o capitalista decorre de um longo processo histÃ³rico, subdividido nas seguintes fases: PrÃ©-capitalismo, Capitalismo Comercial, Capitalismo Industrial e Capitalismo Financeiro. &lt;/span &gt;&lt;span class=&quot;text542Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text542Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text542Font2&quot;  &gt;Cada fase dessas se relacionada com as caracterÃ­sticas socioeconÃ´micas e tecnolÃ³gicas de perÃ­odos histÃ³ricos especÃ­ficos. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ql\cf2\fs36\b Pr\&apos;e9-capitalismo, Capitalismo comercial, Industrial e Financeiro:\fs28\b0\par\qj\plain\f1\fs24\cf2\fs28\par Vimos que no modo de produ\&apos;e7\&apos;e3o capitalista os meios de produ\&apos;e7\&apos;e3o e o capital concentram-se na m\&apos;e3o &#x0A;de poucos e que esta concentra\&apos;e7\&apos;e3o \&apos;e9 ajudada pelo lucro obtido na venda de produtos e mercadorias fabricadas pelo proletariado. Por\&apos;e9m, o modo de produ\&apos;e7\&apos;e3o capitalista decorre de um longo processo hist\&apos;f3rico, subdividido nas seguintes &#x0A;fases: Pr\&apos;e9-capitalismo, Capitalismo Comercial, Capitalismo Industrial e Capitalismo Financeiro. \lang1046\hich\f2\loch\f2\par\par\lang1046\hich\f1\loch\f1 Cada fase dessas se relacionada com as caracter\&apos;edsticas socioecon\&apos;f4micas e tecnol\&apos;f3gicas &#x0A;de per\&apos;edodos hist\&apos;f3ricos espec\&apos;edficos. \par}&#x0A;</rtf>
+<raw>?Pr�-capitalismo, Capitalismo comercial, Industrial e Financeiro:&#x0A;&#x0A;Vimos que no modo de produ��o capitalista os meios de produ��o e o capital concentram-se na m�o de poucos e que esta concentra��o � ajudada pelo lucro obtido na venda de produtos e mercadorias fabricadas pelo proletariado. Por�m, o modo de produ��o capitalista decorre de um longo processo hist�rico, subdividido nas seguintes fases: Pr�-capitalismo, Capitalismo Comercial, Capitalismo Industrial e Capitalismo Financeiro. &#x0A;&#x0A;Cada fase dessas se relacionada com as caracter�sticas socioecon�micas e tecnol�gicas de per�odos hist�ricos espec�ficos. </raw>
+<numoflines>17</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="538" parent="155">
+<name>Grupo_1</name>
+<lastupdated>1687806339</lastupdated>
+<shape id="160" parent="538" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687806339</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="162" parent="538" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687806339</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="164" parent="538" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687806339</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="165" parent="538" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687806339</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>766</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text165Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text165Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text165Font1&quot;  &gt;DiferenÃ§a entre Socialismo, Comunismo e Anarquismo&lt;/span &gt;&lt;span class=&quot;text165Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Diferen\&apos;e7a entre Socialismo, Comunismo e Anarquismo\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Diferen�a entre Socialismo, Comunismo e Anarquismo</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="167" parent="538" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687806339</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="169" parent="538" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687806339</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="706" parent="40">
+<name>Página 3</name>
+<lastupdated>1687806658</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="783" parent="706" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687806652</lastupdated>
+<possize>
+<point>
+<x>526</x>
+<y>131</y>
+</point>
+<size>
+<cx>446</cx>
+<cy>517</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text783Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text783Font1&quot;  &gt;consequente acumulaÃ§Ã£o de capital, principalmente na forma de metais preciosos, como o ouro. No mercantilismo, os reinos protegiam seus mercados internos da concorrÃªncia estrangeira, tinham o monopÃ³lio do comÃ©rcio (em parceria com empresas privadas e financiamento de banqueiros) e exploravam suas colÃ´nias. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text783Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text783Font1&quot;  &gt;No Mercantilismo, a intervenÃ§Ã£o estatal na economia era grande, jÃ¡ que muitas vezes os reinos impunham monopÃ³lios sobre a produÃ§Ã£o e o comÃ©rcio dos produtos de suas colÃ´nias e nas trocas comerciais com outros paÃ­ses. Muitas vezes, proibiam a existÃªncia de atividades econÃ´micas nas suas colÃ´nias que pudessem concorrer com a dos reinos, como fez Portugal com o Brasil, proibindo a existÃªncia de tecelagens por aqui. Os reinos tambÃ©m criavam barreiras tarifÃ¡rias para produtos de outros paÃ­ses, para que nÃ£o fossem competitivos com os produzidos internamente. O Mercantilismo existiu entre os SÃ©culos XV e XVIII e permitiu que o capital acumulado pelas burguesias nacionais fosse investido em manufaturas que, posteriormente, seriam embrionÃ¡rias da industrializaÃ§Ã£o europeia.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 consequente acumula\u231 \&apos;e7\u227 \&apos;e3o de capital, principalmente na forma de metais preciosos, como o ouro. No mercantilismo, os reinos protegiam seus mercados internos da concorr\u234 \&apos;eancia estrangeira, &#x0A;tinham o monop\u243 \&apos;f3lio do com\u233 \&apos;e9rcio (em parceria com empresas privadas e financiamento de banqueiros) e exploravam suas col\u244 \&apos;f4nias. \par\par No Mercantilismo, a interven\&apos;e7\&apos;e3o estatal na economia era grande, j\&apos;e1 que muitas vezes &#x0A;os reinos impunham monop\&apos;f3lios sobre a produ\&apos;e7\&apos;e3o e o com\&apos;e9rcio dos produtos de suas col\&apos;f4nias e nas trocas comerciais com outros pa\&apos;edses. Muitas vezes, proibiam a exist\&apos;eancia de atividades econ\&apos;f4micas nas suas col\&apos;f4nias que pudessem &#x0A;concorrer com a dos reinos, como fez Portugal com o Brasil, proibindo a exist\&apos;eancia de tecelagens por aqui. Os reinos tamb\&apos;e9m criavam barreiras tarif\&apos;e1rias para produtos de outros pa\&apos;edses, para que n\&apos;e3o fossem competitivos com os produzidos &#x0A;internamente. O Mercantilismo existiu entre os S\&apos;e9culos XV e XVIII e permitiu que o capital acumulado pelas burguesias nacionais fosse investido em manufaturas que, posteriormente, seriam embrion\&apos;e1rias da industrializa\&apos;e7\&apos;e3o europeia.\par}&#x0A;</rtf>
+<raw>?consequente acumula??o de capital, principalmente na forma de metais preciosos, como o ouro. No mercantilismo, os reinos protegiam seus mercados internos da concorr?ncia estrangeira, tinham o monop?lio do com?rcio (em parceria com empresas privadas e financiamento de banqueiros) e exploravam suas col?nias. &#x0A;No Mercantilismo, a interven??o estatal na economia era grande, j? que muitas vezes os reinos impunham monop?lios sobre a produ??o e o com?rcio dos produtos de suas col?nias e nas trocas comerciais com outros pa?ses. Muitas vezes, proibiam a exist?ncia de atividades econ?micas nas suas col?nias que pudessem concorrer com a dos reinos, como fez Portugal com o Brasil, proibindo a exist?ncia de tecelagens por aqui. Os reinos tamb?m criavam barreiras tarif?rias para produtos de outros pa?ses, para que n?o fossem competitivos com os produzidos internamente. O Mercantilismo existiu entre os S?culos XV e XVIII e permitiu que o capital acumulado pelas burguesias nacionais fosse investido em manufaturas que, posteriormente, seriam embrion?rias da industrializa??o europeia.</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="720" parent="706" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687806593</lastupdated>
+<possize>
+<point>
+<x>45</x>
+<y>157</y>
+</point>
+<size>
+<cx>432</cx>
+<cy>462</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text720Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text720Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text720Font4 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text720Font1&quot;  &gt;O termo prÃ©-capitalista tambÃ©m Ã© utilizado para classificar as sociedades nas quais os meios de produÃ§Ã£o sÃ£o ainda coletivos e nÃ£o hÃ¡ a produÃ§Ã£o de mercadorias com valor de troca ou mesmo a circulaÃ§Ã£o de uma unidade monetÃ¡ria (o dinheiro), como comunidades tribais. &lt;/span &gt;&lt;span class=&quot;text720Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text720Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text720Font4&quot;  &gt;Capitalismo Comercial&lt;/span &gt;&lt;span class=&quot;text720Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text720Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text720Font3&quot;  &gt;No SÃ©culo XV, os europeus comeÃ§aram a explorar novas rotas marÃ­timas para comercializar especiarias com a Ãsia, chegando a terras desconhecidas atÃ© entÃ£o dos europeus, como as AmÃ©ricas, parte da Ãfrica e ilhas dos oceanos Ãndico e PacÃ­fico. As chamadas &quot;Grandes NavegaÃ§Ãµes&quot; abrem um novo horizonte econÃ´mico para a Europa, particularmente para Portugal, Espanha, Holanda, Inglaterra e FranÃ§a, que comeÃ§a a explorar as novas terras. Esta fase do capitalismo, tambÃ©m chamado de Mercantilismo, fundamenta-se no comÃ©rcio de mercadorias e &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 O termo pr\u233 \&apos;e9-capitalista tamb\u233 \&apos;e9m \u233 \&apos;e9 utilizado para classificar as sociedades nas quais os meios de produ\u231 \&apos;e7\u227 \&apos;e3o s\u227 \&apos;e3o ainda coletivos e n\u227 \&apos;e3o h\u225 \&apos;e1 a produ\u231 &#x0A;\&apos;e7\u227 \&apos;e3o de mercadorias com valor de troca ou mesmo a circula\u231 \&apos;e7\u227 \&apos;e3o de uma unidade monet\u225 \&apos;e1ria (o dinheiro), como comunidades tribais. \lang1046\hich\f2\loch\f2\par\par\fs36\b Capitalismo Comercial\fs28\b0\par\par No S\u233 &#x0A;\&apos;e9culo XV, os europeus come\u231 \&apos;e7aram a explorar novas rotas mar\u237 \&apos;edtimas para comercializar especiarias com a \u193 \&apos;c1sia, chegando a terras desconhecidas at\u233 \&apos;e9 ent\u227 \&apos;e3o dos europeus, como as Am\u233 \&apos;e9ricas, parte da \u193 &#x0A;\&apos;c1frica e ilhas dos oceanos \u205 \&apos;cdndico e Pac\u237 \&apos;edfico. As chamadas &quot;Grandes Navega\u231 \&apos;e7\u245 \&apos;f5es&quot; abrem um novo horizonte econ\u244 \&apos;f4mico para a Europa, particularmente para Portugal, Espanha, Holanda, Inglaterra e Fran\u231 \&apos;e7a, &#x0A;que come\u231 \&apos;e7a a explorar as novas terras. Esta fase do capitalismo, tamb\u233 \&apos;e9m chamado de Mercantilismo, fundamenta-se no com\u233 \&apos;e9rcio de mercadorias e \par}&#x0A;</rtf>
+<raw>?O termo pr?-capitalista tamb?m ? utilizado para classificar as sociedades nas quais os meios de produ??o s?o ainda coletivos e n?o h? a produ??o de mercadorias com valor de troca ou mesmo a circula??o de uma unidade monet?ria (o dinheiro), como comunidades tribais. &#x0A;Capitalismo Comercial&#x0A;No S?culo XV, os europeus come?aram a explorar novas rotas mar?timas para comercializar especiarias com a ?sia, chegando a terras desconhecidas at? ent?o dos europeus, como as Am?ricas, parte da ?frica e ilhas dos oceanos ?ndico e Pac?fico. As chamadas &quot;Grandes Navega??es&quot; abrem um novo horizonte econ?mico para a Europa, particularmente para Portugal, Espanha, Holanda, Inglaterra e Fran?a, que come?a a explorar as novas terras. Esta fase do capitalismo, tamb?m chamado de Mercantilismo, fundamenta-se no com?rcio de mercadorias e </raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="708" parent="706">
+<name>Grupo_1</name>
+<lastupdated>1687806521</lastupdated>
+<shape id="710" parent="708" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687806521</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="712" parent="708" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687806521</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="714" parent="708" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687806521</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="715" parent="708" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687806521</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>766</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text715Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text715Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text715Font1&quot;  &gt;DiferenÃ§a entre Socialismo, Comunismo e Anarquismo&lt;/span &gt;&lt;span class=&quot;text715Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Diferen\&apos;e7a entre Socialismo, Comunismo e Anarquismo\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Diferen?a entre Socialismo, Comunismo e Anarquismo</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="717" parent="708" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687806521</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="719" parent="708" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687806521</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="847" parent="40">
+<name>Página 4</name>
+<lastupdated>1687806918</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<shape id="944" parent="847" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687806866</lastupdated>
+<possize>
+<point>
+<x>532</x>
+<y>371</y>
+</point>
+<size>
+<cx>443</cx>
+<cy>144</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>20</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="01D1DD" />
+</shape>
+<image id="942" parent="847" resource="621" ontop="false" fixed="false" proportional="true">
+<name>Imagem1</name>
+<lastupdated>1687806861</lastupdated>
+<possize>
+<point>
+<x>914</x>
+<y>491</y>
+</point>
+<size>
+<cx>61</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="940" parent="847" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687806887</lastupdated>
+<possize>
+<point>
+<x>556</x>
+<y>377</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>131</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text940Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text940Font1&quot;  &gt;O epicentro da RevoluÃ§Ã£o Industrial foi a Inglaterra, paÃ­s que se beneficiou bastante do comÃ©rcio ultramarino e no qual inovaÃ§Ãµes tecnolÃ³gicas na indÃºstria da tecelagem permitiram a passagem da produÃ§Ã£o manual para a industrializada. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qj\hich\f2\loch\f2 O epicentro da Revolu\&apos;e7\&apos;e3o Industrial foi a Inglaterra, pa\&apos;eds que se beneficiou bastante do com\&apos;e9rcio ultramarino e no qual inova\&apos;e7\&apos;f5es tecnol\&apos;f3gicas na ind\&apos;fastria da tecelagem permitiram &#x0A;a passagem da produ\&apos;e7\&apos;e3o manual para a industrializada. \par}&#x0A;</rtf>
+<raw>?O epicentro da Revolu??o Industrial foi a Inglaterra, pa?s que se beneficiou bastante do com?rcio ultramarino e no qual inova??es tecnol?gicas na ind?stria da tecelagem permitiram a passagem da produ??o manual para a industrializada. </raw>
+<numoflines>6</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="939" parent="847" ontop="false" fixed="false" proportional="false">
+<name>Retângulo 2</name>
+<lastupdated>1687806861</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>404</y>
+</point>
+<size>
+<cx>12</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="902" parent="847" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687806740</lastupdated>
+<possize>
+<point>
+<x>520</x>
+<y>139</y>
+</point>
+<size>
+<cx>444</cx>
+<cy>241</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text902Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text902Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text902Font1&quot;  &gt;Capitalismo Industrial&lt;/span &gt;&lt;span class=&quot;text902Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text902Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text902Font2&quot;  &gt;Diversos fatores influenciaram para a industrializaÃ§Ã£o da Europa no SÃ©culo XVIII: aumento da populaÃ§Ã£o, melhorias na produtividade agrÃ­cola, aumento do comÃ©rcio entre cidades e paÃ­ses, acÃºmulo de capitais proporcionado pelo comÃ©rcio colonial e, por fim, inovaÃ§Ãµes tecnolÃ³gicas e cientificas, como os motores e mÃ¡quinas a vapor.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Capitalismo Industrial\fs28\b0\par\par Diversos fatores influenciaram para a industrializa\u231 \&apos;e7\u227 \&apos;e3o da Europa no S\u233 \&apos;e9culo XVIII: aumento da popula\u231 \&apos;e7\u227 \&apos;e3o, melhorias na produtividade agr\u237 &#x0A;\&apos;edcola, aumento do com\u233 \&apos;e9rcio entre cidades e pa\u237 \&apos;edses, ac\u250 \&apos;famulo de capitais proporcionado pelo com\u233 \&apos;e9rcio colonial e, por fim, inova\u231 \&apos;e7\u245 \&apos;f5es tecnol\u243 \&apos;f3gicas e cientificas, como os motores e m\u225 \&apos;e1quinas &#x0A;a vapor.\par}&#x0A;</rtf>
+<raw>?Capitalismo Industrial&#x0A;Diversos fatores influenciaram para a industrializa??o da Europa no S?culo XVIII: aumento da popula??o, melhorias na produtividade agr?cola, aumento do com?rcio entre cidades e pa?ses, ac?mulo de capitais proporcionado pelo com?rcio colonial e, por fim, inova??es tecnol?gicas e cientificas, como os motores e m?quinas a vapor.</raw>
+<numoflines>9</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="861" parent="847" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687806711</lastupdated>
+<possize>
+<point>
+<x>56</x>
+<y>151</y>
+</point>
+<size>
+<cx>420</cx>
+<cy>474</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text861Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text861Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text861Font1&quot;  &gt;Na fase do mercantilismo, nÃ£o se deve negar a importÃ¢ncia que a escravidÃ£o teve no acÃºmulo de capitais que posteriormente seriam investidos na mecanizaÃ§Ã£o do trabalho. O comÃ©rcio de escravos era triangular: Em uma ponta, estava a Ãfrica com fornecedora de mÃ£o de obra escrava. Em outra, estavam as colÃ´nias para as quais os escravos eram enviados, como o Brasil. Por fim, o produto do trabalho escravo era vendido na Europa.&lt;/span &gt;&lt;span class=&quot;text861Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text861Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text861Font3&quot;  &gt;Lembrar que os escravos muitas vezes eram trocados, na Ãfrica, por mercadorias produzidas nas colÃ´nias por escravos, como rum, cachaÃ§a, aÃ§Ãºcar. Com o aumento do trabalho assalariado na Europa e a difusÃ£o dos ideais humanistas e igualitÃ¡rios da RevoluÃ§Ã£o Francesa, a mÃ£o de obra escrava passou a ser vista nÃ£o sÃ³ como antiÃ©tica e anti-humanista, mas tambÃ©m como concorrente da mÃ£o de obra assalariada, incentivando os movimentos abolicionistas nas colÃ´nias europeias. &lt;/span &gt;&lt;span class=&quot;text861Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Na fase do mercantilismo, n\u227 \&apos;e3o se deve negar a import\u226 \&apos;e2ncia que a escravid\u227 \&apos;e3o teve no ac\u250 \&apos;famulo de capitais que posteriormente seriam investidos na mecaniza\u231 \&apos;e7\u227 \&apos;e3o do trabalho. &#x0A;O com\u233 \&apos;e9rcio de escravos era triangular: Em uma ponta, estava a \u193 \&apos;c1frica com fornecedora de m\u227 \&apos;e3o de obra escrava. Em outra, estavam as col\u244 \&apos;f4nias para as quais os escravos eram enviados, como o Brasil. Por fim, o produto do &#x0A;trabalho escravo era vendido na Europa.\lang1046\hich\f2\loch\f2\par\par Lembrar que os escravos muitas vezes eram trocados, na \&apos;c1frica, por mercadorias produzidas nas col\&apos;f4nias por escravos, como rum, cacha\&apos;e7a, a\&apos;e7\&apos;facar. Com o aumento do trabalho &#x0A;assalariado na Europa e a difus\&apos;e3o dos ideais humanistas e igualit\&apos;e1rios da Revolu\&apos;e7\&apos;e3o Francesa, a m\&apos;e3o de obra escrava passou a ser vista n\&apos;e3o s\&apos;f3 como anti\&apos;e9tica e anti-humanista, mas tamb\&apos;e9m como concorrente da m\&apos;e3o de obra assalariada, &#x0A;incentivando os movimentos abolicionistas nas col\&apos;f4nias europeias. \lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Na fase do mercantilismo, n?o se deve negar a import?ncia que a escravid?o teve no ac?mulo de capitais que posteriormente seriam investidos na mecaniza??o do trabalho. O com?rcio de escravos era triangular: Em uma ponta, estava a ?frica com fornecedora de m?o de obra escrava. Em outra, estavam as col?nias para as quais os escravos eram enviados, como o Brasil. Por fim, o produto do trabalho escravo era vendido na Europa.&#x0A;Lembrar que os escravos muitas vezes eram trocados, na ?frica, por mercadorias produzidas nas col?nias por escravos, como rum, cacha?a, a??car. Com o aumento do trabalho assalariado na Europa e a difus?o dos ideais humanistas e igualit?rios da Revolu??o Francesa, a m?o de obra escrava passou a ser vista n?o s? como anti?tica e anti-humanista, mas tamb?m como concorrente da m?o de obra assalariada, incentivando os movimentos abolicionistas nas col?nias europeias. </raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="849" parent="847">
+<name>Grupo_1</name>
+<lastupdated>1687806662</lastupdated>
+<shape id="851" parent="849" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687806662</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="853" parent="849" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687806662</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="855" parent="849" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687806662</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="856" parent="849" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687806662</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>766</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text856Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text856Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text856Font1&quot;  &gt;DiferenÃ§a entre Socialismo, Comunismo e Anarquismo&lt;/span &gt;&lt;span class=&quot;text856Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Diferen\&apos;e7a entre Socialismo, Comunismo e Anarquismo\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Diferen?a entre Socialismo, Comunismo e Anarquismo</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="858" parent="849" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687806662</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="860" parent="849" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687806662</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="973" parent="40">
+<name>Página 5</name>
+<lastupdated>1687807009</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1018" parent="973" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687807001</lastupdated>
+<possize>
+<point>
+<x>546</x>
+<y>148</y>
+</point>
+<size>
+<cx>422</cx>
+<cy>336</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1018Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1018Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1018Font1&quot;  &gt;O capitalismo industrial fundamenta-se na&lt;/span &gt;&lt;span class=&quot;text1018Font2&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text1018Font1&quot;  &gt;mecanizaÃ§Ã£o do trabalho, na divisÃ£o do trabalho e intensa circulaÃ§Ã£o de mercadorias, alÃ©m da livre &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1018Font1&quot;  &gt;iniciativa e concorrÃªncia empresarial. O capitalismo industrial proporcionou grandes transformaÃ§Ãµes sociais, econÃ´micas e culturais, mudando de maneira profunda os modos de vida cotidiana e em sociedade nÃ£o sÃ³ na Europa, mas em todo o mundo. Com o capitalismo industrial, intensifica-se um processo jÃ¡ posto em movimento com o Mercantilismo, a globalizaÃ§Ã£o da economia.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 O capitalismo industrial fundamenta-se na\hich\f2\loch\f2  \hich\f1\loch\f1 mecaniza\u231 \&apos;e7\u227 \&apos;e3o do trabalho, na divis\u227 \&apos;e3o do trabalho e intensa circula\u231 \&apos;e7\u227 \&apos;e3o de mercadorias, al\u233 \&apos;e9m &#x0A;da livre \par iniciativa e concorr\u234 \&apos;eancia empresarial. O capitalismo industrial proporcionou grandes transforma\u231 \&apos;e7\u245 \&apos;f5es sociais, econ\u244 \&apos;f4micas e culturais, mudando de maneira profunda os modos de vida cotidiana e em sociedade &#x0A;n\u227 \&apos;e3o s\u243 \&apos;f3 na Europa, mas em todo o mundo. Com o capitalismo industrial, intensifica-se um processo j\u225 \&apos;e1 posto em movimento com o Mercantilismo, a globaliza\u231 \&apos;e7\u227 \&apos;e3o da economia.\par}&#x0A;</rtf>
+<raw>?O capitalismo industrial fundamenta-se na mecaniza??o do trabalho, na divis?o do trabalho e intensa circula??o de mercadorias, al?m da livre &#x0A;iniciativa e concorr?ncia empresarial. O capitalismo industrial proporcionou grandes transforma??es sociais, econ?micas e culturais, mudando de maneira profunda os modos de vida cotidiana e em sociedade n?o s? na Europa, mas em todo o mundo. Com o capitalismo industrial, intensifica-se um processo j? posto em movimento com o Mercantilismo, a globaliza??o da economia.</raw>
+<numoflines>12</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="987" parent="973" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687806971</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>150</y>
+</point>
+<size>
+<cx>420</cx>
+<cy>393</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text987Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text987Font1&quot;  &gt;Nesta fase do capitalismo, os monopÃ³lios estatais sÃ£o questionados e o liberalismo surge como uma teoria importante no pensamento econÃ´mico. Para os liberais, o estado nÃ£o deve intervir na economia, deixando a iniciativa privada livre, acreditando que o prÃ³prio &quot;mercado&quot; se autorregulasse e, por consequÃªncia, seria benÃ©fico Ã  sociedade. De fato, grandes incentivos ao desenvolvimento mercantil e econÃ´mico desta Ã©poca se devem a iniciativa privada, como os investimentos feitos pelos burgueses em fÃ¡bricas e inovaÃ§Ãµes tecnolÃ³gicas. Entretanto, a RevoluÃ§Ã£o Industrial trouxe problemas que o mercado nÃ£o conseguia resolver, como desemprego, inchaÃ§o urbano, escassez e insalubridade de moradias, exploraÃ§Ã£o intensiva da mÃ£o de obra, etc. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Nesta fase do capitalismo, os monop\u243 \&apos;f3lios estatais s\u227 \&apos;e3o questionados e o liberalismo surge como uma teoria importante no pensamento econ\u244 \&apos;f4mico. Para os liberais, o estado n\u227 \&apos;e3o deve intervir &#x0A;na economia, deixando a iniciativa privada livre, acreditando que o pr\u243 \&apos;f3prio &quot;mercado&quot; se autorregulasse e, por consequ\u234 \&apos;eancia, seria ben\u233 \&apos;e9fico \u224 \&apos;e0 sociedade. De fato, grandes incentivos ao desenvolvimento mercantil e econ\u244 &#x0A;\&apos;f4mico desta \u233 \&apos;e9poca se devem a iniciativa privada, como os investimentos feitos pelos burgueses em f\u225 \&apos;e1bricas e inova\u231 \&apos;e7\u245 \&apos;f5es tecnol\u243 \&apos;f3gicas. Entretanto, a Revolu\u231 \&apos;e7\u227 \&apos;e3o Industrial trouxe problemas que &#x0A;o mercado n\u227 \&apos;e3o conseguia resolver, como desemprego, incha\u231 \&apos;e7o urbano, escassez e insalubridade de moradias, explora\u231 \&apos;e7\u227 \&apos;e3o intensiva da m\u227 \&apos;e3o de obra, etc. \par}&#x0A;</rtf>
+<raw>?Nesta fase do capitalismo, os monop?lios estatais s?o questionados e o liberalismo surge como uma teoria importante no pensamento econ?mico. Para os liberais, o estado n?o deve intervir na economia, deixando a iniciativa privada livre, acreditando que o pr?prio &quot;mercado&quot; se autorregulasse e, por consequ?ncia, seria ben?fico ? sociedade. De fato, grandes incentivos ao desenvolvimento mercantil e econ?mico desta ?poca se devem a iniciativa privada, como os investimentos feitos pelos burgueses em f?bricas e inova??es tecnol?gicas. Entretanto, a Revolu??o Industrial trouxe problemas que o mercado n?o conseguia resolver, como desemprego, incha?o urbano, escassez e insalubridade de moradias, explora??o intensiva da m?o de obra, etc. </raw>
+<numoflines>17</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="975" parent="973">
+<name>Grupo_1</name>
+<lastupdated>1687806927</lastupdated>
+<shape id="977" parent="975" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687806927</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="979" parent="975" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687806927</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="981" parent="975" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687806927</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="982" parent="975" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687806927</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>766</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text982Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text982Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text982Font1&quot;  &gt;DiferenÃ§a entre Socialismo, Comunismo e Anarquismo&lt;/span &gt;&lt;span class=&quot;text982Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Diferen\&apos;e7a entre Socialismo, Comunismo e Anarquismo\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Diferen?a entre Socialismo, Comunismo e Anarquismo</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="984" parent="975" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687806927</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="986" parent="975" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687806927</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1046" parent="40">
+<name>Página 6</name>
+<lastupdated>1687807239</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<shape id="1137" parent="1046" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687807230</lastupdated>
+<possize>
+<point>
+<x>531</x>
+<y>130</y>
+</point>
+<size>
+<cx>443</cx>
+<cy>319</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>20</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="01D1DD" />
+</shape>
+<image id="1135" parent="1046" resource="621" ontop="false" fixed="false" proportional="true">
+<name>Imagem1</name>
+<lastupdated>1687807235</lastupdated>
+<possize>
+<point>
+<x>914</x>
+<y>419</y>
+</point>
+<size>
+<cx>61</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1133" parent="1046" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687807219</lastupdated>
+<possize>
+<point>
+<x>556</x>
+<y>137</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>409</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1133Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1133Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1133Font1&quot;  &gt;O Capitalismo Financeiro insere-se no contexto da Terceira RevoluÃ§Ã£o Industrial, no qual grandes bancos passam a financiar, por meio de emprÃ©stimos ou investimento direto, as empresas. Com estes emprÃ©stimos, as empresas sediadas em um paÃ­s compravam possÃ­veis concorrentes no seu prÃ³prio ou em outro paÃ­s, formando grandes grupos monopolistas. Uma caracterÃ­stica do Capitalismo Financeiro Ã© o monopÃ³lio, no qual poucos bancos e multinacionais controlam grande fatias dos mercados e do fluxo de capitais,&lt;/span &gt;&lt;span class=&quot;text1133Font2&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text1133Font1&quot;  &gt;enriquecendo uma parcela mÃ­nima da populaÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}{\f3 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qj\hich\f2\loch\f2 O Capitalismo Financeiro insere-se no contexto da Terceira Revolu\&apos;e7\&apos;e3o Industrial, no qual grandes bancos passam a financiar, por meio de empr\&apos;e9stimos ou investimento direto, as empresas. Com estes &#x0A;empr\&apos;e9stimos, as empresas sediadas em um pa\&apos;eds compravam poss\&apos;edveis concorrentes no seu pr\&apos;f3prio ou em outro pa\&apos;eds, formando grandes grupos monopolistas. Uma caracter\&apos;edstica do Capitalismo Financeiro \&apos;e9 o monop\&apos;f3lio, no qual poucos bancos &#x0A;e multinacionais controlam grande fatias dos mercados e do fluxo de capitais,\lang1046\hich\f3\loch\f3  \lang1046\hich\f2\loch\f2 enriquecendo uma parcela m\&apos;ednima da popula\&apos;e7\&apos;e3o.\par}&#x0A;</rtf>
+<raw>?O Capitalismo Financeiro insere-se no contexto da Terceira Revolu??o Industrial, no qual grandes bancos passam a financiar, por meio de empr?stimos ou investimento direto, as empresas. Com estes empr?stimos, as empresas sediadas em um pa?s compravam poss?veis concorrentes no seu pr?prio ou em outro pa?s, formando grandes grupos monopolistas. Uma caracter?stica do Capitalismo Financeiro ? o monop?lio, no qual poucos bancos e multinacionais controlam grande fatias dos mercados e do fluxo de capitais, enriquecendo uma parcela m?nima da popula??o.</raw>
+<numoflines>14</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1132" parent="1046" ontop="false" fixed="false" proportional="false">
+<name>Retângulo 2</name>
+<lastupdated>1687807233</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>237</y>
+</point>
+<size>
+<cx>12</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1060" parent="1046" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687807087</lastupdated>
+<possize>
+<point>
+<x>42</x>
+<y>135</y>
+</point>
+<size>
+<cx>442</cx>
+<cy>516</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1060Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1060Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1060Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1060Font1&quot;  &gt;Capitalismo Financeiro&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1060Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1060Font2&quot;  &gt;A Revolu&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;o Industrial &lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt; comumente dividida em tr&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ãª&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;s fases: a Primeira, a Segunda e a Terceira Revolu&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;o. A primeira, que vai do S&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;culo XVIII at&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt; a metade do XIX &lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt; marcada pelas inven&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã§Ãµ&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;es que a possibilitaram, como o tear mec&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã¢&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;nico e o motor a vapor, e pelos produtos que primeiro foram industrializados, como tecidos, ferro, metais. Ainda, &lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt; marcada pela inven&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;o do trem e do navio a vapor, pelo desenvolvimento do sistema de transportes. A Segunda Revolu&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;o Industrial, que vai da segunda metade do S&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;culo XIX at&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt; o fim da II Guerra Mundial (1945), &lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt; caracterizada pelo uso de combust&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;veis f&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;sseis, como o petr&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;leo, e o surgimento de novos produtos industrializados, como o pl&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;stico. Nesta fase, surge a l&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã¢&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;mpada el&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;trica e os meios de comunica&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;o de massa, como o r&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;dio, o cinema e a televis&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;o. J&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt; a Terceira &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1060Font2&quot;  &gt;Revolu&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;o Industrial &lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt; marcada pela globaliza&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;o ainda mais intensa da economia e fortalecimento das empresas multinacionais, al&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;m do desenvolvimento dos meios de comunica&lt;/span &gt;&lt;span class=&quot;text1060Font3&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1060Font2&quot;  &gt;o e dos computadores. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Capitalismo Financeiro\hich\f2\loch\f2\fs28\b0\par\hich\f1\loch\f1\par A Revolu\u231 \&apos;e7\u227 \&apos;e3o Industrial \u233 \&apos;e9 comumente dividida em tr\u234 \&apos;eas fases: a Primeira, a Segunda e a Terceira Revolu\u231 \&apos;e7\u227 &#x0A;\&apos;e3o. A primeira, que vai do S\u233 \&apos;e9culo XVIII at\u233 \&apos;e9 a metade do XIX \u233 \&apos;e9 marcada pelas inven\u231 \&apos;e7\u245 \&apos;f5es que a possibilitaram, como o tear mec\u226 \&apos;e2nico e o motor a vapor, e pelos produtos que primeiro foram industrializados, &#x0A;como tecidos, ferro, metais. Ainda, \u233 \&apos;e9 marcada pela inven\u231 \&apos;e7\u227 \&apos;e3o do trem e do navio a vapor, pelo desenvolvimento do sistema de transportes. A Segunda Revolu\u231 \&apos;e7\u227 \&apos;e3o Industrial, que vai da segunda metade do S\u233 \&apos;e9culo &#x0A;XIX at\u233 \&apos;e9 o fim da II Guerra Mundial (1945), \u233 \&apos;e9 caracterizada pelo uso de combust\u237 \&apos;edveis f\u243 \&apos;f3sseis, como o petr\u243 \&apos;f3leo, e o surgimento de novos produtos industrializados, como o pl\u225 \&apos;e1stico. Nesta fase, surge a &#x0A;l\u226 \&apos;e2mpada el\u233 \&apos;e9trica e os meios de comunica\u231 \&apos;e7\u227 \&apos;e3o de massa, como o r\u225 \&apos;e1dio, o cinema e a televis\u227 \&apos;e3o. J\u225 \&apos;e1 a Terceira \par Revolu\u231 \&apos;e7\u227 \&apos;e3o Industrial \u233 \&apos;e9 marcada pela globaliza\u231 &#x0A;\&apos;e7\u227 \&apos;e3o ainda mais intensa da economia e fortalecimento das empresas multinacionais, al\u233 \&apos;e9m do desenvolvimento dos meios de comunica\u231 \&apos;e7\u227 \&apos;e3o e dos computadores. \par}&#x0A;</rtf>
+<raw>?Capitalismo Financeiro&#x0A;A Revolu??o Industrial ? comumente dividida em tr?s fases: a Primeira, a Segunda e a Terceira Revolu??o. A primeira, que vai do S?culo XVIII at? a metade do XIX ? marcada pelas inven??es que a possibilitaram, como o tear mec?nico e o motor a vapor, e pelos produtos que primeiro foram industrializados, como tecidos, ferro, metais. Ainda, ? marcada pela inven??o do trem e do navio a vapor, pelo desenvolvimento do sistema de transportes. A Segunda Revolu??o Industrial, que vai da segunda metade do S?culo XIX at? o fim da II Guerra Mundial (1945), ? caracterizada pelo uso de combust?veis f?sseis, como o petr?leo, e o surgimento de novos produtos industrializados, como o pl?stico. Nesta fase, surge a l?mpada el?trica e os meios de comunica??o de massa, como o r?dio, o cinema e a televis?o. J? a Terceira &#x0A;Revolu??o Industrial ? marcada pela globaliza??o ainda mais intensa da economia e fortalecimento das empresas multinacionais, al?m do desenvolvimento dos meios de comunica??o e dos computadores. </raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="1048" parent="1046">
+<name>Grupo_1</name>
+<lastupdated>1687807013</lastupdated>
+<shape id="1050" parent="1048" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687807013</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1052" parent="1048" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687807013</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1054" parent="1048" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687807013</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1055" parent="1048" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687807013</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>766</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1055Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1055Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1055Font1&quot;  &gt;DiferenÃ§a entre Socialismo, Comunismo e Anarquismo&lt;/span &gt;&lt;span class=&quot;text1055Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Diferen\&apos;e7a entre Socialismo, Comunismo e Anarquismo\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Diferen?a entre Socialismo, Comunismo e Anarquismo</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1057" parent="1048" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687807013</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1059" parent="1048" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687807013</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1232" parent="40">
+<name>Página 7</name>
+<lastupdated>1687807583</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1266" parent="1232" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687807579</lastupdated>
+<possize>
+<point>
+<x>540</x>
+<y>119</y>
+</point>
+<size>
+<cx>424</cx>
+<cy>528</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1266Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1266Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1266Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1266Font1&quot;  &gt;EscravidÃ£o contemporÃ¢nea&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1266Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1266Font3&quot;  &gt;Leia os fragmentos a seguir.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1266Font3&quot;  &gt;&quot;De 1995 a 2015, cerca de 50 mil pessoas foram libertadas do trabalho an&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;logo ao de escravo no Brasil, um crime que fere a dignidade e a liberdade humana (...). Os dez munic&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;pios com maior n&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ãº&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;mero de casos de trabalho escravo do Brasil est&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;o na Amaz&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;nia, sendo oito deles no Par&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;. Cerca de 70% dos casos estavam em atividades relacionadas &lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã &lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt; pecu&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;ria: a cria&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;o de bovinos em latif&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ãº&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;ndios &lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;, de longe, a principal respons&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;vel pelo desmatamento e pelo trabalho escravo na regi&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;o, dois problemas que andam de m&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;os dadas. Tradicionalmente, a pecu&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;ria bovina &lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt; o setor com mais casos no pa&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;s. H&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt; cerca de dez anos, por&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;m, intensificaram-se as opera&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã§Ãµ&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;es de fiscaliza&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;o em centros urbanos. At&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt; que, em 2013, pela primeira vez, a maioria dos casos ocorreu em ambiente urbano, principalmente em setores como a constru&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;o civil e o de confec&lt;/span &gt;&lt;span class=&quot;text1266Font4&quot;  &gt;Ã§Ãµ&lt;/span &gt;&lt;span class=&quot;text1266Font3&quot;  &gt;es.&quot;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:right;&quot; &gt;&#x0A;&lt;span class=&quot;text1266Font3&quot;  &gt;Fonte: https://reporterbrasil.org.br/guia/&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Escravid\u227 \&apos;e3o contempor\u226 \&apos;e2nea\hich\f2\loch\f2\fs28\b0\par\par Leia os fragmentos a seguir.\par &quot;De 1995 a 2015, cerca de 50 mil pessoas foram libertadas do trabalho an\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 &#x0A;logo ao de escravo no Brasil, um crime que fere a dignidade e a liberdade humana (...). Os dez munic\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 pios com maior n\hich\f1\loch\f1\u250 \&apos;fa\hich\f2\loch\f2 mero de casos de trabalho escravo do Brasil est\hich\f1\loch\f1\u227 &#x0A;\&apos;e3\hich\f2\loch\f2 o na Amaz\hich\f1\loch\f1\u244 \&apos;f4\hich\f2\loch\f2 nia, sendo oito deles no Par\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 . Cerca de 70% dos casos estavam em atividades relacionadas \hich\f1\loch\f1\u224 \&apos;e0\hich\f2\loch\f2  pecu\hich\f1\loch\f1\u225 &#x0A;\&apos;e1\hich\f2\loch\f2 ria: a cria\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o de bovinos em latif\hich\f1\loch\f1\u250 \&apos;fa\hich\f2\loch\f2 ndios \hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 , de longe, a principal respons\hich\f1\loch\f1\u225 &#x0A;\&apos;e1\hich\f2\loch\f2 vel pelo desmatamento e pelo trabalho escravo na regi\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o, dois problemas que andam de m\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 os dadas. Tradicionalmente, a pecu\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 &#x0A;ria bovina \hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2  o setor com mais casos no pa\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 s. H\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2  cerca de dez anos, por\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 m, intensificaram-se &#x0A;as opera\hich\f1\loch\f1\u231 \&apos;e7\u245 \&apos;f5\hich\f2\loch\f2 es de fiscaliza\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o em centros urbanos. At\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2  que, em 2013, pela primeira vez, a maioria dos casos ocorreu &#x0A;em ambiente urbano, principalmente em setores como a constru\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o civil e o de confec\hich\f1\loch\f1\u231 \&apos;e7\u245 \&apos;f5\hich\f2\loch\f2 es.&quot;\lang1046\hich\f2\loch\f2\par\qr\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28 &#x0A;Fonte: https://reporterbrasil.org.br/guia/\lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?Escravid?o contempor?nea&#x0A;Leia os fragmentos a seguir.&#x0A;&quot;De 1995 a 2015, cerca de 50 mil pessoas foram libertadas do trabalho an?logo ao de escravo no Brasil, um crime que fere a dignidade e a liberdade humana (...). Os dez munic?pios com maior n?mero de casos de trabalho escravo do Brasil est?o na Amaz?nia, sendo oito deles no Par?. Cerca de 70% dos casos estavam em atividades relacionadas ? pecu?ria: a cria??o de bovinos em latif?ndios ?, de longe, a principal respons?vel pelo desmatamento e pelo trabalho escravo na regi?o, dois problemas que andam de m?os dadas. Tradicionalmente, a pecu?ria bovina ? o setor com mais casos no pa?s. H? cerca de dez anos, por?m, intensificaram-se as opera??es de fiscaliza??o em centros urbanos. At? que, em 2013, pela primeira vez, a maioria dos casos ocorreu em ambiente urbano, principalmente em setores como a constru??o civil e o de confec??es.&quot;&#x0A;Fonte: https://reporterbrasil.org.br/guia/</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1246" parent="1232" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687807265</lastupdated>
+<possize>
+<point>
+<x>43</x>
+<y>152</y>
+</point>
+<size>
+<cx>444</cx>
+<cy>289</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1246Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1246Font1&quot;  &gt;Outra caracterÃ­stica fundamental do Capitalismo Financeiro Ã© o comÃ©rcio de aÃ§Ãµes de empresas nas Bolsas de Valores. A venda de aÃ§Ãµes permite que, em tese, qualquer um se torne &quot;sÃ³cio&quot; (acionista) de uma empresa. Apesar de que o comÃ©rcio de aÃ§Ãµes de empresas em bolsas de valores jÃ¡ aconteÃ§a desde o SÃ©culo XVII, Ã© com a expansÃ£o dos sistemas de comunicaÃ§Ã£o, circulaÃ§Ã£o de capitais e empresas multinacionais que o Capitalismo Financeiro se fortalece.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Outra caracter\u237 \&apos;edstica fundamental do Capitalismo Financeiro \u233 \&apos;e9 o com\u233 \&apos;e9rcio de a\u231 \&apos;e7\u245 \&apos;f5es de empresas nas Bolsas de Valores. A venda de a\u231 \&apos;e7\u245 \&apos;f5es permite que, em tese, &#x0A;qualquer um se torne &quot;s\u243 \&apos;f3cio&quot; (acionista) de uma empresa. Apesar de que o com\u233 \&apos;e9rcio de a\u231 \&apos;e7\u245 \&apos;f5es de empresas em bolsas de valores j\u225 \&apos;e1 aconte\u231 \&apos;e7a desde o S\u233 \&apos;e9culo XVII, \u233 \&apos;e9 com a expans\u227 \&apos;e3o &#x0A;dos sistemas de comunica\u231 \&apos;e7\u227 \&apos;e3o, circula\u231 \&apos;e7\u227 \&apos;e3o de capitais e empresas multinacionais que o Capitalismo Financeiro se fortalece.\par}&#x0A;</rtf>
+<raw>?Outra caracter?stica fundamental do Capitalismo Financeiro ? o com?rcio de a??es de empresas nas Bolsas de Valores. A venda de a??es permite que, em tese, qualquer um se torne &quot;s?cio&quot; (acionista) de uma empresa. Apesar de que o com?rcio de a??es de empresas em bolsas de valores j? aconte?a desde o S?culo XVII, ? com a expans?o dos sistemas de comunica??o, circula??o de capitais e empresas multinacionais que o Capitalismo Financeiro se fortalece.</raw>
+<numoflines>10</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="1234" parent="1232">
+<name>Grupo_1</name>
+<lastupdated>1687807241</lastupdated>
+<shape id="1236" parent="1234" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687807241</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1238" parent="1234" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687807241</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1240" parent="1234" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687807241</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1241" parent="1234" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687807241</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>766</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1241Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1241Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1241Font1&quot;  &gt;DiferenÃ§a entre Socialismo, Comunismo e Anarquismo&lt;/span &gt;&lt;span class=&quot;text1241Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Diferen\&apos;e7a entre Socialismo, Comunismo e Anarquismo\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Diferen?a entre Socialismo, Comunismo e Anarquismo</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1243" parent="1234" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687807241</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1245" parent="1234" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687807241</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1312" parent="40">
+<name>Página 8</name>
+<lastupdated>1687807778</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1371" parent="1312" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687807775</lastupdated>
+<possize>
+<point>
+<x>533</x>
+<y>140</y>
+</point>
+<size>
+<cx>434</cx>
+<cy>228</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1371Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1371Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1371Font1&quot;  &gt;Em troca, o dono da casa lhe dava abrigo e comida. Como falava Ã¡rabe, transformou-o em seu homem de confianÃ§a. &quot;Desprezava os outros, mas me tratava bem. NÃ£o me batia nem gritava comigo. E depois de alguns meses tinha liberdade para entrar e sair da casa se necessitava executar tarefas.&quot;&lt;/span &gt;&lt;span class=&quot;text1371Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1371Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:right;&quot; &gt;&#x0A;&lt;span class=&quot;text1371Font3&quot;  &gt;Fonte: https://brasil.elpais.com/brasil/2017/06/29/&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:right;&quot; &gt;&#x0A;&lt;span class=&quot;text1371Font3&quot;  &gt;internacional/1498753080_705940.html&lt;/span &gt;&lt;span class=&quot;text1371Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Em troca, o dono da casa lhe dava abrigo e comida. Como falava \u225 \&apos;e1rabe, transformou-o em seu homem de confian\u231 \&apos;e7a. &quot;Desprezava os outros, mas me tratava bem. N\u227 \&apos;e3o me batia nem gritava comigo. E depois &#x0A;de alguns meses tinha liberdade para entrar e sair da casa se necessitava executar tarefas.&quot;\lang1046\hich\f2\loch\f2\par\par\qr\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28 Fonte: https://brasil.elpais.com/brasil/2017/06/29/\par internacional/1498753080_705940.html\lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Em troca, o dono da casa lhe dava abrigo e comida. Como falava ?rabe, transformou-o em seu homem de confian?a. &quot;Desprezava os outros, mas me tratava bem. N?o me batia nem gritava comigo. E depois de alguns meses tinha liberdade para entrar e sair da casa se necessitava executar tarefas.&quot;&#x0A;Fonte: https://brasil.elpais.com/brasil/2017/06/29/&#x0A;internacional/1498753080_705940.html</raw>
+<numoflines>10</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1326" parent="1312" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687807745</lastupdated>
+<possize>
+<point>
+<x>51</x>
+<y>145</y>
+</point>
+<size>
+<cx>425</cx>
+<cy>467</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1326Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1326Font1&quot;  &gt;&quot;Achaman esteve 26 dias trancado. &quot;Davam-nos pÃ£o e leite. Um dia um dos homens que nos guardava, nos disse: &apos;NÃ£o lhes damos mais para que vocÃªs nÃ£o tenham forÃ§a e escapem&apos;&quot;. No 27Âº dia chegou um homem lÃ­bio e se pÃ´s a discutir sobre dinheiro com o chefe dos sequestradores de Achaman. Desta vez, escutaram a negociaÃ§Ã£o. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1326Font1&quot;  &gt;&quot;Eu falo Ã¡rabe. Entendi o que diziam. Acertaram a venda de um lote de 12. Sim, disse desse jeito, um lote de 12. E por cada um do lote, por cada um de nÃ³s. Iria pagar 5.000 dinares lÃ­bios.&quot; Naquele dia compraram Achaman por 12.000 reais. Nosso comprador nos levou para sua casa, uma casa muito grande, com um terreno muito grande, em Ubari, a poucos quilÃ´metros de Sabha. Era um senhor rico. Eu estive dois meses recuperando-me porque estava muito doente. Quando fiquei bom, comecei a trabalhar.&quot; Achaman tinha que alimentar os animais do proprietÃ¡rio, limpar os estÃ¡bulos, cuidar da horta, arar...&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 &quot;Achaman esteve 26 dias trancado. &quot;Davam-nos p\u227 \&apos;e3o e leite. Um dia um dos homens que nos guardava, nos disse: &apos;N\u227 \&apos;e3o lhes damos mais para que voc\u234 \&apos;eas n\u227 \&apos;e3o tenham for\u231 \&apos;e7a e escapem&apos;&quot;. &#x0A;No 27\u186 \&apos;ba dia chegou um homem l\u237 \&apos;edbio e se p\u244 \&apos;f4s a discutir sobre dinheiro com o chefe dos sequestradores de Achaman. Desta vez, escutaram a negocia\u231 \&apos;e7\u227 \&apos;e3o. \par &quot;Eu falo \u225 \&apos;e1rabe. Entendi o que diziam. Acertaram &#x0A;a venda de um lote de 12. Sim, disse desse jeito, um lote de 12. E por cada um do lote, por cada um de n\u243 \&apos;f3s. Iria pagar 5.000 dinares l\u237 \&apos;edbios.&quot; Naquele dia compraram Achaman por 12.000 reais. Nosso comprador nos levou para sua casa, uma &#x0A;casa muito grande, com um terreno muito grande, em Ubari, a poucos quil\u244 \&apos;f4metros de Sabha. Era um senhor rico. Eu estive dois meses recuperando-me porque estava muito doente. Quando fiquei bom, comecei a trabalhar.&quot; Achaman tinha que alimentar &#x0A;os animais do propriet\u225 \&apos;e1rio, limpar os est\u225 \&apos;e1bulos, cuidar da horta, arar...\par}&#x0A;</rtf>
+<raw>?&quot;Achaman esteve 26 dias trancado. &quot;Davam-nos p?o e leite. Um dia um dos homens que nos guardava, nos disse: &apos;N?o lhes damos mais para que voc?s n?o tenham for?a e escapem&apos;&quot;. No 27? dia chegou um homem l?bio e se p?s a discutir sobre dinheiro com o chefe dos sequestradores de Achaman. Desta vez, escutaram a negocia??o. &#x0A;&quot;Eu falo ?rabe. Entendi o que diziam. Acertaram a venda de um lote de 12. Sim, disse desse jeito, um lote de 12. E por cada um do lote, por cada um de n?s. Iria pagar 5.000 dinares l?bios.&quot; Naquele dia compraram Achaman por 12.000 reais. Nosso comprador nos levou para sua casa, uma casa muito grande, com um terreno muito grande, em Ubari, a poucos quil?metros de Sabha. Era um senhor rico. Eu estive dois meses recuperando-me porque estava muito doente. Quando fiquei bom, comecei a trabalhar.&quot; Achaman tinha que alimentar os animais do propriet?rio, limpar os est?bulos, cuidar da horta, arar...</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="1314" parent="1312">
+<name>Grupo_1</name>
+<lastupdated>1687807587</lastupdated>
+<shape id="1316" parent="1314" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687807587</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1318" parent="1314" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687807587</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1320" parent="1314" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687807587</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1321" parent="1314" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687807587</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>766</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1321Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1321Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1321Font1&quot;  &gt;DiferenÃ§a entre Socialismo, Comunismo e Anarquismo&lt;/span &gt;&lt;span class=&quot;text1321Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Diferen\&apos;e7a entre Socialismo, Comunismo e Anarquismo\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Diferen?a entre Socialismo, Comunismo e Anarquismo</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1323" parent="1314" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687807587</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1325" parent="1314" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687807587</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1404" parent="40">
+<name>Página 9</name>
+<lastupdated>1687807992</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1526" parent="1404" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687807986</lastupdated>
+<possize>
+<point>
+<x>535</x>
+<y>271</y>
+</point>
+<size>
+<cx>433</cx>
+<cy>385</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1526Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text1526Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text1526Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text1526Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text1526Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text1526Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1526Font1&quot;  &gt;Segundo a legislaÃ§Ã£o brasileira, sÃ£o quatro os elementos que caracterizam o trabalho escravo:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1526Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1526Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1526ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1526Font4&quot;  &gt;CondiÃ§Ãµes degradantes de trabalho&lt;/span &gt;&lt;span class=&quot;text1526Font1&quot;  &gt;: o escravo tem sua saÃºde fÃ­sica e psÃ­quica ameaÃ§ados, devido a condiÃ§Ãµes de alojamento precÃ¡rias, alimentaÃ§Ã£o ruim, violÃªncia, isolamento social e falta de assistÃªncia mÃ©dica, Ã¡gua e saneamento.&lt;/span &gt;&lt;span class=&quot;text1526Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1526Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1526Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1526ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1526Font4&quot;  &gt;ServidÃ£o por dÃ­vida&lt;/span &gt;&lt;span class=&quot;text1526Font1&quot;  &gt;: O escravo torna-se endividado contra sua vontade, forÃ§ando-o a trabalhar para quitar a suposta dÃ­vida. SÃ£o cobrados do escravo gastos com transporte, alimentaÃ§Ã£o, remÃ©dios, documentos e alojamento, muitas vezes de maneira abusiva e superior ao salÃ¡rio. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Segundo a legisla\u231 \&apos;e7\u227 \&apos;e3o brasileira, s\u227 \&apos;e3o quatro os elementos que caracterizam o trabalho escravo:\par\lang1046\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28\b &#x0A;Condi\u231 \&apos;e7\u245 \&apos;f5es degradantes de trabalho\b0 : o escravo tem sua sa\u250 \&apos;fade f\u237 \&apos;edsica e ps\u237 \&apos;edquica amea\u231 \&apos;e7ados, devido a condi\u231 \&apos;e7\u245 \&apos;f5es de alojamento prec\u225 \&apos;e1rias, alimenta\u231 \&apos;e7\u227 \&apos;e3o ruim, &#x0A;viol\u234 \&apos;eancia, isolamento social e falta de assist\u234 \&apos;eancia m\u233 \&apos;e9dica, \u225 \&apos;e1gua e saneamento.\lang1046\hich\f2\loch\f2\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28\b &#x0A;Servid\u227 \&apos;e3o por d\u237 \&apos;edvida\b0 : O escravo torna-se endividado contra sua vontade, for\u231 \&apos;e7ando-o a trabalhar para quitar a suposta d\u237 \&apos;edvida. S\u227 \&apos;e3o cobrados do escravo gastos com transporte, alimenta\u231 \&apos;e7\u227 \&apos;e3o, &#x0A;rem\u233 \&apos;e9dios, documentos e alojamento, muitas vezes de maneira abusiva e superior ao sal\u225 \&apos;e1rio. \par}&#x0A;</rtf>
+<raw>?Segundo a legisla??o brasileira, s?o quatro os elementos que caracterizam o trabalho escravo:&#x0A;Condi??es degradantes de trabalho: o escravo tem sua sa?de f?sica e ps?quica amea?ados, devido a condi??es de alojamento prec?rias, alimenta??o ruim, viol?ncia, isolamento social e falta de assist?ncia m?dica, ?gua e saneamento.&#x0A;Servid?o por d?vida: O escravo torna-se endividado contra sua vontade, for?ando-o a trabalhar para quitar a suposta d?vida. S?o cobrados do escravo gastos com transporte, alimenta??o, rem?dios, documentos e alojamento, muitas vezes de maneira abusiva e superior ao sal?rio. </raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text1526ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text1526ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>17</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1471" parent="1404" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687807919</lastupdated>
+<possize>
+<point>
+<x>532</x>
+<y>134</y>
+</point>
+<size>
+<cx>443</cx>
+<cy>104</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>20</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="01D1DD" />
+</shape>
+<image id="1469" parent="1404" resource="621" ontop="false" fixed="false" proportional="true">
+<name>Imagem1</name>
+<lastupdated>1687807923</lastupdated>
+<possize>
+<point>
+<x>940</x>
+<y>208</y>
+</point>
+<size>
+<cx>61</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1467" parent="1404" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687807919</lastupdated>
+<possize>
+<point>
+<x>556</x>
+<y>139</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>94</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1467Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1467Font1&quot;  &gt;Contemporaneamente, se considera escravidÃ£o uma condiÃ§Ã£o na qual uma pessoa Ã© forÃ§ada ao trabalho devido a ameaÃ§as, violÃªncia, coerÃ§Ã£o fÃ­sica e psicolÃ³gica, abuso de poder e fraude. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qj\hich\f2\loch\f2 Contemporaneamente, se considera escravid\&apos;e3o uma condi\&apos;e7\&apos;e3o na qual uma pessoa \&apos;e9 for\&apos;e7ada ao trabalho devido a amea\&apos;e7as, viol\&apos;eancia, coer\&apos;e7\&apos;e3o f\&apos;edsica e psicol\&apos;f3gica, abuso de poder &#x0A;e fraude. \par}&#x0A;</rtf>
+<raw>?Contemporaneamente, se considera escravid?o uma condi??o na qual uma pessoa ? for?ada ao trabalho devido a amea?as, viol?ncia, coer??o f?sica e psicol?gica, abuso de poder e fraude. </raw>
+<numoflines>4</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1466" parent="1404" ontop="false" fixed="false" proportional="false">
+<name>Retângulo 2</name>
+<lastupdated>1687807919</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>147</y>
+</point>
+<size>
+<cx>12</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1418" parent="1404" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687807857</lastupdated>
+<possize>
+<point>
+<x>52</x>
+<y>156</y>
+</point>
+<size>
+<cx>422</cx>
+<cy>454</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1418Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1418Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1418Font1&quot;  &gt;Atualmente o trabalho escravo tem se apresentado como um problema em regi&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ãµ&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;es desestabilizadas por guerras civis ou fronteiras agr&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;colas, como a Amaz&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;nia. Entretanto, a escravid&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;o urbana tamb&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;m se apresenta como um desafio &lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã &lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;s autoridades, j&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt; que se beneficia de rela&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã§Ãµ&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;es de trabalho cada vez mais precarizadas e pela imigra&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;o ilegal. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1418Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1418Font1&quot;  &gt;As v&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;timas preferenciais s&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;o trabalhadores pobres e mulheres que veem na imigra&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;o uma possibilidade de mobilidade social, mas que acabam sendo enganados por redes de prostitui&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;o e tr&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;fico de humanos. Segundo a Organiza&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;o das Na&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã§Ãµ&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;es Unidas (ONU), no ano de 2019, cerca de 40 milh&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ãµ&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;es de pessoas eram vitimas da escravid&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;o, sendo 25% de crian&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;as. Ainda segundo a ONU, 99% das mulheres e crian&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;as v&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;timas da escravid&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;o contempor&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã¢&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;nea s&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;o destinadas a explora&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;o da prostitui&lt;/span &gt;&lt;span class=&quot;text1418Font2&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text1418Font1&quot;  &gt;o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Atualmente o trabalho escravo tem se apresentado como um problema em regi\hich\f1\loch\f1\u245 \&apos;f5\hich\f2\loch\f2 es desestabilizadas por guerras civis ou fronteiras agr\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 &#x0A;colas, como a Amaz\hich\f1\loch\f1\u244 \&apos;f4\hich\f2\loch\f2 nia. Entretanto, a escravid\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o urbana tamb\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 m se apresenta como um desafio \hich\f1\loch\f1\u224 \&apos;e0\hich\f2\loch\f2 &#x0A;s autoridades, j\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2  que se beneficia de rela\hich\f1\loch\f1\u231 \&apos;e7\u245 \&apos;f5\hich\f2\loch\f2 es de trabalho cada vez mais precarizadas e pela imigra\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o ilegal. \par\par &#x0A;As v\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 timas preferenciais s\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o trabalhadores pobres e mulheres que veem na imigra\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o uma possibilidade de mobilidade social, &#x0A;mas que acabam sendo enganados por redes de prostitui\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o e tr\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 fico de humanos. Segundo a Organiza\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o das Na\hich\f1\loch\f1\u231 &#x0A;\&apos;e7\u245 \&apos;f5\hich\f2\loch\f2 es Unidas (ONU), no ano de 2019, cerca de 40 milh\hich\f1\loch\f1\u245 \&apos;f5\hich\f2\loch\f2 es de pessoas eram vitimas da escravid\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o, sendo 25% de crian\hich\f1\loch\f1\u231 \&apos;e7\hich\f2\loch\f2 &#x0A;as. Ainda segundo a ONU, 99% das mulheres e crian\hich\f1\loch\f1\u231 \&apos;e7\hich\f2\loch\f2 as v\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 timas da escravid\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o contempor\hich\f1\loch\f1\u226 \&apos;e2\hich\f2\loch\f2 &#x0A;nea s\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o destinadas a explora\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o da prostitui\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o.\par}&#x0A;</rtf>
+<raw>?Atualmente o trabalho escravo tem se apresentado como um problema em regi?es desestabilizadas por guerras civis ou fronteiras agr?colas, como a Amaz?nia. Entretanto, a escravid?o urbana tamb?m se apresenta como um desafio ?s autoridades, j? que se beneficia de rela??es de trabalho cada vez mais precarizadas e pela imigra??o ilegal. &#x0A;As v?timas preferenciais s?o trabalhadores pobres e mulheres que veem na imigra??o uma possibilidade de mobilidade social, mas que acabam sendo enganados por redes de prostitui??o e tr?fico de humanos. Segundo a Organiza??o das Na??es Unidas (ONU), no ano de 2019, cerca de 40 milh?es de pessoas eram vitimas da escravid?o, sendo 25% de crian?as. Ainda segundo a ONU, 99% das mulheres e crian?as v?timas da escravid?o contempor?nea s?o destinadas a explora??o da prostitui??o.</raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="1406" parent="1404">
+<name>Grupo_1</name>
+<lastupdated>1687807781</lastupdated>
+<shape id="1408" parent="1406" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687807781</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1410" parent="1406" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687807781</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1412" parent="1406" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687807781</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1413" parent="1406" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687807781</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>766</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1413Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1413Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1413Font1&quot;  &gt;DiferenÃ§a entre Socialismo, Comunismo e Anarquismo&lt;/span &gt;&lt;span class=&quot;text1413Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Diferen\&apos;e7a entre Socialismo, Comunismo e Anarquismo\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Diferen?a entre Socialismo, Comunismo e Anarquismo</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1415" parent="1406" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687807781</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1417" parent="1406" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687807781</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1561" parent="40">
+<name>Página 10</name>
+<lastupdated>1687807992</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1611" parent="1561" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687808080</lastupdated>
+<possize>
+<point>
+<x>537</x>
+<y>158</y>
+</point>
+<size>
+<cx>426</cx>
+<cy>145</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1611Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1611Font1&quot;  &gt;Nas redes de imigraÃ§Ã£o ilegal, os escravos tÃªm seus passaportes e documentos retidos. Ainda, o escravo Ã© mantido no seu cativeiro por fraudes (assinando contratos de trabalhos enganosos), impedido de sair de seus alojamentos e de se comunicar com amigos e parentes. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Nas redes de imigra\u231 \&apos;e7\u227 \&apos;e3o ilegal, os escravos t\u234 \&apos;eam seus passaportes e documentos retidos. Ainda, o escravo \u233 \&apos;e9 mantido no seu cativeiro por fraudes (assinando contratos de trabalhos enganosos), &#x0A;impedido de sair de seus alojamentos e de se comunicar com amigos e parentes. \par}&#x0A;</rtf>
+<raw>?Nas redes de imigra??o ilegal, os escravos t?m seus passaportes e documentos retidos. Ainda, o escravo ? mantido no seu cativeiro por fraudes (assinando contratos de trabalhos enganosos), impedido de sair de seus alojamentos e de se comunicar com amigos e parentes. </raw>
+<numoflines>6</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1575" parent="1561" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687808061</lastupdated>
+<possize>
+<point>
+<x>42</x>
+<y>156</y>
+</point>
+<size>
+<cx>426</cx>
+<cy>337</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1575Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text1575Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text1575Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text1575Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text1575Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text1575Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1575Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1575ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1575Font1&quot;  &gt;Jornada exaustiva:&lt;/span &gt;&lt;span class=&quot;text1575Font2&quot;  &gt; A legislaÃ§Ã£o local referente a jornada diÃ¡ria de trabalho Ã© desrespeitada, forÃ§ando o escravo a trabalhar de modo exaustivo, com riscos a sua saÃºde fÃ­sica e mental. O escravo nÃ£o recebe por horas-extras nem &quot;Descanso Semanal Remunerado&quot;, previstos em lei e obrigatÃ³rios. &lt;/span &gt;&lt;span class=&quot;text1575Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1575Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text1575Font2&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text1575ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text1575Font1&quot;  &gt;Trabalho forÃ§ado:&lt;/span &gt;&lt;span class=&quot;text1575Font2&quot;  &gt; O escravo Ã© forÃ§ado a trabalhar contra a sua vontade, por meio da coerÃ§Ã£o fÃ­sica e psicolÃ³gica. Nas fronteiras agrÃ­colas, o isolamento geogrÃ¡fico e a vigilÃ¢ncia favorecem a escravidÃ£o.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\cf2\fs28\b Jornada exaustiva:\b0  A legisla\u231 \&apos;e7\u227 \&apos;e3o local referente a jornada di\u225 \&apos;e1ria de trabalho \u233 \&apos;e9 desrespeitada, for\u231 \&apos;e7ando o &#x0A;escravo a trabalhar de modo exaustivo, com riscos a sua sa\u250 \&apos;fade f\u237 \&apos;edsica e mental. O escravo n\u227 \&apos;e3o recebe por horas-extras nem &quot;Descanso Semanal Remunerado&quot;, previstos em lei e obrigat\u243 \&apos;f3rios. \lang1046\hich\f2\loch\f2\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28\b Trabalho for\u231 \&apos;e7ado:\b0  O escravo \u233 \&apos;e9 for\u231 \&apos;e7ado a trabalhar contra a sua vontade, por meio da coer\u231 \&apos;e7\u227 \&apos;e3o f\u237 \&apos;edsica e psicol\u243 \&apos;f3gica. Nas fronteiras agr\u237 &#x0A;\&apos;edcolas, o isolamento geogr\u225 \&apos;e1fico e a vigil\u226 \&apos;e2ncia favorecem a escravid\u227 \&apos;e3o.\par}&#x0A;</rtf>
+<raw>?Jornada exaustiva: A legisla??o local referente a jornada di?ria de trabalho ? desrespeitada, for?ando o escravo a trabalhar de modo exaustivo, com riscos a sua sa?de f?sica e mental. O escravo n?o recebe por horas-extras nem &quot;Descanso Semanal Remunerado&quot;, previstos em lei e obrigat?rios. &#x0A;Trabalho for?ado: O escravo ? for?ado a trabalhar contra a sua vontade, por meio da coer??o f?sica e psicol?gica. Nas fronteiras agr?colas, o isolamento geogr?fico e a vigil?ncia favorecem a escravid?o.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text1575ArrowBulletFont10.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text1575ArrowBulletFont10.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>13</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="1563" parent="1561">
+<name>Grupo_1</name>
+<lastupdated>1687807997</lastupdated>
+<shape id="1565" parent="1563" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687807997</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1567" parent="1563" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687807997</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1569" parent="1563" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687807997</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>109</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1570" parent="1563" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687807997</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>766</cx>
+<cy>101</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1570Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1570Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1570Font1&quot;  &gt;DiferenÃ§a entre Socialismo, Comunismo e Anarquismo&lt;/span &gt;&lt;span class=&quot;text1570Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Diferen\&apos;e7a entre Socialismo, Comunismo e Anarquismo\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Diferen?a entre Socialismo, Comunismo e Anarquismo</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1572" parent="1563" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687807997</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1574" parent="1563" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687807997</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

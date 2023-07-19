@@ -1,0 +1,2187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>1316</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="170" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="171" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1310" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1311" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="79">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 9</name>
+<lastupdated>1687462879</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="78" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687462890</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687462890</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687462890</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="79" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687462890</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687462890</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687462890</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="70" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687462890</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="71" parent="70" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687462890</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="70" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687462890</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="63" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687462890</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="64" parent="63" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687462890</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="65" parent="63" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687462890</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="55" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687462890</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="56" parent="55" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687462890</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="55" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687462890</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="58" parent="55" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687462890</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="55">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689271806</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="2" parent="40">
+<name>Página 1</name>
+<lastupdated>1687462894</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="1296" parent="2">
+<name>Grupo_1</name>
+<lastupdated>1689706556</lastupdated>
+<image id="1298" parent="1296" resource="1310" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689706556</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1300" parent="1296" resource="1311" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689706556</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1301" parent="1296" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689706558</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1301Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1301Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1301Font1&quot;  &gt;Aula 9&lt;/span &gt;&lt;span class=&quot;text1301Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 9\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 9</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="1303" parent="1296" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689706556</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1305" parent="1296" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689706556</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1307" parent="1296" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689706556</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1309" parent="1296" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689706556</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="155" parent="40">
+<name>Página 2</name>
+<lastupdated>1689271806</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="214" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689272027</lastupdated>
+<possize>
+<point>
+<x>516</x>
+<y>81</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>557</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text214Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text214Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text214Font2 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text214Font2 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text214Font1&quot;  &gt;Primeiro parÃ¡grafo do texto, a introduÃ§Ã£o contextualiza o tema ao mesmo tempo em que apresenta a tese da dissertaÃ§Ã£o, ou seja, a ideia central que o autor defenderÃ¡ com argumentos no desenvolvimento. De preferÃªncia breve, a intro_duÃ§Ã£o pode ser escrita de vÃ¡rias maneiras: por dados estatÃ­sticos, afirmaÃ§Ã£o ou negaÃ§Ã£o, inter_rogaÃ§Ã£o, citaÃ§Ã£o, entre outras. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text214Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text214Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.192;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text214ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text214Font2&quot;  &gt;ExemplificaÃ§Ã£o &lt;/span &gt;&lt;span class=&quot;text214Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text214Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text214Font1&quot;  &gt;Este recurso pode ser desenvolvido de trÃªs formas: dados estatÃ­sticos, relatos de acontecimentos de conhecimento geral e fatos divulgados pelas mÃ­dias.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text214Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text214Font1&quot;  &gt;Com a exemplificaÃ§Ã£o, Ã© necessÃ¡rio tomar cuidado com dois aspectos: apresentar a fonte das informaÃ§Ãµes e detalhar apenas o que for necessÃ¡rio para construÃ§Ã£o da situaÃ§Ã£o problema que vocÃª deseja analisar. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text214Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text214Font1&quot;  &gt;Tema: A persistÃªncia da violÃªncia contra a mulher na sociedade brasileira - Enem 2015. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Primeiro par\&apos;e1grafo do texto, a introdu\&apos;e7\&apos;e3o contextualiza o tema ao mesmo tempo em que apresenta a tese da disserta\&apos;e7\&apos;e3o, ou seja, a ideia central que o autor defender\&apos;e1 com argumentos &#x0A;no desenvolvimento. De prefer\&apos;eancia breve, a intro_du\&apos;e7\&apos;e3o pode ser escrita de v\&apos;e1rias maneiras: por dados estat\&apos;edsticos, afirma\&apos;e7\&apos;e3o ou nega\&apos;e7\&apos;e3o, inter_roga\&apos;e7\&apos;e3o, cita\&apos;e7\&apos;e3o, entre outras. \par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs32\b Exemplifica\&apos;e7\&apos;e3o \fs28\b0\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par Este recurso pode ser desenvolvido de tr\&apos;eas formas: dados estat\&apos;edsticos, relatos &#x0A;de acontecimentos de conhecimento geral e fatos divulgados pelas m\&apos;eddias.\lang1046\hich\f2\loch\f2\par\par Com a exemplifica\&apos;e7\&apos;e3o, \&apos;e9 necess\&apos;e1rio tomar cuidado com dois aspectos: apresentar a fonte das informa\&apos;e7\&apos;f5es e detalhar apenas o que &#x0A;for necess\&apos;e1rio para constru\&apos;e7\&apos;e3o da situa\&apos;e7\&apos;e3o problema que voc\&apos;ea deseja analisar. \par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 Tema: A persist\&apos;eancia da viol\&apos;eancia contra a mulher na sociedade brasileira - Enem 2015.\lang1046\hich\f2\loch\f2 &#x0A; \par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Primeiro par�grafo do texto, a introdu��o contextualiza o tema ao mesmo tempo em que apresenta a tese da disserta��o, ou seja, a ideia central que o autor defender� com argumentos no desenvolvimento. De prefer�ncia breve, a intro_du��o pode ser escrita de v�rias maneiras: por dados estat�sticos, afirma��o ou nega��o, inter_roga��o, cita��o, entre outras. &#x0A;&#x0A;Exemplifica��o &#x0A;&#x0A;Este recurso pode ser desenvolvido de tr�s formas: dados estat�sticos, relatos de acontecimentos de conhecimento geral e fatos divulgados pelas m�dias.&#x0A;&#x0A;Com a exemplifica��o, � necess�rio tomar cuidado com dois aspectos: apresentar a fonte das informa��es e detalhar apenas o que for necess�rio para constru��o da situa��o problema que voc� deseja analisar. &#x0A;&#x0A;Tema: A persist�ncia da viol�ncia contra a mulher na sociedade brasileira - Enem 2015. &#x0A;</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text214ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>24</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="193" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689271969</lastupdated>
+<possize>
+<point>
+<x>8</x>
+<y>109</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>585</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text193Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text193Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text193Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text193Font1&quot;  &gt;De acordo com o dicionÃ¡rio Houaiss de lÃ­ngua portuguesa, dissertaÃ§Ã£o Ã© a aÃ§Ã£o ou o resultado de dissertar, que significa discorrer a respeito de um assunto de maneira metÃ³dica e abrangente. Explicando melhor, dissertar Ã© percorrer com o raciocÃ­nio lÃ³gico ideias e pensamentos sobre determinado tema de maneira sistemÃ¡tica e ampla.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text193Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text193Font1&quot;  &gt;De acordo com o dicionÃ¡rio Houaiss de lÃ­ngua portuguesa, dissertaÃ§Ã£o Ã© a aÃ§Ã£o ou o resultado de dissertar, que significa discorrer a respeito de um assunto de maneira metÃ³dica e abrangente. Explicando melhor, dissertar Ã© percorrer com o raciocÃ­nio lÃ³gico ideias e pensamentos sobre determinado tema de maneira sistemÃ¡tica e ampla.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text193Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text193Font1&quot;  &gt;A dissertaÃ§Ã£o pode ser oral ou escrita e sua estrutura se divide em trÃªs partes fundamentais: introduÃ§Ã£o, desenvolvimento e conclusÃ£o&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text193Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text193Font2&quot;  &gt;Estrutura&lt;/span &gt;&lt;span class=&quot;text193Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text193Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text193Font3&quot;  &gt;IntroduÃ§Ã£o da dissertaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text193Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 De acordo com o dicion\&apos;e1rio Houaiss de l\&apos;edngua portuguesa, disserta\&apos;e7\&apos;e3o \&apos;e9 a a\&apos;e7\&apos;e3o ou o resultado de dissertar, que significa discorrer a respeito de um assunto de maneira met\&apos;f3dica &#x0A;e abrangente. Explicando melhor, dissertar \&apos;e9 percorrer com o racioc\&apos;ednio l\&apos;f3gico ideias e pensamentos sobre determinado tema de maneira sistem\&apos;e1tica e ampla.\par\par De acordo com o dicion\&apos;e1rio Houaiss de l\&apos;edngua portuguesa, disserta\&apos;e7\&apos;e3o &#x0A;\&apos;e9 a a\&apos;e7\&apos;e3o ou o resultado de dissertar, que significa discorrer a respeito de um assunto de maneira met\&apos;f3dica e abrangente. Explicando melhor, dissertar \&apos;e9 percorrer com o racioc\&apos;ednio l\&apos;f3gico ideias e pensamentos sobre determinado tema &#x0A;de maneira sistem\&apos;e1tica e ampla.\par\par A disserta\&apos;e7\&apos;e3o pode ser oral ou escrita e sua estrutura se divide em tr\&apos;eas partes fundamentais: introdu\&apos;e7\&apos;e3o, desenvolvimento e conclus\&apos;e3o\lang1046\hich\f2\loch\f2\par\par\fs36\b Estrutura\fs28\b0\par\par\fs32\b &#x0A;Introdu\&apos;e7\&apos;e3o da disserta\&apos;e7\&apos;e3o\lang1046\hich\f2\loch\f2\fs28\b0\par\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?De acordo com o dicion�rio Houaiss de l�ngua portuguesa, disserta��o � a a��o ou o resultado de dissertar, que significa discorrer a respeito de um assunto de maneira met�dica e abrangente. Explicando melhor, dissertar � percorrer com o racioc�nio l�gico ideias e pensamentos sobre determinado tema de maneira sistem�tica e ampla.&#x0A;&#x0A;De acordo com o dicion�rio Houaiss de l�ngua portuguesa, disserta��o � a a��o ou o resultado de dissertar, que significa discorrer a respeito de um assunto de maneira met�dica e abrangente. Explicando melhor, dissertar � percorrer com o racioc�nio l�gico ideias e pensamentos sobre determinado tema de maneira sistem�tica e ampla.&#x0A;&#x0A;A disserta��o pode ser oral ou escrita e sua estrutura se divide em tr�s partes fundamentais: introdu��o, desenvolvimento e conclus�o&#x0A;&#x0A;Estrutura&#x0A;&#x0A;Introdu��o da disserta��o&#x0A;&#x0A;</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="158" parent="155">
+<name>Grupo_1</name>
+<lastupdated>1689271940</lastupdated>
+<text id="165" parent="158" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689271940</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>-9</y>
+</point>
+<size>
+<cx>668</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text165Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text165Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text165Font1&quot;  &gt;Tipo Textual: DissertaÃ§Ã£o Argumentativa&lt;/span &gt;&lt;span class=&quot;text165Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Tipo Textual: Disserta\&apos;e7\&apos;e3o Argumentativa\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipo Textual: Disserta��o Argumentativa</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="160" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689271853</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>81</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="162" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689271853</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>81</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="164" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689271853</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>81</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<image id="167" parent="158" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689271853</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>87</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="169" parent="158" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689271853</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>636</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="600" parent="40">
+<name>Página 3</name>
+<lastupdated>1689706547</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="601" parent="600" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689272143</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>74</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>625</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text601Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text601Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text601Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text601Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text601Font1&quot;  &gt;Tema: Caminhos para combater a intolerÃ¢ncia religiosa no Brasil&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text601Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text601Font1&quot;  &gt;&quot;O PerÃ­odo Colonial do Brasil, ao longo dos sÃ©culos XVI e XIX, foi marcado pela tentativa de converter os Ã­ndios ao catolicismo, em funÃ§Ã£o do pensamento portuguÃªs de soberania. Embora date de sÃ©culos atrÃ¡s, a intolerÃ¢ncia religiosa no paÃ­s, em pleno sÃ©culo XXI, sugere as mesmas conotaÃ§Ãµes de sua origem: imposiÃ§Ã£o de dogmas e violÃªncia. No entanto, a lenta mudanÃ§a de mentalidade social e o receio de denunciar dificultam a resoluÃ§Ã£o dessa problemÃ¡tica, o que configura um grave problema social.&quot;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text601Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text601Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.192;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text601ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text601Font3&quot;  &gt;DefiniÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text601Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text601Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text601Font1&quot;  &gt;Este recurso consiste em ter como ponto de partida para discussÃ£o do tema e apresentaÃ§Ã£o de problematizaÃ§Ã£o a definiÃ§Ã£o ou conceituaÃ§Ã£o de algum vocÃ¡bulo. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text601Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text601Font1&quot;  &gt;Ã‰ vÃ¡lido ressaltar que hÃ¡, muitas vezes, mais de uma maneira de se definir algo (definiÃ§Ã£o dedicionÃ¡rio, definiÃ§Ã£o com as suas palavras, definiÃ§Ã£o para o senso comum, etc.)&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Tema: Caminhos para combater a intoler\u226 \&apos;e2ncia religiosa no Brasil\par\par &quot;O Per\u237 \&apos;edodo Colonial do Brasil, ao longo dos s\u233 \&apos;e9culos XVI e XIX, foi marcado pela tentativa de converter &#x0A;os \u237 \&apos;edndios ao catolicismo, em fun\u231 \&apos;e7\u227 \&apos;e3o do pensamento portugu\u234 \&apos;eas de soberania. Embora date de s\u233 \&apos;e9culos atr\u225 \&apos;e1s, a intoler\u226 \&apos;e2ncia religiosa no pa\u237 \&apos;eds, em pleno s\u233 \&apos;e9culo XXI, sugere as mesmas &#x0A;conota\u231 \&apos;e7\u245 \&apos;f5es de sua origem: imposi\u231 \&apos;e7\u227 \&apos;e3o de dogmas e viol\u234 \&apos;eancia. No entanto, a lenta mudan\u231 \&apos;e7a de mentalidade social e o receio de denunciar dificultam a resolu\u231 \&apos;e7\u227 \&apos;e3o dessa problem\u225 \&apos;e1tica, &#x0A;o que configura um grave problema social.&quot;\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs32\b Defini\&apos;e7\&apos;e3o\fs28\b0\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par &#x0A;Este recurso consiste em ter como ponto de partida para discuss\&apos;e3o do tema e apresenta\&apos;e7\&apos;e3o de problematiza\&apos;e7\&apos;e3o a defini\&apos;e7\&apos;e3o ou conceitua\&apos;e7\&apos;e3o de algum voc\&apos;e1bulo. \par\par \&apos;c9 v\&apos;e1lido ressaltar que h\&apos;e1, muitas vezes, mais de &#x0A;uma maneira de se definir algo (defini\&apos;e7\&apos;e3o dedicion\&apos;e1rio, defini\&apos;e7\&apos;e3o com as suas palavras, defini\&apos;e7\&apos;e3o para o senso comum, etc.)\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Tema: Caminhos para combater a intoler�ncia religiosa no Brasil&#x0A;&#x0A;&quot;O Per�odo Colonial do Brasil, ao longo dos s�culos XVI e XIX, foi marcado pela tentativa de converter os �ndios ao catolicismo, em fun��o do pensamento portugu�s de soberania. Embora date de s�culos atr�s, a intoler�ncia religiosa no pa�s, em pleno s�culo XXI, sugere as mesmas conota��es de sua origem: imposi��o de dogmas e viol�ncia. No entanto, a lenta mudan�a de mentalidade social e o receio de denunciar dificultam a resolu��o dessa problem�tica, o que configura um grave problema social.&quot;&#x0A;&#x0A;Defini��o&#x0A;&#x0A;Este recurso consiste em ter como ponto de partida para discuss�o do tema e apresenta��o de problematiza��o a defini��o ou conceitua��o de algum voc�bulo. &#x0A;&#x0A;� v�lido ressaltar que h�, muitas vezes, mais de uma maneira de se definir algo (defini��o dedicion�rio, defini��o com as suas palavras, defini��o para o senso comum, etc.)&#x0A;</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text601ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text601ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>27</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="602" parent="600" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689272087</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>111</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>580</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text602Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text602Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text602Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text602Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text602Font1&quot;  &gt;&quot;Segundo o Conselho Nacional de JustiÃ§a (CNJ), mais de 330 mil casos foram instaurados com a Maria da Penha, entre 2006 e 2011. Esta medida, ainda que fortalecida pelas Delegacias da Mulher, sÃ£o insuficientes e pouco eficazes, uma vez que sÃ£o aÃ§Ãµes que nÃ£o visam, diretamente, a mudanÃ§a cultural e comportamental do brasileiros. No Brasil, hoje, infelizmente, igualdade de gÃªnero Ã© algo que estÃ¡ apenas no papel.&quot;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text602Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text602Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.192;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text602ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text602Font3&quot;  &gt;AlusÃ£o histÃ³rica&lt;/span &gt;&lt;span class=&quot;text602Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text602Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text602Font1&quot;  &gt;Este recurso consiste na comparaÃ§Ã£o do presente com algum elemento da histÃ³ria: acontecimentos, personalidades, caracterÃ­sticas de algum perÃ­odo histÃ³rico, etc. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text602Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text602Font1&quot;  &gt;Ao fazer uso desse recurso na introduÃ§Ã£o, devemos ter em mente que apenas detalhar ou relatar o elemento histÃ³rico nÃ£o Ã© suficiente, uma vez que Ã© necessÃ¡rio problematizar a questÃ£o apresentada pelo tema. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text602Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text602Font1&quot;  &gt;A fim de que isso seja feito de forma satisfatÃ³ria, vocÃª deve se concentrar na funÃ§Ã£o: comparaÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 &quot;Segundo o Conselho Nacional de Justi\u231 \&apos;e7a (CNJ), mais de 330 mil casos foram instaurados com a Maria da Penha, entre 2006 e 2011. Esta medida, ainda que fortalecida pelas Delegacias da Mulher, &#x0A;s\u227 \&apos;e3o insuficientes e pouco eficazes, uma vez que s\u227 \&apos;e3o a\u231 \&apos;e7\u245 \&apos;f5es que n\u227 \&apos;e3o visam, diretamente, a mudan\u231 \&apos;e7a cultural e comportamental do brasileiros. No Brasil, hoje, infelizmente, igualdade de g\u234 \&apos;eanero \u233 &#x0A;\&apos;e9 algo que est\u225 \&apos;e1 apenas no papel.&quot;\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs32\b Alus\&apos;e3o hist\&apos;f3rica\fs28\b0\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par &#x0A;Este recurso consiste na compara\&apos;e7\&apos;e3o do presente com algum elemento da hist\&apos;f3ria: acontecimentos, personalidades, caracter\&apos;edsticas de algum per\&apos;edodo hist\&apos;f3rico, etc. \par\par Ao fazer uso desse recurso na introdu\&apos;e7\&apos;e3o, devemos ter em &#x0A;mente que apenas detalhar ou relatar o elemento hist\&apos;f3rico n\&apos;e3o \&apos;e9 suficiente, uma vez que \&apos;e9 necess\&apos;e1rio problematizar a quest\&apos;e3o apresentada pelo tema. \par\par A fim de que isso seja feito de forma satisfat\&apos;f3ria, voc\&apos;ea deve se concentrar &#x0A;na fun\&apos;e7\&apos;e3o: compara\&apos;e7\&apos;e3o.\par\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?&quot;Segundo o Conselho Nacional de Justi�a (CNJ), mais de 330 mil casos foram instaurados com a Maria da Penha, entre 2006 e 2011. Esta medida, ainda que fortalecida pelas Delegacias da Mulher, s�o insuficientes e pouco eficazes, uma vez que s�o a��es que n�o visam, diretamente, a mudan�a cultural e comportamental do brasileiros. No Brasil, hoje, infelizmente, igualdade de g�nero � algo que est� apenas no papel.&quot;&#x0A;&#x0A;Alus�o hist�rica&#x0A;&#x0A;Este recurso consiste na compara��o do presente com algum elemento da hist�ria: acontecimentos, personalidades, caracter�sticas de algum per�odo hist�rico, etc. &#x0A;&#x0A;Ao fazer uso desse recurso na introdu��o, devemos ter em mente que apenas detalhar ou relatar o elemento hist�rico n�o � suficiente, uma vez que � necess�rio problematizar a quest�o apresentada pelo tema. &#x0A;&#x0A;A fim de que isso seja feito de forma satisfat�ria, voc� deve se concentrar na fun��o: compara��o.&#x0A;&#x0A;</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text602ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text602ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>25</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="603" parent="600">
+<name>Grupo_1</name>
+<lastupdated>1689272031</lastupdated>
+<text id="604" parent="603" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689272031</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>-9</y>
+</point>
+<size>
+<cx>668</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text604Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text604Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text604Font1&quot;  &gt;Tipo Textual: DissertaÃ§Ã£o Argumentativa&lt;/span &gt;&lt;span class=&quot;text604Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Tipo Textual: Disserta\&apos;e7\&apos;e3o Argumentativa\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipo Textual: Disserta��o Argumentativa</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="606" parent="603" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689272031</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>81</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="608" parent="603" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689272031</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>81</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="610" parent="603" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689272031</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>81</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<image id="612" parent="603" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689272031</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>87</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="614" parent="603" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689272031</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>636</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="701" parent="40">
+<name>Página 4</name>
+<lastupdated>1689706549</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="702" parent="701" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689272345</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>74</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>625</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text702Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text702Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text702Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text702Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text702Font4 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text702Font4 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text702Font1&quot;  &gt;Tema: A importÃ¢ncia da participaÃ§Ã£o polÃ­tica para a efetivaÃ§Ã£o da cidadania no Brasil&quot; &apos;O homem Ã© um ser polÃ­tico&apos;, jÃ¡ dizia AristÃ³teles. Com efeito, uma das principais caracterÃ­sticas que nos diferencia dos outros seres vivos Ã© a nossa capacidade de tomar decisÃµes que visem ao bem comum, levando a pÃ³lis Ã  felicidade. Entretanto, a lÃ³gica neoliberal, vigente no mundo pÃ³s-moderno, conduz a sociedade para o caminho oposto, apresentando a participaÃ§Ã£o polÃ­tica como algo jÃ¡ superado, num contexto que provoca nos cidadÃ£os o desejo de proclamarem-se &quot;apolÃ­ticos&quot;, embora nÃ£o devesse ser assim, visto que a participaÃ§Ã£o polÃ­tica Ã© indispensÃ¡vel para a organizaÃ§Ã£o da vida em sociedade.&quot;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text702Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text702Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.192;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text702ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text702Font3&quot;  &gt;Intertexto&lt;/span &gt;&lt;span class=&quot;text702Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text702Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text702Font1&quot;  &gt;Este recurso, muito semelhante ao modelo deintroduÃ§Ã£o por citaÃ§Ã£o, consiste em trazer para a sua introduÃ§Ã£o a referÃªncia a outro texto ou obra, podendo ser filmes, mÃºsicas, poemas, obras &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text702Font1&quot;  &gt;literÃ¡rias, obras de arte, etc. &lt;/span &gt;&lt;span class=&quot;text702Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Tema: A import\u226 \&apos;e2ncia da participa\u231 \&apos;e7\u227 \&apos;e3o pol\u237 \&apos;edtica para a efetiva\u231 \&apos;e7\u227 \&apos;e3o da cidadania no Brasil&quot; &apos;O homem \u233 \&apos;e9 um ser pol\u237 \&apos;edtico&apos;, j\u225 &#x0A;\&apos;e1 dizia Arist\u243 \&apos;f3te\lang1046\hich\f2\loch\f2 l\lang1046\hich\f2\loch\f2 es. Com efeito, uma das principais caracter\u237 \&apos;edsticas que nos diferencia dos outros seres vivos \u233 \&apos;e9 a nossa capacidade de tomar decis\u245 \&apos;f5es que visem ao &#x0A;bem comum, levando a p\u243 \&apos;f3lis \u224 \&apos;e0 felicidade. Entretanto, a l\u243 \&apos;f3gica neoliberal, vigente no mundo p\u243 \&apos;f3s-moderno, conduz a sociedade para o caminho oposto, apresentando a participa\u231 \&apos;e7\u227 \&apos;e3o pol\u237 \&apos;edtica como &#x0A;algo j\u225 \&apos;e1 superado, num contexto que provoca nos cidad\u227 \&apos;e3os o desejo de proclamarem-se &quot;apol\u237 \&apos;edticos&quot;, embora n\u227 \&apos;e3o devesse ser assim, visto que a participa\u231 \&apos;e7\u227 \&apos;e3o pol\u237 \&apos;edtica \u233 \&apos;e9 indispens\u225 \&apos;e1vel &#x0A;para a organiza\u231 \&apos;e7\u227 \&apos;e3o da vida em sociedade.&quot;\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs32\b Intertexto\fs28\b0\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par &#x0A;Este recurso, muito semelhante ao modelo deintrodu\&apos;e7\&apos;e3o por cita\&apos;e7\&apos;e3o, consiste em trazer para a sua introdu\&apos;e7\&apos;e3o a refer\&apos;eancia a outro texto ou obra, podendo ser filmes, m\&apos;fasicas, poemas, obras \par liter\&apos;e1rias, obras de arte, etc. \plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Tema: A import�ncia da participa��o pol�tica para a efetiva��o da cidadania no Brasil&quot; &apos;O homem � um ser pol�tico&apos;, j� dizia Arist�teles. Com efeito, uma das principais caracter�sticas que nos diferencia dos outros seres vivos � a nossa capacidade de tomar decis�es que visem ao bem comum, levando a p�lis � felicidade. Entretanto, a l�gica neoliberal, vigente no mundo p�s-moderno, conduz a sociedade para o caminho oposto, apresentando a participa��o pol�tica como algo j� superado, num contexto que provoca nos cidad�os o desejo de proclamarem-se &quot;apol�ticos&quot;, embora n�o devesse ser assim, visto que a participa��o pol�tica � indispens�vel para a organiza��o da vida em sociedade.&quot;&#x0A;&#x0A;Intertexto&#x0A;&#x0A;Este recurso, muito semelhante ao modelo deintrodu��o por cita��o, consiste em trazer para a sua introdu��o a refer�ncia a outro texto ou obra, podendo ser filmes, m�sicas, poemas, obras &#x0A;liter�rias, obras de arte, etc. </raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text702ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text702ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>22</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="703" parent="701" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689272263</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>103</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>625</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text703Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text703Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text703Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text703Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text703Font1&quot;  &gt;Portanto, a escolha da conceituaÃ§Ã£o mais adequada dependerÃ¡ do ponto de vista a ser defendido.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text703Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text703Font1&quot;  &gt;Tema: A crescente crise da mobilidade urbana brasileira&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text703Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text703Font1&quot;  &gt;&quot;O desenvolvimento de uma cidade Ã© movido por dois elementos: mobilidade e planejamento; em que um depende do outro. Por mobilidade, o senso comum entende: organizaÃ§Ã£o do transporte pÃºblico. Entretanto, a fim de que tenhamos, de fato, mobilidade urbana nas cidades, Ã© necessÃ¡rio muito mais que transporte de qualidade. O planejamento das cidades garantirÃ¡ que os espaÃ§os municipais sejam acessados por todos que ali &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text703Font1&quot;  &gt;habitam, configurando, dessa forma, o real significado de mobilidade urbana.&quot;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text703Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text703Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.192;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text703ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text703Font3&quot;  &gt;CitaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text703Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text703Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text703Font1&quot;  &gt;Este recurso consiste em trazer para a sua introduÃ§Ã£o a ideia de outro(a) autor(a). Ã‰, portanto, a citaÃ§Ã£o de autores renomados, autoridades em um certo domÃ­nio do saber, em uma Ã¡rea da atividade humana.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text703Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text703Font1&quot;  &gt;O maior cuidado que devemos ter ao utilizarmos esse modelo Ã©: priorizar a interpretaÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Portanto, a escolha da conceitua\u231 \&apos;e7\u227 \&apos;e3o mais adequada depender\u225 \&apos;e1 do ponto de vista a ser defendido.\par\par Tema: A crescente crise da mobilidade urbana brasileira\par\par &quot;O &#x0A;desenvolvimento de uma cidade \u233 \&apos;e9 movido por dois elementos: mobilidade e planejamento; em que um depende do outro. Por mobilidade, o senso comum entende: organiza\u231 \&apos;e7\u227 \&apos;e3o do transporte p\u250 \&apos;fablico. Entretanto, a fim de que tenhamos, &#x0A;de fato, mobilidade urbana nas cidades, \u233 \&apos;e9 necess\u225 \&apos;e1rio muito mais que transporte de qualidade. O planejamento das cidades garantir\u225 \&apos;e1 que os espa\u231 \&apos;e7os municipais sejam acessados por todos que ali \par habitam, configurando, &#x0A;dessa forma, o real significado de mobilidade urbana.&quot;\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs32\b Cita\u231 \&apos;e7\u227 \&apos;e3o\fs28\b0\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par &#x0A;Este recurso consiste em trazer para a sua introdu\u231 \&apos;e7\u227 \&apos;e3o a ideia de outro(a) autor(a). \u201 \&apos;c9, portanto, a cita\u231 \&apos;e7\u227 \&apos;e3o de autores renomados, autoridades em um certo dom\u237 \&apos;ednio do saber, em uma \u225 \&apos;e1rea da atividade &#x0A;humana.\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\par O maior cuidado que devemos ter ao utilizarmos esse modelo \u233 \&apos;e9: priorizar a interpreta\u231 \&apos;e7\u227 \&apos;e3o.\par\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Portanto, a escolha da conceitua��o mais adequada depender� do ponto de vista a ser defendido.&#x0A;&#x0A;Tema: A crescente crise da mobilidade urbana brasileira&#x0A;&#x0A;&quot;O desenvolvimento de uma cidade � movido por dois elementos: mobilidade e planejamento; em que um depende do outro. Por mobilidade, o senso comum entende: organiza��o do transporte p�blico. Entretanto, a fim de que tenhamos, de fato, mobilidade urbana nas cidades, � necess�rio muito mais que transporte de qualidade. O planejamento das cidades garantir� que os espa�os municipais sejam acessados por todos que ali &#x0A;habitam, configurando, dessa forma, o real significado de mobilidade urbana.&quot;&#x0A;&#x0A;Cita��o&#x0A;&#x0A;Este recurso consiste em trazer para a sua introdu��o a ideia de outro(a) autor(a). �, portanto, a cita��o de autores renomados, autoridades em um certo dom�nio do saber, em uma �rea da atividade humana.&#x0A;&#x0A;O maior cuidado que devemos ter ao utilizarmos esse modelo �: priorizar a interpreta��o.&#x0A;&#x0A;</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text703ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text703ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>27</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="704" parent="701">
+<name>Grupo_1</name>
+<lastupdated>1689272167</lastupdated>
+<text id="705" parent="704" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689272252</lastupdated>
+<possize>
+<point>
+<x>36</x>
+<y>0</y>
+</point>
+<size>
+<cx>668</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text705Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text705Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text705Font1&quot;  &gt;Tipo Textual: DissertaÃ§Ã£o Argumentativa&lt;/span &gt;&lt;span class=&quot;text705Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Tipo Textual: Disserta\&apos;e7\&apos;e3o Argumentativa\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipo Textual: Disserta��o Argumentativa</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="707" parent="704" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689272252</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="709" parent="704" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689272252</lastupdated>
+<possize>
+<point>
+<x>66</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="711" parent="704" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689272252</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<image id="713" parent="704" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689272252</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="715" parent="704" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689272252</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="837" parent="40">
+<name>Página 5</name>
+<lastupdated>1689706550</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="838" parent="837" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689272681</lastupdated>
+<possize>
+<point>
+<x>506</x>
+<y>75</y>
+</point>
+<size>
+<cx>498</cx>
+<cy>567</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text838Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text838Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text838Font4 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text838Font1&quot;  &gt;NÃ£o hÃ¡ quantidade ideal de perguntas para a execuÃ§Ã£o desse modelo de introduÃ§Ã£o para redaÃ§Ã£o; uma, duas, trÃªs, quatro, cinco ou mais perguntas cabe a vocÃª decidir, mas, nÃ£o se deve deixar as perguntas sem respostas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text838Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text838Font1&quot;  &gt;Tema: Os efeitos da implantaÃ§Ã£o da Lei Seca no Brasil (Enem 2013)&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text838Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text838Font1&quot;  &gt;&quot;A sociedade contemporÃ¢nea supervaloriza nÃ£o apenas o consumo de bebidas alcoÃ³licas, mas tambÃ©m o status que o ato de beber traz. Em decorrÃªncia disso, a relaÃ§Ã£o travada entre diversÃ£o e Ã¡lcool dificulta a instalaÃ§Ã£o de uma ordem social e prejudica os nÃ£o- participantes desse ciclo. Entra em cena, entÃ£o, o Estado e seu intrÃ­nseco poder observado na forma da Lei Seca. SerÃ¡ a obediÃªncia da maioria justificada pelo temor Ã  pena ou pelo aumento da consciÃªncia social? O &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text838Font1&quot;  &gt;efeito foi passageiro ou duradouro?&quot;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text838Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text838Font3&quot;  &gt;Desenvolvimento da dissertaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text838Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text838Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text838Font1&quot;  &gt;Depois de o autor explicitar, na introduÃ§Ã£o, sua tese sobre o tema ou sobre a proposta de redaÃ§Ã£o, no caso dos vestibulares e do Enem, cabe a ele estabelecer os argumentos que corroborem seu ponto de vista. Essa parte da dissertaÃ§Ã£o chamamos de desenvolvimento.&lt;/span &gt;&lt;span class=&quot;text838Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 N\u227 \&apos;e3o h\u225 \&apos;e1 quantidade ideal de perguntas para a execu\u231 \&apos;e7\u227 \&apos;e3o desse modelo de introdu\u231 \&apos;e7\u227 \&apos;e3o para reda\u231 \&apos;e7\u227 \&apos;e3o; uma, duas, tr\u234 \&apos;eas, quatro, cinco &#x0A;ou mais perguntas cabe a voc\u234 \&apos;ea decidir, mas, n\u227 \&apos;e3o se deve deixar as perguntas sem respostas.\par\par Tema: Os efeitos da implanta\u231 \&apos;e7\u227 \&apos;e3o da Lei Seca no Brasil (Enem 2013)\par\par &quot;A sociedade contempor\u226 \&apos;e2nea supervaloriza &#x0A;n\u227 \&apos;e3o apenas o consumo de bebidas alco\u243 \&apos;f3licas, mas tamb\u233 \&apos;e9m o status que o ato de beber traz. Em decorr\u234 \&apos;eancia disso, a rela\u231 \&apos;e7\u227 \&apos;e3o travada entre divers\u227 \&apos;e3o e \u225 \&apos;e1lcool dificulta a instala\u231 \&apos;e7\u227 &#x0A;\&apos;e3o de uma ordem social e prejudica os n\u227 \&apos;e3o- participantes desse ciclo. Entra em cena, ent\u227 \&apos;e3o, o Estado e seu intr\u237 \&apos;ednseco poder observado na forma da Lei Seca. Ser\u225 \&apos;e1 a obedi\u234 \&apos;eancia da maioria justificada pelo temor \u224 &#x0A;\&apos;e0 pena ou pelo aumento da consci\u234 \&apos;eancia social? O \par efeito foi passageiro ou duradouro?&quot;\par\par\fs32\b Desenvolvimento da disserta\&apos;e7\&apos;e3o\fs28\b0\par\par Depois de o autor explicitar, na introdu\&apos;e7\&apos;e3o, sua tese sobre o tema ou sobre &#x0A;a proposta de reda\&apos;e7\&apos;e3o, no caso dos vestibulares e do Enem, cabe a ele estabelecer os argumentos que corroborem seu ponto de vista. Essa parte da disserta\&apos;e7\&apos;e3o chamamos de desenvolvimento.\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?N�o h� quantidade ideal de perguntas para a execu��o desse modelo de introdu��o para reda��o; uma, duas, tr�s, quatro, cinco ou mais perguntas cabe a voc� decidir, mas, n�o se deve deixar as perguntas sem respostas.&#x0A;&#x0A;Tema: Os efeitos da implanta��o da Lei Seca no Brasil (Enem 2013)&#x0A;&#x0A;&quot;A sociedade contempor�nea supervaloriza n�o apenas o consumo de bebidas alco�licas, mas tamb�m o status que o ato de beber traz. Em decorr�ncia disso, a rela��o travada entre divers�o e �lcool dificulta a instala��o de uma ordem social e prejudica os n�o- participantes desse ciclo. Entra em cena, ent�o, o Estado e seu intr�nseco poder observado na forma da Lei Seca. Ser� a obedi�ncia da maioria justificada pelo temor � pena ou pelo aumento da consci�ncia social? O &#x0A;efeito foi passageiro ou duradouro?&quot;&#x0A;&#x0A;Desenvolvimento da disserta��o&#x0A;&#x0A;Depois de o autor explicitar, na introdu��o, sua tese sobre o tema ou sobre a proposta de reda��o, no caso dos vestibulares e do Enem, cabe a ele estabelecer os argumentos que corroborem seu ponto de vista. Essa parte da disserta��o chamamos de desenvolvimento.</raw>
+<numoflines>26</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="839" parent="837" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689272453</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>109</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>538</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text839Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text839Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text839Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text839Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text839Font1&quot;  &gt;E o cuidado permanece o mesmo do modelo passado: nÃ£o se esqueÃ§a de apresentar a sua leitura crÃ­tica sobre a referÃªncia feita, nÃ£o deixe o intertexto isolado em seu texto, tampouco deixe para o(a) seu(sua) leitora(a) interpretar.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text839Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text839Font1&quot;  &gt;Tema: RelaÃ§Ãµes de consumo e o consumismo &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text839Font1&quot;  &gt;(Fuvest 2013)&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text839Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text839Font1&quot;  &gt;&quot;O anÃºncio do CartÃ£o de CrÃ©dito X mostra um shopping, ambiente de compras, e o associa ao &quot;melhor que o mundo tem a oferecer&quot;. Valoriza, portanto, a sociedade de consumo, danosa a ponto de produzir inÃºmeras crianÃ§as adultas como as de &quot;CapitÃ£es de Areia&quot; e vÃ¡rios homens gananciosos e frios como JoÃ£o RomÃ£o, de &quot;O CortiÃ§o&quot;. Para tanto, utiliza um dos recursos mais poderosos jÃ¡ criados: a imprensa.&quot;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text839Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text839Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.192;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text839ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text839Font3&quot;  &gt;Perguntas&lt;/span &gt;&lt;span class=&quot;text839Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text839Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text839Font1&quot;  &gt;Este recurso consiste em elaborar perguntas que instiguem a problematizaÃ§Ã£o do tema e, claro, a reflexÃ£o em seus(suas) leitores(as). &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 E o cuidado permanece o mesmo do modelo passado: n\u227 \&apos;e3o se esque\u231 \&apos;e7a de apresentar a sua leitura cr\u237 \&apos;edtica sobre a refer\u234 \&apos;eancia feita, n\u227 \&apos;e3o deixe o intertexto isolado &#x0A;em seu texto, tampouco deixe para o(a) seu(sua) leitora(a) interpretar.\par\par Tema: Rela\u231 \&apos;e7\u245 \&apos;f5es de consumo e o consumismo \par (Fuvest 2013)\par\par &quot;O an\u250 \&apos;fancio do Cart\u227 \&apos;e3o de Cr\u233 \&apos;e9dito X mostra um shopping, ambiente &#x0A;de compras, e o associa ao &quot;melhor que o mundo tem a oferecer&quot;. Valoriza, portanto, a sociedade de consumo, danosa a ponto de produzir in\u250 \&apos;fameras crian\u231 \&apos;e7as adultas como as de &quot;Capit\u227 \&apos;e3es de Areia&quot; e v\u225 \&apos;e1rios homens gananciosos &#x0A;e frios como Jo\u227 \&apos;e3o Rom\u227 \&apos;e3o, de &quot;O Corti\u231 \&apos;e7o&quot;. Para tanto, utiliza um dos recursos mais poderosos j\u225 \&apos;e1 criados: a imprensa.&quot;\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs32\b &#x0A;Perguntas\fs28\b0\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par Este recurso consiste em elaborar perguntas que instiguem a problematiza\u231 \&apos;e7\u227 \&apos;e3o do tema e, claro, a reflex\u227 \&apos;e3o em seus(suas) leitores(as). \par}&#x0A;</rtf>
+<raw>?E o cuidado permanece o mesmo do modelo passado: n�o se esque�a de apresentar a sua leitura cr�tica sobre a refer�ncia feita, n�o deixe o intertexto isolado em seu texto, tampouco deixe para o(a) seu(sua) leitora(a) interpretar.&#x0A;&#x0A;Tema: Rela��es de consumo e o consumismo &#x0A;(Fuvest 2013)&#x0A;&#x0A;&quot;O an�ncio do Cart�o de Cr�dito X mostra um shopping, ambiente de compras, e o associa ao &quot;melhor que o mundo tem a oferecer&quot;. Valoriza, portanto, a sociedade de consumo, danosa a ponto de produzir in�meras crian�as adultas como as de &quot;Capit�es de Areia&quot; e v�rios homens gananciosos e frios como Jo�o Rom�o, de &quot;O Corti�o&quot;. Para tanto, utiliza um dos recursos mais poderosos j� criados: a imprensa.&quot;&#x0A;&#x0A;Perguntas&#x0A;&#x0A;Este recurso consiste em elaborar perguntas que instiguem a problematiza��o do tema e, claro, a reflex�o em seus(suas) leitores(as). </raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text839ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text839ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>23</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="840" parent="837">
+<name>Grupo_1</name>
+<lastupdated>1689272353</lastupdated>
+<text id="841" parent="840" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689272353</lastupdated>
+<possize>
+<point>
+<x>36</x>
+<y>0</y>
+</point>
+<size>
+<cx>668</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text841Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text841Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text841Font1&quot;  &gt;Tipo Textual: DissertaÃ§Ã£o Argumentativa&lt;/span &gt;&lt;span class=&quot;text841Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Tipo Textual: Disserta\&apos;e7\&apos;e3o Argumentativa\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipo Textual: Disserta��o Argumentativa</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="843" parent="840" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689272353</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="845" parent="840" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689272353</lastupdated>
+<possize>
+<point>
+<x>66</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="847" parent="840" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689272353</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<image id="849" parent="840" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689272353</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="851" parent="840" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689272353</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="965" parent="40">
+<name>Página 6</name>
+<lastupdated>1689706551</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="966" parent="965" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689272839</lastupdated>
+<possize>
+<point>
+<x>506</x>
+<y>75</y>
+</point>
+<size>
+<cx>498</cx>
+<cy>605</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text966Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text966Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text966Font1&quot;  &gt;A ingestÃ£o de alimentos em quantidade menor do que a necessÃ¡ria faz com que o organismo gaste suas reservas de gordura para manter o metabolismo do corpo, levando Ã  subnutriÃ§Ã£o.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text966Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text966Font1&quot;  &gt;O baixo consumo de nutrientes essenciais Ã  vida, como vitaminas e sais minerais, pode acarretar o aparecimento de inÃºmeras doenÃ§as, como raquitismo, escorbuto, dores de cabeÃ§a, osteoporose, cegueira-noturna, e outras, sendo que a subnutriÃ§Ã£o Ã© uma das principais causas de morte de crianÃ§as em alguns paÃ­ses.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text966Font1&quot;  &gt;[...]&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text966Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text966Font2&quot;  &gt;Desenvolvimento por exemplificaÃ§Ã£o &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text966Font2&quot;  &gt;(ou enumeraÃ§Ã£o)&lt;/span &gt;&lt;span class=&quot;text966Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text966Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text966Font1&quot;  &gt;O desenvolvimento por exemplificaÃ§Ã£o pode ser usado quando o autor deseja expor uma sequÃªncia de exemplos, de situaÃ§Ãµes, de caracterÃ­sticas, etc., para comprovar sua tese. Exemplo:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\lang1046\hich\f2\loch\f2\cf2\fs28 A ingest\&apos;e3o de alimentos em quantidade menor do que a necess\&apos;e1ria faz com que o organismo gaste suas reservas de gordura para manter o metabolismo do corpo, levando \&apos;e0 subnutri\&apos;e7\&apos;e3o.\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 &#x0A;O baixo consumo de nutrientes essenciais \&apos;e0 vida, como vitaminas e sais minerais, pode acarretar o aparecimento de in\&apos;fameras doen\&apos;e7as, como raquitismo, escorbuto, dores de cabe\&apos;e7a, osteoporose, cegueira-noturna, e outras, sendo que a subnutri\&apos;e7\&apos;e3o &#x0A;\&apos;e9 uma das principais causas de morte de crian\&apos;e7as em alguns pa\&apos;edses.\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 [...]\par\par\fs36\b Desenvolvimento por exemplifica\&apos;e7\&apos;e3o \par (ou enumera\&apos;e7\&apos;e3o)\fs28\b0\par\par O desenvolvimento &#x0A;por exemplifica\&apos;e7\&apos;e3o pode ser usado quando o autor deseja expor uma sequ\&apos;eancia de exemplos, de situa\&apos;e7\&apos;f5es, de caracter\&apos;edsticas, etc., para comprovar sua tese. Exemplo:\par}&#x0A;</rtf>
+<raw>?A ingest�o de alimentos em quantidade menor do que a necess�ria faz com que o organismo gaste suas reservas de gordura para manter o metabolismo do corpo, levando � subnutri��o.&#x0A;&#x0A;O baixo consumo de nutrientes essenciais � vida, como vitaminas e sais minerais, pode acarretar o aparecimento de in�meras doen�as, como raquitismo, escorbuto, dores de cabe�a, osteoporose, cegueira-noturna, e outras, sendo que a subnutri��o � uma das principais causas de morte de crian�as em alguns pa�ses.&#x0A;[...]&#x0A;&#x0A;Desenvolvimento por exemplifica��o &#x0A;(ou enumera��o)&#x0A;&#x0A;O desenvolvimento por exemplifica��o pode ser usado quando o autor deseja expor uma sequ�ncia de exemplos, de situa��es, de caracter�sticas, etc., para comprovar sua tese. Exemplo:</raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="967" parent="965" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689272791</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>95</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>596</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text967Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text967Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text967Font1&quot;  &gt;Ã€ disposiÃ§Ã£o do produtor do texto, existem vÃ¡rios tipos de desenvolvimento: com citaÃ§Ãµes de autoridade, dados estatÃ­sticos, exemplificaÃ§Ã£o (enumeraÃ§Ã£o), relatos de fatos publicados nos meios de comunicaÃ§Ã£o, argumento de autoridade, por causa e consequÃªncia, entre outros. Desses tantos, vamos abordar o desenvolvimento por causa e consequÃªncia, exemplificaÃ§Ã£o e argumento de autoridade.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text967Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text967Font2&quot;  &gt;Desenvolvimento por causa e consequÃªncia&lt;/span &gt;&lt;span class=&quot;text967Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text967Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text967Font1&quot;  &gt;O desenvolvimento que utiliza a relaÃ§Ã£o de causa (motivos, porquÃªs) e consequÃªncia (efeitos, resultados) pode ser usado em muitos casos. Exemplo:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text967Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text967Font1&quot;  &gt;SubnutriÃ§Ã£o&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text967Font1&quot;  &gt;[...] &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text967Font1&quot;  &gt;A alimentaÃ§Ã£o deficiente ocorre com pessoas que baseiam a sua dieta alimentar apenas em carboidratos e gorduras, sendo essa alimentaÃ§Ã£o muito pobre em frutas, verduras e proteÃ­nas como a carne. Essa alimentaÃ§Ã£o deficiente mata a fome, mas nÃ£o fornece os elementos essenciais, como vitaminas e sais minerais, necessÃ¡rios para o bom funcionamento do organismo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 \&apos;c0 disposi\&apos;e7\&apos;e3o do produtor do texto, existem v\&apos;e1rios tipos de desenvolvimento: com cita\&apos;e7\&apos;f5es de autoridade, dados estat\&apos;edsticos, exemplifica\&apos;e7\&apos;e3o (enumera\&apos;e7\&apos;e3o), relatos de &#x0A;fatos publicados nos meios de comunica\&apos;e7\&apos;e3o, argumento de autoridade, por causa e consequ\&apos;eancia, entre outros. Desses tantos, vamos abordar o desenvolvimento por causa e consequ\&apos;eancia, exemplifica\&apos;e7\&apos;e3o e argumento de autoridade.\par\fs36\b\par &#x0A;Desenvolvimento por causa e consequ\&apos;eancia\fs28\b0\par\par O desenvolvimento que utiliza a rela\&apos;e7\&apos;e3o de causa (motivos, porqu\&apos;eas) e consequ\&apos;eancia (efeitos, resultados) pode ser usado em muitos casos. Exemplo:\par\par Subnutri\&apos;e7\&apos;e3o\par [...] \par &#x0A;A alimenta\&apos;e7\&apos;e3o deficiente ocorre com pessoas que baseiam a sua dieta alimentar apenas em carboidratos e gorduras, sendo essa alimenta\&apos;e7\&apos;e3o muito pobre em frutas, verduras e prote\&apos;ednas como a carne. Essa alimenta\&apos;e7\&apos;e3o deficiente mata a fome, &#x0A;mas n\&apos;e3o fornece os elementos essenciais, como vitaminas e sais minerais, necess\&apos;e1rios para o bom funcionamento do organismo.\par}&#x0A;</rtf>
+<raw>?� disposi��o do produtor do texto, existem v�rios tipos de desenvolvimento: com cita��es de autoridade, dados estat�sticos, exemplifica��o (enumera��o), relatos de fatos publicados nos meios de comunica��o, argumento de autoridade, por causa e consequ�ncia, entre outros. Desses tantos, vamos abordar o desenvolvimento por causa e consequ�ncia, exemplifica��o e argumento de autoridade.&#x0A;&#x0A;Desenvolvimento por causa e consequ�ncia&#x0A;&#x0A;O desenvolvimento que utiliza a rela��o de causa (motivos, porqu�s) e consequ�ncia (efeitos, resultados) pode ser usado em muitos casos. Exemplo:&#x0A;&#x0A;Subnutri��o&#x0A;[...] &#x0A;A alimenta��o deficiente ocorre com pessoas que baseiam a sua dieta alimentar apenas em carboidratos e gorduras, sendo essa alimenta��o muito pobre em frutas, verduras e prote�nas como a carne. Essa alimenta��o deficiente mata a fome, mas n�o fornece os elementos essenciais, como vitaminas e sais minerais, necess�rios para o bom funcionamento do organismo.</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="968" parent="965">
+<name>Grupo_1</name>
+<lastupdated>1689272689</lastupdated>
+<text id="969" parent="968" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689272689</lastupdated>
+<possize>
+<point>
+<x>36</x>
+<y>0</y>
+</point>
+<size>
+<cx>668</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text969Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text969Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text969Font1&quot;  &gt;Tipo Textual: DissertaÃ§Ã£o Argumentativa&lt;/span &gt;&lt;span class=&quot;text969Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Tipo Textual: Disserta\&apos;e7\&apos;e3o Argumentativa\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipo Textual: Disserta��o Argumentativa</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="971" parent="968" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689272689</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="973" parent="968" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689272689</lastupdated>
+<possize>
+<point>
+<x>66</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="975" parent="968" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689272689</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<image id="977" parent="968" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689272689</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="979" parent="968" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689272689</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1057" parent="40">
+<name>Página 7</name>
+<lastupdated>1689706552</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1058" parent="1057" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689272989</lastupdated>
+<possize>
+<point>
+<x>506</x>
+<y>75</y>
+</point>
+<size>
+<cx>498</cx>
+<cy>564</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1058Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1058Font1&quot;  &gt;Eufemismo Ã© a arte de dizer uma coisa e acreditar que o pÃºblico escuta ou lÃª outra. Ã‰ um jeitinho de escamotear significados. De tentar encobrir verdades e realidades.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1058Font1&quot;  &gt;[...]&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1058Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1058Font1&quot;  &gt;Desenvolvimento porargumento de autoridade&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1058Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1058Font1&quot;  &gt;O desenvolvimento por argumento de autoridade lanÃ§a mÃ£o da citaÃ§Ã£o de uma fonte confiÃ¡vel: dados de pesquisa, especialista no assunto, frase de cientista, lÃ­der, polÃ­tico, ou de algum pensador, para fundamentar a tese. Exemplo:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1058Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1058Font1&quot;  &gt;A democratizaÃ§Ã£o do conhecimento&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1058Font1&quot;  &gt;[...]&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1058Font1&quot;  &gt;CÃ©lio da Cunha acumula conhecimento e expe_riÃªncia da Ã¡rea em funÃ§Ãµes na Unesco, CNPq (Conselho Nacional de Desenvolvimento CientÃ­fico e TecnolÃ³gico) e universidades de BrasÃ­lia e Federal de Mato Grosso hÃ¡ mais de 40 anos. Ele alerta para o fato de que a educaÃ§Ã£o nacional precisa se situar acima de conflitos ideolÃ³gicos e interesses partidÃ¡rios ou de grupos, visando ao futuro das novas geraÃ§Ãµes.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1058Font1&quot;  &gt;[...]&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\lang1046\hich\f2\loch\f2\cf2\fs28 Eufemismo \&apos;e9 a arte de dizer uma coisa e acreditar que o p\&apos;fablico escuta ou l\&apos;ea outra. \&apos;c9 um jeitinho de escamotear significados. De tentar encobrir verdades e realidades.\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2 &#x0A;[...]\par\par Desenvolvimento porargumento de autoridade\par\par O desenvolvimento por argumento de autoridade lan\&apos;e7a m\&apos;e3o da cita\&apos;e7\&apos;e3o de uma fonte confi\&apos;e1vel: dados de pesquisa, especialista no assunto, frase de cientista, l\&apos;edder, pol\&apos;edtico, &#x0A;ou de algum pensador, para fundamentar a tese. Exemplo:\par\par A democratiza\&apos;e7\&apos;e3o do conhecimento\par [...]\par C\&apos;e9lio da Cunha acumula conhecimento e expe&#x02;ri\&apos;eancia da \&apos;e1rea em fun\&apos;e7\&apos;f5es na Unesco, CNPq (Conselho Nacional de Desenvolvimento &#x0A;Cient\&apos;edfico e Tecnol\&apos;f3gico) e universidades de Bras\&apos;edlia e Federal de Mato Grosso h\&apos;e1 mais de 40 anos. Ele alerta para o fato de que a educa\&apos;e7\&apos;e3o nacional precisa se situar acima de conflitos ideol\&apos;f3gicos e interesses partid\&apos;e1rios ou de &#x0A;grupos, visando ao futuro das novas gera\&apos;e7\&apos;f5es.\par [...]\lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?Eufemismo � a arte de dizer uma coisa e acreditar que o p�blico escuta ou l� outra. � um jeitinho de escamotear significados. De tentar encobrir verdades e realidades.&#x0A;[...]&#x0A;&#x0A;Desenvolvimento porargumento de autoridade&#x0A;&#x0A;O desenvolvimento por argumento de autoridade lan�a m�o da cita��o de uma fonte confi�vel: dados de pesquisa, especialista no assunto, frase de cientista, l�der, pol�tico, ou de algum pensador, para fundamentar a tese. Exemplo:&#x0A;&#x0A;A democratiza��o do conhecimento&#x0A;[...]&#x0A;C�lio da Cunha acumula conhecimento e expe_ri�ncia da �rea em fun��es na Unesco, CNPq (Conselho Nacional de Desenvolvimento Cient�fico e Tecnol�gico) e universidades de Bras�lia e Federal de Mato Grosso h� mais de 40 anos. Ele alerta para o fato de que a educa��o nacional precisa se situar acima de conflitos ideol�gicos e interesses partid�rios ou de grupos, visando ao futuro das novas gera��es.&#x0A;[...]</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="1059" parent="1057" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689272949</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>109</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>523</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1059Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1059Font1&quot;  &gt;A arte de enganar&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1059Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1059Font1&quot;  &gt;Em seu livro Pernas pro ar, Eduardo Galeano recorda que, na era vitoriana, era proibido mencionar &quot;calÃ§as&quot; na presenÃ§a de uma jovem. Hoje em dia, diz ele, nÃ£o cai bem utilizar certas expressÃµes perante a opiniÃ£o pÃºblica: &quot;O capitalismo exibe o nome artÃ­stico de economia de mercado; imperialismo se chama globalizaÃ§Ã£o; suas vÃ­timas se chamam paÃ­ses em via de desenvolvimento; oportunismo se chama pragmatismo; despedir sem indenizaÃ§Ã£o nem explicaÃ§Ã£o se chama flexibilizaÃ§Ã£o laboral&quot;, etc.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1059Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1059Font1&quot;  &gt;A lista Ã© longa. Acrescento os inÃºmeros preconceitos que carregamos: ladrÃ£o Ã© sonegador; lobista Ã© consultor; fracasso Ã© crise; especulaÃ§Ã£o Ã© derivativo; latifÃºndio Ã© agronegÃ³cio; desmatamento Ã© investimento rural; lavanderia de dinheiro escuso Ã© paraÃ­so fiscal; acumulaÃ§Ã£o privada de riqueza Ã© democracia; socializaÃ§Ã£o de bens Ã© ditadura; governar a favor da maioria Ã© populismo; tortura Ã© constrangimento ilegal; invasÃ£o Ã© intervenÃ§Ã£o; peste Ã© pandemia; magricela Ã© anorÃ©xica.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red254\green254\blue254 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 A arte de enganar\par\par Em seu livro Pernas pro ar, Eduardo Galeano recorda que, na era vitoriana, era proibido mencionar &quot;cal\u231 \&apos;e7as&quot; na presen\u231 \&apos;e7a de uma jovem. Hoje em dia, diz ele, &#x0A;n\u227 \&apos;e3o cai bem utilizar certas express\u245 \&apos;f5es perante a opini\u227 \&apos;e3o p\u250 \&apos;fablica: &quot;O capitalismo exibe o nome art\u237 \&apos;edstico de economia de mercado; imperialismo se chama globaliza\u231 \&apos;e7\u227 \&apos;e3o; suas v\u237 \&apos;edtimas se &#x0A;chamam pa\u237 \&apos;edses em via de desenvolvimento; oportunismo se chama pragmatismo; despedir sem indeniza\u231 \&apos;e7\u227 \&apos;e3o nem explica\u231 \&apos;e7\u227 \&apos;e3o se chama flexibiliza\u231 \&apos;e7\u227 \&apos;e3o laboral&quot;, etc.\lang1046\hich\f2\loch\f2\par\par A &#x0A;lista \&apos;e9 longa. Acrescento os in\&apos;fameros preconceitos que carregamos: ladr\&apos;e3o \&apos;e9 sonegador; lobista \&apos;e9 consultor; fracasso \&apos;e9 crise; especula\&apos;e7\&apos;e3o \&apos;e9 derivativo; latif\&apos;fandio \&apos;e9 agroneg\&apos;f3cio; desmatamento \&apos;e9 investimento rural; &#x0A;lavanderia de dinheiro escuso \&apos;e9 para\&apos;edso fiscal; acumula\&apos;e7\&apos;e3o privada de riqueza \&apos;e9 democracia; socializa\&apos;e7\&apos;e3o de bens \&apos;e9 ditadura; governar a favor da maioria \&apos;e9 populismo; tortura \&apos;e9 constrangimento ilegal; invas\&apos;e3o \&apos;e9 interven\&apos;e7\&apos;e3o; &#x0A;peste \&apos;e9 pandemia; magricela \&apos;e9 anor\&apos;e9xica.\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?A arte de enganar&#x0A;&#x0A;Em seu livro Pernas pro ar, Eduardo Galeano recorda que, na era vitoriana, era proibido mencionar &quot;cal�as&quot; na presen�a de uma jovem. Hoje em dia, diz ele, n�o cai bem utilizar certas express�es perante a opini�o p�blica: &quot;O capitalismo exibe o nome art�stico de economia de mercado; imperialismo se chama globaliza��o; suas v�timas se chamam pa�ses em via de desenvolvimento; oportunismo se chama pragmatismo; despedir sem indeniza��o nem explica��o se chama flexibiliza��o laboral&quot;, etc.&#x0A;&#x0A;A lista � longa. Acrescento os in�meros preconceitos que carregamos: ladr�o � sonegador; lobista � consultor; fracasso � crise; especula��o � derivativo; latif�ndio � agroneg�cio; desmatamento � investimento rural; lavanderia de dinheiro escuso � para�so fiscal; acumula��o privada de riqueza � democracia; socializa��o de bens � ditadura; governar a favor da maioria � populismo; tortura � constrangimento ilegal; invas�o � interven��o; peste � pandemia; magricela � anor�xica.&#x0A;</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="1060" parent="1057">
+<name>Grupo_1</name>
+<lastupdated>1689272884</lastupdated>
+<text id="1061" parent="1060" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689272884</lastupdated>
+<possize>
+<point>
+<x>36</x>
+<y>0</y>
+</point>
+<size>
+<cx>668</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1061Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1061Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1061Font1&quot;  &gt;Tipo Textual: DissertaÃ§Ã£o Argumentativa&lt;/span &gt;&lt;span class=&quot;text1061Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Tipo Textual: Disserta\&apos;e7\&apos;e3o Argumentativa\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipo Textual: Disserta��o Argumentativa</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="1063" parent="1060" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689272884</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1065" parent="1060" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689272884</lastupdated>
+<possize>
+<point>
+<x>66</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1067" parent="1060" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689272884</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<image id="1069" parent="1060" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689272884</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1071" parent="1060" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689272884</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1135" parent="40">
+<name>Página 8</name>
+<lastupdated>1689706553</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1136" parent="1135" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689273159</lastupdated>
+<possize>
+<point>
+<x>506</x>
+<y>75</y>
+</point>
+<size>
+<cx>498</cx>
+<cy>580</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1136Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1136Font3 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1136Font1&quot;  &gt;Esse tipo de conclusÃ£o Ã© o resumo do seu texto. Assim, quando a pessoa ler sua conclusÃ£o vai se lembrar de todo o texto. Uma boa conclusÃ£o Ã© aquela que a pessoa memoriza o seu conteÃºdo e consegue se recordar de todo o restante. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1136Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1136Font1&quot;  &gt;Assim, vocÃª deve retomar a tese que apresentou na introduÃ§Ã£o e desenvolveu nos parÃ¡grafos de argumentaÃ§Ã£o. Portanto, a funÃ§Ã£o da conclusÃ£o de sÃ­ntese na redaÃ§Ã£o Ã© relembrar o conteÃºdo, o ponto de vista tratado e convencer melhor o leitor.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1136Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1136Font3&quot;  &gt;IntervenÃ§Ã£o/soluÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text1136Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1136Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1136Font1&quot;  &gt;Outro exemplo dentre os tipos de conclusÃ£o Ã© a intervenÃ§Ã£o. Essa tÃ©cnica Ã© obrigatÃ³ria na redaÃ§Ã£o do ENEM. Ela consiste em elaborar uma sugestÃ£o para solucionar o problema posto em debate na proposta de redaÃ§Ã£o. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1136Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1136Font1&quot;  &gt;Vale destacar que nÃ£o Ã© obrigatÃ³rio propor uma soluÃ§Ã£o &quot;milagrosa&quot; para determinada situaÃ§Ã£o em pouco mais de cinco linhas. PorÃ©m, devem estar presentes quatro elementos que servem como um guia.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Esse tipo de conclus\u227 \&apos;e3o \u233 \&apos;e9 o resumo do seu texto. Assim, quando a pessoa ler sua conclus\u227 \&apos;e3o vai se lembrar de todo o texto. Uma boa conclus\u227 \&apos;e3o \u233 \&apos;e9 aquela que a pessoa &#x0A;memoriza o seu conte\u250 \&apos;fado e consegue se recordar de todo o restante. \par\par Assim, voc\u234 \&apos;ea deve retomar a tese que apresentou na introdu\u231 \&apos;e7\u227 \&apos;e3o e desenvolveu nos par\u225 \&apos;e1grafos de argumenta\u231 \&apos;e7\u227 \&apos;e3o. Portanto, &#x0A;a fun\u231 \&apos;e7\u227 \&apos;e3o da conclus\u227 \&apos;e3o de s\u237 \&apos;edntese na reda\u231 \&apos;e7\u227 \&apos;e3o \u233 \&apos;e9 relembrar o conte\u250 \&apos;fado, o ponto de vista tratado e convencer melhor o leitor.\par\par\fs32\b Interven\u231 \&apos;e7\u227 \&apos;e3o/solu\u231 \&apos;e7\u227 &#x0A;\&apos;e3o\fs28\b0\par\par Outro exemplo dentre os tipos de conclus\u227 \&apos;e3o \u233 \&apos;e9 a interven\u231 \&apos;e7\u227 \&apos;e3o. Essa t\u233 \&apos;e9cnica \u233 \&apos;e9 obrigat\u243 \&apos;f3ria na reda\u231 \&apos;e7\u227 \&apos;e3o do ENEM. Ela consiste em elaborar uma sugest\u227 &#x0A;\&apos;e3o para solucionar o problema posto em debate na proposta de reda\u231 \&apos;e7\u227 \&apos;e3o. \par\par Vale destacar que n\u227 \&apos;e3o \u233 \&apos;e9 obrigat\u243 \&apos;f3rio propor uma solu\u231 \&apos;e7\u227 \&apos;e3o &quot;milagrosa&quot; para determinada situa\u231 \&apos;e7\u227 \&apos;e3o &#x0A;em pouco mais de cinco linhas. Por\u233 \&apos;e9m, devem estar presentes quatro elementos que servem como um guia.\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Esse tipo de conclus�o � o resumo do seu texto. Assim, quando a pessoa ler sua conclus�o vai se lembrar de todo o texto. Uma boa conclus�o � aquela que a pessoa memoriza o seu conte�do e consegue se recordar de todo o restante. &#x0A;&#x0A;Assim, voc� deve retomar a tese que apresentou na introdu��o e desenvolveu nos par�grafos de argumenta��o. Portanto, a fun��o da conclus�o de s�ntese na reda��o � relembrar o conte�do, o ponto de vista tratado e convencer melhor o leitor.&#x0A;&#x0A;Interven��o/solu��o&#x0A;&#x0A;Outro exemplo dentre os tipos de conclus�o � a interven��o. Essa t�cnica � obrigat�ria na reda��o do ENEM. Ela consiste em elaborar uma sugest�o para solucionar o problema posto em debate na proposta de reda��o. &#x0A;&#x0A;Vale destacar que n�o � obrigat�rio propor uma solu��o &quot;milagrosa&quot; para determinada situa��o em pouco mais de cinco linhas. Por�m, devem estar presentes quatro elementos que servem como um guia.&#x0A;</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="1137" parent="1135" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689273118</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>124</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>491</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1137Font1 { font-size:21px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1137Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1137Font1&quot;  &gt;ConclusÃ£o da dissertaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text1137Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1137Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1137Font2&quot;  &gt;A conclusÃ£o Ã© a parte final da dissertaÃ§Ã£o argumentativa, o Ãºltimo parÃ¡grafo do texto, que pode ser redigido de algumas maneiras, conforme a finalidade. Nessa parte, por exemplo, o autor pode encerrar o texto com uma exposiÃ§Ã£o geral e resumida das ideias desenvolvidas, rati_ficando-as de acordo com a tese apresentada e defendida anteriormente, ou concluir com uma proposta de intervenÃ§Ã£o com soluÃ§Ã£o para o problema levantado com a tese. Veremos na sequÃªncia estas duas maneiras: a conclusÃ£o-sÃ­ntese e a conclusÃ£o-proposta.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1137Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.192&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1137Font1&quot;  &gt;SÃ­ntese &lt;/span &gt;&lt;span class=&quot;text1137Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1137Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1137Font2&quot;  &gt;Um dos tipos de conclusÃ£o Ã© a sÃ­ntese. Ela consiste emsintetizar as ideias que foram abordadas ao longo da dissertaÃ§Ã£o, confirmando a tese que normalmente aparece na introduÃ§Ã£o do texto. O objetivo da conclusÃ£o Ã© reafirmar a tese feita e fechar o ciclo de forma coerente. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs32\b Conclus\&apos;e3o da disserta\&apos;e7\&apos;e3o\fs28\b0\par\par A conclus\&apos;e3o \&apos;e9 a parte final da disserta\&apos;e7\&apos;e3o argumentativa, o \&apos;faltimo par\&apos;e1grafo do texto, que pode ser redigido de algumas maneiras, &#x0A;conforme a finalidade. Nessa parte, por exemplo, o autor pode encerrar o texto com uma exposi\&apos;e7\&apos;e3o geral e resumida das ideias desenvolvidas, rati_ficando-as de acordo com a tese apresentada e defendida anteriormente, ou concluir com uma proposta &#x0A;de interven\&apos;e7\&apos;e3o com solu\&apos;e7\&apos;e3o para o problema levantado com a tese. Veremos na sequ\&apos;eancia estas duas maneiras: a conclus\&apos;e3o-s\&apos;edntese e a conclus\&apos;e3o-proposta.\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\fs32\b S\&apos;edntese \fs28\b0\par\par &#x0A;Um dos tipos de conclus\&apos;e3o \&apos;e9 a s\&apos;edntese. Ela consiste emsintetizar as ideias que foram abordadas ao longo da disserta\&apos;e7\&apos;e3o, confirmando a tese que normalmente aparece na introdu\&apos;e7\&apos;e3o do texto. O objetivo da conclus\&apos;e3o \&apos;e9 reafirmar a &#x0A;tese feita e fechar o ciclo de forma coerente. \par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Conclus�o da disserta��o&#x0A;&#x0A;A conclus�o � a parte final da disserta��o argumentativa, o �ltimo par�grafo do texto, que pode ser redigido de algumas maneiras, conforme a finalidade. Nessa parte, por exemplo, o autor pode encerrar o texto com uma exposi��o geral e resumida das ideias desenvolvidas, rati_ficando-as de acordo com a tese apresentada e defendida anteriormente, ou concluir com uma proposta de interven��o com solu��o para o problema levantado com a tese. Veremos na sequ�ncia estas duas maneiras: a conclus�o-s�ntese e a conclus�o-proposta.&#x0A;&#x0A;S�ntese &#x0A;&#x0A;Um dos tipos de conclus�o � a s�ntese. Ela consiste emsintetizar as ideias que foram abordadas ao longo da disserta��o, confirmando a tese que normalmente aparece na introdu��o do texto. O objetivo da conclus�o � reafirmar a tese feita e fechar o ciclo de forma coerente. &#x0A;</raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="1138" parent="1135">
+<name>Grupo_1</name>
+<lastupdated>1689273018</lastupdated>
+<text id="1139" parent="1138" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689273018</lastupdated>
+<possize>
+<point>
+<x>36</x>
+<y>0</y>
+</point>
+<size>
+<cx>668</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1139Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1139Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1139Font1&quot;  &gt;Tipo Textual: DissertaÃ§Ã£o Argumentativa&lt;/span &gt;&lt;span class=&quot;text1139Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Tipo Textual: Disserta\&apos;e7\&apos;e3o Argumentativa\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipo Textual: Disserta��o Argumentativa</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="1141" parent="1138" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689273018</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1143" parent="1138" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689273018</lastupdated>
+<possize>
+<point>
+<x>66</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1145" parent="1138" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689273018</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<image id="1147" parent="1138" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689273018</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1149" parent="1138" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689273018</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1249" parent="40">
+<name>Página 9</name>
+<lastupdated>1689706554</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1251" parent="1249" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1689273242</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>124</y>
+</point>
+<size>
+<cx>500</cx>
+<cy>491</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1251Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1251Font1&quot;  &gt;Dessa forma, tente responder Ã s seguintes perguntas para fazer uma excelente conclusÃ£o por intervenÃ§Ã£o/soluÃ§Ã£o:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1251Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1251Font1&quot;  &gt;1.o que Ã© necessÃ¡rio para resolver o problema? (explicaÃ§Ã£o e aÃ§Ã£o);&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1251Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1251Font1&quot;  &gt;2. quem deve resolver o problema? (agente social);&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1251Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1251Font1&quot;  &gt;3. como o problema deve ser resolvido? (meio ou modo);&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1251Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1251Font1&quot;  &gt;4. o que serÃ¡ conquistado com o fim do problema? (finalidade).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1251Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1251Font1&quot;  &gt;AlÃ©m disso, procure explicar e detalhar bem a suaproposta quando houver uma problemÃ¡tica a ser solucionada.. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Dessa forma, tente responder \&apos;e0s seguintes perguntas para fazer uma excelente conclus\&apos;e3o por interven\&apos;e7\&apos;e3o/solu\&apos;e7\&apos;e3o:\par\par 1.o que \&apos;e9 necess\&apos;e1rio para resolver o problema? (explica\&apos;e7\&apos;e3o &#x0A;e a\&apos;e7\&apos;e3o);\par\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 2. quem deve resolver o problema? (agente social);\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\par 3. como o problema deve ser resolvido? (meio ou modo);\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\par &#x0A;4. o que ser\&apos;e1 conquistado com o fim do problema? (finalidade).\par\par Al\&apos;e9m disso, procure explicar e detalhar bem a suaproposta quando houver uma problem\&apos;e1tica a ser\lang1046\hich\f2\loch\f2  \lang1046\hich\f2\loch\f2 solucionada.. \par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Dessa forma, tente responder �s seguintes perguntas para fazer uma excelente conclus�o por interven��o/solu��o:&#x0A;&#x0A;1.o que � necess�rio para resolver o problema? (explica��o e a��o);&#x0A;&#x0A;2. quem deve resolver o problema? (agente social);&#x0A;&#x0A;3. como o problema deve ser resolvido? (meio ou modo);&#x0A;&#x0A;4. o que ser� conquistado com o fim do problema? (finalidade).&#x0A;&#x0A;Al�m disso, procure explicar e detalhar bem a suaproposta quando houver uma problem�tica a ser solucionada.. &#x0A;</raw>
+<numoflines>18</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="1252" parent="1249">
+<name>Grupo_1</name>
+<lastupdated>1689273177</lastupdated>
+<text id="1253" parent="1252" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689273177</lastupdated>
+<possize>
+<point>
+<x>36</x>
+<y>0</y>
+</point>
+<size>
+<cx>668</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1253Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1253Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1253Font1&quot;  &gt;Tipo Textual: DissertaÃ§Ã£o Argumentativa&lt;/span &gt;&lt;span class=&quot;text1253Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Tipo Textual: Disserta\&apos;e7\&apos;e3o Argumentativa\hich\f1\loch\f1\b0\par}&#x0A;</rtf>
+<raw>?Tipo Textual: Disserta��o Argumentativa</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="1255" parent="1252" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689273177</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1257" parent="1252" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689273177</lastupdated>
+<possize>
+<point>
+<x>66</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1259" parent="1252" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689273177</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<image id="1261" parent="1252" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1689273177</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1263" parent="1252" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1689273177</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

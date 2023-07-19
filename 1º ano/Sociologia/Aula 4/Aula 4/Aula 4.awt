@@ -1,0 +1,2421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>1837</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="170" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="171" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1114" resourcetype="image">
+<name>Imagem1.png</name>
+<relativelink>images\Imagem1.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1829" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1830" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="79">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 4</name>
+<lastupdated>1687710852</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="78" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687710863</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687710863</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687710863</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="79" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687710863</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687710863</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687710863</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="70" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687710863</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="71" parent="70" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687710863</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="70" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687710863</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="63" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687710863</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="64" parent="63" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687710863</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="65" parent="63" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687710863</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="55" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687710863</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="56" parent="55" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687710863</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="55" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687710863</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="58" parent="55" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687710863</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="55">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689696202</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="1814" parent="40">
+<name>Página 1</name>
+<lastupdated>1689696204</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="1815" parent="1814">
+<name>Grupo_1</name>
+<lastupdated>1689696204</lastupdated>
+<image id="1817" parent="1815" resource="1829" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689696204</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1819" parent="1815" resource="1830" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689696204</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1820" parent="1815" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689696208</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1820Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1820Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1820Font1&quot;  &gt;Aula 4&lt;/span &gt;&lt;span class=&quot;text1820Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 4\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 4</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="1822" parent="1815" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689696204</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1824" parent="1815" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689696204</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1826" parent="1815" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689696204</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1828" parent="1815" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689696204</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="155" parent="40">
+<name>Página 2</name>
+<lastupdated>1689696202</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="691" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687711032</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>152</y>
+</point>
+<size>
+<cx>444</cx>
+<cy>433</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text691Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text691Font1&quot;  &gt;A imprensa, entendida aqui como um dispositivo capaz de reproduzir as palavras escritas mecanicamente, foi inventada na Alemanha, no sÃ©culo XV, por Johann Gutemberg e foi uma revoluÃ§Ã£o no Ocidente. Na Ãsia, chineses e coreanos jÃ¡ possuÃ­am tecnologias locais de impressÃ£o por madeira, metal e barro e sÃ³ adotariam a tÃ©cnica ocidental a partir do SÃ©culo XVI. O surgimento da imprensa permitiu que pÃ¡ginas inteiras fossem facilmente reproduzidas e de modo muito mais rÃ¡pido. Assim, a impressÃ£o de livros ganhou forÃ§a na Europa do SÃ©culo XV, aliado ao interesse pelo estudo incentivado pelos intelectuais do Renascimento. Entretanto, apenas o clero e a nobreza costumavam ser alfabetizados, permanecendo os livros um produto das classes mais abastadas. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 A imprensa, entendida aqui como um dispositivo capaz de reproduzir as palavras escritas mecanicamente, foi inventada na Alemanha, no s\u233 \&apos;e9culo XV, por Johann Gutemberg e foi uma revolu\u231 \&apos;e7\u227 \&apos;e3o no Ocidente. &#x0A;Na \u193 \&apos;c1sia, chineses e coreanos j\u225 \&apos;e1 possu\u237 \&apos;edam tecnologias locais de impress\u227 \&apos;e3o por madeira, metal e barro e s\u243 \&apos;f3 adotariam a t\u233 \&apos;e9cnica ocidental a partir do S\u233 \&apos;e9culo XVI. O surgimento da imprensa permitiu &#x0A;que p\u225 \&apos;e1ginas inteiras fossem facilmente reproduzidas e de modo muito mais r\u225 \&apos;e1pido. Assim, a impress\u227 \&apos;e3o de livros ganhou for\u231 \&apos;e7a na Europa do S\u233 \&apos;e9culo XV, aliado ao interesse pelo estudo incentivado pelos intelectuais &#x0A;do Renascimento. Entretanto, apenas o clero e a nobreza costumavam ser alfabetizados, permanecendo os livros um produto das classes mais abastadas. \par}&#x0A;</rtf>
+<raw>?A imprensa, entendida aqui como um dispositivo capaz de reproduzir as palavras escritas mecanicamente, foi inventada na Alemanha, no s�culo XV, por Johann Gutemberg e foi uma revolu��o no Ocidente. Na �sia, chineses e coreanos j� possu�am tecnologias locais de impress�o por madeira, metal e barro e s� adotariam a t�cnica ocidental a partir do S�culo XVI. O surgimento da imprensa permitiu que p�ginas inteiras fossem facilmente reproduzidas e de modo muito mais r�pido. Assim, a impress�o de livros ganhou for�a na Europa do S�culo XV, aliado ao interesse pelo estudo incentivado pelos intelectuais do Renascimento. Entretanto, apenas o clero e a nobreza costumavam ser alfabetizados, permanecendo os livros um produto das classes mais abastadas. </raw>
+<numoflines>17</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="666" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687710990</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>148</y>
+</point>
+<size>
+<cx>440</cx>
+<cy>387</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text666Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text666Font1&quot;  &gt;Imagine que, algumas dÃ©cadas atrÃ¡s, no interior do Brasil, havia lugares onde nÃ£o tinha telefone, rÃ¡dio ou televisÃ£o. As notÃ­cias, quando chegavam, vinham pelos correios ou boca a boca, com pessoas conversando entre si. Durante milÃªnios, essa era a realidade da maioria dos seres humanos. Como poucas pessoas sabiam ler e escrever, a comunicaÃ§Ã£o por meio de jornais e revistas era restrita Ã s elites escolarizadas, assim como a formaÃ§Ã£o intelectual por meio da leitura de livros. Era comum que cartas, jornais e revistas chegassem semanas, senÃ£o meses, apÃ³s serem escritas e publicadas. Assim, a comunicaÃ§Ã£o entre os seres humanos era principalmente cotidiana, feita conversando, entre pessoas de convÃ­vio mais prÃ³ximo, muitas vezes ignorando completamente o que se passava em outros paÃ­ses. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Imagine que, algumas d\u233 \&apos;e9cadas atr\u225 \&apos;e1s, no interior do Brasil, havia lugares onde n\u227 \&apos;e3o tinha telefone, r\u225 \&apos;e1dio ou televis\u227 \&apos;e3o. As not\u237 \&apos;edcias, quando chegavam, &#x0A;vinham pelos correios ou boca a boca, com pessoas conversando entre si. Durante mil\u234 \&apos;eanios, essa era a realidade da maioria dos seres humanos. Como poucas pessoas sabiam ler e escrever, a comunica\u231 \&apos;e7\u227 \&apos;e3o por meio de jornais e revistas &#x0A;era restrita \u224 \&apos;e0s elites escolarizadas, assim como a forma\u231 \&apos;e7\u227 \&apos;e3o intelectual por meio da leitura de livros. Era comum que cartas, jornais e revistas chegassem semanas, sen\u227 \&apos;e3o meses, ap\u243 \&apos;f3s serem escritas e publicadas. &#x0A;Assim, a comunica\u231 \&apos;e7\u227 \&apos;e3o entre os seres humanos era principalmente cotidiana, feita conversando, entre pessoas de conv\u237 \&apos;edvio mais pr\u243 \&apos;f3ximo, muitas vezes ignorando completamente o que se passava em outros pa\u237 \&apos;edses. \par}&#x0A;</rtf>
+<raw>?Imagine que, algumas d�cadas atr�s, no interior do Brasil, havia lugares onde n�o tinha telefone, r�dio ou televis�o. As not�cias, quando chegavam, vinham pelos correios ou boca a boca, com pessoas conversando entre si. Durante mil�nios, essa era a realidade da maioria dos seres humanos. Como poucas pessoas sabiam ler e escrever, a comunica��o por meio de jornais e revistas era restrita �s elites escolarizadas, assim como a forma��o intelectual por meio da leitura de livros. Era comum que cartas, jornais e revistas chegassem semanas, sen�o meses, ap�s serem escritas e publicadas. Assim, a comunica��o entre os seres humanos era principalmente cotidiana, feita conversando, entre pessoas de conv�vio mais pr�ximo, muitas vezes ignorando completamente o que se passava em outros pa�ses. </raw>
+<numoflines>17</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="662" parent="155">
+<name>Grupo_1</name>
+<lastupdated>1687710953</lastupdated>
+<shape id="160" parent="662" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687710953</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="162" parent="662" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687710953</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="164" parent="662" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687710953</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="165" parent="662" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687710953</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>801</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text165Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text165Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text165Font1&quot;  &gt;Os meios de comunicaÃ§Ã£o de massa na sociedade atual: rÃ¡dio, televisÃ£o e internet &lt;/span &gt;&lt;span class=&quot;text165Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Os meios de comunica\&apos;e7\&apos;e3o de massa na sociedade atual: r\&apos;e1dio, televis\&apos;e3o e internet \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Os meios de comunica��o de massa na sociedade atual: r�dio, televis�o e internet </raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="167" parent="662" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687710953</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>136</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>521</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="169" parent="662" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687710953</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="709" parent="40">
+<name>Página 3</name>
+<lastupdated>1687711180</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="788" parent="709" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687711194</lastupdated>
+<possize>
+<point>
+<x>525</x>
+<y>138</y>
+</point>
+<size>
+<cx>456</cx>
+<cy>474</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text788Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text788Font1&quot;  &gt;As consequÃªncias do surgimento dos meios de comunicaÃ§Ã£o de massas para as sociedades foram profundos, sendo um dos temas estudados pela Sociologia.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text788Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text788Font1&quot;  &gt;A RevoluÃ§Ã£o Industrial teve como uma de suas consequÃªncias o aumento das populaÃ§Ãµes nas cidades e em muitos paÃ­ses. Aliado ao crescimento populacional, os avanÃ§os tecnolÃ³gicos em impressÃ£o grÃ¡fica permitiram maior tiragem de jornais e revistas, que abrangiam um nÃºmero cada vez maior de leitores, posto que os Ã­ndices de alfabetizaÃ§Ã£o tambÃ©m aumentassem como consequÃªncia da ampliaÃ§Ã£o do ensino. Os jornais ganharam forÃ§a e volume com os avanÃ§os tecnolÃ³gicos em impressoras durante o SÃ©culo XIX, sendo capazes de serem impressos em milhares de exemplares por hora e em duas pÃ¡ginas ao mesmo tempo. Os jornais se tornaram, tambÃ©m, importantes veinculadores de anÃºncios, publicidade, papÃ©is sociais e ideias culturais e polÃ­ticas, influenciando na sociedade de sua Ã©poca. Com a invenÃ§Ã£o da fotografia no comeÃ§o do sÃ©culo XIX, &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 As consequ\u234 \&apos;eancias do surgimento dos meios de comunica\u231 \&apos;e7\u227 \&apos;e3o de massas para as sociedades foram profundos, sendo um dos temas estudados pela Sociologia.\par\par A Revolu\&apos;e7\&apos;e3o Industrial &#x0A;teve como uma de suas consequ\&apos;eancias o aumento das popula\&apos;e7\&apos;f5es nas cidades e em muitos pa\&apos;edses. Aliado ao crescimento populacional, os avan\&apos;e7os tecnol\&apos;f3gicos em impress\&apos;e3o gr\&apos;e1fica permitiram maior tiragem de jornais e revistas, que abrangiam &#x0A;um n\&apos;famero cada vez maior de leitores, posto que os \&apos;edndices de alfabetiza\&apos;e7\&apos;e3o tamb\&apos;e9m aumentassem como consequ\&apos;eancia da amplia\&apos;e7\&apos;e3o do ensino. Os jornais ganharam for\&apos;e7a e volume com os avan\&apos;e7os tecnol\&apos;f3gicos em impressoras durante &#x0A;o S\&apos;e9culo XIX, sendo capazes de serem impressos em milhares de exemplares por hora e em duas p\&apos;e1ginas ao mesmo tempo. Os jornais se tornaram, tamb\&apos;e9m, importantes veinculadores de an\&apos;fancios, publicidade, pap\&apos;e9is sociais e ideias culturais e &#x0A;pol\&apos;edticas, influenciando na sociedade de sua \&apos;e9poca. Com a inven\&apos;e7\&apos;e3o da fotografia no come\&apos;e7o do s\&apos;e9culo XIX, \par}&#x0A;</rtf>
+<raw>?As consequ?ncias do surgimento dos meios de comunica??o de massas para as sociedades foram profundos, sendo um dos temas estudados pela Sociologia.&#x0A;A Revolu??o Industrial teve como uma de suas consequ?ncias o aumento das popula??es nas cidades e em muitos pa?ses. Aliado ao crescimento populacional, os avan?os tecnol?gicos em impress?o gr?fica permitiram maior tiragem de jornais e revistas, que abrangiam um n?mero cada vez maior de leitores, posto que os ?ndices de alfabetiza??o tamb?m aumentassem como consequ?ncia da amplia??o do ensino. Os jornais ganharam for?a e volume com os avan?os tecnol?gicos em impressoras durante o S?culo XIX, sendo capazes de serem impressos em milhares de exemplares por hora e em duas p?ginas ao mesmo tempo. Os jornais se tornaram, tamb?m, importantes veinculadores de an?ncios, publicidade, pap?is sociais e ideias culturais e pol?ticas, influenciando na sociedade de sua ?poca. Com a inven??o da fotografia no come?o do s?culo XIX, </raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="723" parent="709" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687711107</lastupdated>
+<possize>
+<point>
+<x>44</x>
+<y>139</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>471</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text723Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text723Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text723Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text723Font1&quot;  &gt;Com o crescimento das cidades na Europa do SÃ©culo XVII, surgem os primeiros jornais e revistas impressas com tiragens limitadas devido Ã s tecnologias de impressÃ£o disponÃ­veis. Os jornais e revistas ajudavam a disseminar para um pÃºblico maior ideias que antes eram restritas aos cÃ­rculos literÃ¡rios, polÃ­ticos e acadÃªmicos. Com o aumento da circulaÃ§Ã£o de jornais e revistas, aumentavam tambÃ©m a circulaÃ§Ã£o de ideias, incentivando movimentos literÃ¡rios, modas e transformaÃ§Ãµes polÃ­ticas. Mais tarde, a imprensa ganharia fortes aliados, como a fotografia. &lt;/span &gt;&lt;span class=&quot;text723Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text723Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text723Font3&quot;  &gt;Com os avanÃ§os tecnolÃ³gicos posteriores que levariam Ã  invenÃ§Ã£o da fotografia, cinema, rÃ¡dio e televisÃ£o, surgiram o que sÃ£o chamados de &quot;&lt;/span &gt;&lt;span class=&quot;text723Font5&quot;  &gt;meios de comunicaÃ§Ã£o de massa&lt;/span &gt;&lt;span class=&quot;text723Font3&quot;  &gt;&quot;, que sÃ£o aquelas formas de comunicaÃ§Ã£o que conseguem chegar a milhares de pessoas ao mesmo tempo. Pela primeira vez na HistÃ³ria da humanidade, as comunicaÃ§Ãµes nÃ£o eram mais restritas aos cÃ­rculos de pessoas mais prÃ³ximos. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Com o crescimento das cidades na Europa do S\u233 \&apos;e9culo XVII, surgem os primeiros jornais e revistas impressas com tiragens limitadas devido \u224 \&apos;e0s tecnologias de impress\u227 \&apos;e3o dispon\u237 \&apos;edveis. Os jornais &#x0A;e revistas ajudavam a disseminar para um p\u250 \&apos;fablico maior ideias que antes eram restritas aos c\u237 \&apos;edrculos liter\u225 \&apos;e1rios, pol\u237 \&apos;edticos e acad\u234 \&apos;eamicos. Com o aumento da circula\u231 \&apos;e7\u227 \&apos;e3o de jornais e revistas, aumentavam &#x0A;tamb\u233 \&apos;e9m a circula\u231 \&apos;e7\u227 \&apos;e3o de ideias, incentivando movimentos liter\u225 \&apos;e1rios, modas e transforma\u231 \&apos;e7\u245 \&apos;f5es pol\u237 \&apos;edticas. Mais tarde, a imprensa ganharia fortes aliados, como a fotografia. \hich\f2\loch\f2\par\par &#x0A;Com os avan\u231 \&apos;e7os tecnol\u243 \&apos;f3gicos posteriores que levariam \u224 \&apos;e0 inven\u231 \&apos;e7\u227 \&apos;e3o da fotografia, cinema, r\u225 \&apos;e1dio e televis\u227 \&apos;e3o, surgiram o que s\u227 \&apos;e3o chamados de &quot;\b meios de comunica\u231 \&apos;e7\u227 \&apos;e3o &#x0A;de massa\b0 &quot;, que s\u227 \&apos;e3o aquelas formas de comunica\u231 \&apos;e7\u227 \&apos;e3o que conseguem chegar a milhares de pessoas ao mesmo tempo. Pela primeira vez na Hist\u243 \&apos;f3ria da humanidade, as comunica\u231 \&apos;e7\u245 \&apos;f5es n\u227 \&apos;e3o eram mais restritas &#x0A;aos c\u237 \&apos;edrculos de pessoas mais pr\u243 \&apos;f3ximos. \par}&#x0A;</rtf>
+<raw>?Com o crescimento das cidades na Europa do S?culo XVII, surgem os primeiros jornais e revistas impressas com tiragens limitadas devido ?s tecnologias de impress?o dispon?veis. Os jornais e revistas ajudavam a disseminar para um p?blico maior ideias que antes eram restritas aos c?rculos liter?rios, pol?ticos e acad?micos. Com o aumento da circula??o de jornais e revistas, aumentavam tamb?m a circula??o de ideias, incentivando movimentos liter?rios, modas e transforma??es pol?ticas. Mais tarde, a imprensa ganharia fortes aliados, como a fotografia. &#x0A;Com os avan?os tecnol?gicos posteriores que levariam ? inven??o da fotografia, cinema, r?dio e televis?o, surgiram o que s?o chamados de &quot;meios de comunica??o de massa&quot;, que s?o aquelas formas de comunica??o que conseguem chegar a milhares de pessoas ao mesmo tempo. Pela primeira vez na Hist?ria da humanidade, as comunica??es n?o eram mais restritas aos c?rculos de pessoas mais pr?ximos. </raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="711" parent="709">
+<name>Grupo_1</name>
+<lastupdated>1687711039</lastupdated>
+<shape id="713" parent="711" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687711039</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="715" parent="711" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687711039</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="717" parent="711" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687711039</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="718" parent="711" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687711039</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>801</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text718Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text718Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text718Font1&quot;  &gt;Os meios de comunicaÃ§Ã£o de massa na sociedade atual: rÃ¡dio, televisÃ£o e internet &lt;/span &gt;&lt;span class=&quot;text718Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Os meios de comunica\&apos;e7\&apos;e3o de massa na sociedade atual: r\&apos;e1dio, televis\&apos;e3o e internet \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Os meios de comunica??o de massa na sociedade atual: r?dio, televis?o e internet </raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="720" parent="711" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687711039</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>136</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>521</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="722" parent="711" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687711039</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="860" parent="40">
+<name>Página 4</name>
+<lastupdated>1687711342</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="942" parent="860" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687711334</lastupdated>
+<possize>
+<point>
+<x>523</x>
+<y>145</y>
+</point>
+<size>
+<cx>453</cx>
+<cy>454</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text942Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text942Font1&quot;  &gt;testemunharam o surgimento das primeiras companhias cinematogrÃ¡ficas, filmes com narrativas e casas exclusivamente desenhadas para a exibiÃ§Ã£o de filmes: o cinema. No Brasil, a primeira exibiÃ§Ã£o de filmes foi, em 1896, no Rio de Janeiro. Com o rÃ¡dio e o cinema, vieram os artistas populares e o aumento da publicidade. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text942Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text942Font1&quot;  &gt;A comunicaÃ§Ã£o de massas, durante o SÃ©culo XX, ganha o reforÃ§o das imagens televisionadas, que jÃ¡ eram testadas na UniÃ£o SoviÃ©tica e nos Estados Unidos entre 1925 e 1928. PorÃ©m, foi sÃ³ entre 1934 e 1939, que as primeiras transmissÃµes pÃºblicas sÃ£o realizadas na Alemanha, Inglaterra e Estados Unidos. ApÃ³s a Segunda Guerra Mundial, o desenvolvimento e a fabricaÃ§Ã£o de televisores ganham grande impulso, com emissoras de tevÃª sendo inauguradas em diversas partes do mundo. No Brasil, a primeira emissora foi a TV Tupi do Rio de Janeiro, inaugurada em setembro de 1950. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 testemunharam o surgimento das primeiras companhias cinematogr\u225 \&apos;e1ficas, filmes com narrativas e casas exclusivamente desenhadas para a exibi\u231 \&apos;e7\u227 \&apos;e3o de filmes: o cinema. No Brasil, a &#x0A;primeira exibi\u231 \&apos;e7\u227 \&apos;e3o de filmes foi, em 1896, no Rio de Janeiro. Com o r\u225 \&apos;e1dio e o cinema, vieram os artistas populares e o aumento da publicidade. \lang1046\hich\f2\loch\f2\par\par A comunica\&apos;e7\&apos;e3o de massas, durante o S\&apos;e9culo &#x0A;XX, ganha o refor\&apos;e7o das imagens televisionadas, que j\&apos;e1 eram testadas na Uni\&apos;e3o Sovi\&apos;e9tica e nos Estados Unidos entre 1925 e 1928. Por\&apos;e9m, foi s\&apos;f3 entre 1934 e 1939, que as primeiras transmiss\&apos;f5es p\&apos;fablicas s\&apos;e3o realizadas na Alemanha, &#x0A;Inglaterra e Estados Unidos. Ap\&apos;f3s a Segunda Guerra Mundial, o desenvolvimento e a fabrica\&apos;e7\&apos;e3o de televisores ganham grande impulso, com emissoras de tev\&apos;ea sendo inauguradas em diversas partes do mundo. No Brasil, a primeira emissora foi a TV &#x0A;Tupi do Rio de Janeiro, inaugurada em setembro de 1950. \lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?testemunharam o surgimento das primeiras companhias cinematogr?ficas, filmes com narrativas e casas exclusivamente desenhadas para a exibi??o de filmes: o cinema. No Brasil, a primeira exibi??o de filmes foi, em 1896, no Rio de Janeiro. Com o r?dio e o cinema, vieram os artistas populares e o aumento da publicidade. &#x0A;A comunica??o de massas, durante o S?culo XX, ganha o refor?o das imagens televisionadas, que j? eram testadas na Uni?o Sovi?tica e nos Estados Unidos entre 1925 e 1928. Por?m, foi s? entre 1934 e 1939, que as primeiras transmiss?es p?blicas s?o realizadas na Alemanha, Inglaterra e Estados Unidos. Ap?s a Segunda Guerra Mundial, o desenvolvimento e a fabrica??o de televisores ganham grande impulso, com emissoras de tev? sendo inauguradas em diversas partes do mundo. No Brasil, a primeira emissora foi a TV Tupi do Rio de Janeiro, inaugurada em setembro de 1950. </raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="892" parent="860" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687711264</lastupdated>
+<possize>
+<point>
+<x>44</x>
+<y>136</y>
+</point>
+<size>
+<cx>441</cx>
+<cy>517</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text892Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text892Font1&quot;  &gt;jÃ¡ na dÃ©cada de 1880, os jornais comeÃ§aram a publicar fotos, ampliando seu poder de influÃªncia sobre a sociedade.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text892Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text892Font1&quot;  &gt;TambÃ©m no final do SÃ©culo XIX, comeÃ§aram as primeiras experiÃªncias com ondas eletromagnÃ©ticas que levariam a invenÃ§Ã£o do telÃ©grafo e do rÃ¡dio. JÃ¡ em 1906, os primeiros programas de rÃ¡dio comeÃ§avam a ser transmitidos nos Estados Unidos e, na dÃ©cada de 1920, as primeiras emissoras pÃºblicas de rÃ¡dio eram estabelecidas em vÃ¡rios paÃ­ses do mundo. No Brasil, a primeira transmissÃ£o de rÃ¡dio se deu em 1923, com a fundaÃ§Ã£o da RÃ¡dio Sociedade do Rio de Janeiro. As vantagens do rÃ¡dio eram claras: a informaÃ§Ã£o era quase imediata e sem a necessidade de alfabetizaÃ§Ã£o, se tornando um veÃ­culo de comunicaÃ§Ã£o democrÃ¡tico. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text892Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text892Font1&quot;  &gt;Contemporaneamente ao desenvolvimento do rÃ¡dio, as projeÃ§Ãµes cinematogrÃ¡ficas tambÃ©m seriam pesquisadas no final do SÃ©culo XIX: em 1895, os irmÃ£os franceses LumiÃ©re sÃ£o apontados pelos responsÃ¡veis pelo primeiro filme e as primeiras dÃ©cadas do SÃ©culo XX&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 j\&apos;e1 na d\&apos;e9cada de 1880, os jornais come\&apos;e7aram a publicar fotos, ampliando seu poder de influ\&apos;eancia sobre a sociedade.\lang1046\hich\f2\loch\f2\par\par Tamb\&apos;e9m no final do S\&apos;e9culo XIX, come\&apos;e7aram &#x0A;as primeiras experi\&apos;eancias com ondas eletromagn\&apos;e9ticas que levariam a inven\&apos;e7\&apos;e3o do tel\&apos;e9grafo e do r\&apos;e1dio. J\&apos;e1 em 1906, os primeiros programas de r\&apos;e1dio come\&apos;e7avam a ser transmitidos nos Estados Unidos e, na d\&apos;e9cada de 1920, as primeiras &#x0A;emissoras p\&apos;fablicas de r\&apos;e1dio eram estabelecidas em v\&apos;e1rios pa\&apos;edses do mundo. No Brasil, a primeira transmiss\&apos;e3o de r\&apos;e1dio se deu em 1923, com a funda\&apos;e7\&apos;e3o da R\&apos;e1dio Sociedade do Rio de Janeiro. As vantagens do r\&apos;e1dio eram claras: &#x0A;a informa\&apos;e7\&apos;e3o era quase imediata e sem a necessidade de alfabetiza\&apos;e7\&apos;e3o, se tornando um ve\&apos;edculo de comunica\&apos;e7\&apos;e3o democr\&apos;e1tico. \par\par Contemporaneamente ao desenvolvimento do r\&apos;e1dio, as proje\&apos;e7\&apos;f5es cinematogr\&apos;e1ficas tamb\&apos;e9m &#x0A;seriam pesquisadas no final do S\&apos;e9culo XIX: em 1895, os irm\&apos;e3os franceses Lumi\&apos;e9re s\&apos;e3o apontados pelos respons\&apos;e1veis pelo primeiro filme e as primeiras d\&apos;e9cadas do S\&apos;e9culo XX\lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?j? na d?cada de 1880, os jornais come?aram a publicar fotos, ampliando seu poder de influ?ncia sobre a sociedade.&#x0A;Tamb?m no final do S?culo XIX, come?aram as primeiras experi?ncias com ondas eletromagn?ticas que levariam a inven??o do tel?grafo e do r?dio. J? em 1906, os primeiros programas de r?dio come?avam a ser transmitidos nos Estados Unidos e, na d?cada de 1920, as primeiras emissoras p?blicas de r?dio eram estabelecidas em v?rios pa?ses do mundo. No Brasil, a primeira transmiss?o de r?dio se deu em 1923, com a funda??o da R?dio Sociedade do Rio de Janeiro. As vantagens do r?dio eram claras: a informa??o era quase imediata e sem a necessidade de alfabetiza??o, se tornando um ve?culo de comunica??o democr?tico. &#x0A;Contemporaneamente ao desenvolvimento do r?dio, as proje??es cinematogr?ficas tamb?m seriam pesquisadas no final do S?culo XIX: em 1895, os irm?os franceses Lumi?re s?o apontados pelos respons?veis pelo primeiro filme e as primeiras d?cadas do S?culo XX</raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="862" parent="860">
+<name>Grupo_1</name>
+<lastupdated>1687711183</lastupdated>
+<shape id="864" parent="862" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687711183</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="866" parent="862" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687711183</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="868" parent="862" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687711183</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="869" parent="862" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687711183</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>801</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text869Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text869Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text869Font1&quot;  &gt;Os meios de comunicaÃ§Ã£o de massa na sociedade atual: rÃ¡dio, televisÃ£o e internet &lt;/span &gt;&lt;span class=&quot;text869Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Os meios de comunica\&apos;e7\&apos;e3o de massa na sociedade atual: r\&apos;e1dio, televis\&apos;e3o e internet \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Os meios de comunica??o de massa na sociedade atual: r?dio, televis?o e internet </raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="871" parent="862" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687711183</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>136</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>521</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="873" parent="862" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687711183</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="981" parent="40">
+<name>Página 5</name>
+<lastupdated>1687711478</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1034" parent="981" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687711471</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>140</y>
+</point>
+<size>
+<cx>448</cx>
+<cy>522</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1034Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1034Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1034Font1&quot;  &gt;ApÃ³s a II Guerra Mundial, a rivalidade entre os Estados Unidos e a UniÃ£o SoviÃ©tica levou a corrida armamentista e tambÃ©m a uma crescente competiÃ§Ã£o em pesquisas cientÃ­ficas entre os dois paÃ­ses. Uma das repercussÃµes foi a invenÃ§Ã£o, por militares e acadÃªmicos norte-americanos, de um sistema de comunicaÃ§Ã£o que ligava computadores entre universidades e Ã³rgÃ£os militares, em 1969, o &quot;Arpanet&quot;. Esse sistema deu origem ao que hoje Ã© a Internet: a rede mundial de computadores. A partir do final dos anos 1970, quando surgem os primeiros computadores pessoais, a Internet comeÃ§a a se popularizar, deixando de ser exclusiva de universidades e Ã³rgÃ£os de governo.&lt;/span &gt;&lt;span class=&quot;text1034Font3&quot;  &gt; Em 1989, a &quot;World Wide Web&quot; (WWW) Ã© inventada, facilitando a troca de documentos, vÃ­deos, imagens, sons entre computadores, incentivando o crescimento imenso que a Internet teria a partir dos anos 1990. A Internet acabou por revolucionar a comunicaÃ§Ã£o global, impactando fortemente a sociedade. Com o surgimento das primeiras redes sociais e dos telefones celulares com acesso a Internet a partir de 1995, o impacto da internet sobre o cotidiano das pessoas seria ampliado. &lt;/span &gt;&lt;span class=&quot;text1034Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Ap\u243 \&apos;f3s a II Guerra Mundial, a rivalidade entre os Estados Unidos e a Uni\u227 \&apos;e3o Sovi\u233 \&apos;e9tica levou a corrida armamentista e tamb\u233 \&apos;e9m a uma crescente competi\u231 \&apos;e7\u227 \&apos;e3o em pesquisas cient\u237 &#x0A;\&apos;edficas entre os dois pa\u237 \&apos;edses. Uma das repercuss\u245 \&apos;f5es foi a inven\u231 \&apos;e7\u227 \&apos;e3o, por militares e acad\u234 \&apos;eamicos norte-americanos, de um sistema de comunica\u231 \&apos;e7\u227 \&apos;e3o que ligava computadores entre universidades e \u243 &#x0A;\&apos;f3rg\u227 \&apos;e3os militares, em 1969, o &quot;Arpanet&quot;. Esse sistema deu origem ao que hoje \u233 \&apos;e9 a Internet: a rede mundial de computadores. A partir do final dos anos 1970, quando surgem os primeiros computadores pessoais, a Internet come\u231 \&apos;e7a &#x0A;a se popularizar, deixando de ser exclusiva de universidades e \u243 \&apos;f3rg\u227 \&apos;e3os de governo.\hich\f2\loch\f2  Em 1989, a &quot;World Wide Web&quot; (WWW) \u233 \&apos;e9 inventada, facilitando a troca de documentos, v\u237 \&apos;eddeos, imagens, sons entre computadores, &#x0A;incentivando o crescimento imenso que a Internet teria a partir dos anos 1990. A Internet acabou por revolucionar a comunica\u231 \&apos;e7\u227 \&apos;e3o global, impactando fortemente a sociedade. Com o surgimento das primeiras redes sociais e dos telefones celulares &#x0A;com acesso a Internet a partir de 1995, o impacto da internet sobre o cotidiano das pessoas seria ampliado. \hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Ap?s a II Guerra Mundial, a rivalidade entre os Estados Unidos e a Uni?o Sovi?tica levou a corrida armamentista e tamb?m a uma crescente competi??o em pesquisas cient?ficas entre os dois pa?ses. Uma das repercuss?es foi a inven??o, por militares e acad?micos norte-americanos, de um sistema de comunica??o que ligava computadores entre universidades e ?rg?os militares, em 1969, o &quot;Arpanet&quot;. Esse sistema deu origem ao que hoje ? a Internet: a rede mundial de computadores. A partir do final dos anos 1970, quando surgem os primeiros computadores pessoais, a Internet come?a a se popularizar, deixando de ser exclusiva de universidades e ?rg?os de governo. Em 1989, a &quot;World Wide Web&quot; (WWW) ? inventada, facilitando a troca de documentos, v?deos, imagens, sons entre computadores, incentivando o crescimento imenso que a Internet teria a partir dos anos 1990. A Internet acabou por revolucionar a comunica??o global, impactando fortemente a sociedade. Com o surgimento das primeiras redes sociais e dos telefones celulares com acesso a Internet a partir de 1995, o impacto da internet sobre o cotidiano das pessoas seria ampliado. </raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="996" parent="981" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687711473</lastupdated>
+<possize>
+<point>
+<x>51</x>
+<y>142</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>455</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text996Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text996Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text996Font1&quot;  &gt;Em breve, a televisÃ£o desbancaria o rÃ¡dio como o mais importante veÃ­culo de comunicaÃ§Ã£o de massas. Em 1951, inicia-se o que seria um dos mais importantes fenÃ´menos de comunicaÃ§Ã£o de massas do Brasil: as telenovelas, quando foi ao ar &quot;Sua Vida me Pertence&quot;, pela TV Tupi.&lt;/span &gt;&lt;span class=&quot;text996Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text996Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text996Font3&quot;  &gt;Um fator importante para a comunicaÃ§Ã£o de massa foi o lanÃ§amento do primeiro satÃ©lite artificial na Ã³rbita da Terra, o Sputnik, lanÃ§ado ao espaÃ§o pela UniÃ£o SoviÃ©tica em 1957. O Sputnik transmitia sinal de rÃ¡dio, antecedendo o que seria o primeiro satÃ©lite capaz de transmitir imagens ao vivo, o norte-americano Telstar I, lanÃ§ado em Ã³rbita no ano de 1962. Com o futuro desenvolvimento da tecnologia de transmissÃ£o de informaÃ§Ãµes por satÃ©lites, a comunicaÃ§Ã£o entre diversos cantos do mundo se tornaria quase que imediata, encurtando o espaÃ§o geogrÃ¡fico e borrando as noÃ§Ãµes de tempo. &lt;/span &gt;&lt;span class=&quot;text996Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Em breve, a televis\u227 \&apos;e3o desbancaria o r\u225 \&apos;e1dio como o mais importante ve\u237 \&apos;edculo de comunica\u231 \&apos;e7\u227 \&apos;e3o de massas. Em 1951, inicia-se o que seria um dos mais importantes fen\u244 \&apos;f4menos &#x0A;de comunica\u231 \&apos;e7\u227 \&apos;e3o de massas do Brasil: as telenovelas, quando foi ao ar &quot;Sua Vida me Pertence&quot;, pela TV Tupi.\lang1046\hich\f2\loch\f2\par\par Um fator importante para a comunica\&apos;e7\&apos;e3o de massa foi o lan\&apos;e7amento do primeiro sat\&apos;e9lite &#x0A;artificial na \&apos;f3rbita da Terra, o Sputnik, lan\&apos;e7ado ao espa\&apos;e7o pela Uni\&apos;e3o Sovi\&apos;e9tica em 1957. O Sputnik transmitia sinal de r\&apos;e1dio, antecedendo o que seria o primeiro sat\&apos;e9lite capaz de transmitir imagens ao vivo, o norte-americano Telstar &#x0A;I, lan\&apos;e7ado em \&apos;f3rbita no ano de 1962. Com o futuro desenvolvimento da tecnologia de transmiss\&apos;e3o de informa\&apos;e7\&apos;f5es por sat\&apos;e9lites, a comunica\&apos;e7\&apos;e3o entre diversos cantos do mundo se tornaria quase que imediata, encurtando o espa\&apos;e7o geogr\&apos;e1fico &#x0A;e borrando as no\&apos;e7\&apos;f5es de tempo. \lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Em breve, a televis?o desbancaria o r?dio como o mais importante ve?culo de comunica??o de massas. Em 1951, inicia-se o que seria um dos mais importantes fen?menos de comunica??o de massas do Brasil: as telenovelas, quando foi ao ar &quot;Sua Vida me Pertence&quot;, pela TV Tupi.&#x0A;Um fator importante para a comunica??o de massa foi o lan?amento do primeiro sat?lite artificial na ?rbita da Terra, o Sputnik, lan?ado ao espa?o pela Uni?o Sovi?tica em 1957. O Sputnik transmitia sinal de r?dio, antecedendo o que seria o primeiro sat?lite capaz de transmitir imagens ao vivo, o norte-americano Telstar I, lan?ado em ?rbita no ano de 1962. Com o futuro desenvolvimento da tecnologia de transmiss?o de informa??es por sat?lites, a comunica??o entre diversos cantos do mundo se tornaria quase que imediata, encurtando o espa?o geogr?fico e borrando as no??es de tempo. </raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="984" parent="981">
+<name>Grupo_1</name>
+<lastupdated>1687711350</lastupdated>
+<shape id="986" parent="984" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687711350</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="988" parent="984" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687711350</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="990" parent="984" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687711350</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="991" parent="984" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687711350</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>801</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text991Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text991Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text991Font1&quot;  &gt;Os meios de comunicaÃ§Ã£o de massa na sociedade atual: rÃ¡dio, televisÃ£o e internet &lt;/span &gt;&lt;span class=&quot;text991Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Os meios de comunica\&apos;e7\&apos;e3o de massa na sociedade atual: r\&apos;e1dio, televis\&apos;e3o e internet \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Os meios de comunica??o de massa na sociedade atual: r?dio, televis?o e internet </raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="993" parent="984" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687711350</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>136</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>521</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="995" parent="984" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687711350</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1083" parent="40">
+<name>Página 6</name>
+<lastupdated>1687711674</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1277" parent="1083" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687711641</lastupdated>
+<possize>
+<point>
+<x>51</x>
+<y>362</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>250</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1277Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1277Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1277Font1&quot;  &gt;A primeira rede social conforme conhecemos hoje surgiu nos Estados Unidos em 1995 . Por volta de 1996, surgiram os primeiros mensageiros&lt;/span &gt;&lt;span class=&quot;text1277Font2&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text1277Font1&quot;  &gt;instantÃ¢neos para computadores. Nessa mesma Ã©poca, surgem os primeiros telefones celulares com acesso a Internet, que causaria uma revoluÃ§Ã£o em diversos aspectos da nossa vida cotidiana. Mais&lt;/span &gt;&lt;span class=&quot;text1277Font2&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text1277Font1&quot;  &gt;tarde, em 2004, o mundo assistiu ao fenÃ´meno do Orkut â€“rede social que durou atÃ© 2014â€“ e do Facebook. Em 2005, Ã© fundado o Youtube, uma plataforma de compartilhamento de vÃ­deos. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 A primeira rede social conforme conhecemos hoje surgiu nos Estados Unidos em 1995 . Por volta de 1996, surgiram os primeiros mensageiros\hich\f2\loch\f2  \hich\f1\loch\f1 instant\u226 \&apos;e2neos para computadores. Nessa &#x0A;mesma \u233 \&apos;e9poca, surgem os primeiros telefones celulares com acesso a Internet, que causaria uma revolu\u231 \&apos;e7\u227 \&apos;e3o em diversos aspectos da nossa vida cotidiana. Mais\hich\f2\loch\f2  \hich\f1\loch\f1 tarde, em 2004, o mundo assistiu ao &#x0A;fen\u244 \&apos;f4meno do Orkut \u8211 \&apos;96rede social que durou at\u233 \&apos;e9 2014\u8211 \&apos;96 e do Facebook. Em 2005, \u233 \&apos;e9 fundado o Youtube, uma plataforma de compartilhamento de v\u237 \&apos;eddeos. \par}&#x0A;</rtf>
+<raw>?A primeira rede social conforme conhecemos hoje surgiu nos Estados Unidos em 1995 . Por volta de 1996, surgiram os primeiros mensageiros instant?neos para computadores. Nessa mesma ?poca, surgem os primeiros telefones celulares com acesso a Internet, que causaria uma revolu??o em diversos aspectos da nossa vida cotidiana. Mais tarde, em 2004, o mundo assistiu ao fen?meno do Orkut ?rede social que durou at? 2014? e do Facebook. Em 2005, ? fundado o Youtube, uma plataforma de compartilhamento de v?deos. </raw>
+<numoflines>12</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1226" parent="1083" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687711670</lastupdated>
+<possize>
+<point>
+<x>535</x>
+<y>137</y>
+</point>
+<size>
+<cx>426</cx>
+<cy>500</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1226Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1226Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1226Font1&quot;  &gt;Em 2009, surgiu o aplicativo Whatsapp, um serviÃ§o de mensagens instantÃ¢neas que pode ser utilizado em computadores e celulares, que, devido Ã  quantidade de usuÃ¡rios e mensagens trocadas pelo aplicativo podemos considerÃ¡-lo como um meio de comunicaÃ§Ã£o de massas. Para se ter uma ideia da difusÃ£o do Facebook, em 2020 a rede social jÃ¡ tinha cerca de 2 bilhÃµes e 600 milhÃµes de usuÃ¡rios ao redor do mundo. JÃ¡ o Youtube possui tambÃ©m mais de 2 bilhÃµes de usuÃ¡rios. &lt;/span &gt;&lt;span class=&quot;text1226Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1226Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1226Font3&quot;  &gt;A RevoluÃ§Ã£o Digital mudou de maneira irreversÃ­vel as formas como as informaÃ§Ãµes chegam atÃ© nÃ³s. AtÃ© a invenÃ§Ã£o dos computadores, os filmes, o rÃ¡dio, a televisÃ£o, as fotografias e textos necessitavam de tecnologias diferentes para serem produzidos e suportes de difusÃ£o das informaÃ§Ãµes, o que Ã© chamado de &quot;mÃ­dia&quot;. &lt;/span &gt;&lt;span class=&quot;text1226Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Em 2009, surgiu o aplicativo Whatsapp, um servi\u231 \&apos;e7o de mensagens instant\u226 \&apos;e2neas que pode ser utilizado em computadores e celulares, que, devido \u224 \&apos;e0 quantidade de usu\u225 \&apos;e1rios e mensagens trocadas &#x0A;pelo aplicativo podemos consider\u225 \&apos;e1-lo como um meio de comunica\u231 \&apos;e7\u227 \&apos;e3o de massas. Para se ter uma ideia da difus\u227 \&apos;e3o do Facebook, em 2020 a rede social j\u225 \&apos;e1 tinha cerca de 2 bilh\u245 \&apos;f5es e 600 milh\u245 \&apos;f5es de &#x0A;usu\u225 \&apos;e1rios ao redor do mundo. J\u225 \&apos;e1 o Youtube possui tamb\u233 \&apos;e9m mais de 2 bilh\u245 \&apos;f5es de usu\u225 \&apos;e1rios. \lang1046\hich\f2\loch\f2\par\par A Revolu\u231 \&apos;e7\u227 \&apos;e3o Digital mudou de maneira irrevers\u237 \&apos;edvel as formas &#x0A;como as informa\u231 \&apos;e7\u245 \&apos;f5es chegam at\u233 \&apos;e9 n\u243 \&apos;f3s. At\u233 \&apos;e9 a inven\u231 \&apos;e7\u227 \&apos;e3o dos computadores, os filmes, o r\u225 \&apos;e1dio, a televis\u227 \&apos;e3o, as fotografias e textos necessitavam de tecnologias diferentes para &#x0A;serem produzidos e suportes de difus\u227 \&apos;e3o das informa\u231 \&apos;e7\u245 \&apos;f5es, o que \u233 \&apos;e9 chamado de &quot;m\u237 \&apos;eddia&quot;. \lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Em 2009, surgiu o aplicativo Whatsapp, um servi?o de mensagens instant?neas que pode ser utilizado em computadores e celulares, que, devido ? quantidade de usu?rios e mensagens trocadas pelo aplicativo podemos consider?-lo como um meio de comunica??o de massas. Para se ter uma ideia da difus?o do Facebook, em 2020 a rede social j? tinha cerca de 2 bilh?es e 600 milh?es de usu?rios ao redor do mundo. J? o Youtube possui tamb?m mais de 2 bilh?es de usu?rios. &#x0A;A Revolu??o Digital mudou de maneira irrevers?vel as formas como as informa??es chegam at? n?s. At? a inven??o dos computadores, os filmes, o r?dio, a televis?o, as fotografias e textos necessitavam de tecnologias diferentes para serem produzidos e suportes de difus?o das informa??es, o que ? chamado de &quot;m?dia&quot;. </raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="1113" parent="1083" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687711549</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>131</y>
+</point>
+<size>
+<cx>443</cx>
+<cy>194</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>20</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="01D1DD" />
+</shape>
+<image id="1111" parent="1083" resource="1114" ontop="false" fixed="false" proportional="true">
+<name>Imagem1</name>
+<lastupdated>1687711542</lastupdated>
+<possize>
+<point>
+<x>430</x>
+<y>287</y>
+</point>
+<size>
+<cx>61</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<shape id="1108" parent="1083" ontop="false" fixed="false" proportional="false">
+<name>Retângulo 2</name>
+<lastupdated>1687711537</lastupdated>
+<possize>
+<point>
+<x>44</x>
+<y>189</y>
+</point>
+<size>
+<cx>12</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1097" parent="1083" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687711560</lastupdated>
+<possize>
+<point>
+<x>80</x>
+<y>142</y>
+</point>
+<size>
+<cx>393</cx>
+<cy>173</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1097Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1097Font1&quot;  &gt;Pare e pense: Quantas vezes vocÃª leu um jornal no Ãºltimo ano? Ou uma revista? E quantas vezes vocÃª foi ao cinema ou assistiu televisÃ£o? Hoje em dia, vocÃª se informa mais assistindo telejornais, sites de notÃ­cias na Internet ou por redes sociais e WhatsApp? Alguma novela fez vocÃª mudar em relaÃ§Ã£o a algum aspecto da sua vida?&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Pare e pense: Quantas vezes voc\u234 \&apos;ea leu um jornal no \u250 \&apos;faltimo ano? Ou uma revista? E quantas vezes voc\u234 \&apos;ea foi ao cinema ou assistiu televis\u227 \&apos;e3o? Hoje em dia, voc\u234 \&apos;ea se informa mais assistindo &#x0A;telejornais, sites de not\u237 \&apos;edcias na Internet ou por redes sociais e WhatsApp? Alguma novela fez voc\u234 \&apos;ea mudar em rela\u231 \&apos;e7\u227 \&apos;e3o a algum aspecto da sua vida?\par}&#x0A;</rtf>
+<raw>?Pare e pense: Quantas vezes voc? leu um jornal no ?ltimo ano? Ou uma revista? E quantas vezes voc? foi ao cinema ou assistiu televis?o? Hoje em dia, voc? se informa mais assistindo telejornais, sites de not?cias na Internet ou por redes sociais e WhatsApp? Alguma novela fez voc? mudar em rela??o a algum aspecto da sua vida?</raw>
+<numoflines>8</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="1085" parent="1083">
+<name>Grupo_1</name>
+<lastupdated>1687711485</lastupdated>
+<shape id="1087" parent="1085" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687711485</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1089" parent="1085" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687711485</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1091" parent="1085" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687711485</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1092" parent="1085" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687711485</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>801</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1092Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1092Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1092Font1&quot;  &gt;Os meios de comunicaÃ§Ã£o de massa na sociedade atual: rÃ¡dio, televisÃ£o e internet &lt;/span &gt;&lt;span class=&quot;text1092Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Os meios de comunica\&apos;e7\&apos;e3o de massa na sociedade atual: r\&apos;e1dio, televis\&apos;e3o e internet \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Os meios de comunica??o de massa na sociedade atual: r?dio, televis?o e internet </raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1094" parent="1085" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687711485</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>136</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>521</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1096" parent="1085" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687711485</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1328" parent="40">
+<name>Página 7</name>
+<lastupdated>1687711802</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1380" parent="1328" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687711799</lastupdated>
+<possize>
+<point>
+<x>523</x>
+<y>148</y>
+</point>
+<size>
+<cx>457</cx>
+<cy>505</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1380Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1380Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1380Font4 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1380Font1&quot;  &gt;No ciberespaÃ§o, as &quot;comunidades virtuais&quot; se criaram quando grupos de indivÃ­duos passam a interagir virtualmente compartilhando ideias, valores, repertÃ³rios estÃ©ticos, gÃ­rias e criando identidades. Com a Internet, tribos urbanas especÃ­ficas e localizadas, como os &quot;Cosplays&quot; japoneses (jovens que se vestem como personagens de revistas em quadrinhos e desenhos animados), foram globalizadas, sendo vistas em todos os cantos do mundo. Apesar da ampliaÃ§Ã£o de possibilidades de interaÃ§Ãµes com outras pessoas que a Internet oferece, por outro lado o uso intensivo de comunicaÃ§Ãµes virtuais faz com que as relaÃ§Ãµes humanas imediatas se enfraqueÃ§am, ampliando a sensaÃ§Ã£o de isolamento social. &lt;/span &gt;&lt;span class=&quot;text1380Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1380Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1380Font4&quot;  &gt;Cultura de massas&lt;/span &gt;&lt;span class=&quot;text1380Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1380Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1380Font3&quot;  &gt;Na Europa antiga, era comum que a nobreza, o clero e as pessoas ricas patrocinassem e protegessem artistas como pintores, poetas, mÃºsicos, escultores e arquitetos. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 No ciberespa\u231 \&apos;e7o, as &quot;comunidades virtuais&quot; se criaram quando grupos de indiv\u237 \&apos;edduos passam a interagir virtualmente compartilhando ideias, valores, repert\u243 \&apos;f3rios est\u233 \&apos;e9ticos, g\u237 \&apos;edrias &#x0A;e criando identidades. Com a Internet, tribos urbanas espec\u237 \&apos;edficas e localizadas, como os &quot;Cosplays&quot; japoneses (jovens que se vestem como personagens de revistas em quadrinhos e desenhos animados), foram globalizadas, sendo vistas em todos os &#x0A;cantos do mundo. Apesar da amplia\u231 \&apos;e7\u227 \&apos;e3o de possibilidades de intera\u231 \&apos;e7\u245 \&apos;f5es com outras pessoas que a Internet oferece, por outro lado o uso intensivo de comunica\u231 \&apos;e7\u245 \&apos;f5es virtuais faz com que as rela\u231 \&apos;e7\u245 &#x0A;\&apos;f5es humanas imediatas se enfraque\u231 \&apos;e7am, ampliando a sensa\u231 \&apos;e7\u227 \&apos;e3o de isolamento social. \hich\f2\loch\f2\par\par\fs36\b Cultura de massas\fs28\b0\par\par Na Europa antiga, era comum que a nobreza, o clero e as pessoas ricas patrocinassem &#x0A;e protegessem artistas como pintores, poetas, m\u250 \&apos;fasicos, escultores e arquitetos. \par}&#x0A;</rtf>
+<raw>?No ciberespa?o, as &quot;comunidades virtuais&quot; se criaram quando grupos de indiv?duos passam a interagir virtualmente compartilhando ideias, valores, repert?rios est?ticos, g?rias e criando identidades. Com a Internet, tribos urbanas espec?ficas e localizadas, como os &quot;Cosplays&quot; japoneses (jovens que se vestem como personagens de revistas em quadrinhos e desenhos animados), foram globalizadas, sendo vistas em todos os cantos do mundo. Apesar da amplia??o de possibilidades de intera??es com outras pessoas que a Internet oferece, por outro lado o uso intensivo de comunica??es virtuais faz com que as rela??es humanas imediatas se enfraque?am, ampliando a sensa??o de isolamento social. &#x0A;Cultura de massas&#x0A;Na Europa antiga, era comum que a nobreza, o clero e as pessoas ricas patrocinassem e protegessem artistas como pintores, poetas, m?sicos, escultores e arquitetos. </raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1342" parent="1328" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687711720</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>152</y>
+</point>
+<size>
+<cx>433</cx>
+<cy>386</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1342Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1342Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1342Font1&quot;  &gt;Os avanÃ§os nas tecnologias de informaÃ§Ã£o e computacional permitiram que os computadores pudessem concentrar, de uma vez sÃ³, todas as mÃ­dias. Aliado ao aumento da capacidade de memÃ³ria e de processamento de dados dos computadores, as informaÃ§Ãµes passaram a circular cada vez mais&lt;/span &gt;&lt;span class=&quot;text1342Font3&quot;  &gt; e mais rÃ¡pido, borrando definitivamente noÃ§Ãµes de tempo e espaÃ§o, alÃ©m de serem fundamentais no atual estÃ¡gio de globalizaÃ§Ã£o da sociedade.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1342Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1342Font3&quot;  &gt;A difusÃ£o da Internet alterou significativamente as maneiras das pessoas buscarem informaÃ§Ãµes, entretenimento e interaÃ§Ãµes sociais. Surge a noÃ§Ã£o de &quot;ciberespaÃ§o&quot;, que Ã© o ambiente virtual de interaÃ§Ãµes sociais criadas pela rede mundial de computadores.&lt;/span &gt;&lt;span class=&quot;text1342Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Os avan\u231 \&apos;e7os nas tecnologias de informa\u231 \&apos;e7\u227 \&apos;e3o e computacional permitiram que os computadores pudessem concentrar, de uma vez s\u243 \&apos;f3, todas as m\u237 \&apos;eddias. Aliado ao aumento da capacidade &#x0A;de mem\u243 \&apos;f3ria e de processamento de dados dos computadores, as informa\u231 \&apos;e7\u245 \&apos;f5es passaram a circular cada vez mais\lang1046\hich\f2\loch\f2  e mais r\&apos;e1pido, borrando definitivamente no\&apos;e7\&apos;f5es de tempo e espa\&apos;e7o, al\&apos;e9m de serem &#x0A;fundamentais no atual est\&apos;e1gio de globaliza\&apos;e7\&apos;e3o da sociedade.\par\par A difus\u227 \&apos;e3o da Internet alterou significativamente as maneiras das pessoas buscarem informa\u231 \&apos;e7\u245 \&apos;f5es, entretenimento e intera\u231 \&apos;e7\u245 \&apos;f5es sociais. &#x0A;Surge a no\u231 \&apos;e7\u227 \&apos;e3o de &quot;ciberespa\u231 \&apos;e7o&quot;, que \u233 \&apos;e9 o ambiente virtual de intera\u231 \&apos;e7\u245 \&apos;f5es sociais criadas pela rede mundial de computadores.\lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Os avan?os nas tecnologias de informa??o e computacional permitiram que os computadores pudessem concentrar, de uma vez s?, todas as m?dias. Aliado ao aumento da capacidade de mem?ria e de processamento de dados dos computadores, as informa??es passaram a circular cada vez mais e mais r?pido, borrando definitivamente no??es de tempo e espa?o, al?m de serem fundamentais no atual est?gio de globaliza??o da sociedade.&#x0A;A difus?o da Internet alterou significativamente as maneiras das pessoas buscarem informa??es, entretenimento e intera??es sociais. Surge a no??o de &quot;ciberespa?o&quot;, que ? o ambiente virtual de intera??es sociais criadas pela rede mundial de computadores.</raw>
+<numoflines>17</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="1330" parent="1328">
+<name>Grupo_1</name>
+<lastupdated>1687711678</lastupdated>
+<shape id="1332" parent="1330" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687711678</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1334" parent="1330" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687711678</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1336" parent="1330" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687711678</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1337" parent="1330" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687711678</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>801</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1337Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1337Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1337Font1&quot;  &gt;Os meios de comunicaÃ§Ã£o de massa na sociedade atual: rÃ¡dio, televisÃ£o e internet &lt;/span &gt;&lt;span class=&quot;text1337Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Os meios de comunica\&apos;e7\&apos;e3o de massa na sociedade atual: r\&apos;e1dio, televis\&apos;e3o e internet \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Os meios de comunica??o de massa na sociedade atual: r?dio, televis?o e internet </raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1339" parent="1330" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687711678</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>136</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>521</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1341" parent="1330" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687711678</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1453" parent="40">
+<name>Página 8</name>
+<lastupdated>1687712137</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1528" parent="1453" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687712192</lastupdated>
+<possize>
+<point>
+<x>521</x>
+<y>133</y>
+</point>
+<size>
+<cx>448</cx>
+<cy>545</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1528Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1528Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1528Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1528Font1&quot;  &gt;de v&lt;/span &gt;&lt;span class=&quot;text1528Font2&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text1528Font1&quot;  &gt;rias regi&lt;/span &gt;&lt;span class=&quot;text1528Font2&quot;  &gt;Ãµ&lt;/span &gt;&lt;span class=&quot;text1528Font1&quot;  &gt;es do mundo pelos europeus, as elites europeias costumavam ver com desd&lt;/span &gt;&lt;span class=&quot;text1528Font2&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text1528Font1&quot;  &gt;m as manifesta&lt;/span &gt;&lt;span class=&quot;text1528Font2&quot;  &gt;Ã§Ãµ&lt;/span &gt;&lt;span class=&quot;text1528Font1&quot;  &gt;es culturais dos povos colonizados, como os &lt;/span &gt;&lt;span class=&quot;text1528Font2&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text1528Font1&quot;  &gt;ndios e os povos nativos africanos. No Brasil, a cultura europeia era vista, por nossas classes dirigentes, como superior &lt;/span &gt;&lt;span class=&quot;text1528Font2&quot;  &gt;Ã &lt;/span &gt;&lt;span class=&quot;text1528Font1&quot;  &gt;quela feita pelos ind&lt;/span &gt;&lt;span class=&quot;text1528Font2&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text1528Font1&quot;  &gt;genas e afrodescendentes. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1528Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1528Font1&quot;  &gt;Com o surgimento e ampliaÃ§Ã£o dos meios de comunicaÃ§Ã£o de massas a partir dos sÃ©culos XIX e XX, a distinÃ§Ã£o entre cultura erudita e popular comeÃ§aria a ser questionada. Vale lembrar que cultura popular nÃ£o Ã© a mesma coisa que cultura de massas, ainda que possam ser mutuamente influenciadas: por exemplo, o &lt;/span &gt;&lt;span class=&quot;text1528Font4&quot;  &gt;forrÃ³&lt;/span &gt;&lt;span class=&quot;text1528Font1&quot;  &gt;, que nasceu espontaneamente entre as classes mais pobres no Nordeste do Brasil Ã© popular. Quando comeÃ§ou a ser produzido e vendido sob o rÃ³tulo &quot;&lt;/span &gt;&lt;span class=&quot;text1528Font4&quot;  &gt;forrÃ³ universitÃ¡rio&lt;/span &gt;&lt;span class=&quot;text1528Font1&quot;  &gt;&quot; e divulgado em rÃ¡dios e televisÃµes de grande audiÃªncia, se tornou &quot;de massas&quot;. Outro exemplo: a mÃºsica caipira, que se desenvolveu espontaneamente entre as populaÃ§Ãµes interioranas do Centro-Sul do Brasil, comeÃ§ou a ser veinculada em rÃ¡dios jÃ¡ na dÃ©cada de 1920. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 de v\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 rias regi\hich\f1\loch\f1\u245 \&apos;f5\hich\f2\loch\f2 es do mundo pelos europeus, as elites europeias costumavam ver com desd\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 &#x0A;m as manifesta\hich\f1\loch\f1\u231 \&apos;e7\u245 \&apos;f5\hich\f2\loch\f2 es culturais dos povos colonizados, como os \hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 ndios e os povos nativos africanos. No Brasil, a cultura europeia era vista, por nossas classes dirigentes, &#x0A;como superior \hich\f1\loch\f1\u224 \&apos;e0\hich\f2\loch\f2 quela feita pelos ind\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 genas e afrodescendentes. \par\par Com o surgimento e amplia\u231 \&apos;e7\u227 \&apos;e3o dos meios de comunica\u231 \&apos;e7\u227 \&apos;e3o de massas &#x0A;a partir dos s\u233 \&apos;e9culos XIX e XX, a distin\u231 \&apos;e7\u227 \&apos;e3o entre cultura erudita e popular come\u231 \&apos;e7aria a ser questionada. Vale lembrar que cultura popular n\u227 \&apos;e3o \u233 \&apos;e9 a mesma coisa que cultura de massas, ainda que possam &#x0A;ser mutuamente influenciadas: por exemplo, o \b forr\u243 \&apos;f3\b0 , que nasceu espontaneamente entre as classes mais pobres no Nordeste do Brasil \u233 \&apos;e9 popular. Quando come\u231 \&apos;e7ou a ser produzido e vendido sob o r\u243 \&apos;f3tulo &quot;\b forr\u243 &#x0A;\&apos;f3 universit\u225 \&apos;e1rio\b0 &quot; e divulgado em r\u225 \&apos;e1dios e televis\u245 \&apos;f5es de grande audi\u234 \&apos;eancia, se tornou &quot;de massas&quot;. Outro exemplo: a m\u250 \&apos;fasica caipira, que se desenvolveu espontaneamente entre as popula\u231 \&apos;e7\u245 \&apos;f5es &#x0A;interioranas do Centro-Sul do Brasil, come\u231 \&apos;e7ou a ser veinculada em r\u225 \&apos;e1dios j\u225 \&apos;e1 na d\u233 \&apos;e9cada de 1920. \par}&#x0A;</rtf>
+<raw>?de v?rias regi?es do mundo pelos europeus, as elites europeias costumavam ver com desd?m as manifesta??es culturais dos povos colonizados, como os ?ndios e os povos nativos africanos. No Brasil, a cultura europeia era vista, por nossas classes dirigentes, como superior ?quela feita pelos ind?genas e afrodescendentes. &#x0A;Com o surgimento e amplia??o dos meios de comunica??o de massas a partir dos s?culos XIX e XX, a distin??o entre cultura erudita e popular come?aria a ser questionada. Vale lembrar que cultura popular n?o ? a mesma coisa que cultura de massas, ainda que possam ser mutuamente influenciadas: por exemplo, o forr?, que nasceu espontaneamente entre as classes mais pobres no Nordeste do Brasil ? popular. Quando come?ou a ser produzido e vendido sob o r?tulo &quot;forr? universit?rio&quot; e divulgado em r?dios e televis?es de grande audi?ncia, se tornou &quot;de massas&quot;. Outro exemplo: a m?sica caipira, que se desenvolveu espontaneamente entre as popula??es interioranas do Centro-Sul do Brasil, come?ou a ser veinculada em r?dios j? na d?cada de 1920. </raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="1466" parent="1453">
+<name>Grupo_1</name>
+<lastupdated>1687711806</lastupdated>
+<shape id="1468" parent="1466" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687711806</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1470" parent="1466" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687711806</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1472" parent="1466" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687711806</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1473" parent="1466" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687711806</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>801</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1473Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1473Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1473Font1&quot;  &gt;Os meios de comunicaÃ§Ã£o de massa na sociedade atual: rÃ¡dio, televisÃ£o e internet &lt;/span &gt;&lt;span class=&quot;text1473Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Os meios de comunica\&apos;e7\&apos;e3o de massa na sociedade atual: r\&apos;e1dio, televis\&apos;e3o e internet \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Os meios de comunica??o de massa na sociedade atual: r?dio, televis?o e internet </raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1475" parent="1466" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687711806</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>136</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>521</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1477" parent="1466" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687711806</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+<text id="1454" parent="1453" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687712081</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>148</y>
+</point>
+<size>
+<cx>433</cx>
+<cy>522</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1454Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1454Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1454Font1&quot;  &gt;Entre os sÃ©culos XVI e XVII surgiram as primeiras escolas especializadas na formaÃ§Ã£o desses artistas, como por exemplo, a &quot;Academia de San Luca&quot;, em Roma e a &quot;Academia Real de Pintura e Escultura&quot;, em Paris. TambÃ©m no sÃ©culo XVI, surgem as primeiras escolas de mÃºsica clÃ¡ssica. Esses artistas formados por escolas especializadas e orientados para o deleite artÃ­stico das classes mais altas foram convencionalmente chamados de &quot;eruditos&quot;. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1454Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1454Font1&quot;  &gt;Por outro lado, junto Ã  populaÃ§Ã£o comum, sem escolas especializadas, sempre surgiram manifestaÃ§Ãµes artÃ­sticas tradicionais e espontÃ¢neas, passadas de geraÃ§Ã£o em geraÃ§Ã£o de forma oral. Esculturas, cantigas, formas de fazer arquitetura, artesanatos e teatros criados e feitos pelo povo e para o povo sÃ£o convencionalmente chamados de &quot;&lt;/span &gt;&lt;span class=&quot;text1454Font3&quot;  &gt;cultura popular&lt;/span &gt;&lt;span class=&quot;text1454Font1&quot;  &gt;&quot;. Ao longo da HistÃ³ria, acabou por ser feita uma distinÃ§Ã£o entre o que seria expressÃµes culturais &quot;eruditas&quot; e as &quot;populares&quot;, com tendÃªncia em valorizar a primeira como &quot;&lt;/span &gt;&lt;span class=&quot;text1454Font3&quot;  &gt;legÃ­tima&lt;/span &gt;&lt;span class=&quot;text1454Font1&quot;  &gt;&quot; e &quot;&lt;/span &gt;&lt;span class=&quot;text1454Font3&quot;  &gt;superior&lt;/span &gt;&lt;span class=&quot;text1454Font1&quot;  &gt;&quot;. Com a colonizaÃ§Ã£o &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Entre os s\u233 \&apos;e9culos XVI e XVII surgiram as primeiras escolas especializadas na forma\u231 \&apos;e7\u227 \&apos;e3o desses artistas, como por exemplo, a &quot;Academia de San Luca&quot;, em Roma e a &quot;Academia Real de &#x0A;Pintura e Escultura&quot;, em Paris. Tamb\u233 \&apos;e9m no s\u233 \&apos;e9culo XVI, surgem as primeiras escolas de m\u250 \&apos;fasica cl\u225 \&apos;e1ssica. Esses artistas formados por escolas especializadas e orientados para o deleite art\u237 \&apos;edstico das classes mais &#x0A;altas foram convencionalmente chamados de &quot;eruditos&quot;. \par\par Por outro lado, junto \u224 \&apos;e0 popula\u231 \&apos;e7\u227 \&apos;e3o comum, sem escolas especializadas, sempre surgiram manifesta\u231 \&apos;e7\u245 \&apos;f5es art\u237 \&apos;edsticas tradicionais e espont\u226 &#x0A;\&apos;e2neas, passadas de gera\u231 \&apos;e7\u227 \&apos;e3o em gera\u231 \&apos;e7\u227 \&apos;e3o de forma oral. Esculturas, cantigas, formas de fazer arquitetura, artesanatos e teatros criados e feitos pelo povo e para o povo s\u227 \&apos;e3o convencionalmente chamados de &quot;\b &#x0A;cultura popular\b0 &quot;. Ao longo da Hist\u243 \&apos;f3ria, acabou por ser feita uma distin\u231 \&apos;e7\u227 \&apos;e3o entre o que seria express\u245 \&apos;f5es culturais &quot;eruditas&quot; e as &quot;populares&quot;, com tend\u234 \&apos;eancia em valorizar a primeira como &quot;\b leg\u237 \&apos;edtima\b0 &#x0A;&quot; e &quot;\b superior\b0 &quot;. Com a coloniza\u231 \&apos;e7\u227 \&apos;e3o \par}&#x0A;</rtf>
+<raw>?Entre os s?culos XVI e XVII surgiram as primeiras escolas especializadas na forma??o desses artistas, como por exemplo, a &quot;Academia de San Luca&quot;, em Roma e a &quot;Academia Real de Pintura e Escultura&quot;, em Paris. Tamb?m no s?culo XVI, surgem as primeiras escolas de m?sica cl?ssica. Esses artistas formados por escolas especializadas e orientados para o deleite art?stico das classes mais altas foram convencionalmente chamados de &quot;eruditos&quot;. &#x0A;Por outro lado, junto ? popula??o comum, sem escolas especializadas, sempre surgiram manifesta??es art?sticas tradicionais e espont?neas, passadas de gera??o em gera??o de forma oral. Esculturas, cantigas, formas de fazer arquitetura, artesanatos e teatros criados e feitos pelo povo e para o povo s?o convencionalmente chamados de &quot;cultura popular&quot;. Ao longo da Hist?ria, acabou por ser feita uma distin??o entre o que seria express?es culturais &quot;eruditas&quot; e as &quot;populares&quot;, com tend?ncia em valorizar a primeira como &quot;leg?tima&quot; e &quot;superior&quot;. Com a coloniza??o </raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+</page>
+<page id="1625" parent="40">
+<name>Página 9</name>
+<lastupdated>1687712336</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1728" parent="1625" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687712333</lastupdated>
+<possize>
+<point>
+<x>523</x>
+<y>146</y>
+</point>
+<size>
+<cx>445</cx>
+<cy>454</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1728Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1728Font1&quot;  &gt;antes restritos provavelmente aos vilarejos prÃ³ximos, hoje um cantor sertanejo pode fazer um show em sua prÃ³pria casa e transmitir, via Youtube, para milhÃµes de pessoas ao mesmo tempo.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1728Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1728Font1&quot;  &gt;Entretanto, o que poderia ser visto como positivo (a difusÃ£o de expressÃµes culturais a um grande nÃºmero de pessoas), pode ter efeitos negativos. Por exemplo, a filÃ³sofa Marilena ChauÃ­ aponta para a capacidade da indÃºstria cultural de tornar repetitivo o que antes era criativo, de tornar uniforme o que era espontÃ¢neo e diferente e, por fim, banalizar e mediocrizar o que era novo. Ainda, existem os questionamentos sobre quem controla as indÃºstrias culturais de massa, geralmente grandes corporaÃ§Ãµes multinacionais sediadas na AmÃ©rica do Norte ou Europa. Por sua vez, a propriedade dos meios de comunicaÃ§Ã£o de massa e da indÃºstria cultural tem tornado-se cada vez &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 antes restritos provavelmente aos vilarejos pr\u243 \&apos;f3ximos, hoje um cantor sertanejo pode fazer um show em sua pr\u243 \&apos;f3pria casa e transmitir, via Youtube, para milh\u245 \&apos;f5es de pessoas ao mesmo &#x0A;tempo.\lang1046\hich\f2\loch\f2\par\par Entretanto, o que poderia ser visto como positivo (a difus\&apos;e3o de express\&apos;f5es culturais a um grande n\&apos;famero de pessoas), pode ter efeitos negativos. Por exemplo, a fil\&apos;f3sofa Marilena Chau\&apos;ed aponta para &#x0A;a capacidade da ind\&apos;fastria cultural de tornar repetitivo o que antes era criativo, de tornar uniforme o que era espont\&apos;e2neo e diferente e, por fim, banalizar e mediocrizar o que era novo. Ainda, existem os questionamentos sobre quem controla as ind\&apos;fastrias &#x0A;culturais de massa, geralmente grandes corpora\&apos;e7\&apos;f5es multinacionais sediadas na Am\&apos;e9rica do Norte ou Europa. Por sua vez, a propriedade dos meios de comunica\&apos;e7\&apos;e3o de massa e da ind\&apos;fastria cultural tem tornado-se cada vez \par}&#x0A;</rtf>
+<raw>?antes restritos provavelmente aos vilarejos pr?ximos, hoje um cantor sertanejo pode fazer um show em sua pr?pria casa e transmitir, via Youtube, para milh?es de pessoas ao mesmo tempo.&#x0A;Entretanto, o que poderia ser visto como positivo (a difus?o de express?es culturais a um grande n?mero de pessoas), pode ter efeitos negativos. Por exemplo, a fil?sofa Marilena Chau? aponta para a capacidade da ind?stria cultural de tornar repetitivo o que antes era criativo, de tornar uniforme o que era espont?neo e diferente e, por fim, banalizar e mediocrizar o que era novo. Ainda, existem os questionamentos sobre quem controla as ind?strias culturais de massa, geralmente grandes corpora??es multinacionais sediadas na Am?rica do Norte ou Europa. Por sua vez, a propriedade dos meios de comunica??o de massa e da ind?stria cultural tem tornado-se cada vez </raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1654" parent="1625" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687712252</lastupdated>
+<possize>
+<point>
+<x>46</x>
+<y>144</y>
+</point>
+<size>
+<cx>442</cx>
+<cy>454</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1654Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1654Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1654Font1&quot;  &gt;Inicialmente apenas com voz e viola caipira, a mÃºsica interiorana seria transformada pelos interesses comerciais de produtoras e gravadoras atÃ© se tornar o que se chama de &quot;&lt;/span &gt;&lt;span class=&quot;text1654Font3&quot;  &gt;MÃºsica Sertaneja&lt;/span &gt;&lt;span class=&quot;text1654Font1&quot;  &gt;&quot;, hoje, o estilo musical mais popular do paÃ­s. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1654Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1654Font1&quot;  &gt;A chamada &quot;&lt;/span &gt;&lt;span class=&quot;text1654Font3&quot;  &gt;cultura de massas&lt;/span &gt;&lt;span class=&quot;text1654Font1&quot;  &gt;&quot; surge com a difusÃ£o de jornais e revistas impressas, fotografia, cinema, rÃ¡dio e televisÃ£o. Inserida no modo de produÃ§Ã£o capitalista, a cultura de massas comercializa as expressÃµes culturais de uma sociedade. Conforme o filÃ³sofo francÃªs Edgar Morin, a cultura de massas Ã© produzida &quot;de acordo com normas maciÃ§as de fabricaÃ§Ã£o industrial; difundida por tÃ©cnicas de difusÃ£o maciÃ§a, dirige-se a uma massa social, ou seja, a um gigantesco aglomerado de indivÃ­duos que se situa aquÃ©m e alÃ©m das estruturas internas da sociedade (classes, famÃ­lia, etc.)&quot; (MORIN apud BOUDON, 509). Voltemos ao exemplo dos antigos violeiros caipiras: &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Inicialmente apenas com voz e viola caipira, a m\u250 \&apos;fasica interiorana seria transformada pelos interesses comerciais de produtoras e gravadoras at\u233 \&apos;e9 se tornar o que se chama de &quot;\b M\u250 \&apos;fasica &#x0A;Sertaneja\b0 &quot;, hoje, o estilo musical mais popular do pa\u237 \&apos;eds. \par\par A chamada &quot;\b cultura de massas\b0 &quot; surge com a difus\u227 \&apos;e3o de jornais e revistas impressas, fotografia, cinema, r\u225 \&apos;e1dio e televis\u227 \&apos;e3o. Inserida no modo &#x0A;de produ\u231 \&apos;e7\u227 \&apos;e3o capitalista, a cultura de massas comercializa as express\u245 \&apos;f5es culturais de uma sociedade. Conforme o fil\u243 \&apos;f3sofo franc\u234 \&apos;eas Edgar Morin, a cultura de massas \u233 \&apos;e9 produzida &quot;de acordo com normas maci\u231 &#x0A;\&apos;e7as de fabrica\u231 \&apos;e7\u227 \&apos;e3o industrial; difundida por t\u233 \&apos;e9cnicas de difus\u227 \&apos;e3o maci\u231 \&apos;e7a, dirige-se a uma massa social, ou seja, a um gigantesco aglomerado de indiv\u237 \&apos;edduos que se situa aqu\u233 \&apos;e9m e al\u233 \&apos;e9m &#x0A;das estruturas internas da sociedade (classes, fam\u237 \&apos;edlia, etc.)&quot; (MORIN apud BOUDON, 509). Voltemos ao exemplo dos antigos violeiros caipiras: \par}&#x0A;</rtf>
+<raw>?Inicialmente apenas com voz e viola caipira, a m?sica interiorana seria transformada pelos interesses comerciais de produtoras e gravadoras at? se tornar o que se chama de &quot;M?sica Sertaneja&quot;, hoje, o estilo musical mais popular do pa?s. &#x0A;A chamada &quot;cultura de massas&quot; surge com a difus?o de jornais e revistas impressas, fotografia, cinema, r?dio e televis?o. Inserida no modo de produ??o capitalista, a cultura de massas comercializa as express?es culturais de uma sociedade. Conforme o fil?sofo franc?s Edgar Morin, a cultura de massas ? produzida &quot;de acordo com normas maci?as de fabrica??o industrial; difundida por t?cnicas de difus?o maci?a, dirige-se a uma massa social, ou seja, a um gigantesco aglomerado de indiv?duos que se situa aqu?m e al?m das estruturas internas da sociedade (classes, fam?lia, etc.)&quot; (MORIN apud BOUDON, 509). Voltemos ao exemplo dos antigos violeiros caipiras: </raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="1627" parent="1625">
+<name>Grupo_1</name>
+<lastupdated>1687712141</lastupdated>
+<shape id="1629" parent="1627" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687712141</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1631" parent="1627" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687712141</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1633" parent="1627" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687712141</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1634" parent="1627" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687712141</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>801</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1634Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1634Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1634Font1&quot;  &gt;Os meios de comunicaÃ§Ã£o de massa na sociedade atual: rÃ¡dio, televisÃ£o e internet &lt;/span &gt;&lt;span class=&quot;text1634Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Os meios de comunica\&apos;e7\&apos;e3o de massa na sociedade atual: r\&apos;e1dio, televis\&apos;e3o e internet \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Os meios de comunica??o de massa na sociedade atual: r?dio, televis?o e internet </raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1636" parent="1627" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687712141</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>136</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>521</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1638" parent="1627" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687712141</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1779" parent="40">
+<name>Página 10</name>
+<lastupdated>1687712336</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="1793" parent="1779" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687712362</lastupdated>
+<possize>
+<point>
+<x>43</x>
+<y>150</y>
+</point>
+<size>
+<cx>445</cx>
+<cy>193</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1793Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1793Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1793Font1&quot;  &gt;mais concentrada em um pequeno nÃºmero de multinacionais, que tem ampliado o seu monopÃ³lio&lt;/span &gt;&lt;span class=&quot;text1793Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text1793Font1&quot;  &gt;e levantando acusaÃ§Ãµes de &quot;imperialismo midiÃ¡tico&quot; potencialmente perigoso para as diversas culturas nacionais. Por fim, a diversidade de opiniÃµes e visÃµes de mundo, frente ao aumento do monopÃ³lio de informaÃ§Ãµes, tambÃ©m corre risco.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 mais concentrada em um pequeno n\u250 \&apos;famero de multinacionais, que tem ampliado o seu monop\u243 \&apos;f3lio\lang1046\hich\f2\loch\f2  \lang1046\hich\f1\loch\f1 e levantando acusa\u231 \&apos;e7\u245 \&apos;f5es de &quot;imperialismo &#x0A;midi\u225 \&apos;e1tico&quot; potencialmente perigoso para as diversas culturas nacionais. Por fim, a diversidade de opini\u245 \&apos;f5es e vis\u245 \&apos;f5es de mundo, frente ao aumento do monop\u243 \&apos;f3lio de informa\u231 \&apos;e7\u245 \&apos;f5es, tamb\u233 \&apos;e9m corre risco.\par}&#x0A;</rtf>
+<raw>?mais concentrada em um pequeno n?mero de multinacionais, que tem ampliado o seu monop?lio e levantando acusa??es de &quot;imperialismo midi?tico&quot; potencialmente perigoso para as diversas culturas nacionais. Por fim, a diversidade de opini?es e vis?es de mundo, frente ao aumento do monop?lio de informa??es, tamb?m corre risco.</raw>
+<numoflines>7</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="1781" parent="1779">
+<name>Grupo_1</name>
+<lastupdated>1687712339</lastupdated>
+<shape id="1783" parent="1781" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687712339</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1785" parent="1781" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687712339</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1787" parent="1781" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687712339</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>108</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1788" parent="1781" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687712339</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>18</y>
+</point>
+<size>
+<cx>801</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1788Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1788Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1788Font1&quot;  &gt;Os meios de comunicaÃ§Ã£o de massa na sociedade atual: rÃ¡dio, televisÃ£o e internet &lt;/span &gt;&lt;span class=&quot;text1788Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Os meios de comunica\&apos;e7\&apos;e3o de massa na sociedade atual: r\&apos;e1dio, televis\&apos;e3o e internet \hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Os meios de comunica??o de massa na sociedade atual: r?dio, televis?o e internet </raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1790" parent="1781" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687712339</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>136</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>521</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1792" parent="1781" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687712339</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

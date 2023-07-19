@@ -1,0 +1,2039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>657</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="171" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="172" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="584" resourcetype="image">
+<name>image0056.png</name>
+<relativelink>images\image0056.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="647" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="648" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="79">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 3</name>
+<lastupdated>1687452255</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="78" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687452264</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687452264</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687452264</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="79" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687452264</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687452264</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687452264</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="70" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687452264</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="71" parent="70" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687452264</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="70" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687452264</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="63" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687452264</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="64" parent="63" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687452264</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="65" parent="63" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687452264</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="55" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687452264</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="56" parent="55" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687452264</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="55" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687452264</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="58" parent="55" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687452264</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="55">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689694058</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="632" parent="40">
+<name>Página 1</name>
+<lastupdated>1689694066</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="633" parent="632">
+<name>Grupo_1</name>
+<lastupdated>1689694060</lastupdated>
+<image id="635" parent="633" resource="647" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689694060</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="637" parent="633" resource="648" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689694060</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="638" parent="633" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689694064</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text638Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text638Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text638Font1&quot;  &gt;Aula 3&lt;/span &gt;&lt;span class=&quot;text638Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 3\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 3</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="640" parent="633" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689694060</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="642" parent="633" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689694060</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="644" parent="633" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689694060</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="646" parent="633" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689694060</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="156" parent="40">
+<name>Página 2</name>
+<lastupdated>1689694058</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="257" parent="156" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452367</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>116</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>475</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text257Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text257Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text257Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text257Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text257Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text257ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text257Font1&quot;  &gt;Air&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text257Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text257ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text257Font1&quot;  &gt;Water &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text257Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text257ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text257Font1&quot;  &gt;Information &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text257Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text257ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text257Font1&quot;  &gt;Advice &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text257Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text257ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text257Font1&quot;  &gt;Food &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text257Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text257ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text257Font1&quot;  &gt;Electricity &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text257Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text257ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text257Font1&quot;  &gt;Money&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot;  &gt;Substantivos incontÃ¡veis frequentemente indicam:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font2&quot;  &gt;SubstÃ¢ncias&lt;/span &gt;&lt;span class=&quot;text257Font1&quot;  &gt;: food, water, iron&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font2&quot;  &gt;Qualidades humanas&lt;/span &gt;&lt;span class=&quot;text257Font1&quot;  &gt;: courage, cruelty, honesty&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font2&quot;  &gt;Atividades&lt;/span &gt;&lt;span class=&quot;text257Font1&quot;  &gt;: help, travel, work&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font2&quot;  &gt;Ideias abstratas&lt;/span &gt;&lt;span class=&quot;text257Font1&quot;  &gt;: beauty, freedom, life&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text257Font1&quot;  &gt;Countable nouns podem ser precedidos por artigos indefinidos e definidos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\lang1033\hich\f2\loch\f2 Air\par Water \par Information \par Advice \par Food \par Electricity \par Money\par\pard\s0\fi-450\li450\ltrpar\qj\lang1046\hich\f1\loch\f1\lang1033\hich\f2\loch\f2\par\fi0\li0\lang1046\hich\f1\loch\f1\lang1033\hich\f2\loch\f2 &#x0A;Substantivos incont\&apos;e1veis frequentemente indicam:\par\par\b Subst\&apos;e2ncias\b0 : food, water, iron\par\par\b Qualidades humanas\b0 : courage, cruelty, honesty\par\par\b Atividades\b0 : help, travel, work\par\par\b Ideias abstratas\b0 : beauty, freedom, &#x0A;life\par\par Countable nouns podem ser precedidos por artigos indefinidos e definidos.\par}&#x0A;</rtf>
+<raw>?Air&#x0A;Water &#x0A;Information &#x0A;Advice &#x0A;Food &#x0A;Electricity &#x0A;Money&#x0A;&#x0A;Substantivos incont�veis frequentemente indicam:&#x0A;&#x0A;Subst�ncias: food, water, iron&#x0A;&#x0A;Qualidades humanas: courage, cruelty, honesty&#x0A;&#x0A;Atividades: help, travel, work&#x0A;&#x0A;Ideias abstratas: beauty, freedom, life&#x0A;&#x0A;Countable nouns podem ser precedidos por artigos indefinidos e definidos.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text257ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>22</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="237" parent="156" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452349</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>454</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>159</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text237Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text237Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text237Font1&quot;  &gt;Uncountable nouns &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text237Font1&quot;  &gt;(Substantivos incontÃ¡veis)&lt;/span &gt;&lt;span class=&quot;text237Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text237Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text237Font2&quot;  &gt;Alguns substantivos sÃ£o incontÃ¡veis e sÃ³ podem ser usados no singular: &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2\fs36\b Uncountable nouns \par (Substantivos incont\&apos;e1veis)\fs28\b0\par\par Alguns substantivos s\&apos;e3o incont\&apos;e1veis e s\&apos;f3 podem ser usados no singular: \par}&#x0A;</rtf>
+<raw>?Uncountable nouns &#x0A;(Substantivos incont�veis)&#x0A;&#x0A;Alguns substantivos s�o incont�veis e s� podem ser usados no singular: </raw>
+<numoflines>5</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="204" parent="156" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 2</name>
+<lastupdated>1687452333</lastupdated>
+<possize>
+<point>
+<x>165</x>
+<y>353</y>
+</point>
+<size>
+<cx>211</cx>
+<cy>82</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text204Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text204Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text204Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text204Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:left;&quot; &gt;&#x0A;&lt;li  class=&quot;text204Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:22px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text204CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text204Font1&quot;  &gt;Train &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span &gt;&lt;span class=&quot;text204Font2&quot;  &gt;â†’&lt;/span &gt;&lt;span class=&quot;text204Font1&quot;  &gt; &amp;nbsp;trains&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text204Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:22px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text204CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text204Font1&quot;  &gt;Girl &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span &gt;&lt;span class=&quot;text204Font2&quot;  &gt;â†’&lt;/span &gt;&lt;span class=&quot;text204Font1&quot;  &gt; &amp;nbsp;girls&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text204Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:22px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text204CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text204Font1&quot;  &gt;Dog &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span &gt;&lt;span class=&quot;text204Font2&quot;  &gt;â†’&lt;/span &gt;&lt;span class=&quot;text204Font1&quot;  &gt; &amp;nbsp;dogs&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss \fcharset0 Calibri;}{\f4 \fswiss Arial;}{\f5 \froman \fcharset2 Symbol;}{\f6 \fnil \fcharset2 Wingdings;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-450\li450\ltrpar\ql\lang1033\hich\f2\loch\f2 Train     \lang1046\hich\f2\loch\f2\u8594 \&apos;3f  \lang1033\hich\f2\loch\f2 trains\par Girl       \lang1046\hich\f2\loch\f2\u8594 &#x0A;\&apos;3f  \lang1033\hich\f2\loch\f2 girls\par Dog      \lang1046\hich\f2\loch\f2\u8594 \&apos;3f  \lang1033\hich\f2\loch\f2 dogs\lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?Train     ?  trains&#x0A;Girl       ?  girls&#x0A;Dog      ?  dogs</raw>
+<publishedbullets>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text204CircleBulletFont6.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>3</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="192" parent="156" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452315</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>116</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>202</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text192Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text192Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text192Font1&quot;  &gt;â€œCountable and Uncountable Nouns! Substantivos ContÃ¡veis e IncontÃ¡veis!â€&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text192Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text192Font3&quot;  &gt;Countable Nouns &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text192Font3&quot;  &gt;(Substantivos contÃ¡veis)&lt;/span &gt;&lt;span class=&quot;text192Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text192Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text192Font1&quot;  &gt;Em inglÃªs, a maioria dos substantivos Ã© contÃ¡vel: eles podem ser usados tanto no singular quanto no plural.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2\u8220 \&apos;93Countable and Uncountable Nouns! Substantivos Cont\&apos;e1veis e Incont\&apos;e1veis!\u8221 \&apos;94\par\par\b Countable Nouns \par (Substantivos cont\&apos;e1veis)\b0\par\par Em ingl\&apos;eas, a maioria dos &#x0A;substantivos \&apos;e9 cont\&apos;e1vel: eles podem ser usados tanto no singular quanto no plural.\par}&#x0A;</rtf>
+<raw>?�Countable and Uncountable Nouns! Substantivos Cont�veis e Incont�veis!�&#x0A;&#x0A;Countable Nouns &#x0A;(Substantivos cont�veis)&#x0A;&#x0A;Em ingl�s, a maioria dos substantivos � cont�vel: eles podem ser usados tanto no singular quanto no plural.</raw>
+<numoflines>9</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="159" parent="156">
+<name>Grupo_1</name>
+<lastupdated>1687452280</lastupdated>
+<shape id="161" parent="159" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687452280</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="163" parent="159" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687452280</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="165" parent="159" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687452280</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="166" parent="159" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687452296</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>648</cx>
+<cy>61</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text166Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text166Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text166Font1&quot;  &gt;Countable and Uncountable nouns&lt;/span &gt;&lt;span class=&quot;text166Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Countable and Uncountable nouns\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Countable and Uncountable nouns</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="168" parent="159" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687452280</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="170" parent="159" resource="172" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687452280</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="274" parent="40">
+<name>Página 3</name>
+<lastupdated>1687452510</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="304" parent="274" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452506</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>116</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>517</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text304Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text304Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text304Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text304Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text304Font1&quot;  &gt;Quando usar how many&lt;/span &gt;&lt;span class=&quot;text304Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text304Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text304Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text304ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text304Font2&quot;  &gt;â€œManyâ€ quer dizer â€œmuitos, muitasâ€ e utilizamos em palavras no plural, com coisas que podem ser contadas uma a uma. Isso quer dizer que tudo que Ã© contÃ¡vel, como objetos que podem ser separados por quantidade, devem ser usados com â€œmanyâ€. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text304Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text304Font2&quot;  &gt;Exemplo:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text304Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text304Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text304ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text304Font2&quot;  &gt;I bought many apples yesterday. &amp;nbsp;(Eu comprei muitas maÃ§Ã£s ontem.)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text304Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text304Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text304ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text304Font2&quot;  &gt;He found many penson her drawer. (Ele encontrou muitas canetas na gaveta dela.)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text304Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text304Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text304ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text304Font2&quot;  &gt;If I were millionaire, I would buy many cars. (Se eu fosse milionÃ¡rio, eu compraria muitos carros)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text304Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text304Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text304ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text304Font2&quot;  &gt;Iâ€™m not very popular, I donâ€™t have many friends. (Eu nÃ£o sou muito popular, nÃ£o tenho muitos amigos.)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2\b Quando usar how many\b0\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\u8220 \&apos;93Many\u8221 \&apos;94 quer dizer \u8220 \&apos;93muitos, &#x0A;muitas\u8221 \&apos;94 e utilizamos em palavras no plural, com coisas que podem ser contadas uma a uma. Isso quer dizer que tudo que \&apos;e9 cont\&apos;e1vel, como objetos que podem ser separados por quantidade, devem ser usados com \u8220 \&apos;93many\u8221 \&apos;94. \par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\fi0\li0\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;Exemplo:\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 I bought many apples yesterday.  (Eu comprei muitas ma\&apos;e7\&apos;e3s ontem.)\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 He found many penson her drawer. (Ele encontrou muitas canetas na gaveta dela.)\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 If I were millionaire, I would buy many cars. (Se eu fosse milion\&apos;e1rio, eu compraria muitos carros)\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 I\u8217 \&apos;92m not very popular, I don\u8217 \&apos;92t have many friends. (Eu n\&apos;e3o sou muito popular, n\&apos;e3o tenho muitos amigos.)\par}&#x0A;</rtf>
+<raw>?Quando usar how many&#x0A;?Many? quer dizer ?muitos, muitas? e utilizamos em palavras no plural, com coisas que podem ser contadas uma a uma. Isso quer dizer que tudo que ? cont?vel, como objetos que podem ser separados por quantidade, devem ser usados com ?many?. &#x0A;Exemplo:&#x0A;I bought many apples yesterday.  (Eu comprei muitas ma??s ontem.)&#x0A;He found many penson her drawer. (Ele encontrou muitas canetas na gaveta dela.)&#x0A;If I were millionaire, I would buy many cars. (Se eu fosse milion?rio, eu compraria muitos carros)&#x0A;I?m not very popular, I don?t have many friends. (Eu n?o sou muito popular, n?o tenho muitos amigos.)</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text304ArrowBulletFont10.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text304ArrowBulletFont10.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>24</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="288" parent="274" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452427</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>116</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>517</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text288Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text288Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text288Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text288Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text288Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text288ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text288Font1&quot;  &gt;A&lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt; car (&lt;/span &gt;&lt;span class=&quot;text288Font1&quot;  &gt;um &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;carro)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text288Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text288ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text288Font1&quot;  &gt;The &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;car (&lt;/span &gt;&lt;span class=&quot;text288Font1&quot;  &gt;o &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;carro)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text288Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text288ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text288Font1&quot;  &gt;The &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;cars (&lt;/span &gt;&lt;span class=&quot;text288Font1&quot;  &gt;os &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;carros) &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text288Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text288ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text288Font1&quot;  &gt;A &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;boy (&lt;/span &gt;&lt;span class=&quot;text288Font1&quot;  &gt;um &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;menino)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text288Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text288ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text288Font1&quot;  &gt;The &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;boy (&lt;/span &gt;&lt;span class=&quot;text288Font1&quot;  &gt;o &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;menino)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text288Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text288ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text288Font1&quot;  &gt;The &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;boys (&lt;/span &gt;&lt;span class=&quot;text288Font1&quot;  &gt;os &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;meninos) &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text288Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text288Font2&quot;  &gt;Substantivos incontÃ¡veis podem ser precedidos de the, some, any, much e expressÃµes como a piece of, a loaf of, a bottle of.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text288Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text288Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text288ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text288Font1&quot;  &gt;The &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;water is clean.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text288Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text288ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text288Font2&quot;  &gt;I will give you &lt;/span &gt;&lt;span class=&quot;text288Font1&quot;  &gt;some &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;advice.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text288Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text288ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text288Font2&quot;  &gt;They donÂ´t have &lt;/span &gt;&lt;span class=&quot;text288Font1&quot;  &gt;much &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;money.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text288Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text288ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text288Font2&quot;  &gt;Does Mary need &lt;/span &gt;&lt;span class=&quot;text288Font1&quot;  &gt;any &lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt;information?&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text288Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text288ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text288Font2&quot;  &gt;We want a &lt;/span &gt;&lt;span class=&quot;text288Font1&quot;  &gt;piece of&lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt; advice.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text288Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text288ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text288Font2&quot;  &gt;Can Rob buy &lt;/span &gt;&lt;span class=&quot;text288Font1&quot;  &gt;a loaf of&lt;/span &gt;&lt;span class=&quot;text288Font2&quot;  &gt; bread?&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text288Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text288Font1&quot;  &gt;How much / How many&lt;/span &gt;&lt;span class=&quot;text288Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text288Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text288Font2&quot;  &gt;How much e how many sÃ£o usados para expressar quantidade e podem confundir. Confira como usar de forma correta cada um deles.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f2\loch\f2\b A\b0  car (\b um \b0 carro)\par\b The \b0 car (\b o \b0 carro)\par\b The \b0 cars (\b os \b0 carros) \par\b A \b0 boy (\b um \b0 &#x0A;menino)\par\b The \b0 boy (\b o \b0 menino)\par\b The \b0 boys (\b os \b0 meninos) \par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par Substantivos incont\&apos;e1veis podem ser precedidos de the, some, any, much e express\&apos;f5es como a piece of, a loaf &#x0A;of, a bottle of.\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\b The \b0 water is clean.\par I will give you \b some \b0 advice.\par They don\&apos;b4t have \b much \b0 money.\par Does Mary &#x0A;need \b any \b0 information?\par We want a \b piece of\b0  advice.\par Can Rob buy \b a loaf of\b0  bread?\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\b\par\fi0\li0\hich\f1\loch\f1\b0\hich\f2\loch\f2\b How much / How many\b0\par\par &#x0A;How much e how many s\&apos;e3o usados para expressar quantidade e podem confundir. Confira como usar de forma correta cada um deles.\par}&#x0A;</rtf>
+<raw>?A car (um carro)&#x0A;The car (o carro)&#x0A;The cars (os carros) &#x0A;A boy (um menino)&#x0A;The boy (o menino)&#x0A;The boys (os meninos) &#x0A;Substantivos incont?veis podem ser precedidos de the, some, any, much e express?es como a piece of, a loaf of, a bottle of.&#x0A;The water is clean.&#x0A;I will give you some advice.&#x0A;They don?t have much money.&#x0A;Does Mary need any information?&#x0A;We want a piece of advice.&#x0A;Can Rob buy a loaf of bread?&#x0A;How much / How many&#x0A;How much e how many s?o usados para expressar quantidade e podem confundir. Confira como usar de forma correta cada um deles.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text288ArrowBulletFont10.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>24</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="276" parent="274">
+<name>Grupo_1</name>
+<lastupdated>1687452378</lastupdated>
+<shape id="278" parent="276" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687452378</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="280" parent="276" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687452378</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="282" parent="276" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687452378</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="283" parent="276" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687452378</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>648</cx>
+<cy>61</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text283Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text283Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text283Font1&quot;  &gt;Countable and Uncountable nouns&lt;/span &gt;&lt;span class=&quot;text283Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Countable and Uncountable nouns\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Countable and Uncountable nouns</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="285" parent="276" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687452378</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="287" parent="276" resource="172" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687452378</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="318" parent="40">
+<name>Página 4</name>
+<lastupdated>1687452542</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="351" parent="318" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452538</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>116</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>454</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text351Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text351Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text351Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text351Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text351Font1&quot;  &gt;Como fazer uma pergunta com how much e how many?&lt;/span &gt;&lt;span class=&quot;text351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text351Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text351ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text351Font2&quot;  &gt;How many years are there in a century? â€“ Quantos anos hÃ¡ em um sÃ©culo?&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text351Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text351ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text351Font2&quot;  &gt;How many dollars do you have in your pocket? â€“ Quantos dÃ³lares vocÃª tem no seu bolso?&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text351Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text351ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text351Font2&quot;  &gt;How many kids are there in your school? â€“ Quantas crianÃ§as hÃ¡ na sua escola?&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text351Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text351ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text351Font2&quot;  &gt;How much is this book? â€“ Quanto custa esse livro?&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text351Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text351ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text351Font2&quot;  &gt;How much coffee did you drink? â€“ Quanto cafÃ© vocÃª tomou?&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text351Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text351Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text351ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text351Font2&quot;  &gt;How much food do we have left? â€“ Quanta comida nÃ³s ainda temos?&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2\b Como fazer uma pergunta com how much e how many?\b0\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 How many years are there in &#x0A;a century? \u8211 \&apos;96 Quantos anos h\&apos;e1 em um s\&apos;e9culo?\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 How many dollars &#x0A;do you have in your pocket? \u8211 \&apos;96 Quantos d\&apos;f3lares voc\&apos;ea tem no seu bolso?\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;How many kids are there in your school? \u8211 \&apos;96 Quantas crian\&apos;e7as h\&apos;e1 na sua escola?\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;How much is this book? \u8211 \&apos;96 Quanto custa esse livro?\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 How much coffee &#x0A;did you drink? \u8211 \&apos;96 Quanto caf\&apos;e9 voc\&apos;ea tomou?\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 How much food do we &#x0A;have left? \u8211 \&apos;96 Quanta comida n\&apos;f3s ainda temos?\par}&#x0A;</rtf>
+<raw>?Como fazer uma pergunta com how much e how many?&#x0A;How many years are there in a century? ? Quantos anos h? em um s?culo?&#x0A;How many dollars do you have in your pocket? ? Quantos d?lares voc? tem no seu bolso?&#x0A;How many kids are there in your school? ? Quantas crian?as h? na sua escola?&#x0A;How much is this book? ? Quanto custa esse livro?&#x0A;How much coffee did you drink? ? Quanto caf? voc? tomou?&#x0A;How much food do we have left? ? Quanta comida n?s ainda temos?</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text351ArrowBulletFont10.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text351ArrowBulletFont10.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>21</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="332" parent="318" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452529</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>116</y>
+</point>
+<size>
+<cx>431</cx>
+<cy>538</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text332Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text332Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text332Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text332Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text332Font1&quot;  &gt;Quando usar how much&lt;/span &gt;&lt;span class=&quot;text332Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text332Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text332Font2&quot;  &gt;JÃ¡ o â€œmuchâ€ quer dizer â€œmuito/muitaâ€ e utilizamos em palavras no singular e que nÃ£o temos a quantidade definida, ou seja, que nÃ£o podem ser contadas uma a uma. Usamos â€œmuchâ€ principalmente quando vamos falar de lÃ­quidos, conceitos abstratos (como sentimentos ou sensaÃ§Ãµes) ou alimentos que falamos como um grupo. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text332Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text332Font2&quot;  &gt;Exemplo:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text332Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text332Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text332ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text332Font2&quot;  &gt;There was so much water on the bathroom floor. (Tinha muita Ã¡gua no chÃ£o do banheiro.)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text332Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text332Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text332ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text332Font2&quot;  &gt;I didnâ€™t get much sleep yesterday. (Eu nÃ£o dormi muito a noite passada.)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text332Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text332Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text332ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text332Font2&quot;  &gt;I donâ€™t eat much rice. (Eu nÃ£o como muito arroz.)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:30px;text-indent:-30px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text332Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text332Font2&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text332ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text332Font2&quot;  &gt;We donâ€™t have much money. (NÃ³s nÃ£o temos muito dinheiro.)&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2\b Quando usar how much\b0\par\par J\&apos;e1 o \u8220 \&apos;93much\u8221 \&apos;94 quer dizer \u8220 \&apos;93muito/muita\u8221 \&apos;94 e utilizamos em palavras no singular e que n\&apos;e3o temos a quantidade definida, &#x0A;ou seja, que n\&apos;e3o podem ser contadas uma a uma. Usamos \u8220 \&apos;93much\u8221 \&apos;94 principalmente quando vamos falar de l\&apos;edquidos, conceitos abstratos (como sentimentos ou sensa\&apos;e7\&apos;f5es) ou alimentos que falamos como um grupo. \par\par Exemplo:\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 There was so much water on the bathroom floor. (Tinha muita \&apos;e1gua no ch\&apos;e3o do banheiro.)\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 I didn\u8217 \&apos;92t get much sleep yesterday. (Eu n\&apos;e3o dormi muito a noite passada.)\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 I don\u8217 \&apos;92t eat much rice. (Eu n\&apos;e3o como muito arroz.)\par\pard\s0\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;We don\u8217 \&apos;92t have much money. (N\&apos;f3s n\&apos;e3o temos muito dinheiro.)\par}&#x0A;</rtf>
+<raw>?Quando usar how much&#x0A;J? o ?much? quer dizer ?muito/muita? e utilizamos em palavras no singular e que n?o temos a quantidade definida, ou seja, que n?o podem ser contadas uma a uma. Usamos ?much? principalmente quando vamos falar de l?quidos, conceitos abstratos (como sentimentos ou sensa??es) ou alimentos que falamos como um grupo. &#x0A;Exemplo:&#x0A;There was so much water on the bathroom floor. (Tinha muita ?gua no ch?o do banheiro.)&#x0A;I didn?t get much sleep yesterday. (Eu n?o dormi muito a noite passada.)&#x0A;I don?t eat much rice. (Eu n?o como muito arroz.)&#x0A;We don?t have much money. (N?s n?o temos muito dinheiro.)</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text332ArrowBulletFont10.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text332ArrowBulletFont10.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>24</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="320" parent="318">
+<name>Grupo_1</name>
+<lastupdated>1687452514</lastupdated>
+<shape id="322" parent="320" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687452514</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="324" parent="320" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687452514</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="326" parent="320" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687452514</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="327" parent="320" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687452514</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>648</cx>
+<cy>61</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text327Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text327Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text327Font1&quot;  &gt;Countable and Uncountable nouns&lt;/span &gt;&lt;span class=&quot;text327Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Countable and Uncountable nouns\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Countable and Uncountable nouns</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="329" parent="320" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687452514</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="331" parent="320" resource="172" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687452514</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="363" parent="40">
+<name>Página 5</name>
+<lastupdated>1687452626</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="437" parent="363" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452622</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>170</y>
+</point>
+<size>
+<cx>454</cx>
+<cy>475</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text437Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text437Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text437Font1&quot; data-bltIndnt=&quot;6&quot; style=&quot;line-height:1.107;position:relative;margin-left:27px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text437ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:6&#x0A;} --&gt;&lt;span class=&quot;text437Font1&quot;  &gt;&amp;nbsp;radio - radios / hero â€“ heroes&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text437Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text437Font1&quot;  &gt;Notas: &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text437Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text437Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text437CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text437Font1&quot;  &gt;Algumas exceÃ§Ãµes que fazem o plural com o acrÃ©scimo de â€˜sâ€™: photo, piano, kilo, dynamo, banjo, photo, canto, flamingo, concerto, ego, embryo, tobacco.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text437Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text437Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text437CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text437Font1&quot;  &gt;As palavras archipelago, ghetto e cargo admitem ambas as formas de plural.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text437Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text437Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text437CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text437Font1&quot;  &gt;Palavras compostas: em geral, acrescenta-se o plural Ã  palavra principal:&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text437Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text437Font1&quot; data-bltIndnt=&quot;92&quot; style=&quot;line-height:1.107;position:relative;margin-left:113px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text437ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:92&#x0A;} --&gt;&lt;span class=&quot;text437Font1&quot;  &gt;father-in-law - fathers-in-law / passer-by - passers-by&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:84px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text437Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text437Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text437CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text437Font1&quot;  &gt;Palavras terminadas em s, ss, sh, ch, x e z: acrescenta-se â€˜esâ€™.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text437Font1&quot; data-bltIndnt=&quot;92&quot; style=&quot;line-height:1.107;position:relative;margin-left:113px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text437ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:92&#x0A;} --&gt;&lt;span class=&quot;text437Font1&quot;  &gt;bus - buses / brush - brushes / church - churches / fox - foxes / buzz - buzzes&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li450\ltrpar\qj\hich\f2\loch\f2  radio - radios / hero \u8211 \&apos;96 heroes\par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par Notas: \par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb &#x0A;\&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Algumas exce\&apos;e7\&apos;f5es que fazem o plural com o acr\&apos;e9scimo de \u8216 \&apos;91s\u8217 \&apos;92: photo, piano, kilo, dynamo, banjo, photo, canto, flamingo, concerto, ego, embryo, tobacco.\par\pard\s0\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1&#x0A;{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 As palavras archipelago, ghetto e cargo admitem ambas as formas de plural.\par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;Palavras compostas: em geral, acrescenta-se o plural \&apos;e0 palavra principal:\par\pard\s0\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-540\li1260\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;father-in-law - fathers-in-law / passer-by - passers-by\par\pard\s0\fi-540\li1260\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Palavras terminadas &#x0A;em s, ss, sh, ch, x e z: acrescenta-se \u8216 \&apos;91es\u8217 \&apos;92.\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-540\li1260\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 bus - buses / brush - brushes / church - churches / fox - foxes / buzz - buzzes\par}&#x0A;</rtf>
+<raw>? radio - radios / hero ? heroes&#x0A;Notas: &#x0A;Algumas exce??es que fazem o plural com o acr?scimo de ?s?: photo, piano, kilo, dynamo, banjo, photo, canto, flamingo, concerto, ego, embryo, tobacco.&#x0A;As palavras archipelago, ghetto e cargo admitem ambas as formas de plural.&#x0A;Palavras compostas: em geral, acrescenta-se o plural ? palavra principal:&#x0A;father-in-law - fathers-in-law / passer-by - passers-by&#x0A;Palavras terminadas em s, ss, sh, ch, x e z: acrescenta-se ?es?.&#x0A;bus - buses / brush - brushes / church - churches / fox - foxes / buzz - buzzes</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text437ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text437ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text437CircleBulletFont6.png</name>
+</bullet>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text437CircleBulletFont6.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>22</numoflines>
+<numpubbullets>4</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="416" parent="363" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687452619</lastupdated>
+<possize>
+<point>
+<x>525</x>
+<y>99</y>
+</point>
+<size>
+<cx>438</cx>
+<cy>70</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text416Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text416Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text416Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text416CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text416Font1&quot;  &gt;Palavras terminadas em o: se precedido de vogal, acrescenta-se â€˜sâ€™; se precedido de consoante, acrescenta-se â€˜esâ€™.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Palavras terminadas em o: se precedido de vogal, acrescenta-se \u8216 \&apos;91s\u8217 \&apos;92; se precedido de consoante, acrescenta-se \u8216 &#x0A;\&apos;91es\u8217 \&apos;92.\par\pard\s0\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par}&#x0A;</rtf>
+<raw>?Palavras terminadas em o: se precedido de vogal, acrescenta-se ?s?; se precedido de consoante, acrescenta-se ?es?.&#x0A;</raw>
+<publishedbullets>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text416CircleBulletFont6.png</name>
+</bullet>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text416CircleBulletFont6.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>4</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="372" parent="363">
+<name>Grupo_1</name>
+<lastupdated>1687452549</lastupdated>
+<shape id="374" parent="372" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687452549</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="376" parent="372" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687452549</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="378" parent="372" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687452549</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="379" parent="372" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687452549</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>648</cx>
+<cy>61</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text379Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text379Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text379Font1&quot;  &gt;Countable and Uncountable nouns&lt;/span &gt;&lt;span class=&quot;text379Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Countable and Uncountable nouns\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Countable and Uncountable nouns</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="381" parent="372" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687452549</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="383" parent="372" resource="172" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687452549</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+<text id="364" parent="363" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452581</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>127</y>
+</point>
+<size>
+<cx>452</cx>
+<cy>512</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text364Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text364Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text364Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text364Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text364Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text364Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text364Font1&quot;  &gt;Plural of nouns&lt;/span &gt;&lt;span class=&quot;text364Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text364Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text364Font3&quot;  &gt;FormaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text364Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text364Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text364Font2&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text364CircleBulletFont7.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text364Font2&quot;  &gt;Regra geral: acrÃ©scimo de â€˜sâ€™ pen-pens&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text364Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text364Font2&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text364CircleBulletFont7.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text364Font2&quot;  &gt;Palavras terminadas em y: Se precedido de vogal, acrescenta-se â€˜sâ€™; se precedido de consoante, troca-se o â€˜yâ€™ por â€˜iesâ€™.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text364Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text364Font2&quot; data-bltIndnt=&quot;92&quot; style=&quot;line-height:1.107;position:relative;margin-left:113px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text364ArrowBulletFont10.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:92&#x0A;} --&gt;&lt;span class=&quot;text364Font2&quot;  &gt;Boy-boys / library â€“ libraries&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:84px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text364Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text364Font2&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text364CircleBulletFont7.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text364Font2&quot;  &gt;Palavras terminadas em f ou fe: acrescenta-se â€˜sâ€™. roof - roofs / handkerchief â€“ handkerchiefs&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text364Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text364Font2&quot; data-bltIndnt=&quot;92&quot; style=&quot;line-height:1.107;position:relative;margin-left:108px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text364CircleBulletFont7.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:92&#x0A;} --&gt;&lt;span class=&quot;text364Font2&quot;  &gt;Estas 13 palavras fazem o plural com â€˜vesâ€™: shelfâ€“sheafâ€“selfâ€“halfâ€“leafâ€“knifeâ€“elfâ€“wifeâ€“ thief â€“ loaf â€“ wolf â€“ calf â€“ life.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text364Font2&quot; data-bltIndnt=&quot;92&quot; style=&quot;line-height:1.107;position:relative;margin-left:108px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text364CircleBulletFont7.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:92&#x0A;} --&gt;&lt;span class=&quot;text364Font2&quot;  &gt;leaf - leaves / thief - thieves / wife - wives etc. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text364Font2&quot; data-bltIndnt=&quot;92&quot; style=&quot;line-height:1.107;position:relative;margin-left:108px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text364CircleBulletFont7.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:92&#x0A;} --&gt;&lt;span class=&quot;text364Font2&quot;  &gt;Os substantivos dwarf, wharf, scarf e hoof admitem ambas as formas de plural. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\b Plural of nouns\fs28\b0\par\par\b Forma\&apos;e7\&apos;e3o\b0\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 Regra geral: acr\&apos;e9scimo &#x0A;de \u8216 \&apos;91s\u8217 \&apos;92 pen-pens\par\pard\s0\fi-540\li540\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 Palavras terminadas em y: &#x0A;Se precedido de vogal, acrescenta-se \u8216 \&apos;91s\u8217 \&apos;92; se precedido de consoante, troca-se o \u8216 \&apos;91y\u8217 \&apos;92 por \u8216 \&apos;91ies\u8217 \&apos;92.\par\pard\s0\fi-540\li540\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-540\li1260\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 Boy-boys / library \u8211 \&apos;96 libraries\par\pard\s0\fi-540\li1260\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 &#x0A;Palavras terminadas em f ou fe: acrescenta-se \u8216 \&apos;91s\u8217 \&apos;92. roof - roofs / handkerchief \u8211 \&apos;96 handkerchiefs\par\pard\s0\fi-540\li540\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li1260\ltrpar\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 &#x0A;Estas 13 palavras fazem o plural com \u8216 \&apos;91ves\u8217 \&apos;92: shelf\u8211 \&apos;96sheaf\u8211 \&apos;96self\u8211 \&apos;96half\u8211 \&apos;96leaf\u8211 \&apos;96knife\u8211 \&apos;96elf\u8211 \&apos;96wife\u8211 \&apos;96 thief \u8211 \&apos;96 loaf \u8211 \&apos;96 wolf \u8211 \&apos;96 calf \u8211 &#x0A;\&apos;96 life.\par leaf - leaves / thief - thieves / wife - wives etc. \par Os substantivos dwarf, wharf, scarf e hoof admitem ambas as formas de plural. \par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Plural of nouns&#x0A;Forma??o&#x0A;Regra geral: acr?scimo de ?s? pen-pens&#x0A;Palavras terminadas em y: Se precedido de vogal, acrescenta-se ?s?; se precedido de consoante, troca-se o ?y? por ?ies?.&#x0A;Boy-boys / library ? libraries&#x0A;Palavras terminadas em f ou fe: acrescenta-se ?s?. roof - roofs / handkerchief ? handkerchiefs&#x0A;Estas 13 palavras fazem o plural com ?ves?: shelf?sheaf?self?half?leaf?knife?elf?wife? thief ? loaf ? wolf ? calf ? life.&#x0A;leaf - leaves / thief - thieves / wife - wives etc. &#x0A;Os substantivos dwarf, wharf, scarf e hoof admitem ambas as formas de plural. &#x0A;</raw>
+<publishedbullets>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text364CircleBulletFont7.png</name>
+</bullet>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text364CircleBulletFont7.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text364ArrowBulletFont10.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text364ArrowBulletFont10.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>24</numoflines>
+<numpubbullets>4</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+</page>
+<page id="483" parent="40">
+<name>Página 6</name>
+<lastupdated>1687452656</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="506" parent="483" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452654</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>116</y>
+</point>
+<size>
+<cx>465</cx>
+<cy>516</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text506Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text506Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text506Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text506CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text506Font1&quot;  &gt;Palavras de origem grega terminadas em on fazem o plural em a. As terminadas em is fazem o plural em es.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text506Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text506Font1&quot; data-bltIndnt=&quot;83&quot; style=&quot;line-height:1.107;position:relative;margin-left:104px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text506ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:83&#x0A;} --&gt;&lt;span class=&quot;text506Font1&quot;  &gt;phenomenon - phenomena / analysis â€“ analyses&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text506Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text506Font1&quot;  &gt;As de origem latina terminadas em um fazem o plural em a. As terminadas em us fazem o plural em i.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text506Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text506Font1&quot; data-bltIndnt=&quot;92&quot; style=&quot;line-height:1.107;position:relative;margin-left:113px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text506ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:92&#x0A;} --&gt;&lt;span class=&quot;text506Font1&quot;  &gt;bacterium - bacteria / nucleus - nuclei &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text506Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text506Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text506CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text506Font1&quot;  &gt;Substantivos pÃ¡trios terminados em â€˜seâ€™, â€˜shâ€™, â€˜châ€™ e â€˜ssâ€™ tÃªm a mesma forma para singular e plural: &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text506Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text506Font1&quot; data-bltIndnt=&quot;92&quot; style=&quot;line-height:1.107;position:relative;margin-left:113px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text506ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:92&#x0A;} --&gt;&lt;span class=&quot;text506Font1&quot;  &gt;Japanese â€“ English â€“ French â€“ Swiss.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:84px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text506Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text506Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text506CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text506Font1&quot;  &gt;Substantivos de nacionalidade terminados em man trocam essa terminaÃ§Ã£o para men, exceto German, Norman e Roman, aos quais acrescenta-se â€˜sâ€™. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text506Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text506Font1&quot; data-bltIndnt=&quot;92&quot; style=&quot;line-height:1.107;position:relative;margin-left:113px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text506ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:92&#x0A;} --&gt;&lt;span class=&quot;text506Font1&quot;  &gt;Irishman - Irishmen / German - Germans &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f2\loch\f2 Palavras de origem grega terminadas em on fazem o plural em a. As terminadas em is fazem o plural em es.\par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li1170\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 phenomenon - phenomena / analysis \u8211 \&apos;96 analyses\par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par As de origem latina terminadas em um fazem o plural em a. As terminadas em &#x0A;us fazem o plural em i.\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-540\li1260\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 bacterium - bacteria / nucleus - nuclei \par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb &#x0A;\&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Substantivos p\&apos;e1trios terminados em \u8216 \&apos;91se\u8217 \&apos;92, \u8216 \&apos;91sh\u8217 \&apos;92, \u8216 \&apos;91ch\u8217 \&apos;92 e \u8216 \&apos;91ss\u8217 \&apos;92 t\&apos;eam a mesma forma para singular e plural: \par\pard\s0\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3&#x0A;{\pntxtb \&apos;d8}}\fi-540\li1260\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Japanese \u8211 \&apos;96 English \u8211 \&apos;96 French \u8211 \&apos;96 Swiss.\par\pard\s0\fi-540\li1260\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb &#x0A;\&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Substantivos de nacionalidade terminados em man trocam essa termina\&apos;e7\&apos;e3o para men, exceto German, Norman e Roman, aos quais acrescenta-se \u8216 \&apos;91s\u8217 \&apos;92. \par\pard\s0\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3&#x0A;{\pntxtb \&apos;d8}}\fi-540\li1260\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Irishman - Irishmen / German - Germans \par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\fi-540\li540\hich\f1\loch\f1\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?Palavras de origem grega terminadas em on fazem o plural em a. As terminadas em is fazem o plural em es.&#x0A;phenomenon - phenomena / analysis ? analyses&#x0A;As de origem latina terminadas em um fazem o plural em a. As terminadas em us fazem o plural em i.&#x0A;bacterium - bacteria / nucleus - nuclei &#x0A;Substantivos p?trios terminados em ?se?, ?sh?, ?ch? e ?ss? t?m a mesma forma para singular e plural: &#x0A;Japanese ? English ? French ? Swiss.&#x0A;Substantivos de nacionalidade terminados em man trocam essa termina??o para men, exceto German, Norman e Roman, aos quais acrescenta-se ?s?. &#x0A;Irishman - Irishmen / German - Germans &#x0A;</raw>
+<publishedbullets>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text506CircleBulletFont6.png</name>
+</bullet>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text506CircleBulletFont6.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text506ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text506ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>25</numoflines>
+<numpubbullets>4</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="497" parent="483" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452641</lastupdated>
+<possize>
+<point>
+<x>49</x>
+<y>116</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>414</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text497Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text497Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text497Font1&quot;  &gt;Notas:&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text497Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text497Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text497CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text497Font1&quot;  &gt;Palavras terminadas em ch com som de [k]: acrescenta-se â€˜sâ€™.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text497Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text497Font1&quot;  &gt;stomach - stomachs / monarch - monarchs &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text497Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text497Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text497CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text497Font1&quot;  &gt;O plural da palavra ox Ã© oxen.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text497Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text497Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text497CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text497Font1&quot;  &gt;Plurais irregulares: &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text497Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text497Font1&quot; data-bltIndnt=&quot;83&quot; style=&quot;line-height:1.107;position:relative;margin-left:104px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text497ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:83&#x0A;} --&gt;&lt;span class=&quot;text497Font1&quot;  &gt;foot - feet&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text497Font1&quot; data-bltIndnt=&quot;83&quot; style=&quot;line-height:1.107;position:relative;margin-left:104px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text497ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:83&#x0A;} --&gt;&lt;span class=&quot;text497Font1&quot;  &gt;mouse - mice &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text497Font1&quot; data-bltIndnt=&quot;83&quot; style=&quot;line-height:1.107;position:relative;margin-left:104px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text497ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:83&#x0A;} --&gt;&lt;span class=&quot;text497Font1&quot;  &gt;man - men &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text497Font1&quot; data-bltIndnt=&quot;83&quot; style=&quot;line-height:1.107;position:relative;margin-left:104px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text497ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:83&#x0A;} --&gt;&lt;span class=&quot;text497Font1&quot;  &gt;tooth - teeth &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text497Font1&quot; data-bltIndnt=&quot;83&quot; style=&quot;line-height:1.107;position:relative;margin-left:104px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text497ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:83&#x0A;} --&gt;&lt;span class=&quot;text497Font1&quot;  &gt;louse - lice &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text497Font1&quot; data-bltIndnt=&quot;83&quot; style=&quot;line-height:1.107;position:relative;margin-left:104px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text497ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:83&#x0A;} --&gt;&lt;span class=&quot;text497Font1&quot;  &gt;woman - women &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text497Font1&quot; data-bltIndnt=&quot;83&quot; style=&quot;line-height:1.107;position:relative;margin-left:104px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text497ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:83&#x0A;} --&gt;&lt;span class=&quot;text497Font1&quot;  &gt;goose - geese &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text497Font1&quot; data-bltIndnt=&quot;83&quot; style=&quot;line-height:1.107;position:relative;margin-left:104px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text497ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:83&#x0A;} --&gt;&lt;span class=&quot;text497Font1&quot;  &gt;child - children&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\ltrpar\qj\hich\f2\loch\f2 Notas:\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Palavras terminadas em ch com som de [k]: acrescenta-se \u8216 \&apos;91s\u8217 &#x0A;\&apos;92.\par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par stomach - stomachs / monarch - monarchs \par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 O plural da palavra ox \&apos;e9 oxen.\par\pard\s0\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1&#x0A;{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Plurais irregulares: \par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-450\li1170\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;foot - feet\par mouse - mice \par man - men \par tooth - teeth \par louse - lice \par woman - women \par goose - geese \par child - children\par}&#x0A;</rtf>
+<raw>?Notas:&#x0A;Palavras terminadas em ch com som de [k]: acrescenta-se ?s?.&#x0A;stomach - stomachs / monarch - monarchs &#x0A;O plural da palavra ox ? oxen.&#x0A;Plurais irregulares: &#x0A;foot - feet&#x0A;mouse - mice &#x0A;man - men &#x0A;tooth - teeth &#x0A;louse - lice &#x0A;woman - women &#x0A;goose - geese &#x0A;child - children</raw>
+<publishedbullets>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text497CircleBulletFont6.png</name>
+</bullet>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text497CircleBulletFont6.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text497ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text497ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>19</numoflines>
+<numpubbullets>4</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="485" parent="483">
+<name>Grupo_1</name>
+<lastupdated>1687452633</lastupdated>
+<shape id="487" parent="485" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687452633</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="489" parent="485" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687452633</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="491" parent="485" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687452633</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="492" parent="485" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687452633</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>648</cx>
+<cy>61</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text492Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text492Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text492Font1&quot;  &gt;Countable and Uncountable nouns&lt;/span &gt;&lt;span class=&quot;text492Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Countable and Uncountable nouns\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Countable and Uncountable nouns</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="494" parent="485" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687452633</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="496" parent="485" resource="172" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687452633</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="522" parent="40">
+<name>Página 7</name>
+<lastupdated>1687452656</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="583" parent="522" resource="584" ontop="false" fixed="false" proportional="true">
+<name>Picture 3</name>
+<lastupdated>1687452703</lastupdated>
+<possize>
+<point>
+<x>565</x>
+<y>461</y>
+</point>
+<size>
+<cx>245</cx>
+<cy>166</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="572" parent="522" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452692</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>116</y>
+</point>
+<size>
+<cx>418</cx>
+<cy>328</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text572Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text572Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text572Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text572CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text572Font1&quot;  &gt;Alguns substantivos sÃ£o usados apenas em sentido plural: police â€“ cattle â€“ army. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text572Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text572Font1&quot; data-bltIndnt=&quot;83&quot; style=&quot;line-height:1.107;position:relative;margin-left:104px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text572ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:83&#x0A;} --&gt;&lt;span class=&quot;text572Font1&quot;  &gt;The army are threatening to take over.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text572Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text572Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text572CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text572Font1&quot;  &gt;Alguns substantivos sÃ£o incontÃ¡veis: advice, information, news, furniture. Sempre usados sem s e com o verbo no singular.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text572Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text572Font1&quot; data-bltIndnt=&quot;92&quot; style=&quot;line-height:1.107;position:relative;margin-left:108px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text572CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:92&#x0A;} --&gt;&lt;span class=&quot;text572Font1&quot;  &gt;The news is good. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text572Font1&quot; data-bltIndnt=&quot;92&quot; style=&quot;line-height:1.107;position:relative;margin-left:108px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text572CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:92&#x0A;} --&gt;&lt;span class=&quot;text572Font1&quot;  &gt;There is much furniture in that room. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text572Font1&quot; data-bltIndnt=&quot;92&quot; style=&quot;line-height:1.107;position:relative;margin-left:108px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text572CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:92&#x0A;} --&gt;&lt;span class=&quot;text572Font1&quot;  &gt;Some information is important.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text572Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text572Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text572CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text572Font1&quot;  &gt;Algumas palavras tÃªm duas formas para o plural, com significados diferentes&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f2\loch\f2 Alguns substantivos s\&apos;e3o usados apenas em sentido plural: police \u8211 \&apos;96 cattle \u8211 \&apos;96 army. \par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb &#x0A;\&apos;d8}}\fi-450\li1170\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 The army are threatening to take over.\par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;Alguns substantivos s\&apos;e3o incont\&apos;e1veis: advice, information, news, furniture. Sempre usados sem s e com o verbo no singular.\par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li1260\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;The news is good. \par There is much furniture in that room. \par Some information is important.\par\pard\s0\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;Algumas palavras t\&apos;eam duas formas para o plural, com significados diferentes\par}&#x0A;</rtf>
+<raw>?Alguns substantivos s?o usados apenas em sentido plural: police ? cattle ? army. &#x0A;The army are threatening to take over.&#x0A;Alguns substantivos s?o incont?veis: advice, information, news, furniture. Sempre usados sem s e com o verbo no singular.&#x0A;The news is good. &#x0A;There is much furniture in that room. &#x0A;Some information is important.&#x0A;Algumas palavras t?m duas formas para o plural, com significados diferentes</raw>
+<publishedbullets>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text572CircleBulletFont6.png</name>
+</bullet>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text572CircleBulletFont6.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text572ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text572ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>15</numoflines>
+<numpubbullets>4</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<text id="536" parent="522" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 15</name>
+<lastupdated>1687452686</lastupdated>
+<possize>
+<point>
+<x>19</x>
+<y>116</y>
+</point>
+<size>
+<cx>475</cx>
+<cy>523</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text536Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text536Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text536Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text536CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text536Font1&quot;  &gt;Para se formar o plural de sinais, nÃºmeros, letras e palavras especÃ­ficas, acrescenta-se â€˜s. 7â€™s â€“ 2â€™s â€“ kâ€™s â€“ orâ€™s â€“ andâ€™s&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text536Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text536Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text536CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text536Font1&quot;  &gt;Adjetivos substantivados mantÃªm a mesma forma no singular e plural: the old, the young, the blind, the deaf ...&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text536Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text536Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text536CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text536Font1&quot;  &gt;Algumas palavras sÃ³ possuem a forma plural: goods, pants, wages, scissors, fireworks, trousers, stairs, pliers, measles, mumps, alms, glasses...&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text536Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text536Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text536CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text536Font1&quot;  &gt;As palavras dozen, hundred e thousand nÃ£o sÃ£o colocadas no plural quando precedidas de numeral: dozens of eggs / three dozen eggs.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text536Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text536Font1&quot; data-bltIndnt=&quot;12&quot; style=&quot;line-height:1.107;position:relative;margin-left:28px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text536CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:12&#x0A;} --&gt;&lt;span class=&quot;text536Font1&quot;  &gt;Algumas palavras tÃªm a mesma forma para o singular e plural: &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:36px;text-indent:-36px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text536Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:48px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text536Font1&quot;  &gt;sheep â€“ deer â€“ trout â€“ moose â€“ reindeer â€“ bison â€“ salmon â€“ species â€“ means â€“ series.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:48px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text536Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text536Font1&quot; data-bltIndnt=&quot;92&quot; style=&quot;line-height:1.107;position:relative;margin-left:108px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text536CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:92&#x0A;} --&gt;&lt;span class=&quot;text536Font1&quot;  &gt;There are three sheep in that field.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text536Font1&quot; data-bltIndnt=&quot;92&quot; style=&quot;line-height:1.107;position:relative;margin-left:108px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text536CircleBulletFont6.png&apos;); padding-left:7px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:92&#x0A;} --&gt;&lt;span class=&quot;text536Font1&quot;  &gt;I like this TV series. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \froman \fcharset2 Symbol;}{\f4 \fnil \fcharset2 Wingdings;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f2\loch\f2 Para se formar o plural de sinais, n\&apos;fameros, letras e palavras espec\&apos;edficas, acrescenta-se \u8216 \&apos;91s. 7\u8217 \&apos;92s \u8211 &#x0A;\&apos;96 2\u8217 \&apos;92s \u8211 \&apos;96 k\u8217 \&apos;92s \u8211 \&apos;96 or\u8217 \&apos;92s \u8211 \&apos;96 and\u8217 \&apos;92s\par\pard\s0\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;Adjetivos substantivados mant\&apos;eam a mesma forma no singular e plural: the old, the young, the blind, the deaf ...\par\pard\s0\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;Algumas palavras s\&apos;f3 possuem a forma plural: goods, pants, wages, scissors, fireworks, trousers, stairs, pliers, measles, mumps, alms, glasses...\par\pard\s0\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb &#x0A;\&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 As palavras dozen, hundred e thousand n\&apos;e3o s\&apos;e3o colocadas no plural quando precedidas de numeral: dozens of eggs / three dozen eggs.\par\pard\s0\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb &#x0A;\&apos;95}}\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 Algumas palavras t\&apos;eam a mesma forma para o singular e plural: \par\pard\s0\fi-540\li540\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2\par\fi0\li720\hich\f1\loch\f1\hich\f2\loch\f2 sheep \u8211 &#x0A;\&apos;96 deer \u8211 \&apos;96 trout \u8211 \&apos;96 moose \u8211 \&apos;96 reindeer \u8211 \&apos;96 bison \u8211 \&apos;96 salmon \u8211 \&apos;96 species \u8211 \&apos;96 means \u8211 \&apos;96 series.\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf1{\pntxtb \&apos;95}}\fi-540\li1260\ltrpar\qj\hich\f1\loch\f1\hich\f2\loch\f2 &#x0A;There are three sheep in that field.\par I like this TV series. \par}&#x0A;</rtf>
+<raw>?Para se formar o plural de sinais, n?meros, letras e palavras espec?ficas, acrescenta-se ?s. 7?s ? 2?s ? k?s ? or?s ? and?s&#x0A;Adjetivos substantivados mant?m a mesma forma no singular e plural: the old, the young, the blind, the deaf ...&#x0A;Algumas palavras s? possuem a forma plural: goods, pants, wages, scissors, fireworks, trousers, stairs, pliers, measles, mumps, alms, glasses...&#x0A;As palavras dozen, hundred e thousand n?o s?o colocadas no plural quando precedidas de numeral: dozens of eggs / three dozen eggs.&#x0A;Algumas palavras t?m a mesma forma para o singular e plural: &#x0A;sheep ? deer ? trout ? moose ? reindeer ? bison ? salmon ? species ? means ? series.&#x0A;There are three sheep in that field.&#x0A;I like this TV series. </raw>
+<publishedbullets>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text536CircleBulletFont6.png</name>
+</bullet>
+<bullet>
+<type>0</type>
+<size>14</size>
+<color>8421504</color>
+<name>text536CircleBulletFont6.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>27</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<objgroup id="524" parent="522">
+<name>Grupo_1</name>
+<lastupdated>1687452660</lastupdated>
+<shape id="526" parent="524" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687452660</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="528" parent="524" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687452660</lastupdated>
+<possize>
+<point>
+<x>67</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="530" parent="524" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687452660</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="531" parent="524" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687452660</lastupdated>
+<possize>
+<point>
+<x>37</x>
+<y>42</y>
+</point>
+<size>
+<cx>648</cx>
+<cy>61</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text531Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text531Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text531Font1&quot;  &gt;Countable and Uncountable nouns&lt;/span &gt;&lt;span class=&quot;text531Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf5\cb1\ulc5 Normal;}{\cs1\cf5\cb1\ulc5 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Countable and Uncountable nouns\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Countable and Uncountable nouns</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="533" parent="524" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687452660</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="535" parent="524" resource="172" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687452660</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>1097</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="170" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="171" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="207" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="352" resourcetype="image">
+<name>Imagem002.bmp</name>
+<relativelink>images\Imagem002.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="633" resourcetype="image">
+<name>Imagem003.bmp</name>
+<relativelink>images\Imagem003.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="896" resourcetype="image">
+<name>Imagem1.png</name>
+<relativelink>images\Imagem1.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1007" resourcetype="image">
+<name>Imagem 2001.bmp</name>
+<relativelink>images\Imagem 2001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1089" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1090" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="79">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 2</name>
+<lastupdated>1687965005</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="78" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687965014</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="77" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687965014</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="76" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687965014</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="79" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="75" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687965014</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687965014</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687965014</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="70" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687965014</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="71" parent="70" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687965014</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="70" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687965014</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="63" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687965014</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="64" parent="63" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687965014</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="65" parent="63" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687965014</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="55" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687965014</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="56" parent="55" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687965014</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="55" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687965014</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="58" parent="55" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687965014</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="55">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689701543</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="1074" parent="40">
+<name>Página 1</name>
+<lastupdated>1689701544</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="1075" parent="1074">
+<name>Grupo_1</name>
+<lastupdated>1689701544</lastupdated>
+<image id="1077" parent="1075" resource="1089" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689701544</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1079" parent="1075" resource="1090" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689701544</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1080" parent="1075" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689701546</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1080Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1080Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1080Font1&quot;  &gt;Aula 2&lt;/span &gt;&lt;span class=&quot;text1080Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 2\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 2</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="1082" parent="1075" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689701544</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1084" parent="1075" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689701544</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1086" parent="1075" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689701544</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1088" parent="1075" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689701544</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="155" parent="40">
+<name>Página 2</name>
+<lastupdated>1689701543</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="208" parent="155" resource="207" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687965105</lastupdated>
+<possize>
+<point>
+<x>559</x>
+<y>105</y>
+</point>
+<size>
+<cx>378</cx>
+<cy>505</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="180" parent="155" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687965088</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>130</y>
+</point>
+<size>
+<cx>422</cx>
+<cy>364</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text180Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text180Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot;  &gt;Como vimos, Portugal necessitava colonizar as terras que lhe foram conferidas pelo Tratado de Tordesilhas. Por isso, ocorreu um aumento de expediÃ§Ãµes de guarda no territÃ³rio, principalmente para impedir invasÃµes estrangeiras como de franceses. &lt;/span &gt;&lt;span class=&quot;text180Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text180Font1&quot;  &gt;A expediÃ§Ã£o de Martin Afonso de Souza, conhecida tambÃ©m como expediÃ§Ã£o colonizadora, ocorreu em 1530. Para continuar a aÃ§Ã£o concreta de colonizaÃ§Ã£o, fundou-se a Vila de SÃ£o Vicente, em 1531, a primeira da colÃ´nia, doou-se sesmarias e foi criado o Engenho do Governador para a produÃ§Ã£o de aÃ§Ãºcar.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Como vimos, Portugal necessitava colonizar as terras que lhe foram conferidas pelo Tratado de Tordesilhas. Por isso, ocorreu um aumento de expedi\u231 \&apos;e7\u245 \&apos;f5es de guarda no territ\u243 \&apos;f3rio, principalmente para &#x0A;impedir invas\u245 \&apos;f5es estrangeiras como de franceses. \hich\f2\loch\f2\par\hich\f1\loch\f1\par A expedi\u231 \&apos;e7\u227 \&apos;e3o de Martin Afonso de Souza, conhecida tamb\u233 \&apos;e9m como expedi\u231 \&apos;e7\u227 \&apos;e3o colonizadora, ocorreu em 1530. Para &#x0A;continuar a a\u231 \&apos;e7\u227 \&apos;e3o concreta de coloniza\u231 \&apos;e7\u227 \&apos;e3o, fundou-se a Vila de S\u227 \&apos;e3o Vicente, em 1531, a primeira da col\u244 \&apos;f4nia, doou-se sesmarias e foi criado o Engenho do Governador para a produ\u231 \&apos;e7\u227 \&apos;e3o de &#x0A;a\u231 \&apos;e7\u250 \&apos;facar.\par}&#x0A;</rtf>
+<raw>?Como vimos, Portugal necessitava colonizar as terras que lhe foram conferidas pelo Tratado de Tordesilhas. Por isso, ocorreu um aumento de expedi��es de guarda no territ�rio, principalmente para impedir invas�es estrangeiras como de franceses. &#x0A;&#x0A;A expedi��o de Martin Afonso de Souza, conhecida tamb�m como expedi��o colonizadora, ocorreu em 1530. Para continuar a a��o concreta de coloniza��o, fundou-se a Vila de S�o Vicente, em 1531, a primeira da col�nia, doou-se sesmarias e foi criado o Engenho do Governador para a produ��o de a��car.</raw>
+<numoflines>14</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="158" parent="155">
+<name>Grupo_1</name>
+<lastupdated>1687965029</lastupdated>
+<shape id="160" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687965029</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="162" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687965029</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="164" parent="158" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687965029</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="165" parent="158" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687965040</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text165Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text165Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text165Font1&quot;  &gt;ColonizaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text165Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Coloniza\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Coloniza��o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="167" parent="158" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687965029</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="169" parent="158" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687965029</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="246" parent="40">
+<name>Página 3</name>
+<lastupdated>1687965244</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="290" parent="246" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687965238</lastupdated>
+<possize>
+<point>
+<x>533</x>
+<y>113</y>
+</point>
+<size>
+<cx>428</cx>
+<cy>500</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text290Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text290Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text290Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text290Font1&quot;  &gt;Capitanias hereditÃ¡rias&lt;/span &gt;&lt;span class=&quot;text290Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text290Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text290Font3&quot;  &gt;Portugal, para a coloniza&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;o e explora&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;o econ&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;mica do Brasil, adotou o modelo sistem&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;tico das Capitanias Heredit&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;rias. Dessa forma, desejava assegurar o dom&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;nio na parte da Am&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;rica considerada lusitana, o que representou sua primeira divis&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;o pol&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;tica. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text290Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text290Font3&quot;  &gt;A a&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;o colonizadora era de vital import&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã¢&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;ncia para que Portugal n&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;o perdesse territ&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;rios, pois os espanh&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;is desejavam dominar a regi&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;o do Rio da Prata, que os portugueses tamb&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;m consideravam lusitana, e, desde 1504, os franceses exploravam pau-brasil no atual Brasil. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text290Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text290Font3&quot;  &gt;As primeiras Capitanias Heredit&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;rias foram criadas por D. Jo&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;o III, de 1534 a 1536. As por&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã§Ãµ&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;es de terrasiam do litoral at&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt; o Meridiano de Tordesilhas no interior do territ&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;rio. Foram concedidas quatorze capitanias a doze capit&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;es-donat&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;rios, divididas em quinze lotes de 50 a 100 l&lt;/span &gt;&lt;span class=&quot;text290Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text290Font3&quot;  &gt;guas de costa, cada um.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Capitanias heredit\u225 \&apos;e1rias\hich\f2\loch\f2\fs28\b0\par\par Portugal, para a coloniza\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o e explora\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o econ\hich\f1\loch\f1\u244 &#x0A;\&apos;f4\hich\f2\loch\f2 mica do Brasil, adotou o modelo sistem\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 tico das Capitanias Heredit\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 rias. Dessa forma, desejava assegurar o dom\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 &#x0A;nio na parte da Am\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 rica considerada lusitana, o que representou sua primeira divis\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o pol\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 tica. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\par &#x0A;A a\hich\f1\loch\f1\u231 \&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o colonizadora era de vital import\hich\f1\loch\f1\u226 \&apos;e2\hich\f2\loch\f2 ncia para que Portugal n\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o perdesse territ\hich\f1\loch\f1\u243 \&apos;f3\hich\f2\loch\f2 &#x0A;rios, pois os espanh\hich\f1\loch\f1\u243 \&apos;f3\hich\f2\loch\f2 is desejavam dominar a regi\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 o do Rio da Prata, que os portugueses tamb\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 m consideravam lusitana, e, desde &#x0A;1504, os franceses exploravam pau-brasil no atual Brasil. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\par As primeiras Capitanias Heredit\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 rias foram criadas por D. Jo\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 &#x0A;o III, de 1534 a 1536. As por\hich\f1\loch\f1\u231 \&apos;e7\u245 \&apos;f5\hich\f2\loch\f2 es de terrasiam do litoral at\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2  o Meridiano de Tordesilhas no interior do territ\hich\f1\loch\f1\u243 \&apos;f3\hich\f2\loch\f2 rio. &#x0A;Foram concedidas quatorze capitanias a doze capit\hich\f1\loch\f1\u227 \&apos;e3\hich\f2\loch\f2 es-donat\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 rios, divididas em quinze lotes de 50 a 100 l\hich\f1\loch\f1\u233 \&apos;e9\hich\f2\loch\f2 guas de costa, cada &#x0A;um.\par}&#x0A;</rtf>
+<raw>?Capitanias heredit?rias&#x0A;Portugal, para a coloniza??o e explora??o econ?mica do Brasil, adotou o modelo sistem?tico das Capitanias Heredit?rias. Dessa forma, desejava assegurar o dom?nio na parte da Am?rica considerada lusitana, o que representou sua primeira divis?o pol?tica. &#x0A;A a??o colonizadora era de vital import?ncia para que Portugal n?o perdesse territ?rios, pois os espanh?is desejavam dominar a regi?o do Rio da Prata, que os portugueses tamb?m consideravam lusitana, e, desde 1504, os franceses exploravam pau-brasil no atual Brasil. &#x0A;As primeiras Capitanias Heredit?rias foram criadas por D. Jo?o III, de 1534 a 1536. As por??es de terrasiam do litoral at? o Meridiano de Tordesilhas no interior do territ?rio. Foram concedidas quatorze capitanias a doze capit?es-donat?rios, divididas em quinze lotes de 50 a 100 l?guas de costa, cada um.</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="260" parent="246" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687965187</lastupdated>
+<possize>
+<point>
+<x>50</x>
+<y>122</y>
+</point>
+<size>
+<cx>434</cx>
+<cy>545</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text260Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text260Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text260Font1&quot;  &gt;Veja o que o historiador Boris Fausto conceitua como sesmarias: &lt;/span &gt;&lt;span class=&quot;text260Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text260Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text260Font1&quot;  &gt;A atribuiÃ§Ã£o de doar sesmarias Ã© importante, pois deu origem Ã  formaÃ§Ã£o de vastos latifÃºndios. A sesmaria foi conceituada no Brasil como uma extensÃ£o de terra virgem cuja propriedade era doada a um sesmeiro, com a obrigaÃ§Ã£o â€“ raramente cumprida â€“ de cultivÃ¡-la no prazo de cinco anos e de pagar o tributo devido Ã  Coroa. Houve em toda a ColÃ´nia imensas sesmarias, de limites mal definidos, como a de BrÃ¡s Cubas, que abrangia parte dos atuais municÃ­pios de Santos, CubatÃ£o e SÃ£o Bernardo (FAUSTO, 1996, p. 24).&lt;/span &gt;&lt;span class=&quot;text260Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text260Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text260Font1&quot;  &gt;Martim Afonso possuÃ­a amplos poderes, pois designado capitÃ£o-mor da esquadra e do novo territÃ³rio, deveria fundar nÃºcleos de povoamento, exercendo a justiÃ§a civil e criminal. Portugal reorganizava sua polÃ­tica para ocupar efetivamente o territÃ³rio e os espanhÃ³is conquistavam o restante da AmÃ©rica. A Espanha quase levou Ã  exterminaÃ§Ã£o dos grupos indÃ­genas dos astecas, dos maias e dos incas. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Veja o que o historiador Boris Fausto conceitua como sesmarias: \hich\f2\loch\f2\par\hich\f1\loch\f1\par A atribui\u231 \&apos;e7\u227 \&apos;e3o de doar sesmarias \u233 \&apos;e9 importante, pois deu origem \u224 \&apos;e0 forma\u231 \&apos;e7\u227 &#x0A;\&apos;e3o de vastos latif\u250 \&apos;fandios. A sesmaria foi conceituada no Brasil como uma extens\u227 \&apos;e3o de terra virgem cuja propriedade era doada a um sesmeiro, com a obriga\u231 \&apos;e7\u227 \&apos;e3o \u8211 \&apos;96 raramente cumprida \u8211 \&apos;96 de cultiv\u225 &#x0A;\&apos;e1-la no prazo de cinco anos e de pagar o tributo devido \u224 \&apos;e0 Coroa. Houve em toda a Col\u244 \&apos;f4nia imensas sesmarias, de limites mal definidos, como a de Br\u225 \&apos;e1s Cubas, que abrangia parte dos atuais munic\u237 \&apos;edpios de Santos, Cubat\u227 &#x0A;\&apos;e3o e S\u227 \&apos;e3o Bernardo (FAUSTO, 1996, p. 24).\hich\f2\loch\f2\par\hich\f1\loch\f1\par Martim Afonso possu\u237 \&apos;eda amplos poderes, pois designado capit\u227 \&apos;e3o-mor da esquadra e do novo territ\u243 \&apos;f3rio, deveria fundar n\u250 \&apos;facleos &#x0A;de povoamento, exercendo a justi\u231 \&apos;e7a civil e criminal. Portugal reorganizava sua pol\u237 \&apos;edtica para ocupar efetivamente o territ\u243 \&apos;f3rio e os espanh\u243 \&apos;f3is conquistavam o restante da Am\u233 \&apos;e9rica. A Espanha quase levou \u224 \&apos;e0 &#x0A;extermina\u231 \&apos;e7\u227 \&apos;e3o dos grupos ind\u237 \&apos;edgenas dos astecas, dos maias e dos incas. \par}&#x0A;</rtf>
+<raw>?Veja o que o historiador Boris Fausto conceitua como sesmarias: &#x0A;A atribui??o de doar sesmarias ? importante, pois deu origem ? forma??o de vastos latif?ndios. A sesmaria foi conceituada no Brasil como uma extens?o de terra virgem cuja propriedade era doada a um sesmeiro, com a obriga??o ? raramente cumprida ? de cultiv?-la no prazo de cinco anos e de pagar o tributo devido ? Coroa. Houve em toda a Col?nia imensas sesmarias, de limites mal definidos, como a de Br?s Cubas, que abrangia parte dos atuais munic?pios de Santos, Cubat?o e S?o Bernardo (FAUSTO, 1996, p. 24).&#x0A;Martim Afonso possu?a amplos poderes, pois designado capit?o-mor da esquadra e do novo territ?rio, deveria fundar n?cleos de povoamento, exercendo a justi?a civil e criminal. Portugal reorganizava sua pol?tica para ocupar efetivamente o territ?rio e os espanh?is conquistavam o restante da Am?rica. A Espanha quase levou ? extermina??o dos grupos ind?genas dos astecas, dos maias e dos incas. </raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="248" parent="246">
+<name>Grupo_1</name>
+<lastupdated>1687965118</lastupdated>
+<shape id="250" parent="248" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687965118</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="252" parent="248" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687965118</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="254" parent="248" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687965118</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="255" parent="248" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687965118</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text255Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text255Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text255Font1&quot;  &gt;ColonizaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text255Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Coloniza\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Coloniza??o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="257" parent="248" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687965118</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="259" parent="248" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687965118</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="338" parent="40">
+<name>Página 4</name>
+<lastupdated>1687965328</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="373" parent="338" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687965322</lastupdated>
+<possize>
+<point>
+<x>540</x>
+<y>103</y>
+</point>
+<size>
+<cx>428</cx>
+<cy>510</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text373Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text373Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text373Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text373Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text373Font4 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text373Font4 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text373Font6 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text373Font6 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text373Font7 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text373Font7 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text373Font1&quot;  &gt;Com a Carta de DoaÃ§Ã£o, concedia-se direitos de utilizaÃ§Ã£o ou posse sobre a capitania. Pelo instrumento do Foral, estabelecia-se os direitos e deveres do donatÃ¡rio, definindo tambÃ©m os tributos que pertenceriam ao donatÃ¡rio e os que seriam para a Coroa Portuguesa.&lt;/span &gt;&lt;span class=&quot;text373Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text373Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text373Font4&quot;  &gt;ConheÃ§amos os direitos&lt;/span &gt;&lt;span class=&quot;text373Font6&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text373Font4&quot;  &gt;e os deveres&lt;/span &gt;&lt;span class=&quot;text373Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text373Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text373Font7&quot;  &gt;Direitos&lt;/span &gt;&lt;span class=&quot;text373Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text373Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text373Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text373ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text373Font1&quot;  &gt;Explorar os recursos naturais e minerais da terra.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text373Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text373ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text373Font1&quot;  &gt;Desenvolver a agricultura e a pecuÃ¡ria, obtendo lucro com estas atividades.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text373Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text373ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text373Font1&quot;  &gt;Exercer o poder polÃ­tico-administrativo em sua capitania.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text373Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text373ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text373Font1&quot;  &gt;Doar sesmarias aos colonos.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text373Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text373ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text373Font1&quot;  &gt;Escravizar Ã­ndios para serem usados como mÃ£o de obra.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Com a Carta de Doa\u231 \&apos;e7\u227 \&apos;e3o, concedia-se direitos de utiliza\u231 \&apos;e7\u227 \&apos;e3o ou posse sobre a capitania. Pelo instrumento do Foral, estabelecia-se os direitos e deveres do donat\u225 \&apos;e1rio, definindo &#x0A;tamb\u233 \&apos;e9m os tributos que pertenceriam ao donat\u225 \&apos;e1rio e os que seriam para a Coroa Portuguesa.\hich\f2\loch\f2\par\hich\f1\loch\f1\par\fs36\b Conhe\u231 \&apos;e7amos os direitos\hich\f2\loch\f2  \hich\f1\loch\f1 e os deveres\hich\f2\loch\f2\fs28\b0\par\hich\f1\loch\f1\par\b &#x0A;Direitos\hich\f2\loch\f2\b0\par\hich\f1\loch\f1\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 Explorar os recursos naturais e minerais da terra.\par Desenvolver a agricultura e a pecu\u225 \&apos;e1ria, obtendo &#x0A;lucro com estas atividades.\par Exercer o poder pol\u237 \&apos;edtico-administrativo em sua capitania.\par Doar sesmarias aos colonos.\par Escravizar \u237 \&apos;edndios para serem usados como m\u227 \&apos;e3o de obra.\par}&#x0A;</rtf>
+<raw>?Com a Carta de Doa??o, concedia-se direitos de utiliza??o ou posse sobre a capitania. Pelo instrumento do Foral, estabelecia-se os direitos e deveres do donat?rio, definindo tamb?m os tributos que pertenceriam ao donat?rio e os que seriam para a Coroa Portuguesa.&#x0A;Conhe?amos os direitos e os deveres&#x0A;Direitos&#x0A;Explorar os recursos naturais e minerais da terra.&#x0A;Desenvolver a agricultura e a pecu?ria, obtendo lucro com estas atividades.&#x0A;Exercer o poder pol?tico-administrativo em sua capitania.&#x0A;Doar sesmarias aos colonos.&#x0A;Escravizar ?ndios para serem usados como m?o de obra.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text373ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text373ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>21</numoflines>
+<numpubbullets>2</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="353" parent="338" resource="352" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687965256</lastupdated>
+<possize>
+<point>
+<x>86</x>
+<y>125</y>
+</point>
+<size>
+<cx>339</cx>
+<cy>500</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<objgroup id="340" parent="338">
+<name>Grupo_1</name>
+<lastupdated>1687965247</lastupdated>
+<shape id="342" parent="340" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687965247</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="344" parent="340" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687965247</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="346" parent="340" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687965247</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="347" parent="340" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687965247</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text347Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text347Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text347Font1&quot;  &gt;ColonizaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text347Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Coloniza\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Coloniza??o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="349" parent="340" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687965247</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="351" parent="340" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687965247</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="405" parent="40">
+<name>Página 5</name>
+<lastupdated>1687965571</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="445" parent="405" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687965542</lastupdated>
+<possize>
+<point>
+<x>524</x>
+<y>98</y>
+</point>
+<size>
+<cx>448</cx>
+<cy>482</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text445Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text445Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;span.text445Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text445Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text445Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text445Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text445Font1&quot;  &gt;ConheÃ§amos os lotes doados&lt;/span &gt;&lt;span class=&quot;text445Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text445Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text445Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text445ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text445Font3&quot;  &gt;Maranh&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;o (Lote 1) &lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;â€“&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt; Aires da Cunha associado a Jo&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;o de Barros.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text445Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text445ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text445Font3&quot;  &gt;Maranh&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;o (Lote 2) &lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;â€“&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt; Fernando &lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;lvares de Andrade.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text445Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text445ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text445Font3&quot;  &gt;Cear&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;: Ant&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;nio Cardoso de Barros.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text445Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text445ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text445Font3&quot;  &gt;Rio Grande do Norte &lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;â€“&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt; Jo&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;o de Barros associado a Aires da Cunha.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text445Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text445ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text445Font3&quot;  &gt;Itamarac&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;â€“&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt; Pero Lopes de Sousa.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text445Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text445ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text445Font3&quot;  &gt;Pernambuco (Nova Lusit&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã¢&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;nia) &lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;â€“&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt; Duarte Coelho.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text445Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text445ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text445Font3&quot;  &gt;Bahia de Todos os Santos &lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;â€“&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt; Francisco Pereira Coutinho.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text445Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text445ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text445Font3&quot;  &gt;Ilh&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;us &lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;â€“&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt; Jorge de Figueiredo Correia.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text445Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text445ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text445Font3&quot;  &gt;Porto Seguro &lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;â€“&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;Pero do Campo Tourinho.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text445Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text445ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text445Font3&quot;  &gt;Esp&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;rito Santo &lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;â€“&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt; Vasco Fernandes Coutinho&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text445Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text445ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text445Font3&quot;  &gt;S&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;o Tom&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt; &lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;â€“&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt; Pero de G&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;is.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text445Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text445ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text445Font3&quot;  &gt;S&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;o Vicente (dividida em dois lotes: S&lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt;o Vicente e Rio de Janeiro) &lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;â€“&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt; Martim Afonso de Sousa.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text445Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text445ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text445Font3&quot;  &gt;Santo Amaro &lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;â€“&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt; Pero Lopes de Sousa.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text445Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text445ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text445Font3&quot;  &gt;Santana &lt;/span &gt;&lt;span class=&quot;text445Font4&quot;  &gt;â€“&lt;/span &gt;&lt;span class=&quot;text445Font3&quot;  &gt; Pero Lopes de Sousa.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Conhe\u231 \&apos;e7amos os lotes doados\lang1046\hich\f2\loch\f2\fs28\b0\par\lang1046\hich\f1\loch\f1\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 Maranh\u227 \&apos;e3o (Lote 1) \u8211 &#x0A;\&apos;96 Aires da Cunha associado a Jo\u227 \&apos;e3o de Barros.\par Maranh\u227 \&apos;e3o (Lote 2) \u8211 \&apos;96 Fernando \u193 \&apos;c1lvares de Andrade.\par Cear\u225 \&apos;e1: Ant\u244 \&apos;f4nio Cardoso de Barros.\par Rio Grande do Norte \u8211 \&apos;96 Jo\u227 \&apos;e3o de Barros &#x0A;associado a Aires da Cunha.\par Itamarac\u225 \&apos;e1 \u8211 \&apos;96 Pero Lopes de Sousa.\par Pernambuco (Nova Lusit\u226 \&apos;e2nia) \u8211 \&apos;96 Duarte Coelho.\par Bahia de Todos os Santos \u8211 \&apos;96 Francisco Pereira Coutinho.\par Ilh\u233 \&apos;e9us \u8211 \&apos;96 &#x0A;Jorge de Figueiredo Correia.\par Porto Seguro \u8211 \&apos;96Pero do Campo Tourinho.\par Esp\u237 \&apos;edrito Santo \u8211 \&apos;96 Vasco Fernandes Coutinho\par S\u227 \&apos;e3o Tom\u233 \&apos;e9 \u8211 \&apos;96 Pero de G\u243 \&apos;f3is.\par S\u227 \&apos;e3o Vicente (dividida em dois &#x0A;lotes: S\u227 \&apos;e3o Vicente e Rio de Janeiro) \u8211 \&apos;96 Martim Afonso de Sousa.\par Santo Amaro \u8211 \&apos;96 Pero Lopes de Sousa.\par Santana \u8211 \&apos;96 Pero Lopes de Sousa.\par}&#x0A;</rtf>
+<raw>?Conhe?amos os lotes doados&#x0A;Maranh?o (Lote 1) ? Aires da Cunha associado a Jo?o de Barros.&#x0A;Maranh?o (Lote 2) ? Fernando ?lvares de Andrade.&#x0A;Cear?: Ant?nio Cardoso de Barros.&#x0A;Rio Grande do Norte ? Jo?o de Barros associado a Aires da Cunha.&#x0A;Itamarac? ? Pero Lopes de Sousa.&#x0A;Pernambuco (Nova Lusit?nia) ? Duarte Coelho.&#x0A;Bahia de Todos os Santos ? Francisco Pereira Coutinho.&#x0A;Ilh?us ? Jorge de Figueiredo Correia.&#x0A;Porto Seguro ?Pero do Campo Tourinho.&#x0A;Esp?rito Santo ? Vasco Fernandes Coutinho&#x0A;S?o Tom? ? Pero de G?is.&#x0A;S?o Vicente (dividida em dois lotes: S?o Vicente e Rio de Janeiro) ? Martim Afonso de Sousa.&#x0A;Santo Amaro ? Pero Lopes de Sousa.&#x0A;Santana ? Pero Lopes de Sousa.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text445ArrowBulletFont11.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>21</numoflines>
+<numpubbullets>1</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="424" parent="405" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687965470</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>136</y>
+</point>
+<size>
+<cx>424</cx>
+<cy>432</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text424Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text424Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text424Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text424Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;span.text424Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;li.text424Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold; font-style:normal; text-decoration:normal;}&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text424Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text424ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text424Font1&quot;  &gt;Exercer o poder judiciÃ¡rio (justiÃ§a) em sua capitania.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text424Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text424ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text424Font1&quot;  &gt;Cobrar impostos dos moradores e comerciantes que atuavam na capitania.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text424Font3&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text424ArrowBulletFont11.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text424Font1&quot;  &gt;Estabelecer engenhos de aÃ§Ãºcar.&lt;/span &gt;&lt;span class=&quot;text424Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text424Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text424Font4&quot;  &gt;Deveres&lt;/span &gt;&lt;span class=&quot;text424Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text424Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text424Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text424ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text424Font1&quot;  &gt;Fazer a proteÃ§Ã£o do territÃ³rio, principalmente da faixa litorÃ¢nea, contra os invasores (holandeses, ingleses e franceses).&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text424Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text424ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text424Font1&quot;  &gt;Desenvolver a colonizaÃ§Ã£o dos territÃ³rios.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text424Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text424ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text424Font1&quot;  &gt;Combater tribos indÃ­genas que dificultavam a colonizaÃ§Ã£o do Brasil.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text424Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text424ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text424Font1&quot;  &gt;Fundar vilas na colÃ´nia.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text424Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text424ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text424Font1&quot;  &gt;Fiscalizar as aÃ§Ãµes econÃ´micas na capitania, com o objetivo de garantir o monopÃ³lio da coroa no comÃ©rcio colonial e na exploraÃ§Ã£o de pau-brasil.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\cf2\fs28 Exercer o poder judici\u225 \&apos;e1rio (justi\u231 \&apos;e7a) em sua capitania.\par Cobrar impostos dos moradores e comerciantes que atuavam na capitania.\par Estabelecer &#x0A;engenhos de a\u231 \&apos;e7\u250 \&apos;facar.\lang1046\hich\f2\loch\f2\par\pard\s0\qj\plain\f1\fs24\cf2\fs28\par\b Deveres\lang1046\hich\f2\loch\f2\b0\par\lang1046\hich\f1\loch\f1\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\cf2\fs28 &#x0A;Fazer a prote\u231 \&apos;e7\u227 \&apos;e3o do territ\u243 \&apos;f3rio, principalmente da faixa litor\u226 \&apos;e2nea, contra os invasores (holandeses, ingleses e franceses).\par Desenvolver a coloniza\u231 \&apos;e7\u227 \&apos;e3o dos territ\u243 \&apos;f3rios.\par Combater tribos &#x0A;ind\u237 \&apos;edgenas que dificultavam a coloniza\u231 \&apos;e7\u227 \&apos;e3o do Brasil.\par Fundar vilas na col\u244 \&apos;f4nia.\par Fiscalizar as a\u231 \&apos;e7\u245 \&apos;f5es econ\u244 \&apos;f4micas na capitania, com o objetivo de garantir o monop\u243 \&apos;f3lio da coroa no &#x0A;com\u233 \&apos;e9rcio colonial e na explora\u231 \&apos;e7\u227 \&apos;e3o de pau-brasil.\par}&#x0A;</rtf>
+<raw>?Exercer o poder judici?rio (justi?a) em sua capitania.&#x0A;Cobrar impostos dos moradores e comerciantes que atuavam na capitania.&#x0A;Estabelecer engenhos de a??car.&#x0A;Deveres&#x0A;Fazer a prote??o do territ?rio, principalmente da faixa litor?nea, contra os invasores (holandeses, ingleses e franceses).&#x0A;Desenvolver a coloniza??o dos territ?rios.&#x0A;Combater tribos ind?genas que dificultavam a coloniza??o do Brasil.&#x0A;Fundar vilas na col?nia.&#x0A;Fiscalizar as a??es econ?micas na capitania, com o objetivo de garantir o monop?lio da coroa no com?rcio colonial e na explora??o de pau-brasil.</raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text424ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text424ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text424ArrowBulletFont11.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>19</numoflines>
+<numpubbullets>3</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="412" parent="405">
+<name>Grupo_1</name>
+<lastupdated>1687965574</lastupdated>
+<shape id="414" parent="412" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687965331</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="416" parent="412" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687965331</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="418" parent="412" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687965331</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="419" parent="412" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687965331</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text419Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text419Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text419Font1&quot;  &gt;ColonizaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text419Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Coloniza\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Coloniza??o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="421" parent="412" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687965331</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="423" parent="412" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687965331</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="466" parent="40">
+<name>Página 6</name>
+<lastupdated>1687965833</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="508" parent="466" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687965793</lastupdated>
+<possize>
+<point>
+<x>527</x>
+<y>127</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>437</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text508Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text508Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text508Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text508Font1&quot;  &gt;Governo Geral (1549 â€“ 1808)&lt;/span &gt;&lt;span class=&quot;text508Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text508Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text508Font3&quot;  &gt;Vendo o insucesso das Capitanias HereditÃ¡rias, o rei de Portugal resolveu criar, em 1548, o governo-geral. Tratou-se de uma centralizaÃ§Ã£o do poder e da reduÃ§Ã£o do poder dos donatÃ¡rios, pois o territÃ³rio seria governado por um governador-geral, mas isso nÃ£o extinguiu as capitanias. &lt;/span &gt;&lt;span class=&quot;text508Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text508Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text508Font5&quot;  &gt;A medida servia para amparar a colÃ´nia nos aspectos financeiro, militar e administrativo. Era necessÃ¡rio solidificar o domÃ­nio lusitano, combater estrangeiros e incentivar o processo catequizador.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text508Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text508Font5&quot;  &gt;Portugal resgatou dos herdeiros de Francisco Pereira Coutinho a capitania da Bahia de Todos os Santos, transformando-a na primeira capitania real ou da Coroa, sede do governo-geral.&lt;/span &gt;&lt;span class=&quot;text508Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Governo Geral (1549 \u8211 \&apos;96 1808)\fs28\b0\par\par Vendo o insucesso das Capitanias Heredit\u225 \&apos;e1rias, o rei de Portugal resolveu criar, em 1548, o governo-geral. Tratou-se de uma centraliza\u231 \&apos;e7\u227 \&apos;e3o &#x0A;do poder e da redu\u231 \&apos;e7\u227 \&apos;e3o do poder dos donat\u225 \&apos;e1rios, pois o territ\u243 \&apos;f3rio seria governado por um governador-geral, mas isso n\u227 \&apos;e3o extinguiu as capitanias. \lang1046\hich\f2\loch\f2\par\par A medida servia para amparar &#x0A;a col\&apos;f4nia nos aspectos financeiro, militar e administrativo. Era necess\&apos;e1rio solidificar o dom\&apos;ednio lusitano, combater estrangeiros e incentivar o processo catequizador.\par\par Portugal resgatou dos herdeiros de Francisco Pereira Coutinho a capitania &#x0A;da Bahia de Todos os Santos, transformando-a na primeira capitania real ou da Coroa, sede do governo-geral.\lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Governo Geral (1549 ? 1808)&#x0A;Vendo o insucesso das Capitanias Heredit?rias, o rei de Portugal resolveu criar, em 1548, o governo-geral. Tratou-se de uma centraliza??o do poder e da redu??o do poder dos donat?rios, pois o territ?rio seria governado por um governador-geral, mas isso n?o extinguiu as capitanias. &#x0A;A medida servia para amparar a col?nia nos aspectos financeiro, militar e administrativo. Era necess?rio solidificar o dom?nio lusitano, combater estrangeiros e incentivar o processo catequizador.&#x0A;Portugal resgatou dos herdeiros de Francisco Pereira Coutinho a capitania da Bahia de Todos os Santos, transformando-a na primeira capitania real ou da Coroa, sede do governo-geral.</raw>
+<numoflines>18</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="490" parent="466" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687965631</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>123</y>
+</point>
+<size>
+<cx>432</cx>
+<cy>553</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text490Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text490Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text490Font1&quot;  &gt;O sistema de Capitania HereditÃ¡ria nÃ£o correspondeu ao esperado pelos portugueses. O fracasso se deu por inÃºmeros motivos, entre eles: a falta de investimento necessÃ¡rio, que desenvolveria a defesa das capitanias; desinteresse dos donatÃ¡rios, que eram da baixa nobreza e temiam um investimento de alto risco; distÃ¢ncia da metrÃ³pole, tanto na comunicaÃ§Ã£o como no transporte de mercadorias; ataques de corsÃ¡rios em alto mar; pobreza do solo na maioria das regiÃµes; grande extensÃ£o das terras, causador de um descontrole administrativo; resistÃªncia indÃ­gena Ã  escravizaÃ§Ã£o e Ã  ocupaÃ§Ã£o de suas terras.&lt;/span &gt;&lt;span class=&quot;text490Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text490Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text490Font1&quot;  &gt;De todas as capitanias, somente as de Pernambuco e SÃ£o Vicente de fato se desenvolveram e prosperaram. Em seguida, a Capitania da Bahia tambÃ©m se desenvolveu de forma significativa apÃ³s o Governo Geral, devido ao aÃ§Ãºcar. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 O sistema de Capitania Heredit\u225 \&apos;e1ria n\u227 \&apos;e3o correspondeu ao esperado pelos portugueses. O fracasso se deu por in\u250 \&apos;fameros motivos, entre eles: a falta de investimento necess\u225 \&apos;e1rio, que desenvolveria &#x0A;a defesa das capitanias; desinteresse dos donat\u225 \&apos;e1rios, que eram da baixa nobreza e temiam um investimento de alto risco; dist\u226 \&apos;e2ncia da metr\u243 \&apos;f3pole, tanto na comunica\u231 \&apos;e7\u227 \&apos;e3o como no transporte de mercadorias; ataques &#x0A;de cors\u225 \&apos;e1rios em alto mar; pobreza do solo na maioria das regi\u245 \&apos;f5es; grande extens\u227 \&apos;e3o das terras, causador de um descontrole administrativo; resist\u234 \&apos;eancia ind\u237 \&apos;edgena \u224 \&apos;e0 escraviza\u231 \&apos;e7\u227 \&apos;e3o e \u224 &#x0A;\&apos;e0 ocupa\u231 \&apos;e7\u227 \&apos;e3o de suas terras.\lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par De todas as capitanias, somente as de Pernambuco e S\u227 \&apos;e3o Vicente de fato se desenvolveram e prosperaram. Em seguida, a Capitania da Bahia &#x0A;tamb\u233 \&apos;e9m se desenvolveu de forma significativa ap\u243 \&apos;f3s o Governo Geral, devido ao a\u231 \&apos;e7\u250 \&apos;facar. \par}&#x0A;</rtf>
+<raw>?O sistema de Capitania Heredit?ria n?o correspondeu ao esperado pelos portugueses. O fracasso se deu por in?meros motivos, entre eles: a falta de investimento necess?rio, que desenvolveria a defesa das capitanias; desinteresse dos donat?rios, que eram da baixa nobreza e temiam um investimento de alto risco; dist?ncia da metr?pole, tanto na comunica??o como no transporte de mercadorias; ataques de cors?rios em alto mar; pobreza do solo na maioria das regi?es; grande extens?o das terras, causador de um descontrole administrativo; resist?ncia ind?gena ? escraviza??o e ? ocupa??o de suas terras.&#x0A;De todas as capitanias, somente as de Pernambuco e S?o Vicente de fato se desenvolveram e prosperaram. Em seguida, a Capitania da Bahia tamb?m se desenvolveu de forma significativa ap?s o Governo Geral, devido ao a??car. </raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="478" parent="466">
+<name>Grupo_1</name>
+<lastupdated>1687965577</lastupdated>
+<shape id="480" parent="478" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687965577</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="482" parent="478" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687965577</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="484" parent="478" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687965577</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="485" parent="478" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687965577</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text485Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text485Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text485Font1&quot;  &gt;ColonizaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text485Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Coloniza\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Coloniza??o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="487" parent="478" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687965577</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="489" parent="478" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687965577</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="562" parent="40">
+<name>Página 7</name>
+<lastupdated>1687966013</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="654" parent="562" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687966005</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>510</y>
+</point>
+<size>
+<cx>452</cx>
+<cy>121</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text654Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text654Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text654Font1&quot;  &gt;Duarte da Costa (1553-1558)&lt;/span &gt;&lt;span class=&quot;text654Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text654Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text654Font2&quot;  &gt;Precisou intermediar relaÃ§Ãµes entre os colonos, desejosos do escravismo indÃ­gena, e jesuÃ­tas, que de certa forma protegiam os indÃ­genas. Em seu&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Duarte da Costa (1553-1558)\fs28\b0\par\par Precisou intermediar rela\u231 \&apos;e7\u245 \&apos;f5es entre os colonos, desejosos do escravismo ind\u237 \&apos;edgena, e jesu\u237 \&apos;edtas, que de certa forma protegiam os ind\u237 \&apos;edgenas. &#x0A;Em seu\par}&#x0A;</rtf>
+<raw>?Duarte da Costa (1553-1558)&#x0A;Precisou intermediar rela??es entre os colonos, desejosos do escravismo ind?gena, e jesu?tas, que de certa forma protegiam os ind?genas. Em seu</raw>
+<numoflines>5</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="634" parent="562" resource="633" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687966004</lastupdated>
+<possize>
+<point>
+<x>608</x>
+<y>274</y>
+</point>
+<size>
+<cx>318</cx>
+<cy>209</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="598" parent="562" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687966003</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>107</y>
+</point>
+<size>
+<cx>437</cx>
+<cy>161</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text598Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text598Font4 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;span.text598Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text598Font1&quot;  &gt;TomÃ© de Souza (1549 â€“ 1553)&lt;/span &gt;&lt;span class=&quot;text598Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.127&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text598Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text598Font5&quot;  &gt;Primeiro governador-geral deu inÃ­cio Ã  construÃ§Ã£o da primeira capital, Salvador, em 1549. TomÃ© de Souza implantou o ensino jesuÃ­tico nas missÃµes, com a finalidade de converter os nativos ao cristianismo catÃ³lico. &lt;/span &gt;&lt;span class=&quot;text598Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs36\b Tom\u233 \&apos;e9 de Souza (1549 \u8211 \&apos;96 1553)\plain\f2\fs24\par\plain\f1\fs24\par\hich\f2\loch\f2\cf2\fs28 Primeiro governador-geral deu in\u237 \&apos;edcio \u224 \&apos;e0 constru\u231 \&apos;e7\u227 \&apos;e3o da primeira &#x0A;capital, Salvador, em 1549. Tom\u233 \&apos;e9 de Souza implantou o ensino jesu\u237 \&apos;edtico nas miss\u245 \&apos;f5es, com a finalidade de converter os nativos ao cristianismo cat\u243 \&apos;f3lico. \plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Tom? de Souza (1549 ? 1553)&#x0A;Primeiro governador-geral deu in?cio ? constru??o da primeira capital, Salvador, em 1549. Tom? de Souza implantou o ensino jesu?tico nas miss?es, com a finalidade de converter os nativos ao cristianismo cat?lico. </raw>
+<numoflines>7</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="576" parent="562" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687965876</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>129</y>
+</point>
+<size>
+<cx>428</cx>
+<cy>529</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text576Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text576Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text576Font1&quot;  &gt;O governador-geral assumiu muitas funÃ§Ãµes que antes eram dos donatÃ¡rios. A partir de 1720, os governadores receberam o tÃ­tulo de vice-reis. O sistema do governo-geral permaneceu atÃ© a vinda &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text576Font1&quot;  &gt;da famÃ­lia real para o Brasil, em 1808.O primeiro governador do Brasil foi TomÃ© de Sousa. &lt;/span &gt;&lt;span class=&quot;text576Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text576Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text576Font1&quot;  &gt;Esse portuguÃªs chegou em 1549 ao Brasil e fundou a cidade de Salvador, a primeira da colÃ´nia e a primeira capital. Com ele, vieram trÃªs ajudantes para ocupar os cargos de provedor-mor, ouvidor-mor e capitÃ£o-mor da costa, com as responsabilidades sobre as finanÃ§as, autoridade de justiÃ§a e da defesa do litoral, respectivamente. TambÃ©m chegaram ao Brasil os padres jesuÃ­tas chefiados por Manuel da NÃ³brega, encarregados da catequese dos indÃ­genas e de consolidar, por meio da fÃ©, o domÃ­nio do territÃ³rio pela Coroa portuguesa.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 O governador-geral assumiu muitas fun\u231 \&apos;e7\u245 \&apos;f5es que antes eram dos donat\u225 \&apos;e1rios. A partir de 1720, os governadores receberam o t\u237 \&apos;edtulo de vice-reis. O sistema do governo-geral permaneceu at\u233 &#x0A;\&apos;e9 a vinda \par da fam\u237 \&apos;edlia real para o Brasil, em 1808.O primeiro governador do Brasil foi Tom\u233 \&apos;e9 de Sousa. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par Esse portugu\u234 \&apos;eas chegou em 1549 ao Brasil e fundou a cidade &#x0A;de Salvador, a primeira da col\u244 \&apos;f4nia e a primeira capital. Com ele, vieram tr\u234 \&apos;eas ajudantes para ocupar os cargos de provedor-mor, ouvidor-mor e capit\u227 \&apos;e3o-mor da costa, com as responsabilidades sobre as finan\u231 \&apos;e7as, autoridade &#x0A;de justi\u231 \&apos;e7a e da defesa do litoral, respectivamente. Tamb\u233 \&apos;e9m chegaram ao Brasil os padres jesu\u237 \&apos;edtas chefiados por Manuel da N\u243 \&apos;f3brega, encarregados da catequese dos ind\u237 \&apos;edgenas e de consolidar, por meio da f\u233 &#x0A;\&apos;e9, o dom\u237 \&apos;ednio do territ\u243 \&apos;f3rio pela Coroa portuguesa.\par}&#x0A;</rtf>
+<raw>?O governador-geral assumiu muitas fun??es que antes eram dos donat?rios. A partir de 1720, os governadores receberam o t?tulo de vice-reis. O sistema do governo-geral permaneceu at? a vinda &#x0A;da fam?lia real para o Brasil, em 1808.O primeiro governador do Brasil foi Tom? de Sousa. &#x0A;Esse portugu?s chegou em 1549 ao Brasil e fundou a cidade de Salvador, a primeira da col?nia e a primeira capital. Com ele, vieram tr?s ajudantes para ocupar os cargos de provedor-mor, ouvidor-mor e capit?o-mor da costa, com as responsabilidades sobre as finan?as, autoridade de justi?a e da defesa do litoral, respectivamente. Tamb?m chegaram ao Brasil os padres jesu?tas chefiados por Manuel da N?brega, encarregados da catequese dos ind?genas e de consolidar, por meio da f?, o dom?nio do territ?rio pela Coroa portuguesa.</raw>
+<numoflines>19</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="564" parent="562">
+<name>Grupo_1</name>
+<lastupdated>1687965837</lastupdated>
+<shape id="566" parent="564" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687965837</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="568" parent="564" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687965837</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="570" parent="564" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687965837</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="571" parent="564" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687965837</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text571Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text571Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text571Font1&quot;  &gt;ColonizaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text571Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Coloniza\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Coloniza??o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="573" parent="564" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687965837</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="575" parent="564" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687965837</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="703" parent="40">
+<name>Página 8</name>
+<lastupdated>1687966247</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="758" parent="703" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687966258</lastupdated>
+<possize>
+<point>
+<x>533</x>
+<y>99</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>468</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text758Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text758Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text758Font5 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text758Font1&quot;  &gt;Iniciada ainda no governo de Duarte da Costa, a ConfederaÃ§Ã£o dos Tamoios (1554 â€“ 1567) foi combatida. Tratou-se de uma organizaÃ§Ã£o de nativos revoltados contra a dominaÃ§Ã£o portuguesa.&lt;/span &gt;&lt;span class=&quot;text758Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text758Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text758Font1&quot;  &gt;Nesse governo, ainda ocorreram a fundaÃ§Ã£o da cidade de SÃ£o SebastiÃ£o do Rio de Janeiro, a expulsÃ£o dos franceses do Rio de Janeiro e a divisÃ£o do governo imperial entre Salvador (do Norte) e Rio de Janeiro (do Sul). &lt;/span &gt;&lt;span class=&quot;text758Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text758Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text758Font5&quot;  &gt;CÃ¢maras municipais&lt;/span &gt;&lt;span class=&quot;text758Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text758Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text758Font4&quot;  &gt;A CÃ¢mara Municipal era o Ã³rgÃ£o responsÃ¡vel por administrar as cidades ou municÃ­pios, reportando-se ao governo-geral. Deveria ser o Ã³rgÃ£o porta--voz dos habitantes da regiÃ£o para o governador geral. PorÃ©m, na maioria das vezes, representava a vontade da elite que dominava na regiÃ£o. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Iniciada ainda no governo de Duarte da Costa, a Confedera\u231 \&apos;e7\u227 \&apos;e3o dos Tamoios (1554 \u8211 \&apos;96 1567) foi combatida. Tratou-se de uma organiza\u231 \&apos;e7\u227 \&apos;e3o de nativos revoltados contra a domina\u231 &#x0A;\&apos;e7\u227 \&apos;e3o portuguesa.\hich\f2\loch\f2\par\hich\f1\loch\f1\par Nesse governo, ainda ocorreram a funda\u231 \&apos;e7\u227 \&apos;e3o da cidade de S\u227 \&apos;e3o Sebasti\u227 \&apos;e3o do Rio de Janeiro, a expuls\u227 \&apos;e3o dos franceses do Rio de Janeiro e a divis\u227 &#x0A;\&apos;e3o do governo imperial entre Salvador (do Norte) e Rio de Janeiro (do Sul). \hich\f2\loch\f2\par\par\fs36\b C\u226 \&apos;e2maras municipais\fs28\b0\par\par A C\u226 \&apos;e2mara Municipal era o \u243 \&apos;f3rg\u227 \&apos;e3o respons\u225 \&apos;e1vel por administrar as &#x0A;cidades ou munic\u237 \&apos;edpios, reportando-se ao governo-geral. Deveria ser o \u243 \&apos;f3rg\u227 \&apos;e3o porta--voz dos habitantes da regi\u227 \&apos;e3o para o governador geral. Por\u233 \&apos;e9m, na maioria das vezes, representava a vontade da elite que dominava &#x0A;na regi\u227 \&apos;e3o. \par\par\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Iniciada ainda no governo de Duarte da Costa, a Confedera??o dos Tamoios (1554 ? 1567) foi combatida. Tratou-se de uma organiza??o de nativos revoltados contra a domina??o portuguesa.&#x0A;Nesse governo, ainda ocorreram a funda??o da cidade de S?o Sebasti?o do Rio de Janeiro, a expuls?o dos franceses do Rio de Janeiro e a divis?o do governo imperial entre Salvador (do Norte) e Rio de Janeiro (do Sul). &#x0A;C?maras municipais&#x0A;A C?mara Municipal era o ?rg?o respons?vel por administrar as cidades ou munic?pios, reportando-se ao governo-geral. Deveria ser o ?rg?o porta--voz dos habitantes da regi?o para o governador geral. Por?m, na maioria das vezes, representava a vontade da elite que dominava na regi?o. &#x0A;</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="717" parent="703" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687966092</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>109</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>544</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text717Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text717Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text717Font1&quot;  &gt;governo, lidou com a invasÃ£o francesa no Rio de Janeiro por calvinistas, chamados de huguenotes, os quais formaram a FranÃ§a AntÃ¡rtica, em 1555, com duraÃ§Ã£o de 12 anos. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text717Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text717Font1&quot;  &gt;Ã€ Ã©poca, os franceses haviam se aliado aos indÃ­genas tupinambÃ¡s, que se tornaram inimigos dos portugueses. As tribos tupiniquins, inimigas dos tupinambÃ¡s, aliaram-se aos portugueses na luta contra os franceses devido ao inimigo em comum. Sendo assim, as relaÃ§Ãµes entre os povos indÃ­genas foram importantes para os conflitos entre portugueses e franceses. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text717Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text717Font3&quot;  &gt;Mem de SÃ¡ e EstÃ¡cio de SÃ¡ (1558 â€“ 1572)&lt;/span &gt;&lt;span class=&quot;text717Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text717Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text717Font1&quot;  &gt;A relaÃ§Ã£o entre os religiosos e colonos estava ainda mais complicada por causa das relaÃ§Ãµes com os indÃ­genas. Padres jesuÃ­tas desejavam catequizÃ¡-los em suas missÃµes e os colonos desejavam sua forÃ§a de trabalho. O governo foi responsÃ¡vel pela pacificaÃ§Ã£o entre colonos e jesuÃ­tas, fornecendo mais escravos aos colonos. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 governo, lidou com a invas\u227 \&apos;e3o francesa no Rio de Janeiro por calvinistas, chamados de huguenotes, os quais formaram a Fran\u231 \&apos;e7a Ant\u225 \&apos;e1rtica, em 1555, com dura\u231 \&apos;e7\u227 \&apos;e3o de &#x0A;12 anos. \par\par\u192 \&apos;c0 \u233 \&apos;e9poca, os franceses haviam se aliado aos ind\u237 \&apos;edgenas tupinamb\u225 \&apos;e1s, que se tornaram inimigos dos portugueses. As tribos tupiniquins, inimigas dos tupinamb\u225 \&apos;e1s, aliaram-se aos portugueses na luta &#x0A;contra os franceses devido ao inimigo em comum. Sendo assim, as rela\u231 \&apos;e7\u245 \&apos;f5es entre os povos ind\u237 \&apos;edgenas foram importantes para os conflitos entre portugueses e franceses. \lang1046\hich\f2\loch\f2\par\fs36\b\par Mem de S\u225 \&apos;e1 &#x0A;e Est\u225 \&apos;e1cio de S\u225 \&apos;e1 (1558 \u8211 \&apos;96 1572)\fs28\b0\par\par A rela\u231 \&apos;e7\u227 \&apos;e3o entre os religiosos e colonos estava ainda mais complicada por causa das rela\u231 \&apos;e7\u245 \&apos;f5es com os ind\u237 \&apos;edgenas. Padres jesu\u237 \&apos;edtas &#x0A;desejavam catequiz\u225 \&apos;e1-los em suas miss\u245 \&apos;f5es e os colonos desejavam sua for\u231 \&apos;e7a de trabalho. O governo foi respons\u225 \&apos;e1vel pela pacifica\u231 \&apos;e7\u227 \&apos;e3o entre colonos e jesu\u237 \&apos;edtas, fornecendo mais escravos aos colonos. \lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?governo, lidou com a invas?o francesa no Rio de Janeiro por calvinistas, chamados de huguenotes, os quais formaram a Fran?a Ant?rtica, em 1555, com dura??o de 12 anos. &#x0A;? ?poca, os franceses haviam se aliado aos ind?genas tupinamb?s, que se tornaram inimigos dos portugueses. As tribos tupiniquins, inimigas dos tupinamb?s, aliaram-se aos portugueses na luta contra os franceses devido ao inimigo em comum. Sendo assim, as rela??es entre os povos ind?genas foram importantes para os conflitos entre portugueses e franceses. &#x0A;Mem de S? e Est?cio de S? (1558 ? 1572)&#x0A;A rela??o entre os religiosos e colonos estava ainda mais complicada por causa das rela??es com os ind?genas. Padres jesu?tas desejavam catequiz?-los em suas miss?es e os colonos desejavam sua for?a de trabalho. O governo foi respons?vel pela pacifica??o entre colonos e jesu?tas, fornecendo mais escravos aos colonos. </raw>
+<numoflines>24</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="705" parent="703">
+<name>Grupo_1</name>
+<lastupdated>1687966016</lastupdated>
+<shape id="707" parent="705" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687966016</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="709" parent="705" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687966016</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="711" parent="705" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687966016</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="712" parent="705" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687966016</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text712Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text712Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text712Font1&quot;  &gt;ColonizaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text712Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Coloniza\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Coloniza??o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="714" parent="705" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687966016</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="716" parent="705" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687966016</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="834" parent="40">
+<name>Página 9</name>
+<lastupdated>1687966290</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="1008" parent="834" resource="1007" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687966392</lastupdated>
+<possize>
+<point>
+<x>623</x>
+<y>407</y>
+</point>
+<size>
+<cx>283</cx>
+<cy>218</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="972" parent="834" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687966395</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>111</y>
+</point>
+<size>
+<cx>440</cx>
+<cy>322</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text972Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text972Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text972Font1&quot;  &gt;Brasil: colÃ´nia de exploraÃ§Ã£o nos quadros da polÃ­tica econÃ´mica mercantilista&lt;/span &gt;&lt;span class=&quot;text972Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text972Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text972Font3&quot;  &gt;VocÃª certamente jÃ¡ ouviu falar que o Brasil foi colÃ´nia de Portugal. Mas o que definitivamente era ser uma colÃ´nia? O pacto colonial estabelecia que a funÃ§Ã£o principal da colÃ´nia era a de enriquecer a metrÃ³pole. Tal prÃ¡tica estava inserida no mercantilismo, polÃ­tica intervencionista do Estado Moderno. A exploraÃ§Ã£o da colÃ´nia pela metrÃ³pole se destinava tambÃ©m ao enriquecimento da burguesia metropolitana e ao fortalecimento do poder real. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Brasil: col\u244 \&apos;f4nia de explora\u231 \&apos;e7\u227 \&apos;e3o nos quadros da pol\u237 \&apos;edtica econ\u244 \&apos;f4mica mercantilista\fs28\b0\par\par Voc\u234 \&apos;ea certamente j\u225 \&apos;e1 ouviu falar que o Brasil foi col\u244 \&apos;f4nia &#x0A;de Portugal. Mas o que definitivamente era ser uma col\u244 \&apos;f4nia? O pacto colonial estabelecia que a fun\u231 \&apos;e7\u227 \&apos;e3o principal da col\u244 \&apos;f4nia era a de enriquecer a metr\u243 \&apos;f3pole. Tal pr\u225 \&apos;e1tica estava inserida no mercantilismo, &#x0A;pol\u237 \&apos;edtica intervencionista do Estado Moderno. A explora\u231 \&apos;e7\u227 \&apos;e3o da col\u244 \&apos;f4nia pela metr\u243 \&apos;f3pole se destinava tamb\u233 \&apos;e9m ao enriquecimento da burguesia metropolitana e ao fortalecimento do poder real. \par}&#x0A;</rtf>
+<raw>?Brasil: col?nia de explora??o nos quadros da pol?tica econ?mica mercantilista&#x0A;Voc? certamente j? ouviu falar que o Brasil foi col?nia de Portugal. Mas o que definitivamente era ser uma col?nia? O pacto colonial estabelecia que a fun??o principal da col?nia era a de enriquecer a metr?pole. Tal pr?tica estava inserida no mercantilismo, pol?tica intervencionista do Estado Moderno. A explora??o da col?nia pela metr?pole se destinava tamb?m ao enriquecimento da burguesia metropolitana e ao fortalecimento do poder real. </raw>
+<numoflines>14</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="895" parent="834" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687966295</lastupdated>
+<possize>
+<point>
+<x>47</x>
+<y>312</y>
+</point>
+<size>
+<cx>443</cx>
+<cy>281</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>20</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="01D1DD" />
+</shape>
+<image id="893" parent="834" resource="896" ontop="false" fixed="false" proportional="true">
+<name>Imagem1</name>
+<lastupdated>1687966328</lastupdated>
+<possize>
+<point>
+<x>429</x>
+<y>560</y>
+</point>
+<size>
+<cx>61</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="891" parent="834" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687966326</lastupdated>
+<possize>
+<point>
+<x>71</x>
+<y>318</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>262</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text891Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text891Font1&quot;  &gt;Devemos por Ãºltimo fazer referÃªncia especial a um Ã³rgÃ£o de poder constituÃ­do de membros da sociedade: as CÃ¢maras Municipais, com sede nas vilas e nas cidades. Elas eram compostas de membros natos, ou seja, nÃ£o eleitos, e de representantes eleitos. Votavam nas eleiÃ§Ãµes, que eram geralmente indiretas, os &quot;homens bons&quot;, ou seja, proprietÃ¡rios residentes na cidade, excluÃ­dos os artesÃ£os e os considerados impuros pela cor e pela religiÃ£o, isto Ã©, negros, mulatos e cristÃ£os-novos. (FAUSTO, 1996, p. 38) &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qj\hich\f2\loch\f2 Devemos por \u250 \&apos;faltimo fazer refer\u234 \&apos;eancia especial a um \u243 \&apos;f3rg\u227 \&apos;e3o de poder constitu\u237 \&apos;eddo de membros da sociedade: as C\u226 \&apos;e2maras Municipais, com sede nas vilas e &#x0A;nas cidades. Elas eram compostas de membros natos, ou seja, n\u227 \&apos;e3o eleitos, e de representantes eleitos. Votavam nas elei\u231 \&apos;e7\u245 \&apos;f5es, que eram geralmente indiretas, os &quot;homens bons&quot;, ou seja, propriet\u225 \&apos;e1rios residentes na cidade, &#x0A;exclu\u237 \&apos;eddos os artes\u227 \&apos;e3os e os considerados impuros pela cor e pela religi\u227 \&apos;e3o, isto \u233 \&apos;e9, negros, mulatos e crist\u227 \&apos;e3os-novos. (FAUSTO, 1996, p. 38) \par}&#x0A;</rtf>
+<raw>?Devemos por ?ltimo fazer refer?ncia especial a um ?rg?o de poder constitu?do de membros da sociedade: as C?maras Municipais, com sede nas vilas e nas cidades. Elas eram compostas de membros natos, ou seja, n?o eleitos, e de representantes eleitos. Votavam nas elei??es, que eram geralmente indiretas, os &quot;homens bons&quot;, ou seja, propriet?rios residentes na cidade, exclu?dos os artes?os e os considerados impuros pela cor e pela religi?o, isto ?, negros, mulatos e crist?os-novos. (FAUSTO, 1996, p. 38) </raw>
+<numoflines>12</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="890" parent="834" ontop="false" fixed="false" proportional="false">
+<name>Retângulo 2</name>
+<lastupdated>1687966334</lastupdated>
+<possize>
+<point>
+<x>43</x>
+<y>413</y>
+</point>
+<size>
+<cx>12</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="871" parent="834" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687966266</lastupdated>
+<possize>
+<point>
+<x>52</x>
+<y>129</y>
+</point>
+<size>
+<cx>426</cx>
+<cy>182</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text871Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text871Font1&quot;  &gt;Eram compostas por no mÃ¡ximo 6 membros que eram escolhidos por uma assembleia de proprietÃ¡rios, os chamados &quot;homens bons&quot;. Entenda o termo &quot;Homens bons&quot; como os proprietÃ¡rios de terras e escravos. AlÃ©m de riqueza, era preciso tambÃ©m ter &quot;pureza de sangue&quot; (sem descendÃªncia negra ou judia) para ser um oficial da cÃ¢mara, ou seja, um vereador. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 Eram compostas por no m\u225 \&apos;e1ximo 6 membros que eram escolhidos por uma assembleia de propriet\u225 \&apos;e1rios, os chamados &quot;homens bons&quot;. Entenda o termo &quot;Homens bons&quot; como os propriet\u225 \&apos;e1rios &#x0A;de terras e escravos. Al\u233 \&apos;e9m de riqueza, era preciso tamb\u233 \&apos;e9m ter &quot;pureza de sangue&quot; (sem descend\u234 \&apos;eancia negra ou judia) para ser um oficial da c\u226 \&apos;e2mara, ou seja, um vereador. \hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Eram compostas por no m?ximo 6 membros que eram escolhidos por uma assembleia de propriet?rios, os chamados &quot;homens bons&quot;. Entenda o termo &quot;Homens bons&quot; como os propriet?rios de terras e escravos. Al?m de riqueza, era preciso tamb?m ter &quot;pureza de sangue&quot; (sem descend?ncia negra ou judia) para ser um oficial da c?mara, ou seja, um vereador. </raw>
+<numoflines>8</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="848" parent="834">
+<name>Grupo_1</name>
+<lastupdated>1687966248</lastupdated>
+<shape id="850" parent="848" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687966248</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="852" parent="848" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687966248</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="854" parent="848" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687966248</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="855" parent="848" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687966248</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>630</cx>
+<cy>72</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text855Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text855Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text855Font1&quot;  &gt;ColonizaÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text855Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Coloniza\&apos;e7\&apos;e3o\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Coloniza??o</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="857" parent="848" resource="170" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687966248</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="859" parent="848" resource="171" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687966248</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

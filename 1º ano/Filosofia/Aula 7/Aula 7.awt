@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>3103</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="166" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="167" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="450" resourcetype="image">
+<name>Imagem 3.bmp</name>
+<relativelink>images\Imagem 3.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="953" resourcetype="image">
+<name>PNG.105.png</name>
+<relativelink>images\PNG.105.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1308" resourcetype="image">
+<name>PNG.106.png</name>
+<relativelink>images\PNG.106.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1396" resourcetype="image">
+<name>image0071.emf</name>
+<relativelink>images\image0071.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1397" resourcetype="image">
+<name>image0061.png</name>
+<relativelink>images\image0061.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="3095" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="3096" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="76">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 3</name>
+<lastupdated>1687285118</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="75" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="74" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="73" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="76" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="72" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="71" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="70" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="68" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="69" parent="68" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="62" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="63" parent="62" on="mouseclick">
+<name>No clique do mouseIr para</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="54" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1686576735</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="55" parent="54" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="56" parent="54" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="57" parent="54" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1686576735</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="54">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="40" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1687285118</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="3080" parent="40">
+<name>Página 1</name>
+<lastupdated>1689692228</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="3081" parent="3080">
+<name>Grupo_1</name>
+<lastupdated>1689692226</lastupdated>
+<image id="3083" parent="3081" resource="3095" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689692226</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="3085" parent="3081" resource="3096" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689692226</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="3086" parent="3081" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689692232</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text3086Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text3086Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text3086Font1&quot;  &gt;Aula 7&lt;/span &gt;&lt;span class=&quot;text3086Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 7\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 7</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="3088" parent="3081" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689692226</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="3090" parent="3081" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689692226</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="3092" parent="3081" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689692226</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="3094" parent="3081" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689692226</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="152" parent="40">
+<name>Página 2</name>
+<lastupdated>1687284615</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="221" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687284615</lastupdated>
+<possize>
+<point>
+<x>508</x>
+<y>80</y>
+</point>
+<size>
+<cx>472</cx>
+<cy>551</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text221Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text221Font3 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text221Font4 { font-size:12px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot;  &gt;Outro fator que nos torna diferentes do demais seres Ã© o fato de sermos animais simbÃ³licos, ou seja, podemos representar os fatos da vida e do mundo. Como fazemos isso? Pela filosofia, crenÃ§as religiosas e expressÃµes artÃ­sticas. Por exemplo, um leÃ£o Ã© um excelente caÃ§ador. No entanto, nÃ£o Ã© capaz de desenhar suas conquistas em caÃ§adas, como faz o ser humano por meio de pinturas em cavernas (rupestres). Tal fato revela o ser humano como um tipo de ser incapaz de &quot;viver por viver&quot;. Ele quer encontrar um sentido para sua existÃªncia. Quer conhecer seu passado, alterar seu presente e deixar um legado para as futuras geraÃ§Ãµes. Sendo assim, devido ao fato de sermos conscientes e de sermos capazes de criar sÃ­mbolos, podemos cultivar valores, conhecimentos e ideais. Podemos construir &quot;cultura&quot;.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font3&quot;  &gt;O ser humano como meio termo entre natureza e cultura&lt;/span &gt;&lt;span class=&quot;text221Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.164&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:0.850;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text221Font1&quot;  &gt;O ser humano se relacionou com a natureza de formas diferentes na histÃ³ria. Os filÃ³sofos prÃ©-socrÃ¡ticos buscaram encontrar o princÃ­pio fundamental (archÃ©) da natureza (phÃ½sis) em elementos naturais, contemplada para os antigos filÃ³sofos gregos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Outro fator que nos torna diferentes do demais seres \u233 \&apos;e9 o fato de sermos animais simb\u243 \&apos;f3licos, ou seja, podemos representar os fatos da vida e do mundo. Como fazemos isso? Pela filosofia, &#x0A;cren\u231 \&apos;e7as religiosas e express\u245 \&apos;f5es art\u237 \&apos;edsticas. Por exemplo, um le\u227 \&apos;e3o \u233 \&apos;e9 um excelente ca\u231 \&apos;e7ador. No entanto, n\u227 \&apos;e3o \u233 \&apos;e9 capaz de desenhar suas conquistas em ca\u231 \&apos;e7adas, como faz o ser humano &#x0A;por meio de pinturas em cavernas (rupestres). Tal fato revela o ser humano como um tipo de ser incapaz de &quot;viver por viver&quot;. Ele quer encontrar um sentido para sua exist\u234 \&apos;eancia. Quer conhecer seu passado, alterar seu presente e deixar um legado &#x0A;para as futuras gera\u231 \&apos;e7\u245 \&apos;f5es. Sendo assim, devido ao fato de sermos conscientes e de sermos capazes de criar s\u237 \&apos;edmbolos, podemos cultivar valores, conhecimentos e ideais. Podemos construir &quot;cultura&quot;.\lang1046\hich\f2\loch\f2\par\par\lang1046\hich\f2\loch\f2\fs36\b &#x0A;O ser humano como meio termo entre natureza e cultura\fs18\b0\par\par\fs28 O ser humano se relacionou com a natureza de formas diferentes na hist\&apos;f3ria. Os fil\&apos;f3sofos pr\&apos;e9-socr\&apos;e1ticos buscaram encontrar o princ\&apos;edpio fundamental (arch\&apos;e9) da &#x0A;natureza (ph\&apos;fdsis) em elementos naturais, contemplada para os antigos fil\&apos;f3sofos gregos.\par\pard\s0\qj\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Outro fator que nos torna diferentes do demais seres � o fato de sermos animais simb�licos, ou seja, podemos representar os fatos da vida e do mundo. Como fazemos isso? Pela filosofia, cren�as religiosas e express�es art�sticas. Por exemplo, um le�o � um excelente ca�ador. No entanto, n�o � capaz de desenhar suas conquistas em ca�adas, como faz o ser humano por meio de pinturas em cavernas (rupestres). Tal fato revela o ser humano como um tipo de ser incapaz de &quot;viver por viver&quot;. Ele quer encontrar um sentido para sua exist�ncia. Quer conhecer seu passado, alterar seu presente e deixar um legado para as futuras gera��es. Sendo assim, devido ao fato de sermos conscientes e de sermos capazes de criar s�mbolos, podemos cultivar valores, conhecimentos e ideais. Podemos construir &quot;cultura&quot;.&#x0A;&#x0A;O ser humano como meio termo entre natureza e cultura&#x0A;&#x0A;O ser humano se relacionou com a natureza de formas diferentes na hist�ria. Os fil�sofos pr�-socr�ticos buscaram encontrar o princ�pio fundamental (arch�) da natureza (ph�sis) em elementos naturais, contemplada para os antigos fil�sofos gregos.&#x0A;</raw>
+<numoflines>26</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="191" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687284584</lastupdated>
+<possize>
+<point>
+<x>12</x>
+<y>135</y>
+</point>
+<size>
+<cx>474</cx>
+<cy>445</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text191Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text191Font2 { font-size:13px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;span.text191Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font1&quot;  &gt;IntroduÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text191Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font3&quot;  &gt;ApÃ³s estudarmos as possÃ­veis definiÃ§Ãµes de filosofia, o pensamento mÃ­tico, os principais autores e correntes de pensamento da filosofia antiga, cabe, agora, fazermos uma anÃ¡lise filosÃ³fica a partir de um problema. Por isso, o objetivo de anÃ¡lise filosÃ³fica dessa unidade Ã© a relaÃ§Ã£o entre natureza e cultura.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text191Font3&quot;  &gt;NÃ³s, seres humanos, somos feitos da mesma matÃ©ria orgÃ¢nica que os demais seres sÃ£o compostos. Somos seres biolÃ³gicos, portanto, somos uma parte da natureza, nÃ£o estamos fora dela. O que nos torna diferentes dos demais seres minerais, vegetais e animais Ã© o fato de sermos, nas palavras de Ray Kurzweil &quot;a parte acordada da matÃ©ria e da energia&quot;. Isso significa que somos seres conscientes de nossa existÃªncia. NÃ£o somos guiados apenas por nossos instintos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs36\b Introdu\&apos;e7\&apos;e3o\fs20\par\fs28\b0\par Ap\u243 \&apos;f3s estudarmos as poss\u237 \&apos;edveis defini\u231 \&apos;e7\u245 \&apos;f5es de filosofia, o pensamento m\u237 \&apos;edtico, os principais autores e correntes de &#x0A;pensamento da filosofia antiga, cabe, agora, fazermos uma an\u225 \&apos;e1lise filos\u243 \&apos;f3fica a partir de um problema. Por isso, o objetivo de an\u225 \&apos;e1lise filos\u243 \&apos;f3fica dessa unidade \u233 \&apos;e9 a rela\u231 \&apos;e7\u227 \&apos;e3o entre natureza e &#x0A;cultura.\par\par N\u243 \&apos;f3s, seres humanos, somos feitos da mesma mat\u233 \&apos;e9ria org\u226 \&apos;e2nica que os demais seres s\u227 \&apos;e3o compostos. Somos seres biol\u243 \&apos;f3gicos, portanto, somos uma parte da natureza, n\u227 \&apos;e3o estamos fora dela. &#x0A;O que nos torna diferentes dos demais seres minerais, vegetais e animais \u233 \&apos;e9 o fato de sermos, nas palavras de Ray Kurzweil &quot;a parte acordada da mat\u233 \&apos;e9ria e da energia&quot;. Isso significa que somos seres conscientes de nossa exist\u234 \&apos;eancia. &#x0A;N\u227 \&apos;e3o somos guiados apenas por nossos instintos.\par\par\pard\s0\ql\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Introdu��o&#x0A;&#x0A;Ap�s estudarmos as poss�veis defini��es de filosofia, o pensamento m�tico, os principais autores e correntes de pensamento da filosofia antiga, cabe, agora, fazermos uma an�lise filos�fica a partir de um problema. Por isso, o objetivo de an�lise filos�fica dessa unidade � a rela��o entre natureza e cultura.&#x0A;&#x0A;N�s, seres humanos, somos feitos da mesma mat�ria org�nica que os demais seres s�o compostos. Somos seres biol�gicos, portanto, somos uma parte da natureza, n�o estamos fora dela. O que nos torna diferentes dos demais seres minerais, vegetais e animais � o fato de sermos, nas palavras de Ray Kurzweil &quot;a parte acordada da mat�ria e da energia&quot;. Isso significa que somos seres conscientes de nossa exist�ncia. N�o somos guiados apenas por nossos instintos.&#x0A;&#x0A;</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="165" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="163" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="161" parent="152" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="159" parent="152" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687284555</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>96</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text159Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text159Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text159Font1&quot;  &gt;Natureza e Cultura&lt;/span &gt;&lt;span class=&quot;text159Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Natureza e Cultura\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Natureza e Cultura</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="158" parent="152" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="156" parent="152" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686576753</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="333" parent="40">
+<name>Página 3</name>
+<lastupdated>1687284989</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="2189" parent="333" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687284989</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>108</y>
+</point>
+<size>
+<cx>483</cx>
+<cy>467</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2189Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;span.text2189Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2189Font2&quot;  &gt;Na contemporaneidade, a Ã©poca na qual vivemos, a relaÃ§Ã£o entre ser humano e natureza tem sido caÃ³tica, convidando pessoas e instituiÃ§Ãµes a refletirem sobre o problema. Muitos intelectuais, como Francesca Ferrando, sustentam que estamos vivendo na era geolÃ³gica denominada como &lt;/span &gt;&lt;span class=&quot;text2189Font3&quot;  &gt;antropoceno,&lt;/span &gt;&lt;span class=&quot;text2189Font2&quot;  &gt; em que a aÃ§Ã£o humana passa a ser, propriamente, uma forÃ§a geolÃ³gica, capaz de&#x0D;alterar a dinÃ¢mica do meio ambiente do planeta. Por essa razÃ£o, Ã© preciso pensarmos em aÃ§Ãµes sustentÃ¡veis capazes de garantir a proteÃ§Ã£o da vida humana e do meio ambiente.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2189Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2189Font2&quot;  &gt;Quando pensamos em sustentabilidade Ã© preciso tratarmos de tecnologia, uma das ferramentas mais primorosas para intervenÃ§Ã£o humana na natureza. Sem a cultura nÃ£o conseguirÃ­amos produzir tecnologia, pois ela necessita de uma sociedade que compartilha conhecimentos. TambÃ©m, Ã© pela cultura que devemos criar valores e diretrizes sustentÃ¡veis capazes de assegurarem uma utilizaÃ§Ã£o Ã©tica da tecnologia, protegendo assim as vidas humanas e nÃ£o humanas existentes em nosso planeta. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Na contemporaneidade, a \&apos;e9poca na qual vivemos, a rela\&apos;e7\&apos;e3o entre ser humano e natureza tem sido ca\&apos;f3tica, convidando pessoas e institui\&apos;e7\&apos;f5es a refletirem sobre o problema. Muitos intelectuais, &#x0A;como Francesca Ferrando, sustentam que estamos vivendo na era geol\&apos;f3gica denominada como \b antropoceno,\b0  em que a a\&apos;e7\&apos;e3o humana passa a ser, propriamente, uma for\&apos;e7a geol\&apos;f3gica, capaz de\&apos;0dalterar a din\&apos;e2mica do meio ambiente do planeta. &#x0A;Por essa raz\&apos;e3o, \&apos;e9 preciso pensarmos em a\&apos;e7\&apos;f5es sustent\&apos;e1veis capazes de garantir a prote\&apos;e7\&apos;e3o da vida humana e do meio ambiente.\par\par\pard\s0\qj\plain\f1\fs24\hich\f2\loch\f2\cf2\fs28 Quando pensamos em sustentabilidade \u233 \&apos;e9 preciso &#x0A;tratarmos de tecnologia, uma das ferramentas mais primorosas para interven\u231 \&apos;e7\u227 \&apos;e3o humana na natureza. Sem a cultura n\u227 \&apos;e3o conseguir\u237 \&apos;edamos produzir tecnologia, pois ela necessita de uma sociedade que compartilha conhecimentos. &#x0A;Tamb\u233 \&apos;e9m, \u233 \&apos;e9 pela cultura que devemos criar valores e diretrizes sustent\u225 \&apos;e1veis capazes de assegurarem uma utiliza\u231 \&apos;e7\u227 \&apos;e3o \u233 \&apos;e9tica da tecnologia, protegendo assim as vidas humanas e n\u227 \&apos;e3o humanas existentes &#x0A;em nosso planeta. \par}&#x0A;</rtf>
+<raw>?Na contemporaneidade, a ?poca na qual vivemos, a rela??o entre ser humano e natureza tem sido ca?tica, convidando pessoas e institui??es a refletirem sobre o problema. Muitos intelectuais, como Francesca Ferrando, sustentam que estamos vivendo na era geol?gica denominada como antropoceno, em que a a??o humana passa a ser, propriamente, uma for?a geol?gica, capaz de&#x0D;alterar a din?mica do meio ambiente do planeta. Por essa raz?o, ? preciso pensarmos em a??es sustent?veis capazes de garantir a prote??o da vida humana e do meio ambiente.&#x0A;Quando pensamos em sustentabilidade ? preciso tratarmos de tecnologia, uma das ferramentas mais primorosas para interven??o humana na natureza. Sem a cultura n?o conseguir?amos produzir tecnologia, pois ela necessita de uma sociedade que compartilha conhecimentos. Tamb?m, ? pela cultura que devemos criar valores e diretrizes sustent?veis capazes de assegurarem uma utiliza??o ?tica da tecnologia, protegendo assim as vidas humanas e n?o humanas existentes em nosso planeta. </raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="352" parent="333" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687284662</lastupdated>
+<possize>
+<point>
+<x>22</x>
+<y>110</y>
+</point>
+<size>
+<cx>467</cx>
+<cy>524</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text352Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text352Font2&quot;  &gt;Ela era fonte de vida e guardava certo mistÃ©rio. Para os medievais, a natureza era obra de Deus, por essa razÃ£o, devia ser contemplada, pois simbolizava perfeiÃ§Ã£o. Francisco de Assis, frade catÃ³lico, defendeu em seus ensinamentos uma aproximaÃ§Ã£o entre Deus, humanidade e natureza. Para ele, a vida humana devia ser simples e harmÃ´nica assim como Ã© a natureza.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text352Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text352Font2&quot;  &gt;Com o advento da modernidade, a natureza deixa de ser contemplada para ser explorada. Com o desenvolvimento da ciÃªncia, expansÃµes marÃ­timas em busca de matÃ©ria-prima e mercados e a industrializaÃ§Ã£o europeia, a natureza perde seu carÃ¡cter de beleza e mistÃ©rio. Segundo o filÃ³sofo moderno Francis Bacon: &quot;a ciÃªncia devia submeter a natureza Ã  tortura&quot;, para dela extrair conhecimentos e recursos. Tal visÃ£o transformou a natureza em coisa, que pode ser usada e depois descartada. ComeÃ§a, entÃ£o, um processo de poluiÃ§Ã£o e degradaÃ§Ã£o da natureza por meio da intervenÃ§Ã£o humana. Os resultados dessas prÃ¡ticas sÃ£o sentidos pela humanidade atual: poluiÃ§Ã£o de rios e oceanos, poluiÃ§Ã£o da atmosfera, escassez de recursos naturais, esgotamento do solo, desigualdade social, refugiados ambientais e etc.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Ela era fonte de vida e guardava certo mist\&apos;e9rio. Para os medievais, a natureza era obra de Deus, por essa raz\&apos;e3o, devia ser contemplada, pois simbolizava perfei\&apos;e7\&apos;e3o. Francisco de Assis, &#x0A;frade cat\&apos;f3lico, defendeu em seus ensinamentos uma aproxima\&apos;e7\&apos;e3o entre Deus, humanidade e natureza. Para ele, a vida humana devia ser simples e harm\&apos;f4nica assim como \&apos;e9 a natureza.\lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\par Com &#x0A;o advento da modernidade, a natureza deixa de ser contemplada para ser explorada. Com o desenvolvimento da ci\u234 \&apos;eancia, expans\u245 \&apos;f5es mar\u237 \&apos;edtimas em busca de mat\u233 \&apos;e9ria-prima e mercados e a industrializa\u231 \&apos;e7\u227 \&apos;e3o europeia, &#x0A;a natureza perde seu car\u225 \&apos;e1cter de beleza e mist\u233 \&apos;e9rio. Segundo o fil\u243 \&apos;f3sofo moderno Francis Bacon: &quot;a ci\u234 \&apos;eancia devia submeter a natureza \u224 \&apos;e0 tortura&quot;, para dela extrair conhecimentos e recursos. Tal vis\u227 \&apos;e3o &#x0A;transformou a natureza em coisa, que pode ser usada e depois descartada. Come\u231 \&apos;e7a, ent\u227 \&apos;e3o, um processo de polui\u231 \&apos;e7\u227 \&apos;e3o e degrada\u231 \&apos;e7\u227 \&apos;e3o da natureza por meio da interven\u231 \&apos;e7\u227 \&apos;e3o humana. Os resultados &#x0A;dessas pr\u225 \&apos;e1ticas s\u227 \&apos;e3o sentidos pela humanidade atual: polui\u231 \&apos;e7\u227 \&apos;e3o de rios e oceanos, polui\u231 \&apos;e7\u227 \&apos;e3o da atmosfera, escassez de recursos naturais, esgotamento do solo, desigualdade social, refugiados ambientais &#x0A;e etc.\par\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Ela era fonte de vida e guardava certo mist?rio. Para os medievais, a natureza era obra de Deus, por essa raz?o, devia ser contemplada, pois simbolizava perfei??o. Francisco de Assis, frade cat?lico, defendeu em seus ensinamentos uma aproxima??o entre Deus, humanidade e natureza. Para ele, a vida humana devia ser simples e harm?nica assim como ? a natureza.&#x0A;Com o advento da modernidade, a natureza deixa de ser contemplada para ser explorada. Com o desenvolvimento da ci?ncia, expans?es mar?timas em busca de mat?ria-prima e mercados e a industrializa??o europeia, a natureza perde seu car?cter de beleza e mist?rio. Segundo o fil?sofo moderno Francis Bacon: &quot;a ci?ncia devia submeter a natureza ? tortura&quot;, para dela extrair conhecimentos e recursos. Tal vis?o transformou a natureza em coisa, que pode ser usada e depois descartada. Come?a, ent?o, um processo de polui??o e degrada??o da natureza por meio da interven??o humana. Os resultados dessas pr?ticas s?o sentidos pela humanidade atual: polui??o de rios e oceanos, polui??o da atmosfera, escassez de recursos naturais, esgotamento do solo, desigualdade social, refugiados ambientais e etc.&#x0A;</raw>
+<numoflines>25</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="611" parent="333">
+<name>Grupo_1</name>
+<lastupdated>1687284422</lastupdated>
+<shape id="349" parent="611" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="347" parent="611" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="345" parent="611" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="343" parent="611" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687284422</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text343Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text343Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text343Font1&quot;  &gt;Escolas helenÃ­sticas&lt;/span &gt;&lt;span class=&quot;text343Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red41\green185\blue162 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Escolas helen\&apos;edsticas\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Escolas helen?sticas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="342" parent="611" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="340" parent="611" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1686577844</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="2228" parent="40">
+<name>Página 4</name>
+<lastupdated>1687285118</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="2229" parent="2228" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687285111</lastupdated>
+<possize>
+<point>
+<x>509</x>
+<y>150</y>
+</point>
+<size>
+<cx>483</cx>
+<cy>300</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2229Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2229Font2&quot;  &gt;Se considerarmos que existe natureza onde hÃ¡ matÃ©ria e energia, entÃ£o, ela estÃ¡ em todo o universo. Dessa maneira, existe vida fora da terra e ela precisa ser respeitada e cuidada. Se jogar lixo em um rio Ã© uma atitude reprovÃ¡vel, jogar lixo nuclear no espaÃ§o sideral tambÃ©m Ã© algo errado.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2229Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2229Font2&quot;  &gt;Por fim, ao analisarmos a relaÃ§Ã£o entre cultura e natureza percebemos que a humanidade Ã© o meio termo das duas: somos seres naturais e culturais. Cabe a nÃ³s usarmos de nossa condiÃ§Ã£o de seres nteligentes para garantirmos uma vida genuÃ­na para nossa espÃ©cie e para as demais formas de vida presentes na natureza.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 Se considerarmos que existe natureza onde h\u225 \&apos;e1 mat\u233 \&apos;e9ria e energia, ent\u227 \&apos;e3o, ela est\u225 \&apos;e1 em todo o universo. Dessa maneira, existe vida fora da terra e ela precisa ser &#x0A;respeitada e cuidada. Se jogar lixo em um rio \u233 \&apos;e9 uma atitude reprov\u225 \&apos;e1vel, jogar lixo nuclear no espa\u231 \&apos;e7o sideral tamb\u233 \&apos;e9m \u233 \&apos;e9 algo errado.\par\par Por fim, ao analisarmos a rela\&apos;e7\&apos;e3o entre cultura e natureza percebemos &#x0A;que a humanidade \&apos;e9 o meio termo das duas: somos seres naturais e culturais. Cabe a n\&apos;f3s usarmos de nossa condi\&apos;e7\&apos;e3o de seres nteligentes para garantirmos uma vida genu\&apos;edna para nossa esp\&apos;e9cie e para as demais formas de vida presentes na natureza.\par\par\par\fs18\par\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Se considerarmos que existe natureza onde h? mat?ria e energia, ent?o, ela est? em todo o universo. Dessa maneira, existe vida fora da terra e ela precisa ser respeitada e cuidada. Se jogar lixo em um rio ? uma atitude reprov?vel, jogar lixo nuclear no espa?o sideral tamb?m ? algo errado.&#x0A;Por fim, ao analisarmos a rela??o entre cultura e natureza percebemos que a humanidade ? o meio termo das duas: somos seres naturais e culturais. Cabe a n?s usarmos de nossa condi??o de seres nteligentes para garantirmos uma vida genu?na para nossa esp?cie e para as demais formas de vida presentes na natureza.&#x0D;&#x0D;&#x0A;</raw>
+<numoflines>17</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="2230" parent="2228" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687285086</lastupdated>
+<possize>
+<point>
+<x>18</x>
+<y>142</y>
+</point>
+<size>
+<cx>473</cx>
+<cy>463</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2230Font1 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;span.text2230Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#7f7f7f;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text2230Font2&quot;  &gt;O filÃ³sofo Hans Jonas propÃµe um possÃ­vel meio para garantirmos uma utilizaÃ§Ã£o Ã©tica da tecnologia. Trata-se da &quot;heurÃ­stica do temor&quot;, que consiste em tomar precauÃ§Ãµes diante de inovaÃ§Ãµes tecnolÃ³gicas potencialmente prejudiciais Ã  vida humana e ao meio ambiente.Ainda tratando da construÃ§Ã£o de uma Ã©tica capaz de lidar com a relaÃ§Ã£o entre tecnologia, seres humanos e meio ambiente, surge mais um problema a ser discutido: a exploraÃ§Ã£o do espaÃ§o sideral. Em 1969, a humanidade pisou na lua e, de lÃ¡ para cÃ¡, quando vemos nos noticiÃ¡rios informaÃ§Ãµes sobre viagens espaciais, agora atÃ© mesmo de pessoas comuns, ficamos entusiasmados com tamanho sucesso da ciÃªncia e da tecnologia.No entanto, nÃ£o estamos falando de uma viagem atÃ© a casa de um familiar ou de um intercÃ¢mbio em outro paÃ­s. Trata-se de um evento que alterarÃ¡ o que entendemos como ser humano e natureza. A palavra humano deriva do termo hÃºmus, que significa terra, barro. Pensando em uma possÃ­vel colonizaÃ§Ã£o humana em outros planetas, o significado de ser humano terÃ¡ de ser atualizado. &lt;/span &gt;&lt;span class=&quot;text2230Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red127\green127\blue127 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;{\*\listtable&#x0A;{\list\listtemplateid1&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577268&#x0A;}&#x0A;{\list\listtemplateid2&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat6{\leveltext \&apos;02\&apos;00.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;01.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;02.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;03.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc4\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;04.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;05.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc1\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;06.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc2\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;07.}{\levelnumbers \&apos;01}}&#x0A;{\listlevel\levelnfc3\levelfollow0\levelstartat1{\leveltext \&apos;02\&apos;08.}{\levelnumbers \&apos;01}}&#x0A;{\listname DefaultList;}\listid1686577285&#x0A;}&#x0A;}&#x0A;{\*\listoverridetable}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\qj\hich\f2\loch\f2\cf2\fs28 O fil\u243 \&apos;f3sofo Hans Jonas prop\u245 \&apos;f5e um poss\u237 \&apos;edvel meio para garantirmos uma utiliza\u231 \&apos;e7\u227 \&apos;e3o \u233 \&apos;e9tica da tecnologia. Trata-se da &quot;heur\u237 \&apos;edstica do temor&quot;, &#x0A;que consiste em tomar precau\u231 \&apos;e7\u245 \&apos;f5es diante de inova\u231 \&apos;e7\u245 \&apos;f5es tecnol\u243 \&apos;f3gicas potencialmente prejudiciais \u224 \&apos;e0 vida humana e ao meio ambiente.Ainda tratando da constru\u231 \&apos;e7\u227 \&apos;e3o de uma \u233 \&apos;e9tica capaz &#x0A;de lidar com a rela\u231 \&apos;e7\u227 \&apos;e3o entre tecnologia, seres humanos e meio ambiente, surge mais um problema a ser discutido: a explora\u231 \&apos;e7\u227 \&apos;e3o do espa\u231 \&apos;e7o sideral. Em 1969, a humanidade pisou na lua e, de l\u225 \&apos;e1 para c\u225 &#x0A;\&apos;e1, quando vemos nos notici\u225 \&apos;e1rios informa\u231 \&apos;e7\u245 \&apos;f5es sobre viagens espaciais, agora at\u233 \&apos;e9 mesmo de pessoas comuns, ficamos entusiasmados com tamanho sucesso da ci\u234 \&apos;eancia e da tecnologia.No entanto, n\u227 \&apos;e3o estamos &#x0A;falando de uma viagem at\u233 \&apos;e9 a casa de um familiar ou de um interc\u226 \&apos;e2mbio em outro pa\u237 \&apos;eds. Trata-se de um evento que alterar\u225 \&apos;e1 o que entendemos como ser humano e natureza. A palavra humano deriva do termo h\u250 \&apos;famus, que &#x0A;significa terra, barro. Pensando em uma poss\u237 \&apos;edvel coloniza\u231 \&apos;e7\u227 \&apos;e3o humana em outros planetas, o significado de ser humano ter\u225 \&apos;e1 de ser atualizado. \plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?O fil?sofo Hans Jonas prop?e um poss?vel meio para garantirmos uma utiliza??o ?tica da tecnologia. Trata-se da &quot;heur?stica do temor&quot;, que consiste em tomar precau??es diante de inova??es tecnol?gicas potencialmente prejudiciais ? vida humana e ao meio ambiente.Ainda tratando da constru??o de uma ?tica capaz de lidar com a rela??o entre tecnologia, seres humanos e meio ambiente, surge mais um problema a ser discutido: a explora??o do espa?o sideral. Em 1969, a humanidade pisou na lua e, de l? para c?, quando vemos nos notici?rios informa??es sobre viagens espaciais, agora at? mesmo de pessoas comuns, ficamos entusiasmados com tamanho sucesso da ci?ncia e da tecnologia.No entanto, n?o estamos falando de uma viagem at? a casa de um familiar ou de um interc?mbio em outro pa?s. Trata-se de um evento que alterar? o que entendemos como ser humano e natureza. A palavra humano deriva do termo h?mus, que significa terra, barro. Pensando em uma poss?vel coloniza??o humana em outros planetas, o significado de ser humano ter? de ser atualizado. </raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="2231" parent="2228">
+<name>Grupo_1</name>
+<lastupdated>1687284428</lastupdated>
+<shape id="2233" parent="2231" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="2235" parent="2231" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="2237" parent="2231" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>94</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="2238" parent="2231" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687284428</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>47</y>
+</point>
+<size>
+<cx>460</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text2238Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#0e2766; font-weight:bold;}&#x0A;span.text2238Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text2238Font1&quot;  &gt;Escolas helenÃ­sticas&lt;/span &gt;&lt;span class=&quot;text2238Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red14\green39\blue102 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Escolas helen\&apos;edsticas\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Escolas helen?sticas</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="2240" parent="2231" resource="167" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="2242" parent="2231" resource="166" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687282759</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

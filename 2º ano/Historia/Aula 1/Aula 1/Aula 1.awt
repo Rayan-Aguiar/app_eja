@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>869</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="54" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="55" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="302" resourcetype="image">
+<name>Imagem1.png</name>
+<relativelink>images\Imagem1.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="480" resourcetype="image">
+<name>Imagem 2001.bmp</name>
+<relativelink>images\Imagem 2001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="636" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="796" resourcetype="image">
+<name>Imagem002.bmp</name>
+<relativelink>images\Imagem002.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="865" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="866" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="100">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 1</name>
+<lastupdated>1687963579</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="99" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687963586</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="98" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687963586</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="97" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687963586</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="100" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="96" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687963586</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="95" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687963586</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="94" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687963586</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="91" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687963586</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="92" parent="91" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687963586</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="93" parent="91" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687963586</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="84" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687963586</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="85" parent="84" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687963586</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="86" parent="84" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687963586</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="76" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687963586</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="77" parent="76" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687963586</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="78" parent="76" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687963586</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="79" parent="76" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687963586</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="76">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="62" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689701522</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="850" parent="62">
+<name>Página 1</name>
+<lastupdated>1689701524</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="851" parent="850">
+<name>Grupo_1</name>
+<lastupdated>1689701524</lastupdated>
+<image id="853" parent="851" resource="865" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689701524</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="855" parent="851" resource="866" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689701524</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="856" parent="851" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689701524</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text856Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text856Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text856Font1&quot;  &gt;Aula 1&lt;/span &gt;&lt;span class=&quot;text856Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula 1\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 1</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="858" parent="851" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689701524</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="860" parent="851" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689701524</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="862" parent="851" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689701524</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="864" parent="851" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689701524</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="176" parent="62">
+<name>Página 2</name>
+<lastupdated>1689701522</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<shape id="301" parent="176" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687964442</lastupdated>
+<possize>
+<point>
+<x>531</x>
+<y>373</y>
+</point>
+<size>
+<cx>443</cx>
+<cy>251</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>20</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="01D1DD" />
+</shape>
+<image id="299" parent="176" resource="302" ontop="false" fixed="false" proportional="true">
+<name>Imagem1</name>
+<lastupdated>1687964428</lastupdated>
+<possize>
+<point>
+<x>934</x>
+<y>586</y>
+</point>
+<size>
+<cx>61</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="297" parent="176" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687964404</lastupdated>
+<possize>
+<point>
+<x>556</x>
+<y>384</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>134</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text297Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text297Font1&quot;  &gt;Entenda a antropofagia! Era praticada em rituais simbÃ³licos, porque acreditavam que comendo a carne humana do inimigo, toda a sabedoria, valentia e conhecimentos seriam incorporados, ou seja, nÃ£o comiam carne de pessoas fracas ou covardes (REIS, 1988; TOLEDO, 1998).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qj\hich\f2\loch\f2 Entenda a antropofagia! Era praticada em rituais simb\&apos;f3licos, porque acreditavam que comendo a carne humana do inimigo, toda a sabedoria, valentia e conhecimentos seriam incorporados, ou seja, n\&apos;e3o &#x0A;comiam carne de pessoas fracas ou covardes (REIS, 1988; TOLEDO, 1998).\par}&#x0A;</rtf>
+<raw>?Entenda a antropofagia! Era praticada em rituais simb�licos, porque acreditavam que comendo a carne humana do inimigo, toda a sabedoria, valentia e conhecimentos seriam incorporados, ou seja, n�o comiam carne de pessoas fracas ou covardes (REIS, 1988; TOLEDO, 1998).</raw>
+<numoflines>6</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="296" parent="176" ontop="false" fixed="false" proportional="false">
+<name>Retângulo 2</name>
+<lastupdated>1687964404</lastupdated>
+<possize>
+<point>
+<x>528</x>
+<y>411</y>
+</point>
+<size>
+<cx>12</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="258" parent="176" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687964401</lastupdated>
+<possize>
+<point>
+<x>534</x>
+<y>96</y>
+</point>
+<size>
+<cx>423</cx>
+<cy>292</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text258Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text258Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text258Font1&quot;  &gt;Geralmente, nessas sociedades tipicamente igualitÃ¡rias (sem propriedade privada), a autoridade religiosa era exercida pelo PajÃ© e nelas havia uma diferenciaÃ§Ã£o das atividades pelo sexo e idade, direcionando as aÃ§Ãµes nÃ´mades da caÃ§a, pesca e coleta. &lt;/span &gt;&lt;span class=&quot;text258Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text258Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text258Font1&quot;  &gt;Os nativos brasileiros eram adeptos do casamento monogÃ¢mico, mas, nessa sociedade, a poligamia tambÃ©m existiu. Diversas aldeias praticavam a antropofagia, ritual abominado pelos portugueses e religiosos que entraram em contato com esses indÃ­genas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Geralmente, nessas sociedades tipicamente igualit\u225 \&apos;e1rias (sem propriedade privada), a autoridade religiosa era exercida pelo Paj\u233 \&apos;e9 e nelas havia uma diferencia\u231 \&apos;e7\u227 \&apos;e3o das atividades pelo sexo &#x0A;e idade, direcionando as a\u231 \&apos;e7\u245 \&apos;f5es n\u244 \&apos;f4mades da ca\u231 \&apos;e7a, pesca e coleta. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par Os nativos brasileiros eram adeptos do casamento monog\u226 \&apos;e2mico, mas, nessa sociedade, &#x0A;a poligamia tamb\u233 \&apos;e9m existiu. Diversas aldeias praticavam a antropofagia, ritual abominado pelos portugueses e religiosos que entraram em contato com esses ind\u237 \&apos;edgenas.\par}&#x0A;</rtf>
+<raw>?Geralmente, nessas sociedades tipicamente igualit�rias (sem propriedade privada), a autoridade religiosa era exercida pelo Paj� e nelas havia uma diferencia��o das atividades pelo sexo e idade, direcionando as a��es n�mades da ca�a, pesca e coleta. &#x0A;&#x0A;Os nativos brasileiros eram adeptos do casamento monog�mico, mas, nessa sociedade, a poligamia tamb�m existiu. Diversas aldeias praticavam a antropofagia, ritual abominado pelos portugueses e religiosos que entraram em contato com esses ind�genas.</raw>
+<numoflines>13</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="215" parent="176" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687963991</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>133</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>460</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text215Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text215Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text215Font5 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text215Font1&quot;  &gt;PrÃ©-histÃ³ria do Brasil&lt;/span &gt;&lt;span class=&quot;text215Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text215Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text215Font3&quot;  &gt;Antes da chegada dos europeus ao Brasil, grupos Ã¡grafos viviam nesse solo. Por nÃ£o escreverem e pela relaÃ§Ã£o etnocÃªntrica dos europeus, o resgate de seu passado e de sua histÃ³ria Ã© muito difÃ­cil. &lt;/span &gt;&lt;span class=&quot;text215Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text215Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text215Font3&quot;  &gt;Sabe-se que existiam pelo menos quatro grandes grupos linguÃ­sticos no atual territÃ³rio do Brasil: Tupi, JÃª (Tapuias), Nuaruaque e CaraÃ­ba. Portanto, nÃ£o podemos caracterizar os habitantes que viveram na prÃ©-histÃ³ria brasileira como pertencentes a um Ãºnico grupo e tampouco reduzi-los Ã s simplificaÃ§Ãµes homogÃªneas. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text215Font5&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text215Font3&quot;  &gt;Mesmo com suas diferenÃ§as, possuÃ­am muitos pontos em comum: povos Ã¡grafos; dividiam-se em naÃ§Ãµes, tribos e aldeias; possuÃ­am um chefe (morubixaba) e as decisÃµes eram tomadas pelos adultos masculinos.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Pr\u233 \&apos;e9-hist\u243 \&apos;f3ria do Brasil\fs28\b0\par\par Antes da chegada dos europeus ao Brasil, grupos \u225 \&apos;e1grafos viviam nesse solo. Por n\u227 \&apos;e3o escreverem e pela rela\u231 \&apos;e7\u227 \&apos;e3o etnoc\u234 \&apos;eantrica &#x0A;dos europeus, o resgate de seu passado e de sua hist\u243 \&apos;f3ria \u233 \&apos;e9 muito dif\u237 \&apos;edcil. \hich\f2\loch\f2\par\hich\f1\loch\f1\par Sabe-se que existiam pelo menos quatro grandes grupos lingu\u237 \&apos;edsticos no atual territ\u243 \&apos;f3rio do Brasil: &#x0A;Tupi, J\u234 \&apos;ea (Tapuias), Nuaruaque e Cara\u237 \&apos;edba. Portanto, n\u227 \&apos;e3o podemos caracterizar os habitantes que viveram na pr\u233 \&apos;e9-hist\u243 \&apos;f3ria brasileira como pertencentes a um \u250 \&apos;fanico grupo e tampouco reduzi-los \u224 \&apos;e0s &#x0A;simplifica\u231 \&apos;e7\u245 \&apos;f5es homog\u234 \&apos;eaneas. \par\hich\f2\loch\f2\par\hich\f1\loch\f1 Mesmo com suas diferen\u231 \&apos;e7as, possu\u237 \&apos;edam muitos pontos em comum: povos \u225 \&apos;e1grafos; dividiam-se em na\u231 \&apos;e7\u245 \&apos;f5es, tribos e aldeias; &#x0A;possu\u237 \&apos;edam um chefe (morubixaba) e as decis\u245 \&apos;f5es eram tomadas pelos adultos masculinos.\par}&#x0A;</rtf>
+<raw>?Pr�-hist�ria do Brasil&#x0A;&#x0A;Antes da chegada dos europeus ao Brasil, grupos �grafos viviam nesse solo. Por n�o escreverem e pela rela��o etnoc�ntrica dos europeus, o resgate de seu passado e de sua hist�ria � muito dif�cil. &#x0A;&#x0A;Sabe-se que existiam pelo menos quatro grandes grupos lingu�sticos no atual territ�rio do Brasil: Tupi, J� (Tapuias), Nuaruaque e Cara�ba. Portanto, n�o podemos caracterizar os habitantes que viveram na pr�-hist�ria brasileira como pertencentes a um �nico grupo e tampouco reduzi-los �s simplifica��es homog�neas. &#x0A;&#x0A;Mesmo com suas diferen�as, possu�am muitos pontos em comum: povos �grafos; dividiam-se em na��es, tribos e aldeias; possu�am um chefe (morubixaba) e as decis�es eram tomadas pelos adultos masculinos.</raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="180" parent="176">
+<name>Grupo_1</name>
+<lastupdated>1687963593</lastupdated>
+<shape id="182" parent="180" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687963593</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="184" parent="180" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687963593</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="186" parent="180" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687963593</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="187" parent="180" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687963613</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>791</cx>
+<cy>70</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text187Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text187Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text187Font1&quot;  &gt;PrÃ©-HistÃ³ria do Brasil e Brasil PrÃ©-Colonial&lt;/span &gt;&lt;span class=&quot;text187Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Pr\&apos;e9-Hist\&apos;f3ria do Brasil e Brasil Pr\&apos;e9-Colonial\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Pr�-Hist�ria do Brasil e Brasil Pr�-Colonial</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="189" parent="180" resource="54" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687963593</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="191" parent="180" resource="55" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687963593</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+<text id="438" parent="176" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 4</name>
+<lastupdated>1687964421</lastupdated>
+<possize>
+<point>
+<x>554</x>
+<y>520</y>
+</point>
+<size>
+<cx>200</cx>
+<cy>114</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text438Font1 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text438Font4 { font-size:15px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text438Font1&quot;  &gt;&amp;nbsp;TOLEDO, 1998).&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text438Font1&quot;  &gt;O Corpo Ã© DespedaÃ§ado &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text438Font1&quot;  &gt;â€“ ilustraÃ§Ã£o do livro &quot;Duas &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.135&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text438Font1&quot;  &gt;Viagens ao Brasil&quot; de Hans &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text438Font1&quot;  &gt;Staden (1557)&lt;/span &gt;&lt;span class=&quot;text438Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs22\ql\hich\f2\loch\f2\b  TOLEDO, 1998).\par O Corpo \u233 \&apos;e9 Despeda\u231 \&apos;e7ado \par\u8211 \&apos;96 ilustra\u231 \&apos;e7\u227 \&apos;e3o do livro &quot;Duas \par Viagens ao Brasil&quot; de Hans \par Staden (1557)\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>? TOLEDO, 1998).&#x0A;O Corpo � Despeda�ado &#x0A;� ilustra��o do livro &quot;Duas &#x0A;Viagens ao Brasil&quot; de Hans &#x0A;Staden (1557)</raw>
+<numoflines>5</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="481" parent="176" resource="480" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687964450</lastupdated>
+<possize>
+<point>
+<x>801</x>
+<y>517</y>
+</point>
+<size>
+<cx>108</cx>
+<cy>100</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</page>
+<page id="545" parent="62">
+<name>Página 3</name>
+<lastupdated>1687964544</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="559" parent="545" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687964536</lastupdated>
+<possize>
+<point>
+<x>45</x>
+<y>132</y>
+</point>
+<size>
+<cx>432</cx>
+<cy>522</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text559Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;li.text559Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:normal; font-style:normal; text-decoration:normal;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text559Font1&quot;  &gt;No Brasil, os principais sÃ­tios arqueolÃ³gicos sÃ£o as cavernas e os sambaquis, depÃ³sitos construÃ­dos pelo homem, constituÃ­dos por materiais orgÃ¢nicos e calcÃ¡rios que foram empilhados ao longo do tempo. Um dos mais conhecidos sÃ­tios arqueolÃ³gicos do Brasil estÃ¡ situado na Serra da Capivara, no estado do PiauÃ­. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text559Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text559Font1&quot;  &gt;HipÃ³teses de povoamento&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text559Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;ul  style=&quot;list-style-position:outside;text-align:justify;&quot; &gt;&#x0A;&lt;li  class=&quot;text559Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text559ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text559Font1&quot;  &gt;AsiÃ¡tica â€“ Travessia do Estreito de Bering â€“ pelo menos 10 mil anos.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text559Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text559ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text559Font1&quot;  &gt;Malaio â€“ PolinÃ©sia. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text559Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text559ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text559Font1&quot;  &gt;Australiana.&#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;li  class=&quot;text559Font1&quot; data-bltIndnt=&quot;0&quot; style=&quot;line-height:1.107;position:relative;margin-left:21px;margin-top:0px;margin-bottom:0px; list-style-image:url(&apos;images/text559ArrowBulletFont9.png&apos;); padding-left:3px;&quot;&gt;&lt;!--{ &#x0A;data-bltIndnt:0&#x0A;} --&gt;&lt;span class=&quot;text559Font1&quot;  &gt;Teoria alternativa â€“ duas correntes migratÃ³rias de caÃ§adores-coletores, vindas da Ãsia, provavelmente pelo estreito de Bering. A primeira leva migratÃ³ria, ocorrida hÃ¡ 14 mil anos, seria composta por populaÃ§Ãµes com traÃ§os negroides e a segunda seria formada por indivÃ­duos com aparÃªncia mais prÃ³xima Ã  mongoloide, e teria ocorrido hÃ¡ 12 mil anos. &#x0A;&lt;/span &gt;&lt;/li &gt;&#x0A;&lt;/ul &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fnil \fcharset2 Wingdings;}{\f4 \froman \fcharset2 Symbol;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\hich\f2\loch\f2\cf2\fs28 No Brasil, os principais s\u237 \&apos;edtios arqueol\u243 \&apos;f3gicos s\u227 \&apos;e3o as cavernas e os sambaquis, dep\u243 \&apos;f3sitos constru\u237 \&apos;eddos pelo homem, constitu\u237 \&apos;eddos por materiais org\u226 &#x0A;\&apos;e2nicos e calc\u225 \&apos;e1rios que foram empilhados ao longo do tempo. Um dos mais conhecidos s\u237 \&apos;edtios arqueol\u243 \&apos;f3gicos do Brasil est\u225 \&apos;e1 situado na Serra da Capivara, no estado do Piau\u237 \&apos;ed. \lang1046\hich\f2\loch\f2\par\par Hip\u243 &#x0A;\&apos;f3teses de povoamento\par\par\pard\s0{\*\pn\pnlvlblt\pnhang\pnf3{\pntxtb \&apos;d8}}\fi-360\li360\qj\plain\f1\fs24\lang1046\hich\f2\loch\f2\cf2\fs28 Asi\u225 \&apos;e1tica \u8211 \&apos;96 Travessia do Estreito de Bering \u8211 \&apos;96 pelo menos 10 mil anos.\par Malaio \u8211 &#x0A;\&apos;96 Polin\u233 \&apos;e9sia. \par Australiana.\par Teoria alternativa \u8211 \&apos;96 duas correntes migrat\u243 \&apos;f3rias de ca\u231 \&apos;e7adores-coletores, vindas da \u193 \&apos;c1sia, provavelmente pelo estreito de Bering. A primeira leva migrat\u243 \&apos;f3ria, ocorrida &#x0A;h\u225 \&apos;e1 14 mil anos, seria composta por popula\u231 \&apos;e7\u245 \&apos;f5es com tra\u231 \&apos;e7os negroides e a segunda seria formada por indiv\u237 \&apos;edduos com apar\u234 \&apos;eancia mais pr\u243 \&apos;f3xima \u224 \&apos;e0 mongoloide, e teria ocorrido h\u225 \&apos;e1 12 &#x0A;mil anos. \lang1046\hich\f2\loch\f2\par}&#x0A;</rtf>
+<raw>?No Brasil, os principais s?tios arqueol?gicos s?o as cavernas e os sambaquis, dep?sitos constru?dos pelo homem, constitu?dos por materiais org?nicos e calc?rios que foram empilhados ao longo do tempo. Um dos mais conhecidos s?tios arqueol?gicos do Brasil est? situado na Serra da Capivara, no estado do Piau?. &#x0A;Hip?teses de povoamento&#x0A;Asi?tica ? Travessia do Estreito de Bering ? pelo menos 10 mil anos.&#x0A;Malaio ? Polin?sia. &#x0A;Australiana.&#x0A;Teoria alternativa ? duas correntes migrat?rias de ca?adores-coletores, vindas da ?sia, provavelmente pelo estreito de Bering. A primeira leva migrat?ria, ocorrida h? 14 mil anos, seria composta por popula??es com tra?os negroides e a segunda seria formada por indiv?duos com apar?ncia mais pr?xima ? mongoloide, e teria ocorrido h? 12 mil anos. </raw>
+<publishedbullets>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text559ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text559ArrowBulletFont9.png</name>
+</bullet>
+<bullet>
+<type>5</type>
+<size>14</size>
+<color>8421504</color>
+<name>text559ArrowBulletFont9.png</name>
+</bullet>
+</publishedbullets>
+<numoflines>22</numoflines>
+<numpubbullets>3</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="547" parent="545">
+<name>Grupo_1</name>
+<lastupdated>1687964460</lastupdated>
+<shape id="549" parent="547" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687964460</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="551" parent="547" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687964460</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="553" parent="547" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687964460</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="554" parent="547" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687964460</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>791</cx>
+<cy>70</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text554Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text554Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text554Font1&quot;  &gt;PrÃ©-HistÃ³ria do Brasil e Brasil PrÃ©-Colonial&lt;/span &gt;&lt;span class=&quot;text554Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Pr\&apos;e9-Hist\&apos;f3ria do Brasil e Brasil Pr\&apos;e9-Colonial\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Pr?-Hist?ria do Brasil e Brasil Pr?-Colonial</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="556" parent="547" resource="54" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687964460</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="558" parent="547" resource="55" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687964460</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="610" parent="62">
+<name>Página 4</name>
+<lastupdated>1687964583</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="637" parent="610" resource="636" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687964579</lastupdated>
+<possize>
+<point>
+<x>117</x>
+<y>161</y>
+</point>
+<size>
+<cx>775</cx>
+<cy>413</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<objgroup id="612" parent="610">
+<name>Grupo_1</name>
+<lastupdated>1687964559</lastupdated>
+<shape id="614" parent="612" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687964549</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="616" parent="612" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687964549</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="618" parent="612" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687964549</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="619" parent="612" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687964549</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>791</cx>
+<cy>70</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text619Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text619Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text619Font1&quot;  &gt;PrÃ©-HistÃ³ria do Brasil e Brasil PrÃ©-Colonial&lt;/span &gt;&lt;span class=&quot;text619Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Pr\&apos;e9-Hist\&apos;f3ria do Brasil e Brasil Pr\&apos;e9-Colonial\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Pr?-Hist?ria do Brasil e Brasil Pr?-Colonial</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="623" parent="612" resource="55" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687964549</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="701" parent="62">
+<name>Página 5</name>
+<lastupdated>1687964761</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="755" parent="701" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687964756</lastupdated>
+<possize>
+<point>
+<x>535</x>
+<y>139</y>
+</point>
+<size>
+<cx>416</cx>
+<cy>500</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text755Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text755Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text755Font4 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text755Font1&quot;  &gt;Quando portugueses e indÃ­genas se encontraram, houve um choque cultural no qual os nativos foram considerados primitivos e demonizados pelos europeus, que se sentiam responsÃ¡veis por implantar na terra encontrada o seu processo civilizador.&lt;/span &gt;&lt;span class=&quot;text755Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text755Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text755Font4&quot;  &gt;ExpediÃ§Ãµes exploradoras e guarda costeiras&lt;/span &gt;&lt;span class=&quot;text755Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text755Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text755Font3&quot;  &gt;As expediÃ§Ãµes de Gaspar de Lemos (1501) e GonÃ§alo Coelho (1503) fizeram o reconhecimento geogrÃ¡fico da AmÃ©rica Portuguesa e verificaram as possibilidades de exploraÃ§Ã£o econÃ´mica da nova terra descoberta, encontrando, inclusive, o Pau-Brasil. CristÃ³vÃ£o Jacques comandou duas expediÃ§Ãµes guarda-costas organizadas pela Coroa, a primeira, em 1516 e, a segunda, em 1526. A missÃ£o de CristÃ³vÃ£o Jacques era a de policiar o litoral e expulsar os contrabandistas. &lt;/span &gt;&lt;span class=&quot;text755Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Quando portugueses e ind\u237 \&apos;edgenas se encontraram, houve um choque cultural no qual os nativos foram considerados primitivos e demonizados pelos europeus, que se sentiam respons\u225 \&apos;e1veis por implantar na terra &#x0A;encontrada o seu processo civilizador.\lang1046\hich\f2\loch\f2\par\par\fs36\b Expedi\&apos;e7\&apos;f5es exploradoras e guarda costeiras\fs28\b0\par\par As expedi\&apos;e7\&apos;f5es de Gaspar de Lemos (1501) e Gon\&apos;e7alo Coelho (1503) fizeram o reconhecimento geogr\&apos;e1fico &#x0A;da Am\&apos;e9rica Portuguesa e verificaram as possibilidades de explora\&apos;e7\&apos;e3o econ\&apos;f4mica da nova terra descoberta, encontrando, inclusive, o Pau-Brasil. Crist\&apos;f3v\&apos;e3o Jacques comandou duas expedi\&apos;e7\&apos;f5es guarda-costas organizadas pela Coroa, a primeira, &#x0A;em 1516 e, a segunda, em 1526. A miss\&apos;e3o de Crist\&apos;f3v\&apos;e3o Jacques era a de policiar o litoral e expulsar os contrabandistas. \lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Quando portugueses e ind?genas se encontraram, houve um choque cultural no qual os nativos foram considerados primitivos e demonizados pelos europeus, que se sentiam respons?veis por implantar na terra encontrada o seu processo civilizador.&#x0A;Expedi??es exploradoras e guarda costeiras&#x0A;As expedi??es de Gaspar de Lemos (1501) e Gon?alo Coelho (1503) fizeram o reconhecimento geogr?fico da Am?rica Portuguesa e verificaram as possibilidades de explora??o econ?mica da nova terra descoberta, encontrando, inclusive, o Pau-Brasil. Crist?v?o Jacques comandou duas expedi??es guarda-costas organizadas pela Coroa, a primeira, em 1516 e, a segunda, em 1526. A miss?o de Crist?v?o Jacques era a de policiar o litoral e expulsar os contrabandistas. </raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="716" parent="701" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687964671</lastupdated>
+<possize>
+<point>
+<x>45</x>
+<y>139</y>
+</point>
+<size>
+<cx>446</cx>
+<cy>505</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text716Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text716Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text716Font1&quot;  &gt;PerÃ­odo prÃ©-colonial (1500-1530)&lt;/span &gt;&lt;span class=&quot;text716Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text716Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text716Font3&quot;  &gt;O perÃ­odo prÃ©-colonial Ã© assim chamado porque Portugal priorizava o lucrativo comÃ©rcio das especiarias na Ãndias. Em 1498, Vasco da Gama havia chegado Ã s Ã­ndias e os portugueses mantiveram seu foco econÃ´mico na regiÃ£o, nÃ£o colonizando efetivamente a AmÃ©rica Portuguesa. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text716Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text716Font3&quot;  &gt;Antes da chegada lusitana ao Brasil, a regiÃ£o foi nomeada de vÃ¡rias formas. O primeiro nome dado foi Pindorama, criado e exclusivamente utilizado pelos indÃ­genas. No ano de 1500, os portugueses chamaram de Ilha de Vera Cruz. Em 1501, chamou-se Terra Nova e Terra dos Papagaios. No ano de 1503, chamaram-na de Terra de Vera Cruz e tambÃ©m de Terra de Santa Cruz. JÃ¡ em 1505, batizaram-na como Terra Santa Cruz do Brasil e de Terra do Brasil. Em 1526, devido ao pau-brasil, passou a se chamar Brasil. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Per\u237 \&apos;edodo pr\u233 \&apos;e9-colonial (1500-1530)\fs28\b0\par\par O per\u237 \&apos;edodo pr\u233 \&apos;e9-colonial \u233 \&apos;e9 assim chamado porque Portugal priorizava o lucrativo com\u233 \&apos;e9rcio das especiarias na \u205 \&apos;cdndias. &#x0A;Em 1498, Vasco da Gama havia chegado \u224 \&apos;e0s \u237 \&apos;edndias e os portugueses mantiveram seu foco econ\u244 \&apos;f4mico na regi\u227 \&apos;e3o, n\u227 \&apos;e3o colonizando efetivamente a Am\u233 \&apos;e9rica Portuguesa. \par\par Antes da chegada lusitana ao Brasil, &#x0A;a regi\u227 \&apos;e3o foi nomeada de v\u225 \&apos;e1rias formas. O primeiro nome dado foi Pindorama, criado e exclusivamente utilizado pelos ind\u237 \&apos;edgenas. No ano de 1500, os portugueses chamaram de Ilha de Vera Cruz. Em 1501, chamou-se Terra Nova e Terra &#x0A;dos Papagaios. No ano de 1503, chamaram-na de Terra de Vera Cruz e tamb\u233 \&apos;e9m de Terra de Santa Cruz. J\u225 \&apos;e1 em 1505, batizaram-na como Terra Santa Cruz do Brasil e de Terra do Brasil. Em 1526, devido ao pau-brasil, passou a se chamar Brasil. \par}&#x0A;</rtf>
+<raw>?Per?odo pr?-colonial (1500-1530)&#x0A;O per?odo pr?-colonial ? assim chamado porque Portugal priorizava o lucrativo com?rcio das especiarias na ?ndias. Em 1498, Vasco da Gama havia chegado ?s ?ndias e os portugueses mantiveram seu foco econ?mico na regi?o, n?o colonizando efetivamente a Am?rica Portuguesa. &#x0A;Antes da chegada lusitana ao Brasil, a regi?o foi nomeada de v?rias formas. O primeiro nome dado foi Pindorama, criado e exclusivamente utilizado pelos ind?genas. No ano de 1500, os portugueses chamaram de Ilha de Vera Cruz. Em 1501, chamou-se Terra Nova e Terra dos Papagaios. No ano de 1503, chamaram-na de Terra de Vera Cruz e tamb?m de Terra de Santa Cruz. J? em 1505, batizaram-na como Terra Santa Cruz do Brasil e de Terra do Brasil. Em 1526, devido ao pau-brasil, passou a se chamar Brasil. </raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="704" parent="701">
+<name>Grupo_1</name>
+<lastupdated>1687964589</lastupdated>
+<shape id="706" parent="704" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687964589</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="708" parent="704" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687964589</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="710" parent="704" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687964589</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="711" parent="704" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687964589</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>791</cx>
+<cy>70</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text711Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text711Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text711Font1&quot;  &gt;PrÃ©-HistÃ³ria do Brasil e Brasil PrÃ©-Colonial&lt;/span &gt;&lt;span class=&quot;text711Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Pr\&apos;e9-Hist\&apos;f3ria do Brasil e Brasil Pr\&apos;e9-Colonial\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Pr?-Hist?ria do Brasil e Brasil Pr?-Colonial</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="713" parent="704" resource="54" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687964589</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="715" parent="704" resource="55" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687964589</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="782" parent="62">
+<name>Página 6</name>
+<lastupdated>1687964761</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="817" parent="782" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687964835</lastupdated>
+<possize>
+<point>
+<x>516</x>
+<y>140</y>
+</point>
+<size>
+<cx>441</cx>
+<cy>409</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text817Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text817Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text817Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text817Font1&quot;  &gt;DeclÃ­nio do comÃ©rcio PortuguÃªs no Oriente&lt;/span &gt;&lt;span class=&quot;text817Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text817Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text817Font3&quot;  &gt;Em Portugal, a modernidade capitalista, que era caracterizada pela valoriza&lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;o do trabalho e do lucro foi tardia, assim como em suas col&lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;nias. A doutrina cat&lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;lica, contr&lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;ria &lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ã &lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt; usura e a lucratividade burguesa, representaria um atraso para o com&lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;rcio portugu&lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ãª&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;s. A monarquia de Portugal temia a ascens&lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;o da burguesia lusitana e transferiu o com&lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;rcio das especiarias encontradas nas &lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ã&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;ndias aos mercadores holandeses, que passaram a lucrar e, com o tempo, quebraram o monop&lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;lio portugu&lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ãª&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;s na regi&lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;o, gerando crise econ&lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;mica e for&lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;ando a Coroa Portuguesa intensificar sua explora&lt;/span &gt;&lt;span class=&quot;text817Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text817Font3&quot;  &gt;o nas terras do continente americano. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Decl\u237 \&apos;ednio do com\u233 \&apos;e9rcio Portugu\u234 \&apos;eas no Oriente\hich\f2\loch\f2\fs28\b0\par\hich\f1\loch\f1\par Em Portugal, a modernidade capitalista, que era caracterizada pela valoriza\u231 \&apos;e7\u227 \&apos;e3o do &#x0A;trabalho e do lucro foi tardia, assim como em suas col\u244 \&apos;f4nias. A doutrina cat\u243 \&apos;f3lica, contr\u225 \&apos;e1ria \u224 \&apos;e0 usura e a lucratividade burguesa, representaria um atraso para o com\u233 \&apos;e9rcio portugu\u234 \&apos;eas. A monarquia de Portugal &#x0A;temia a ascens\u227 \&apos;e3o da burguesia lusitana e transferiu o com\u233 \&apos;e9rcio das especiarias encontradas nas \u205 \&apos;cdndias aos mercadores holandeses, que passaram a lucrar e, com o tempo, quebraram o monop\u243 \&apos;f3lio portugu\u234 \&apos;eas na regi\u227 &#x0A;\&apos;e3o, gerando crise econ\u244 \&apos;f4mica e for\u231 \&apos;e7ando a Coroa Portuguesa intensificar sua explora\u231 \&apos;e7\u227 \&apos;e3o nas terras do continente americano. \par}&#x0A;</rtf>
+<raw>?Decl?nio do com?rcio Portugu?s no Oriente&#x0A;Em Portugal, a modernidade capitalista, que era caracterizada pela valoriza??o do trabalho e do lucro foi tardia, assim como em suas col?nias. A doutrina cat?lica, contr?ria ? usura e a lucratividade burguesa, representaria um atraso para o com?rcio portugu?s. A monarquia de Portugal temia a ascens?o da burguesia lusitana e transferiu o com?rcio das especiarias encontradas nas ?ndias aos mercadores holandeses, que passaram a lucrar e, com o tempo, quebraram o monop?lio portugu?s na regi?o, gerando crise econ?mica e for?ando a Coroa Portuguesa intensificar sua explora??o nas terras do continente americano. </raw>
+<numoflines>16</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="797" parent="782" resource="796" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687964778</lastupdated>
+<possize>
+<point>
+<x>98</x>
+<y>126</y>
+</point>
+<size>
+<cx>350</cx>
+<cy>267</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<objgroup id="784" parent="782">
+<name>Grupo_1</name>
+<lastupdated>1687964766</lastupdated>
+<shape id="786" parent="784" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687964766</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="788" parent="784" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687964766</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="790" parent="784" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687964766</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>90</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="791" parent="784" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687964766</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>43</y>
+</point>
+<size>
+<cx>791</cx>
+<cy>70</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text791Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text791Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text791Font1&quot;  &gt;PrÃ©-HistÃ³ria do Brasil e Brasil PrÃ©-Colonial&lt;/span &gt;&lt;span class=&quot;text791Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf4\cb1\ulc4 Normal;}{\cs1\cf4\cb1\ulc4 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b Pr\&apos;e9-Hist\&apos;f3ria do Brasil e Brasil Pr\&apos;e9-Colonial\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Pr?-Hist?ria do Brasil e Brasil Pr?-Colonial</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="793" parent="784" resource="54" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687964766</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>96</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>549</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="795" parent="784" resource="55" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687964766</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>

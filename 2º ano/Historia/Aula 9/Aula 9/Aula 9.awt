@@ -1,0 +1,2181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.5" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="aicc" savedfromdemo="true">
+<currentid>1403</currentid>
+<currtheme></currtheme>
+<language></language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="311" resourcetype="image">
+<name>Imagem 2.bmp</name>
+<relativelink>images\Imagem 2.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="312" resourcetype="image">
+<name>Imagem.bmp</name>
+<relativelink>images\Imagem.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="751" resourcetype="image">
+<name>Imagem1.png</name>
+<relativelink>images\Imagem1.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="935" resourcetype="image">
+<name>Imagem001.bmp</name>
+<relativelink>images\Imagem001.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1125" resourcetype="image">
+<name>Imagem002.bmp</name>
+<relativelink>images\Imagem002.bmp</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1395" resourcetype="image">
+<name>image0001.png</name>
+<relativelink>images\image0001.png</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="1396" resourcetype="image">
+<name>image0007.emf</name>
+<relativelink>images\image0007.emf</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata>
+<variable id="79">
+<name>ClickCount</name>
+<initialvalue>0</initialvalue>
+<lastupdated>0</lastupdated>
+</variable>
+</variabledata>
+<objectdefaults />
+<objectdata>
+<title id="1" center="center">
+<name>Aula 9</name>
+<lastupdated>1687976502</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>1009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<action id="216" parent="1" on="keystroke" key="space">
+<name>Advance By Spacebar</name>
+<lastupdated>1687976508</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="215" parent="1" on="keystroke" key="return">
+<name>Advance By Enter</name>
+<lastupdated>1687976508</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="214" parent="1" on="show">
+<name>Reset Click Count</name>
+<lastupdated>1687976508</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="79" modvariable="set">
+<targetstring>0</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="213" parent="1" on="keystroke" key="right">
+<name>Advance By -&gt;</name>
+<lastupdated>1687976508</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="212" parent="1" on="keystroke" key="left">
+<name>Advance By &lt;-</name>
+<lastupdated>1687976508</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="211" parent="1" on="keystroke" key="escape">
+<name>exit</name>
+<lastupdated>1687976508</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<textbutton id="208" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Next</name>
+<lastupdated>1687976508</lastupdated>
+<possize>
+<point>
+<x>954</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&gt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="209" parent="208" on="mouseclick">
+<name>Go next page</name>
+<lastupdated>1687976508</lastupdated>
+<actionitem actiontaken="goto" target="nextpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="210" parent="208" on="mouseclick">
+<name>HIde on last page</name>
+<lastupdated>1687976508</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" varcomparison="-259" comparecondition="equal" />
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="201" parent="1" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Back</name>
+<lastupdated>1687976508</lastupdated>
+<possize>
+<point>
+<x>908</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>&lt;</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="202" parent="201" on="mouseclick">
+<name>back page</name>
+<lastupdated>1687976508</lastupdated>
+<actionitem actiontaken="goto" target="prevpage">
+<browserWnd />
+</actionitem>
+</action>
+<action id="203" parent="201" on="mouseclick">
+<name>No clique do mouseSetState</name>
+<lastupdated>1687976508</lastupdated>
+<actionitem actiontaken="setstate" target="thisobj" state="disabled">
+<conditionlist all_of_the_conditions="true">
+<condition varcondition="-258" comparecondition="equal">
+<stringcomparison>1</stringcomparison>
+</condition>
+</conditionlist>
+<browserWnd />
+</actionitem>
+<elseactionitem actiontaken="none">
+<browserWnd />
+</elseactionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<textbutton id="193" parent="1" visible="false" ontop="true" fixed="false" proportional="false" initdisabled="false">
+<name>Exit</name>
+<lastupdated>1687976508</lastupdated>
+<possize>
+<point>
+<x>862</x>
+<y>7</y>
+</point>
+<size>
+<cx>39</cx>
+<cy>39</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20100</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>0963B1</strokecolor>
+<text>X</text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata>
+<controlpoint value="100" />
+</handledata>
+<shapefillinfo fillstyle="1" gradientangle="270" bevelheight="0" color="085394">
+<gradientstop color="0064BB" value="0.000000" />
+<gradientstop color="007CE9" value="0.000000" />
+<gradientstop color="1994FE" value="1.000000" />
+</shapefillinfo>
+<action id="194" parent="193" on="mouseclick">
+<name>No clique do mouseSair do título/Fechar a janela</name>
+<lastupdated>1687976508</lastupdated>
+<actionitem actiontaken="exit">
+<browserWnd />
+</actionitem>
+</action>
+<action id="195" parent="193" on="mouseclick">
+<name>No clique do mouseModificar variável</name>
+<lastupdated>1687976508</lastupdated>
+<actionitem actiontaken="modifyvariable" target="variable" targetvariable="-273" modvariable="set">
+<targetstring>Completed</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<action id="196" parent="193" on="mouseclick">
+<name>No clique do mouseOcultar</name>
+<lastupdated>1687976508</lastupdated>
+<actionitem actiontaken="hide" target="object" targetobject="193">
+<browserWnd />
+</actionitem>
+</action>
+<type>20100</type>
+</textbutton>
+<assignableunit id="155" parent="1" timelimitaction="continuenomessage" prereqtype="all">
+<name>A001</name>
+<lastupdated>1689701739</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<autype>Lesson</autype>
+<masteryscore>75</masteryscore>
+<developerid>A001-Dev</developerid>
+<description>Descrição de unidade atribuível</description>
+<systemid>A001</systemid>
+<systemidint>1</systemidint>
+<cmi5moveon>0</cmi5moveon>
+<page id="1380" parent="155">
+<name>Página 1</name>
+<lastupdated>1689701741</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<objgroup id="1381" parent="1380">
+<name>Grupo_1</name>
+<lastupdated>1689701741</lastupdated>
+<image id="1383" parent="1381" resource="1395" ontop="false" fixed="false" proportional="false" horizontalflip="true">
+<name>object 2</name>
+<lastupdated>1689701741</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>174</y>
+</point>
+<size>
+<cx>577</cx>
+<cy>488</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1385" parent="1381" resource="1396" ontop="false" fixed="false" proportional="false">
+<name>Freeform: Shape 3</name>
+<lastupdated>1689701741</lastupdated>
+<possize>
+<point>
+<x>600</x>
+<y>0</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>408</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1386" parent="1381" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1689701747</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>79</y>
+</point>
+<size>
+<cx>429</cx>
+<cy>53</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1386Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1386Font2 { font-size:16px; font-family:&quot;Arial&quot;, sans-serif; color:#010101;}&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1386Font1&quot;  &gt;Aula 9&lt;/span &gt;&lt;span class=&quot;text1386Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green0\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\ltrpar\ql\hich\f2\loch\f2\cf2\fs56\b Aula \lang1046\hich\f2\loch\f2 9\plain\f1\fs24\par}&#x0A;</rtf>
+<raw>?Aula 9</raw>
+<numoflines>1</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<shape id="1388" parent="1381" ontop="false" fixed="false" proportional="true">
+<name>Rectangle 8</name>
+<lastupdated>1689701741</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>646</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>16</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>1</strokewidth>
+<strokecolor>2F528F</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1390" parent="1381" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1689701741</lastupdated>
+<possize>
+<point>
+<x>61</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1392" parent="1381" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1689701741</lastupdated>
+<possize>
+<point>
+<x>81</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1394" parent="1381" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1689701741</lastupdated>
+<possize>
+<point>
+<x>100</x>
+<y>132</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+</objgroup>
+</page>
+<page id="296" parent="155">
+<name>Página 2</name>
+<lastupdated>1689701739</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="459" parent="296" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687976751</lastupdated>
+<possize>
+<point>
+<x>522</x>
+<y>163</y>
+</point>
+<size>
+<cx>462</cx>
+<cy>337</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text459Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text459Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text459Font1&quot;  &gt;A pecuÃ¡ria se desenvolveu nas margens dos rios e influenciou no surgimento de vilas e cidades. A criaÃ§Ã£o do gado bovino promoveu a intensificaÃ§Ã£o do povoamento e da proteÃ§Ã£o dos territÃ³rios. A maioria de sua mÃ£o de obra jÃ¡ era composta por trabalhadores livres. Essa atividade econÃ´mica &lt;/span &gt;&lt;span class=&quot;text459Font3&quot;  &gt;p&lt;/span &gt;&lt;span class=&quot;text459Font1&quot;  &gt;roporcionou certa mobilidade no campo e diminuiÃ§Ã£o da misÃ©ria, pois o pagamento pelo trabalho tambÃ©m era feito em cabeÃ§as de gado. AlÃ©m de tudo isso, colaborou para a interiorizaÃ§Ã£o colonial, pois para nÃ£o afetar as lavouras, foi proibida de se desenvolver no litoral, adentrando o interior da colÃ´nia com suas muitas cabeÃ§as de gado bovino.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 A pecu\u225 \&apos;e1ria se desenvolveu nas margens dos rios e influenciou no surgimento de vilas e cidades. A cria\u231 \&apos;e7\u227 \&apos;e3o do gado bovino promoveu a intensifica\u231 \&apos;e7\u227 \&apos;e3o do povoamento e da prote\u231 &#x0A;\&apos;e7\u227 \&apos;e3o dos territ\u243 \&apos;f3rios. A maioria de sua m\u227 \&apos;e3o de obra j\u225 \&apos;e1 era composta por trabalhadores livres. Essa atividade econ\u244 \&apos;f4mica \lang1046\hich\f2\loch\f2 p\lang1046\hich\f1\loch\f1 roporcionou certa mobilidade no campo &#x0A;e diminui\u231 \&apos;e7\u227 \&apos;e3o da mis\u233 \&apos;e9ria, pois o pagamento pelo trabalho tamb\u233 \&apos;e9m era feito em cabe\u231 \&apos;e7as de gado. Al\u233 \&apos;e9m de tudo isso, colaborou para a interioriza\u231 \&apos;e7\u227 \&apos;e3o colonial, pois para n\u227 \&apos;e3o afetar &#x0A;as lavouras, foi proibida de se desenvolver no litoral, adentrando o interior da col\u244 \&apos;f4nia com suas muitas cabe\u231 \&apos;e7as de gado bovino.\par}&#x0A;</rtf>
+<raw>?A pecu�ria se desenvolveu nas margens dos rios e influenciou no surgimento de vilas e cidades. A cria��o do gado bovino promoveu a intensifica��o do povoamento e da prote��o dos territ�rios. A maioria de sua m�o de obra j� era composta por trabalhadores livres. Essa atividade econ�mica proporcionou certa mobilidade no campo e diminui��o da mis�ria, pois o pagamento pelo trabalho tamb�m era feito em cabe�as de gado. Al�m de tudo isso, colaborou para a interioriza��o colonial, pois para n�o afetar as lavouras, foi proibida de se desenvolver no litoral, adentrando o interior da col�nia com suas muitas cabe�as de gado bovino.</raw>
+<numoflines>13</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="421" parent="296" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687976693</lastupdated>
+<possize>
+<point>
+<x>53</x>
+<y>151</y>
+</point>
+<size>
+<cx>426</cx>
+<cy>506</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text421Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text421Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text421Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text421Font1&quot;  &gt;As atividades econÃ´micas subsidiÃ¡rias&lt;/span &gt;&lt;span class=&quot;text421Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text421Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text421Font3&quot;  &gt;Os grandes principais ciclos econ&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;micos da col&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;nia, a&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;ucareiro e minerador, tiveram atividades complementares! O cultivo e com&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;rcio do algod&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;o se desenvolveram no Gr&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;o-Par&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;, Maranh&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;o, Cear&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;, Rio de Janeiro e Goi&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;s. Com ele, fabricava-se tecidos, mesmo com as restri&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã§Ãµ&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;es manufatureiras da metr&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;pole. Tornou-se um polo de abastecimento da Inglaterra durante o s&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;culo XVIII. Produzido no Rec&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;ncavo baiano, o fumo serviu at&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt; como moeda de troca para aquisi&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;o de escravos, esses alimentados tamb&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;m pela mandioca, que al&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;m da m&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;o de obra escrava das fazendas, abastecia a popula&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;o mais pobre. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text421Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text421Font3&quot;  &gt;As chamadas drogas do sert&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã£&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;o compostas por itens como o cacau, a baunilha e o guaran&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;, serviram como solu&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã§Ãµ&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;es tempor&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;rias para a crise do com&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã©&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;rcio de especiarias proveniente da alta concorr&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ãª&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;ncia predat&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;ria entre os pa&lt;/span &gt;&lt;span class=&quot;text421Font4&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text421Font3&quot;  &gt;ses europeus.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b As atividades econ\u244 \&apos;f4micas subsidi\u225 \&apos;e1rias\hich\f2\loch\f2\fs28\b0\par\hich\f1\loch\f1\par Os grandes principais ciclos econ\u244 \&apos;f4micos da col\u244 \&apos;f4nia, a\u231 \&apos;e7ucareiro e minerador, tiveram atividades &#x0A;complementares! O cultivo e com\u233 \&apos;e9rcio do algod\u227 \&apos;e3o se desenvolveram no Gr\u227 \&apos;e3o-Par\u225 \&apos;e1, Maranh\u227 \&apos;e3o, Cear\u225 \&apos;e1, Rio de Janeiro e Goi\u225 \&apos;e1s. Com ele, fabricava-se tecidos, mesmo com as restri\u231 \&apos;e7\u245 \&apos;f5es &#x0A;manufatureiras da metr\u243 \&apos;f3pole. Tornou-se um polo de abastecimento da Inglaterra durante o s\u233 \&apos;e9culo XVIII. Produzido no Rec\u244 \&apos;f4ncavo baiano, o fumo serviu at\u233 \&apos;e9 como moeda de troca para aquisi\u231 \&apos;e7\u227 \&apos;e3o de escravos, &#x0A;esses alimentados tamb\u233 \&apos;e9m pela mandioca, que al\u233 \&apos;e9m da m\u227 \&apos;e3o de obra escrava das fazendas, abastecia a popula\u231 \&apos;e7\u227 \&apos;e3o mais pobre. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par As chamadas drogas do sert\u227 &#x0A;\&apos;e3o compostas por itens como o cacau, a baunilha e o guaran\u225 \&apos;e1, serviram como solu\u231 \&apos;e7\u245 \&apos;f5es tempor\u225 \&apos;e1rias para a crise do com\u233 \&apos;e9rcio de especiarias proveniente da alta concorr\u234 \&apos;eancia predat\u243 \&apos;f3ria entre &#x0A;os pa\u237 \&apos;edses europeus.\par}&#x0A;</rtf>
+<raw>?As atividades econ�micas subsidi�rias&#x0A;&#x0A;Os grandes principais ciclos econ�micos da col�nia, a�ucareiro e minerador, tiveram atividades complementares! O cultivo e com�rcio do algod�o se desenvolveram no Gr�o-Par�, Maranh�o, Cear�, Rio de Janeiro e Goi�s. Com ele, fabricava-se tecidos, mesmo com as restri��es manufatureiras da metr�pole. Tornou-se um polo de abastecimento da Inglaterra durante o s�culo XVIII. Produzido no Rec�ncavo baiano, o fumo serviu at� como moeda de troca para aquisi��o de escravos, esses alimentados tamb�m pela mandioca, que al�m da m�o de obra escrava das fazendas, abastecia a popula��o mais pobre. &#x0A;&#x0A;As chamadas drogas do sert�o compostas por itens como o cacau, a baunilha e o guaran�, serviram como solu��es tempor�rias para a crise do com�rcio de especiarias proveniente da alta concorr�ncia predat�ria entre os pa�ses europeus.</raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="417" parent="296">
+<name>Grupo_1</name>
+<lastupdated>1687976598</lastupdated>
+<shape id="301" parent="417" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687976598</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="303" parent="417" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687976598</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="305" parent="417" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687976598</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="306" parent="417" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687976598</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>21</y>
+</point>
+<size>
+<cx>751</cx>
+<cy>106</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text306Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text306Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text306Font1&quot;  &gt;As Atividades EconÃ´micas SubsidiÃ¡rias, &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text306Font1&quot;  &gt;AtuaÃ§Ã£o da Igreja e Tratados de Limites&lt;/span &gt;&lt;span class=&quot;text306Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b As Atividades Econ\&apos;f4micas Subsidi\&apos;e1rias, \par Atua\&apos;e7\&apos;e3o da Igreja e Tratados de Limites\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?As Atividades Econ�micas Subsidi�rias, &#x0A;Atua��o da Igreja e Tratados de Limites</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="308" parent="417" resource="311" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687976598</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>129</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>516</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="310" parent="417" resource="312" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687976598</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="481" parent="155">
+<name>Página 3</name>
+<lastupdated>1687976923</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="537" parent="481" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687976916</lastupdated>
+<possize>
+<point>
+<x>535</x>
+<y>159</y>
+</point>
+<size>
+<cx>437</cx>
+<cy>453</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text537Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text537Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text537Font1&quot;  &gt;II. Ã‰ estipulado que Sua Sagrada e Real Majestade BritÃ¢nica, em seu prÃ³prio Nome e no de Seus Sucessores, serÃ¡ obrigada para sempre daqui em diante, de admitir na GrÃ£ Bretanha os Vinhos do produto de Portugal, de sorte que em tempo algum (haja Paz ou Guerra entre os Reinos de Inglaterra e de FranÃ§a), nÃ£o se poderÃ¡ exigir de Direitos de AlfÃ¢ndega nestes Vinhos, ou debaixo de qualquer outro tÃ­tulo, direta ou indiretamente, ou que sejam transportados para Inglaterra em Pipas, Toneis ou qualquer outra vasilha que seja mais o que se costuma pedir para igual quantidade, ou de medida de Vinho de FranÃ§a, diminuindo ou abatendo uma terÃ§a parte do Direito do costume. PorÃ©m, se em qualquer tempo esta deduÃ§Ã£o, ou abatimento de direitos, que serÃ¡ feito, como acima e declarado, for por algum modo infringido e prejudicado, Sua Sagrada Majestade Portuguesa poderÃ¡, justa e legitimamente, proibir os Panos de lÃ£ e todas as demais fabricas de lanifÃ­cios de Inglaterra&lt;/span &gt;&lt;span class=&quot;text537Font3&quot;  &gt;.&lt;/span &gt;&lt;span class=&quot;text537Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 II. \u201 \&apos;c9 estipulado que Sua Sagrada e Real Majestade Brit\u226 \&apos;e2nica, em seu pr\u243 \&apos;f3prio Nome e no de Seus Sucessores, ser\u225 \&apos;e1 obrigada para sempre daqui em diante, de admitir na Gr\u227 \&apos;e3 Bretanha &#x0A;os Vinhos do produto de Portugal, de sorte que em tempo algum (haja Paz ou Guerra entre os Reinos de Inglaterra e de Fran\u231 \&apos;e7a), n\u227 \&apos;e3o se poder\u225 \&apos;e1 exigir de Direitos de Alf\u226 \&apos;e2ndega nestes Vinhos, ou debaixo de qualquer outro &#x0A;t\u237 \&apos;edtulo, direta ou indiretamente, ou que sejam transportados para Inglaterra em Pipas, Toneis ou qualquer outra vasilha que seja mais o que se costuma pedir para igual quantidade, ou de medida de Vinho de Fran\u231 \&apos;e7a, diminuindo ou abatendo &#x0A;uma ter\u231 \&apos;e7a parte do Direito do costume. Por\u233 \&apos;e9m, se em qualquer tempo esta dedu\u231 \&apos;e7\u227 \&apos;e3o, ou abatimento de direitos, que ser\u225 \&apos;e1 feito, como acima e declarado, for por algum modo infringido e prejudicado, Sua Sagrada Majestade &#x0A;Portuguesa poder\u225 \&apos;e1, justa e legitimamente, proibir os Panos de l\u227 \&apos;e3 e todas as demais fabricas de lanif\u237 \&apos;edcios de Inglaterra\lang1046\hich\f2\loch\f2 .\lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?II. ? estipulado que Sua Sagrada e Real Majestade Brit?nica, em seu pr?prio Nome e no de Seus Sucessores, ser? obrigada para sempre daqui em diante, de admitir na Gr? Bretanha os Vinhos do produto de Portugal, de sorte que em tempo algum (haja Paz ou Guerra entre os Reinos de Inglaterra e de Fran?a), n?o se poder? exigir de Direitos de Alf?ndega nestes Vinhos, ou debaixo de qualquer outro t?tulo, direta ou indiretamente, ou que sejam transportados para Inglaterra em Pipas, Toneis ou qualquer outra vasilha que seja mais o que se costuma pedir para igual quantidade, ou de medida de Vinho de Fran?a, diminuindo ou abatendo uma ter?a parte do Direito do costume. Por?m, se em qualquer tempo esta dedu??o, ou abatimento de direitos, que ser? feito, como acima e declarado, for por algum modo infringido e prejudicado, Sua Sagrada Majestade Portuguesa poder?, justa e legitimamente, proibir os Panos de l? e todas as demais fabricas de lanif?cios de Inglaterra.</raw>
+<numoflines>20</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="517" parent="481" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687976857</lastupdated>
+<possize>
+<point>
+<x>59</x>
+<y>233</y>
+</point>
+<size>
+<cx>420</cx>
+<cy>433</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text517Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text517Font1&quot;  &gt;Firmado pelo enviado inglÃªs, John Methuen, e o plenipotenciÃ¡rio portuguÃªs, D. Manoel Telles, sob a alegaÃ§Ã£o de aprofundar a &quot;alianÃ§a e estreita amizade&quot; entre os reinos de Portugal e Inglaterra, o Tratado de Commercio entre El-Rei. D. Pedro II, de Portugal, e Anna Rainha, da Gram Bretanha estabelecia:&quot;I. Sua Majestade ElRey de Portugal promete tanto em Seu prÃ³prio Nome, como no de Seus Sucessores, de admitir para sempre daqui em diante no Reino de Portugal os Panos de lÃ£, e mais fÃ¡bricas de lanifÃ­cio de Inglaterra, como era costume atÃ© o tempo que foram proibidos pelas Leis, nÃ£o obstante qualquer condiÃ§Ã£o em contrÃ¡rio.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Firmado pelo enviado ingl\u234 \&apos;eas, John Methuen, e o plenipotenci\u225 \&apos;e1rio portugu\u234 \&apos;eas, D. Manoel Telles, sob a alega\u231 \&apos;e7\u227 \&apos;e3o de aprofundar a &quot;alian\u231 \&apos;e7a e estreita amizade&quot; entre os reinos &#x0A;de Portugal e Inglaterra, o Tratado de Commercio entre El-Rei. D. Pedro II, de Portugal, e Anna Rainha, da Gram Bretanha estabelecia:&quot;I. Sua Majestade ElRey de Portugal promete tanto em Seu pr\u243 \&apos;f3prio Nome, como no de Seus Sucessores, de admitir &#x0A;para sempre daqui em diante no Reino de Portugal os Panos de l\u227 \&apos;e3, e mais f\u225 \&apos;e1bricas de lanif\u237 \&apos;edcio de Inglaterra, como era costume at\u233 \&apos;e9 o tempo que foram proibidos pelas Leis, n\u227 \&apos;e3o obstante qualquer condi\u231 \&apos;e7\u227 &#x0A;\&apos;e3o em contr\u225 \&apos;e1rio.\par}&#x0A;</rtf>
+<raw>?Firmado pelo enviado ingl?s, John Methuen, e o plenipotenci?rio portugu?s, D. Manoel Telles, sob a alega??o de aprofundar a &quot;alian?a e estreita amizade&quot; entre os reinos de Portugal e Inglaterra, o Tratado de Commercio entre El-Rei. D. Pedro II, de Portugal, e Anna Rainha, da Gram Bretanha estabelecia:&quot;I. Sua Majestade ElRey de Portugal promete tanto em Seu pr?prio Nome, como no de Seus Sucessores, de admitir para sempre daqui em diante no Reino de Portugal os Panos de l?, e mais f?bricas de lanif?cio de Inglaterra, como era costume at? o tempo que foram proibidos pelas Leis, n?o obstante qualquer condi??o em contr?rio.</raw>
+<numoflines>14</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="495" parent="481" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687976812</lastupdated>
+<possize>
+<point>
+<x>52</x>
+<y>159</y>
+</point>
+<size>
+<cx>431</cx>
+<cy>77</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text495Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text495Font2 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text495Font1&quot;  &gt;Tratado de Methuen de 1703 ou &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text495Font1&quot;  &gt;Tratado de Panos e Vinhos&lt;/span &gt;&lt;span class=&quot;text495Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs36\ql\hich\f2\loch\f2\b Tratado de Methuen de 1703 ou \par Tratado de Panos e Vinhos\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?Tratado de Methuen de 1703 ou &#x0A;Tratado de Panos e Vinhos</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="483" parent="481">
+<name>Grupo_1</name>
+<lastupdated>1687976788</lastupdated>
+<shape id="485" parent="483" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687976788</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="487" parent="483" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687976788</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="489" parent="483" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687976788</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="490" parent="483" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687976788</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>21</y>
+</point>
+<size>
+<cx>751</cx>
+<cy>106</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text490Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text490Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text490Font1&quot;  &gt;As Atividades EconÃ´micas SubsidiÃ¡rias, &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text490Font1&quot;  &gt;AtuaÃ§Ã£o da Igreja e Tratados de Limites&lt;/span &gt;&lt;span class=&quot;text490Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b As Atividades Econ\&apos;f4micas Subsidi\&apos;e1rias, \par Atua\&apos;e7\&apos;e3o da Igreja e Tratados de Limites\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?As Atividades Econ?micas Subsidi?rias, &#x0A;Atua??o da Igreja e Tratados de Limites</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="492" parent="483" resource="311" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687976788</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>129</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>516</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="494" parent="483" resource="312" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687976788</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="564" parent="155">
+<name>Página 4</name>
+<lastupdated>1687977055</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="603" parent="564" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687977038</lastupdated>
+<possize>
+<point>
+<x>527</x>
+<y>155</y>
+</point>
+<size>
+<cx>441</cx>
+<cy>457</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text603Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text603Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text603Font1&quot;  &gt;Portugal acreditava que lucraria nessa relaÃ§Ã£o estabelecida com a Inglaterra, que comprava os vinhos portugueses com vantagem competitiva em relaÃ§Ã£o aos vinhos franceses, enquanto Portugal comprava os tecidos de lÃ£ ingleses sem restriÃ§Ãµes.&lt;/span &gt;&lt;span class=&quot;text603Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text603Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text603Font1&quot;  &gt;O que ocorreu foi o contrÃ¡rio do que os portugueses esperavam. Houve aumento das importaÃ§Ãµes de tecido ingleses, prejudicando a produÃ§Ã£o de tecidos portugueses. Para piorar essa balanÃ§a comercial, ao mesmo tempo que houve um aumento das exportaÃ§Ãµes de vinho para Inglaterra, ocorreu o aumento da importaÃ§Ã£o dos cereais, nÃ£o cultivados em Portugal, devido ao aumento da cultura da vinha. &lt;/span &gt;&lt;span class=&quot;text603Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text603Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text603Font1&quot;  &gt;O Brasil sofreu muito com esse acordo, pois Portugal nÃ£o havia investido em manufaturas na metrÃ³pole e muito menos na colÃ´nia, e o ouro do Brasil foi escoado para Inglaterra para comprar os tecidos e os cereais.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Portugal acreditava que lucraria nessa rela\u231 \&apos;e7\u227 \&apos;e3o estabelecida com a Inglaterra, que comprava os vinhos portugueses com vantagem competitiva em rela\u231 \&apos;e7\u227 \&apos;e3o aos vinhos franceses, enquanto Portugal &#x0A;comprava os tecidos de l\u227 \&apos;e3 ingleses sem restri\u231 \&apos;e7\u245 \&apos;f5es.\lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par O que ocorreu foi o contr\u225 \&apos;e1rio do que os portugueses esperavam. Houve aumento das importa\u231 \&apos;e7\u245 \&apos;f5es &#x0A;de tecido ingleses, prejudicando a produ\u231 \&apos;e7\u227 \&apos;e3o de tecidos portugueses. Para piorar essa balan\u231 \&apos;e7a comercial, ao mesmo tempo que houve um aumento das exporta\u231 \&apos;e7\u245 \&apos;f5es de vinho para Inglaterra, ocorreu o aumento da importa\u231 &#x0A;\&apos;e7\u227 \&apos;e3o dos cereais, n\u227 \&apos;e3o cultivados em Portugal, devido ao aumento da cultura da vinha. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par O Brasil sofreu muito com esse acordo, pois Portugal n\u227 \&apos;e3o havia investido em manufaturas &#x0A;na metr\u243 \&apos;f3pole e muito menos na col\u244 \&apos;f4nia, e o ouro do Brasil foi escoado para Inglaterra para comprar os tecidos e os cereais.\par}&#x0A;</rtf>
+<raw>?Portugal acreditava que lucraria nessa rela??o estabelecida com a Inglaterra, que comprava os vinhos portugueses com vantagem competitiva em rela??o aos vinhos franceses, enquanto Portugal comprava os tecidos de l? ingleses sem restri??es.&#x0A;O que ocorreu foi o contr?rio do que os portugueses esperavam. Houve aumento das importa??es de tecido ingleses, prejudicando a produ??o de tecidos portugueses. Para piorar essa balan?a comercial, ao mesmo tempo que houve um aumento das exporta??es de vinho para Inglaterra, ocorreu o aumento da importa??o dos cereais, n?o cultivados em Portugal, devido ao aumento da cultura da vinha. &#x0A;O Brasil sofreu muito com esse acordo, pois Portugal n?o havia investido em manufaturas na metr?pole e muito menos na col?nia, e o ouro do Brasil foi escoado para Inglaterra para comprar os tecidos e os cereais.</raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="578" parent="564" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687976959</lastupdated>
+<possize>
+<point>
+<x>39</x>
+<y>159</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>182</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text578Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text578Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text578Font1&quot;  &gt;III. Os Exmos. Senhores PlenipotenciÃ¡rios prometem, e tomam sobre si, que seus Amos acima mencionados ratificarÃ£o este Tratado, e que dentro do termo de dois meses se passarÃ£o as RatificaÃ§Ãµes.&lt;/span &gt;&lt;span class=&quot;text578Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text578Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text578Font1&quot;  &gt;http://www.abphe.org.br/uploads/Textos%20Encontro%20&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text578Font1&quot;  &gt;P%C3%B3s%20ABPHE%202016/felipe_batista.pdf&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 III. Os Exmos. Senhores Plenipotenci\u225 \&apos;e1rios prometem, e tomam sobre si, que seus Amos acima mencionados ratificar\u227 \&apos;e3o este Tratado, e que dentro do termo de dois meses se passar\u227 \&apos;e3o as Ratifica\u231 &#x0A;\&apos;e7\u245 \&apos;f5es.\lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par http://www.abphe.org.br/uploads/Textos%20Encontro%20\par P%C3%B3s%20ABPHE%202016/felipe_batista.pdf\par}&#x0A;</rtf>
+<raw>?III. Os Exmos. Senhores Plenipotenci?rios prometem, e tomam sobre si, que seus Amos acima mencionados ratificar?o este Tratado, e que dentro do termo de dois meses se passar?o as Ratifica??es.&#x0A;http://www.abphe.org.br/uploads/Textos%20Encontro%20&#x0A;P%C3%B3s%20ABPHE%202016/felipe_batista.pdf</raw>
+<numoflines>8</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="566" parent="564">
+<name>Grupo_1</name>
+<lastupdated>1687976928</lastupdated>
+<shape id="568" parent="566" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687976928</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="570" parent="566" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687976928</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="572" parent="566" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687976928</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="573" parent="566" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687976928</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>21</y>
+</point>
+<size>
+<cx>751</cx>
+<cy>106</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text573Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text573Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text573Font1&quot;  &gt;As Atividades EconÃ´micas SubsidiÃ¡rias, &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text573Font1&quot;  &gt;AtuaÃ§Ã£o da Igreja e Tratados de Limites&lt;/span &gt;&lt;span class=&quot;text573Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b As Atividades Econ\&apos;f4micas Subsidi\&apos;e1rias, \par Atua\&apos;e7\&apos;e3o da Igreja e Tratados de Limites\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?As Atividades Econ?micas Subsidi?rias, &#x0A;Atua??o da Igreja e Tratados de Limites</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="575" parent="566" resource="311" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687976928</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>129</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>516</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="577" parent="566" resource="312" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687976928</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="632" parent="155">
+<name>Página 5</name>
+<lastupdated>1687977281</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="691" parent="632" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687977237</lastupdated>
+<possize>
+<point>
+<x>527</x>
+<y>147</y>
+</point>
+<size>
+<cx>445</cx>
+<cy>496</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text691Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text691Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text691Font4 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text691Font1&quot;  &gt;Na comitiva de TomÃ© de Sousa, em 1549, chegou ao Brasil o Padre Manuel da NÃ³brega. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text691Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text691Font1&quot;  &gt;A exemplo da Bahia, os jesuÃ­tas ampliaram sua aÃ§Ã£o nos territÃ³rios dos atuais Mato Grosso do Sul, ParanÃ¡, Santa Catarina e Rio Grande do Sul, alÃ©m de regiÃµes nos atuais Uruguai, Paraguai e Argentina. &lt;/span &gt;&lt;span class=&quot;text691Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text691Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text691Font4&quot;  &gt;InquisiÃ§Ã£o&lt;/span &gt;&lt;span class=&quot;text691Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text691Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text691Font1&quot;  &gt;O tribunal do Santo OfÃ­cio esteve ativo no Brasil entre os sÃ©culos XV e XIX. Era comandado pelo Estado, e geralmente perseguia aos judeus e cristÃ£o novos (recÃ©m-convertidos). No ano de 1591, iniciaram-se as visitas inquisitoriais, gerando temores na populaÃ§Ã£o local ao se mencionar o &quot;Santo OfÃ­cio&quot;. &lt;/span &gt;&lt;span class=&quot;text691Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text691Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text691Font1&quot;  &gt;AlÃ©m de judeus e cristÃ£os novos, na AmÃ©rica Portuguesa, perseguiu-se indÃ­genas e africanos por praticarem seus ritos e espiritualidade diferente da ensinada pela Igreja. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Na comitiva de Tom\u233 \&apos;e9 de Sousa, em 1549, chegou ao Brasil o Padre Manuel da N\u243 \&apos;f3brega. \par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1 A exemplo da Bahia, os jesu\u237 \&apos;edtas ampliaram sua a\u231 &#x0A;\&apos;e7\u227 \&apos;e3o nos territ\u243 \&apos;f3rios dos atuais Mato Grosso do Sul, Paran\u225 \&apos;e1, Santa Catarina e Rio Grande do Sul, al\u233 \&apos;e9m de regi\u245 \&apos;f5es nos atuais Uruguai, Paraguai e Argentina. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par\fs36\b &#x0A;Inquisi\u231 \&apos;e7\u227 \&apos;e3o\fs28\b0\par\lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1 O tribunal do Santo Of\u237 \&apos;edcio esteve ativo no Brasil entre os s\u233 \&apos;e9culos XV e XIX. Era comandado pelo Estado, e geralmente perseguia aos judeus &#x0A;e crist\u227 \&apos;e3o novos (rec\u233 \&apos;e9m-convertidos). No ano de 1591, iniciaram-se as visitas inquisitoriais, gerando temores na popula\u231 \&apos;e7\u227 \&apos;e3o local ao se mencionar o &quot;Santo Of\u237 \&apos;edcio&quot;. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f1\loch\f1\par &#x0A;Al\u233 \&apos;e9m de judeus e crist\u227 \&apos;e3os novos, na Am\u233 \&apos;e9rica Portuguesa, perseguiu-se ind\u237 \&apos;edgenas e africanos por praticarem seus ritos e espiritualidade diferente da ensinada pela Igreja. \par}&#x0A;</rtf>
+<raw>?Na comitiva de Tom? de Sousa, em 1549, chegou ao Brasil o Padre Manuel da N?brega. &#x0A;A exemplo da Bahia, os jesu?tas ampliaram sua a??o nos territ?rios dos atuais Mato Grosso do Sul, Paran?, Santa Catarina e Rio Grande do Sul, al?m de regi?es nos atuais Uruguai, Paraguai e Argentina. &#x0A;Inquisi??o&#x0A;O tribunal do Santo Of?cio esteve ativo no Brasil entre os s?culos XV e XIX. Era comandado pelo Estado, e geralmente perseguia aos judeus e crist?o novos (rec?m-convertidos). No ano de 1591, iniciaram-se as visitas inquisitoriais, gerando temores na popula??o local ao se mencionar o &quot;Santo Of?cio&quot;. &#x0A;Al?m de judeus e crist?os novos, na Am?rica Portuguesa, perseguiu-se ind?genas e africanos por praticarem seus ritos e espiritualidade diferente da ensinada pela Igreja. </raw>
+<numoflines>22</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="646" parent="632" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687977166</lastupdated>
+<possize>
+<point>
+<x>44</x>
+<y>150</y>
+</point>
+<size>
+<cx>432</cx>
+<cy>397</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text646Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text646Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text646Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text646Font6 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text646Font1&quot;  &gt;A atuaÃ§Ã£o da Igreja na AmÃ©rica Portuguesa&lt;/span &gt;&lt;span class=&quot;text646Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text646Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text646Font4&quot;  &gt;A igreja na AmÃ©rica Portuguesa&lt;/span &gt;&lt;span class=&quot;text646Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text646Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text646Font3&quot;  &gt;Ap&lt;/span &gt;&lt;span class=&quot;text646Font6&quot;  &gt;Ã³&lt;/span &gt;&lt;span class=&quot;text646Font3&quot;  &gt;s o desembarque na Col&lt;/span &gt;&lt;span class=&quot;text646Font6&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text646Font3&quot;  &gt;nia, foi celebrada uma missa dia 26 de abril de 1500, celebrada pelo Frei Henrique de Coimbra, que havia navegado com a comitiva de Cabral em Santa Cruz de Cabr&lt;/span &gt;&lt;span class=&quot;text646Font6&quot;  &gt;Ã¡&lt;/span &gt;&lt;span class=&quot;text646Font3&quot;  &gt;lia, na Praia da Coroa Vermelha, no Sul da Bahia. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text646Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text646Font3&quot;  &gt;Na carta de Pero Vaz de Caminha ao rei de Portugal, foi indicada a pertin&lt;/span &gt;&lt;span class=&quot;text646Font6&quot;  &gt;Ãª&lt;/span &gt;&lt;span class=&quot;text646Font3&quot;  &gt;ncia da catequiza&lt;/span &gt;&lt;span class=&quot;text646Font6&quot;  &gt;Ã§Ã£&lt;/span &gt;&lt;span class=&quot;text646Font3&quot;  &gt;o dos ind&lt;/span &gt;&lt;span class=&quot;text646Font6&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text646Font3&quot;  &gt;genas, o que incentivou ainda mais a chegada de religiosos no Brasil, principalmente os jesu&lt;/span &gt;&lt;span class=&quot;text646Font6&quot;  &gt;Ã­&lt;/span &gt;&lt;span class=&quot;text646Font3&quot;  &gt;tas.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b A atua\u231 \&apos;e7\u227 \&apos;e3o da Igreja na Am\u233 \&apos;e9rica Portuguesa\hich\f2\loch\f2\fs28\b0\par\par\hich\f1\loch\f1\b A igreja na Am\u233 \&apos;e9rica Portuguesa\hich\f2\loch\f2\b0\par\par Ap\hich\f1\loch\f1\u243 \&apos;f3\hich\f2\loch\f2 &#x0A;s o desembarque na Col\hich\f1\loch\f1\u244 \&apos;f4\hich\f2\loch\f2 nia, foi celebrada uma missa dia 26 de abril de 1500, celebrada pelo Frei Henrique de Coimbra, que havia navegado com a comitiva de Cabral em Santa Cruz de Cabr\hich\f1\loch\f1\u225 \&apos;e1\hich\f2\loch\f2 &#x0A;lia, na Praia da Coroa Vermelha, no Sul da Bahia. \lang1046\hich\f2\loch\f2\par\lang1046\hich\f2\loch\f2\par Na carta de Pero Vaz de Caminha ao rei de Portugal, foi indicada a pertin\hich\f1\loch\f1\u234 \&apos;ea\hich\f2\loch\f2 ncia da catequiza\hich\f1\loch\f1\u231 &#x0A;\&apos;e7\u227 \&apos;e3\hich\f2\loch\f2 o dos ind\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 genas, o que incentivou ainda mais a chegada de religiosos no Brasil, principalmente os jesu\hich\f1\loch\f1\u237 \&apos;ed\hich\f2\loch\f2 tas.\par}&#x0A;</rtf>
+<raw>?A atua??o da Igreja na Am?rica Portuguesa&#x0A;A igreja na Am?rica Portuguesa&#x0A;Ap?s o desembarque na Col?nia, foi celebrada uma missa dia 26 de abril de 1500, celebrada pelo Frei Henrique de Coimbra, que havia navegado com a comitiva de Cabral em Santa Cruz de Cabr?lia, na Praia da Coroa Vermelha, no Sul da Bahia. &#x0A;Na carta de Pero Vaz de Caminha ao rei de Portugal, foi indicada a pertin?ncia da catequiza??o dos ind?genas, o que incentivou ainda mais a chegada de religiosos no Brasil, principalmente os jesu?tas.</raw>
+<numoflines>17</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="634" parent="632">
+<name>Grupo_1</name>
+<lastupdated>1687977062</lastupdated>
+<shape id="636" parent="634" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687977062</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="638" parent="634" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687977062</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="640" parent="634" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687977062</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="641" parent="634" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687977062</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>21</y>
+</point>
+<size>
+<cx>751</cx>
+<cy>106</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text641Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text641Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text641Font1&quot;  &gt;As Atividades EconÃ´micas SubsidiÃ¡rias, &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text641Font1&quot;  &gt;AtuaÃ§Ã£o da Igreja e Tratados de Limites&lt;/span &gt;&lt;span class=&quot;text641Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b As Atividades Econ\&apos;f4micas Subsidi\&apos;e1rias, \par Atua\&apos;e7\&apos;e3o da Igreja e Tratados de Limites\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?As Atividades Econ?micas Subsidi?rias, &#x0A;Atua??o da Igreja e Tratados de Limites</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="643" parent="634" resource="311" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687977062</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>129</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>516</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="645" parent="634" resource="312" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687977062</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="730" parent="155">
+<name>Página 6</name>
+<lastupdated>1687977497</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="835" parent="730" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 3</name>
+<lastupdated>1687977491</lastupdated>
+<possize>
+<point>
+<x>535</x>
+<y>134</y>
+</point>
+<size>
+<cx>433</cx>
+<cy>500</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text835Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text835Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text835Font1&quot;  &gt;Muitas regiÃµes antes nÃ£o pertencentes aos portugueses passaram a ser alvos da aÃ§Ã£o lusitana. Em 1680, fundou-se a colÃ´nia portuguesa de Sacramento em territÃ³rio espanhol, prÃ³ximo a Buenos Aires. Esperava-se absorver o potencial da regiÃ£o platina como a comercializaÃ§Ã£o de aÃ§Ãºcar, fumo, algodÃ£o e manufaturas europeias, alÃ©m de explorar as riquezas minerais da regiÃ£o do local. Para isso, D JoÃ£o V intensificou o processo de povoamento, exploraÃ§Ã£o e de proteÃ§Ã£o da regiÃ£o.&lt;/span &gt;&lt;span class=&quot;text835Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text835Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text835Font3&quot;  &gt;A Espanha, preocupada com o avanÃ§o portuguÃªs, enviou missÃµes militares e incentivou o trabalho dos jesuÃ­tas espanhÃ³is na regiÃ£o, resultando na fundaÃ§Ã£o da colÃ´nia espanhola de Sete Povos das MissÃµes. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text835Font3&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text835Font3&quot;  &gt;A situaÃ§Ã£o ficou cada vez mais tensa entre colonos espanhÃ³is e portugueses devido ao interesse da regiÃ£o. Consequentemente, as duas naÃ§Ãµes precisaram recorrer aos acordos diplomÃ¡ticos. &lt;/span &gt;&lt;span class=&quot;text835Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 Muitas regi\u245 \&apos;f5es antes n\u227 \&apos;e3o pertencentes aos portugueses passaram a ser alvos da a\u231 \&apos;e7\u227 \&apos;e3o lusitana. Em 1680, fundou-se a col\u244 \&apos;f4nia portuguesa de Sacramento em territ\u243 \&apos;f3rio espanhol, &#x0A;pr\u243 \&apos;f3ximo a Buenos Aires. Esperava-se absorver o potencial da regi\u227 \&apos;e3o platina como a comercializa\u231 \&apos;e7\u227 \&apos;e3o de a\u231 \&apos;e7\u250 \&apos;facar, fumo, algod\u227 \&apos;e3o e manufaturas europeias, al\u233 \&apos;e9m de explorar as riquezas minerais &#x0A;da regi\u227 \&apos;e3o do local. Para isso, D Jo\u227 \&apos;e3o V intensificou o processo de povoamento, explora\u231 \&apos;e7\u227 \&apos;e3o e de prote\u231 \&apos;e7\u227 \&apos;e3o da regi\u227 \&apos;e3o.\lang1046\hich\f2\loch\f2\par\par A Espanha, preocupada com o avan\&apos;e7o portugu\&apos;eas, &#x0A;enviou miss\&apos;f5es militares e incentivou o trabalho dos jesu\&apos;edtas espanh\&apos;f3is na regi\&apos;e3o, resultando na funda\&apos;e7\&apos;e3o da col\&apos;f4nia espanhola de Sete Povos das Miss\&apos;f5es. \par\par A situa\&apos;e7\&apos;e3o ficou cada vez mais tensa entre colonos espanh\&apos;f3is &#x0A;e portugueses devido ao interesse da regi\&apos;e3o. Consequentemente, as duas na\&apos;e7\&apos;f5es precisaram recorrer aos acordos diplom\&apos;e1ticos. \lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Muitas regi?es antes n?o pertencentes aos portugueses passaram a ser alvos da a??o lusitana. Em 1680, fundou-se a col?nia portuguesa de Sacramento em territ?rio espanhol, pr?ximo a Buenos Aires. Esperava-se absorver o potencial da regi?o platina como a comercializa??o de a??car, fumo, algod?o e manufaturas europeias, al?m de explorar as riquezas minerais da regi?o do local. Para isso, D Jo?o V intensificou o processo de povoamento, explora??o e de prote??o da regi?o.&#x0A;A Espanha, preocupada com o avan?o portugu?s, enviou miss?es militares e incentivou o trabalho dos jesu?tas espanh?is na regi?o, resultando na funda??o da col?nia espanhola de Sete Povos das Miss?es. &#x0A;A situa??o ficou cada vez mais tensa entre colonos espanh?is e portugueses devido ao interesse da regi?o. Consequentemente, as duas na??es precisaram recorrer aos acordos diplom?ticos. </raw>
+<numoflines>21</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="803" parent="730" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687977398</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>367</y>
+</point>
+<size>
+<cx>440</cx>
+<cy>265</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text803Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text803Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text803Font1&quot;  &gt;Tratados de Limites&lt;/span &gt;&lt;span class=&quot;text803Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text803Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text803Font2&quot;  &gt;Como visto em nossa primeira unidade, o Brasil inicialmente nÃ£o tinha o tamanho do nosso atual territÃ³rio, visto que o Tratado de Tordesilhas dividia a nossa terra entre Portugal e Espanha. Vimos tambÃ©m que a partir da UniÃ£o IbÃ©rica, das expediÃ§Ãµes e das missÃµes jesuÃ­ticas ocorreu processo de interiorizaÃ§Ã£o do territÃ³rio. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Tratados de Limites\fs28\b0\par\par Como visto em nossa primeira unidade, o Brasil inicialmente n\u227 \&apos;e3o tinha o tamanho do nosso atual territ\u243 \&apos;f3rio, visto que o Tratado de Tordesilhas dividia a nossa terra &#x0A;entre Portugal e Espanha. Vimos tamb\u233 \&apos;e9m que a partir da Uni\u227 \&apos;e3o Ib\u233 \&apos;e9rica, das expedi\u231 \&apos;e7\u245 \&apos;f5es e das miss\u245 \&apos;f5es jesu\u237 \&apos;edticas ocorreu processo de interioriza\u231 \&apos;e7\u227 \&apos;e3o do territ\u243 \&apos;f3rio. \par}&#x0A;</rtf>
+<raw>?Tratados de Limites&#x0A;Como visto em nossa primeira unidade, o Brasil inicialmente n?o tinha o tamanho do nosso atual territ?rio, visto que o Tratado de Tordesilhas dividia a nossa terra entre Portugal e Espanha. Vimos tamb?m que a partir da Uni?o Ib?rica, das expedi??es e das miss?es jesu?ticas ocorreu processo de interioriza??o do territ?rio. </raw>
+<numoflines>9</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="750" parent="730" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687977347</lastupdated>
+<possize>
+<point>
+<x>46</x>
+<y>131</y>
+</point>
+<size>
+<cx>443</cx>
+<cy>197</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>20</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="01D1DD" />
+</shape>
+<image id="748" parent="730" resource="751" ontop="false" fixed="false" proportional="true">
+<name>Imagem1</name>
+<lastupdated>1687977349</lastupdated>
+<possize>
+<point>
+<x>425</x>
+<y>293</y>
+</point>
+<size>
+<cx>61</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="746" parent="730" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687977344</lastupdated>
+<possize>
+<point>
+<x>70</x>
+<y>137</y>
+</point>
+<size>
+<cx>408</cx>
+<cy>178</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text746Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text746Font1&quot;  &gt;Para que pudessem cultuar suas divindades sem a puniÃ§Ã£o da Igreja, os escravos africanos passaram a cultuar santos catÃ³licos com caracterÃ­sticas semelhantes Ã s dos orixÃ¡s, dando inÃ­cio a um processo muito acentuado de sincretismo religioso. Outras situaÃ§Ãµes eram investigadas e delatadas ao Santo OfÃ­cio, por exemplo, o caso da bigamia. &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss Arial;}}&#x0A;{\colortbl\red128\green128\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs28\qj\hich\f2\loch\f2 Para que pudessem cultuar suas divindades sem a puni\&apos;e7\&apos;e3o da Igreja, os escravos africanos passaram a cultuar santos cat\&apos;f3licos com caracter\&apos;edsticas semelhantes \&apos;e0s dos orix\&apos;e1s, dando in\&apos;edcio &#x0A;a um processo muito acentuado de sincretismo religioso. Outras situa\&apos;e7\&apos;f5es eram investigadas e delatadas ao Santo Of\&apos;edcio, por exemplo, o caso da bigamia. \par}&#x0A;</rtf>
+<raw>?Para que pudessem cultuar suas divindades sem a puni??o da Igreja, os escravos africanos passaram a cultuar santos cat?licos com caracter?sticas semelhantes ?s dos orix?s, dando in?cio a um processo muito acentuado de sincretismo religioso. Outras situa??es eram investigadas e delatadas ao Santo Of?cio, por exemplo, o caso da bigamia. </raw>
+<numoflines>8</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<shape id="745" parent="730" ontop="false" fixed="false" proportional="false">
+<name>Retângulo 2</name>
+<lastupdated>1687977294</lastupdated>
+<possize>
+<point>
+<x>42</x>
+<y>164</y>
+</point>
+<size>
+<cx>12</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="29B9A2" />
+</shape>
+<objgroup id="732" parent="730">
+<name>Grupo_1</name>
+<lastupdated>1687977285</lastupdated>
+<shape id="734" parent="732" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687977285</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="736" parent="732" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687977285</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="738" parent="732" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687977285</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="739" parent="732" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687977285</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>21</y>
+</point>
+<size>
+<cx>751</cx>
+<cy>106</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text739Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text739Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text739Font1&quot;  &gt;As Atividades EconÃ´micas SubsidiÃ¡rias, &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text739Font1&quot;  &gt;AtuaÃ§Ã£o da Igreja e Tratados de Limites&lt;/span &gt;&lt;span class=&quot;text739Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b As Atividades Econ\&apos;f4micas Subsidi\&apos;e1rias, \par Atua\&apos;e7\&apos;e3o da Igreja e Tratados de Limites\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?As Atividades Econ?micas Subsidi?rias, &#x0A;Atua??o da Igreja e Tratados de Limites</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="741" parent="732" resource="311" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687977285</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>129</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>516</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="743" parent="732" resource="312" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687977285</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="884" parent="155">
+<name>Página 7</name>
+<lastupdated>1687977634</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<text id="974" parent="884" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687977622</lastupdated>
+<possize>
+<point>
+<x>530</x>
+<y>145</y>
+</point>
+<size>
+<cx>434</cx>
+<cy>357</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text974Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text974Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text974Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text974Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text974Font1&quot;  &gt;Tratado de Utrecht (1713): (Utrecht: cidade holandesa onde o tratado foi assinado)&lt;/span &gt;&lt;span class=&quot;text974Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text974Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text974Font2&quot;  &gt;Portugal e Fran&lt;/span &gt;&lt;span class=&quot;text974Font3&quot;  &gt;Ã§&lt;/span &gt;&lt;span class=&quot;text974Font2&quot;  &gt;a estabeleceram que o rio Oiapoque seria a fronteira entre a col&lt;/span &gt;&lt;span class=&quot;text974Font3&quot;  &gt;Ã´&lt;/span &gt;&lt;span class=&quot;text974Font2&quot;  &gt;nia portuguesa e a Guiana Francesa.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text974Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text974Font4&quot;  &gt;Tratado de Utrecht (1715)&lt;/span &gt;&lt;span class=&quot;text974Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text974Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text974Font2&quot;  &gt;Foi celebrado entre Portugal e Espanha, estabelecendo que a ColÃ´nia do Sacramento pertenceria aos portugueses. Os espanhÃ³is que controlavam a ColÃ´nia do sacramento resistiram.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Tratado de Utrecht (1713): (Utrecht: cidade holandesa onde o tratado foi assinado)\hich\f2\loch\f2\fs28\b0\par\hich\f1\loch\f1\par Portugal e Fran\u231 \&apos;e7a estabeleceram que o rio Oiapoque seria a fronteira entre a &#x0A;col\u244 \&apos;f4nia portuguesa e a Guiana Francesa.\lang1046\hich\f2\loch\f2\par\par\b Tratado de Utrecht (1715)\b0\par\par Foi celebrado entre Portugal e Espanha, estabelecendo que a Col\&apos;f4nia do Sacramento pertenceria aos portugueses. Os espanh\&apos;f3is &#x0A;que controlavam a Col\&apos;f4nia do sacramento resistiram.\lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Tratado de Utrecht (1713): (Utrecht: cidade holandesa onde o tratado foi assinado)&#x0A;Portugal e Fran?a estabeleceram que o rio Oiapoque seria a fronteira entre a col?nia portuguesa e a Guiana Francesa.&#x0A;Tratado de Utrecht (1715)&#x0A;Foi celebrado entre Portugal e Espanha, estabelecendo que a Col?nia do Sacramento pertenceria aos portugueses. Os espanh?is que controlavam a Col?nia do sacramento resistiram.</raw>
+<numoflines>14</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<image id="936" parent="884" resource="935" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687977545</lastupdated>
+<possize>
+<point>
+<x>127</x>
+<y>378</y>
+</point>
+<size>
+<cx>255</cx>
+<cy>252</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="898" parent="884" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687977534</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>151</y>
+</point>
+<size>
+<cx>424</cx>
+<cy>265</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text898Font1 { font-size:24px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text898Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text898Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text898Font1&quot;  &gt;Tratado de Lisboa (1681) e o &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.168&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.168;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text898Font1&quot;  &gt;Tratado de Utrecht (1713 - 1715)&lt;/span &gt;&lt;span class=&quot;text898Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text898Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text898Font3&quot;  &gt;O Tratado de Lisboa (1681)&lt;/span &gt;&lt;span class=&quot;text898Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text898Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text898Font2&quot;  &gt;Devolveu ColÃ´nia do Sacramento, ocupada pelos espanhÃ³is, no ano de sua fundaÃ§Ã£o. Portugal contou com o apoio inglÃªs para conseguir essa vitÃ³ria diplomÃ¡tica. A saÃ­da das forÃ§as espanholas sÃ³ se daria efetivamente em 1683.&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs36\b Tratado de Lisboa (1681) e o \par Tratado de Utrecht (1713 - 1715)\fs28\b0\par\par\b O Tratado de Lisboa (1681)\b0\par\par Devolveu Col\u244 \&apos;f4nia do Sacramento, ocupada pelos espanh\u243 \&apos;f3is, no ano de sua funda\u231 &#x0A;\&apos;e7\u227 \&apos;e3o. Portugal contou com o apoio ingl\u234 \&apos;eas para conseguir essa vit\u243 \&apos;f3ria diplom\u225 \&apos;e1tica. A sa\u237 \&apos;edda das for\u231 \&apos;e7as espanholas s\u243 \&apos;f3 se daria efetivamente em 1683.\par}&#x0A;</rtf>
+<raw>?Tratado de Lisboa (1681) e o &#x0A;Tratado de Utrecht (1713 - 1715)&#x0A;O Tratado de Lisboa (1681)&#x0A;Devolveu Col?nia do Sacramento, ocupada pelos espanh?is, no ano de sua funda??o. Portugal contou com o apoio ingl?s para conseguir essa vit?ria diplom?tica. A sa?da das for?as espanholas s? se daria efetivamente em 1683.</raw>
+<numoflines>10</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="886" parent="884">
+<name>Grupo_1</name>
+<lastupdated>1687977500</lastupdated>
+<shape id="888" parent="886" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687977500</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="890" parent="886" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687977500</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="892" parent="886" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687977500</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="893" parent="886" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687977500</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>21</y>
+</point>
+<size>
+<cx>751</cx>
+<cy>106</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text893Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text893Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text893Font1&quot;  &gt;As Atividades EconÃ´micas SubsidiÃ¡rias, &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text893Font1&quot;  &gt;AtuaÃ§Ã£o da Igreja e Tratados de Limites&lt;/span &gt;&lt;span class=&quot;text893Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b As Atividades Econ\&apos;f4micas Subsidi\&apos;e1rias, \par Atua\&apos;e7\&apos;e3o da Igreja e Tratados de Limites\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?As Atividades Econ?micas Subsidi?rias, &#x0A;Atua??o da Igreja e Tratados de Limites</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="895" parent="886" resource="311" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687977500</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>129</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>516</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="897" parent="886" resource="312" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687977500</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+<page id="1021" parent="155">
+<name>Página 8</name>
+<lastupdated>1687977859</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<image id="1358" parent="1021" resource="751" ontop="false" fixed="false" proportional="true">
+<name>Imagem1</name>
+<lastupdated>1687977874</lastupdated>
+<possize>
+<point>
+<x>914</x>
+<y>463</y>
+</point>
+<size>
+<cx>61</cx>
+<cy>54</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<shape id="1155" parent="1021" ontop="false" fixed="false" proportional="false">
+<name>Retângulo</name>
+<lastupdated>1687977864</lastupdated>
+<possize>
+<point>
+<x>526</x>
+<y>131</y>
+</point>
+<size>
+<cx>459</cx>
+<cy>374</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>20</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1153" parent="1021" ontop="false" fixed="false" proportional="false">
+<name>Retângulo 2</name>
+<lastupdated>1687977864</lastupdated>
+<possize>
+<point>
+<x>522</x>
+<y>279</y>
+</point>
+<size>
+<cx>12</cx>
+<cy>78</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>20000</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="29B9A2" />
+</shape>
+<image id="1126" parent="1021" resource="1125" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687977868</lastupdated>
+<possize>
+<point>
+<x>618</x>
+<y>321</y>
+</point>
+<size>
+<cx>253</cx>
+<cy>177</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<text id="1101" parent="1021" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto 2</name>
+<lastupdated>1687977864</lastupdated>
+<possize>
+<point>
+<x>542</x>
+<y>162</y>
+</point>
+<size>
+<cx>436</cx>
+<cy>169</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1101Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1101Font3 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1101Font1&quot;  &gt;O TRATADO DE BADAJÃ“S entre Portugal e Espanha (1801) incorporou definitivamente os Sete Povos das MissÃµes ao Brasil e o TRATADO DE PETRÃ“POLIS (1903), negociado pelo BarÃ£o do Rio Branco com a BolÃ­via, incorporou ao Brasil, como territÃ³rio, a regiÃ£o do Acre&lt;/span &gt;&lt;span class=&quot;text1101Font3&quot;  &gt;.&lt;/span &gt;&lt;span class=&quot;text1101Font1&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28 O TRATADO DE BADAJ\u211 \&apos;d3S entre Portugal e Espanha (1801) incorporou definitivamente os Sete Povos das Miss\u245 \&apos;f5es ao Brasil e o TRATADO DE PETR\u211 \&apos;d3POLIS (1903), negociado pelo Bar\u227 \&apos;e3o do Rio Branco &#x0A;com a Bol\u237 \&apos;edvia, incorporou ao Brasil, como territ\u243 \&apos;f3rio, a regi\u227 \&apos;e3o do Acre\lang1046\hich\f2\loch\f2 .\lang1046\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?O TRATADO DE BADAJ?S entre Portugal e Espanha (1801) incorporou definitivamente os Sete Povos das Miss?es ao Brasil e o TRATADO DE PETR?POLIS (1903), negociado pelo Bar?o do Rio Branco com a Bol?via, incorporou ao Brasil, como territ?rio, a regi?o do Acre.</raw>
+<numoflines>6</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<text id="1035" parent="1021" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>Bloco de texto</name>
+<lastupdated>1687977726</lastupdated>
+<possize>
+<point>
+<x>46</x>
+<y>151</y>
+</point>
+<size>
+<cx>442</cx>
+<cy>504</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1035Font1 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080; font-weight:bold;}&#x0A;span.text1035Font2 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;span.text1035Font4 { font-size:19px; font-family:&quot;Arial&quot;, sans-serif; color:#808080;}&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font1&quot;  &gt;Tratado de Madri (1750)&lt;/span &gt;&lt;span class=&quot;text1035Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font2&quot;  &gt;Para ter direito aos territÃ³rios alÃ©m do limite de Tordesilhas, Portugal utilizou a premissa do Uti Possidetis (direito de posse), pois haviam sidos povoados por colonos portugueses, sob seu domÃ­nio. Em contrapartida, entregava Ã  Espanha a colÃ´nia de Sacramento, ficando Portugal com as colÃ´nias de Sete Povos das MissÃµes. Ã‰ importante ressaltar que nÃ£o se cumpriu o tratado e que a Guerra dos Sete Anos, entre FranÃ§a e Inglaterra, colocaria Espanha e Portugal em lados opostos, fato utilizado pelos espanhÃ³is para avanÃ§ar sobre o territÃ³rio portuguÃªs.&lt;/span &gt;&lt;span class=&quot;text1035Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font4&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&amp;nbsp;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  legLH=&quot;1.107&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:justify;&quot; &gt;&#x0A;&lt;span class=&quot;text1035Font4&quot;  &gt;Somente em 1777, com a assinatura do TRATADO DE SANTO ILDEFONSO, alguns dos territÃ³rios tomados pelos espanhÃ³is foram devolvidos aos portugueses, porÃ©m, os Sete Povos das MissÃµes permaneceram sob domÃ­nio da Espanha. A partir desse perÃ­odo, o Brasil passou a ter as configuraÃ§Ãµes territoriais que lembram as nossas demarcaÃ§Ãµes atuais.&lt;/span &gt;&lt;span class=&quot;text1035Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fswiss Arial;}{\f2 \fswiss \fcharset0 Arial;}}&#x0A;{\colortbl\red0\green0\blue0 ;\red255\green255\blue255 ;\red128\green128\blue128 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f1\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\plain\f1\fs24\qj\cf2\fs28\b Tratado de Madri (1750)\b0\par\par Para ter direito aos territ\u243 \&apos;f3rios al\u233 \&apos;e9m do limite de Tordesilhas, Portugal utilizou a premissa do Uti Possidetis (direito de posse), pois haviam sidos povoados por colonos &#x0A;portugueses, sob seu dom\u237 \&apos;ednio. Em contrapartida, entregava \u224 \&apos;e0 Espanha a col\u244 \&apos;f4nia de Sacramento, ficando Portugal com as col\u244 \&apos;f4nias de Sete Povos das Miss\u245 \&apos;f5es. \u201 \&apos;c9 importante ressaltar que n\u227 \&apos;e3o se cumpriu &#x0A;o tratado e que a Guerra dos Sete Anos, entre Fran\u231 \&apos;e7a e Inglaterra, colocaria Espanha e Portugal em lados opostos, fato utilizado pelos espanh\u243 \&apos;f3is para avan\u231 \&apos;e7ar sobre o territ\u243 \&apos;f3rio portugu\u234 \&apos;eas.\hich\f2\loch\f2\par\par &#x0A;Somente em 1777, com a assinatura do TRATADO DE SANTO ILDEFONSO, alguns dos territ\&apos;f3rios tomados pelos espanh\&apos;f3is foram devolvidos aos portugueses, por\&apos;e9m, os Sete Povos das Miss\&apos;f5es permaneceram sob dom\&apos;ednio da Espanha. A partir desse per\&apos;edodo, &#x0A;o Brasil passou a ter as configura\&apos;e7\&apos;f5es territoriais que lembram as nossas demarca\&apos;e7\&apos;f5es atuais.\hich\f1\loch\f1\par}&#x0A;</rtf>
+<raw>?Tratado de Madri (1750)&#x0A;Para ter direito aos territ?rios al?m do limite de Tordesilhas, Portugal utilizou a premissa do Uti Possidetis (direito de posse), pois haviam sidos povoados por colonos portugueses, sob seu dom?nio. Em contrapartida, entregava ? Espanha a col?nia de Sacramento, ficando Portugal com as col?nias de Sete Povos das Miss?es. ? importante ressaltar que n?o se cumpriu o tratado e que a Guerra dos Sete Anos, entre Fran?a e Inglaterra, colocaria Espanha e Portugal em lados opostos, fato utilizado pelos espanh?is para avan?ar sobre o territ?rio portugu?s.&#x0A;Somente em 1777, com a assinatura do TRATADO DE SANTO ILDEFONSO, alguns dos territ?rios tomados pelos espanh?is foram devolvidos aos portugueses, por?m, os Sete Povos das Miss?es permaneceram sob dom?nio da Espanha. A partir desse per?odo, o Brasil passou a ter as configura??es territoriais que lembram as nossas demarca??es atuais.</raw>
+<numoflines>23</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>0</marginsize>
+</text>
+<objgroup id="1023" parent="1021">
+<name>Grupo_1</name>
+<lastupdated>1687977639</lastupdated>
+<shape id="1025" parent="1023" ontop="false" fixed="false" proportional="true">
+<name>Oval 7</name>
+<lastupdated>1687977639</lastupdated>
+<possize>
+<point>
+<x>48</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="0E2766" />
+</shape>
+<shape id="1027" parent="1023" ontop="false" fixed="false" proportional="true">
+<name>Oval 8</name>
+<lastupdated>1687977639</lastupdated>
+<possize>
+<point>
+<x>68</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="01D1DD" />
+</shape>
+<shape id="1029" parent="1023" ontop="false" fixed="false" proportional="true">
+<name>Oval 9</name>
+<lastupdated>1687977639</lastupdated>
+<possize>
+<point>
+<x>87</x>
+<y>112</y>
+</point>
+<size>
+<cx>11</cx>
+<cy>11</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30010</type>
+<linestyle>0</linestyle>
+<strokewidth>0</strokewidth>
+<strokecolor>010000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="0" bevelheight="0" color="29B9A2" />
+</shape>
+<text id="1030" parent="1023" ontop="false" fixed="false" proportional="false" defaulttext="none">
+<name>TextBox 5</name>
+<lastupdated>1687977639</lastupdated>
+<possize>
+<point>
+<x>38</x>
+<y>21</y>
+</point>
+<size>
+<cx>751</cx>
+<cy>106</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<html>span.text1030Font1 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080; font-weight:bold;}&#x0A;span.text1030Font2 { font-size:37px; font-family:&quot;Arial&quot;, sans-serif; color:#000080;}&#x0A;&lt;p  legLH=&quot;1.163&quot; style=&quot;margin-left:0px;text-indent:0px;line-height:1.163;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1030Font1&quot;  &gt;As Atividades EconÃ´micas SubsidiÃ¡rias, &#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;&lt;p  style=&quot;margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;&quot; &gt;&#x0A;&lt;span class=&quot;text1030Font1&quot;  &gt;AtuaÃ§Ã£o da Igreja e Tratados de Limites&lt;/span &gt;&lt;span class=&quot;text1030Font2&quot; style=&quot;background-color:transparent&quot; &gt;&#x0A;&lt;/span &gt;&lt;/p &gt;&#x0A;</html>
+<rtf>{\rtf1\ansi\deflang1046\ftnbj\uc1\deff1&#x0A;{\fonttbl{\f0 \froman \fcharset0 Times New Roman;}{\f1 \fnil A;}{\f2 \fswiss \fcharset0 Arial;}{\f3 \fswiss Arial;}}&#x0A;{\colortbl\red0\green0\blue128 ;\red255\green255\blue255 ;\red0\green0\blue0 ;\red0\green0\blue0 ;}&#x0A;{\stylesheet{\f2\fs24\cf3\cb1\ulc3 Normal;}{\cs1\cf3\cb1\ulc3 Default Paragraph Font;}}&#x0A;{\*\revtbl{Unknown;}}&#x0A;\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720\deftab360\formshade\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot&#x0A;\sectd\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec&#x0A;\plain\hich\f1\loch\f1\cf0\fs56\ltrpar\ql\hich\f2\loch\f2\b As Atividades Econ\&apos;f4micas Subsidi\&apos;e1rias, \par Atua\&apos;e7\&apos;e3o da Igreja e Tratados de Limites\hich\f3\loch\f3\b0\par}&#x0A;</rtf>
+<raw>?As Atividades Econ?micas Subsidi?rias, &#x0A;Atua??o da Igreja e Tratados de Limites</raw>
+<numoflines>2</numoflines>
+<numpubbullets>0</numpubbullets>
+<textpublishlang>Herdar</textpublishlang>
+<marginsize>6</marginsize>
+</text>
+<image id="1032" parent="1023" resource="311" ontop="false" fixed="false" proportional="true">
+<name>Imagem 2</name>
+<lastupdated>1687977639</lastupdated>
+<possize>
+<point>
+<x>504</x>
+<y>129</y>
+</point>
+<size>
+<cx>1</cx>
+<cy>516</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+<image id="1034" parent="1023" resource="312" ontop="false" fixed="false" proportional="true">
+<name>Imagem</name>
+<lastupdated>1687977639</lastupdated>
+<possize>
+<point>
+<x>0</x>
+<y>645</y>
+</point>
+<size>
+<cx>1009</cx>
+<cy>17</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</image>
+</objgroup>
+</page>
+</assignableunit>
+</title>
+</objectdata>
+</lectoratitle>
